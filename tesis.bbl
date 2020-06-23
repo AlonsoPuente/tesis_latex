@@ -19,42 +19,18 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{pr_akita2016deep}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=bb1c6bbcc8a0592a7c2cc483d5c3b5ec}{%
-           family={Akita},
-           familyi={A\bibinitperiod},
-           given={Ryo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=95579c566c4dff427c91c01bef5ac0a9}{%
-           family={Yoshihara},
-           familyi={Y\bibinitperiod},
-           given={Akira},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5e274388763fb2deb9f78659d85341b3}{%
-           family={Matsubara},
-           familyi={M\bibinitperiod},
-           given={Takashi},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a5f8c6a5957757638ac13cdd32d69a9}{%
-           family={Uehara},
-           familyi={U\bibinitperiod},
-           given={Kuniaki},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
+    \entry{cr_aep2018emprend}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a6ccdde2e82a7422d2c594e73f6d3da2}{%
+           family={{Asociación de Emprendedores de Perú}},
+           familyi={A\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{1bf8403b964a45cae534191520658830}
-      \strng{fullhash}{397c7a26946278733a391f73c104686a}
-      \strng{bibnamehash}{397c7a26946278733a391f73c104686a}
-      \strng{authorbibnamehash}{397c7a26946278733a391f73c104686a}
-      \strng{authornamehash}{1bf8403b964a45cae534191520658830}
-      \strng{authorfullhash}{397c7a26946278733a391f73c104686a}
+      \strng{namehash}{a6ccdde2e82a7422d2c594e73f6d3da2}
+      \strng{fullhash}{a6ccdde2e82a7422d2c594e73f6d3da2}
+      \strng{bibnamehash}{a6ccdde2e82a7422d2c594e73f6d3da2}
+      \strng{authorbibnamehash}{a6ccdde2e82a7422d2c594e73f6d3da2}
+      \strng{authornamehash}{a6ccdde2e82a7422d2c594e73f6d3da2}
+      \strng{authorfullhash}{a6ccdde2e82a7422d2c594e73f6d3da2}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
@@ -62,62 +38,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2016 IEEE/ACIS 15th International Conference on Computer and Information Science (ICIS)}
-      \field{title}{Deep learning for stock prediction using numerical and textual information}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-    \endentry
-    \entry{pr_cortez2018alternative}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=570e0566a06d510999425e2251297f79}{%
-           family={Cortez},
-           familyi={C\bibinitperiod},
-           given={CA\bibnamedelima Tapia},
-           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f43c23e3813ad7903c5e95654b0478b6}{%
-           family={Saydam},
-           familyi={S\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cc82c413d7a39af31599b542865c1f8a}{%
-           family={Coulton},
-           familyi={C\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f411145dbcf686463265acb8bc106a85}{%
-           family={Sammut},
-           familyi={S\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{2d8b867059e9bf303fc79ad0ff03b24e}
-      \strng{fullhash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \strng{bibnamehash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \strng{authorbibnamehash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \strng{authornamehash}{2d8b867059e9bf303fc79ad0ff03b24e}
-      \strng{authorfullhash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Mining Science and Technology}
-      \field{number}{2}
-      \field{title}{Alternative techniques for forecasting mineral commodity prices}
-      \field{volume}{28}
+      \field{month}{2}
+      \field{title}{Avances y limitaciones del emprendimiento peruano}
       \field{year}{2018}
-      \field{pages}{309\bibrangedash 322}
-      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://asep.pe/index.php/avances-limitaciones-emprendimiento-peruano/
+      \endverb
+      \verb{url}
+      \verb https://asep.pe/index.php/avances-limitaciones-emprendimiento-peruano/
+      \endverb
+      \warn{\item Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring}
     \endentry
     \entry{pr_dehghani2018copper}{article}{}
       \name{author}{2}{}{%
@@ -156,34 +86,6 @@
       \field{year}{2018}
       \field{pages}{55\bibrangedash 61}
       \range{pages}{7}
-    \endentry
-    \entry{gl_gartner}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
-           family={{Gartner}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{fullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{bibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{authorbibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{authornamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{authorfullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Gartner IT Glossary}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://www.gartner.com/it-glossary/
-      \endverb
-      \verb{url}
-      \verb https://www.gartner.com/it-glossary/
-      \endverb
     \endentry
     \entry{bk_gollapudi2016practical}{book}{}
       \name{author}{1}{}{%
@@ -256,107 +158,30 @@
       \field{pages}{138\bibrangedash 143}
       \range{pages}{6}
     \endentry
-    \entry{gl_ibm}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
-           family={{IBM}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{IBM AI glossary}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://www.ibm.com/cloud/garage/architectures/cognitiveArchitecture/glossary
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/cloud/garage/architectures/cognitiveArchitecture/glossary
-      \endverb
-    \endentry
-    \entry{pr_jingrui2017method}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=9db23e38f05aa05b03f5023b7535b889}{%
-           family={Jingrui},
-           familyi={J\bibinitperiod},
-           given={Zhu},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=559b1c2a45aa4351d71c13f97c2341c3}{%
-           family={Qinglin},
-           familyi={Q\bibinitperiod},
-           given={Wang},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=72f7267bcbd45fb398fd901ee119d434}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Liu},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=218fa32d4e65e6f95699163d9632ea2b}{%
-           family={Yuan},
-           familyi={Y\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6958111ca6741f74542e7aa9cc923a41}
-      \strng{fullhash}{9b5f812f46764ee95f1c518a84234a53}
-      \strng{bibnamehash}{9b5f812f46764ee95f1c518a84234a53}
-      \strng{authorbibnamehash}{9b5f812f46764ee95f1c518a84234a53}
-      \strng{authornamehash}{6958111ca6741f74542e7aa9cc923a41}
-      \strng{authorfullhash}{9b5f812f46764ee95f1c518a84234a53}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2017 32nd Youth Academic Annual Conference of Chinese Association of Automation (YAC)}
-      \field{title}{A method of optimizing LDA result purity based on semantic similarity}
-      \field{year}{2017}
-      \field{pages}{361\bibrangedash 365}
-      \range{pages}{5}
-    \endentry
-    \entry{bk_kulkarni2019exploring}{inbook}{}
+    \entry{pr_kamath2018suplearn}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=05575118ed7fc830c5b5b209e84a695c}{%
-           family={Kulkarni},
+        {{un=0,uniquepart=base,hash=68e694a06a9d6b3c41665a1fe91e011c}{%
+           family={Kamath},
            familyi={K\bibinitperiod},
-           given={Akshay},
-           giveni={A\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e11ecea52f77db0640dc312da99892d2}{%
-           family={Shivananda},
-           familyi={S\bibinitperiod},
-           given={Adarsha},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=05e23504222da69528ccde71569de146}{%
+           family={Kamat},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Zenodo}%
       }
-      \strng{namehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{fullhash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{bibnamehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{authorbibnamehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{authornamehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{authorfullhash}{c7c203174a8573aff4f2988b3ec3c1d9}
+      \strng{namehash}{1dee45d9d9ab1b6cdbff11eab5fcb2b0}
+      \strng{fullhash}{1dee45d9d9ab1b6cdbff11eab5fcb2b0}
+      \strng{bibnamehash}{1dee45d9d9ab1b6cdbff11eab5fcb2b0}
+      \strng{authorbibnamehash}{1dee45d9d9ab1b6cdbff11eab5fcb2b0}
+      \strng{authornamehash}{1dee45d9d9ab1b6cdbff11eab5fcb2b0}
+      \strng{authorfullhash}{1dee45d9d9ab1b6cdbff11eab5fcb2b0}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
@@ -364,188 +189,163 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Natural Language Processing Recipes}
-      \field{title}{Exploring and Processing Text Data}
-      \field{year}{2019}
-      \field{pages}{37\bibrangedash 65}
-      \range{pages}{29}
-    \endentry
-    \entry{cu_lagos2017proyectar}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdf883aee6647618616c58f2c0fca8b4}{%
-           family={Lagos},
-           familyi={L\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Chile}%
-      }
-      \strng{namehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{fullhash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{bibnamehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{authorbibnamehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{authornamehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{authorfullhash}{bdf883aee6647618616c58f2c0fca8b4}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{title}{¿Cómo lo han hecho los especialistas?: aciertos y desaciertos al proyectar el precio del cobre}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb https://gyn.claseejecutiva.uc.cl/como-lo-han-hecho-los-especialistas-aciertos-y-desaciertos-al-proyectar-el-precio-del-cobre/#
-      \endverb
-      \verb{url}
-      \verb https://gyn.claseejecutiva.uc.cl/como-lo-han-hecho-los-especialistas-aciertos-y-desaciertos-al-proyectar-el-precio-del-cobre/#
-      \endverb
-    \endentry
-    \entry{ot_marti2018manual}{misc}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=da5c77996fdec5282c9630a2ee8e9462}{%
-           family={Martínez},
-           familyi={M\bibinitperiod},
-           given={Rodrigo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a18c5255b04644441fe3227dc150ff56}{%
-           family={Cohen},
-           familyi={C\bibinitperiod},
-           given={Ernesto},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{80018f213719015851f07775c3f127b6}
-      \strng{fullhash}{80018f213719015851f07775c3f127b6}
-      \strng{bibnamehash}{80018f213719015851f07775c3f127b6}
-      \strng{authorbibnamehash}{80018f213719015851f07775c3f127b6}
-      \strng{authornamehash}{80018f213719015851f07775c3f127b6}
-      \strng{authorfullhash}{80018f213719015851f07775c3f127b6}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Manual formulación, evaluación y monitoreo de proyectos sociales}
+      \field{journaltitle}{International Journal of Information Technology, Modeling and Computing (IJITMC)}
+      \field{number}{1}
+      \field{title}{Supervised Learning Model For Kickstarter Campaigns With R Mining}
+      \field{volume}{4}
       \field{year}{2018}
-      \field{pages}{114\bibrangedash 121}
-      \range{pages}{8}
+      \verb{doi}
+      \verb 10.5281/zenodo.1228716
+      \endverb
       \verb{urlraw}
-      \verb https://dds.cepal.org/redesoc/publicacion?id=242
+      \verb https://search.datacite.org/works/10.5281/zenodo.1228716
       \endverb
       \verb{url}
-      \verb https://dds.cepal.org/redesoc/publicacion?id=242
+      \verb https://search.datacite.org/works/10.5281/zenodo.1228716
       \endverb
     \endentry
-    \entry{cu_ministerioPeru_statsminas}{report}{}
+    \entry{cr_kickstarter_about}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7cb288ff12d12edb0ee4de2b1e4be870}{%
-           family={{Ministerio de Energía y Minas (ESTAMIN)}},
-           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=75b1d293ecc0cbc2e59d27d84f2b74d6}{%
+           family={{Kickstarter}},
+           familyi={K\bibinitperiod}}}%
       }
-      \strng{namehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{fullhash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{bibnamehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{authorbibnamehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{authornamehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{authorfullhash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
+      \strng{namehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{fullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{bibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorbibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authornamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorfullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{title}{Perú: país líder de los metales del futuro}
-      \field{type}{Boletín Estadistico Minero}
-      \field{year}{2019}
+      \field{title}{Acerca de nosotros: Kickstarter}
+      \verb{urlraw}
+      \verb https://www.kickstarter.com/about?ref=global-footer
+      \endverb
+      \verb{url}
+      \verb https://www.kickstarter.com/about?ref=global-footer
+      \endverb
     \endentry
-    \entry{pr_rao2015qualitative}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=5087bf21561deec6d5448fc17fb14813}{%
-           family={Rao},
-           familyi={R\bibinitperiod},
-           given={Dongning},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5049159700f066d76e53238a585694a7}{%
-           family={Deng},
-           familyi={D\bibinitperiod},
-           given={Fudong},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=04ec368ffe65024a2967a645a0958931}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Zhihua},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6128b0977ac21c043fda87cb3411bf94}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Gansen},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
+    \entry{cr_kickstarter_founding}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75b1d293ecc0cbc2e59d27d84f2b74d6}{%
+           family={{Kickstarter}},
+           familyi={K\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{569f017624035beafcd1a494cc88b899}
-      \strng{fullhash}{16988f50f14e70ec7aa203709d2b2dab}
-      \strng{bibnamehash}{16988f50f14e70ec7aa203709d2b2dab}
-      \strng{authorbibnamehash}{16988f50f14e70ec7aa203709d2b2dab}
-      \strng{authornamehash}{569f017624035beafcd1a494cc88b899}
-      \strng{authorfullhash}{16988f50f14e70ec7aa203709d2b2dab}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
+      \strng{namehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{fullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{bibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorbibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authornamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorfullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2015 7th International Conference on Intelligent Human-Machine Systems and Cybernetics}
-      \field{title}{Qualitative Stock Market Predicting with Common Knowledge Based Nature Language Processing: A Unified View and Procedure}
-      \field{volume}{2}
-      \field{year}{2015}
-      \field{pages}{381\bibrangedash 384}
-      \range{pages}{4}
+      \field{title}{Financiamiento: Kickstarter}
+      \verb{urlraw}
+      \verb https://www.kickstarter.com/help/handbook/funding?lang=es
+      \endverb
+      \verb{url}
+      \verb https://www.kickstarter.com/help/handbook/funding?lang=es
+      \endverb
     \endentry
-    \entry{gl_rae}{misc}{}
+    \entry{cr_kickstarter_press}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b397d66b02476457c3703cb2d7051bea}{%
-           family={{Real Academia Española}},
+        {{un=0,uniquepart=base,hash=75b1d293ecc0cbc2e59d27d84f2b74d6}{%
+           family={{Kickstarter}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{fullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{bibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorbibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authornamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorfullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \field{extraname}{3}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Prensa: Kickstarter}
+      \verb{urlraw}
+      \verb https://www.kickstarter.com/press?ref=hello
+      \endverb
+      \verb{url}
+      \verb https://www.kickstarter.com/press?ref=hello
+      \endverb
+    \endentry
+    \entry{cr_gestion2015emprendper}{periodical}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2ee06fb219320c92fc7cdd3ca07dca9}{%
+           family={{Redacción Gestión}},
            familyi={R\bibinitperiod}}}%
       }
-      \strng{namehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{fullhash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{bibnamehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{authorbibnamehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{authornamehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{authorfullhash}{b397d66b02476457c3703cb2d7051bea}
+      \strng{namehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{fullhash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{bibnamehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{authorbibnamehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{authornamehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{authorfullhash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Twenty-third}
-      \field{title}{Diccionario de la lengua española}
-      \field{year}{2014}
+      \field{journaltitle}{Diario Gestión}
+      \field{month}{3}
+      \field{title}{Emprendimiento en el Perú se origina más por oportunidades de negocio que por desempleo}
+      \field{year}{2015}
       \verb{urlraw}
-      \verb https://dle.rae.es/?w=diccionario
+      \verb https://gestion.pe/economia/emprendimiento-peru-origina-oportunidad-negocio-desempleo-80578
       \endverb
       \verb{url}
-      \verb https://dle.rae.es/?w=diccionario
+      \verb https://gestion.pe/economia/emprendimiento-peru-origina-oportunidad-negocio-desempleo-80578
       \endverb
+      \warn{\item Entry 'cr_gestion2015emprendper' (biblio/references.bib): Invalid format '11' of date field 'date' - ignoring}
+    \endentry
+    \entry{cr_gestion2018emprend}{periodical}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2ee06fb219320c92fc7cdd3ca07dca9}{%
+           family={{Redacción Gestión}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{fullhash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{bibnamehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{authorbibnamehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{authornamehash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \strng{authorfullhash}{c2ee06fb219320c92fc7cdd3ca07dca9}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diario Gestión}
+      \field{month}{8}
+      \field{title}{Perú es el tercer país con mayor cantidad de emprendimientos en fase temprana a nivel mundial}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://gestion.pe/economia/peru-tercer-pais-mayor-cantidad-emprendimientos-fase-temprana-nivel-mundial-240264
+      \endverb
+      \verb{url}
+      \verb https://gestion.pe/economia/peru-tercer-pais-mayor-cantidad-emprendimientos-fase-temprana-nivel-mundial-240264
+      \endverb
+      \warn{\item Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring}
     \endentry
     \entry{tec_royal2017machine}{report}{}
       \name{author}{1}{}{%
@@ -573,46 +373,73 @@
       \field{type}{techreport}
       \field{year}{2017}
     \endentry
-    \entry{cu_internationalcopper2018}{misc}{}
+    \entry{cr_sandoval_barreras}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=241c2eb42acf2fad54c04f0787a478bf}{%
-           family={{Study Group International Copper}},
-           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5252c99e5f6fc0336b4f9e5d76488409}{%
+           family={Sandoval},
+           familyi={S\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{fullhash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{bibnamehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{authorbibnamehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{authornamehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{authorfullhash}{241c2eb42acf2fad54c04f0787a478bf}
+      \strng{namehash}{5252c99e5f6fc0336b4f9e5d76488409}
+      \strng{fullhash}{5252c99e5f6fc0336b4f9e5d76488409}
+      \strng{bibnamehash}{5252c99e5f6fc0336b4f9e5d76488409}
+      \strng{authorbibnamehash}{5252c99e5f6fc0336b4f9e5d76488409}
+      \strng{authornamehash}{5252c99e5f6fc0336b4f9e5d76488409}
+      \strng{authorfullhash}{5252c99e5f6fc0336b4f9e5d76488409}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The World Copper Factbook 2018}
-      \field{year}{2018}
+      \field{title}{Barreras del Emprendedor ¿Por qué cuesta tanto hacerlo?}
       \verb{urlraw}
-      \verb www.icsg.org
+      \verb https://www.emprender-facil.com/es/barreras-del-emprendedor/
       \endverb
       \verb{url}
-      \verb www.icsg.org
+      \verb https://www.emprender-facil.com/es/barreras-del-emprendedor/
       \endverb
     \endentry
-    \entry{tec_vectorwords_tensorflow}{misc}{}
+    \entry{cr_sl_crowdfundlatam}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=074dd699710da0ec1eb45f13b31788e3}{%
-           family={{TensorFlow}},
+        {{un=0,uniquepart=base,hash=d6a493d2363a892d2902735fa2ee5079}{%
+           family={{Solidaridad Latina}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6a493d2363a892d2902735fa2ee5079}
+      \strng{fullhash}{d6a493d2363a892d2902735fa2ee5079}
+      \strng{bibnamehash}{d6a493d2363a892d2902735fa2ee5079}
+      \strng{authorbibnamehash}{d6a493d2363a892d2902735fa2ee5079}
+      \strng{authornamehash}{d6a493d2363a892d2902735fa2ee5079}
+      \strng{authorfullhash}{d6a493d2363a892d2902735fa2ee5079}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Cómo funciona el crowdfunding en Latinoamérica?}
+      \verb{urlraw}
+      \verb https://solidaridadlatina.com/actualizacion/como-funciona-crowdfunding-latinoamerica/
+      \endverb
+      \verb{url}
+      \verb https://solidaridadlatina.com/actualizacion/como-funciona-crowdfunding-latinoamerica/
+      \endverb
+    \endentry
+    \entry{cr_hustle2019successrate}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ccfa6baf9cf2e529fdd727b083b8ae03}{%
+           family={{The Hustle}},
            familyi={T\bibinitperiod}}}%
       }
-      \strng{namehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{fullhash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{bibnamehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{authorbibnamehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{authornamehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{authorfullhash}{074dd699710da0ec1eb45f13b31788e3}
+      \strng{namehash}{ccfa6baf9cf2e529fdd727b083b8ae03}
+      \strng{fullhash}{ccfa6baf9cf2e529fdd727b083b8ae03}
+      \strng{bibnamehash}{ccfa6baf9cf2e529fdd727b083b8ae03}
+      \strng{authorbibnamehash}{ccfa6baf9cf2e529fdd727b083b8ae03}
+      \strng{authornamehash}{ccfa6baf9cf2e529fdd727b083b8ae03}
+      \strng{authorfullhash}{ccfa6baf9cf2e529fdd727b083b8ae03}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
@@ -620,197 +447,42 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Vector Representations of Words}
+      \field{month}{2}
+      \field{title}{What are your chances of successfully raising money on Kickstarter?}
       \field{year}{2019}
       \verb{urlraw}
-      \verb https://www.tensorflow.org/tutorials/representation/word2vec
+      \verb https://thehustle.co/crowdfunding-success-rate
       \endverb
       \verb{url}
-      \verb https://www.tensorflow.org/tutorials/representation/word2vec
+      \verb https://thehustle.co/crowdfunding-success-rate
       \endverb
+      \warn{\item Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring}
     \endentry
-    \entry{pr_tipirisetty2018stock}{thesis}{}
+    \entry{cr_uc_crowdfunding}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1bcafd73d78a8cebb23d40711452588a}{%
-           family={Tipirisetty},
-           familyi={T\bibinitperiod},
-           given={Abhinav},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {San José State University}%
-      }
-      \strng{namehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{fullhash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{bibnamehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{authorbibnamehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{authornamehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{authorfullhash}{1bcafd73d78a8cebb23d40711452588a}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Master's Projects}
-      \field{title}{Stock Price Prediction using Deep Learning}
-      \field{type}{mathesis}
-      \field{year}{2018}
-      \verb{doi}
-      \verb https://doi.org/10.31979/etd.bzmm-36m7
-      \endverb
-    \endentry
-    \entry{pr_trastour2016prediction}{misc}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0db23ea230df43e37f61ffc8e1fd37cf}{%
-           family={Trastour},
-           familyi={T\bibinitperiod},
-           given={Sophie},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a36d51d1d2cd44275a58e828f2347bb9}{%
-           family={Genin},
-           familyi={G\bibinitperiod},
-           given={Maxime},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=624df7ebdb976ebbb815e06eea089bce}{%
-           family={Morlot},
-           familyi={M\bibinitperiod},
-           given={Arthur},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6ac4bca57de869353b1b23000920d165}
-      \strng{fullhash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \strng{bibnamehash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \strng{authorbibnamehash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \strng{authornamehash}{6ac4bca57de869353b1b23000920d165}
-      \strng{authorfullhash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Prediction of the crude oil price thanks to natural language processing applied to newspapers}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb http://cs229.stanford.edu/proj2016/report/
-      \endverb
-      \verb{url}
-      \verb http://cs229.stanford.edu/proj2016/report/
-      \endverb
-    \endentry
-    \entry{cu_USAcommodity2019}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=443478d363b15c65a1ee517d1122e79b}{%
-           family={{U.S. Geological Survey}},
+        {{un=0,uniquepart=base,hash=594d56cca8b153463f85969bd0d5dc47}{%
+           family={{Universo Crowdfunding}},
            familyi={U\bibinitperiod}}}%
       }
-      \strng{namehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{fullhash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{bibnamehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{authorbibnamehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{authornamehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{authorfullhash}{443478d363b15c65a1ee517d1122e79b}
+      \strng{namehash}{594d56cca8b153463f85969bd0d5dc47}
+      \strng{fullhash}{594d56cca8b153463f85969bd0d5dc47}
+      \strng{bibnamehash}{594d56cca8b153463f85969bd0d5dc47}
+      \strng{authorbibnamehash}{594d56cca8b153463f85969bd0d5dc47}
+      \strng{authornamehash}{594d56cca8b153463f85969bd0d5dc47}
+      \strng{authorfullhash}{594d56cca8b153463f85969bd0d5dc47}
       \field{sortinit}{U}
       \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Mineral commodity summaries 2019: U.S. Geological Survey}
-      \field{year}{2019}
-      \verb{doi}
-      \verb https://doi.org/10.3133/70202434
+      \field{title}{¿Qué es el crowdfunding?}
+      \verb{urlraw}
+      \verb https://www.universocrowdfunding.com/que-es-el-crowdfunding/
       \endverb
-    \endentry
-    \entry{pr_yun2019stock}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=36f0ee067a5005075500394ccfc1bde2}{%
-           family={Yun},
-           familyi={Y\bibinitperiod},
-           given={Hyungbin},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=af51b235304f032b4c03d87f7298ec86}{%
-           family={Sim},
-           familyi={S\bibinitperiod},
-           given={Ghudae},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b9f183eb37c32aef21332c0f770ecc9}{%
-           family={Seok},
-           familyi={S\bibinitperiod},
-           given={Junhee},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{99508b55190d5c8a0bcc738bf085bc00}
-      \strng{fullhash}{1307f4512a5e024d0527a323a849ee55}
-      \strng{bibnamehash}{1307f4512a5e024d0527a323a849ee55}
-      \strng{authorbibnamehash}{1307f4512a5e024d0527a323a849ee55}
-      \strng{authornamehash}{99508b55190d5c8a0bcc738bf085bc00}
-      \strng{authorfullhash}{1307f4512a5e024d0527a323a849ee55}
-      \field{sortinit}{Y}
-      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2019 International Conference on Artificial Intelligence in Information and Communication (ICAIIC)}
-      \field{title}{Stock Prices Prediction using the Title of Newspaper Articles with Korean Natural Language Processing}
-      \field{year}{2019}
-      \field{pages}{019\bibrangedash 021}
-      \range{pages}{3}
-    \endentry
-    \entry{pr_zhao2017fuzzy}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5db4068796cde560b4fd3829096ef6c5}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Rui},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67e409f5440ed1814db213256b249e30}{%
-           family={Mao},
-           familyi={M\bibinitperiod},
-           given={Kezhi},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{fullhash}{70280f6551ca9727466165bb5dad631c}
-      \strng{bibnamehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{authorbibnamehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{authornamehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{authorfullhash}{70280f6551ca9727466165bb5dad631c}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Fuzzy Systems}
-      \field{number}{2}
-      \field{title}{Fuzzy bag-of-words model for document representation}
-      \field{volume}{26}
-      \field{year}{2017}
-      \field{pages}{794\bibrangedash 804}
-      \range{pages}{11}
+      \verb{url}
+      \verb https://www.universocrowdfunding.com/que-es-el-crowdfunding/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
