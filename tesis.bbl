@@ -49,43 +49,158 @@
       \endverb
       \warn{\item Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring}
     \endentry
-    \entry{pr_dehghani2018copper}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=a79057a4a538b301e4d449684b45f3e4}{%
-           family={Dehghani},
-           familyi={D\bibinitperiod},
-           given={Hesam},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ed564004c869e4a67bd96ae114cc737}{%
-           family={Bogdanovic},
+    \entry{pr_beckwith2016predcrowd}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10f25e146ac037056a2607af539b34a2}{%
+           family={Beckwith},
            familyi={B\bibinitperiod},
-           given={Dejan},
-           giveni={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Elsevier}%
+        {University of Pennsylvania ScholarlyCommons}%
       }
-      \strng{namehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{fullhash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{bibnamehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{authorbibnamehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{authornamehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{authorfullhash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \strng{namehash}{10f25e146ac037056a2607af539b34a2}
+      \strng{fullhash}{10f25e146ac037056a2607af539b34a2}
+      \strng{bibnamehash}{10f25e146ac037056a2607af539b34a2}
+      \strng{authorbibnamehash}{10f25e146ac037056a2607af539b34a2}
+      \strng{authornamehash}{10f25e146ac037056a2607af539b34a2}
+      \strng{authorfullhash}{10f25e146ac037056a2607af539b34a2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Resources Policy}
-      \field{title}{Copper price estimation using bat algorithm}
-      \field{volume}{55}
-      \field{year}{2018}
-      \field{pages}{55\bibrangedash 61}
+      \field{journaltitle}{Joseph Wharton Scholars}
+      \field{title}{Predicting Success in Equity Crowdfunding}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb http://repository.upenn.edu/joseph_wharton_scholars/25
+      \endverb
+      \verb{url}
+      \verb http://repository.upenn.edu/joseph_wharton_scholars/25
+      \endverb
+    \endentry
+    \entry{pr_chen2015predcrowd}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ce84ab6ca882287ab52ae26f561041ed}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shih-Ying},
+           giveni={S\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfcb63a13c32df80af8722b60de591e5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ching-Ning},
+           giveni={C\bibinithyphendelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee13ab9110a41bceb9884ebee334ea89}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu-Ren},
+           giveni={Y\bibinithyphendelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7de209a833689f59f8f14b1804cebad1}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chih-Wei},
+           giveni={C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88583c3d621f38d626a2018abfe0eedf}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Wan-Ching},
+           giveni={W\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Association for Information Systems AIS Electronic Library (AISeL)}%
+      }
+      \strng{namehash}{47472b9b0a4af7b931e9da9c0d65b94f}
+      \strng{fullhash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
+      \strng{bibnamehash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
+      \strng{authorbibnamehash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
+      \strng{authornamehash}{47472b9b0a4af7b931e9da9c0d65b94f}
+      \strng{authorfullhash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Pacific Asia Conference on Information Systems (PACIS) 2015 Proceedings}
+      \field{isbn}{ISBN}
+      \field{title}{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://aisel.aisnet.org/pacis2015/79
+      \endverb
+      \verb{url}
+      \verb http://aisel.aisnet.org/pacis2015/79
+      \endverb
+    \endentry
+    \entry{pr_cheng2019deeplearning}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=95ce53b44d77a255b5e72b99d1aba7ab}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Chaoran},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ddbbef1bac71574a951f689d0efa423}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f428a03a61853434c21b29e06ba8de8}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Xiurui},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=055fb0d8bcd9760f3edd13e328d1090d}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Macao}%
+      }
+      \strng{namehash}{ae21359550c49ed5f7ea8cc9aa833c59}
+      \strng{fullhash}{4441c81f2bec29f70f958ea1f869a11c}
+      \strng{bibnamehash}{4441c81f2bec29f70f958ea1f869a11c}
+      \strng{authorbibnamehash}{4441c81f2bec29f70f958ea1f869a11c}
+      \strng{authornamehash}{ae21359550c49ed5f7ea8cc9aa833c59}
+      \strng{authorfullhash}{4441c81f2bec29f70f958ea1f869a11c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{The Twenty-Eighth International Joint Conference on Artificial Intelligence}
+      \field{title}{Success Prediction on Crowdfunding with Multimodal Deep Learning}
+      \field{year}{2019}
+      \field{pages}{2158\bibrangedash 2164}
       \range{pages}{7}
+      \verb{urlraw}
+      \verb https://www.ijcai.org/proceedings/2019/0299.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ijcai.org/proceedings/2019/0299.pdf
+      \endverb
     \endentry
     \entry{bk_gollapudi2016practical}{book}{}
       \name{author}{1}{}{%
@@ -158,6 +273,68 @@
       \field{pages}{138\bibrangedash 143}
       \range{pages}{6}
     \endentry
+    \entry{pr_jin2019dayssuccess}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b99915a5baf2c1681937b5b89dacad79}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Binbin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28d6a57a98a31fe2c68433935cccc0d7}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Hongke},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=439e8d5e114670edea6f746db3c18b5b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Enhong},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b07af422f6616fac129405a8b4b1de4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85670d97bd4b38184f6db06c023a19e6}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Honolulu}%
+      }
+      \list{publisher}{1}{%
+        {Association for the Advancement of Artificial}%
+      }
+      \strng{namehash}{41240192e0b85824522526c886a435dc}
+      \strng{fullhash}{7e4f532dbd1d19aa6e562af74ef340ce}
+      \strng{bibnamehash}{7e4f532dbd1d19aa6e562af74ef340ce}
+      \strng{authorbibnamehash}{7e4f532dbd1d19aa6e562af74ef340ce}
+      \strng{authornamehash}{41240192e0b85824522526c886a435dc}
+      \strng{authorfullhash}{7e4f532dbd1d19aa6e562af74ef340ce}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019)}
+      \field{title}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://staff.ustc.edu.cn/~cheneh/paper_pdf/2019/Binbin-Jin-AAAI.pdf
+      \endverb
+      \verb{url}
+      \verb http://staff.ustc.edu.cn/~cheneh/paper_pdf/2019/Binbin-Jin-AAAI.pdf
+      \endverb
+    \endentry
     \entry{pr_kamath2018suplearn}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=68e694a06a9d6b3c41665a1fe91e011c}{%
@@ -202,6 +379,55 @@
       \endverb
       \verb{url}
       \verb https://search.datacite.org/works/10.5281/zenodo.1228716
+      \endverb
+    \endentry
+    \entry{pr_kaur2017socmedcrowd}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6eb51c954e0d16776b80e176644b1573}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Harmeet},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9fdd02ef649632ba708d27c38831a92}{%
+           family={Gera},
+           familyi={G\bibinitperiod},
+           given={Jaya},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V}%
+      }
+      \strng{namehash}{48394811cde3c094a3d4f529e78a5177}
+      \strng{fullhash}{48394811cde3c094a3d4f529e78a5177}
+      \strng{bibnamehash}{48394811cde3c094a3d4f529e78a5177}
+      \strng{authorbibnamehash}{48394811cde3c094a3d4f529e78a5177}
+      \strng{authornamehash}{48394811cde3c094a3d4f529e78a5177}
+      \strng{authorfullhash}{48394811cde3c094a3d4f529e78a5177}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{ISSN}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{month}{11}
+      \field{title}{Effect of Social Media Connectivity on Success of Crowdfunding Campaigns}
+      \field{volume}{122}
+      \field{year}{2017}
+      \field{pages}{767\bibrangedash 774}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.procs.2017.11.435
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050917326832
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050917326832
       \endverb
     \endentry
     \entry{cr_kickstarter_about}{online}{}
@@ -283,6 +509,63 @@
       \endverb
       \verb{url}
       \verb https://www.kickstarter.com/press?ref=hello
+      \endverb
+    \endentry
+    \entry{pr_li2016predcrowd}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=92e14a8c19eb5a0c7c199c85db74f106}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=621aa097f1e0719c8b7222c3fe35983c}{%
+           family={Rakesh},
+           familyi={R\bibinitperiod},
+           given={Vineeth},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=032468e36a0ab9511f98a11f03bbcea1}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Chandan\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Francisco}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a71fd46be5707627f7ffea030721fc93}
+      \strng{fullhash}{09fad6021b29f981f341d4813de2e15c}
+      \strng{bibnamehash}{09fad6021b29f981f341d4813de2e15c}
+      \strng{authorbibnamehash}{09fad6021b29f981f341d4813de2e15c}
+      \strng{authornamehash}{a71fd46be5707627f7ffea030721fc93}
+      \strng{authorfullhash}{09fad6021b29f981f341d4813de2e15c}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{WSDM' 16}
+      \field{isbn}{ISBN}
+      \field{maintitle}{Proceedings of the Ninth ACM International Conference on web search and data mining}
+      \field{title}{Project Success Prediction in Crowdfunding Environments}
+      \field{year}{2016}
+      \field{pages}{247\bibrangedash 256}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2835776.2835791
+      \endverb
+      \verb{urlraw}
+      \verb http://dl.acm.org/citation.cfm?id=2835791
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2835791
       \endverb
     \endentry
     \entry{cr_gestion2015emprendper}{periodical}{}
@@ -482,6 +765,212 @@
       \endverb
       \verb{url}
       \verb https://www.universocrowdfunding.com/que-es-el-crowdfunding/
+      \endverb
+    \endentry
+    \entry{pr_yu2018deeplearning}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d3b838ceb6ea0136cecfe19c4b611a0c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Pi-Fen},
+           giveni={P\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=311643315097206f0f8df3337383085a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Fu-Ming},
+           giveni={F\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=533c82a54eee436a530456ecbf1066b0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chuan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fd7574ac4d19e691fa34327326f9f0a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yu-Hsin},
+           giveni={Y\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=daaf76bb6536b00a49907281b8b64b4e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zi-Yi},
+           giveni={Z\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d3d44cea6f679e20a7f0c4f383ce6ab}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Cheng-Hung},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Xi'an}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e331cf1c778984835d343940d7f29cc1}
+      \strng{fullhash}{11681b48ddfa53636f79f63b6130e818}
+      \strng{bibnamehash}{11681b48ddfa53636f79f63b6130e818}
+      \strng{authorbibnamehash}{11681b48ddfa53636f79f63b6130e818}
+      \strng{authornamehash}{e331cf1c778984835d343940d7f29cc1}
+      \strng{authorfullhash}{11681b48ddfa53636f79f63b6130e818}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}
+      \field{isbn}{ISBN}
+      \field{title}{Prediction of Crowdfunding Project Success with Deep Learning}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICEBE.2018.00012
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8592623
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8592623
+      \endverb
+    \endentry
+    \entry{pr_yuan2016textanalytics}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8f3ed4b2f5fd45048b82c0528592a87c}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bc99eef079dcf0abdc0d747d1f2a577}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Raymond\bibnamedelima Y.K.},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V}%
+      }
+      \strng{namehash}{6c1720dd33db78cc0b820d8d46894be8}
+      \strng{fullhash}{eb74a7988f16f9749534097012f4a1aa}
+      \strng{bibnamehash}{eb74a7988f16f9749534097012f4a1aa}
+      \strng{authorbibnamehash}{eb74a7988f16f9749534097012f4a1aa}
+      \strng{authornamehash}{6c1720dd33db78cc0b820d8d46894be8}
+      \strng{authorfullhash}{eb74a7988f16f9749534097012f4a1aa}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{ISSN}
+      \field{journaltitle}{Decision Support Systems}
+      \field{month}{11}
+      \field{title}{The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach}
+      \field{volume}{91}
+      \field{year}{2016}
+      \field{pages}{67\bibrangedash 76}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.dss.2016.08.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167923616301373
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167923616301373
+      \endverb
+    \endentry
+    \entry{pr_zhou2018projectdesc}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=ea82f1187cf74ae3aeeef6f1667648d1}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Mi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c65dc0155fc0f151c939cd8fa10040e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3cbdf99841be904d994f49025761e54c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Alan\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=153d11ac951f665b3f17562bc7c0f863}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Qianzhou},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da5f97f3f45755126f9902730816d591}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Zhilei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6df18b85690d40933f3d509159a6bcfd}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Weiguo},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Puerto Rico}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a60d2b6a0553b81678215223661371c8}
+      \strng{fullhash}{49968c8277294bc995e4ab547026949b}
+      \strng{bibnamehash}{49968c8277294bc995e4ab547026949b}
+      \strng{authorbibnamehash}{49968c8277294bc995e4ab547026949b}
+      \strng{authornamehash}{a60d2b6a0553b81678215223661371c8}
+      \strng{authorfullhash}{49968c8277294bc995e4ab547026949b}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Twenty-first Americas Conference on Information Systems, Puerto Rico, 2015}
+      \field{isbn}{ISSN}
+      \field{maintitle}{Information systems frontiers : a journal of research and innovation}
+      \field{number}{2}
+      \field{title}{Money Talks: A Predictive Model on Crowdfunding Success Using Project Description}
+      \field{volume}{20}
+      \field{year}{2018}
+      \field{pages}{259\bibrangedash 274}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s10796-016-9723-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/29755287
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pubmed/29755287
       \endverb
     \endentry
   \enddatalist
