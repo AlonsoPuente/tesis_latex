@@ -2903,11 +2903,21 @@
     <bcf:citekey order="54">pr_cheng2019deeplearning</bcf:citekey>
     <bcf:citekey order="55">pr_cheng2019deeplearning</bcf:citekey>
     <bcf:citekey order="56">pr_cheng2019deeplearning</bcf:citekey>
-    <bcf:citekey order="57">tec_royal2017machine</bcf:citekey>
-    <bcf:citekey order="58">bk_gollapudi2016practical</bcf:citekey>
-    <bcf:citekey order="59">bk_goyal2018deep</bcf:citekey>
-    <bcf:citekey order="60">bk_goyal2018deep</bcf:citekey>
-    <bcf:citekey order="61">bk_goyal2018deep</bcf:citekey>
+    <bcf:citekey order="57">tec_poole1998machinelearning</bcf:citekey>
+    <bcf:citekey order="58">bk_russell2009intart</bcf:citekey>
+    <bcf:citekey order="59">bk_russell2004intart</bcf:citekey>
+    <bcf:citekey order="60">bk_russell2004intart</bcf:citekey>
+    <bcf:citekey order="61">bk_russell2004intart</bcf:citekey>
+    <bcf:citekey order="62">bk_russell2009intart</bcf:citekey>
+    <bcf:citekey order="63">gl_gartner2019ml</bcf:citekey>
+    <bcf:citekey order="64">bk_alpaydin2014ml</bcf:citekey>
+    <bcf:citekey order="65">bk_zambrano2018supnosup</bcf:citekey>
+    <bcf:citekey order="66">bk_zambrano2018supnosup</bcf:citekey>
+    <bcf:citekey order="67">bk_zambrano2018supnosup</bcf:citekey>
+    <bcf:citekey order="68">bk_russell2004intart</bcf:citekey>
+    <bcf:citekey order="69">bk_goyal2018deep</bcf:citekey>
+    <bcf:citekey order="70">bk_goyal2018deep</bcf:citekey>
+    <bcf:citekey order="71">bk_goyal2018deep</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

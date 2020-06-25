@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{bk_alpaydin2014ml}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8351b0b43ad4aed68fb279505ebd7d01}{%
+           family={Alpaydin},
+           familyi={A\bibinitperiod},
+           given={Ethem},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Tercera edición}
+      \field{title}{Introduction to Machine Learning}
+      \field{year}{2014}
+    \endentry
     \entry{cr_aep2018emprend}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a6ccdde2e82a7422d2c594e73f6d3da2}{%
@@ -200,6 +229,34 @@
       \endverb
       \verb{url}
       \verb https://www.ijcai.org/proceedings/2019/0299.pdf
+      \endverb
+    \endentry
+    \entry{gl_gartner2019ml}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
+           family={{Gartner}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{fullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{bibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authorbibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authornamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authorfullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gartner IT Glossary - Machine Learning}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.gartner.com/it-glossary/machine-learning/
+      \endverb
+      \verb{url}
+      \verb https://www.gartner.com/it-glossary/machine-learning/
       \endverb
     \endentry
     \entry{bk_gollapudi2016practical}{book}{}
@@ -568,6 +625,44 @@
       \verb http://dl.acm.org/citation.cfm?id=2835791
       \endverb
     \endentry
+    \entry{tec_poole1998machinelearning}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9ad5efb8d461b040f7b5ea00c198fb43}{%
+           family={Poole},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3278e21d4ff382e7f0d1041e09839dd}{%
+           family={Mackworth},
+           familyi={M\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67d0e7c2f3249b72cf5c5efc1a6c8fbd}{%
+           family={Goebel},
+           familyi={G\bibinitperiod},
+           given={Randy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a5e8fba4b8b33410fda7a0e64fde0d33}
+      \strng{fullhash}{ddd134ec65a50edc2468c90d842d4f80}
+      \strng{bibnamehash}{ddd134ec65a50edc2468c90d842d4f80}
+      \strng{authorbibnamehash}{ddd134ec65a50edc2468c90d842d4f80}
+      \strng{authornamehash}{a5e8fba4b8b33410fda7a0e64fde0d33}
+      \strng{authorfullhash}{ddd134ec65a50edc2468c90d842d4f80}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Oxford University Press}
+      \field{title}{Computational Intelligence: A Logical Approach}
+      \field{year}{1998}
+    \endentry
     \entry{cr_gestion2015emprendper}{periodical}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c2ee06fb219320c92fc7cdd3ca07dca9}{%
@@ -619,7 +714,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Diario Gestión}
-      \field{month}{8}
+      \field{month}{Agosto}
       \field{title}{Perú es el tercer país con mayor cantidad de emprendimientos en fase temprana a nivel mundial}
       \field{year}{2018}
       \verb{urlraw}
@@ -655,6 +750,135 @@
       \field{title}{Machine learning: the power and promise of computers that learn by example}
       \field{type}{techreport}
       \field{year}{2017}
+    \endentry
+    \entry{bk_russell2004intart}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{8}{}{%
+        {{hash=0f6a6b892624b3be6f82d908f91ec1fd}{%
+           family={Corchado\bibnamedelima Rodríguez},
+           familyi={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Juan\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6e3b9f9fb4519d19a43a15b04fa10b4b}{%
+           family={Martín\bibnamedelima Rubio},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c69be90887b3b6430bb1532cb0aa5d2a}{%
+           family={Cadenas\bibnamedelima Figueredo},
+           familyi={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fab8202faef86200788ce5ed547eadd1}{%
+           family={Hernández\bibnamedelima Molinero},
+           familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Luis\bibnamedelima Daniel},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8171a6b1e14429c9754cadd24069b01c}{%
+           family={Paniagua\bibnamedelima Arís},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b50e398014dab184f1906f822d9730bb}{%
+           family={Fuentetaja\bibnamedelima Pinzán},
+           familyi={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=988e21bccaf1c439718acbab4a4e65bb}{%
+           family={Robledo\bibnamedelimb de\bibnamedelimb los\bibnamedelima Santos},
+           familyi={R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim l\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=796f4f9f1a8cf2a4439f21413b47c5b1}{%
+           family={Rizo\bibnamedelima Aldeguer},
+           familyi={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Educación, S.A.}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{translatorbibnamehash}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
+      \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Segunda edición}
+      \field{isbn}{ISBN}
+      \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 1240}
+      \range{pages}{1240}
+      \verb{urlraw}
+      \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
+      \endverb
+      \verb{url}
+      \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
+      \endverb
+    \endentry
+    \entry{bk_russell2009intart}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Tercera edición}
+      \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
+      \field{year}{2009}
+      \field{pages}{229}
+      \range{pages}{1}
     \endentry
     \entry{cr_sandoval_barreras}{misc}{}
       \name{author}{1}{}{%
@@ -894,6 +1118,39 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0167923616301373
+      \endverb
+    \endentry
+    \entry{bk_zambrano2018supnosup}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5382f6d4dddfd71a612981c6be0a65c5}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{fullhash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{bibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorbibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authornamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorfullhash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{3}
+      \field{title}{¿Aprendizaje supervisado o no supervisado? Conoce sus diferencias dentro del machine learning y la automatización inteligente}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
       \endverb
     \endentry
     \entry{pr_zhou2018projectdesc}{article}{}
