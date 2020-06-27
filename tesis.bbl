@@ -259,34 +259,6 @@
       \verb https://www.gartner.com/it-glossary/machine-learning/
       \endverb
     \endentry
-    \entry{bk_gollapudi2016practical}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=732dd6fd2d43965a8359b40cfae167b3}{%
-           family={Gollapudi},
-           familyi={G\bibinitperiod},
-           given={Sunila},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Packt Publishing Ltd}%
-      }
-      \strng{namehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{fullhash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{bibnamehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{authorbibnamehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{authornamehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{authorfullhash}{732dd6fd2d43965a8359b40cfae167b3}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Practical machine learning}
-      \field{year}{2016}
-    \endentry
     \entry{bk_goyal2018deep}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=616affab8b6c99cb76ff4625b67efef9}{%
@@ -625,6 +597,34 @@
       \verb http://dl.acm.org/citation.cfm?id=2835791
       \endverb
     \endentry
+    \entry{gl_microsoft2018datamining}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Algoritmos de minería de datos (Analysis Services: Minería de datos)}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/es-mx/sql/analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining?view=sql-server-2017
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/es-mx/sql/analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining?view=sql-server-2017
+      \endverb
+    \endentry
     \entry{tec_poole1998machinelearning}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9ad5efb8d461b040f7b5ea00c198fb43}{%
@@ -724,32 +724,6 @@
       \verb https://gestion.pe/economia/peru-tercer-pais-mayor-cantidad-emprendimientos-fase-temprana-nivel-mundial-240264
       \endverb
       \warn{\item Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring}
-    \endentry
-    \entry{tec_royal2017machine}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=66805d426cdbc3e8bf7d42f3762e12bb}{%
-           family={{Royal Society Working Group}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Technical report}%
-      }
-      \strng{namehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{fullhash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{bibnamehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{authorbibnamehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{authornamehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{authorfullhash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Machine learning: the power and promise of computers that learn by example}
-      \field{type}{techreport}
-      \field{year}{2017}
     \endentry
     \entry{bk_russell2004intart}{book}{}
       \name{author}{2}{}{%
