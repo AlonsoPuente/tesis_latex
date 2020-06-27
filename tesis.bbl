@@ -854,6 +854,45 @@
       \field{pages}{229}
       \range{pages}{1}
     \endentry
+    \entry{tec_sancho2018supnosup}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
+           family={Sancho\bibnamedelima Caparrini},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Sevilla}%
+      }
+      \list{location}{1}{%
+        {location}%
+      }
+      \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{bibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Sevilla}
+      \field{title}{Clasificación Supervisada y No Supervisada}
+      \field{type}{Publicación}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.cs.us.es/~fsancho/?e=77
+      \endverb
+      \verb{url}
+      \verb http://www.cs.us.es/~fsancho/?e=77
+      \endverb
+    \endentry
     \entry{cr_sandoval_barreras}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5252c99e5f6fc0336b4f9e5d76488409}{%
