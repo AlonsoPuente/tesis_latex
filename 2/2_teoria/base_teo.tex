@@ -18,32 +18,27 @@ Los tres tipos de aprendizaje principales son:
 \begin{itemize}
 	\item \textbf{Aprendizaje supervisado}: Se trabajan con datos etiquetados buscando obtener una función que asigne una respuesta de salida adecuada, denominadas etiquetas, a partir de unos datos de entrada denominadas características \parencite{bk_zambrano2018supnosup}. Por lo general, los datos de entrada son conocidos como variables dependientes o X, mientras que los datos de salida son llamadas variables independientes o Y. Se le dice supervisado ya que el resultado depende de los datos que recibe de entrada, afectando su performance si estos son alterados.
 	
-	Existen dos tipos de aprendizaje supervisado. El primero es la regresión, que consiste en obtener como resultado un número específico a partir de un conjunto de variables de las características, representado en la Figura \ref{2:fig}; mientras que por otra parte está la clasificación, el cual se basa en encontrar distintos patrones ocultos para clasificar los elementos del conjunto de datos en diferentes grupos, como se aprecia en la Figura \ref{3:fig} \parencite{bk_zambrano2018supnosup}.
-	
-	\begin{figure}[h]
+	Existen dos tipos de aprendizaje supervisado. El primero es la regresión, que consiste en obtener como resultado un número específico a partir de un conjunto de variables de las características, representado en la Figura \ref{2:fig1}; mientras que por otra parte está la clasificación, el cual se basa en encontrar distintos patrones ocultos para clasificar los elementos del conjunto de datos en diferentes grupos, como se aprecia en la Figura \ref{2:fig2} \parencite{bk_zambrano2018supnosup}.
+	\begin{figure}[htbp]
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{2/figures/regresion.jpg}
 			\caption{Ejemplo de algoritmo de regresión. Fuente: \cite{bk_zambrano2018supnosup}}
-			\label{2:fig}
-		\end{center}
-	\end{figure}
+			\label{2:fig1}
 
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/figures/clasificacion.jpg}
+			\includegraphics[width=0.5\textwidth]{2/figures/clasificacion.jpg}
 			\caption{Ejemplo de algoritmo de clasificación. Fuente: \cite{bk_zambrano2018supnosup}}
-			\label{3:fig}
+			\label{2:fig2}
 		\end{center}
 	\end{figure}
 	
-	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o k-NN Nearest Neighbour en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Por ejemplo, si x es el ejemplo que se desea clasificar, V son las posibles clases de clasificación, yxi es el conjunto de los k ejemplos de entrenamiento más cercano, se define la siguiente fórmula:
+	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o \textit{k-NN Nearest Neighbour} en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Por ejemplo, si x es el ejemplo que se desea clasificar, V son las posibles clases de clasificación, yxi es el conjunto de los k ejemplos de entrenamiento más cercano, se define la siguiente fórmula:
 	
-	y finalmente, la clase asignada a x es aquella que verifique que la suma de los pesos de sus representantes sea la máxima, representándose en la Figura \ref{4:fig}:
+	y finalmente, la clase asignada a x es aquella que verifique que la suma de los pesos de sus representantes sea la máxima, representándose en la Figura \ref{2:fig3}:
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{2/figures/knn.jpg}
 			\caption{Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite{tec_sancho2018supnosup}}
-			\label{4:fig}
+			\label{2:fig3}
 		\end{center}
 	\end{figure}
 	
@@ -51,25 +46,46 @@ Los tres tipos de aprendizaje principales son:
 	
 	La función es agrupar ejemplares, por lo que el algoritmo los cataloga por similitud en sus características y a partir de ahí, crea grupos o clústeres sin tener la capacidad de definir cómo es cada individualidad de cada uno de los integrantes de los mismos \parencite{bk_zambrano2018supnosup}.
 	
-	El algoritmo usado para este tipo de aprendizaje es el de las K medias o k-means en inglés. Este intenta encontrar una partición de las muestras en K agrupaciones, de manera que cada ejemplar pertenezca a una de ellas de acuerdo al centroide más cercano. Si bien el valor de K es definido por el usuario, a partir de pruebas de varias iteraciones se le puede consultar al algoritmo cuál es su valor óptimo. La intención es minimizar la varianza total del sistema. Por ejemplo, si se tiene el centroide ci de la agrupación i-ésima, yxji es el conjunto de ejemplos clasificados en esa agrupación, la función para lograr esto es la siguiente:
+	El algoritmo usado para este tipo de aprendizaje es el de las K medias o \textit{k-means} en inglés. Este intenta encontrar una partición de las muestras en K agrupaciones, de manera que cada ejemplar pertenezca a una de ellas de acuerdo al centroide más cercano. Si bien el valor de K es definido por el usuario, a partir de pruebas de varias iteraciones se le puede consultar al algoritmo cuál es su valor óptimo. La intención es minimizar la varianza total del sistema. Por ejemplo, si se tiene el centroide ci de la agrupación i-ésima, yxji es el conjunto de ejemplos clasificados en esa agrupación, la función para lograr esto es la siguiente:
 	
-	Representándose en la Figura 7, los pasos seguidos para este algoritmo comienzan con la selección de los K puntos como como centros de los grupos. Luego, se asignarán los ejemplos al centro más cercano y se calculará el centroide de los ejemplos asociados a cada grupo. Finalmente, estos dos últimos pasos se repetirán hasta que ninguno de los centros pueda ser reasignados en las iteraciones.
-	
-	\item \textbf{Aprendizaje por refuerzo}: Se basa en que un agente racional puede tomar una decisión a partir de una retroalimentación llamada recompensa o refuerzo. A diferencia del Aprendizaje Supervisado, en donde el agente puede aprender solamente a partir de ejemplos dados, en este caso no basta solamente con proporcionárselos sino también de “informarle” si lo está haciendo de la manera correcta o no. Por ejemplo, un agente que intenta aprender a jugar ajedrez necesita saber que algo bueno ha ocurrido cuando gana y algo malo ha ocurrido cuando pierde. La mejor recompensa que busca al finalizar el juego es vencer al oponente, y para ello debe estudiar todos los movimientos que este haga, la posición de las fichas en el tablero, entre otros. A este conjunto se le conoce como entorno o medio ambiente \parencite{bk_russell2004intart}. Entonces, en resumen, representando en la Figura 8, y mencionando otro ejemplo, el aprendizaje por refuerzo está compuesto por un agente (Pacman) en un estado determinado (su ubicación o posición actual) dentro de un medio ambiente (el laberinto). La recompensa positiva que busca Pacman son los puntos por comer, mientras que la negativa será la de morir si se cruza con un fantasma, en base a la acción (desplazamiento a un nuevo estado) que realice .
+	Representándose en la Figura \ref{2:fig4}, los pasos seguidos para este algoritmo comienzan con la selección de los K puntos como como centros de los grupos. Luego, se asignarán los ejemplos al centro más cercano y se calculará el centroide de los ejemplos asociados a cada grupo. Finalmente, estos dos últimos pasos se repetirán hasta que ninguno de los centros pueda ser reasignados en las iteraciones.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{2/figures/kmeans.jpg}
+			\caption{Funcionamiento del algoritmo de K medias. Fuente: \cite{tec_sancho2018supnosup}}
+			\label{2:fig4}
+		\end{center}
+	\end{figure}
+		
+	\item \textbf{Aprendizaje por refuerzo}: Se basa en que un agente racional puede tomar una decisión a partir de una retroalimentación llamada recompensa o refuerzo. A diferencia del Aprendizaje Supervisado, en donde el agente puede aprender solamente a partir de ejemplos dados, en este caso no basta solamente con proporcionárselos sino también de “informarle” si lo está haciendo de la manera correcta o no. Por ejemplo, un agente que intenta aprender a jugar ajedrez necesita saber que algo bueno ha ocurrido cuando gana y algo malo ha ocurrido cuando pierde. La mejor recompensa que busca al finalizar el juego es vencer al oponente, y para ello debe estudiar todos los movimientos que este haga, la posición de las fichas en el tablero, entre otros. A este conjunto se le conoce como entorno o medio ambiente \parencite{bk_russell2004intart}. Entonces, en resumen, representando en la Figura \ref{2:fig5}, y mencionando otro ejemplo, el aprendizaje por refuerzo está compuesto por un agente (Pacman) en un estado determinado (su ubicación o posición actual) dentro de un medio ambiente (el laberinto). La recompensa positiva que busca Pacman son los puntos por comer, mientras que la negativa será la de morir si se cruza con un fantasma, en base a la acción (desplazamiento a un nuevo estado) que realice \parencite{tec_merino2019aprendrefuerzo}.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{2/figures/aprendizaje_refuerzo.jpg}
+			\caption{Componentes del Aprendizaje por Refuerzo. Fuente: \cite{bk_sutton2018rl}}
+			\label{2:fig5}
+		\end{center}
+	\end{figure}
 \end{itemize}
 
 \subsection{Aprendizaje Profundo}
-El Aprendizaje Profundo (\textit{Deep Learning} por su nombre en inglés) es un tipo de Aprendizaje Automático que entrena a una computadora para que realice tareas como las realizadas por los seres humanos, desde la identificación de imágenes hasta realizar predicciones y reconocer el lenguaje humano. El Aprendizaje Profundo configura parámetros básicos acerca de los datos y entrena a la computadora para que aprenda por su cuenta reconociendo patrones mediante el uso de múltiples capas de procesamiento . Se basa en teorías acerca de cómo funciona el cerebro humano .
+El Aprendizaje Profundo (\textit{Deep Learning} por su nombre en inglés) es un tipo de Aprendizaje Automático que entrena a una computadora para que realice tareas como las realizadas por los seres humanos, desde la identificación de imágenes hasta realizar predicciones y reconocer el lenguaje humano. El Aprendizaje Profundo configura parámetros básicos acerca de los datos y entrena a la computadora para que aprenda por su cuenta reconociendo patrones mediante el uso de múltiples capas de procesamiento \parencite{gl_sas_deeplearning}. Se basa en teorías acerca de cómo funciona el cerebro humano \parencite{tec_banafa2019deeplearning}.
 
-La principal diferencia con el Aprendizaje Automático es que el Aprendizaje Profundo se basa en la extracción de características y clasificación al mismo tiempo luego de recibir una entrada, algo que en la primera técnica ocurre por separado, como se aprecia en la Figura 9.
+La principal diferencia con el Aprendizaje Automático es que el Aprendizaje Profundo se basa en la extracción de características y clasificación al mismo tiempo luego de recibir una entrada, algo que en la primera técnica ocurre por separado, como se aprecia en la Figura \ref{2:fig6}.
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{2/figures/deeplearning_machinelearning.jpg}
+		\caption{Diferencia entre Aprendizaje Automático y Aprendizaje Profundo. Fuente: \cite{tec_cook2018deeplearning}}
+		\label{2:fig6}
+	\end{center}
+\end{figure}
 
-Por un lado, mientras en el aprendizaje automático o de máquina, el ordenador extrae conocimiento a través de experiencia supervisada, en el aprendizaje profundo está menos sometido a supervisión. Mientras que el primer tipo de aprendizaje consume muchísimo tiempo y se basa en proponer abstracciones que permiten aprender al ordenador, en el segundo no consume demasiado tiempo y por el contrario de su par, crea redes neuronales a gran escala que permiten que el ordenador aprenda y piense por sí mismo sin necesidad directa de intervención humana. Actualmente, el aprendizaje profundo se usa para crear softwares capaces de determinar emociones o eventos descritos en textos, reconocimiento de objetos en fotografías y realizar predicciones acerca del posible comportamiento futuro de las personas. Empresas como Google (proyecto Google Brain) o Facebook (Unidad de investigación en IA) han puesto en marcha proyectos basados en esta rama para potenciar y mejorar sus algoritmos con el fin de ofrecer una mejor experiencia de sus servicios a sus clientes .
+Por un lado, mientras en el aprendizaje automático o de máquina, el ordenador extrae conocimiento a través de experiencia supervisada, en el aprendizaje profundo está menos sometido a supervisión. Mientras que el primer tipo de aprendizaje consume muchísimo tiempo y se basa en proponer abstracciones que permiten aprender al ordenador, en el segundo no consume demasiado tiempo y por el contrario de su par, crea redes neuronales a gran escala que permiten que el ordenador aprenda y piense por sí mismo sin necesidad directa de intervención humana. Actualmente, el aprendizaje profundo se usa para crear softwares capaces de determinar emociones o eventos descritos en textos, reconocimiento de objetos en fotografías y realizar predicciones acerca del posible comportamiento futuro de las personas. Empresas como Google (proyecto Google Brain) o Facebook (Unidad de investigación en IA) han puesto en marcha proyectos basados en esta rama para potenciar y mejorar sus algoritmos con el fin de ofrecer una mejor experiencia de sus servicios a sus clientes \parencite{tec_banafa2019deeplearning}.
 
 \subsection{Modelo Predictivo}
-Son modelos de datos estadísticos utilizados para predecir el comportamiento futuro. En estos, se recopilan datos históricos y actuales, se formula un modelo estadístico, se realizan predicciones y el modelo se valida a medida que se dispone de datos adicionales. Los modelos predictivos analizan el rendimiento pasado para evaluar la probabilidad de que un cliente muestre un comportamiento específico en el futuro. En esta categoría también abarca la búsqueda de patrones ocultos .
+Son modelos de datos estadísticos utilizados para predecir el comportamiento futuro. En estos, se recopilan datos históricos y actuales, se formula un modelo estadístico, se realizan predicciones y el modelo se valida a medida que se dispone de datos adicionales. Los modelos predictivos analizan el rendimiento pasado para evaluar la probabilidad de que un cliente muestre un comportamiento específico en el futuro. En esta categoría también abarca la búsqueda de patrones ocultos \parencite{gl_gartner2019pm}.
 
 \subsection{Minería de Datos}
-La Minería de Datos es un campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos . Normalmente, estos patrones no pueden detectarse mediante la exploración tradicional de datos porque sus relaciones son demasiado complejas o por su gran volumen. Para ello, utiliza métodos de Inteligencia Artificial, Aprendizaje Automático, estadística y sistemas de bases de datos. Estos patrones son recopilados y definidos como un modelo de minería de datos, los cuales pueden aplicarse en los siguientes escenarios :
+La Minería de Datos es un campo de la estadística y las ciencias de la computación referido al proceso que intenta descubrir patrones en grandes volúmenes de conjuntos de datos \parencite{bk_maimon2010datamining}. Normalmente, estos patrones no pueden detectarse mediante la exploración tradicional de datos porque sus relaciones son demasiado complejas o por su gran volumen. Para ello, utiliza métodos de Inteligencia Artificial, Aprendizaje Automático, estadística y sistemas de bases de datos. Estos patrones son recopilados y definidos como un modelo de minería de datos, los cuales pueden aplicarse en los siguientes escenarios \parencite{gl_microsoft2019datamining}:
 \begin{itemize}
 	\item Previsión.
 	\item Riesgo y probabilidad.
@@ -78,15 +94,29 @@ La Minería de Datos es un campo de la estadística y las ciencias de la computa
 	\item Agrupación.
 \end{itemize}
 
-La generación de un modelo de minería de datos forma de un macro-proceso descrita en los siguientes seis pasos representados en la Figura 10:
+La generación de un modelo de minería de datos forma de un macro-proceso descrita en los siguientes seis pasos representados en la Figura \ref{2:fig7} \parencite{gl_microsoft2019datamining}:
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{2/figures/data_mining_steps.jpg}
+		\caption{Diagrama de los seis pasos básicos. Fuente: \cite{gl_microsoft2019datamining}}
+		\label{2:fig7}
+	\end{center}
+\end{figure}
 
 \subsection{Metodologías de Minería de Datos}
-Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, las tres metodologías más usadas se encuentran CRISP-DM, SEMMA y KDD  .
+Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, las tres metodologías más usadas se encuentran CRISP-DM, SEMMA y KDD \parencite{tec_braulio2015metodologiasdm}.
 \begin{itemize}
 	\item \textbf{CRISP-DM} (Cross Industry Standard Process for Data Mining):
 	
-	Esta metodología presenta seis fases representadas en la Figura 11 a continuación.
-	
+	Esta metodología presenta seis fases representadas en la Figura \ref{2:fig8} a continuación.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/crispdm.jpg}
+			\caption{Fases de la metodología CRISP-DM. Fuente: \cite{tec_braulio2015metodologiasdm}}
+			\label{2:fig8}
+		\end{center}
+	\end{figure}
+		
 	\begin{itemize}
 		\item En la comprensión del negocio se determinan los objetivos y requerimientos desde el lado del negocio, así como generar plan del proyecto.
 		\item En la comprensión de los datos se logra entender el significado de las variables existentes, así como el entendimiento de los datos desde su recopilación hasta su verificación de calidad.
@@ -98,7 +128,14 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 	
 	\item \textbf{SEMMA} (Sample – Explore – Modify – Model – Assess):
 	
-	Esta metodología cuenta con cinco fases como se aprecia en la Figura 12. A diferencia de la anterior, esta metodología se enfoca más en el modelado.
+	Esta metodología cuenta con cinco fases como se aprecia en la Figura \ref{2:fig9}. A diferencia de la anterior, esta metodología se enfoca más en el modelado.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/semma.jpg}
+			\caption{Fases de la metodología SEMMA. Fuente: \cite{tec_braulio2015metodologiasdm}}
+			\label{2:fig9}
+		\end{center}
+	\end{figure}
 	
 	\begin{itemize}
 		\item En la Muestra (Sample) se crea una muestra significativa.
@@ -110,7 +147,14 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 	
 	\item \textbf{KDD} (Knowledge Discovery and Data Mining):
 	
-	Esta metodología se refiere al proceso de encontrar conocimiento alguno en el dato y, a diferencia de sus predecesores, se enfoca en crear aplicaciones de minería de datos. Consta de cinco fases más 1 previa y 1 posterior basadas en la generación de conocimiento como se muestra en la Figura 13.
+	Esta metodología se refiere al proceso de encontrar conocimiento alguno en el dato y, a diferencia de sus predecesores, se enfoca en crear aplicaciones de minería de datos. Consta de cinco fases más 1 previa y 1 posterior basadas en la generación de conocimiento como se muestra en la Figura \ref{2:fig10}.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/kdd.jpg}
+			\caption{Fases de la metodología KDD. Fuente: \cite{tec_braulio2015metodologiasdm}}
+			\label{2:fig10}
+		\end{center}
+	\end{figure}
 	
 	\begin{itemize}
 		\item En la fase Pre KDD se comprende el dominio del negocio, así como también se identifican las necesidades del cliente.
@@ -125,7 +169,70 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 \end{itemize}
 
 Luego de presentar las tres metodologías más usadas, la pregunta dada es ¿cuál de los tres representa la mejor opción para usar?
-Las tres metodologías tienen distinto número de pasos, así como distintos enfoques, tal cual se observa en el siguiente resumen de la Tabla 2.
+Las tres metodologías tienen distinto número de pasos, así como distintos enfoques, tal cual se observa en el siguiente resumen de la Tabla \ref{2:table1}.
+\begin{table}[h]
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\begin{tabular}{|m{3cm}|m{5cm}|m{3.5cm}|m{3.5cm}|} 
+		\hline
+		\rowcolor[rgb]{0,0.251,0.502}
+		\multicolumn{1}{|p{3cm}|}{\centering \textcolor{white}{Modelo de Procesos de Minería de Datos}} &
+		\multicolumn{1}{|p{5cm}|}{\centering \textcolor{white}{KDD}} &
+		\multicolumn{1}{|p{3.5cm}|}{\centering \textcolor{white}{CRISP-DM}} & 
+		\multicolumn{1}{|p{3.5cm}|}{\centering \textcolor{white}{SEMMA}}
+		\\
+		\hline
+		{Número de pasos}
+		&9
+		&6
+		&5                                                        
+		\\ 
+		\hline
+		\multirow{9}{*}[-14ex]{Nombre de los pasos}
+		&Desarrollo y entendimiento de la aplicación
+		&Entendimiento del negocio
+		&-
+		\\ 
+		\cline{2-4}
+		&Creación de un conjunto de datos de destino                                                                                &Entendimiento de los datos
+		&Muestreo                                                 \\ 
+		\cline{2-4}
+		&Limpieza de datos y pre-procesamiento                                               &Entendimiento de los datos
+		&Exploración
+		\\ 
+		\cline{2-4}
+		&Transformación de datos
+		&Preparación de los datos
+		&Modificación
+		\\ 
+		\cline{2-4}
+		&Elección de la tarea adecuada de Minería de datos
+		&Modelamiento
+		&Modelo
+		\\ 
+		\cline{2-4}
+		&Elección del algoritmo adecuado de Minería de datos &Modelamiento
+		&Modelo
+		\\ 
+		\cline{2-4}
+		&Implementación del algoritmo de Minería de datos                                                                      &Modelamiento
+		&Modelo
+		\\
+		\cline{2-4}
+		&Interpretación de patrones minados                                                                     &Evaluación
+		&Evaluación
+		\\
+		\cline{2-4}
+		&Uso de conocimiento descubierto minados                                                                     &Despliegue
+		&-
+		\\
+		\hline
+	\end{tabular}
+	\caption{Cuadro comparativo entre características de las tres metodologías. Fuente: Elaboración propia}
+	\label{2:table1}
+\end{table}
 
 Sin embargo, la elección depende de los involucrados que finalmente usarán el modelo en el negocio. La mayoría de investigadores siguen la metodología KDD debido a que es más completo y su exactitud. Para aquellos objetivos enfocados más en la compañía como la integración usada por SAS Enterprise Miner con su software se utilizan SEMMA y CRISP-DM. Esta última resulta ser más completa de acuerdo a los estudios.
 

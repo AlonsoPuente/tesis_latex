@@ -78,6 +78,47 @@
       \endverb
       \warn{\item Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring}
     \endentry
+    \entry{tec_banafa2019deeplearning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93fdd25bde611f22d2efaed3dcad0004}{%
+           family={{BBVA OpenMind}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=fe7e5a2f075ddcc35db4f3cfc9f8d295}{%
+           family={Banafa},
+           familyi={B\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Grupo BBVA}%
+      }
+      \strng{namehash}{93fdd25bde611f22d2efaed3dcad0004}
+      \strng{fullhash}{93fdd25bde611f22d2efaed3dcad0004}
+      \strng{bibnamehash}{93fdd25bde611f22d2efaed3dcad0004}
+      \strng{authorbibnamehash}{93fdd25bde611f22d2efaed3dcad0004}
+      \strng{authornamehash}{93fdd25bde611f22d2efaed3dcad0004}
+      \strng{authorfullhash}{93fdd25bde611f22d2efaed3dcad0004}
+      \strng{editorbibnamehash}{fe7e5a2f075ddcc35db4f3cfc9f8d295}
+      \strng{editornamehash}{fe7e5a2f075ddcc35db4f3cfc9f8d295}
+      \strng{editorfullhash}{fe7e5a2f075ddcc35db4f3cfc9f8d295}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es el aprendizaje Profundo?}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
+      \endverb
+      \verb{url}
+      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
+      \endverb
+    \endentry
     \entry{pr_beckwith2016predcrowd}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=10f25e146ac037056a2607af539b34a2}{%
@@ -111,6 +152,50 @@
       \endverb
       \verb{url}
       \verb http://repository.upenn.edu/joseph_wharton_scholars/25
+      \endverb
+    \endentry
+    \entry{tec_braulio2015metodologiasdm}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7ac18b570cb3e16d056bcf1bf603d25a}{%
+           family={Braulio\bibnamedelima Gil},
+           familyi={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Núria},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0560a9d8c3194416f7bc3f7aefdc69e}{%
+           family={Curto\bibnamedelima Díaz},
+           familyi={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Josep},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universitat Oberta de Catalunya}%
+      }
+      \list{location}{1}{%
+        {Barcelona}%
+      }
+      \strng{namehash}{133c222139e7d73f7783f4b413749d74}
+      \strng{fullhash}{133c222139e7d73f7783f4b413749d74}
+      \strng{bibnamehash}{133c222139e7d73f7783f4b413749d74}
+      \strng{authorbibnamehash}{133c222139e7d73f7783f4b413749d74}
+      \strng{authornamehash}{133c222139e7d73f7783f4b413749d74}
+      \strng{authorfullhash}{133c222139e7d73f7783f4b413749d74}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Customer Analytics: Mejorando la inteligencia del cliente a través de los datos}
+      \field{type}{Publicación}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://docplayer.es/17897069-Customer-analytics-mejorando-la-inteligencia-del-cliente-a-traves-de-los-datos-jordi-conesa-i-caralt-coordinador-nuria-braulio-gil-josep-curto-diaz.html
+      \endverb
+      \verb{url}
+      \verb https://docplayer.es/17897069-Customer-analytics-mejorando-la-inteligencia-del-cliente-a-traves-de-los-datos-jordi-conesa-i-caralt-coordinador-nuria-braulio-gil-josep-curto-diaz.html
       \endverb
     \endentry
     \entry{pr_chen2015predcrowd}{article}{}
@@ -243,11 +328,12 @@
       \strng{authorbibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
       \strng{authornamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
       \strng{authorfullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \field{extraname}{1}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gartner IT Glossary - Machine Learning}
@@ -257,6 +343,35 @@
       \endverb
       \verb{url}
       \verb https://www.gartner.com/it-glossary/machine-learning/
+      \endverb
+    \endentry
+    \entry{gl_gartner2019pm}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
+           family={{Gartner}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{fullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{bibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authorbibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authornamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authorfullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gartner IT Glossary - Predictive Modeling}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.gartner.com/it-glossary/predictive-modeling/
+      \endverb
+      \verb{url}
+      \verb https://www.gartner.com/it-glossary/predictive-modeling/
       \endverb
     \endentry
     \entry{bk_goyal2018deep}{article}{}
@@ -301,6 +416,44 @@
       \field{year}{2018}
       \field{pages}{138\bibrangedash 143}
       \range{pages}{6}
+    \endentry
+    \entry{tec_cook2018deeplearning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
+           family={{House of Bots}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=95480c374c875335e209ff987f5d42b1}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{fullhash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{bibnamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorbibnamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authornamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorfullhash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{editorbibnamehash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editornamehash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editorfullhash}{95480c374c875335e209ff987f5d42b1}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Most Popular 20 Free Online Courses to Learn Deep Learning}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
+      \endverb
+      \verb{url}
+      \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
+      \endverb
     \endentry
     \entry{pr_jin2019dayssuccess}{article}{}
       \name{author}{5}{}{%
@@ -597,6 +750,75 @@
       \verb http://dl.acm.org/citation.cfm?id=2835791
       \endverb
     \endentry
+    \entry{bk_maimon2010datamining}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=50aab0fb3aa0116ee1ff0407d4a356f6}{%
+           family={Maimon},
+           familyi={M\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e583bae19511d6aca7ecc9e44953ed07}{%
+           family={Rokach},
+           familyi={R\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Nueva York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2649fedc3da48268f121862716a8abaa}
+      \strng{fullhash}{2649fedc3da48268f121862716a8abaa}
+      \strng{bibnamehash}{2649fedc3da48268f121862716a8abaa}
+      \strng{authorbibnamehash}{2649fedc3da48268f121862716a8abaa}
+      \strng{authornamehash}{2649fedc3da48268f121862716a8abaa}
+      \strng{authorfullhash}{2649fedc3da48268f121862716a8abaa}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Primera edición}
+      \field{title}{Data Mining and Knowledge Discovery Handbook}
+      \field{year}{2010}
+    \endentry
+    \entry{tec_merino2019aprendrefuerzo}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f65d273c32c7c16ea18c292cfd93b1e3}{%
+           family={Merino},
+           familyi={M\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f65d273c32c7c16ea18c292cfd93b1e3}
+      \strng{fullhash}{f65d273c32c7c16ea18c292cfd93b1e3}
+      \strng{bibnamehash}{f65d273c32c7c16ea18c292cfd93b1e3}
+      \strng{authorbibnamehash}{f65d273c32c7c16ea18c292cfd93b1e3}
+      \strng{authornamehash}{f65d273c32c7c16ea18c292cfd93b1e3}
+      \strng{authorfullhash}{f65d273c32c7c16ea18c292cfd93b1e3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conceptos de inteligencia artificial: qué es el aprendizaje por refuerzo}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.xataka.com/inteligencia-artificial/conceptos-inteligencia-artificial-que-aprendizaje-refuerzo
+      \endverb
+      \verb{url}
+      \verb https://www.xataka.com/inteligencia-artificial/conceptos-inteligencia-artificial-que-aprendizaje-refuerzo
+      \endverb
+    \endentry
     \entry{gl_microsoft2018datamining}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
@@ -609,11 +831,11 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Algoritmos de minería de datos (Analysis Services: Minería de datos)}
@@ -623,6 +845,34 @@
       \endverb
       \verb{url}
       \verb https://docs.microsoft.com/es-mx/sql/analysis-services/data-mining/data-mining-algorithms-analysis-services-data-mining?view=sql-server-2017
+      \endverb
+    \endentry
+    \entry{gl_microsoft2019datamining}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conceptos de minería de datos}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/data-mining-concepts?view=sql-server-2017
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/data-mining-concepts?view=sql-server-2017
       \endverb
     \endentry
     \entry{tec_poole1998machinelearning}{article}{}
@@ -867,7 +1117,7 @@
         {Universidad de Sevilla}%
       }
       \list{location}{1}{%
-        {location}%
+        {Sevilla}%
       }
       \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
@@ -882,7 +1132,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{Sevilla}
       \field{title}{Clasificación Supervisada y No Supervisada}
       \field{type}{Publicación}
       \field{year}{2018}
@@ -922,6 +1171,32 @@
       \verb https://www.emprender-facil.com/es/barreras-del-emprendedor/
       \endverb
     \endentry
+    \entry{gl_sas_deeplearning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fed2cabe2c5fbb2abc601c8460691920}{%
+           family={{SAS Institute}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{fullhash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{bibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorbibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authornamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorfullhash}{fed2cabe2c5fbb2abc601c8460691920}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Deep Learning?}
+      \verb{urlraw}
+      \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
+      \endverb
+      \verb{url}
+      \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
+      \endverb
+    \endentry
     \entry{cr_sl_crowdfundlatam}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6a493d2363a892d2902735fa2ee5079}{%
@@ -946,6 +1221,55 @@
       \endverb
       \verb{url}
       \verb https://solidaridadlatina.com/actualizacion/como-funciona-crowdfunding-latinoamerica/
+      \endverb
+    \endentry
+    \entry{bk_sutton2018rl}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=eb920e5277d3d5fd0903f3cd41e11871}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32a0a208f8bcf56a13b0a8e618aa806a}{%
+           family={Barto},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{fullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{bibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorbibnamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authornamehash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \strng{authorfullhash}{c6212f1a1407d96a3d9f4fefbb07eade}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reinforcement Learning: An Introduction}
+      \field{chapter}{3}
+      \field{edition}{Segunda edición}
+      \field{isbn}{ISBN}
+      \field{title}{Finite Markov Decision Processes}
+      \field{year}{2018}
+      \field{pages}{48}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://incompleteideas.net/book/RLbook2018.pdf
+      \endverb
+      \verb{url}
+      \verb http://incompleteideas.net/book/RLbook2018.pdf
       \endverb
     \endentry
     \entry{cr_hustle2019successrate}{misc}{}

@@ -2,13 +2,20 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Resultados y ratios obtenidos en la encuesta por GEM y ESAN. Fuente: \cite {cr_gestion2018emprend}\relax }}{13}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Ratio de éxito de proyectos en Kickstarter desde 2009 hasta 2019 (Febrero). Fuente: \cite {cr_hustle2019successrate}\relax }}{15}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Ratio de éxito de proyectos en Kickstarter desde 2009 hasta 2019 (Febrero). Fuente: \cite {cr_hustle2019successrate}\relax }}{14}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de algoritmo de regresión. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{28}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ejemplo de algoritmo de clasificación. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{29}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite {tec_sancho2018supnosup}\relax }}{30}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de algoritmo de regresión. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{27}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ejemplo de algoritmo de clasificación. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{27}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite {tec_sancho2018supnosup}\relax }}{28}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento del algoritmo de K medias. Fuente: \cite {tec_sancho2018supnosup}\relax }}{29}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Componentes del Aprendizaje por Refuerzo. Fuente: \cite {bk_sutton2018rl}\relax }}{30}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diferencia entre Aprendizaje Automático y Aprendizaje Profundo. Fuente: \cite {tec_cook2018deeplearning}\relax }}{31}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagrama de los seis pasos básicos. Fuente: \cite {gl_microsoft2019datamining}\relax }}{32}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Fases de la metodología CRISP-DM. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{33}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Fases de la metodología SEMMA. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{34}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Fases de la metodología KDD. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{35}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{45}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{48}{figure.caption.16}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
