@@ -1,36 +1,37 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'tesis.blg'
-[167] biber-MSWIN64:322> INFO - === 
-[210] Biber.pm:415> INFO - Reading 'tesis.bcf'
-[546] Biber.pm:943> INFO - Found 38 citekeys in bib section 0
-[585] Biber.pm:4256> INFO - Processing section 0
-[586] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
-[604] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
-[637] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
-[655] bibtex.pm:1653> INFO - LaTeX decoding ...
-[792] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
-[840] Utils.pm:304> WARN - month field 'Marzo' in entry 'cr_gestion2015emprendper' is not an integer - this will probably not sort properly.
-[841] Utils.pm:304> WARN - Entry 'cr_gestion2015emprendper' (biblio/references.bib): Invalid format '11' of date field 'date' - ignoring
-[848] Utils.pm:304> WARN - month field 'Agosto' in entry 'cr_gestion2018emprend' is not an integer - this will probably not sort properly.
-[849] Utils.pm:304> WARN - Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring
-[856] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_aep2018emprend' is not an integer - this will probably not sort properly.
-[856] Utils.pm:304> WARN - Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring
-[898] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_hustle2019successrate' is not an integer - this will probably not sort properly.
-[898] Utils.pm:304> WARN - Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring
-[970] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_zhou2018projectdesc' is invalid - run biber with '--validate_datamodel' for details.
-[982] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_yuan2016textanalytics' is not an integer - this will probably not sort properly.
-[983] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_yuan2016textanalytics' is invalid - run biber with '--validate_datamodel' for details.
-[1000] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'pr_chen2015predcrowd' is invalid - run biber with '--validate_datamodel' for details.
-[1010] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'pr_li2016predcrowd' is invalid - run biber with '--validate_datamodel' for details.
-[1020] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_kaur2017socmedcrowd' is not an integer - this will probably not sort properly.
-[1020] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_kaur2017socmedcrowd' is invalid - run biber with '--validate_datamodel' for details.
-[1040] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'pr_yu2018deeplearning' is invalid - run biber with '--validate_datamodel' for details.
-[1121] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'bk_russell2004intart' is invalid - run biber with '--validate_datamodel' for details.
-[1147] Utils.pm:304> WARN - month field 'Marzo' in entry 'bk_zambrano2018supnosup' is not an integer - this will probably not sort properly.
-[1170] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'bk_sutton2018rl' is invalid - run biber with '--validate_datamodel' for details.
-[1428] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1428] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1428] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1551] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[1611] bbl.pm:755> INFO - Output to tesis.bbl
-[1621] Biber.pm:128> INFO - WARNINGS: 19
+[1] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is 'tesis.blg'
+[165] biber-MSWIN64:322> INFO - === 
+[208] Biber.pm:415> INFO - Reading 'tesis.bcf'
+[520] Biber.pm:943> INFO - Found 46 citekeys in bib section 0
+[559] Biber.pm:4256> INFO - Processing section 0
+[559] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
+[578] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
+[611] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
+[629] bibtex.pm:1653> INFO - LaTeX decoding ...
+[800] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
+[848] Utils.pm:304> WARN - month field 'Marzo' in entry 'cr_gestion2015emprendper' is not an integer - this will probably not sort properly.
+[849] Utils.pm:304> WARN - Entry 'cr_gestion2015emprendper' (biblio/references.bib): Invalid format '11' of date field 'date' - ignoring
+[856] Utils.pm:304> WARN - month field 'Agosto' in entry 'cr_gestion2018emprend' is not an integer - this will probably not sort properly.
+[856] Utils.pm:304> WARN - Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring
+[864] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_aep2018emprend' is not an integer - this will probably not sort properly.
+[865] Utils.pm:304> WARN - Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring
+[907] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_hustle2019successrate' is not an integer - this will probably not sort properly.
+[908] Utils.pm:304> WARN - Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring
+[982] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_zhou2018projectdesc' is invalid - run biber with '--validate_datamodel' for details.
+[994] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_yuan2016textanalytics' is not an integer - this will probably not sort properly.
+[994] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_yuan2016textanalytics' is invalid - run biber with '--validate_datamodel' for details.
+[1012] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'pr_chen2015predcrowd' is invalid - run biber with '--validate_datamodel' for details.
+[1025] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'pr_li2016predcrowd' is invalid - run biber with '--validate_datamodel' for details.
+[1035] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_kaur2017socmedcrowd' is not an integer - this will probably not sort properly.
+[1035] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_kaur2017socmedcrowd' is invalid - run biber with '--validate_datamodel' for details.
+[1055] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'pr_yu2018deeplearning' is invalid - run biber with '--validate_datamodel' for details.
+[1140] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'bk_russell2004intart' is invalid - run biber with '--validate_datamodel' for details.
+[1161] Utils.pm:304> WARN - month field 'Marzo' in entry 'bk_zambrano2018supnosup' is not an integer - this will probably not sort properly.
+[1184] Utils.pm:304> WARN - ISBN 'ISBN' in entry 'bk_sutton2018rl' is invalid - run biber with '--validate_datamodel' for details.
+[1302] Utils.pm:304> WARN - ISBN 'ISSN' in entry 'pr_dorofki2012ann' is invalid - run biber with '--validate_datamodel' for details.
+[1578] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1578] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1578] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1726] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[1805] bbl.pm:755> INFO - Output to tesis.bbl
+[1814] Biber.pm:128> INFO - WARNINGS: 20

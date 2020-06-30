@@ -170,12 +170,13 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 
 Luego de presentar las tres metodologías más usadas, la pregunta dada es ¿cuál de los tres representa la mejor opción para usar?
 Las tres metodologías tienen distinto número de pasos, así como distintos enfoques, tal cual se observa en el siguiente resumen de la Tabla \ref{2:table1}.
-\begin{table}[h]
+
+\begin{table}[htbp]
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
 	\centering
-	\begin{tabular}{|m{3cm}|m{5cm}|m{3.5cm}|m{3.5cm}|} 
+	\begin{tabular}{|M{3cm}|M{5cm}|M{3.5cm}|M{3.5cm}|}
 		\hline
 		\rowcolor[rgb]{0,0.251,0.502}
 		\multicolumn{1}{|p{3cm}|}{\centering \textcolor{white}{Modelo de Procesos de Minería de Datos}} &
@@ -188,49 +189,52 @@ Las tres metodologías tienen distinto número de pasos, así como distintos enf
 		&9
 		&6
 		&5                                                        
-		\\ 
+		\\
 		\hline
-		\multirow{9}{*}[-14ex]{Nombre de los pasos}
+		{\multirow{9}{*}[-11ex]{Nombre de los pasos}}
 		&Desarrollo y entendimiento de la aplicación
 		&Entendimiento del negocio
-		&-
-		\\ 
+		&- \\
 		\cline{2-4}
-		&Creación de un conjunto de datos de destino                                                                                &Entendimiento de los datos
-		&Muestreo                                                 \\ 
-		\cline{2-4}
-		&Limpieza de datos y pre-procesamiento                                               &Entendimiento de los datos
+		&Creación de un conjunto de datos de destino
+		&\multirow{2}{*}[-2ex]{Entendimiento de los datos}
+		&Muestreo
+		\\
+		\cline{2-2}\cline{4-4}
+		&Limpieza de datos y pre-procesamiento
+		&\multicolumn{1}{c|}{}
 		&Exploración
-		\\ 
+		\\
 		\cline{2-4}
 		&Transformación de datos
 		&Preparación de los datos
 		&Modificación
-		\\ 
+		\\
 		\cline{2-4}
 		&Elección de la tarea adecuada de Minería de datos
-		&Modelamiento
-		&Modelo
-		\\ 
-		\cline{2-4}
-		&Elección del algoritmo adecuado de Minería de datos &Modelamiento
-		&Modelo
-		\\ 
-		\cline{2-4}
-		&Implementación del algoritmo de Minería de datos                                                                      &Modelamiento
-		&Modelo
+		&\multirow{3}{*}[-3ex]{Modelamiento}
+		&\multirow{3}{*}[-3ex]{Modelo}
+		\\
+		\cline{2-2}
+		&Elección del algoritmo adecuado de Minería de datos
+		&\multicolumn{1}{c|}{}
+		&\multicolumn{1}{c|}{}
+		\\
+		\cline{2-2}
+		&Implementación del algoritmo de Minería de datos
+		&\multicolumn{1}{c|}{}
+		&\multicolumn{1}{c|}{}
 		\\
 		\cline{2-4}
-		&Interpretación de patrones minados                                                                     &Evaluación
+		&Interpretación de patrones minados
+		&Evaluación
 		&Evaluación
 		\\
-		\cline{2-4}
-		&Uso de conocimiento descubierto minados                                                                     &Despliegue
-		&-
+		\cline{2-4}          & Uso de conocimiento descubierto & Despliegue & -
 		\\
 		\hline
-	\end{tabular}
-	\caption{Cuadro comparativo entre características de las tres metodologías. Fuente: Elaboración propia}
+	\end{tabular}%
+	\caption{Cuadro comparativo entre características de las tres metodologías. Fuente: \cite{tec_shafique2014dmmodels}}
 	\label{2:table1}
 \end{table}
 
@@ -240,11 +244,18 @@ Sin embargo, la elección depende de los involucrados que finalmente usarán el 
 Existe una gran variedad de técnicas para la Minería de Datos. Las más importantes y utilizadas en los antecedentes de la investigación se mencionan a continuación \parencite{gl_microsoft2018datamining}.
 
 \begin{itemize}
-	\item \textbf{Redes Neuronales Artificiales} (RNA): Es un sistema de computación que consiste en un número de elementos o nodos simples, pero altamente interconectados, llamados “neuronas”, que se organizan en capas que procesan información utilizando respuestas de estado dinámico a entradas externas (poner ref).
+	\item \textbf{Redes Neuronales Artificiales} (RNA): Es un sistema de computación que consiste en un número de elementos o nodos simples, pero altamente interconectados, llamados “neuronas”, que se organizan en capas que procesan información utilizando respuestas de estado dinámico a entradas externas \parencite{tec_inzaugarat2018ann}.
 	
-	Este sistema de programas y estructura de datos se aproxima al funcionamiento del cerebro humano. Una red neuronal implica tener un gran número de procesadores funcionando en paralelo, teniendo cada uno de ellos su propia esfera de conocimiento y acceso a datos en su memoria local. Normalmente, una se alimenta con grandes cantidades de datos y un conjunto dado de reglas acerca de las relaciones. Luego, un programa puede indicar a la red cómo debe comportarse en respuesta a un estímulo externo o si puede iniciar la actividad por sí misma (poner ref).
+	Este sistema de programas y estructura de datos se aproxima al funcionamiento del cerebro humano. Una red neuronal implica tener un gran número de procesadores funcionando en paralelo, teniendo cada uno de ellos su propia esfera de conocimiento y acceso a datos en su memoria local. Normalmente, una se alimenta con grandes cantidades de datos y un conjunto dado de reglas acerca de las relaciones. Luego, un programa puede indicar a la red cómo debe comportarse en respuesta a un estímulo externo o si puede iniciar la actividad por sí misma \parencite{tec_banafa2019deeplearning}.
 	
-	Para entender mejor cómo funciona una red neuronal, hay que describir qué es una neurona. Una neurona es una célula del cerebro cuya función principal es la recogida, procesamiento y emisión de señales eléctricas. Debido a que se piensa que la capacidad de procesamiento de información del cerebro proviene de redes de este tipo de neuronas, los primeros trabajos en Inteligencia Artificial se basaron en crear redes neuronales artificiales para emular este comportamiento, en 1943 con un modelo matemático, mostrado en la Figura 14, por los ya mencionados anteriormente McCulloch y Pitts. Estos y posteriores trabajos potenciaron lo que hoy en día se conoce como el campo de la neurociencia computacional (poner ref). Años más tarde, en 1958, se desarrolló el concepto del perceptrón por Rosenblatt, el cual tenía la capacidad de aprender y reconocer patrones sencillos, formado por entradas, neurona, función de adaptación (sigmoidal, tangencial, en escalón, etc.) y salida.
+	Para entender mejor cómo funciona una red neuronal, hay que describir qué es una neurona. Una neurona es una célula del cerebro cuya función principal es la recogida, procesamiento y emisión de señales eléctricas. Debido a que se piensa que la capacidad de procesamiento de información del cerebro proviene de redes de este tipo de neuronas, los primeros trabajos en Inteligencia Artificial se basaron en crear redes neuronales artificiales para emular este comportamiento, en 1943 con un modelo matemático, mostrado en la Figura \ref{2:fig11}, por los ya mencionados anteriormente McCulloch y Pitts. Estos y posteriores trabajos potenciaron lo que hoy en día se conoce como el campo de la neurociencia computacional \parencite{bk_russell2004intart}. Años más tarde, en 1958, se desarrolló el concepto del perceptrón por Rosenblatt, el cual tenía la capacidad de aprender y reconocer patrones sencillos, formado por entradas, neurona, función de adaptación (sigmoidal, tangencial, en escalón, etc.) y salida.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/rnn_mcculloch.jpg}
+			\caption{Modelo para representar una neurona propuesto por McCulloch y Pitts (1943). Fuente: \cite{bk_russell2004intart}}
+			\label{2:fig11}
+		\end{center}
+	\end{figure}
 	
 	La última figura descrita muestra, además de los pesos, funciones de activación tanto para la entrada (aj) como para la salida (ai). Pero, ¿qué son estas funciones y para qué sirven?
 	
@@ -252,27 +263,63 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	
 	Posteriormente, se efectúa una función de activación g a esta suma para producir la salida:
 	
-	Entonces, aquí se explica los dos objetivos de una función de activación. En primer lugar, se desea que el nodo esté “activo” (cercano a +1) cuando las entradas correctas sean dadas, e “inactiva” (cercano a 0) cuando las entradas erróneas sean proporcionadas. En segundo lugar, la activación tiene que ser no lineal porque, de lo contrario, la red neuronal colapsaría en su totalidad con una función lineal sencilla, como se aprecia en el ejemplo de la Figura 15.
+	Entonces, aquí se explica los dos objetivos de una función de activación. En primer lugar, se desea que el nodo esté “activo” (cercano a +1) cuando las entradas correctas sean dadas, e “inactiva” (cercano a 0) cuando las entradas erróneas sean proporcionadas. En segundo lugar, la activación tiene que ser no lineal porque, de lo contrario, la red neuronal colapsaría en su totalidad con una función lineal sencilla, como se aprecia en el ejemplo de la Figura \ref{2:fig12}.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/rna_activaciones.jpg}
+			\caption{Nodos con funciones de activación umbral en forma de puertas lógicas. Fuente: \cite{bk_russell2004intart}}
+			\label{2:fig12}
+		\end{center}
+	\end{figure}
 	
 	Entre las funciones de activación que más destacan son las siguientes:
 	\begin{itemize}
-		\item \textbf{Función sigmoide o logística}: Toma los valores de entrada que oscilan entre infinito negativo y positivo, y restringe los valores de salida al rango entre 0 y 1. Frecuentemente es usada en Redes Multicapa (MLP) entrenadas con el algoritmo de propagación inversa. Se representa como en la Figura 16 y su fórmula para calcular su nuevo valor es:
+		\item \textbf{Función sigmoide o logística}: Toma los valores de entrada que oscilan entre infinito negativo y positivo, y restringe los valores de salida al rango entre 0 y 1. Frecuentemente es usada en Redes Multicapa (MLP) entrenadas con el algoritmo de propagación inversa. Se representa como en la Figura \ref{2:fig13} y su fórmula para calcular su nuevo valor es:
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[width=0.3\textwidth]{2/figures/sigmoide.jpg}
+				\caption{Función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}}
+				\label{2:fig13}
+			\end{center}
+		\end{figure}
 		
-		Un dato curioso de esta función relacionado con la regresión logística es que el nombre de esta última no deriva de una regresión. Por el contrario, se debe a que, al principio de la neurona, se realiza una combinación lineal muy parecida a una regresión lineal y después se aplica la función logística o sigmoide. De ahí el origen del nombre (poner ref).
+		Un dato curioso de esta función relacionado con la regresión logística es que el nombre de esta última no deriva de una regresión. Por el contrario, se debe a que, al principio de la neurona, se realiza una combinación lineal muy parecida a una regresión lineal y después se aplica la función logística o sigmoide. De ahí el origen del nombre \parencite{gl_iartificial2019reglogistica}.
 		\begin{itemize}
-			\item \textbf{Regresión Logística}: Como se mencionó antes, es similar a un modelo de regresión lineal, pero está adaptado para modelos en los que la variable dependiente es dicotómica, es decir, presenta solo dos posibles valores. Resulta muy útil para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores (poner ref). Su función de coste que se optimiza con gradiente descendiente se representa mediante la siguiente fórmula:
+			\item \textbf{Regresión Logística}: Como se mencionó antes, es similar a un modelo de regresión lineal, pero está adaptado para modelos en los que la variable dependiente es dicotómica, es decir, presenta solo dos posibles valores. Resulta muy útil para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores \parencite{gl_ibm2019reglogistica}. Su función de coste que se optimiza con gradiente descendiente se representa mediante la siguiente fórmula:
 			
 			Donde la primera parte de la ecuación está conformada por el logaritmo de la probabilidad de éxito y la segunda, por la de fracaso.
 			
-			\item \textbf{Gradiente descendiente}: Es un método de optimización numérica para estimar los mejores coeficientes, fundamental en Deep Learning para entrenar redes neuronales y en muchos casos, para la regresión logística, siendo mejor que el método de mínimos cuadrados (poner ref). A través de una función E(W), proporciona el error que comete la red en función del conjunto de pesos sinápticos W. El objetivo del aprendizaje será encontrar la configuración de pesos que corresponda al mínimo global de la función de error o coste (poner ref).
+			\item \textbf{Gradiente descendiente}: Es un método de optimización numérica para estimar los mejores coeficientes, fundamental en Deep Learning para entrenar redes neuronales y en muchos casos, para la regresión logística, siendo mejor que el método de mínimos cuadrados (poner ref). A través de una función E(W), proporciona el error que comete la red en función del conjunto de pesos sinápticos W. El objetivo del aprendizaje será encontrar la configuración de pesos que corresponda al mínimo global de la función de error o coste \parencite{tec_bertona2005algevol}.
 			
-			En general, la función de error es una función no lineal, por lo que el algoritmo realiza una búsqueda a través del espacio de parámetros que, se aproxime de forma iterada a un error mínimo de la red para los parámetros adecuados, como se aprecia en la Figura 17 (poner ref).
+			En general, la función de error es una función no lineal, por lo que el algoritmo realiza una búsqueda a través del espacio de parámetros que, se aproxime de forma iterada a un error mínimo de la red para los parámetros adecuados, como se aprecia en la Figura \ref{2:fig14} \parencite{tec_sancho2017descentgrad}.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.5\textwidth]{2/figures/gradiente_descendiente.jpg}
+					\caption{Ilustración del algoritmo gradiente descendiente. Fuente: \cite{tec_sancho2017descentgrad}}
+					\label{2:fig14}
+				\end{center}
+			\end{figure}
 			
-			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden (poner ref). Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la regla (poner ref).
+			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden \parencite{tec_sancho2017descentgrad}. Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la regla \parencite{gl_iartificial2019descentgrad}.
 			
-			Donde alfa es el “ratio de aprendizaje”, el cual controla el tamaño de la actualización, si este es demasiado grande será más difícil encontrar los coeficientes que minimicen la función de coste o error; la actualización de W es proporcional al gradiente; y se usa la resta para ir en dirección opuesta al gradiente como en la Figura 18.
+			Donde alfa es el “ratio de aprendizaje”, el cual controla el tamaño de la actualización, si este es demasiado grande será más difícil encontrar los coeficientes que minimicen la función de coste o error; la actualización de W es proporcional al gradiente; y se usa la resta para ir en dirección opuesta al gradiente como en la Figura \ref{2:fig15}.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.5\textwidth]{2/figures/pesos_graddescen.jpg}
+					\caption{Actualización de pesos W con el algoritmo. Fuente: \cite{gl_iartificial2019descentgrad}}
+					\label{2:fig15}
+				\end{center}
+			\end{figure}
 			
-			\item \textbf{Propagación hacia atrás}: También conocido en inglés como Backpropagation, es un método que consta de dos fases: en la primera se aplica un patrón, el cual se propaga por las distintas capas que componen la red hasta producir la salida de la misma. Luego, esta se compara con la salida deseada y se calcula el error cometido por cada neurona de salida. Estos errores se transmiten hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de las capas intermedias [Fritsch, 1996] (poner ref). La actualización iterativa de los pesos que el algoritmo propone es mediante la siguiente fórmula:
+			\item \textbf{Propagación hacia atrás}: También conocido en inglés como \textit{Backpropagation}, es un método que consta de dos fases: en la primera se aplica un patrón, el cual se propaga por las distintas capas que componen la red hasta producir la salida de la misma. Luego, esta se compara con la salida deseada y se calcula el error cometido por cada neurona de salida. Estos errores se transmiten hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de las capas intermedias [Fritsch, 1996] \parencite{tec_bertona2005algevol}. La actualización iterativa de los pesos que el algoritmo propone es mediante la siguiente fórmula:
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.5\textwidth]{2/figures/backpropagation.jpg}
+					\caption{Capa oculta simple MLP con propagación hacia atrás. Fuente: \cite{gl_iartificial2019descentgrad}}
+					\label{2:fig16}
+				\end{center}
+			\end{figure}
+			
 			Para entender mejor la teoría y la fórmula de actualización de pesos, se seguirá el siguiente ejemplo del conjunto de redes de la Figura 20.
 			
 			Se tiene una red neuronal con tres nodos de entradas (x1=1, x2=4 y x3=5) con dos pesos respectivos cada una (W1=0.1 y W2=0.2 para x1; W3=0.3 y W4=0.4 para x2; W5=0.5 y W6=0.6 para x3), dos capas ocultas (h1 y h2) con dos peso cada una (W7=0.7 y W8=0.8 para h1; W9=0.9 y W10=0.1 para h2) y dos nodos de salida (o1 y o2). El proceso normal para calcular el valor del nodo final se da, tanto con los nodos de entrada y los de capa oculta, mediante la sumatoria de producto de cada peso con su valor, es decir, mediante la fórmula de las RNA (colocar formula), al mismo tiempo que devuelve un valor del error cometido. Este último se calcula mediante la siguiente ecuación:

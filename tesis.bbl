@@ -154,6 +154,46 @@
       \verb http://repository.upenn.edu/joseph_wharton_scholars/25
       \endverb
     \endentry
+    \entry{tec_bertona2005algevol}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea10ff96a3eb16fea2f4ae1298fa86c5}{%
+           family={Bertona},
+           familyi={B\bibinitperiod},
+           given={Luis\bibnamedelima Federico},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Buenos Aires}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \strng{namehash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
+      \strng{fullhash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
+      \strng{bibnamehash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
+      \strng{authorbibnamehash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
+      \strng{authornamehash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
+      \strng{authorfullhash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entrenamiento de Redes Neuronales basado en Algoritmos Evolutivos}
+      \field{type}{Tesis de grado}
+      \field{year}{2005}
+      \field{pages}{15\bibrangedash 22}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://laboratorios.fi.uba.ar/lsi/bertona-tesisingenieriainformatica.pdf
+      \endverb
+      \verb{url}
+      \verb http://laboratorios.fi.uba.ar/lsi/bertona-tesisingenieriainformatica.pdf
+      \endverb
+    \endentry
     \entry{tec_braulio2015metodologiasdm}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7ac18b570cb3e16d056bcf1bf603d25a}{%
@@ -246,14 +286,16 @@
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{event}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{Pacific Asia Conference on Information Systems (PACIS) 2015 Proceedings}
+      \field{eventyear}{2015}
       \field{isbn}{ISBN}
       \field{title}{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns}
       \field{year}{2015}
+      \field{eventdateera}{ce}
       \verb{urlraw}
       \verb http://aisel.aisnet.org/pacis2015/79
       \endverb
@@ -300,13 +342,15 @@
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{event}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{The Twenty-Eighth International Joint Conference on Artificial Intelligence}
+      \field{eventyear}{2019}
       \field{title}{Success Prediction on Crowdfunding with Multimodal Deep Learning}
       \field{year}{2019}
+      \field{eventdateera}{ce}
       \field{pages}{2158\bibrangedash 2164}
       \range{pages}{7}
       \verb{urlraw}
@@ -314,6 +358,79 @@
       \endverb
       \verb{url}
       \verb https://www.ijcai.org/proceedings/2019/0299.pdf
+      \endverb
+    \endentry
+    \entry{pr_dorofki2012ann}{inbook}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4f7fa9cbb06c04567de6fce5ea028312}{%
+           family={Dorofki},
+           familyi={D\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b56f42c141db852120120f3f2c849452}{%
+           family={Elshafie},
+           familyi={E\bibinitperiod},
+           given={Ahmed\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7e9810e65be299946cccd4c6d5a9d94}{%
+           family={Jaafar},
+           familyi={J\bibinitperiod},
+           given={Othman},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ead2a58e98e52a086f965d319b483e31}{%
+           family={Karim},
+           familyi={K\bibinitperiod},
+           given={Othman\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7f5264b68edbeea5529cdbcca25b12b}{%
+           family={Mastura},
+           familyi={M\bibinitperiod},
+           given={Sharifah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f1bd9ec00ed57a4705cd422bea7d164c}{%
+           family={IPCBEE},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IACSIT Press}%
+      }
+      \strng{namehash}{cef7ec19532285e9ad3c10f64942248c}
+      \strng{fullhash}{64545f7f20e0bbafe246dcb0deb099f0}
+      \strng{bibnamehash}{64545f7f20e0bbafe246dcb0deb099f0}
+      \strng{authorbibnamehash}{64545f7f20e0bbafe246dcb0deb099f0}
+      \strng{authornamehash}{cef7ec19532285e9ad3c10f64942248c}
+      \strng{authorfullhash}{64545f7f20e0bbafe246dcb0deb099f0}
+      \strng{editorbibnamehash}{f1bd9ec00ed57a4705cd422bea7d164c}
+      \strng{editornamehash}{f1bd9ec00ed57a4705cd422bea7d164c}
+      \strng{editorfullhash}{f1bd9ec00ed57a4705cd422bea7d164c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{2012 International Conference on Environment, Energy and Biotechnology}
+      \field{eventyear}{2012}
+      \field{isbn}{ISSN}
+      \field{title}{Comparison of Artificial Neural Network Transfer Functions Abilities to Simulate Extreme Runoff Data}
+      \field{volume}{33}
+      \field{year}{2012}
+      \field{eventdateera}{ce}
+      \field{pages}{40}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://www.ipcbee.com/vol33/008-ICEEB2012-B021.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ipcbee.com/vol33/008-ICEEB2012-B021.pdf
       \endverb
     \endentry
     \entry{gl_gartner2019ml}{misc}{}
@@ -455,6 +572,124 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
+    \entry{gl_iartificial2019reglogistica}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddb91af041492782615c183480b0a42b}{%
+           family={{IArtificial.net}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddb91af041492782615c183480b0a42b}
+      \strng{fullhash}{ddb91af041492782615c183480b0a42b}
+      \strng{bibnamehash}{ddb91af041492782615c183480b0a42b}
+      \strng{authorbibnamehash}{ddb91af041492782615c183480b0a42b}
+      \strng{authornamehash}{ddb91af041492782615c183480b0a42b}
+      \strng{authorfullhash}{ddb91af041492782615c183480b0a42b}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Matemáticas de la Regresión Logística}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://iartificial.net/regresion-logistica-para-clasificacion/
+      \endverb
+      \verb{url}
+      \verb https://iartificial.net/regresion-logistica-para-clasificacion/
+      \endverb
+    \endentry
+    \entry{gl_iartificial2019descentgrad}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ddb91af041492782615c183480b0a42b}{%
+           family={{IArtificial.net}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddb91af041492782615c183480b0a42b}
+      \strng{fullhash}{ddb91af041492782615c183480b0a42b}
+      \strng{bibnamehash}{ddb91af041492782615c183480b0a42b}
+      \strng{authorbibnamehash}{ddb91af041492782615c183480b0a42b}
+      \strng{authornamehash}{ddb91af041492782615c183480b0a42b}
+      \strng{authorfullhash}{ddb91af041492782615c183480b0a42b}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Método del Gradiente Descendiente}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://iartificial.net/gradiente-descendiente-para-aprendizaje-automatico/
+      \endverb
+      \verb{url}
+      \verb https://iartificial.net/gradiente-descendiente-para-aprendizaje-automatico/
+      \endverb
+    \endentry
+    \entry{gl_ibm2019reglogistica}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regresión Logística}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.ibm.com/support/knowledgecenter/es/SSLVMB_sub/statistics_mainhelp_ddita/spss/regression/idh_lreg.html
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/support/knowledgecenter/es/SSLVMB_sub/statistics_mainhelp_ddita/spss/regression/idh_lreg.html
+      \endverb
+    \endentry
+    \entry{tec_inzaugarat2018ann}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15029c802bff38149cd156bb0c77fe3}{%
+           family={Inzaugarat},
+           familyi={I\bibinitperiod},
+           given={Eugenia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d15029c802bff38149cd156bb0c77fe3}
+      \strng{fullhash}{d15029c802bff38149cd156bb0c77fe3}
+      \strng{bibnamehash}{d15029c802bff38149cd156bb0c77fe3}
+      \strng{authorbibnamehash}{d15029c802bff38149cd156bb0c77fe3}
+      \strng{authornamehash}{d15029c802bff38149cd156bb0c77fe3}
+      \strng{authorfullhash}{d15029c802bff38149cd156bb0c77fe3}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Data Science}
+      \field{title}{Understanding Neural Networks: What, How and Why?}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/understanding-neural-networks-what-how-and-why-18ec703ebd31
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/understanding-neural-networks-what-how-and-why-18ec703ebd31
+      \endverb
+    \endentry
     \entry{pr_jin2019dayssuccess}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b99915a5baf2c1681937b5b89dacad79}{%
@@ -503,13 +738,15 @@
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{event}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019)}
+      \field{eventyear}{2019}
       \field{title}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective}
       \field{year}{2019}
+      \field{eventdateera}{ce}
       \verb{urlraw}
       \verb http://staff.ustc.edu.cn/~cheneh/paper_pdf/2019/Binbin-Jin-AAAI.pdf
       \endverb
@@ -729,15 +966,17 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{event}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{WSDM' 16}
+      \field{eventyear}{2016}
       \field{isbn}{ISBN}
       \field{maintitle}{Proceedings of the Ninth ACM International Conference on web search and data mining}
       \field{title}{Project Success Prediction in Crowdfunding Environments}
       \field{year}{2016}
+      \field{eventdateera}{ce}
       \field{pages}{247\bibrangedash 256}
       \range{pages}{10}
       \verb{doi}
@@ -1104,6 +1343,44 @@
       \field{pages}{229}
       \range{pages}{1}
     \endentry
+    \entry{tec_sancho2017descentgrad}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
+           family={Sancho\bibnamedelima Caparrini},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Sevilla}%
+      }
+      \list{location}{1}{%
+        {Sevilla}%
+      }
+      \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{bibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entrenamiento de Redes Neuronales: mejorando el Gradiente Descendiente}
+      \field{type}{Publicación}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://www.cs.us.es/~fsancho/?e=165
+      \endverb
+      \verb{url}
+      \verb http://www.cs.us.es/~fsancho/?e=165
+      \endverb
+    \endentry
     \entry{tec_sancho2018supnosup}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
@@ -1125,11 +1402,11 @@
       \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Clasificación Supervisada y No Supervisada}
@@ -1195,6 +1472,48 @@
       \endverb
       \verb{url}
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
+      \endverb
+    \endentry
+    \entry{tec_shafique2014dmmodels}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=332b4ce18a23074603a66604f65c05c1}{%
+           family={Shafique},
+           familyi={S\bibinitperiod},
+           given={Umair},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0eaf753cc4e289df4c1a904ad061582}{%
+           family={Qaiser},
+           familyi={Q\bibinitperiod},
+           given={Haseeb},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{272527d786667ede4bc67a374d6f5057}
+      \strng{fullhash}{272527d786667ede4bc67a374d6f5057}
+      \strng{bibnamehash}{272527d786667ede4bc67a374d6f5057}
+      \strng{authorbibnamehash}{272527d786667ede4bc67a374d6f5057}
+      \strng{authornamehash}{272527d786667ede4bc67a374d6f5057}
+      \strng{authorfullhash}{272527d786667ede4bc67a374d6f5057}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Innovation and Scientific Research}
+      \field{number}{1}
+      \field{title}{A Comparative Study of Data Mining Process Models (KDD, CRISP-DM and SEMMA)}
+      \field{volume}{12}
+      \field{year}{2014}
+      \field{pages}{217\bibrangedash 222}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://www.ijisr.issr-journals.org/abstract.php?article=IJISR-14-281-04
+      \endverb
+      \verb{url}
+      \verb http://www.ijisr.issr-journals.org/abstract.php?article=IJISR-14-281-04
       \endverb
     \endentry
     \entry{cr_sl_crowdfundlatam}{misc}{}
@@ -1382,14 +1701,16 @@
       \field{sortinit}{Y}
       \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{event}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}
+      \field{eventyear}{2018}
       \field{isbn}{ISBN}
       \field{title}{Prediction of Crowdfunding Project Success with Deep Learning}
       \field{year}{2018}
+      \field{eventdateera}{ce}
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
       \verb{doi}
