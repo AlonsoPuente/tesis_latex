@@ -20,8 +20,14 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Ilustración del algoritmo gradiente descendiente. Fuente: \cite {tec_sancho2017descentgrad}\relax }}{40}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Actualización de pesos W con el algoritmo. Fuente: \cite {gl_iartificial2019descentgrad}\relax }}{41}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Capa oculta simple MLP con propagación hacia atrás. Fuente: \cite {gl_iartificial2019descentgrad}\relax }}{41}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Redes neuronales de ejemplo. Fuente: \cite {gl_ansrw2019backpropagation}\relax }}{42}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Función de activación tangente hiperbólica. Fuente: \cite {pr_dorofki2012ann}\relax }}{43}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Función de activación puramente lineal. Fuente: \cite {pr_dorofki2012ann}\relax }}{43}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Función de activación Unidad Lineal Rectificada. Fuente: \cite {gl_mlfa2019redesneuronales}\relax }}{43}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Ejemplo de perceptrón simple. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{44}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Ejemplo de perceptrón multicapa. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{45}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{51}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{52}{figure.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

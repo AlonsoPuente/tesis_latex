@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{gl_ansrw2019backpropagation}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=04bc86bc1b4ed0c461689765f7de4178}{%
+           family={{A Not So Random Walk}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{04bc86bc1b4ed0c461689765f7de4178}
+      \strng{fullhash}{04bc86bc1b4ed0c461689765f7de4178}
+      \strng{bibnamehash}{04bc86bc1b4ed0c461689765f7de4178}
+      \strng{authorbibnamehash}{04bc86bc1b4ed0c461689765f7de4178}
+      \strng{authornamehash}{04bc86bc1b4ed0c461689765f7de4178}
+      \strng{authorfullhash}{04bc86bc1b4ed0c461689765f7de4178}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Backpropagation Example With Numbers Step by Step}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.anotsorandomwalk.com/backpropagation-example-with-numbers-step-by-step/
+      \endverb
+      \verb{url}
+      \verb https://www.anotsorandomwalk.com/backpropagation-example-with-numbers-step-by-step/
+      \endverb
+    \endentry
     \entry{bk_alpaydin2014ml}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8351b0b43ad4aed68fb279505ebd7d01}{%
@@ -236,6 +264,68 @@
       \endverb
       \verb{url}
       \verb https://docplayer.es/17897069-Customer-analytics-mejorando-la-inteligencia-del-cliente-a-traves-de-los-datos-jordi-conesa-i-caralt-coordinador-nuria-braulio-gil-josep-curto-diaz.html
+      \endverb
+    \endentry
+    \entry{gl_calvo2017clasifrna}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bc0c62a6a897230e8d9d10ceb7eea5e}{%
+           family={Calvo},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{fullhash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{bibnamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authorbibnamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authornamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authorfullhash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Clasificación de redes neuronales artificiales}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://www.diegocalvo.es/clasificacion-de-redes-neuronales-artificiales/
+      \endverb
+      \verb{url}
+      \verb http://www.diegocalvo.es/clasificacion-de-redes-neuronales-artificiales/
+      \endverb
+    \endentry
+    \entry{gl_calvo2018activrna}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bc0c62a6a897230e8d9d10ceb7eea5e}{%
+           family={Calvo},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{fullhash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{bibnamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authorbibnamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authornamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authorfullhash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Función de activación - Redes neuronales}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/
+      \endverb
+      \verb{url}
+      \verb http://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/
       \endverb
     \endentry
     \entry{pr_chen2015predcrowd}{article}{}
@@ -989,6 +1079,34 @@
       \verb http://dl.acm.org/citation.cfm?id=2835791
       \endverb
     \endentry
+    \entry{gl_mlfa2019redesneuronales}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db155cfe31165af8ceed79d1f1e11fa3}{%
+           family={{Machine Learning for Artists}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{db155cfe31165af8ceed79d1f1e11fa3}
+      \strng{fullhash}{db155cfe31165af8ceed79d1f1e11fa3}
+      \strng{bibnamehash}{db155cfe31165af8ceed79d1f1e11fa3}
+      \strng{authorbibnamehash}{db155cfe31165af8ceed79d1f1e11fa3}
+      \strng{authornamehash}{db155cfe31165af8ceed79d1f1e11fa3}
+      \strng{authorfullhash}{db155cfe31165af8ceed79d1f1e11fa3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Redes Neuronales}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://ml4a.github.io/ml4a/es/neural_networks/
+      \endverb
+      \verb{url}
+      \verb https://ml4a.github.io/ml4a/es/neural_networks/
+      \endverb
+    \endentry
     \entry{bk_maimon2010datamining}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=50aab0fb3aa0116ee1ff0407d4a356f6}{%
@@ -1514,6 +1632,34 @@
       \endverb
       \verb{url}
       \verb http://www.ijisr.issr-journals.org/abstract.php?article=IJISR-14-281-04
+      \endverb
+    \endentry
+    \entry{gl_bigdata2019bigdata}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97f7653f976bc0f179677ed71e788ab6}{%
+           family={{SitioBigData.com}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{fullhash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{bibnamehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{authorbibnamehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{authornamehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{authorfullhash}{97f7653f976bc0f179677ed71e788ab6}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ReLU: Funciones de activación}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://sitiobigdata.com/2019/06/22/relu-funciones-activacion/
+      \endverb
+      \verb{url}
+      \verb http://sitiobigdata.com/2019/06/22/relu-funciones-activacion/
       \endverb
     \endentry
     \entry{cr_sl_crowdfundlatam}{misc}{}

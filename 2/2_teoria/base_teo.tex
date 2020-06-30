@@ -320,7 +320,14 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\end{center}
 			\end{figure}
 			
-			Para entender mejor la teoría y la fórmula de actualización de pesos, se seguirá el siguiente ejemplo del conjunto de redes de la Figura 20.
+			Para entender mejor la teoría y la fórmula de actualización de pesos, se seguirá el siguiente ejemplo del conjunto de redes de la Figura \ref{2:fig17}.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.5\textwidth]{2/figures/rna_pesos.jpg}
+					\caption{Redes neuronales de ejemplo. Fuente: \cite{gl_ansrw2019backpropagation}}
+					\label{2:fig17}
+				\end{center}
+			\end{figure}
 			
 			Se tiene una red neuronal con tres nodos de entradas (x1=1, x2=4 y x3=5) con dos pesos respectivos cada una (W1=0.1 y W2=0.2 para x1; W3=0.3 y W4=0.4 para x2; W5=0.5 y W6=0.6 para x3), dos capas ocultas (h1 y h2) con dos peso cada una (W7=0.7 y W8=0.8 para h1; W9=0.9 y W10=0.1 para h2) y dos nodos de salida (o1 y o2). El proceso normal para calcular el valor del nodo final se da, tanto con los nodos de entrada y los de capa oculta, mediante la sumatoria de producto de cada peso con su valor, es decir, mediante la fórmula de las RNA (colocar formula), al mismo tiempo que devuelve un valor del error cometido. Este último se calcula mediante la siguiente ecuación:
 			Donde Tk es la salida correcta de cada nodo de salida, y Ok es la salida actual que cada uno genera. Con estos errores calculados, se retrocede hacia la capa oculta y se procede a calcular los nuevos pesos para sus nodos. La fórmula del cálculo de los mismos es:
@@ -331,18 +338,54 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			
 			Finalmente, se retrocede hacia los nodos de entrada y se repite el mismo proceso para la actualización de sus pesos y errores.
 		\end{itemize}
-	\item \textbf{Función tangente hiperbólica}: Esta función está relacionada con una sigmoide bipolar. Sin embargo, sus salidas estarán en el rango de -1 y +1. Para redes neuronales, donde la velocidad es más importante que la forma de la función misma, es recomendable usar esta. Se representa como en la Figura 21 y su fórmula para calcular su nuevo valor es:
+	\item \textbf{Función tangente hiperbólica}: Esta función está relacionada con una sigmoide bipolar. Sin embargo, sus salidas estarán en el rango de -1 y +1. Para redes neuronales, donde la velocidad es más importante que la forma de la función misma, es recomendable usar esta. Se representa como en la Figura \ref{2:fig18} y su fórmula para calcular su nuevo valor es:
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.3\textwidth]{2/figures/hiperbolica.jpg}
+			\caption{Función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}}
+			\label{2:fig18}
+		\end{center}
+	\end{figure}
 	
-	\item \textbf{Función puramente lineal (purelin)}: Esta función se caracteriza porque su salida es igual a su entrada debido a su linealidad. Normalmente se usa para obtener los mismos valores de la entrada. Se representa como en la Figura 22 y su fórmula para calcular su nuevo valor es:
+	\item \textbf{Función puramente lineal (purelin)}: Esta función se caracteriza porque su salida es igual a su entrada debido a su linealidad. Normalmente se usa para obtener los mismos valores de la entrada. Se representa como en la Figura \ref{2:fig19} y su fórmula para calcular su nuevo valor es:
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.3\textwidth]{2/figures/purelin.jpg}
+			\caption{Función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}}
+			\label{2:fig19}
+		\end{center}
+	\end{figure}
 	
-	\item \textbf{Función Unidad Lineal Rectificada (ReLU)}: Esta función se caracteriza por, además de conservar los valores positivos, convertir los valores negativos de entrada en 0, esto con la finalidad de no considerarlos en la siguiente capa de convolución como en el caso de procesamiento de imágenes (poner ref). Si bien tiene un buen desempeño en redes convolucionales y es muy usada para el procesamiento de imágenes, al no estar acotada pueden morirse demasiadas neuronas (poner ref). Se representa como en la Figura 23 y su fórmula para calcular su nuevo valor es:
+	\item \textbf{Función Unidad Lineal Rectificada (ReLU)}: Esta función se caracteriza por, además de conservar los valores positivos, convertir los valores negativos de entrada en 0, esto con la finalidad de no considerarlos en la siguiente capa de convolución como en el caso de procesamiento de imágenes \parencite{gl_bigdata2019bigdata}. Si bien tiene un buen desempeño en redes convolucionales y es muy usada para el procesamiento de imágenes, al no estar acotada pueden morirse demasiadas neuronas \parencite{gl_calvo2018activrna}. Se representa como en la Figura \ref{2:fig20} y su fórmula para calcular su nuevo valor es:
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.3\textwidth]{2/figures/relu.jpg}
+			\caption{Función de activación Unidad Lineal Rectificada. Fuente: \cite{gl_mlfa2019redesneuronales}}
+			\label{2:fig20}
+		\end{center}
+	\end{figure}
 	\end{itemize}
 	
-	Además de existir distintas funciones de activación, las redes neuronales artificiales se clasifican según la topología de red, siendo algunas de las más importantes (poner ref).
+	Además de existir distintas funciones de activación, las redes neuronales artificiales se clasifican según la topología de red, siendo algunas de las más importantes \parencite{gl_calvo2017clasifrna}.
+	
 	\begin{itemize}
-		\item \textbf{Red Neuronal Monocapa – Perceptrón simple}: Es la red neuronal más simple ya que está compuesta solamente de una capa de neuronas que componen varios nodos de entrada para proyectar una capa de neuronas de salida, como se aprecia en la Figura 24. Esta última capa se calcula usando la misma Ecuación 4 que implica la suma de productos de cada uno de los pesos de los nodos de entrada con sus instancias, añadiéndole finalmente el sesgo, aquel que controla la predisposición de la neurona a disparar un 1 o 0 independientemente de los pesos, para que el valor resultante se le aplique la función de activación que ayudarán a modelar funciones curvas o no triviales (poner ref).
+		\item \textbf{Red Neuronal Monocapa – Perceptrón simple}: Es la red neuronal más simple ya que está compuesta solamente de una capa de neuronas que componen varios nodos de entrada para proyectar una capa de neuronas de salida, como se aprecia en la Figura \ref{2:fig21}. Esta última capa se calcula usando la misma Ecuación 4 que implica la suma de productos de cada uno de los pesos de los nodos de entrada con sus instancias, añadiéndole finalmente el sesgo, aquel que controla la predisposición de la neurona a disparar un 1 o 0 independientemente de los pesos, para que el valor resultante se le aplique la función de activación que ayudarán a modelar funciones curvas o no triviales \parencite{gl_mlfa2019redesneuronales}.
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[width=0.65\textwidth]{2/figures/perceptron_simple.jpg}
+				\caption{Ejemplo de perceptrón simple. Fuente: \cite{gl_calvo2017clasifrna}}
+				\label{2:fig21}
+			\end{center}
+		\end{figure}
 		
-		\item \textbf{Red Neuronal Multicapa – Perceptrón multicapa}: Con arquitectura similar al perceptrón simple, con el añadido de contener capas intermedias entre la capa de neuronas de entrada y la de salida, conocidas como capas ocultas, como en el ejemplo de la Figura 25.
+		\item \textbf{Red Neuronal Multicapa – Perceptrón multicapa}: Con arquitectura similar al perceptrón simple, con el añadido de contener capas intermedias entre la capa de neuronas de entrada y la de salida, conocidas como capas ocultas, como en el ejemplo de la Figura \ref{2:fig22}.
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[width=0.65\textwidth]{2/figures/perceptron_multicapa.jpg}
+				\caption{Ejemplo de perceptrón multicapa. Fuente: \cite{gl_calvo2017clasifrna}}
+				\label{2:fig22}
+			\end{center}
+		\end{figure}
 		
 		\item \textbf{Redes Neuronales Convolucionales (CNN)}: También conocidas por su nombre en inglés Convolutional Neural Networks, se diferencia del perceptrón multicapa en que cada neurona no necesita estar unida con todas las que le siguen, sino más bien solo con un subgrupo de estas con el fin de reducir la cantidad de neuronas necesarias para su funcionamiento, como se observa en la Figura 26 (poner ref).
 		
