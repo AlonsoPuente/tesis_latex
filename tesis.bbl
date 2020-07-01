@@ -297,7 +297,7 @@
       \verb http://www.diegocalvo.es/clasificacion-de-redes-neuronales-artificiales/
       \endverb
     \endentry
-    \entry{gl_calvo2018activrna}{misc}{}
+    \entry{gl_calvo2018rnn}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8bc0c62a6a897230e8d9d10ceb7eea5e}{%
            family={Calvo},
@@ -315,6 +315,39 @@
       \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definición de Red Neuronal Recurrente}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.diegocalvo.es/red-neuronal-recurrente/
+      \endverb
+      \verb{url}
+      \verb http://www.diegocalvo.es/red-neuronal-recurrente/
+      \endverb
+    \endentry
+    \entry{gl_calvo2018activrna}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bc0c62a6a897230e8d9d10ceb7eea5e}{%
+           family={Calvo},
+           familyi={C\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{fullhash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{bibnamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authorbibnamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authornamehash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \strng{authorfullhash}{8bc0c62a6a897230e8d9d10ceb7eea5e}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -521,6 +554,36 @@
       \endverb
       \verb{url}
       \verb http://www.ipcbee.com/vol33/008-ICEEB2012-B021.pdf
+      \endverb
+    \endentry
+    \entry{tec_figueroa_convolucion}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db98454c38978c7566e44d388bed68b6}{%
+           family={Figueroa\bibnamedelima M.},
+           familyi={F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Geovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db98454c38978c7566e44d388bed68b6}
+      \strng{fullhash}{db98454c38978c7566e44d388bed68b6}
+      \strng{bibnamehash}{db98454c38978c7566e44d388bed68b6}
+      \strng{authorbibnamehash}{db98454c38978c7566e44d388bed68b6}
+      \strng{authornamehash}{db98454c38978c7566e44d388bed68b6}
+      \strng{authorfullhash}{db98454c38978c7566e44d388bed68b6}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista digital Matemática}
+      \field{title}{Convolución y transformadas}
+      \verb{urlraw}
+      \verb https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node7.html
+      \endverb
+      \verb{url}
+      \verb https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node7.html
       \endverb
     \endentry
     \entry{gl_gartner2019ml}{misc}{}
@@ -1020,14 +1083,60 @@
       \verb https://www.kickstarter.com/press?ref=hello
       \endverb
     \endentry
+    \entry{tec_li2019cnn}{report}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=9147b1a8523fee33e02ea8ada6fde536}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Fei-Fei},
+           giveni={F\bibinithyphendelim F\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=90edc587e1d523d4e173b1fe6e733445}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0417cb1f3ec668f109ab461c11781f2e}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={Serena},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Standford}%
+      }
+      \strng{namehash}{dc10d9d8a1f2ebd9a4e16ac91ababd91}
+      \strng{fullhash}{a3dc95817445ba76893c641b4ad1cbed}
+      \strng{bibnamehash}{a3dc95817445ba76893c641b4ad1cbed}
+      \strng{authorbibnamehash}{a3dc95817445ba76893c641b4ad1cbed}
+      \strng{authornamehash}{dc10d9d8a1f2ebd9a4e16ac91ababd91}
+      \strng{authorfullhash}{a3dc95817445ba76893c641b4ad1cbed}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convolutional Neural Networks}
+      \field{type}{Publicación}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
+      \endverb
+      \verb{url}
+      \verb http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
+      \endverb
+    \endentry
     \entry{pr_li2016predcrowd}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=92e14a8c19eb5a0c7c199c85db74f106}{%
+        {{un=1,uniquepart=given,hash=92e14a8c19eb5a0c7c199c85db74f106}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Yan},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=621aa097f1e0719c8b7222c3fe35983c}{%
            family={Rakesh},
            familyi={R\bibinitperiod},
@@ -1057,7 +1166,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{event}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{WSDM' 16}
@@ -1077,6 +1185,37 @@
       \endverb
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?id=2835791
+      \endverb
+    \endentry
+    \entry{tec_lopez2016cnnTF}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea42fdc77a0700056abc88c99c3629eb}{%
+           family={López\bibnamedelima Briega},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Raúl\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea42fdc77a0700056abc88c99c3629eb}
+      \strng{fullhash}{ea42fdc77a0700056abc88c99c3629eb}
+      \strng{bibnamehash}{ea42fdc77a0700056abc88c99c3629eb}
+      \strng{authorbibnamehash}{ea42fdc77a0700056abc88c99c3629eb}
+      \strng{authornamehash}{ea42fdc77a0700056abc88c99c3629eb}
+      \strng{authorfullhash}{ea42fdc77a0700056abc88c99c3629eb}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Redes neuronales convolucionales con TensorFlow}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://relopezbriega.github.io/blog/2016/08/02/redes-neuronales-convolucionales-con-tensorflow/
+      \endverb
+      \verb{url}
+      \verb https://relopezbriega.github.io/blog/2016/08/02/redes-neuronales-convolucionales-con-tensorflow/
       \endverb
     \endentry
     \entry{gl_mlfa2019redesneuronales}{misc}{}
@@ -1269,6 +1408,39 @@
       \field{journaltitle}{Oxford University Press}
       \field{title}{Computational Intelligence: A Logical Approach}
       \field{year}{1998}
+    \endentry
+    \entry{tec_prabhu2018cnn}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e2e01a4d53a604d8b0129346b009ad3}{%
+           family={Prabhu},
+           familyi={P\bibinitperiod},
+           given={Raghav},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e2e01a4d53a604d8b0129346b009ad3}
+      \strng{fullhash}{0e2e01a4d53a604d8b0129346b009ad3}
+      \strng{bibnamehash}{0e2e01a4d53a604d8b0129346b009ad3}
+      \strng{authorbibnamehash}{0e2e01a4d53a604d8b0129346b009ad3}
+      \strng{authornamehash}{0e2e01a4d53a604d8b0129346b009ad3}
+      \strng{authorfullhash}{0e2e01a4d53a604d8b0129346b009ad3}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{3}
+      \field{title}{Understanding of Convolutional Neural Network (CNN) — Deep Learning}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148
+      \endverb
     \endentry
     \entry{cr_gestion2015emprendper}{periodical}{}
       \name{author}{1}{}{%

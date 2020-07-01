@@ -387,51 +387,130 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\end{center}
 		\end{figure}
 		
-		\item \textbf{Redes Neuronales Convolucionales (CNN)}: También conocidas por su nombre en inglés Convolutional Neural Networks, se diferencia del perceptrón multicapa en que cada neurona no necesita estar unida con todas las que le siguen, sino más bien solo con un subgrupo de estas con el fin de reducir la cantidad de neuronas necesarias para su funcionamiento, como se observa en la Figura 26 (poner ref).
+		\item \textbf{Redes Neuronales Convolucionales (CNN)}: También conocidas por su nombre en inglés \textit{Convolutional Neural Networks}, se diferencia del perceptrón multicapa en que cada neurona no necesita estar unida con todas las que le siguen, sino más bien solo con un subgrupo de estas con el fin de reducir la cantidad de neuronas necesarias para su funcionamiento, como se observa en la Figura \ref{2:fig23} \parencite{gl_calvo2017clasifrna}.
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[width=0.65\textwidth]{2/figures/cnn.jpg}
+				\caption{Ejemplo de red neuronal convolucional. Fuente: \cite{gl_calvo2017clasifrna}}
+				\label{2:fig23}
+			\end{center}
+		\end{figure}
 		
-		Hoy en día, las redes neuronales convolucionales tienen múltiples usos desde que la idea fue concebida. Algunos de los problemas en las que pueden ser usados son de clasificación de objetos, recuperación de imágenes, detección y segmentación de objetos, distorsión y filtros de imágenes, por citar los ejemplos más comunes. El modelo de CNN más conocido es “AlexNet” (2012) por ser uno de los pioneros en clasificar imágenes (poner ref).
+		Hoy en día, las redes neuronales convolucionales tienen múltiples usos desde que la idea fue concebida. Algunos de los problemas en las que pueden ser usados son de clasificación de objetos, recuperación de imágenes, detección y segmentación de objetos, distorsión y filtros de imágenes, por citar los ejemplos más comunes. El modelo de CNN más conocido es “AlexNet” (2012) por ser uno de los pioneros en clasificar imágenes \parencite{tec_li2019cnn}.
 		
-		Estas redes tienen su origen en el Neocognitron introducido por Fukushima en 1980 como modelo de red neuronal para el mecanismo de reconocimiento de patrón visual sin la enseñanza de un “profesor” (ver Figura 27), mismo que en el año 1998 sería mejorado por LeCun, Bottou, Bengio y Haffner al agregar un método de aprendizaje de gradiente aplicado al reconocimiento de documento basado en la propagación hacia atrás (ver Figura 28).
+		Estas redes tienen su origen en el Neocognitron introducido por Fukushima en 1980 como modelo de red neuronal para el mecanismo de reconocimiento de patrón visual sin la enseñanza de un “profesor” (ver Figura \ref{2:fig24}), mismo que en el año 1998 sería mejorado por LeCun, Bottou, Bengio y Haffner al agregar un método de aprendizaje de gradiente aplicado al reconocimiento de documento basado en la propagación hacia atrás (ver Figura \ref{2:fig25}) \parencite{tec_li2019cnn}.
+		\begin{figure}[htbp]
+			\begin{center}
+				\includegraphics[width=0.6\textwidth]{2/figures/neocognitron.jpg}
+				\caption{Modelo Neocognitron de Fukushima (1980). Fuente: \cite{tec_li2019cnn}}
+				\label{2:fig24}
+				
+				\includegraphics[width=0.8\textwidth]{2/figures/lenet5.jpg}
+				\caption{Modelo LeNet-5 de LeCun (1998). Fuente: \cite{tec_li2019cnn}}
+				\label{2:fig25}
+			\end{center}
+		\end{figure}
 		
-		Estos modelos se inspiraron en el estudio de la información visual en la corteza donde se ubican hasta 5 áreas. La primera, V1, contiene la información visual donde sus neuronas se ocupan de características visuales de bajo nivel, alimentando así a otras áreas adyacentes. Cada una de ellas se encarga de aspectos más específicos y detallados de la información obtenida. La idea de su implementación es la de solucionar el problema que surgen al escalar imágenes de mucha definición por las redes neuronales ordinarias. Por ello, este tipo de redes trabajan modelando de forma consecutiva piezas pequeñas de información para luego combinarlas en sus capas más profundas (poner ref).
+		Estos modelos se inspiraron en el estudio de la información visual en la corteza donde se ubican hasta 5 áreas. La primera, V1, contiene la información visual donde sus neuronas se ocupan de características visuales de bajo nivel, alimentando así a otras áreas adyacentes. Cada una de ellas se encarga de aspectos más específicos y detallados de la información obtenida. La idea de su implementación es la de solucionar el problema que surgen al escalar imágenes de mucha definición por las redes neuronales ordinarias. Por ello, este tipo de redes trabajan modelando de forma consecutiva piezas pequeñas de información para luego combinarlas en sus capas más profundas \parencite{tec_lopez2016cnnTF}.
 		
-		Su nombre deriva del concepto convolución. La convolución es un término en las matemáticas usado como operador matemático que convierte dos funciones f y g en una tercera función en donde la primera se superpone a una versión invertida y trasladada de la segunda, así como para denotar la distribución de la función de probabilidad de la suma de dos variables independientes aleatorias. Esta se da por la siguiente fórmula (poner ref).
+		Su nombre deriva del concepto convolución. La convolución es un término en las matemáticas usado como operador matemático que convierte dos funciones f y g en una tercera función en donde la primera se superpone a una versión invertida y trasladada de la segunda, así como para denotar la distribución de la función de probabilidad de la suma de dos variables independientes aleatorias. Esta se da por la siguiente fórmula \parencite{tec_figueroa_convolucion}.
 		
 		Donde el rango puede variar entre un conjunto finito (como en la fórmula desde 0 hasta un valor t) o uno infinito.
 		
-		La estructura de las Redes Neuronales Convolucionales se constituye en tres tipos de capas (poner ref).
+		La estructura de las Redes Neuronales Convolucionales se constituye en tres tipos de capas \parencite{tec_lopez2016cnnTF}.
 		\begin{itemize}
-			\item \textbf{Capa convolucional (Convolutional Layer)}: Es la capa que hace distinta a esta red de otros tipos de redes neuronales artificiales. Se aplica la operación de la convolución, que recibe como entrada (input en inglés) a la imagen para luego aplicarle un filtro (kernel en inglés), devolviendo un mapa de las características de la imagen original, logrando así reducir el tamaño de los parámetros, como se observa en la Figura 29.
+			\item \textbf{Capa convolucional (\textit{Convolutional Layer})}: Es la capa que hace distinta a esta red de otros tipos de redes neuronales artificiales. Se aplica la operación de la convolución, que recibe como entrada (\textit{input} en inglés) a la imagen para luego aplicarle un filtro (\textit{kernel} en inglés), devolviendo un mapa de las características de la imagen original, logrando así reducir el tamaño de los parámetros, como se observa en la Figura \ref{2:fig26}.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.8\textwidth]{2/figures/convolucion.jpg}
+					\caption{Ejecución de la convolución en una entrada. Fuente: \cite{tec_lopez2016cnnTF}}
+					\label{2:fig26}
+				\end{center}
+			\end{figure}
 			
-			Por ejemplo, en la anterior figura se tiene una imagen de entrada con dimensiones de 32 de alto, 32 de ancho y 3 de profundidad (32x32x3). A ella se le aplica un filtro de dimensiones (5x5x3) que recorrerá toda la imagen para extraer características de cada pixel. Tanto la profundidad de la entrada como del filtro siempre son iguales. El resultado de tomar un producto escalar entre el filtro y un pequeño fragmento de 5x5x3 de la imagen es un número, generando así un mapa de activación de nuevas dimensiones (28x28x1). Por cada n filtros aplicados a la entrada se generan n de estos mapas. Al final, la cantidad de mapas de activación determinará una nueva imagen de n de profundidad, como en la Figura 30.
+			Por ejemplo, en la anterior figura se tiene una imagen de entrada con dimensiones de 32 de alto, 32 de ancho y 3 de profundidad (32x32x3). A ella se le aplica un filtro de dimensiones (5x5x3) que recorrerá toda la imagen para extraer características de cada pixel. Tanto la profundidad de la entrada como del filtro siempre son iguales. El resultado de tomar un producto escalar entre el filtro y un pequeño fragmento de 5x5x3 de la imagen es un número, generando así un mapa de activación de nuevas dimensiones (28x28x1). Por cada n filtros aplicados a la entrada se generan n de estos mapas. Al final, la cantidad de mapas de activación determinará una nueva imagen de n de profundidad, como en la Figura \ref{2:fig27}.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.7\textwidth]{2/figures/filtros_cnn.jpg}
+					\caption{Generación de una nueva imagen a partir de filtros. Fuente: \cite{tec_li2019cnn}}
+					\label{2:fig27}
+				\end{center}
+			\end{figure}
 			
-			Asimismo, cada vez que se aplica una convolución a una imagen, se aplicará una función de activación como en la secuencia de la Figura 31.
+			Asimismo, cada vez que se aplica una convolución a una imagen, se aplicará una función de activación como en la secuencia de la Figura \ref{2:fig28}.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.7\textwidth]{2/figures/filtros_cnn.jpg}
+					\caption{Secuencia de varias capas convolucionales. Fuente: \cite{tec_li2019cnn}}
+					\label{2:fig28}
+				\end{center}
+			\end{figure}
 			
-			A nivel visual, en la Figura 32 se aprecia un ejemplo de los resultados de aplicar varias convoluciones a una imagen.
+			A nivel visual, en la Figura \ref{2:fig29} se aprecia un ejemplo de los resultados de aplicar varias convoluciones a una imagen.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.75\textwidth]{2/figures/features_cnn.jpg}
+					\caption{Extracción de características a partir de convoluciones. Fuente: \cite{tec_li2019cnn}}
+					\label{2:fig29}
+				\end{center}
+			\end{figure}
 			
-			Finalmente, se calcula el volumen de la dimensión de la salida de la Figura 33 mediante la siguiente ecuación:
+			Finalmente, se calcula el volumen de la dimensión de la salida de la Figura \ref{2:fig30} mediante la siguiente ecuación:
 			Se tiene una entrada de dimensiones (h x w x d).
 			Se tiene un filtro de dimensiones (fh  x fw  x d).
-			\item \textbf{Capa de reducción (Pooling Layer)}: Esta capa le sucede a la capa convolucional (luego de aplicar la función de activación). Sirve principalmente para reducir las dimensiones espaciales del volumen de la entrada (alto x ancho) para la siguiente capa convolucional. Sin embargo, no afecta la profundidad de la misma. Esta operación que realiza se le conoce también como “reducción de muestreo” debido a que, si bien logra reducir las dimensiones para procesar mejor en la siguiente capa, también conlleva perder información. Por el contrario de lo que se piensa, además de reducir la sobrecarga del cálculo para las siguientes capas, el modelo se beneficia también disminuyendo el sobreajuste.
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.75\textwidth]{2/figures/matriz_cnn.jpg}
+					\caption{Ejemplo de matriz de imagen de entrada y un filtro. Fuente: \cite{tec_prabhu2018cnn}}
+					\label{2:fig30}
+				\end{center}
+			\end{figure}
 			
-			Para determinar las dimensiones de la nueva imagen generada (siempre que sea cuadrada, es decir, lados iguales como en la Figura 34) con esta capa, se aplica la siguiente fórmula:
+			\item \textbf{Capa de reducción (\textit{Pooling Layer})}: Esta capa le sucede a la capa convolucional (luego de aplicar la función de activación). Sirve principalmente para reducir las dimensiones espaciales del volumen de la entrada (alto x ancho) para la siguiente capa convolucional. Sin embargo, no afecta la profundidad de la misma. Esta operación que realiza se le conoce también como “reducción de muestreo” debido a que, si bien logra reducir las dimensiones para procesar mejor en la siguiente capa, también conlleva perder información. Por el contrario de lo que se piensa, además de reducir la sobrecarga del cálculo para las siguientes capas, el modelo se beneficia también disminuyendo el sobreajuste.
 			
-			Donde N es el tamaño del lado de la imagen de entrada, F es el tamaño del lado del filtro y Paso (Stride en inglés) es el número de desplazamiento de píxeles sobre la matriz de entrada. Por ejemplo, cuando el paso es 1, los filtros se mueven a 1 pixel por vez, cuando el paso es 2, se mueven a 2 píxeles (como en la Figura 35) y así sucesivamente (poner ref).
+			Para determinar las dimensiones de la nueva imagen generada (siempre que sea cuadrada, es decir, lados iguales como en la Figura \ref{2:fig31}) con esta capa, se aplica la siguiente fórmula:
 			
-			Si, por el contrario, se desea aplicar convolución a una imagen sin afectar sus dimensiones luego de pasar por la capa de reducción, se construye bordes de ceros de n píxeles. A este tamaño de borde se le llama Relleno (pad en inglés), por lo que el tamaño de la nueva salida se obtiene mediante la siguiente fórmula:
+			Donde N es el tamaño del lado de la imagen de entrada, F es el tamaño del lado del filtro y Paso (Stride en inglés) es el número de desplazamiento de píxeles sobre la matriz de entrada. Por ejemplo, cuando el paso es 1, los filtros se mueven a 1 pixel por vez, cuando el paso es 2, se mueven a 2 píxeles (como en la Figura \ref{2:fig32}) y así sucesivamente (poner ref).
+			\begin{figure}[htbp]
+				\begin{center}
+					\includegraphics[width=0.3\textwidth]{2/figures/input_filter_cnn.jpg}
+					\caption{Dimensiones de una entrada y un filtro. Fuente: \cite{tec_li2019cnn}}
+					\label{2:fig31}
+					
+					\includegraphics[width=0.7\textwidth]{2/figures/stride_cnn.jpg}
+					\caption{Paso de 2 píxeles por parte de un filtro. Fuente: \cite{tec_prabhu2018cnn}}
+					\label{2:fig32}
+				\end{center}
+			\end{figure}
 			
-			Existen diferentes tipos de reducción (poner ref):
+			Si, por el contrario, se desea aplicar convolución a una imagen sin afectar sus dimensiones luego de pasar por la capa de reducción, se construye bordes de ceros de n píxeles. A este tamaño de borde se le llama Relleno (\textit{pad} en inglés), por lo que el tamaño de la nueva salida se obtiene mediante la siguiente fórmula:
+			
+			Existen diferentes tipos de reducción \parencite{tec_prabhu2018cnn}:
 			\begin{itemize}
 				\item Max Pooling: Toma el elemento más grande dentro del mapa de características.
 				\item Average Pooling: Toma el promedio de los elementos dentro del mapa de características.
 				\item Sum Pooling: Toma la suma total de los elementos dentro del mapa de características.
 			\end{itemize}
 			
-			\item \textbf{Capa totalmente conectada (Fully Connected Layer)}: Al final de las capas de convolución y reducción, se usan redes completamente conectadas a cada pixel considerando que cada uno como una neurona separada al igual que en una red neuronal regular (poner ref). En esta capa, se aplana la matriz de todas las características obtenidas anteriormente a un vector y se alinea en una capa completamente conectada a una red neuronal (Figura 36).
+			\item \textbf{Capa totalmente conectada (\textit{Fully Connected Layer})}: Al final de las capas de convolución y reducción, se usan redes completamente conectadas a cada pixel considerando que cada uno como una neurona separada al igual que en una red neuronal regular \parencite{tec_lopez2016cnnTF}. En esta capa, se aplana la matriz de todas las características obtenidas anteriormente a un vector y se alinea en una capa completamente conectada a una red neuronal (Figura \ref{2:fig33}).
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=0.75\textwidth]{2/figures/fully_conected_cnn.jpg}
+					\caption{Aplanado de matrices luego de agrupar la capa. Fuente: \cite{tec_prabhu2018cnn}}
+					\label{2:fig33}
+				\end{center}
+			\end{figure}
 		\end{itemize}
-		Para concluir, se muestra a continuación (Figura 37) la representación de la arquitectura completa de una Red Neuronal Convolucional resumiendo los conceptos anteriores.
+		Para concluir, se muestra a continuación (Figura \ref{2:fig34}) la representación de la arquitectura completa de una Red Neuronal Convolucional resumiendo los conceptos anteriores.
+		\begin{figure}[h]
+			\begin{center}
+				\includegraphics[width=0.8\textwidth]{2/figures/arquitectura_cnn.jpg}
+				\caption{Arquitectura completa de una CNN. Fuente: \cite{tec_prabhu2018cnn}}
+				\label{2:fig34}
+			\end{center}
+		\end{figure}
 		
-		\item \textbf{Redes Neuronales Recurrentes (RNN)}: También conocidas por su nombre en inglés Recurrent Neural Networks, se caracterizan por no tener una estructura de capas como se aprecia en la Figura 38, sino más bien por permitir conexiones entre sus neuronas de manera arbitraria para crear temporalidad y que toda la red obtenga memoria. Todo esto permite generar una red muy potente para el análisis de secuencias, entre algunos ejemplos se mencionan el análisis de textos, sonidos o video (poner ref).
+		\item \textbf{Redes Neuronales Recurrentes (RNN)}: También conocidas por su nombre en inglés \textit{Recurrent Neural Networks}, se caracterizan por no tener una estructura de capas como se aprecia en la Figura 38, sino más bien por permitir conexiones entre sus neuronas de manera arbitraria para crear temporalidad y que toda la red obtenga memoria. Todo esto permite generar una red muy potente para el análisis de secuencias, entre algunos ejemplos se mencionan el análisis de textos, sonidos o video \parencite{gl_calvo2018rnn}.
 	\end{itemize}
 	\item \textbf{Máquina de Vectores de Soporte (SVM)}: Es un algoritmo usado para tareas de regresión y clasificación, buscando un hiperplano en un espacio N-dimensional que clasifique claramente los puntos de datos a partir de la distancia máxima entre los puntos de datos de ambas clases. Para ello, maximiza la distancia del margen proporcionando cierto refuerzo para que los puntos de datos futuros puedan clasificarse con más confianza, es decir, que permita distinguir claramente dos clases, como se muestra en la Figura 39 (poner ref).
 	

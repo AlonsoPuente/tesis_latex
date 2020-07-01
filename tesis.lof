@@ -26,8 +26,20 @@
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Función de activación Unidad Lineal Rectificada. Fuente: \cite {gl_mlfa2019redesneuronales}\relax }}{43}{figure.caption.25}%
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Ejemplo de perceptrón simple. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{44}{figure.caption.26}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces Ejemplo de perceptrón multicapa. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{45}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Ejemplo de red neuronal convolucional. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{45}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Modelo Neocognitron de Fukushima (1980). Fuente: \cite {tec_li2019cnn}\relax }}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Modelo LeNet-5 de LeCun (1998). Fuente: \cite {tec_li2019cnn}\relax }}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Ejecución de la convolución en una entrada. Fuente: \cite {tec_lopez2016cnnTF}\relax }}{47}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Generación de una nueva imagen a partir de filtros. Fuente: \cite {tec_li2019cnn}\relax }}{47}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Secuencia de varias capas convolucionales. Fuente: \cite {tec_li2019cnn}\relax }}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Extracción de características a partir de convoluciones. Fuente: \cite {tec_li2019cnn}\relax }}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Ejemplo de matriz de imagen de entrada y un filtro. Fuente: \cite {tec_prabhu2018cnn}\relax }}{49}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Dimensiones de una entrada y un filtro. Fuente: \cite {tec_li2019cnn}\relax }}{49}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Paso de 2 píxeles por parte de un filtro. Fuente: \cite {tec_prabhu2018cnn}\relax }}{49}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Aplanado de matrices luego de agrupar la capa. Fuente: \cite {tec_prabhu2018cnn}\relax }}{50}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Arquitectura completa de una CNN. Fuente: \cite {tec_prabhu2018cnn}\relax }}{51}{figure.caption.37}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{52}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{56}{figure.caption.38}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
