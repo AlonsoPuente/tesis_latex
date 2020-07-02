@@ -222,6 +222,42 @@
       \verb http://laboratorios.fi.uba.ar/lsi/bertona-tesisingenieriainformatica.pdf
       \endverb
     \endentry
+    \entry{tec_betancourt2005svm}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58f52aa704c7a7a876b6bcf3e72f85e8}{%
+           family={Betancourt},
+           familyi={B\bibinitperiod},
+           given={Gustavo\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Tecnológica de Pereira}%
+      }
+      \strng{namehash}{58f52aa704c7a7a876b6bcf3e72f85e8}
+      \strng{fullhash}{58f52aa704c7a7a876b6bcf3e72f85e8}
+      \strng{bibnamehash}{58f52aa704c7a7a876b6bcf3e72f85e8}
+      \strng{authorbibnamehash}{58f52aa704c7a7a876b6bcf3e72f85e8}
+      \strng{authornamehash}{58f52aa704c7a7a876b6bcf3e72f85e8}
+      \strng{authorfullhash}{58f52aa704c7a7a876b6bcf3e72f85e8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia et Technica}
+      \field{month}{Abril}
+      \field{title}{Las Máquinas de Soporte Vectorial (SVMs)}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://revistas.utp.edu.co/index.php/revistaciencia/article/view/6895/4139
+      \endverb
+      \verb{url}
+      \verb https://revistas.utp.edu.co/index.php/revistaciencia/article/view/6895/4139
+      \endverb
+    \endentry
     \entry{tec_braulio2015metodologiasdm}{report}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7ac18b570cb3e16d056bcf1bf603d25a}{%
@@ -415,7 +451,6 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{Pacific Asia Conference on Information Systems (PACIS) 2015 Proceedings}
       \field{eventyear}{2015}
-      \field{isbn}{ISBN}
       \field{title}{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns}
       \field{year}{2015}
       \field{eventdateera}{ce}
@@ -482,6 +517,61 @@
       \verb{url}
       \verb https://www.ijcai.org/proceedings/2019/0299.pdf
       \endverb
+    \endentry
+    \entry{cr_colgren2014risecrwd}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d702637e7ebb7502f91baeed338aade8}{%
+           family={Colgren},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d702637e7ebb7502f91baeed338aade8}
+      \strng{fullhash}{d702637e7ebb7502f91baeed338aade8}
+      \strng{bibnamehash}{d702637e7ebb7502f91baeed338aade8}
+      \strng{authorbibnamehash}{d702637e7ebb7502f91baeed338aade8}
+      \strng{authornamehash}{d702637e7ebb7502f91baeed338aade8}
+      \strng{authorfullhash}{d702637e7ebb7502f91baeed338aade8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Strategic Finance}
+      \field{number}{10}
+      \field{title}{The rise of crowdfunding: Social media, big data, cloud technologies}
+      \field{volume}{95}
+      \field{year}{2014}
+      \field{pages}{56}
+      \range{pages}{1}
+    \endentry
+    \entry{cr_collins2014crwd}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0d7412b55793bb130af2f444fbf19fc}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0d7412b55793bb130af2f444fbf19fc}
+      \strng{fullhash}{a0d7412b55793bb130af2f444fbf19fc}
+      \strng{bibnamehash}{a0d7412b55793bb130af2f444fbf19fc}
+      \strng{authorbibnamehash}{a0d7412b55793bb130af2f444fbf19fc}
+      \strng{authornamehash}{a0d7412b55793bb130af2f444fbf19fc}
+      \strng{authorfullhash}{a0d7412b55793bb130af2f444fbf19fc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crowdfunding: Innovative access to finance and regulatory challenges}
+      \field{year}{2014}
     \endentry
     \entry{tec_cyberclic_campaign}{misc}{}
       \name{author}{1}{}{%
@@ -568,7 +658,6 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{2012 International Conference on Environment, Energy and Biotechnology}
       \field{eventyear}{2012}
-      \field{isbn}{ISSN}
       \field{title}{Comparison of Artificial Neural Network Transfer Functions Abilities to Simulate Extreme Runoff Data}
       \field{volume}{33}
       \field{year}{2012}
@@ -663,6 +752,39 @@
       \verb https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node7.html
       \endverb
     \endentry
+    \entry{tec_gandhi2018svm}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c3fbdd9716d1767634626ad22e2c767f}{%
+           family={Gandhi},
+           familyi={G\bibinitperiod},
+           given={Rohith},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c3fbdd9716d1767634626ad22e2c767f}
+      \strng{fullhash}{c3fbdd9716d1767634626ad22e2c767f}
+      \strng{bibnamehash}{c3fbdd9716d1767634626ad22e2c767f}
+      \strng{authorbibnamehash}{c3fbdd9716d1767634626ad22e2c767f}
+      \strng{authornamehash}{c3fbdd9716d1767634626ad22e2c767f}
+      \strng{authorfullhash}{c3fbdd9716d1767634626ad22e2c767f}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Data Science}
+      \field{month}{6}
+      \field{title}{Support Vector Machine — Introduction to Machine Learning Algorithms}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+      \endverb
+    \endentry
     \entry{gl_gartner2019ml}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
@@ -721,36 +843,21 @@
       \verb https://www.gartner.com/it-glossary/predictive-modeling/
       \endverb
     \endentry
-    \entry{bk_goyal2018deep}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=616affab8b6c99cb76ff4625b67efef9}{%
-           family={Goyal},
+    \entry{tec_gupta2017decisiontree}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42bc7a574ae1f7adf2636b11f4736bb7}{%
+           family={Gupta},
            familyi={G\bibinitperiod},
-           given={Palash},
+           given={Prashant},
            giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb7c80c0939ae6342738d051ce00ac27}{%
-           family={Pandey},
-           familyi={P\bibinitperiod},
-           given={Sumit},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a27a40d29f28ebbfe7759e9a74a68d4a}{%
-           family={Jain},
-           familyi={J\bibinitperiod},
-           given={Karan},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{d833b007bce49063c50fab58207c842e}
-      \strng{fullhash}{5809eb6f0eb2e846bdfa34973999416c}
-      \strng{bibnamehash}{5809eb6f0eb2e846bdfa34973999416c}
-      \strng{authorbibnamehash}{5809eb6f0eb2e846bdfa34973999416c}
-      \strng{authornamehash}{d833b007bce49063c50fab58207c842e}
-      \strng{authorfullhash}{5809eb6f0eb2e846bdfa34973999416c}
+      \strng{namehash}{42bc7a574ae1f7adf2636b11f4736bb7}
+      \strng{fullhash}{42bc7a574ae1f7adf2636b11f4736bb7}
+      \strng{bibnamehash}{42bc7a574ae1f7adf2636b11f4736bb7}
+      \strng{authorbibnamehash}{42bc7a574ae1f7adf2636b11f4736bb7}
+      \strng{authornamehash}{42bc7a574ae1f7adf2636b11f4736bb7}
+      \strng{authorfullhash}{42bc7a574ae1f7adf2636b11f4736bb7}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradatescope}{labelyear}
@@ -758,11 +865,46 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Deep Learning for Natural Language Processing: Creating Neural Networks with Python [Berkeley, CA]: Apress}
-      \field{title}{Deep learning for natural language processing}
-      \field{year}{2018}
-      \field{pages}{138\bibrangedash 143}
-      \range{pages}{6}
+      \field{journaltitle}{Towards Data Science}
+      \field{month}{5}
+      \field{title}{Decision Trees in Machine Learning}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+      \endverb
+    \endentry
+    \entry{cr_hollas2013crwd}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=563d6265ec8990eabf3362628698abc7}{%
+           family={Hollas},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{563d6265ec8990eabf3362628698abc7}
+      \strng{fullhash}{563d6265ec8990eabf3362628698abc7}
+      \strng{bibnamehash}{563d6265ec8990eabf3362628698abc7}
+      \strng{authorbibnamehash}{563d6265ec8990eabf3362628698abc7}
+      \strng{authornamehash}{563d6265ec8990eabf3362628698abc7}
+      \strng{authorfullhash}{563d6265ec8990eabf3362628698abc7}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Corporate Finance Review}
+      \field{number}{1}
+      \field{title}{Is crowdfunding now a threat to traditional finance?}
+      \field{volume}{18}
+      \field{year}{2013}
+      \field{pages}{27}
+      \range{pages}{1}
     \endentry
     \entry{tec_cook2018deeplearning}{misc}{}
       \name{author}{1}{}{%
@@ -1061,7 +1203,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{ISSN}
       \field{journaltitle}{Procedia Computer Science}
       \field{month}{11}
       \field{title}{Effect of Social Media Connectivity on Success of Crowdfunding Campaigns}
@@ -1125,7 +1266,7 @@
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Create something to share with others. Intro to Kickstarter for designers, makers & technologists}
+      \field{title}{Create something to share with others. Intro to Kickstarter for designers, makers and technologists}
       \field{type}{Diapositivas de PowerPoint}
     \endentry
     \entry{cr_kickstarter_learn}{online}{}
@@ -1236,6 +1377,72 @@
       \verb https://www.kickstarter.com/press?ref=hello
       \endverb
     \endentry
+    \entry{cr_lee2019crwdfactors}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b686d37b5d383d1396d814af4534a68d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hsien-Da},
+           giveni={H\bibinithyphendelim D\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{b686d37b5d383d1396d814af4534a68d}
+      \strng{fullhash}{b686d37b5d383d1396d814af4534a68d}
+      \strng{bibnamehash}{b686d37b5d383d1396d814af4534a68d}
+      \strng{authorbibnamehash}{b686d37b5d383d1396d814af4534a68d}
+      \strng{authornamehash}{b686d37b5d383d1396d814af4534a68d}
+      \strng{authorfullhash}{b686d37b5d383d1396d814af4534a68d}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781450366021}
+      \field{journaltitle}{ACM International Conference Proceeding Series}
+      \field{title}{Factors affecting successful crowdfunding}
+      \field{year}{2019}
+      \field{pages}{379\bibrangedash 382}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/3306500.3306524
+      \endverb
+    \endentry
+    \entry{cr_lee2018fintech}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=81322a46efec68c0b1f083d340d2fc1e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=097a2d992dcee04cd5cb1ea978394821}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Y.J.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef7c46e7ab11f48fdf08f79728cc45d6}
+      \strng{fullhash}{ef7c46e7ab11f48fdf08f79728cc45d6}
+      \strng{bibnamehash}{ef7c46e7ab11f48fdf08f79728cc45d6}
+      \strng{authorbibnamehash}{ef7c46e7ab11f48fdf08f79728cc45d6}
+      \strng{authornamehash}{ef7c46e7ab11f48fdf08f79728cc45d6}
+      \strng{authorfullhash}{ef7c46e7ab11f48fdf08f79728cc45d6}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Business Horizons}
+      \field{number}{1}
+      \field{title}{Fintech: Ecosystem, business models, investment decisions, and challenges}
+      \field{volume}{61}
+      \field{year}{2018}
+      \field{pages}{35\bibrangedash 46}
+      \range{pages}{12}
+    \endentry
     \entry{tec_li2019cnn}{report}{}
       \name{author}{3}{}{%
         {{un=1,uniquepart=given,hash=9147b1a8523fee33e02ea8ada6fde536}{%
@@ -1323,7 +1530,6 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{WSDM' 16}
       \field{eventyear}{2016}
-      \field{isbn}{ISBN}
       \field{maintitle}{Proceedings of the Ninth ACM International Conference on web search and data mining}
       \field{title}{Project Success Prediction in Crowdfunding Environments}
       \field{year}{2016}
@@ -1524,6 +1730,32 @@
       \field{edition}{Primera edición}
       \field{title}{Data Mining and Knowledge Discovery Handbook}
       \field{year}{2010}
+    \endentry
+    \entry{gl_mathworks_svm}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={{MathWorks}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Máquina de vectores de soporte (SVM)}
+      \verb{urlraw}
+      \verb https://la.mathworks.com/discovery/support-vector-machine.html
+      \endverb
+      \verb{url}
+      \verb https://la.mathworks.com/discovery/support-vector-machine.html
+      \endverb
     \endentry
     \entry{tec_merino2019aprendrefuerzo}{misc}{}
       \name{author}{1}{}{%
@@ -1883,7 +2115,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{Segunda edición}
-      \field{isbn}{ISBN}
       \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
       \field{year}{2004}
       \field{pages}{1\bibrangedash 1240}
@@ -2133,6 +2364,52 @@
       \verb http://sitiobigdata.com/2019/06/22/relu-funciones-activacion/
       \endverb
     \endentry
+    \entry{tec_smola2004svm}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fb79b74540aea302c5a1a212a88331b1}{%
+           family={Smola},
+           familyi={S\bibinitperiod},
+           given={Alex\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca31cc11ec9370460148c3a9c48fce45}{%
+           family={Schölkopf},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Kluwer Academic Publishers}%
+      }
+      \strng{namehash}{a1c29fde1555f961020fa648d63f452d}
+      \strng{fullhash}{a1c29fde1555f961020fa648d63f452d}
+      \strng{bibnamehash}{a1c29fde1555f961020fa648d63f452d}
+      \strng{authorbibnamehash}{a1c29fde1555f961020fa648d63f452d}
+      \strng{authornamehash}{a1c29fde1555f961020fa648d63f452d}
+      \strng{authorfullhash}{a1c29fde1555f961020fa648d63f452d}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistics and Computing}
+      \field{month}{Agosto}
+      \field{number}{3}
+      \field{title}{A tutorial on support vector regression}
+      \field{volume}{14}
+      \field{year}{2004}
+      \field{pages}{199\bibrangedash 222}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1023/B:STCO.0000035301.49549.88
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1023/B:STCO.0000035301.49549.88
+      \endverb
+    \endentry
     \entry{cr_sl_crowdfundlatam}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6a493d2363a892d2902735fa2ee5079}{%
@@ -2246,7 +2523,6 @@
       \field{booktitle}{Reinforcement Learning: An Introduction}
       \field{chapter}{3}
       \field{edition}{Segunda edición}
-      \field{isbn}{ISBN}
       \field{title}{Finite Markov Decision Processes}
       \field{year}{2018}
       \field{pages}{48}
@@ -2287,6 +2563,49 @@
       \verb https://thehustle.co/crowdfunding-success-rate
       \endverb
       \warn{\item Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring}
+    \endentry
+    \entry{cr_tung2019backers}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e88d1438d4573681d803f0e3ade3a683}{%
+           family={Tung},
+           familyi={T\bibinitperiod},
+           given={Fang-Wu},
+           giveni={F\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48002bca49ba335f1474a3b124eb4073}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xin-Yang},
+           giveni={X\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{02fff396c1e46b6d5fbf4a99e700dd51}
+      \strng{fullhash}{02fff396c1e46b6d5fbf4a99e700dd51}
+      \strng{bibnamehash}{02fff396c1e46b6d5fbf4a99e700dd51}
+      \strng{authorbibnamehash}{02fff396c1e46b6d5fbf4a99e700dd51}
+      \strng{authornamehash}{02fff396c1e46b6d5fbf4a99e700dd51}
+      \strng{authorfullhash}{02fff396c1e46b6d5fbf4a99e700dd51}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{6th International Symposium on Computational and Business Intelligence, ISCBI 2018}
+      \field{eventyear}{2018}
+      \field{isbn}{9781538694503}
+      \field{title}{Understanding backers' motivations and perceptions of information on product-based crowdfunding platforms}
+      \field{year}{2019}
+      \field{eventdateera}{ce}
+      \field{pages}{84\bibrangedash 88}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ISCBI.2018.00026
+      \endverb
     \endentry
     \entry{cr_uc_crowdfunding}{misc}{}
       \name{author}{1}{}{%
@@ -2350,7 +2669,6 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{2018 Portland International Conference on Management of Engineering and Technology (PICMET)}
       \field{eventyear}{2018}
-      \field{isbn}{ISBN}
       \field{title}{Using Crowdfunding in an Innovative Way: A Case Study from a Chinese Crowdfunding Platform}
       \field{year}{2018}
       \field{eventdateera}{ce}
@@ -2426,7 +2744,6 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}
       \field{eventyear}{2018}
-      \field{isbn}{ISBN}
       \field{title}{Prediction of Crowdfunding Project Success with Deep Learning}
       \field{year}{2018}
       \field{eventdateera}{ce}
@@ -2479,7 +2796,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{ISSN}
       \field{journaltitle}{Decision Support Systems}
       \field{month}{11}
       \field{title}{The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach}

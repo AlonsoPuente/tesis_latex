@@ -82,39 +82,39 @@
 \contentsline {subsection}{\numberline {2.2.5}Minería de Datos}{33}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Metodologías de Minería de Datos}{34}{subsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.2.7}Técnicas de Minería de Datos}{37}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Natural Language Processing (NLP)}{54}{subsection.2.2.8}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{54}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{54}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{54}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Proyecto}{55}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Campaña}{55}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{57}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{57}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Enfoque de la investigación}{57}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Alcance de la investigación}{57}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Tipo de la investigación}{58}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Descripción del prototipo de investigación}{58}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Población y muestra}{58}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Población}{58}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Muestra}{58}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Unidad de análisis}{59}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Operacionalización de Variables}{60}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Instrumentos de medida}{60}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{60}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{61}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{61}{section.3.7}%
-\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}X}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Y}{63}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Z}{64}{section.4.3}%
-\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{65}{chapter.5}%
-\contentsline {section}{\numberline {5.1}X}{65}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Y}{65}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Z}{66}{section.5.3}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{67}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{67}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{67}{section.6.2}%
-\contentsline {chapter}{Anexos}{68}{section*.44}%
-\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{69}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Anexo II: Resumen de Papers investigados}{71}{appendix.Alph2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{73}{appendix*.47}%
+\contentsline {subsection}{\numberline {2.2.8}Natural Language Processing (NLP)}{55}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{55}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{55}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{57}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Proyecto}{57}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Campaña}{58}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{60}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{60}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Enfoque de la investigación}{60}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Alcance de la investigación}{60}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Tipo de la investigación}{61}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Descripción del prototipo de investigación}{61}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Población y muestra}{61}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Población}{61}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Muestra}{61}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Unidad de análisis}{62}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Operacionalización de Variables}{63}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Instrumentos de medida}{63}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{63}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{64}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{64}{section.3.7}%
+\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{66}{chapter.4}%
+\contentsline {section}{\numberline {4.1}X}{66}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Y}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Z}{67}{section.4.3}%
+\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{68}{chapter.5}%
+\contentsline {section}{\numberline {5.1}X}{68}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Y}{68}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Z}{69}{section.5.3}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{70}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{70}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{70}{section.6.2}%
+\contentsline {chapter}{Anexos}{71}{section*.48}%
+\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{72}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo II: Resumen de Papers investigados}{74}{appendix.Alph2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{76}{appendix*.51}%

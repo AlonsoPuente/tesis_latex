@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  1 JUL 2020 03:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  2 JUL 2020 02:39
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1262,13 +1262,13 @@ pren-di-za-je Pro-fun-do. Fuen-te: [][]Hou-
 
 [8
 
-])
+]
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [9])
 \tf@lof=\write6
 \openout6 = `tesis.lof'.
 
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
- [9]
 LaTeX Info: Redefining \. on input line 192.
 LaTeX Info: Redefining \% on input line 192.
  [10] (tesis.lot
@@ -1297,7 +1297,7 @@ LaTeX Info: Redefining \% on input line 2.
 
  (1/planteamiento.tex
 Cap\'{\i }tulo 1.
-<1/figures/cuadro_esan.jpg, id=819, 964.60374pt x 650.43pt>
+<1/figures/cuadro_esan.jpg, id=838, 964.60374pt x 650.43pt>
 File: 1/figures/cuadro_esan.jpg Graphic file (type jpg)
 <use 1/figures/cuadro_esan.jpg>
 Package pdftex.def Info: 1/figures/cuadro_esan.jpg  used on input line 10.
@@ -1313,7 +1313,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
  [15 <./1/figures/cuadro_esan.jpg>]
-<1/figures/kickstarter_success_rate_2009_2019.jpg, id=846, 602.25pt x 600.2425p
+<1/figures/kickstarter_success_rate_2009_2019.jpg, id=865, 602.25pt x 600.2425p
 t>
 File: 1/figures/kickstarter_success_rate_2009_2019.jpg Graphic file (type jpg)
 <use 1/figures/kickstarter_success_rate_2009_2019.jpg>
@@ -1458,378 +1458,420 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Info: Redefining \. on input line 156.
 LaTeX Info: Redefining \% on input line 156.
 [25]) (2/2_teoria/base_teo.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
  [26]
-Overfull \hbox (1.18774pt too wide) in paragraph at lines 8--9
+Overfull \hbox (1.18774pt too wide) in paragraph at lines 9--10
 []\OT1/ptm/m/n/12 Pero, ?`c[]omo es sur-ge es-te am-plio es-tu-dio de la In-te-
 li-gen-cia Ar-ti-fi-cial? En 1943, bas[]ando-
  []
 
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 [27]
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
  [28]
-<2/figures/regresion.jpg, id=946, 416.30531pt x 278.54062pt>
+<2/figures/regresion.jpg, id=965, 416.30531pt x 278.54062pt>
 File: 2/figures/regresion.jpg Graphic file (type jpg)
 <use 2/figures/regresion.jpg>
-Package pdftex.def Info: 2/figures/regresion.jpg  used on input line 24.
+Package pdftex.def Info: 2/figures/regresion.jpg  used on input line 25.
 (pdftex.def)             Requested size: 271.7837pt x 181.85254pt.
-<2/figures/clasificacion.jpg, id=949, 399.74344pt x 372.64218pt>
+<2/figures/clasificacion.jpg, id=968, 399.74344pt x 372.64218pt>
 File: 2/figures/clasificacion.jpg Graphic file (type jpg)
 <use 2/figures/clasificacion.jpg>
-Package pdftex.def Info: 2/figures/clasificacion.jpg  used on input line 28.
+Package pdftex.def Info: 2/figures/clasificacion.jpg  used on input line 29.
 (pdftex.def)             Requested size: 226.48413pt x 211.12888pt.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
  [29 <./2/figures/regresion.jpg> <./2/figures/clasificacion.jpg>]
-<2/figures/knn.jpg, id=958, 357.58594pt x 195.73125pt>
+<2/figures/knn.jpg, id=977, 357.58594pt x 195.73125pt>
 File: 2/figures/knn.jpg Graphic file (type jpg)
 <use 2/figures/knn.jpg>
-Package pdftex.def Info: 2/figures/knn.jpg  used on input line 39.
+Package pdftex.def Info: 2/figures/knn.jpg  used on input line 40.
 (pdftex.def)             Requested size: 271.7837pt x 148.77222pt.
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 
 [30 <./2/figures/knn.jpg>]
-<2/figures/kmeans.jpg, id=971, 341.77687pt x 257.46187pt>
+<2/figures/kmeans.jpg, id=990, 341.77687pt x 257.46187pt>
 File: 2/figures/kmeans.jpg Graphic file (type jpg)
 <use 2/figures/kmeans.jpg>
-Package pdftex.def Info: 2/figures/kmeans.jpg  used on input line 54.
+Package pdftex.def Info: 2/figures/kmeans.jpg  used on input line 55.
 (pdftex.def)             Requested size: 271.7837pt x 204.74799pt.
-<2/figures/aprendizaje_refuerzo.jpg, id=977, 601.4972pt x 225.09094pt>
+<2/figures/aprendizaje_refuerzo.jpg, id=996, 601.4972pt x 225.09094pt>
 File: 2/figures/aprendizaje_refuerzo.jpg Graphic file (type jpg)
 <use 2/figures/aprendizaje_refuerzo.jpg>
 Package pdftex.def Info: 2/figures/aprendizaje_refuerzo.jpg  used on input line
- 63.
+ 64.
 (pdftex.def)             Requested size: 317.0764pt x 118.65878pt.
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
  [31 <./2/figures/kmeans.jpg>]
-<2/figures/deeplearning_machinelearning.jpg, id=987, 631.76025pt x 307.74976pt>
-
+<2/figures/deeplearning_machinelearning.jpg, id=1006, 631.76025pt x 307.74976pt
+>
 File: 2/figures/deeplearning_machinelearning.jpg Graphic file (type jpg)
 <use 2/figures/deeplearning_machinelearning.jpg>
 Package pdftex.def Info: 2/figures/deeplearning_machinelearning.jpg  used on in
-put line 76.
+put line 78.
 (pdftex.def)             Requested size: 362.37598pt x 176.5227pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 [32 <./2/figures/aprendizaje_refuerzo.jpg>]
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
  [33 <./2/figures/deeplearning_machinelearning.jpg>]
-<2/figures/data_mining_steps.jpg, id=1011, 338.01282pt x 204.01219pt>
+<2/figures/data_mining_steps.jpg, id=1030, 338.01282pt x 204.01219pt>
 File: 2/figures/data_mining_steps.jpg Graphic file (type jpg)
 <use 2/figures/data_mining_steps.jpg>
 Package pdftex.def Info: 2/figures/data_mining_steps.jpg  used on input line 10
-0.
+4.
 (pdftex.def)             Requested size: 317.0764pt x 191.38235pt.
-<2/figures/crispdm.jpg, id=1016, 428.35031pt x 389.20406pt>
+<2/figures/crispdm.jpg, id=1035, 428.35031pt x 389.20406pt>
 File: 2/figures/crispdm.jpg Graphic file (type jpg)
 <use 2/figures/crispdm.jpg>
-Package pdftex.def Info: 2/figures/crispdm.jpg  used on input line 114.
+Package pdftex.def Info: 2/figures/crispdm.jpg  used on input line 119.
 (pdftex.def)             Requested size: 339.7262pt x 308.67935pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-21.
+26.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
  [34 <./2/figures/data_mining_steps.jpg>]
-<2/figures/semma.jpg, id=1025, 583.42969pt x 429.10312pt>
+<2/figures/semma.jpg, id=1044, 583.42969pt x 429.10312pt>
 File: 2/figures/semma.jpg Graphic file (type jpg)
 <use 2/figures/semma.jpg>
-Package pdftex.def Info: 2/figures/semma.jpg  used on input line 134.
+Package pdftex.def Info: 2/figures/semma.jpg  used on input line 139.
 (pdftex.def)             Requested size: 339.7262pt x 249.86867pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
 [35 <./2/figures/crispdm.jpg>]
-<2/figures/kdd.jpg, id=1033, 555.57562pt x 212.29312pt>
+<2/figures/kdd.jpg, id=1052, 555.57562pt x 212.29312pt>
 File: 2/figures/kdd.jpg Graphic file (type jpg)
 <use 2/figures/kdd.jpg>
-Package pdftex.def Info: 2/figures/kdd.jpg  used on input line 153.
+Package pdftex.def Info: 2/figures/kdd.jpg  used on input line 158.
 (pdftex.def)             Requested size: 339.7262pt x 129.81607pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 164.
-LaTeX Info: Redefining \% on input line 164.
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
 [36 <./2/figures/semma.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 179.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 179.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 179.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 184.
 
-Overfull \hbox (9.02414pt too wide) in paragraph at lines 200--201
+Overfull \hbox (9.02414pt too wide) in paragraph at lines 205--206
  []|[]| 
  []
 
 
-Overfull \hbox (25.02301pt too wide) in paragraph at lines 179--237
+Overfull \hbox (25.02301pt too wide) in paragraph at lines 184--242
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 249.
-LaTeX Info: Redefining \% on input line 249.
+LaTeX Info: Redefining \. on input line 255.
+LaTeX Info: Redefining \% on input line 255.
 [37 <./2/figures/kdd.jpg>]
-<2/figures/rnn_mcculloch.jpg, id=1055, 682.04813pt x 272.51813pt>
+<2/figures/rnn_mcculloch.jpg, id=1074, 682.04813pt x 272.51813pt>
 File: 2/figures/rnn_mcculloch.jpg Graphic file (type jpg)
 <use 2/figures/rnn_mcculloch.jpg>
-Package pdftex.def Info: 2/figures/rnn_mcculloch.jpg  used on input line 254.
+Package pdftex.def Info: 2/figures/rnn_mcculloch.jpg  used on input line 260.
 (pdftex.def)             Requested size: 339.7262pt x 135.74309pt.
-LaTeX Info: Redefining \. on input line 259.
-LaTeX Info: Redefining \% on input line 259.
+LaTeX Info: Redefining \. on input line 265.
+LaTeX Info: Redefining \% on input line 265.
  [38]
-<2/figures/rna_activaciones.jpg, id=1065, 797.22844pt x 234.8775pt>
+<2/figures/rna_activaciones.jpg, id=1084, 797.22844pt x 234.8775pt>
 File: 2/figures/rna_activaciones.jpg Graphic file (type jpg)
 <use 2/figures/rna_activaciones.jpg>
-Package pdftex.def Info: 2/figures/rna_activaciones.jpg  used on input line 269
+Package pdftex.def Info: 2/figures/rna_activaciones.jpg  used on input line 275
 .
 (pdftex.def)             Requested size: 339.7262pt x 100.08861pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/sigmoide.jpg, id=1069, 198.7425pt x 167.12437pt>
+<2/figures/sigmoide.jpg, id=1088, 198.7425pt x 167.12437pt>
 File: 2/figures/sigmoide.jpg Graphic file (type jpg)
 <use 2/figures/sigmoide.jpg>
-Package pdftex.def Info: 2/figures/sigmoide.jpg  used on input line 280.
+Package pdftex.def Info: 2/figures/sigmoide.jpg  used on input line 286.
 (pdftex.def)             Requested size: 135.89185pt x 114.27548pt.
-LaTeX Info: Redefining \. on input line 285.
-LaTeX Info: Redefining \% on input line 285.
+LaTeX Info: Redefining \. on input line 291.
+LaTeX Info: Redefining \% on input line 291.
 [39 <./2/figures/rnn_mcculloch.jpg>]
-LaTeX Info: Redefining \. on input line 293.
-LaTeX Info: Redefining \% on input line 293.
+LaTeX Info: Redefining \. on input line 299.
+LaTeX Info: Redefining \% on input line 299.
  [40 <./2/figures/rna_activaciones.jpg> <./2/figures/sigmoide.jpg>]
-<2/figures/gradiente_descendiente.jpg, id=1088, 386.94562pt x 398.23781pt>
+<2/figures/gradiente_descendiente.jpg, id=1107, 386.94562pt x 398.23781pt>
 File: 2/figures/gradiente_descendiente.jpg Graphic file (type jpg)
 <use 2/figures/gradiente_descendiente.jpg>
 Package pdftex.def Info: 2/figures/gradiente_descendiente.jpg  used on input li
-ne 297.
+ne 303.
 (pdftex.def)             Requested size: 226.48413pt x 233.09274pt.
-<2/figures/pesos_graddescen.jpg, id=1094, 680.5425pt x 411.78844pt>
+<2/figures/pesos_graddescen.jpg, id=1113, 680.5425pt x 411.78844pt>
 File: 2/figures/pesos_graddescen.jpg Graphic file (type jpg)
 <use 2/figures/pesos_graddescen.jpg>
-Package pdftex.def Info: 2/figures/pesos_graddescen.jpg  used on input line 308
+Package pdftex.def Info: 2/figures/pesos_graddescen.jpg  used on input line 314
 .
 (pdftex.def)             Requested size: 226.48413pt x 137.04045pt.
-LaTeX Info: Redefining \. on input line 313.
-LaTeX Info: Redefining \% on input line 313.
+LaTeX Info: Redefining \. on input line 319.
+LaTeX Info: Redefining \% on input line 319.
  [41 <./2/figures/gradiente_descendiente.jpg>]
-<2/figures/backpropagation.jpg, id=1104, 471.26062pt x 322.20375pt>
+<2/figures/backpropagation.jpg, id=1123, 471.26062pt x 322.20375pt>
 File: 2/figures/backpropagation.jpg Graphic file (type jpg)
 <use 2/figures/backpropagation.jpg>
-Package pdftex.def Info: 2/figures/backpropagation.jpg  used on input line 317.
+Package pdftex.def Info: 2/figures/backpropagation.jpg  used on input line 323.
 
 (pdftex.def)             Requested size: 226.48413pt x 154.84778pt.
-<2/figures/rna_pesos.jpg, id=1108, 637.63219pt x 472.38985pt>
+<2/figures/rna_pesos.jpg, id=1127, 637.63219pt x 472.38985pt>
 File: 2/figures/rna_pesos.jpg Graphic file (type jpg)
 <use 2/figures/rna_pesos.jpg>
-Package pdftex.def Info: 2/figures/rna_pesos.jpg  used on input line 326.
+Package pdftex.def Info: 2/figures/rna_pesos.jpg  used on input line 332.
 (pdftex.def)             Requested size: 226.48413pt x 167.78966pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 334.
-LaTeX Info: Redefining \% on input line 334.
+LaTeX Info: Redefining \. on input line 339.
+LaTeX Info: Redefining \% on input line 339.
 [42 <./2/figures/pesos_graddescen.jpg> <./2/figures/backpropagation.jpg>]
-<2/figures/hiperbolica.jpg, id=1117, 215.30438pt x 164.11313pt>
+<2/figures/hiperbolica.jpg, id=1136, 215.30438pt x 164.11313pt>
 File: 2/figures/hiperbolica.jpg Graphic file (type jpg)
 <use 2/figures/hiperbolica.jpg>
-Package pdftex.def Info: 2/figures/hiperbolica.jpg  used on input line 344.
+Package pdftex.def Info: 2/figures/hiperbolica.jpg  used on input line 351.
 (pdftex.def)             Requested size: 135.89185pt x 103.58463pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/purelin.jpg, id=1121, 237.13594pt x 183.68625pt>
+<2/figures/purelin.jpg, id=1140, 237.13594pt x 183.68625pt>
 File: 2/figures/purelin.jpg Graphic file (type jpg)
 <use 2/figures/purelin.jpg>
-Package pdftex.def Info: 2/figures/purelin.jpg  used on input line 353.
+Package pdftex.def Info: 2/figures/purelin.jpg  used on input line 360.
 (pdftex.def)             Requested size: 135.89185pt x 105.2656pt.
-LaTeX Info: Redefining \. on input line 358.
-LaTeX Info: Redefining \% on input line 358.
+LaTeX Info: Redefining \. on input line 365.
+LaTeX Info: Redefining \% on input line 365.
 [43 <./2/figures/rna_pesos.jpg>]
-<2/figures/relu.jpg, id=1131, 318.43968pt x 264.99pt>
+<2/figures/relu.jpg, id=1150, 318.43968pt x 264.99pt>
 File: 2/figures/relu.jpg Graphic file (type jpg)
 <use 2/figures/relu.jpg>
-Package pdftex.def Info: 2/figures/relu.jpg  used on input line 362.
+Package pdftex.def Info: 2/figures/relu.jpg  used on input line 369.
 (pdftex.def)             Requested size: 135.89185pt x 113.08223pt.
 
-Overfull \hbox (10.85272pt too wide) in paragraph at lines 359--367
+Overfull \hbox (10.85272pt too wide) in paragraph at lines 366--374
 []\OT1/ptm/b/n/12 Funci[]on Uni-dad Li-neal Rec-ti-fi-ca-da (Re-LU)\OT1/ptm/m/n
 /12 : Es-ta fun-ci[]on se ca-rac-te-ri-za por, adem[]as
  []
 
-LaTeX Info: Redefining \. on input line 370.
-LaTeX Info: Redefining \% on input line 370.
+LaTeX Info: Redefining \. on input line 377.
+LaTeX Info: Redefining \% on input line 377.
 [44 <./2/figures/hiperbolica.jpg> <./2/figures/purelin.jpg> <./2/figures/relu.j
 pg>]
-<2/figures/perceptron_simple.jpg, id=1145, 284.56313pt x 188.20313pt>
+<2/figures/perceptron_simple.jpg, id=1164, 284.56313pt x 188.20313pt>
 File: 2/figures/perceptron_simple.jpg Graphic file (type jpg)
 <use 2/figures/perceptron_simple.jpg>
-Package pdftex.def Info: 2/figures/perceptron_simple.jpg  used on input line 37
-5.
+Package pdftex.def Info: 2/figures/perceptron_simple.jpg  used on input line 38
+2.
 (pdftex.def)             Requested size: 294.4266pt x 194.74734pt.
-<2/figures/perceptron_multicapa.jpg, id=1149, 238.8925pt x 157.08687pt>
+<2/figures/perceptron_multicapa.jpg, id=1168, 238.8925pt x 157.08687pt>
 File: 2/figures/perceptron_multicapa.jpg Graphic file (type jpg)
 <use 2/figures/perceptron_multicapa.jpg>
 Package pdftex.def Info: 2/figures/perceptron_multicapa.jpg  used on input line
- 384.
+ 391.
 (pdftex.def)             Requested size: 294.4266pt x 193.61597pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/cnn.jpg, id=1154, 380.42125pt x 201.75375pt>
+<2/figures/cnn.jpg, id=1173, 380.42125pt x 201.75375pt>
 File: 2/figures/cnn.jpg Graphic file (type jpg)
 <use 2/figures/cnn.jpg>
-Package pdftex.def Info: 2/figures/cnn.jpg  used on input line 393.
+Package pdftex.def Info: 2/figures/cnn.jpg  used on input line 400.
 (pdftex.def)             Requested size: 294.4266pt x 156.15128pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 400.
-LaTeX Info: Redefining \% on input line 400.
+LaTeX Info: Redefining \. on input line 407.
+LaTeX Info: Redefining \% on input line 407.
 [45 <./2/figures/perceptron_simple.jpg>]
-<2/figures/neocognitron.jpg, id=1165, 642.14906pt x 405.76593pt>
+<2/figures/neocognitron.jpg, id=1184, 642.14906pt x 405.76593pt>
 File: 2/figures/neocognitron.jpg Graphic file (type jpg)
 <use 2/figures/neocognitron.jpg>
-Package pdftex.def Info: 2/figures/neocognitron.jpg  used on input line 404.
+Package pdftex.def Info: 2/figures/neocognitron.jpg  used on input line 411.
 (pdftex.def)             Requested size: 271.7837pt x 171.7393pt.
-<2/figures/lenet5.jpg, id=1168, 764.8575pt x 231.11343pt>
+<2/figures/lenet5.jpg, id=1187, 764.8575pt x 231.11343pt>
 File: 2/figures/lenet5.jpg Graphic file (type jpg)
 <use 2/figures/lenet5.jpg>
-Package pdftex.def Info: 2/figures/lenet5.jpg  used on input line 408.
+Package pdftex.def Info: 2/figures/lenet5.jpg  used on input line 415.
 (pdftex.def)             Requested size: 362.37598pt x 109.4979pt.
-LaTeX Info: Redefining \. on input line 415.
-LaTeX Info: Redefining \% on input line 415.
+LaTeX Info: Redefining \. on input line 422.
+LaTeX Info: Redefining \% on input line 422.
  [46 <./2/figures/perceptron_multicapa.jpg> <./2/figures/cnn.jpg>]
-<2/figures/convolucion.jpg, id=1179, 557.08125pt x 193.32225pt>
+<2/figures/convolucion.jpg, id=1198, 557.08125pt x 193.32225pt>
 File: 2/figures/convolucion.jpg Graphic file (type jpg)
 <use 2/figures/convolucion.jpg>
-Package pdftex.def Info: 2/figures/convolucion.jpg  used on input line 425.
+Package pdftex.def Info: 2/figures/convolucion.jpg  used on input line 432.
 (pdftex.def)             Requested size: 362.37598pt x 125.75531pt.
-LaTeX Info: Redefining \. on input line 430.
-LaTeX Info: Redefining \% on input line 430.
+LaTeX Info: Redefining \. on input line 437.
+LaTeX Info: Redefining \% on input line 437.
  [47 <./2/figures/neocognitron.jpg> <./2/figures/lenet5.jpg>]
-<2/figures/filtros_cnn.jpg, id=1189, 892.83563pt x 444.15938pt>
+<2/figures/filtros_cnn.jpg, id=1208, 892.83563pt x 444.15938pt>
 File: 2/figures/filtros_cnn.jpg Graphic file (type jpg)
 <use 2/figures/filtros_cnn.jpg>
-Package pdftex.def Info: 2/figures/filtros_cnn.jpg  used on input line 434.
+Package pdftex.def Info: 2/figures/filtros_cnn.jpg  used on input line 441.
 (pdftex.def)             Requested size: 317.0764pt x 157.73528pt.
 File: 2/figures/filtros_cnn.jpg Graphic file (type jpg)
 <use 2/figures/filtros_cnn.jpg>
-Package pdftex.def Info: 2/figures/filtros_cnn.jpg  used on input line 443.
+Package pdftex.def Info: 2/figures/filtros_cnn.jpg  used on input line 450.
 (pdftex.def)             Requested size: 317.0764pt x 157.73528pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/features_cnn.jpg, id=1196, 1152.55594pt x 529.98pt>
+<2/figures/features_cnn.jpg, id=1215, 1152.55594pt x 529.98pt>
 File: 2/figures/features_cnn.jpg Graphic file (type jpg)
 <use 2/figures/features_cnn.jpg>
-Package pdftex.def Info: 2/figures/features_cnn.jpg  used on input line 452.
+Package pdftex.def Info: 2/figures/features_cnn.jpg  used on input line 459.
 (pdftex.def)             Requested size: 339.7262pt x 156.21335pt.
-LaTeX Info: Redefining \. on input line 457.
-LaTeX Info: Redefining \% on input line 457.
+LaTeX Info: Redefining \. on input line 464.
+LaTeX Info: Redefining \% on input line 464.
 [48 <./2/figures/convolucion.jpg> <./2/figures/filtros_cnn.jpg>]
-<2/figures/matriz_cnn.jpg, id=1205, 429.85594pt x 130.98938pt>
+<2/figures/matriz_cnn.jpg, id=1224, 429.85594pt x 130.98938pt>
 File: 2/figures/matriz_cnn.jpg Graphic file (type jpg)
 <use 2/figures/matriz_cnn.jpg>
-Package pdftex.def Info: 2/figures/matriz_cnn.jpg  used on input line 463.
+Package pdftex.def Info: 2/figures/matriz_cnn.jpg  used on input line 470.
 (pdftex.def)             Requested size: 339.7262pt x 103.52643pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 472.
-LaTeX Info: Redefining \% on input line 472.
+LaTeX Info: Redefining \. on input line 479.
+LaTeX Info: Redefining \% on input line 479.
 [49 <./2/figures/features_cnn.jpg>]
-<2/figures/input_filter_cnn.jpg, id=1214, 444.15938pt x 453.19313pt>
+<2/figures/input_filter_cnn.jpg, id=1233, 444.15938pt x 453.19313pt>
 File: 2/figures/input_filter_cnn.jpg Graphic file (type jpg)
 <use 2/figures/input_filter_cnn.jpg>
-Package pdftex.def Info: 2/figures/input_filter_cnn.jpg  used on input line 476
+Package pdftex.def Info: 2/figures/input_filter_cnn.jpg  used on input line 483
 .
 (pdftex.def)             Requested size: 135.89185pt x 138.6559pt.
-<2/figures/stride_cnn.jpg, id=1217, 740.0147pt x 281.55188pt>
+<2/figures/stride_cnn.jpg, id=1236, 740.0147pt x 281.55188pt>
 File: 2/figures/stride_cnn.jpg Graphic file (type jpg)
 <use 2/figures/stride_cnn.jpg>
-Package pdftex.def Info: 2/figures/stride_cnn.jpg  used on input line 480.
+Package pdftex.def Info: 2/figures/stride_cnn.jpg  used on input line 487.
 (pdftex.def)             Requested size: 317.0764pt x 120.63533pt.
-LaTeX Info: Redefining \. on input line 488.
-LaTeX Info: Redefining \% on input line 488.
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
  [50 <./2/figures/matriz_cnn.jpg> <./2/figures/input_filter_cnn.jpg> <./2/figur
 es/stride_cnn.jpg>]
-<2/figures/fully_conected_cnn.jpg, id=1227, 550.30594pt x 304.88907pt>
+<2/figures/fully_conected_cnn.jpg, id=1246, 550.30594pt x 304.88907pt>
 File: 2/figures/fully_conected_cnn.jpg Graphic file (type jpg)
 <use 2/figures/fully_conected_cnn.jpg>
-Package pdftex.def Info: 2/figures/fully_conected_cnn.jpg  used on input line 4
-98.
+Package pdftex.def Info: 2/figures/fully_conected_cnn.jpg  used on input line 5
+05.
 (pdftex.def)             Requested size: 339.7262pt x 188.22443pt.
-<2/figures/arquitectura_cnn.jpg, id=1231, 713.66624pt x 173.14688pt>
+<2/figures/arquitectura_cnn.jpg, id=1250, 713.66624pt x 173.14688pt>
 File: 2/figures/arquitectura_cnn.jpg Graphic file (type jpg)
 <use 2/figures/arquitectura_cnn.jpg>
-Package pdftex.def Info: 2/figures/arquitectura_cnn.jpg  used on input line 507
+Package pdftex.def Info: 2/figures/arquitectura_cnn.jpg  used on input line 514
 .
 (pdftex.def)             Requested size: 362.37598pt x 87.918pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/rnn_ejemplo.jpg, id=1236, 580.66937pt x 189.70876pt>
+<2/figures/rnn_ejemplo.jpg, id=1255, 580.66937pt x 189.70876pt>
 File: 2/figures/rnn_ejemplo.jpg Graphic file (type jpg)
 <use 2/figures/rnn_ejemplo.jpg>
-Package pdftex.def Info: 2/figures/rnn_ejemplo.jpg  used on input line 516.
+Package pdftex.def Info: 2/figures/rnn_ejemplo.jpg  used on input line 523.
 (pdftex.def)             Requested size: 362.37598pt x 118.3911pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 523.
-LaTeX Info: Redefining \% on input line 523.
+<2/figures/svm_hiperplano.jpg, id=1260, 417.81094pt x 336.50719pt>
+File: 2/figures/svm_hiperplano.jpg Graphic file (type jpg)
+<use 2/figures/svm_hiperplano.jpg>
+Package pdftex.def Info: 2/figures/svm_hiperplano.jpg  used on input line 532.
+(pdftex.def)             Requested size: 203.83434pt x 164.1711pt.
+LaTeX Info: Redefining \. on input line 537.
+LaTeX Info: Redefining \% on input line 537.
 [51 <./2/figures/fully_conected_cnn.jpg>]
-LaTeX Info: Redefining \. on input line 529.
-LaTeX Info: Redefining \% on input line 529.
- [52 <./2/figures/arquitectura_cnn.jpg> <./2/figures/rnn_ejemplo.jpg>]) (2/3_co
-nceptos/marc_conceptual.tex
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
+ [52 <./2/figures/arquitectura_cnn.jpg> <./2/figures/rnn_ejemplo.jpg> <./2/figu
+res/svm_hiperplano.jpg>]
+<2/figures/caso1_svm.jpg, id=1277, 307.1475pt x 252.945pt>
+File: 2/figures/caso1_svm.jpg Graphic file (type jpg)
+<use 2/figures/caso1_svm.jpg>
+Package pdftex.def Info: 2/figures/caso1_svm.jpg  used on input line 547.
+(pdftex.def)             Requested size: 135.89185pt x 111.90982pt.
+<2/figures/caso2_svm.jpg, id=1280, 302.63063pt x 248.42813pt>
+File: 2/figures/caso2_svm.jpg Graphic file (type jpg)
+<use 2/figures/caso2_svm.jpg>
+Package pdftex.def Info: 2/figures/caso2_svm.jpg  used on input line 551.
+(pdftex.def)             Requested size: 135.89185pt x 111.55281pt.
+<2/figures/kernel_svm.jpg, id=1284, 495.35063pt x 187.45032pt>
+File: 2/figures/kernel_svm.jpg Graphic file (type jpg)
+<use 2/figures/kernel_svm.jpg>
+Package pdftex.def Info: 2/figures/kernel_svm.jpg  used on input line 562.
+(pdftex.def)             Requested size: 362.37598pt x 137.12932pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 571.
+LaTeX Info: Redefining \% on input line 571.
+[53]
+<2/figures/arbol_decision.jpg, id=1297, 797.22844pt x 511.9125pt>
+File: 2/figures/arbol_decision.jpg Graphic file (type jpg)
+<use 2/figures/arbol_decision.jpg>
+Package pdftex.def Info: 2/figures/arbol_decision.jpg  used on input line 575.
+(pdftex.def)             Requested size: 362.37598pt x 232.68622pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (2/3_conceptos/marc_conceptual.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
- [53]
+ [54 <./2/figures/caso1_svm.jpg> <./2/figures/caso2_svm.jpg>]
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [55 <./2/figures/kernel_svm.jpg> <./2/figures/arbol_decision.jpg>]
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
-
-[54]
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
- [55]))
+ [56]
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+ [57]
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [58]))
 LaTeX Info: Redefining \. on input line 198.
 LaTeX Info: Redefining \% on input line 198.
- [56]
+ [59]
 \openout2 = `3/metodologia.aux'.
 
  (3/metodologia.tex
 Cap\'{\i }tulo 3.
-[57
+[60
 
 
 
@@ -1841,25 +1883,25 @@ Overfull \hbox (2.71884pt too wide) in paragraph at lines 17--18
 
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-[58]
-<3/figures/largepotato.jpg, id=1296, 491.8375pt x 291.0875pt>
+[61]
+<3/figures/largepotato.jpg, id=1366, 491.8375pt x 291.0875pt>
 File: 3/figures/largepotato.jpg Graphic file (type jpg)
 <use 3/figures/largepotato.jpg>
 Package pdftex.def Info: 3/figures/largepotato.jpg  used on input line 37.
 (pdftex.def)             Requested size: 362.37598pt x 214.47751pt.
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
- [59 <./3/figures/largepotato.jpg>]
+ [62 <./3/figures/largepotato.jpg>]
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
- [60]
+ [63]
 LaTeX Font Info:    Trying to load font information for U+eus on input line 70.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\ueus.fd"
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-<3/figures/cronograma.jpg, id=1310, 999.735pt x 283.65974pt>
+<3/figures/cronograma.jpg, id=1379, 999.735pt x 283.65974pt>
 File: 3/figures/cronograma.jpg Graphic file (type jpg)
 <use 3/figures/cronograma.jpg>
 Package pdftex.def Info: 3/figures/cronograma.jpg  used on input line 92.
@@ -1878,43 +1920,43 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 LaTeX Info: Redefining \. on input line 199.
 LaTeX Info: Redefining \% on input line 199.
- [61]
+ [64]
 LaTeX Info: Redefining \. on input line 199.
 LaTeX Info: Redefining \% on input line 199.
- [62 <./3/figures/cronograma.jpg>]
+ [65 <./3/figures/cronograma.jpg>]
 \openout2 = `4/desarrollo.aux'.
 
  (4/desarrollo.tex
 Cap\'{\i }tulo 4.
-[63
+[66
 
 
 
 ])
 LaTeX Info: Redefining \. on input line 200.
 LaTeX Info: Redefining \% on input line 200.
- [64]
+ [67]
 \openout2 = `5/resultados.aux'.
 
  (5/resultados.tex
 Cap\'{\i }tulo 5.
-) [65
+) [68
 
 
 
 ]
 LaTeX Info: Redefining \. on input line 201.
 LaTeX Info: Redefining \% on input line 201.
- [66]
+ [69]
 \openout2 = `6/conclusion.aux'.
 
  (6/conclusion.tex
 Cap\'{\i }tulo 6.
-) [67
+) [70
 
 
 
-] [68
+] [71
 
 
 
@@ -1965,13 +2007,13 @@ Overfull \hbox (11.42305pt too wide) in paragraph at lines 7--31
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[69
+[72
 
 
 ]
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [70]
+ [73]
 Anexos B.
 
 Overfull \hbox (1.37367pt too wide) in paragraph at lines 49--49
@@ -2276,31 +2318,24 @@ Underfull \hbox (badness 7362) in paragraph at lines 75--77
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [71
+) [74
 
 ]
 LaTeX Info: Redefining \. on input line 211.
 LaTeX Info: Redefining \% on input line 211.
- [72] [73
+ [75] [76
 
 
 ]
+Overfull \hbox (47.66238pt too wide) in paragraph at lines 216--216
+[][]\OT1/ptm/m/n/12 Gupta, P. (2017). De-ci-sion Trees in Ma-chi-ne Lear-ning. 
+\OT1/ptm/m/it/12 To-wards Da-ta Scien-ce\OT1/ptm/m/n/12 . [][]$https : / / towa
+rdsdatascience .
+ []
+
 LaTeX Info: Redefining \. on input line 216.
 LaTeX Info: Redefining \% on input line 216.
- [74]
-! Misplaced alignment tab character &.
-<argument> ... Kickstarter for designers, makers &
-                                                   technologists
-l.216 ...y[heading=bibintoc,title={BIBLIOGRAFÍA}]
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
+[77]
 Overfull \hbox (27.30882pt too wide) in paragraph at lines 216--216
 [][]\OT1/ptm/m/n/12 L[]opez Brie-ga, R. E. (2016). Re-des neu-ro-na-les con-vo-
 lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
@@ -2308,7 +2343,13 @@ lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
 
 LaTeX Info: Redefining \. on input line 216.
 LaTeX Info: Redefining \% on input line 216.
-[75]
+[78]
+Overfull \hbox (2.5964pt too wide) in paragraph at lines 216--216
+[][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
+VM). [][]$https : / / la . mathworks . com / discovery /
+ []
+
+
 Overfull \hbox (2.32396pt too wide) in paragraph at lines 216--216
 \OT1/ptm/m/n/12 go-cio que por des-em-pleo. \OT1/ptm/m/it/12 Dia-rio Ges-ti[]on
 \OT1/ptm/m/n/12 . [][]$https : / / gestion . pe / economia / emprendimiento -[]
@@ -2317,16 +2358,19 @@ Overfull \hbox (2.32396pt too wide) in paragraph at lines 216--216
 
 LaTeX Info: Redefining \. on input line 216.
 LaTeX Info: Redefining \% on input line 216.
-[76]
+[79]
 Overfull \hbox (36.85689pt too wide) in paragraph at lines 216--216
 [][]\OT1/ptm/m/n/12 Solidaridad La-ti-na. (s.f.). ?`C[]omo fun-cio-na el crowd-
 fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
  []
 
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
+[80]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 LaTeX Info: Redefining \. on input line 218.
 LaTeX Info: Redefining \% on input line 218.
-[77]
+ [81]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (tesis.aux
 LaTeX Info: Redefining \. on input line 29.
@@ -2338,16 +2382,16 @@ LaTeX Info: Redefining \% on input line 29.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 651A1DDDEEF43875BD2F042CAE3C867D;10450.
+(rerunfilecheck)             Checksum: 543820A3C881E9BFAC417A2C0501BFD1;10450.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24247 strings out of 480763
- 445716 string characters out of 2904056
- 1261674 words of memory out of 3000000
- 39406 multiletter control sequences out of 15000+200000
+ 24345 strings out of 480763
+ 448259 string characters out of 2904056
+ 1265139 words of memory out of 3000000
+ 39481 multiletter control sequences out of 15000+200000
  587018 words of font info for 154 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,32n,81p,1814b,4033s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2362,9 +2406,9 @@ atxfont/lasy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb
 /MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (78 pages, 2640385 bytes).
+Output written on tesis.pdf (82 pages, 2860120 bytes).
 PDF statistics:
- 1604 PDF objects out of 1728 (max. 8388607)
- 310 named destinations out of 1000 (max. 500000)
- 1140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1696 PDF objects out of 1728 (max. 8388607)
+ 328 named destinations out of 1000 (max. 500000)
+ 1165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

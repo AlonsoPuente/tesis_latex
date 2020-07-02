@@ -39,9 +39,14 @@
 \contentsline {figure}{\numberline {2.33}{\ignorespaces Aplanado de matrices luego de agrupar la capa. Fuente: \cite {tec_prabhu2018cnn}\relax }}{51}{figure.caption.36}%
 \contentsline {figure}{\numberline {2.34}{\ignorespaces Arquitectura completa de una CNN. Fuente: \cite {tec_prabhu2018cnn}\relax }}{52}{figure.caption.37}%
 \contentsline {figure}{\numberline {2.35}{\ignorespaces Ejemplo de red neuronal recurrente. Fuente: \cite {gl_calvo2018rnn}\relax }}{52}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Hiperplano con dos clases separadas por una distancia m. Fuente: \cite {tec_betancourt2005svm}\relax }}{52}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Ejemplo de caso linealmente separable. Fuente: \cite {tec_betancourt2005svm}\relax }}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Ejemplo de caso no linealmente separable. Fuente: \cite {tec_betancourt2005svm}\relax }}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Aplicación de un kernel para transformar el espacio de los datos. Fuente: \cite {tec_betancourt2005svm}\relax }}{55}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Ejemplo del algoritmo de árbol de decisión. Fuente: \cite {bk_russell2004intart}\relax }}{55}{figure.caption.42}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{59}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{62}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura\relax }}{62}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{65}{figure.caption.44}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
