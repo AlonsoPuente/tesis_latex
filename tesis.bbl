@@ -1614,7 +1614,7 @@
       \verb https://relopezbriega.github.io/blog/2016/08/02/redes-neuronales-convolucionales-con-tensorflow/
       \endverb
     \endentry
-    \entry{cr_lopezgolan2017crowdfunding}{report}{}
+    \entry{cr_lopezgolan2017crowdfunding}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f5d516bb2d2180f7bed6c6a7df240ba4}{%
            family={López-Golán},
@@ -1641,11 +1641,11 @@
            giveni={X\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Pontificia Universidad Católica del Ecuador Sede Ibarra}%
-      }
       \list{location}{1}{%
         {Ibarra}%
+      }
+      \list{publisher}{1}{%
+        {Pontificia Universidad Católica del Ecuador Sede Ibarra}%
       }
       \strng{namehash}{4e7660e48d10ebc3bb6d0f0fb66292b5}
       \strng{fullhash}{084cb89d179a78c7e3b7e3dc715b82ee}
@@ -1660,10 +1660,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Las campañas de crowdfunding. Su eficacia en proyectos audiovisuales en el contexto latinoamericano}
+      \field{isbn}{9789899843479}
+      \field{journaltitle}{Iberian Conference on Information Systems and Technologies, CISTI}
+      \field{title}{Crowdfunding campaigns. Its effectiveness in audiovisual projects in the Latin American context | Las campañas de crowdfunding. Su eficacia en proyectos audiovisuales en el contexto latinoamericano}
       \field{year}{2017}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/CISTI.2017.7976016
+      \endverb
     \endentry
     \entry{gl_mlfa2019redesneuronales}{misc}{}
       \name{author}{1}{}{%

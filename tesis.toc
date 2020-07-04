@@ -6,18 +6,18 @@
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{14}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{17}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Problema General}{17}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Problemas Espec\'{i}ficos}{17}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Problemas Espec\'{i}ficos}{18}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{18}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivo General}{18}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'{i}ficos}{18}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{18}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Teórica}{18}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{19}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Teórica}{19}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Práctica}{19}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}Metodológica}{19}{subsection.1.4.3}%
 \contentsline {section}{\numberline {1.5}Delimitación del Estudio}{19}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Espacial}{19}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Temporal}{19}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Conceptual}{19}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.3}Conceptual}{20}{subsection.1.5.3}%
 \contentsline {section}{\numberline {1.6}Hipótesis}{20}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Hipótesis General}{20}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Hipótesis Específicas}{20}{subsection.1.6.2}%
@@ -114,7 +114,9 @@
 \contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{70}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Conclusiones}{70}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Recomendaciones}{70}{section.6.2}%
-\contentsline {chapter}{Anexos}{71}{section*.48}%
-\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{72}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Anexo II: Resumen de Papers investigados}{74}{appendix.Alph2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{76}{appendix*.51}%
+\contentsline {chapter}{Anexo}{71}{section*.48}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{72}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{73}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{74}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{76}{appendix.1.Alph4}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{78}{appendix*.53}%

@@ -41,7 +41,8 @@ pdfauthor={autor nombres}]{hyperref}
 \usepackage{multicol} % for pages with multiple text columns, e.g. References
 \setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
 \usepackage[nottoc]{tocbibind} % correct page numbers for bib in TOC, nottoc suppresses an entry for TOC itself
-\usepackage{appendix}
+%\usepackage{appendix}
+\usepackage[titletoc]{appendix} 
 
 %%%----Modificar encabezado y pie de pagina
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -202,8 +203,8 @@ pdfauthor={autor nombres}]{hyperref}
 \include{6/conclusion}
 %%Anexos
 \appendix
-\renewcommand{\appendixname}{Anexos}
-\renewcommand{\appendixtocname}{Anexos}
+\renewcommand{\appendixname}{Anexo} %Esto es para las páginas
+\renewcommand{\appendixtocname}{Anexo} %Esto es para el índice
 \renewcommand{\appendixpagename}{Anexos}
 \clearpage
 \addappheadtotoc
