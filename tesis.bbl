@@ -2612,6 +2612,52 @@
       \verb 10.1109/ISCBI.2018.00026
       \endverb
     \endentry
+    \entry{cr_ullah2020crowdfunding}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3559e53cc97a92cbfa5bca1b34d42d32}{%
+           family={Ullah},
+           familyi={U\bibinitperiod},
+           given={Saif},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=b0ae8201542ab350d04f8cd2138d62a9}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yulin},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Ibarra}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{ffba6272908453a99826a83347974e7c}
+      \strng{fullhash}{ffba6272908453a99826a83347974e7c}
+      \strng{bibnamehash}{ffba6272908453a99826a83347974e7c}
+      \strng{authorbibnamehash}{ffba6272908453a99826a83347974e7c}
+      \strng{authornamehash}{ffba6272908453a99826a83347974e7c}
+      \strng{authorfullhash}{ffba6272908453a99826a83347974e7c}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789899843479}
+      \field{journaltitle}{Journal of Risk and Financial Management}
+      \field{number}{4}
+      \field{title}{Gender, Anonymity and Team: What Determines Crowdfunding Success on Kickstarter}
+      \field{volume}{13}
+      \field{year}{2020}
+      \field{pages}{80}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jrfm13040080
+      \endverb
+    \endentry
     \entry{cr_uc_crowdfunding}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=594d56cca8b153463f85969bd0d5dc47}{%
@@ -2853,12 +2899,12 @@
     \endentry
     \entry{pr_zhou2018projectdesc}{article}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=ea82f1187cf74ae3aeeef6f1667648d1}{%
+        {{un=1,uniquepart=given,hash=ea82f1187cf74ae3aeeef6f1667648d1}{%
            family={Zhou},
            familyi={Z\bibinitperiod},
            given={Mi},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=2c65dc0155fc0f151c939cd8fa10040e}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
