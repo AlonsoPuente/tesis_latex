@@ -32,9 +32,18 @@ Los tres tipos de aprendizaje principales son:
 		\end{center}
 	\end{figure}
 	
-	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o \textit{k-NN Nearest Neighbour} en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Por ejemplo, si x es el ejemplo que se desea clasificar, V son las posibles clases de clasificación, yxi es el conjunto de los k ejemplos de entrenamiento más cercano, se define la siguiente fórmula:
-	
+	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o \textit{k-NN Nearest Neighbour} en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Por ejemplo, si x es el ejemplo que se desea clasificar, V son las posibles clases de clasificación, yxi es el conjunto de los k ejemplos de entrenamiento más cercano, se define la siguiente fórmula:	
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		W_i = \frac{1}{d(x, x_i)^2}
+		\label{eq:weights-KNN}
+		\end{equation*}
+		\caption[Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}]{Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}}
+	\end{equcaption}
+		
 	y finalmente, la clase asignada a x es aquella que verifique que la suma de los pesos de sus representantes sea la máxima, representándose en la Figura \ref{2:fig3}:
+	
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{2/figures/knn.jpg}
@@ -43,11 +52,28 @@ Los tres tipos de aprendizaje principales son:
 		\end{center}
 	\end{figure}
 	
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		argmax_{v \in V}\sum_{i=1…k,x_i \in v}W_i
+		\label{eq:weights-KNN_alt}
+		\end{equation*}
+		\caption[Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}}
+	\end{equcaption}
+	
 	\item \textbf{Aprendizaje no supervisado}: A diferencia de la anterior, aquí se trabaja con datos no etiquetados para entrenar el modelo, ya que el fin es de carácter exploratorio y descriptivo de la estructura de los datos. No existen variables independientes o Y.
 	
 	La función es agrupar ejemplares, por lo que el algoritmo los cataloga por similitud en sus características y a partir de ahí, crea grupos o clústeres sin tener la capacidad de definir cómo es cada individualidad de cada uno de los integrantes de los mismos \parencite{bk_zambrano2018supnosup}.
 	
 	El algoritmo usado para este tipo de aprendizaje es el de las K medias o \textit{k-means} en inglés. Este intenta encontrar una partición de las muestras en K agrupaciones, de manera que cada ejemplar pertenezca a una de ellas de acuerdo al centroide más cercano. Si bien el valor de K es definido por el usuario, a partir de pruebas de varias iteraciones se le puede consultar al algoritmo cuál es su valor óptimo. La intención es minimizar la varianza total del sistema. Por ejemplo, si se tiene el centroide ci de la agrupación i-ésima, yxji es el conjunto de ejemplos clasificados en esa agrupación, la función para lograr esto es la siguiente:
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		\sum_{i}\sum_{j}d(x_j^i, c_i)^2
+		\label{eq:k-means}
+		\end{equation*}
+		\caption[Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}}
+	\end{equcaption}
 	
 	Representándose en la Figura \ref{2:fig4}, los pasos seguidos para este algoritmo comienzan con la selección de los K puntos como como centros de los grupos. Luego, se asignarán los ejemplos al centro más cercano y se calculará el centroide de los ejemplos asociados a cada grupo. Finalmente, estos dos últimos pasos se repetirán hasta que ninguno de los centros pueda ser reasignados en las iteraciones.
 	\begin{figure}[h]
@@ -266,6 +292,14 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	La última figura descrita muestra, además de los pesos, funciones de activación tanto para la entrada (aj) como para la salida (ai). Pero, ¿qué son estas funciones y para qué sirven?
 	
 	Para comenzar, las redes neuronales están compuestas de nodos (la elipse) conectados a través de conexiones dirigidas (las flechas). Una conexión del nodo j a la unidad i sirve para propagar la activación aj de j a i. Asimismo, cada conexión tiene un peso numérico W(j,i) que determina la fuerza y el signo de la conexión. Para calcular cada nodo i, se realiza una suma ponderada de sus entradas (producto entre pesos y nodos de entrada j), y se le añade el sesgo (bias) teta-i (aumenta/disminuye el valor de la combinación lineal de las entradas):
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		in_i=\sum_{j=0}^n W_{j,i}*a_j + \theta_i
+		\label{eq:nodo}
+		\end{equation*}
+		\caption[Fórmula del cálculo del valor de un nodo i. Fuente: \cite{bk_russell2004intart}]{Fórmula del cálculo del valor de un nodo i. Fuente: \cite{bk_russell2004intart}}
+	\end{equcaption}
 	
 	Posteriormente, se efectúa una función de activación g a esta suma para producir la salida:
 	
