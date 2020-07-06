@@ -200,7 +200,7 @@ pdfauthor={autor nombres}]{hyperref}
 
 
 %: ----------------------- list of figures/tables ------------------------
-
+\clearpage
 \listoffigures	% print list of figures
 \clearpage
 \listoftables  % print list of tables
@@ -217,6 +217,13 @@ pdfauthor={autor nombres}]{hyperref}
 \include{4/desarrollo}
 \include{5/resultados}
 \include{6/conclusion}
+% %%Bibliografia
+%\bibliographystyle{apalike} % Title is link if provided
+%\renewcommand{\bibname}{BIBLIOGRAFÍA} % changes the header; default: Bibliography
+
+\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
+%\bibliography{biblio/references} % adjust this to fit your BibTex file
+
 %%Anexos
 \appendix
 \renewcommand{\appendixname}{Anexo} %Esto es para las páginas
@@ -226,10 +233,4 @@ pdfauthor={autor nombres}]{hyperref}
 \addappheadtotoc
 \appendixpage
 \include{anexos/anexo}
-% %%Bibliografia
-%\bibliographystyle{apalike} % Title is link if provided
-%\renewcommand{\bibname}{BIBLIOGRAFÍA} % changes the header; default: Bibliography
-
-\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
-%\bibliography{biblio/references} % adjust this to fit your BibTex file
 \end{document}
