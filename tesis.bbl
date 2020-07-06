@@ -1849,6 +1849,35 @@
       \verb https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/data-mining-concepts?view=sql-server-2017
       \endverb
     \endentry
+    \entry{gl_pardo_reglogcosto}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f3bea5e36645e3644eeaf13347e8fcc}{%
+           family={Pardo},
+           familyi={P\bibinitperiod},
+           given={Carlos\bibnamedelima Julio},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f3bea5e36645e3644eeaf13347e8fcc}
+      \strng{fullhash}{4f3bea5e36645e3644eeaf13347e8fcc}
+      \strng{bibnamehash}{4f3bea5e36645e3644eeaf13347e8fcc}
+      \strng{authorbibnamehash}{4f3bea5e36645e3644eeaf13347e8fcc}
+      \strng{authornamehash}{4f3bea5e36645e3644eeaf13347e8fcc}
+      \strng{authorfullhash}{4f3bea5e36645e3644eeaf13347e8fcc}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MACHINE LEARNING – Regresión Logística}
+      \verb{urlraw}
+      \verb https://carlosjuliopardoblog.wordpress.com/2017/12/31/regresion-logistica/
+      \endverb
+      \verb{url}
+      \verb https://carlosjuliopardoblog.wordpress.com/2017/12/31/regresion-logistica/
+      \endverb
+    \endentry
     \entry{tec_poole1998machinelearning}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9ad5efb8d461b040f7b5ea00c198fb43}{%

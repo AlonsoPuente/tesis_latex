@@ -149,6 +149,10 @@ pdfauthor={autor nombres}]{hyperref}
 \usepackage{caption}
 \DeclareCaptionType{equcaption}[Ecuación][Índice de Ecuaciones]
 
+\newenvironment{conditions}
+{\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+	{\end{tabular}\par\vspace{\belowdisplayskip}}
+
 \begin{document}
 % Se añade esto para agregar la lista de ecuaciones en el Índice del documento	
 

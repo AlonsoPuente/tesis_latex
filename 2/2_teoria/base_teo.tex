@@ -32,7 +32,7 @@ Los tres tipos de aprendizaje principales son:
 		\end{center}
 	\end{figure}
 	
-	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o \textit{k-NN Nearest Neighbour} en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Por ejemplo, si x es el ejemplo que se desea clasificar, V son las posibles clases de clasificación, yxi es el conjunto de los k ejemplos de entrenamiento más cercano, se define la siguiente fórmula:	
+	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o \textit{k-NN Nearest Neighbour} en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Para ello, se tiene la Ecuación \ref{eq:weights-KNN} y su variante en la Ecuación \ref{eq:weights-KNN_alt}:	
 	\begin{equcaption}[!ht]
 		\begin{equation*}
 		\phantomsection
@@ -41,8 +41,24 @@ Los tres tipos de aprendizaje principales son:
 		\caption[Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}]{Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}}
 		\label{eq:weights-KNN}
 	\end{equcaption}
+
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		argmax_{v \in V}\sum_{i=1…k,x_i \in v}W_i
+		\end{equation*}
+		\caption[Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}}
+		\label{eq:weights-KNN_alt}
+	\end{equcaption}
+
+	Donde:
+	\begin{conditions}
+		x	&	ejemplo que se desea clasificar \\
+		V	&	posibles clases de clasificación \\
+		x_i   &  conjunto de los k ejemplos de entrenamiento más cercanos
+	\end{conditions}
 		
-	y finalmente, la clase asignada a x es aquella que verifique que la suma de los pesos de sus representantes sea la máxima, representándose en la Figura \ref{2:fig3}:
+	y finalmente, la clase asignada a $x$ es aquella que verifique que la suma de los pesos de sus representantes sea la máxima, representándose en la Figura \ref{2:fig3}:
 	
 	\begin{figure}[h]
 		\begin{center}
@@ -52,28 +68,25 @@ Los tres tipos de aprendizaje principales son:
 		\end{center}
 	\end{figure}
 	
-	\begin{equcaption}[!ht]
-		\begin{equation*}
-		\phantomsection
-		argmax_{v \in V}\sum_{i=1…k,x_i \in v}W_i
-		\end{equation*}
-		\caption[Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}}
-		\label{eq:weights-KNN_alt}
-	\end{equcaption}
-	
 	\item \textbf{Aprendizaje no supervisado}: A diferencia de la anterior, aquí se trabaja con datos no etiquetados para entrenar el modelo, ya que el fin es de carácter exploratorio y descriptivo de la estructura de los datos. No existen variables independientes o Y.
 	
 	La función es agrupar ejemplares, por lo que el algoritmo los cataloga por similitud en sus características y a partir de ahí, crea grupos o clústeres sin tener la capacidad de definir cómo es cada individualidad de cada uno de los integrantes de los mismos \parencite{bk_zambrano2018supnosup}.
 	
-	El algoritmo usado para este tipo de aprendizaje es el de las K medias o \textit{k-means} en inglés. Este intenta encontrar una partición de las muestras en K agrupaciones, de manera que cada ejemplar pertenezca a una de ellas de acuerdo al centroide más cercano. Si bien el valor de K es definido por el usuario, a partir de pruebas de varias iteraciones se le puede consultar al algoritmo cuál es su valor óptimo. La intención es minimizar la varianza total del sistema. Por ejemplo, si se tiene el centroide ci de la agrupación i-ésima, yxji es el conjunto de ejemplos clasificados en esa agrupación, la función para lograr esto es la siguiente:
+	El algoritmo usado para este tipo de aprendizaje es el de las K medias o \textit{k-means} en inglés. Este intenta encontrar una partición de las muestras en K agrupaciones, de manera que cada ejemplar pertenezca a una de ellas de acuerdo al centroide más cercano. Si bien el valor de K es definido por el usuario, a partir de pruebas de varias iteraciones se le puede consultar al algoritmo cuál es su valor óptimo. La función para lograr esto se observa en la Ecuación \ref{eq:k-means}:
 	\begin{equcaption}[!ht]
 		\begin{equation*}
 		\phantomsection
-		\sum_{i}\sum_{j}d(x_j^i, c_i)^2
+		\sum_{i}\sum_{j}\mathrm{d}(x_j^i, c_i)^2
 		\end{equation*}
 		\caption[Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}}
 		\label{eq:k-means}
 	\end{equcaption}
+	
+	Donde:
+	\begin{conditions}
+		c_i   &  centroide de la agrupación i-ésima \\
+		x_j^i   &  conjunto de ejemplos clasificados de la agrupación i-ésima
+	\end{conditions}
 	
 	Representándose en la Figura \ref{2:fig4}, los pasos seguidos para este algoritmo comienzan con la selección de los K puntos como como centros de los grupos. Luego, se asignarán los ejemplos al centro más cercano y se calculará el centroide de los ejemplos asociados a cada grupo. Finalmente, estos dos últimos pasos se repetirán hasta que ninguno de los centros pueda ser reasignados en las iteraciones.
 	\begin{figure}[h]
@@ -289,9 +302,9 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\end{center}
 	\end{figure}
 	
-	La última figura descrita muestra, además de los pesos, funciones de activación tanto para la entrada (aj) como para la salida (ai). Pero, ¿qué son estas funciones y para qué sirven?
+	La última figura descrita muestra, además de los pesos, funciones de activación tanto para la entrada ($a_j$) como para la salida ($a_i$). Pero, ¿qué son estas funciones y para qué sirven?
 	
-	Para comenzar, las redes neuronales están compuestas de nodos (la elipse) conectados a través de conexiones dirigidas (las flechas). Una conexión del nodo j a la unidad i sirve para propagar la activación aj de j a i. Asimismo, cada conexión tiene un peso numérico W(j,i) que determina la fuerza y el signo de la conexión. Para calcular cada nodo i, se realiza una suma ponderada de sus entradas (producto entre pesos y nodos de entrada j), y se le añade el sesgo (bias) teta-i (aumenta/disminuye el valor de la combinación lineal de las entradas):
+	Para comenzar, las redes neuronales están compuestas de nodos (la elipse) conectados a través de conexiones dirigidas (las flechas). Una conexión del nodo $j$ a la unidad $i$ sirve para propagar la activación $a_j$ de $j$ a $i$. Asimismo, cada conexión tiene un peso numérico $W(j,i)$ que determina la fuerza y el signo de la conexión. Para calcular cada nodo $i$, se realiza una suma ponderada de sus entradas (producto entre pesos y nodos de entrada $j$), y se le añade el sesgo (\textit{bias}) $\theta_i$ (aumenta/disminuye el valor de la combinación lineal de las entradas) como se observa en la Ecuación \ref{eq:nodo}:
 	\begin{equcaption}[!ht]
 		\begin{equation*}
 		\phantomsection
@@ -301,7 +314,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\label{eq:nodo}
 	\end{equcaption}
 	
-	Posteriormente, se efectúa una función de activación g a esta suma para producir la salida:
+	Posteriormente, se efectúa una función de activación g a esta suma para producir la salida de la Ecuación \ref{eq:activacion}:
 	\begin{equcaption}[!ht]
 		\begin{equation*}
 		\phantomsection
@@ -322,7 +335,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	
 	Entre las funciones de activación que más destacan son las siguientes:
 	\begin{itemize}
-		\item \textbf{Función sigmoide o logística}: Toma los valores de entrada que oscilan entre infinito negativo y positivo, y restringe los valores de salida al rango entre 0 y 1. Frecuentemente es usada en Redes Multicapa (MLP) entrenadas con el algoritmo de propagación inversa. Se representa como en la Figura \ref{2:fig13} y su fórmula para calcular su nuevo valor es:
+		\item \textbf{Función sigmoide o logística}: Toma los valores de entrada que oscilan entre infinito negativo y positivo, y restringe los valores de salida al rango entre 0 y 1. Frecuentemente es usada en Redes Multicapa (MLP) entrenadas con el algoritmo de propagación inversa. Se representa como en la Figura \ref{2:fig13} y su fórmula para calcular su nuevo valor es la Ecuación \ref{eq:sigmoide}:
 		\begin{equcaption}[!ht]
 			\begin{equation*}	
 			\phantomsection
@@ -342,17 +355,25 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		
 		Un dato curioso de esta función relacionado con la regresión logística es que el nombre de esta última no deriva de una regresión. Por el contrario, se debe a que, al principio de la neurona, se realiza una combinación lineal muy parecida a una regresión lineal y después se aplica la función logística o sigmoide. De ahí el origen del nombre \parencite{gl_iartificial2019reglogistica}.
 		\begin{itemize}
-			\item \textbf{Regresión Logística}: Como se mencionó antes, es similar a un modelo de regresión lineal, pero está adaptado para modelos en los que la variable dependiente es dicotómica, es decir, presenta solo dos posibles valores. Resulta muy útil para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores \parencite{gl_ibm2019reglogistica}. Su función de coste que se optimiza con gradiente descendiente se representa mediante la siguiente fórmula:
+			\item \textbf{Regresión Logística}: Como se mencionó antes, es similar a un modelo de regresión lineal, pero está adaptado para modelos en los que la variable dependiente es dicotómica, es decir, presenta solo dos posibles valores. Resulta muy útil para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores \parencite{gl_ibm2019reglogistica}. Su función de coste que se optimiza con gradiente descendiente se representa mediante la Ecuación \ref{eq:logistica}:
 			\begin{equcaption}[!ht]
 				\begin{equation*}
 				\phantomsection
-				J=-\frac{1}{m}\sum_i^m y_i*\log(\hat{p_i})+(1-y_i)*\log(1-\hat{p_i})
+				J(\theta)=\frac{1}{m}\sum_{i=1}^m [-y_i*\log(h_{\theta}(x_{i}))-(1-y_i)*\log(1-h_{\theta}(x_{i}))]
 				\end{equation*}
-				\caption[Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_iartificial2019reglogistica}]{Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_iartificial2019reglogistica}}
+				\caption[Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_pardo_reglogcosto}]{Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_pardo_reglogcosto}}
 				\label{eq:logistica}
 			\end{equcaption}
 			
-			Donde la primera parte de la ecuación está conformada por el logaritmo de la probabilidad de éxito y la segunda, por la de fracaso.
+			Donde:
+			\begin{conditions}
+				h_{\theta}(x_{i})	&	función sigmoide de $\theta^T x$ \\
+				\theta	&	vector de longitud theta para j=0,1,2,3...n \\
+				x   &  matriz de entradas \\
+				y	&  vector de salidas
+			\end{conditions}
+			
+			La primera parte de la ecuación está conformada por el logaritmo de la probabilidad de éxito y la segunda, por la de fracaso.
 			
 			\item \textbf{Gradiente descendiente}: Es un método de optimización numérica para estimar los mejores coeficientes, fundamental en Deep Learning para entrenar redes neuronales y en muchos casos, para la regresión logística, siendo mejor que el método de mínimos cuadrados (poner ref). A través de una función E(W), proporciona el error que comete la red en función del conjunto de pesos sinápticos W. El objetivo del aprendizaje será encontrar la configuración de pesos que corresponda al mínimo global de la función de error o coste \parencite{tec_bertona2005algevol}.
 			
@@ -365,7 +386,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\end{center}
 			\end{figure}
 			
-			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden \parencite{tec_sancho2017descentgrad}. Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la ecuación \ref{eq:w_descgrad} \parencite{gl_iartificial2019descentgrad}:
+			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden \parencite{tec_sancho2017descentgrad}. Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la Ecuación \ref{eq:w_descgrad} \parencite{gl_iartificial2019descentgrad}:
 			\begin{equcaption}[!ht]
 				\begin{equation*}
 				\phantomsection
@@ -374,8 +395,13 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\caption[Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}]{Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}}
 				\label{eq:w_descgrad}
 			\end{equcaption}
+		
+			Donde:
+			\begin{conditions}
+				\alpha	&	ratio de aprendizaje
+			\end{conditions}
 			
-			Donde alfa es el “ratio de aprendizaje”, el cual controla el tamaño de la actualización, si este es demasiado grande será más difícil encontrar los coeficientes que minimicen la función de coste o error; la actualización de W es proporcional al gradiente; y se usa la resta para ir en dirección opuesta al gradiente como en la Figura \ref{2:fig15}.
+			Este ratio controla el tamaño de la actualización. Si este es demasiado grande, será más difícil encontrar los coeficientes que minimicen la función de coste o error; la actualización de W es proporcional al gradiente; y se usa la resta para ir en dirección opuesta al gradiente como en la Figura \ref{2:fig15}.
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.5\textwidth]{2/figures/pesos_graddescen.jpg}
@@ -384,7 +410,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\end{center}
 			\end{figure}
 			
-			\item \textbf{Propagación hacia atrás}: También conocido en inglés como \textit{Backpropagation}, es un método que consta de dos fases: en la primera se aplica un patrón, el cual se propaga por las distintas capas que componen la red hasta producir la salida de la misma. Luego, esta se compara con la salida deseada y se calcula el error cometido por cada neurona de salida. Estos errores se transmiten hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de las capas intermedias [Fritsch, 1996] \parencite{tec_bertona2005algevol}. La actualización iterativa de los pesos que el algoritmo propone es mediante la siguiente fórmula:
+			\item \textbf{Propagación hacia atrás}: También conocido en inglés como \textit{Backpropagation}, es un método que consta de dos fases: en la primera se aplica un patrón, el cual se propaga por las distintas capas que componen la red hasta producir la salida de la misma. Luego, esta se compara con la salida deseada y se calcula el error cometido por cada neurona de salida. Estos errores se transmiten hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de las capas intermedias [Fritsch, 1996] \parencite{tec_bertona2005algevol}. La actualización iterativa de los pesos que el algoritmo propone es mediante la Ecuación \ref{eq:backpropagation}:
 			\begin{equcaption}[!ht]
 				\begin{equation*}
 				\phantomsection
@@ -422,7 +448,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\end{center}
 			\end{figure}
 			
-			Se tiene una red neuronal con tres nodos de entradas (x1=1, x2=4 y x3=5) con dos pesos respectivos cada una (W1=0.1 y W2=0.2 para x1; W3=0.3 y W4=0.4 para x2; W5=0.5 y W6=0.6 para x3), dos capas ocultas (h1 y h2) con dos peso cada una (W7=0.7 y W8=0.8 para h1; W9=0.9 y W10=0.1 para h2) y dos nodos de salida (o1 y o2). El proceso normal para calcular el valor del nodo final se da, tanto con los nodos de entrada y los de capa oculta, mediante la sumatoria de producto de cada peso con su valor, es decir, mediante la fórmula de las RNA (colocar formula), al mismo tiempo que devuelve un valor del error cometido. Este último se calcula mediante la siguiente ecuación:
+			Se tiene una red neuronal con tres nodos de entradas ($x_1$=1, $x_2$=4 y $x_3$=5) con dos pesos respectivos cada una ($W_1$=0.1 y $W_2$=0.2 para $x_1$; $W_3$=0.3 y $W_4$=0.4 para $x_2$; $W_5$=0.5 y $W_6$=0.6 para $x_3$), dos capas ocultas ($h_1$ y $h_2$) con dos peso cada una ($W_7$=0.7 y $W_8$=0.8 para $h_1$; $W_9$=0.9 y $W_10$=0.1 para $h_2$) y dos nodos de salida ($O_1$ y $O_2$). El proceso normal para calcular el valor del nodo final se da, tanto con los nodos de entrada y los de capa oculta, mediante la sumatoria de producto de cada peso con su valor, es decir, mediante la fórmula de las RNA $in_i=\sum_{j=0}^n W_{j,i}*a_j+b_{j,i}$, al mismo tiempo que devuelve un valor del error cometido. Este último se calcula mediante la Ecuación \ref{eq:rnaerror}:
 			\begin{equcaption}[!ht]
 				\begin{equation*}
 				\phantomsection
@@ -432,7 +458,13 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\label{eq:rnaerror}
 			\end{equcaption}
 			
-			Donde Tk es la salida correcta de cada nodo de salida, y Ok es la salida actual que cada uno genera. Con estos errores calculados, se retrocede hacia la capa oculta y se procede a calcular los nuevos pesos para sus nodos. La fórmula del cálculo de los mismos es:
+			Donde:
+			\begin{conditions}
+				T_k	&	salida correcta de cada nodo de salida \\
+				O_k	&	salida actual que cada nodo genera
+			\end{conditions}
+			
+			Con estos errores calculados, se retrocede hacia la capa oculta y se procede a calcular los nuevos pesos para sus nodos. La fórmula del cálculo de los mismos es la Ecuación \ref{eq:updateweightsrna}:
 			\begin{equcaption}[!ht]
 				\begin{equation*}
 				\phantomsection
@@ -442,7 +474,14 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\label{eq:updateweightsrna}
 			\end{equcaption}
 			
-			Donde Wjk representa el peso para cada nodo de la capa oculta, es decir, W7, W8, W9 y W10, los mismos que serán actualizados, L es el porcentaje de aprendizaje y Oj son los valores de estos dos nodos que entrarán a las salidas. Estos nuevos pesos permitirán redefinir los errores de ambos nodos, con una pequeña diferencia en su cálculo:
+			Donde:
+			\begin{conditions}
+				W_{jk}	&	peso a actualizar para cada nodo de la capa oculta ($W_7$, $W_8$, $W_9$ y $W_{10}$) \\
+				L	&	porcentaje de aprendizaje \\
+				O_j	&	valor de los nodos que entrarán a las salidas
+			\end{conditions}
+			
+			Estos nuevos pesos permitirán redefinir los errores de ambos nodos, con una pequeña diferencia en su cálculo (Ecuación \ref{eq:errornodorna}):
 			\begin{equcaption}[!ht]
 				\begin{equation*}
 				\phantomsection
@@ -452,14 +491,12 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\label{eq:errornodorna}
 			\end{equcaption}
 			
-			El error de cada nodo de la capa oculta se obtiene multiplicando su valor por su complemento por la sumatoria del producto de sus pesos y los errores de los nodos de salida. Por ejemplo, para h1 sería \begin{equation*}
-			\phantomsection
-			E_{h1}=h_1*(1-h_1)*(0.7*O_1+0.8*O_2)
-			\end{equation*}
+			El error de cada nodo de la capa oculta se obtiene multiplicando su valor por su complemento por la sumatoria del producto de sus pesos y los errores de los nodos de salida. Por ejemplo, para h1 sería 
+			$E_{h1}=h_1*(1-h_1)*(0.7*O_1+0.8*O_2)$.
 			
 			Finalmente, se retrocede hacia los nodos de entrada y se repite el mismo proceso para la actualización de sus pesos y errores.
 		\end{itemize}
-	\item \textbf{Función tangente hiperbólica}: Esta función está relacionada con una sigmoide bipolar. Sin embargo, sus salidas estarán en el rango de -1 y +1. Para redes neuronales, donde la velocidad es más importante que la forma de la función misma, es recomendable usar esta. Se representa como en la Figura \ref{2:fig18} y su fórmula para calcular su nuevo valor es:
+	\item \textbf{Función tangente hiperbólica}: Esta función está relacionada con una sigmoide bipolar. Sin embargo, sus salidas estarán en el rango de -1 y +1. Para redes neuronales, donde la velocidad es más importante que la forma de la función misma, es recomendable usar esta. Se representa como en la Figura \ref{2:fig18} y su fórmula para calcular su nuevo valor es la Ecuación \ref{eq:tansig}:
 	\begin{equcaption}[!ht]
 		\begin{equation*}
 		\phantomsection
@@ -477,7 +514,16 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\end{center}
 	\end{figure}
 	
-	\item \textbf{Función puramente lineal (purelin)}: Esta función se caracteriza porque su salida es igual a su entrada debido a su linealidad. Normalmente se usa para obtener los mismos valores de la entrada. Se representa como en la Figura \ref{2:fig19} y su fórmula para calcular su nuevo valor es:
+	\item \textbf{Función puramente lineal (purelin)}: Esta función se caracteriza porque su salida es igual a su entrada debido a su linealidad. Normalmente se usa para obtener los mismos valores de la entrada. Se representa como en la Figura \ref{2:fig19} y su fórmula para calcular su nuevo valor es la Ecuación \ref{eq:purelin}:
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		a=n
+		\end{equation*}
+		\caption[Fórmula de la función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}]{Fórmula de la función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}}
+		\label{eq:purelin}
+	\end{equcaption}
+	
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.3\textwidth]{2/figures/purelin.jpg}
@@ -486,7 +532,22 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\end{center}
 	\end{figure}
 	
-	\item \textbf{Función Unidad Lineal Rectificada (ReLU)}: Esta función se caracteriza por, además de conservar los valores positivos, convertir los valores negativos de entrada en 0, esto con la finalidad de no considerarlos en la siguiente capa de convolución como en el caso de procesamiento de imágenes \parencite{gl_bigdata2019bigdata}. Si bien tiene un buen desempeño en redes convolucionales y es muy usada para el procesamiento de imágenes, al no estar acotada pueden morirse demasiadas neuronas \parencite{gl_calvo2018activrna}. Se representa como en la Figura \ref{2:fig20} y su fórmula para calcular su nuevo valor es:
+	\item \textbf{Función Unidad Lineal Rectificada (ReLU)}: Esta función se caracteriza por, además de conservar los valores positivos, convertir los valores negativos de entrada en 0, esto con la finalidad de no considerarlos en la siguiente capa de convolución como en el caso de procesamiento de imágenes \parencite{gl_bigdata2019bigdata}. Si bien tiene un buen desempeño en redes convolucionales y es muy usada para el procesamiento de imágenes, al no estar acotada pueden morirse demasiadas neuronas \parencite{gl_calvo2018activrna}. Se representa como en la Figura \ref{2:fig20} y su fórmula para calcular su nuevo valor es la Ecuación \ref{eq:relu}:
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		f(x) = \max (0,x) =
+		\left\{
+		\begin{aligned}
+		0 \quad \text{para} \quad x < 0\\
+		x \quad \text{para} \quad x \geq 0
+		\end{aligned}
+		\right.
+		\end{equation*}
+		\caption[Fórmula de la función de activación ReLU. Fuente: \cite{gl_calvo2018activrna}]{Fórmula de la función de activación ReLU. Fuente: \cite{gl_calvo2018activrna}}
+		\label{eq:relu}
+	\end{equcaption}
+	
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.3\textwidth]{2/figures/relu.jpg}
@@ -543,7 +604,15 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		
 		Estos modelos se inspiraron en el estudio de la información visual en la corteza donde se ubican hasta 5 áreas. La primera, V1, contiene la información visual donde sus neuronas se ocupan de características visuales de bajo nivel, alimentando así a otras áreas adyacentes. Cada una de ellas se encarga de aspectos más específicos y detallados de la información obtenida. La idea de su implementación es la de solucionar el problema que surgen al escalar imágenes de mucha definición por las redes neuronales ordinarias. Por ello, este tipo de redes trabajan modelando de forma consecutiva piezas pequeñas de información para luego combinarlas en sus capas más profundas \parencite{tec_lopez2016cnnTF}.
 		
-		Su nombre deriva del concepto convolución. La convolución es un término en las matemáticas usado como operador matemático que convierte dos funciones f y g en una tercera función en donde la primera se superpone a una versión invertida y trasladada de la segunda, así como para denotar la distribución de la función de probabilidad de la suma de dos variables independientes aleatorias. Esta se da por la siguiente fórmula \parencite{tec_figueroa_convolucion}.
+		Su nombre deriva del concepto convolución. La convolución es un término en las matemáticas usado como operador matemático que convierte dos funciones f y g en una tercera función en donde la primera se superpone a una versión invertida y trasladada de la segunda, así como para denotar la distribución de la función de probabilidad de la suma de dos variables independientes aleatorias. Esta se da por la Ecuación \ref{eq:convolution} \parencite{tec_figueroa_convolucion}:
+		\begin{equcaption}[!ht]
+			\begin{equation*}
+			\phantomsection
+			(f*g)(t)=\int_0^t f(t-\tau)g(\tau)\mathrm{d}\tau
+			\end{equation*}
+			\caption[Fórmula matemática de la convolución. Fuente: \cite{tec_figueroa_convolucion}]{Fórmula matemática de la convolución. Fuente: \cite{tec_figueroa_convolucion}}
+			\label{eq:convolution}
+		\end{equcaption}
 		
 		Donde el rango puede variar entre un conjunto finito (como en la fórmula desde 0 hasta un valor t) o uno infinito.
 		
@@ -585,9 +654,21 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\end{center}
 			\end{figure}
 			
-			Finalmente, se calcula el volumen de la dimensión de la salida de la Figura \ref{2:fig30} mediante la siguiente ecuación:
-			Se tiene una entrada de dimensiones (h x w x d).
-			Se tiene un filtro de dimensiones (fh  x fw  x d).
+			Finalmente, se calcula el volumen de la dimensión de la salida de la Figura \ref{2:fig30} mediante la Ecuación \ref{eq:mapaact}:
+			\begin{itemize}
+				\item Se tiene una entrada de dimensiones $(h * w * d)$.
+				\item Se tiene un filtro de dimensiones $(f_h * f_w * d)$.
+			\end{itemize}
+			
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				Volumen=(h-f_h+1)*(w-f_w+1)*1
+				\end{equation*}
+				\caption[Cálculo del volumen del mapa de activación. Fuente: \cite{tec_prabhu2018cnn}]{Cálculo del volumen del mapa de activación. Fuente: \cite{tec_prabhu2018cnn}}
+				\label{eq:mapaact}
+			\end{equcaption}
+		
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.75\textwidth]{2/figures/matriz_cnn.jpg}
@@ -598,9 +679,24 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			
 			\item \textbf{Capa de reducción (\textit{Pooling Layer})}: Esta capa le sucede a la capa convolucional (luego de aplicar la función de activación). Sirve principalmente para reducir las dimensiones espaciales del volumen de la entrada (alto x ancho) para la siguiente capa convolucional. Sin embargo, no afecta la profundidad de la misma. Esta operación que realiza se le conoce también como “reducción de muestreo” debido a que, si bien logra reducir las dimensiones para procesar mejor en la siguiente capa, también conlleva perder información. Por el contrario de lo que se piensa, además de reducir la sobrecarga del cálculo para las siguientes capas, el modelo se beneficia también disminuyendo el sobreajuste.
 			
-			Para determinar las dimensiones de la nueva imagen generada (siempre que sea cuadrada, es decir, lados iguales como en la Figura \ref{2:fig31}) con esta capa, se aplica la siguiente fórmula:
+			Para determinar las dimensiones de la nueva imagen generada (siempre que sea cuadrada, es decir, lados iguales como en la Figura \ref{2:fig31}) con esta capa, se aplica la Ecuación \ref{eq:outputconv}:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				Salida=\frac{N-F}{S}+1
+				\end{equation*}
+				\caption[Cálculo del tamaño de la imagen reducida. Fuente: \cite{tec_li2019cnn}]{Cálculo del tamaño de la imagen reducida. Fuente: \cite{tec_li2019cnn}}
+				\label{eq:outputconv}
+			\end{equcaption}
+		
+			Donde:
+			\begin{conditions}
+				N   &  tamaño del lado de la imagen de entrada \\
+				F   &  tamaño del lado del filtro \\   
+				S	&  número de desplazamiento de pixeles sobre la matriz de entrada
+			\end{conditions}
 			
-			Donde N es el tamaño del lado de la imagen de entrada, F es el tamaño del lado del filtro y Paso (Stride en inglés) es el número de desplazamiento de píxeles sobre la matriz de entrada. Por ejemplo, cuando el paso es 1, los filtros se mueven a 1 pixel por vez, cuando el paso es 2, se mueven a 2 píxeles (como en la Figura \ref{2:fig32}) y así sucesivamente (poner ref).
+			Por ejemplo, cuando el paso es 1, los filtros se mueven a 1 pixel por vez, cuando el paso es 2, se mueven a 2 píxeles (como en la Figura \ref{2:fig32}) y así sucesivamente (poner ref).
 			\begin{figure}[htbp]
 				\begin{center}
 					\includegraphics[width=0.3\textwidth]{2/figures/input_filter_cnn.jpg}
@@ -677,7 +773,22 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\end{center}
 	\end{figure}
 	
-	Lo que se debe hacer para el primer caso es crear el hiperplano a través de una función lineal w*z+b=0 y, definido el par (w,b), separar el punto xi según la función:
+	Lo que se debe hacer para el primer caso es crear el hiperplano a través de una función lineal $w*z+b=0$ y, definido el par $(w,b)$, separar el punto $x_i$ según la Ecuación \ref{eq:hiperplano}:
+	
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		f(x_i) = sign(w*z+b) =
+		\left\{
+		\begin{aligned}
+		1 \quad y_i=1\\
+		-1 \quad y_i=-1
+		\end{aligned}
+		\right.
+		\end{equation*}
+		\caption[Ecuación del hiperplano para clasificar dos clases. Fuente: \cite{tec_betancourt2005svm}]{Ecuación del hiperplano para clasificar dos clases. Fuente: \cite{tec_betancourt2005svm}}
+		\label{eq:hiperplano}
+	\end{equcaption}
 	
 	Para el segundo caso, debido a su mayor complejidad, se puede introducir algunas variables no-negativas a la función del hiperplano para hallar su valor óptimo; o también es viable utilizar una función \textit{kernel} que calcule el producto punto de los puntos de entrada en el espacio de características Z, como se aprecia en la Figura \ref{2:fig39}.
 	\begin{figure}[h]
