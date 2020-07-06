@@ -4,7 +4,6 @@
 \usepackage[a4paper,right=2.54cm,left=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
 \usepackage{array}
 
-
 %%%%paquete para usar citas de diferentes formatos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%add al indice
@@ -13,6 +12,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage[spanish]{babel}
+\decimalpoint
 \usepackage[style=apa ,
 %hyperref=auto,
 %citestyle=authoryear,
@@ -118,7 +118,7 @@ pdfauthor={autor nombres}]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath}
 \numberwithin{equation}{chapter} %%enumerar ecuaciones
-%\renewcommand{\theequation}{Ecuación \thechapter.\arabic{equation}}   
+\renewcommand{\theequation}{Ecuación \thechapter.\arabic{equation}}   
 \usepackage{mathtools, nccmath, cool}
 %%%Configuraciones de biblatex
 

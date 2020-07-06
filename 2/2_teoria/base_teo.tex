@@ -37,9 +37,9 @@ Los tres tipos de aprendizaje principales son:
 		\begin{equation*}
 		\phantomsection
 		W_i = \frac{1}{d(x, x_i)^2}
-		\label{eq:weights-KNN}
 		\end{equation*}
 		\caption[Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}]{Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}}
+		\label{eq:weights-KNN}
 	\end{equcaption}
 		
 	y finalmente, la clase asignada a x es aquella que verifique que la suma de los pesos de sus representantes sea la máxima, representándose en la Figura \ref{2:fig3}:
@@ -56,9 +56,9 @@ Los tres tipos de aprendizaje principales son:
 		\begin{equation*}
 		\phantomsection
 		argmax_{v \in V}\sum_{i=1…k,x_i \in v}W_i
-		\label{eq:weights-KNN_alt}
 		\end{equation*}
 		\caption[Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}}
+		\label{eq:weights-KNN_alt}
 	\end{equcaption}
 	
 	\item \textbf{Aprendizaje no supervisado}: A diferencia de la anterior, aquí se trabaja con datos no etiquetados para entrenar el modelo, ya que el fin es de carácter exploratorio y descriptivo de la estructura de los datos. No existen variables independientes o Y.
@@ -70,9 +70,9 @@ Los tres tipos de aprendizaje principales son:
 		\begin{equation*}
 		\phantomsection
 		\sum_{i}\sum_{j}d(x_j^i, c_i)^2
-		\label{eq:k-means}
 		\end{equation*}
 		\caption[Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}}
+		\label{eq:k-means}
 	\end{equcaption}
 	
 	Representándose en la Figura \ref{2:fig4}, los pasos seguidos para este algoritmo comienzan con la selección de los K puntos como como centros de los grupos. Luego, se asignarán los ejemplos al centro más cercano y se calculará el centroide de los ejemplos asociados a cada grupo. Finalmente, estos dos últimos pasos se repetirán hasta que ninguno de los centros pueda ser reasignados en las iteraciones.
@@ -296,12 +296,20 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{equation*}
 		\phantomsection
 		in_i=\sum_{j=0}^n W_{j,i}*a_j + \theta_i
-		\label{eq:nodo}
 		\end{equation*}
 		\caption[Fórmula del cálculo del valor de un nodo i. Fuente: \cite{bk_russell2004intart}]{Fórmula del cálculo del valor de un nodo i. Fuente: \cite{bk_russell2004intart}}
+		\label{eq:nodo}
 	\end{equcaption}
 	
 	Posteriormente, se efectúa una función de activación g a esta suma para producir la salida:
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		a_i = g(in_i) = g \left(\sum_{j=0}^n W_{j,i}*a_j + \theta_i\right)
+		\end{equation*}
+		\caption[Fórmula de una función de activación g para la salida del nodo. Fuente: \cite{bk_russell2004intart}]{Fórmula de una función de activación g para la salida del nodo. Fuente: \cite{bk_russell2004intart}}
+		\label{eq:activacion}
+	\end{equcaption}
 	
 	Entonces, aquí se explica los dos objetivos de una función de activación. En primer lugar, se desea que el nodo esté “activo” (cercano a +1) cuando las entradas correctas sean dadas, e “inactiva” (cercano a 0) cuando las entradas erróneas sean proporcionadas. En segundo lugar, la activación tiene que ser no lineal porque, de lo contrario, la red neuronal colapsaría en su totalidad con una función lineal sencilla, como se aprecia en el ejemplo de la Figura \ref{2:fig12}.
 	\begin{figure}[h]
@@ -315,6 +323,15 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	Entre las funciones de activación que más destacan son las siguientes:
 	\begin{itemize}
 		\item \textbf{Función sigmoide o logística}: Toma los valores de entrada que oscilan entre infinito negativo y positivo, y restringe los valores de salida al rango entre 0 y 1. Frecuentemente es usada en Redes Multicapa (MLP) entrenadas con el algoritmo de propagación inversa. Se representa como en la Figura \ref{2:fig13} y su fórmula para calcular su nuevo valor es:
+		\begin{equcaption}[!ht]
+			\begin{equation*}	
+			\phantomsection
+			a=Logsig(n)=\frac{1}{1+e^{-n}}
+			\end{equation*}
+			\caption[Fórmula de la función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}]{Fórmula de la función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}}
+			\label{eq:sigmoide}
+		\end{equcaption}
+		
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.3\textwidth]{2/figures/sigmoide.jpg}
@@ -326,6 +343,14 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		Un dato curioso de esta función relacionado con la regresión logística es que el nombre de esta última no deriva de una regresión. Por el contrario, se debe a que, al principio de la neurona, se realiza una combinación lineal muy parecida a una regresión lineal y después se aplica la función logística o sigmoide. De ahí el origen del nombre \parencite{gl_iartificial2019reglogistica}.
 		\begin{itemize}
 			\item \textbf{Regresión Logística}: Como se mencionó antes, es similar a un modelo de regresión lineal, pero está adaptado para modelos en los que la variable dependiente es dicotómica, es decir, presenta solo dos posibles valores. Resulta muy útil para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores \parencite{gl_ibm2019reglogistica}. Su función de coste que se optimiza con gradiente descendiente se representa mediante la siguiente fórmula:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				J=-\frac{1}{m}\sum_i^m y_i*\log(\hat{p_i})+(1-y_i)*\log(1-\hat{p_i})
+				\end{equation*}
+				\caption[Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_iartificial2019reglogistica}]{Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_iartificial2019reglogistica}}
+				\label{eq:logistica}
+			\end{equcaption}
 			
 			Donde la primera parte de la ecuación está conformada por el logaritmo de la probabilidad de éxito y la segunda, por la de fracaso.
 			
@@ -340,7 +365,15 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\end{center}
 			\end{figure}
 			
-			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden \parencite{tec_sancho2017descentgrad}. Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la regla \parencite{gl_iartificial2019descentgrad}.
+			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden \parencite{tec_sancho2017descentgrad}. Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la ecuación \ref{eq:w_descgrad} \parencite{gl_iartificial2019descentgrad}:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				W_{(t+1)}=W_{(t)}-\alpha \left(\frac{\partial MSE}{\partial W} \right)
+				\end{equation*}
+				\caption[Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}]{Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}}
+				\label{eq:w_descgrad}
+			\end{equcaption}
 			
 			Donde alfa es el “ratio de aprendizaje”, el cual controla el tamaño de la actualización, si este es demasiado grande será más difícil encontrar los coeficientes que minimicen la función de coste o error; la actualización de W es proporcional al gradiente; y se usa la resta para ir en dirección opuesta al gradiente como en la Figura \ref{2:fig15}.
 			\begin{figure}[h]
@@ -352,6 +385,26 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\end{figure}
 			
 			\item \textbf{Propagación hacia atrás}: También conocido en inglés como \textit{Backpropagation}, es un método que consta de dos fases: en la primera se aplica un patrón, el cual se propaga por las distintas capas que componen la red hasta producir la salida de la misma. Luego, esta se compara con la salida deseada y se calcula el error cometido por cada neurona de salida. Estos errores se transmiten hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de las capas intermedias [Fritsch, 1996] \parencite{tec_bertona2005algevol}. La actualización iterativa de los pesos que el algoritmo propone es mediante la siguiente fórmula:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				W_{ji}(t+1)=W_{ji}(t)+[\alpha \delta_{pj} y_{pj} + \beta \Delta W_{ji}(t)]
+				\end{equation*}
+				\caption[Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite{tec_bertona2005algevol}]{Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite{tec_bertona2005algevol}}
+				\label{eq:backpropagation}
+			\end{equcaption}
+		
+			\begin{equation*}
+			%\phantomsection
+			\text{siendo} \quad \delta_{pj} =
+			\left\{
+			\begin{aligned}
+				(d_{pj}-y_{pj})f'_j(h_j) \quad\text{si j es una neurona de salida}\\
+				\left(\sum_{k} \delta_{pk} W_{kj}\right)f'_j(h_j) \quad\text{si j es una neurona oculta}
+			\end{aligned}
+			\right.
+			\end{equation*}
+			
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.5\textwidth]{2/figures/backpropagation.jpg}
@@ -363,23 +416,59 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			Para entender mejor la teoría y la fórmula de actualización de pesos, se seguirá el siguiente ejemplo del conjunto de redes de la Figura \ref{2:fig17}.
 			\begin{figure}[h]
 				\begin{center}
-					\includegraphics[width=0.5\textwidth]{2/figures/rna_pesos.jpg}
+					\includegraphics[width=0.7\textwidth]{2/figures/rna_pesos.jpg}
 					\caption{Redes neuronales de ejemplo. Fuente: \cite{gl_ansrw2019backpropagation}}
 					\label{2:fig17}
 				\end{center}
 			\end{figure}
 			
 			Se tiene una red neuronal con tres nodos de entradas (x1=1, x2=4 y x3=5) con dos pesos respectivos cada una (W1=0.1 y W2=0.2 para x1; W3=0.3 y W4=0.4 para x2; W5=0.5 y W6=0.6 para x3), dos capas ocultas (h1 y h2) con dos peso cada una (W7=0.7 y W8=0.8 para h1; W9=0.9 y W10=0.1 para h2) y dos nodos de salida (o1 y o2). El proceso normal para calcular el valor del nodo final se da, tanto con los nodos de entrada y los de capa oculta, mediante la sumatoria de producto de cada peso con su valor, es decir, mediante la fórmula de las RNA (colocar formula), al mismo tiempo que devuelve un valor del error cometido. Este último se calcula mediante la siguiente ecuación:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				E_k=(T_k-O_k)*O_k*(1-O_k)
+				\end{equation*}
+				\caption[Cálculo del error cometido en una red neuronal. Fuente: \cite{tec_viera2013backpropexplain}]{Cálculo del error cometido en una red neuronal. Fuente: \cite{tec_viera2013backpropexplain}}
+				\label{eq:rnaerror}
+			\end{equcaption}
 			
 			Donde Tk es la salida correcta de cada nodo de salida, y Ok es la salida actual que cada uno genera. Con estos errores calculados, se retrocede hacia la capa oculta y se procede a calcular los nuevos pesos para sus nodos. La fórmula del cálculo de los mismos es:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				W_{jk}=W_{jk}+L*E_k*O_j
+				\end{equation*}
+				\caption[Actualización de pesos mediante propagación hacia atrás. Fuente: \cite{tec_viera2013backpropexplain}]{Actualización de pesos mediante propagación hacia atrás. Fuente: \cite{tec_viera2013backpropexplain}}
+				\label{eq:updateweightsrna}
+			\end{equcaption}
 			
 			Donde Wjk representa el peso para cada nodo de la capa oculta, es decir, W7, W8, W9 y W10, los mismos que serán actualizados, L es el porcentaje de aprendizaje y Oj son los valores de estos dos nodos que entrarán a las salidas. Estos nuevos pesos permitirán redefinir los errores de ambos nodos, con una pequeña diferencia en su cálculo:
+			\begin{equcaption}[!ht]
+				\begin{equation*}
+				\phantomsection
+				E_{j}=O_{j}*(1-O_{j})*\sum E_{k}*W_{jk}
+				\end{equation*}
+				\caption[Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite{tec_viera2013backpropexplain}]{Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite{tec_viera2013backpropexplain}}
+				\label{eq:errornodorna}
+			\end{equcaption}
 			
-			El error de cada nodo de la capa oculta se obtiene multiplicando su valor por su complemento por la sumatoria del producto de sus pesos y los errores de los nodos de salida. Por ejemplo, para h1 sería (colocar fórmula).
+			El error de cada nodo de la capa oculta se obtiene multiplicando su valor por su complemento por la sumatoria del producto de sus pesos y los errores de los nodos de salida. Por ejemplo, para h1 sería \begin{equation*}
+			\phantomsection
+			E_{h1}=h_1*(1-h_1)*(0.7*O_1+0.8*O_2)
+			\end{equation*}
 			
 			Finalmente, se retrocede hacia los nodos de entrada y se repite el mismo proceso para la actualización de sus pesos y errores.
 		\end{itemize}
 	\item \textbf{Función tangente hiperbólica}: Esta función está relacionada con una sigmoide bipolar. Sin embargo, sus salidas estarán en el rango de -1 y +1. Para redes neuronales, donde la velocidad es más importante que la forma de la función misma, es recomendable usar esta. Se representa como en la Figura \ref{2:fig18} y su fórmula para calcular su nuevo valor es:
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		a=Tansig(n)=\frac{2}{1+e^{-2n}}-1
+		\end{equation*}
+		\caption[Fórmula de la función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}]{Fórmula de la función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}}
+		\label{eq:tansig}
+	\end{equcaption}
+	
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.3\textwidth]{2/figures/hiperbolica.jpg}

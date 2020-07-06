@@ -4,6 +4,15 @@
 \contentsline {equcaption}{\numberline {2.2}{\ignorespaces Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite {tec_sancho2018supnosup}}}{29}{equcaption.caption.11}%
 \contentsline {equcaption}{\numberline {2.3}{\ignorespaces Fórmula del algoritmo k-means. Fuente: \cite {tec_sancho2018supnosup}}}{30}{equcaption.caption.13}%
 \contentsline {equcaption}{\numberline {2.4}{\ignorespaces Fórmula del cálculo del valor de un nodo i. Fuente: \cite {bk_russell2004intart}}}{39}{equcaption.caption.24}%
+\contentsline {equcaption}{\numberline {2.5}{\ignorespaces Fórmula de una función de activación g para la salida del nodo. Fuente: \cite {bk_russell2004intart}}}{39}{equcaption.caption.26}%
+\contentsline {equcaption}{\numberline {2.6}{\ignorespaces Fórmula de la función de activación sigmoide. Fuente: \cite {pr_dorofki2012ann}}}{40}{equcaption.caption.29}%
+\contentsline {equcaption}{\numberline {2.7}{\ignorespaces Fórmula de función de coste de una regresión logística. Fuente: \cite {gl_iartificial2019reglogistica}}}{40}{equcaption.caption.32}%
+\contentsline {equcaption}{\numberline {2.8}{\ignorespaces Actualización de pesos W mediante gradiente descendiente. Fuente: \cite {gl_iartificial2019descentgrad}}}{42}{equcaption.caption.35}%
+\contentsline {equcaption}{\numberline {2.9}{\ignorespaces Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite {tec_bertona2005algevol}}}{42}{equcaption.caption.38}%
+\contentsline {equcaption}{\numberline {2.10}{\ignorespaces Cálculo del error cometido en una red neuronal. Fuente: \cite {tec_viera2013backpropexplain}}}{44}{equcaption.caption.42}%
+\contentsline {equcaption}{\numberline {2.11}{\ignorespaces Actualización de pesos mediante propagación hacia atrás. Fuente: \cite {tec_viera2013backpropexplain}}}{44}{equcaption.caption.44}%
+\contentsline {equcaption}{\numberline {2.12}{\ignorespaces Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite {tec_viera2013backpropexplain}}}{44}{equcaption.caption.46}%
+\contentsline {equcaption}{\numberline {2.13}{\ignorespaces Fórmula de la función de activación tangente hiperbólica. Fuente: \cite {pr_dorofki2012ann}}}{45}{equcaption.caption.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
