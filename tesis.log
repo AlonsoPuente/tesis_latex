@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  6 JUL 2020 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  14 JUL 2020 02:18
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1930,22 +1930,21 @@ Package pdftex.def Info: 2/figures/arbol_decision.jpg  used on input line 809.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (2/3_conceptos/marc_conceptual.tex
+LaTeX Info: Redefining \. on input line 820.
+LaTeX Info: Redefining \% on input line 820.
+[58 <./2/figures/kernel_svm.jpg>]) (2/3_conceptos/marc_conceptual.tex
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
- [58 <./2/figures/kernel_svm.jpg>]
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
  [59 <./2/figures/arbol_decision.jpg>]
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
  [60]
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
- [61]))
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
- [62]
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+ [61]
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [62]))
 LaTeX Info: Redefining \. on input line 215.
 LaTeX Info: Redefining \% on input line 215.
  [63]
@@ -1958,7 +1957,7 @@ Cap\'{\i }tulo 3.
 
 
 ]
-<3/figures/prototipo.jpg, id=1550, 930.8376pt x 534.3162pt>
+<3/figures/prototipo.jpg, id=1552, 930.8376pt x 534.3162pt>
 File: 3/figures/prototipo.jpg Graphic file (type jpg)
 <use 3/figures/prototipo.jpg>
 Package pdftex.def Info: 3/figures/prototipo.jpg  used on input line 20.
@@ -1975,7 +1974,7 @@ LaTeX Info: Redefining \% on input line 30.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [66]
-<3/figures/cronograma.jpg, id=1561, 999.735pt x 283.65974pt>
+<3/figures/cronograma.jpg, id=1563, 999.735pt x 283.65974pt>
 File: 3/figures/cronograma.jpg Graphic file (type jpg)
 <use 3/figures/cronograma.jpg>
 Package pdftex.def Info: 3/figures/cronograma.jpg  used on input line 73.
@@ -2037,14 +2036,15 @@ rdsdatascience .
 LaTeX Info: Redefining \. on input line 224.
 LaTeX Info: Redefining \% on input line 224.
 [74]
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+ [75]
 Overfull \hbox (27.30882pt too wide) in paragraph at lines 224--224
 [][]\OT1/ptm/m/n/12 L[]opez Brie-ga, R. E. (2016). Re-des neu-ro-na-les con-vo-
 lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
  []
 
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
-[75]
+
 Overfull \hbox (2.5964pt too wide) in paragraph at lines 224--224
 [][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
 VM). [][]$https : / / la . mathworks . com / discovery /
@@ -2078,7 +2078,7 @@ LaTeX Info: Redefining \% on input line 232.
 
  (anexos/anexo.tex
 Anexo A.
-<anexos/arbol_problemas.jpg, id=1748, 645.00975pt x 411.33675pt>
+<anexos/arbol_problemas.jpg, id=1752, 645.00975pt x 411.33675pt>
 File: anexos/arbol_problemas.jpg Graphic file (type jpg)
 <use anexos/arbol_problemas.jpg>
 Package pdftex.def Info: anexos/arbol_problemas.jpg  used on input line 6.
@@ -2088,7 +2088,7 @@ Package pdftex.def Info: anexos/arbol_problemas.jpg  used on input line 6.
 
  <./anexos/arbol_problemas.jpg>]
 Anexo B.
-<anexos/arbol_objetivos.jpg, id=1754, 595.023pt x 378.213pt>
+<anexos/arbol_objetivos.jpg, id=1758, 595.023pt x 378.213pt>
 File: anexos/arbol_objetivos.jpg Graphic file (type jpg)
 <use anexos/arbol_objetivos.jpg>
 Package pdftex.def Info: anexos/arbol_objetivos.jpg  used on input line 15.
@@ -2467,16 +2467,21 @@ ntroduccion.aux) (1/planteamiento.aux) (2/marco.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 08F1E03A9BE623F0C03E9080C4DF5BF2;10861.
+(rerunfilecheck)             Checksum: 78AF2411B268A359EC8DCBBDD599F4D4;10860.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24999 strings out of 480763
- 459501 string characters out of 2904056
- 1288008 words of memory out of 3000000
- 40075 multiletter control sequences out of 15000+200000
+ 25007 strings out of 480763
+ 459717 string characters out of 2904056
+ 1288104 words of memory out of 3000000
+ 40082 multiletter control sequences out of 15000+200000
  587282 words of font info for 149 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,32n,81p,1814b,4045s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2491,9 +2496,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (86 pages, 3470649 bytes).
+Output written on tesis.pdf (86 pages, 3472926 bytes).
 PDF statistics:
- 1897 PDF objects out of 2073 (max. 8388607)
- 373 named destinations out of 1000 (max. 500000)
+ 1901 PDF objects out of 2073 (max. 8388607)
+ 374 named destinations out of 1000 (max. 500000)
  1207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

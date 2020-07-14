@@ -83,9 +83,9 @@
 \contentsline {subsection}{\numberline {2.2.5}Minería de Datos}{34}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Metodologías de Minería de Datos}{34}{subsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.2.7}Técnicas de Minería de Datos}{39}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Natural Language Processing (NLP)}{58}{subsection.2.2.8}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{58}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{58}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.8}Procesamiento del Lenguaje Natural}{58}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{59}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{59}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Kickstarter}{61}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Proyecto}{61}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Campaña}{62}{subsection.2.3.4}%

@@ -599,6 +599,47 @@
       \verb https://www.cyberclick.es/publicidad/campana-publicitaria
       \endverb
     \endentry
+    \entry{bk_deng2018deeplearningnlp}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Singapur}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{fullhash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{bibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorbibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authornamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorfullhash}{50894ce5feedd9b24ced0b416daf0caf}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789811052088}
+      \field{title}{Deep Learning in Natural Language Processing}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/978-981-10-5209-5
+      \endverb
+    \endentry
     \entry{pr_dorofki2012ann}{inbook}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=4f7fa9cbb06c04567de6fce5ea028312}{%
@@ -2606,12 +2647,12 @@
            given={Fang-Wu},
            giveni={F\bibinithyphendelim W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=48002bca49ba335f1474a3b124eb4073}{%
+        {{un=1,uniquepart=given,hash=48002bca49ba335f1474a3b124eb4073}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Xin-Yang},
            giveni={X\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
