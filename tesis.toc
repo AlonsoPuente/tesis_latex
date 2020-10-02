@@ -102,26 +102,31 @@
 \contentsline {section}{\numberline {3.3}Operacionalización de Variables}{67}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Instrumentos de medida}{68}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{68}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{68}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{68}{section.3.7}%
+\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{69}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{69}{section.3.7}%
 \contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{70}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{70}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{70}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metainformación}{71}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Descripciones}{71}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Comentarios}{71}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{72}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{72}{section.4.4}%
-\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{75}{chapter.5}%
-\contentsline {section}{\numberline {5.1}X}{75}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Y}{75}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Z}{76}{section.5.3}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{77}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{77}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{77}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{78}{chapter*.91}%
-\contentsline {chapter}{Anexo}{84}{section*.92}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{85}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{86}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{87}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{89}{appendix.1.Alph4}%
+\contentsline {subsection}{\numberline {4.1.1}Metainformación}{70}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Contenido textual}{74}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Propaganda}{74}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Descripción}{74}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}Comentarios}{76}{subsubsection.4.1.2.3}%
+\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{78}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metainformación}{80}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Descripciones}{80}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comentarios}{80}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{82}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{82}{section.4.4}%
+\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{83}{chapter.5}%
+\contentsline {section}{\numberline {5.1}X}{83}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Y}{83}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Z}{84}{section.5.3}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{85}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{85}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{85}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{86}{chapter*.101}%
+\contentsline {chapter}{Anexo}{92}{section*.102}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{93}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{94}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{95}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{97}{appendix.1.Alph4}%

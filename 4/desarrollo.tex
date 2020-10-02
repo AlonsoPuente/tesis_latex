@@ -1,35 +1,172 @@
 \chapter{DESARROLLO DEL EXPERIMENTO}
 \section{Construcción de los conjuntos finales de datos}
+El conjunto total de datos utilizado para la investigación consistió en la recolección de 27,251 proyectos tecnológicos de Kickstarter comprendidos entre los años 2009 y 2019, en 3 partes: metainformación, descripción y comentarios (excluyendo los del creador) del proyectos.
 
-\section{Análisis Exploratorios de los datos}
-De los 27,251 proyectos tecnológicos obtenidos de Kickstarter, la distribución según el estado de financiamiento va según la Figura \ref{4:fig1}.
-\begin{figure}[h]
+\subsection{Metainformación}
+Como se mencionó en las Técnicas de recolección de datos del Capítulo III, el punto de partida para la construcción de los conjuntos de datos fue consolidar las bases públicas, archivos de valores separados por comas (.csv) comprimidos, de la página Web Robots (https://webrobots.io/kickstarter-datasets/), fraccionadas por fechas mensuales de captura de información comenzadas desde noviembre del 2015 hasta agosto del 2019 (Figura \ref{4:fig1}), y posteriormente pre-procesada con la ayuda del software Alteryx Designer. De acuerdo con la información de los creadores del sitio Web Robots, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter \parencite{ot_webrobots2019kickstarter}.
+
+\begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{4/figures/projects by state.png}
-		\caption{Distribución total de proyectos tecnológicos por su estado. Fuente: Elaboración propia.}
+		\includegraphics[width=0.8\textwidth]{4/figures/web_robots_2019.png}
+		\caption{Vista (agosto 2019) del website Web Robots. Fuente: \cite{ot_webrobots2019kickstarter}}
 		\label{4:fig1}
 	\end{center}
 \end{figure}
 
+Cada archivo descargado por fecha de captura mensual es descomprimido, y las particiones en formato .csv que contienen son juntadas mediante el siguiente proceso:
 
-Asimismo, la Figura \ref{4:fig2} muestra la distribución de los estos proyectos por año, desde el 2009 hasta el 2019.
+\begin{itemize}
+	\item Descargar librerías correspondientes de Python (pandas, numpy, glob, math).
+	\item Dirigirse a la ruta de destino.
+	\item Crear carpetas por mes para almacenar archivos particionados.
+	\item Ejecutar algoritmo para unir archivos particionados csv dentro de una misma carpeta.
+\end{itemize}
+
+Cuando el algoritmo finaliza su ejecución, se crea un nuevo archivo separado por comas en cada carpeta por mes, cuyo tamaño oscila entre 1 y 5 gigabytes (GB) en total por cada uno. Con el fin de ahorrar espacio en memoria dentro de la computadora, los archivos particionados son eliminados y solamente se almacenan los nuevos generados.
+
+Por ejemplo, en la Figura \ref{4:fig2} se detalla el tamaño del conjunto de datos total al corte del periodo de captura de información Julio 2019, aproximadamente más de 212 mil proyectos de todas las categorías y 37 columnas de variables.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{4/figures/projects state by year.png}
-		\caption{Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.}
+		\includegraphics[width=0.9\textwidth]{4/figures/dataset_201907.png}
+		\caption{Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.}
 		\label{4:fig2}
 	\end{center}
 \end{figure}
 
-
-La misma evolución pero detallada por el estado de financiamiento se observa en la Figura \ref{4:fig3}.
+A cada conjunto de datos generado se filtran los que pertenecen a la categoría \textit{\textbf{Technology}}. Debido a que no se cuenta con la información de la columna \textit{main\_category}, este proceso de filtración se logra utilizando la variable \textit{source\_url} al seleccionar aquellos registros que contengan la cadena de caracteres “https://www.kickstarter.com/discover/categories/technology”. En la Figura \ref{4:fig3} se aprecia cómo queda el conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{4/figures/projects state evolution by year.png}
-		\caption{Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.}
+		\includegraphics[width=0.5\textwidth]{4/figures/dataset_filtrada_201907.png}
+		\caption{Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.}
 		\label{4:fig3}
+	\end{center}
+\end{figure}
+
+Cuando se repitió este procedimiento con cada conjunto de datos, se notó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% del total de proyectos. Esto se calculó al comparar los tamaños (cantidad de registros por fila) del conjunto de datos inicial y del filtrado.
+
+La siguiente fase del pre-procesamiento fue la de seleccionar las variables de los nuevos conjuntos de datos filtrados que se usarán para generar el dataset final. Para ello, se usó el software Alteryx Designer, el cual permite desarrollar flujos de trabajo para preparar, unir y analizar volúmenes de datos complejos de distintas fuentes.
+
+Con los conjuntos de datos filtrados, se creó el flujo de trabajo representado en la Figura \ref{4:fig4}.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{4/figures/alteryx_flux_part1.png}	
+		\includegraphics[width=0.7\textwidth]{4/figures/alteryx_flux_part2.png}
+		\caption{Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.}
+		\label{4:fig4}
+	\end{center}
+\end{figure}
+
+El flujo comienza con la carga de los datos de entrada, los cuales son los 45 archivos separados por coma por cada captura mensual desde noviembre del 2015 hasta agosto del 2019. Luego, se realizaron dos uniones en vez de una sola, esto debido a que, a partir de marzo del 2018, algunas de las variables y valores de estas son diferentes a la de sus predecesoras. Sin embargo, esto no afectará al proceso más adelante ya que ambas uniones fueron juntadas por las mismas variables.
+
+En cada una de las dos uniones, se seleccionaron las variables de la Tabla N° 3, se realizó limpieza de datos para las variables \textit{category}, \textit{location}, \textit{photo} y \textit{urls}, y se transformaron las variables numéricas en milisegundos \textit{created\_at}, \textit{launched\_at} y \textit{deadline} a variables de fecha. Esto último permitió crear la variable \textit{duration} para determinar la duración de la campaña (en días) de un proyecto calculando la diferencia entre la fecha de culminación (\textit{deadline}) y la fecha de lanzamiento (\textit{launched\_at}). Luego se excluyeron los proyectos en proceso de la variable \textit{state} para conservar los culminados, es decir, aquellos cuyo valor sea “successful” o “failed” ya que se analizarán solamente los proyectos que han sido exitosos o fracasados. Por último, la variable \textit{urls} contiene los enlaces directos de los proyectos.
+
+El flujograma culmina con la generación de un archivo de valores separados por coma (.csv) guardado en memoria local. Posteriormente, el archivo generado fue subido a la plataforma Kaggle de manera pública (Figura \ref{4:fig5}) para que pueda ser descargada.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{4/figures/metadata_kaggle_preview.jpg}
+		\caption{Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.}
+		\label{4:fig5}
+	\end{center}
+\end{figure}
+
+\subsection{Contenido textual}
+\subsubsection{Propaganda}
+La propaganda (variable \textit{blurb}) representa un mensaje breve debajo del nombre proyecto que resume o introduce a los potenciales patrocinadores al contenido de la campaña. Esta se encuentra como una columna del conjunto de datos de la Metainformación. La relevancia de esta observación consistió para realizar el mismo ejercicio de analítica de texto a la descripción del proyecto.
+
+\subsubsection{Descripción}
+La descripción (variable \textit{description}) contiene todas las características del producto o servicio del proyecto ofrecido al público, así como otros datos importantes de la campaña. Al proveer gran cantidad de información, en los antecedentes de la investigación se confirma la relación que presenta esta observación con la performance de la campaña y, por ende, el resultado final del financiamiento del proyecto.
+
+La variable se obtuvo utilizando web scraping en cada proyecto gracias a la variable \textit{urls}. Para ello, y como se describe en la Figura \ref{4:fig6}, se elaboró un algoritmo usando la librería BeautifulSoup que, mediante la navegación al contenido de estas páginas a través de un agente falso, se dirigió a las descripciones de los proyectos identificando las etiquetas con clase llamada “\textbf{rte\_\_content js-full-description responsive-media}” y las almacenó en un vector vacío, uniendo previamente los párrafos y eliminando caracteres especiales, para posteriormente asignarle la id correspondiente y guardarlo en un archivo de extensión .csv. En caso el algoritmo no encuentre esta clase dentro de las páginas (IndexError), el vector almacenaba un registro nulo.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{4/figures/description_scraping.png}
+		\caption{Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.}
+		\label{4:fig6}
+	\end{center}
+\end{figure}
+
+Debido a la gran cantidad de memoria y tiempo que iba a presentar este proceso, se determinó fraccionar los 27,251 proyectos en tres partes y repetir el mismo en cada uno de ellos. El tiempo aproximado de descarga de cada fracción fue de 6 horas.
+
+Finalmente, las tres partes fueron unidas, se reemplazaron los valores nulos por espacios en blanco y se guardó como un nuevo archivo de valores separados por coma (.csv) en código Unicode UTF-8 para la lectura de caracteres no alfabéticos.
+
+El archivo generado fue subido a la plataforma Kaggle de manera pública (Figura \ref{4:fig7}) para que pueda ser descargada a través del API de la web.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{4/figures/description_kaggle_preview.jpg}
+		\caption{Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.}
+		\label{4:fig7}
+	\end{center}
+\end{figure}
+
+\subsubsection{Comentarios}
+Al igual que la descripción, los comentarios se obtuvieron utilizando la variable \textit{urls} para web scraping, pero reemplazando caracteres que contengan “\textbf{?ref=}” en adelante por “\textbf{/comments}” para redireccionarse a la sección de comentarios de cada proyecto.
+
+Los comentarios, al ser dinámicos, no podían extraerse mediante la librería BeautifulSoup como en el caso de las descripciones, por lo que se utilizó la librería Selenium para extraerlos al iniciar una sesión desde Google Chrome, como se observa en el algoritmo de la Figura \ref{4:fig8}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{4/figures/comments_scraping.jpg}
+		\caption{Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.}
+		\label{4:fig8}
+	\end{center}
+\end{figure}
+
+La función consiste en redireccionarse a la sección de comentarios del proyecto, esperar un máximo de 30 segundos de carga de la página, hacer clic en el botón “Load More” (Cargar más) hasta un límite de no más de 13 veces y almacenar en un vector cada comentario que no pertenezca al creador (se puede diferenciar gracias a una etiqueta en el extremo superior derecho del recuadro del comentario) de manera independiente. El siguiente paso implica la eliminación de ciertos caracteres especiales, emojis y comentarios completos de un patrocinador que no se encuentren en inglés. Finalmente, estos registros de vectores de comentarios con el id del proyecto correspondiente se almacenaron en un archivo .csv por cada fila terminada, el cual se encuentra disponible públicamente en Kaggle (Figura \ref{4:fig9}) así como los anteriores conjuntos comentados para poder ser descargados.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{4/figures/comments_kaggle_preview.jpg}
+		\caption{Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.}
+		\label{4:fig9}
+	\end{center}
+\end{figure}
+
+Para optimizar la descarga, se crearon 8 instancias en Google Cloud (Figura \ref{4:fig10}), en donde cada una contenía dos copias del algoritmo, con la cantidad de proyectos fraccionada en 16 partes para que sean ejecutados en paralelo. Si bien el tiempo total de la consolidación de esta base de información duró aproximadamente un mes debido a percances de la conexión interna de las instancias y algunos problemas de ineficiencia de la primera versión del algoritmo, durante el transcurso dentro de este lapso de tiempo fueron solucionados hasta lograr optimizar el algoritmo de web scraping y tener el conjunto final de datos tomó menos de 48 horas.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{4/figures/gc_instances_comments.jpg}
+		\caption{Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.}
+		\label{4:fig10}
+	\end{center}
+\end{figure}
+
+\section{Análisis Exploratorios de los datos}
+Según su estado de financiamiento, los 27,251 proyectos se distribuyen mediante el gráfico de pie de la Figura \ref{4:fig11}. De esta, se observa que más del 70\% de estos fracasaron.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{4/figures/projects by state.png}
+		\caption{Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.}
+		\label{4:fig11}
+	\end{center}
+\end{figure}
+
+
+Al visualizarlos por año (Figura \ref{4:fig12}), se puede ver que el histórico comprende entre los periodos 2009 y 2019, siendo la gran mayoría perteneciente al año 2015.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{4/figures/projects state by year.png}
+		\caption{Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.}
+		\label{4:fig12}
+	\end{center}
+\end{figure}
+
+
+La evolución histórica detallada por su estado se observa en la Figura \ref{4:fig13}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{4/figures/projects state evolution by year.png}
+		\caption{Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.}
+		\label{4:fig13}
 	\end{center}
 \end{figure}
 
@@ -38,33 +175,33 @@ La misma evolución pero detallada por el estado de financiamiento se observa en
 \subsection{Descripciones}
 
 \subsection{Comentarios}
-Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig4}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
+Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig14}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects state by comment.png}
 		\caption{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
-		\label{4:fig4}
+		\label{4:fig14}
 	\end{center}
 \end{figure}
 
-Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig5} una relación casi idéntica al anterior gráfico de barras.
+Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig15} una relación casi idéntica al anterior gráfico de barras.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects comment by state.png}
 		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
-		\label{4:fig5}
+		\label{4:fig15}
 	\end{center}
 \end{figure}
 
-Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig6}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig16}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/total comments by projects state.png}
 		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
-		\label{4:fig6}
+		\label{4:fig16}
 	\end{center}
 \end{figure}
 

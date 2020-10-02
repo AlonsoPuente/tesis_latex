@@ -48,12 +48,22 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Marco de trabajo del prototipo final. Fuente: Elaboración propia\relax }}{66}{figure.caption.82}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{69}{figure.caption.83}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribución total de proyectos tecnológicos por su estado. Fuente: Elaboración propia.\relax }}{70}{figure.caption.84}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.\relax }}{71}{figure.caption.85}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.\relax }}{72}{figure.caption.86}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.\relax }}{73}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{73}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.\relax }}{74}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Vista (agosto 2019) del website Web Robots. Fuente: \cite {ot_webrobots2019kickstarter}\relax }}{71}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.\relax }}{71}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.\relax }}{72}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.\relax }}{73}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.\relax }}{74}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.\relax }}{75}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.\relax }}{76}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.\relax }}{77}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.\relax }}{77}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.\relax }}{78}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.\relax }}{78}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.\relax }}{79}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.\relax }}{79}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.\relax }}{80}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{81}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.\relax }}{81}{figure.caption.99}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

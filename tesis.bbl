@@ -2785,6 +2785,34 @@
       \verb https://www.youtube.com/watch?v=0odQ286nsIY
       \endverb
     \endentry
+    \entry{ot_webrobots2019kickstarter}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6d75ec139b23ed572b6e3496381898ce}{%
+           family={{Web Robots}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d75ec139b23ed572b6e3496381898ce}
+      \strng{fullhash}{6d75ec139b23ed572b6e3496381898ce}
+      \strng{bibnamehash}{6d75ec139b23ed572b6e3496381898ce}
+      \strng{authorbibnamehash}{6d75ec139b23ed572b6e3496381898ce}
+      \strng{authornamehash}{6d75ec139b23ed572b6e3496381898ce}
+      \strng{authorfullhash}{6d75ec139b23ed572b6e3496381898ce}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kickstarter Datasets}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://webrobots.io/kickstarter-datasets/
+      \endverb
+      \verb{url}
+      \verb https://webrobots.io/kickstarter-datasets/
+      \endverb
+    \endentry
     \entry{cr_xuefeng2018chcrowdplatf}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=50d378ff7cd5dc8decaf793a292ea3af}{%
