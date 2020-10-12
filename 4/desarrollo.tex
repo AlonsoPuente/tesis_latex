@@ -73,10 +73,64 @@ El flujograma culmina con la generación de un archivo de valores separados por 
 	\end{center}
 \end{figure}
 
-\subsection{Contenido textual}
-\subsubsection{Propaganda}
-La propaganda (variable \textit{blurb}) representa un mensaje breve debajo del nombre proyecto que resume o introduce a los potenciales patrocinadores al contenido de la campaña. Esta se encuentra como una columna del conjunto de datos de la Metainformación. La relevancia de esta observación consistió para realizar el mismo ejercicio de analítica de texto a la descripción del proyecto.
+La Tabla \ref{4:table1} detalla cada variable del conjunto final, agregando dos columnas a partir de la observación \textit{pledge\_amount}.
 
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
+		\hline
+		\rowcolor{bluejean}
+		\Centering \color{white}{Variable}& \Centering \color{white}{Detalle}& \Centering \color{white}{Tipo de dato}\\
+		\hline
+		\textbf{id} & Identificador del proyecto. & number \\
+		\hline
+		\textbf{backers\_count} & Número de patrocinadores de la campaña del proyecto. & number \\
+		\hline
+		\textbf{name} &	Nombre del proyecto. &	string \\
+		\hline
+		\textbf{blurb} & Propaganda del proyecto. & string \\
+		\hline
+		\textbf{category} & Categoría (dentro de categoría principal) del proyecto. & string \\
+		\hline
+		\textbf{photo} & Dirección de enlace de la foto del proyecto. & string \\
+		\hline
+		\textbf{urls} & Dirección de la página de la campaña del proyecto. & string \\
+		\hline
+		\textbf{city} & Ciudad del creador del proyecto. & string \\
+		\hline
+		\textbf{country} & Código de país del creador del proyecto. & string \\
+		\hline
+		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float \\
+		\hline
+		\textbf{pledge\_amounts} & Montos disponibles para patrocinar la campaña. & string \\
+		\hline
+		\textbf{pledges\_median} & Mediana de los montos disponibles para patrocinar. & float \\
+		\hline
+		\textbf{pledges\_mean} & Media de los montos disponibles para patrocinar. & float \\
+		\hline
+		\textbf{pledged} & Monto final patrocinado de la campaña. & float \\
+		\hline
+		\textbf{currency} & Divisa del monto final patrocinado. & string \\
+		\hline
+		\textbf{usd\_pledged} & Monto final patrocinado de la campaña (en USD). & float \\
+		\hline
+		\textbf{created\_at} & Fecha de creación de la campaña. & date \\
+		\hline
+		\textbf{launched\_at} & Fecha de lanzamiento de la campaña. & date \\
+		\hline
+		\textbf{deadline} & Fecha de culminación de la campaña. & date \\
+		\hline
+		\textbf{duration} &	Duración de la campaña (en días). &	number \\
+		\hline
+		\textbf{state} & Estado de financiamiento del proyecto. & string \\
+		\hline
+	\end{tabular}
+	\caption{Diccionario de datos del conjunto final de metainformación. Fuente: Elaboración propia.}
+	\label{4:table1}
+\end{table}
+
+\subsection{Contenido textual}
 \subsubsection{Descripción}
 La descripción (variable \textit{description}) contiene todas las características del producto o servicio del proyecto ofrecido al público, así como otros datos importantes de la campaña. Al proveer gran cantidad de información, en los antecedentes de la investigación se confirma la relación que presenta esta observación con la performance de la campaña y, por ende, el resultado final del financiamiento del proyecto.
 
@@ -171,37 +225,48 @@ La evolución histórica detallada por su estado se observa en la Figura \ref{4:
 \end{figure}
 
 \subsection{Metainformación}
+Se elaboró una matriz de correlaciones (Figura \ref{4:fig14}) para encontrar correlaciones entre las variables independientes numéricas de la metainformación con el fin de determinar la existencia de alguna variable redundante y descartarla para no afectar el rendimiento del modelo.
 
-\subsection{Descripciones}
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{4/figures/metadata correlation.png}
+		\caption{Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.}
+		\label{4:fig14}
+	\end{center}
+\end{figure}
+
+Como se puede apreciar en la figura anterior, la variable \textit{usd\_pledged} está altamente correlacionada con las variables \textit{backers\_count} y \textit{pledged} (ambas con un aproximado de 70\%). Esto quiere decir que dicha variable no es significativa porque explicaría de manera muy similar a las otras dos.
+
+\subsection{Descripción}
 
 \subsection{Comentarios}
-Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig14}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
+Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig15}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects state by comment.png}
 		\caption{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
-		\label{4:fig14}
+		\label{4:fig15}
 	\end{center}
 \end{figure}
 
-Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig15} una relación casi idéntica al anterior gráfico de barras.
+Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig16} una relación casi idéntica al anterior gráfico de barras.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects comment by state.png}
 		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
-		\label{4:fig15}
+		\label{4:fig16}
 	\end{center}
 \end{figure}
 
-Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig16}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig17}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/total comments by projects state.png}
 		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
-		\label{4:fig16}
+		\label{4:fig17}
 	\end{center}
 \end{figure}
 

@@ -54,6 +54,36 @@ Los autores citados son los siguientes:
 	\item 
 \end{itemize}
 
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
+		\hline
+		\rowcolor{bluejean}
+		\Centering \color{white}{Variable}& \Centering \color{white}{Detalle}& \Centering \color{white}{Tipo de dato}\\
+		\hline
+		\rowcolor{turq}
+		\multicolumn{3}{c}{Variables independientes} \\
+		\hline
+		\textbf{backers\_count} & Número de patrocinadores de la campaña del proyecto. & int64 \\
+		\hline
+		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float64 \\
+		\hline
+		\textbf{duration} &	Duración de la campaña (en días). &	int64 \\
+		\hline
+		\textbf{description} &	Descripción del proyecto. &	object \\
+		\hline
+		\textbf{comments} & Comentarios de patrocinadores sobre el proyecto. & object \\
+		\hline
+		\rowcolor{turq}
+		\multicolumn{3}{c}{Variable dependiente} \\
+		\hline
+		\textbf{state} & Estado de financiamiento del proyecto. & object \\
+		\hline
+	\end{tabular}
+	\caption{Diccionario de datos del conjunto final a entrenar. Fuente: Elaboración propia.}
+	\label{3:table1}
+\end{table}
 
 \section{Instrumentos de medida}
 
