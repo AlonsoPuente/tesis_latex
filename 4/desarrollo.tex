@@ -237,36 +237,81 @@ Se elaboró una matriz de correlaciones (Figura \ref{4:fig14}) para encontrar co
 
 Como se puede apreciar en la figura anterior, la variable \textit{usd\_pledged} está altamente correlacionada con las variables \textit{backers\_count} y \textit{pledged} (ambas con un aproximado de 70\%). Esto quiere decir que dicha variable no es significativa porque explicaría de manera muy similar a las otras dos.
 
+Asimismo, si se observan los registros desde una matriz que contiene, además de gráficos de dispersión de las correlaciones, histogramas de las variables independientes como en la Figura \ref{4:fig15}, se confirma y concluye no utilizar las observaciones comentadas.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{4/figures/metadata cor-plot1.png}
+		\caption{Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.}
+		\label{4:fig15}
+	\end{center}
+\end{figure}
+
+El mismo gráfico, segmentado por las dos clases del estado de financiamiento, se aprecia en la Figura \ref{4:fig16}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{4/figures/metadata cor-plot2.png}
+		\caption{Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.}
+		\label{4:fig16}
+	\end{center}
+\end{figure}
+
+De acuerdo a las anteriores gráficas, se concluye que la variable \textit{duration} es la única que sigue una distribución normal.
+
+Algunos datos estadísticos que se obtuvieron son:
+\begin{itemize}
+	\item Número de patrocinadores de la campaña (\textit{backers\_count}):
+	\begin{itemize}
+		\item Rango de valores: .
+		\item Media: .
+		\item Mediana.
+		\item Desviación estándar.
+		\item Varianza.
+	\end{itemize}
+	\item Monto meta de la campaña (\textit{goal}):
+	\begin{itemize}
+		\item Rango de valores: .
+		\item Media: .
+		\item Mediana.
+		\item Desviación estándar.
+		\item Varianza.
+	\end{itemize}
+	\item Recomendaciones.
+	\item Buscar secuencias.
+	\item Agrupación.
+\end{itemize}
+
 \subsection{Descripción}
 
 \subsection{Comentarios}
-Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig15}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
+Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig17}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects state by comment.png}
 		\caption{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
-		\label{4:fig15}
+		\label{4:fig17}
 	\end{center}
 \end{figure}
 
-Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig16} una relación casi idéntica al anterior gráfico de barras.
+Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig18} una relación casi idéntica al anterior gráfico de barras.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects comment by state.png}
 		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
-		\label{4:fig16}
+		\label{4:fig18}
 	\end{center}
 \end{figure}
 
-Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig17}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig19}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/total comments by projects state.png}
 		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
-		\label{4:fig17}
+		\label{4:fig19}
 	\end{center}
 \end{figure}
 
