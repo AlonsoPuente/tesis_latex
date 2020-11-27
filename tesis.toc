@@ -112,20 +112,20 @@
 \contentsline {subsubsection}{\numberline {4.1.2.2}Comentarios}{77}{subsubsection.4.1.2.2}%
 \contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{79}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Metainformación}{79}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Descripción}{83}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Comentarios}{83}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{85}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{85}{section.4.4}%
-\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{86}{chapter.5}%
-\contentsline {section}{\numberline {5.1}X}{86}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Y}{86}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Z}{87}{section.5.3}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{88}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{88}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{88}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{89}{chapter*.106}%
-\contentsline {chapter}{Anexo}{95}{section*.107}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{96}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{97}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{98}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{100}{appendix.1.Alph4}%
+\contentsline {subsection}{\numberline {4.2.2}Descripción}{82}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comentarios}{85}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{87}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{87}{section.4.4}%
+\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{88}{chapter.5}%
+\contentsline {section}{\numberline {5.1}X}{88}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Y}{88}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Z}{89}{section.5.3}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{90}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{90}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{90}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{91}{chapter*.108}%
+\contentsline {chapter}{Anexo}{97}{section*.109}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{98}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{99}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{100}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{102}{appendix.1.Alph4}%

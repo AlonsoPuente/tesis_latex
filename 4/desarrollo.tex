@@ -283,35 +283,56 @@ Algunos datos estadísticos que se obtuvieron son:
 \end{itemize}
 
 \subsection{Descripción}
+Originalmente, la descripción con mayor cantidad de palabras presentaba 5,152 palabras y a nivel general de proyectos, el vocabulario era de 165,683 palabras. De acuerdo al autor (citar), para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig17}. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.35\textwidth]{4/figures/description_data_clean.png}
+		\caption{Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.}
+		\label{4:fig17}
+	\end{center}
+\end{figure}
+
+Para el presente trabajo, se omitió el paso de lematización ya que según el antecedente (citar) y corroborando con los experimentos, los resultados fueron más favorables sin el anterior mencionado. Con el pre-procesamiento detallado en el párrafo anterior, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
+
+Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig18} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud.png}
+		\caption{Nube de palabras del contenido textual total. Fuente: Elaboración propia.}
+		\label{4:fig18}
+	\end{center}
+\end{figure}
 
 \subsection{Comentarios}
-Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig17}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
+Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig19}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects state by comment.png}
 		\caption{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
-		\label{4:fig17}
+		\label{4:fig19}
 	\end{center}
 \end{figure}
 
-Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig18} una relación casi idéntica al anterior gráfico de barras.
+Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig20} una relación casi idéntica al anterior gráfico de barras.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/projects comment by state.png}
 		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
-		\label{4:fig18}
+		\label{4:fig20}
 	\end{center}
 \end{figure}
 
-Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig19}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig21}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/total comments by projects state.png}
 		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
-		\label{4:fig19}
+		\label{4:fig21}
 	\end{center}
 \end{figure}
 
