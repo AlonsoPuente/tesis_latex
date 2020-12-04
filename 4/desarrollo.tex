@@ -126,8 +126,7 @@ La Tabla \ref{4:table1} detalla cada variable del conjunto final, adicionando la
 	\label{4:table1}
 \end{table}
 
-\subsection{Contenido textual}
-\subsubsection{Descripción}
+\subsection{Descripción}
 La descripción (variable \textit{description}) contiene todas las características del producto o servicio del proyecto ofrecido al público, así como otros datos importantes de la campaña. Al proveer gran cantidad de información, en los antecedentes de la investigación se confirma la relación que presenta esta observación con la performance de la campaña y, por ende, el resultado final del financiamiento del proyecto.
 
 La variable se obtuvo utilizando web scraping en cada proyecto gracias a la variable \textit{urls}. Para ello, y como se describe en la Figura \ref{4:fig6}, se elaboró un algoritmo usando la librería BeautifulSoup que, mediante la navegación al contenido de estas páginas a través de un agente falso, se dirigió a las descripciones de los proyectos identificando las etiquetas con clase llamada “\textbf{rte\_\_content js-full-description responsive-media}” y las almacenó en un vector vacío, uniendo previamente los párrafos y eliminando caracteres especiales, para posteriormente asignarle la id correspondiente y guardarlo en un archivo de extensión .csv. En caso el algoritmo no encuentre esta clase dentro de las páginas (IndexError), el vector almacenaba un registro nulo.
@@ -154,7 +153,7 @@ El archivo generado fue subido a la plataforma Kaggle de manera pública (Figura
 	\end{center}
 \end{figure}
 
-\subsubsection{Comentarios}
+\subsection{Comentarios}
 Al igual que la descripción, los comentarios se obtuvieron utilizando la variable \textit{urls} para web scraping, pero reemplazando caracteres que contengan “\textbf{?ref=}” en adelante por “\textbf{/comments}” para redireccionarse a la sección de comentarios de cada proyecto.
 
 Los comentarios, al ser dinámicos, no podían extraerse mediante la librería BeautifulSoup como en el caso de las descripciones, por lo que se utilizó la librería Selenium para extraerlos al iniciar una sesión desde Google Chrome, como se observa en el algoritmo de la Figura \ref{4:fig8}.
@@ -420,5 +419,8 @@ Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto
 		\label{4:fig30}
 	\end{center}
 \end{figure}
+
+\subsection{Comentarios}
+La base de datos de comentarios está conformada por un proyecto asignado a un conjunto de comentarios de patrocinadores, separados entre sí. Antes de realizar el pre-procesamiento, cada comentario de un mismo proyecto fue separado, manteniendo el id y estado de financiamiento correspondiente, es decir, existirán registros duplicados por la columna \textit{id}. Así, la proporción original de las etiquetas del estado, la variable dependiente, será ahora de \% de proyectos exitosos y \% fracasados.
 
 \section{Creación de los modelos predictivos}
