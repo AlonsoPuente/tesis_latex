@@ -253,7 +253,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_backers.png}
 				\caption{Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.}
-				\label{4:fig20}
+				\label{4:fig17}
 			\end{center}
 		\end{figure}
 	\end{itemize}
@@ -268,7 +268,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_goal.png}
 				\caption{Diagrama de caja y bigote de meta. Fuente: Elaboración propia.}
-				\label{4:fig21}
+				\label{4:fig18}
 			\end{center}
 		\end{figure}
 	\end{itemize}
@@ -283,7 +283,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_pledged.png}
 				\caption{Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.}
-				\label{4:fig22}
+				\label{4:fig19}
 			\end{center}
 		\end{figure}
 	\end{itemize}
@@ -298,98 +298,112 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_duration.png}
 				\caption{Diagrama de caja y bigote de duración. Fuente: Elaboración propia.}
-				\label{4:fig23}
+				\label{4:fig20}
 			\end{center}
 		\end{figure}
 	\end{itemize}
 \end{itemize}
 
-Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones (Figura \ref{4:fig17}) para encontrar correlaciones entre ellas y determinar la existencia de alguna variable redundante y descartarla para no afectar el rendimiento del modelo.
+Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones (Figura \ref{4:fig21}) para encontrar correlaciones entre ellas y determinar la existencia de alguna variable redundante y descartarla para no afectar el rendimiento del modelo.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{4/figures/metadata correlation.png}
 		\caption{Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.}
-		\label{4:fig17}
+		\label{4:fig21}
 	\end{center}
 \end{figure}
 
 Como se puede apreciar en la figura anterior, la variable \textit{usd\_pledged} está altamente correlacionada con las variables \textit{backers\_count} y \textit{pledged} (ambas con un aproximado de 70\%). Esto quiere decir que dicha variable no es significativa porque explicaría de manera muy similar a las otras dos.
 
-Asimismo, si se observan los registros desde una matriz que contiene, además de gráficos de dispersión de las correlaciones, histogramas de las variables independientes como en la Figura \ref{4:fig18}, se confirma y concluye no utilizar las observaciones comentadas.
+Asimismo, si se observan los registros desde una matriz que contiene, además de gráficos de dispersión de las correlaciones, histogramas de las variables independientes como en la Figura \ref{4:fig22}, se confirma y concluye no utilizar las observaciones comentadas.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{4/figures/metadata cor-plot1.png}
 		\caption{Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.}
-		\label{4:fig18}
+		\label{4:fig22}
 	\end{center}
 \end{figure}
 
-El mismo gráfico, segmentado por las dos clases del estado de financiamiento, se aprecia en la Figura \ref{4:fig19}.
+El mismo gráfico, segmentado por las dos clases del estado de financiamiento, se aprecia en la Figura \ref{4:fig23}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{4/figures/metadata cor-plot2.png}
 		\caption{Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.}
-		\label{4:fig19}
+		\label{4:fig23}
 	\end{center}
 \end{figure}
 
 Se concluye entonces que la variable \textit{duration} es la única que sigue una distribución normal.
 
 \subsection{Descripción}
-La descripción con mayor cantidad de palabras presenta 5,152 palabras y, a nivel total de proyectos, el vocabulario es de 165,683 palabras. La Figura \ref{4:fig25} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas que aparecen con mayor frecuencia.
+La descripción con mayor cantidad de palabras presenta 5,152 palabras y, a nivel total de proyectos, el vocabulario es de 165,683 palabras. La Figura \ref{4:fig24} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas que aparecen con mayor frecuencia.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud_original_data.png}
-		\caption{Nube de palabras del contenido textual total. Fuente: Elaboración propia.}
-		\label{4:fig25}
+		\caption{Nube de palabras de descripciones. Fuente: Elaboración propia.}
+		\label{4:fig24}
 	\end{center}
 \end{figure}
 
 \subsection{Comentarios}
-Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig26}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
+Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig25}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state by comment.png}
 		\caption{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
-		\label{4:fig26}
+		\label{4:fig25}
 	\end{center}
 \end{figure}
 
-Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig27} una relación casi idéntica al anterior gráfico de barras.
+Si se repite el ejercicio del análisis anterior, ahora partiendo de los comentarios por presencia de comentarios y abiertos por su estado de financiamiento (exitosos y fracasados), se visualiza en la Figura \ref{4:fig26} una relación casi idéntica al anterior gráfico de barras.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects comment by state.png}
 		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
-		\label{4:fig27}
+		\label{4:fig26}
 	\end{center}
 \end{figure}
 
-Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig28}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig27}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/total comments by projects state.png}
 		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
+		\label{4:fig27}
+	\end{center}
+\end{figure}
+
+Respecto al contenido, en las Figura \ref{4:fig28} y Figura \ref{4:fig29} se ilustran las nubes de palabras de agrupadas en unidades y/o parejas más frecuentes, respectivamente.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{4/figures/comments_wordcloud_wordunit.png}
+		\caption{Nube de palabras de comentarios por unidades más frecuentes. Fuente: Elaboración propia.}
 		\label{4:fig28}
+		
+		\includegraphics[width=0.70\textwidth]{4/figures/comments_wordcloud_wordcouple.png}
+		\caption{Nube de palabras de comentarios por unidades o parejas más frecuentes. Fuente: Elaboración propia.}
+		\label{4:fig29}
 	\end{center}
 \end{figure}
 
 \section{Pre-procesamiento de los conjuntos de datos}
 
 \subsection{Metainformación}
-De acuerdo al autor (citar), se consideran 7 variables adicionales basadas en la mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}), cantidad (\textit{pledges\_num}) y completitud (\textit{completeness}) del monto prometido. La nueva matriz de correlación se observa en la Figura \ref{4:fig24}.
+De acuerdo al autor (citar), se consideran 7 variables adicionales basadas en la mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}), cantidad (\textit{pledges\_num}) y completitud (\textit{completeness}) del monto prometido. La nueva matriz de correlación se observa en la Figura \ref{4:fig30}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/metadata correlation v2.png}
 		\caption{Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.}
-		\label{4:fig24}
+		\label{4:fig30}
 	\end{center}
 \end{figure}
 
@@ -398,29 +412,47 @@ Como se puede observar en esta nueva matriz, el promedio presenta una alta corre
 La selección de variables se considera bajo la regla de una correlación máxima de 0.30 (citar). Bajo esta norma, aquellas que cumplen son \textit{goal}, \textit{pledges\_num}, \textit{completeness} y \textit{duration}. Para conservar la mayor cantidad posible de variables, se contabilizan las variables correlacionadas con cada una de las restantes. Así por ejemplo, de acuerdo a la figura anterior, tanto \textit{pledges\_median}, \textit{pledges\_mean} y \textit{pledges\_max} sobrepasan el límite de la regla al ser tomadas en cuenta con otras 4; \textit{pledges\_min} y \textit{pledges\_std} con 3; y \textit{pledged} y \textit{usd\_pledged} con 2.
 
 \subsection{Descripción}
-De acuerdo al autor (citar), para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig29}. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
+De acuerdo al autor (citar), para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig31}. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.35\textwidth]{4/figures/description_data_clean.png}
 		\caption{Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.}
-		\label{4:fig29}
+		\label{4:fig31}
 	\end{center}
 \end{figure}
 
 Para el presente trabajo, se omitió el paso de lematización ya que según el antecedente (citar) y corroborando con los experimentos, los resultados fueron más favorables sin el anterior mencionado. Con el pre-procesamiento detallado en el párrafo anterior, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 
-Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig30} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
+Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig32} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud.png}
-		\caption{Nube de palabras del contenido textual total. Fuente: Elaboración propia.}
-		\label{4:fig30}
+		\caption{Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.}
+		\label{4:fig32}
 	\end{center}
 \end{figure}
 
 \subsection{Comentarios}
-La base de datos de comentarios está conformada por un proyecto asignado a un conjunto de comentarios de patrocinadores, separados entre sí. Antes de realizar el pre-procesamiento, cada comentario de un mismo proyecto fue separado, manteniendo el id y estado de financiamiento correspondiente, es decir, existirán registros duplicados por la columna \textit{id}. Así, la proporción original de las etiquetas del estado, la variable dependiente, será ahora de \% de proyectos exitosos y \% fracasados.
+La base de datos de comentarios está conformada por un proyecto asignado a un conjunto de comentarios de patrocinadores, separados entre sí. Antes de realizar el pre-procesamiento, se agregó un término aleatorio no relacionado con las temáticas para rellenar aquellos proyectos sin comentarios: "kuwagatabaizan".
+
+El siguiente paso fue separar cada comentario de un mismo proyecto, manteniendo el id y estado de financiamiento correspondiente, es decir, existirán registros duplicados por la columna \textit{id}. Así, la proporción original de las etiquetas de la variable dependiente, el estado de financiamiento, será ahora de 91\% de proyectos exitosos (341,943) y 9\% fracasados (32,777).
+
+Finalmente, se removieron caracteres especiales, espacios múltiples, signos de puntuación y números. La nueva nube de palabras se presenta en la Figura \ref{4:fig33}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{4/figures/comments_wordcloud_processed.png}
+		\caption{Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.}
+		\label{4:fig33}
+	\end{center}
+\end{figure}
+
 
 \section{Creación de los modelos predictivos}
+\subsection{Metainformación}
+
+\subsection{Descripción}
+
+\subsection{Comentarios}
