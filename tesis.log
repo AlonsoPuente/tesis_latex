@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  4 DEC 2020 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  9 DEC 2020 01:52
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -95,25 +95,50 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \backup@length=\skip50
 \ar@cellbox=\box46
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+\lst@mode=\count179
+\lst@gtempboxa=\box47
+\lst@token=\toks18
+\lst@length=\count180
+\lst@currlwidth=\dimen145
+\lst@column=\count181
+\lst@pos=\count182
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count183
+\lst@lineno=\count184
+\lst@maxwidth=\dimen148
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count185
+\lst@skipnumbers=\count186
+\lst@framebox=\box48
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/csquotes\csquotes.sty"
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count179
+\etb@tempcnta=\count187
 )
-\csq@reset=\count180
-\csq@gtype=\count181
-\csq@glevel=\count182
-\csq@qlevel=\count183
-\csq@maxlvl=\count184
-\csq@tshold=\count185
-\csq@ltx@everypar=\toks20
+\csq@reset=\count188
+\csq@gtype=\count189
+\csq@glevel=\count190
+\csq@qlevel=\count191
+\csq@maxlvl=\count192
+\csq@tshold=\count193
+\csq@ltx@everypar=\toks21
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/csquotes\csquotes.def"
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
@@ -129,14 +154,14 @@ Package: babel 2020/06/10 3.45 The Babel package
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2020/06/10 3.45 Babel common definitions
-\babel@savecnt=\count186
-\U@D=\dimen145
+\babel@savecnt=\count194
+\U@D=\dimen149
 \l@babelnohyphens=\language83
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count187
+\bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
@@ -147,8 +172,8 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks21
-\es@quotdepth=\count188
+\es@quottoks=\toks22
+\es@quotdepth=\count196
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
@@ -179,7 +204,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count189
+\lrq@indent=\count197
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -191,47 +216,47 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count190
-\c@listtotal=\count191
-\c@listcount=\count192
-\c@liststart=\count193
-\c@liststop=\count194
-\c@citecount=\count195
-\c@citetotal=\count196
-\c@multicitecount=\count197
-\c@multicitetotal=\count198
-\c@instcount=\count199
-\c@maxnames=\count266
-\c@minnames=\count267
-\c@maxitems=\count268
-\c@minitems=\count269
-\c@citecounter=\count270
-\c@maxcitecounter=\count271
-\c@savedcitecounter=\count272
-\c@uniquelist=\count273
-\c@uniquename=\count274
-\c@refsection=\count275
-\c@refsegment=\count276
-\c@maxextratitle=\count277
-\c@maxextratitleyear=\count278
-\c@maxextraname=\count279
-\c@maxextradate=\count280
-\c@maxextraalpha=\count281
-\c@abbrvpenalty=\count282
-\c@highnamepenalty=\count283
-\c@lownamepenalty=\count284
-\c@maxparens=\count285
-\c@parenlevel=\count286
-\blx@tempcnta=\count287
-\blx@tempcntb=\count288
-\blx@tempcntc=\count289
-\blx@maxsection=\count290
-\blx@maxsegment@0=\count291
-\blx@notetype=\count292
-\blx@parenlevel@text=\count293
-\blx@parenlevel@foot=\count294
-\blx@sectionciteorder@0=\count295
-\blx@entrysetcounter=\count296
+\c@tabx@nest=\count198
+\c@listtotal=\count199
+\c@listcount=\count266
+\c@liststart=\count267
+\c@liststop=\count268
+\c@citecount=\count269
+\c@citetotal=\count270
+\c@multicitecount=\count271
+\c@multicitetotal=\count272
+\c@instcount=\count273
+\c@maxnames=\count274
+\c@minnames=\count275
+\c@maxitems=\count276
+\c@minitems=\count277
+\c@citecounter=\count278
+\c@maxcitecounter=\count279
+\c@savedcitecounter=\count280
+\c@uniquelist=\count281
+\c@uniquename=\count282
+\c@refsection=\count283
+\c@refsegment=\count284
+\c@maxextratitle=\count285
+\c@maxextratitleyear=\count286
+\c@maxextraname=\count287
+\c@maxextradate=\count288
+\c@maxextraalpha=\count289
+\c@abbrvpenalty=\count290
+\c@highnamepenalty=\count291
+\c@lownamepenalty=\count292
+\c@maxparens=\count293
+\c@parenlevel=\count294
+\blx@tempcnta=\count295
+\blx@tempcntb=\count296
+\blx@tempcntc=\count297
+\blx@maxsection=\count298
+\blx@maxsegment@0=\count299
+\blx@notetype=\count300
+\blx@parenlevel@text=\count301
+\blx@parenlevel@foot=\count302
+\blx@sectionciteorder@0=\count303
+\blx@entrysetcounter=\count304
 \labelnumberwidth=\skip51
 \labelalphawidth=\skip52
 \biblabelsep=\skip53
@@ -243,9 +268,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language84
-\c@mincomprange=\count297
-\c@maxcomprange=\count298
-\c@mincompwidth=\count299
+\c@mincomprange=\count305
+\c@maxcomprange=\count306
+\c@mincompwidth=\count307
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -260,86 +285,86 @@ File: apa.dbx 2020/05/30 v9.13 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count300
-\c@savedafterword=\count301
-\c@annotator=\count302
-\c@savedannotator=\count303
-\c@author=\count304
-\c@savedauthor=\count305
-\c@bookauthor=\count306
-\c@savedbookauthor=\count307
-\c@commentator=\count308
-\c@savedcommentator=\count309
-\c@editor=\count310
-\c@savededitor=\count311
-\c@editora=\count312
-\c@savededitora=\count313
-\c@editorb=\count314
-\c@savededitorb=\count315
-\c@editorc=\count316
-\c@savededitorc=\count317
-\c@foreword=\count318
-\c@savedforeword=\count319
-\c@holder=\count320
-\c@savedholder=\count321
-\c@introduction=\count322
-\c@savedintroduction=\count323
-\c@namea=\count324
-\c@savednamea=\count325
-\c@nameb=\count326
-\c@savednameb=\count327
-\c@namec=\count328
-\c@savednamec=\count329
-\c@translator=\count330
-\c@savedtranslator=\count331
-\c@shortauthor=\count332
-\c@savedshortauthor=\count333
-\c@shorteditor=\count334
-\c@savedshorteditor=\count335
-\c@groupauthor=\count336
-\c@savedgroupauthor=\count337
-\c@narrator=\count338
-\c@savednarrator=\count339
-\c@execproducer=\count340
-\c@savedexecproducer=\count341
-\c@execdirector=\count342
-\c@savedexecdirector=\count343
-\c@with=\count344
-\c@savedwith=\count345
-\c@labelname=\count346
-\c@savedlabelname=\count347
-\c@institution=\count348
-\c@savedinstitution=\count349
-\c@lista=\count350
-\c@savedlista=\count351
-\c@listb=\count352
-\c@savedlistb=\count353
-\c@listc=\count354
-\c@savedlistc=\count355
-\c@listd=\count356
-\c@savedlistd=\count357
-\c@liste=\count358
-\c@savedliste=\count359
-\c@listf=\count360
-\c@savedlistf=\count361
-\c@location=\count362
-\c@savedlocation=\count363
-\c@organization=\count364
-\c@savedorganization=\count365
-\c@origlocation=\count366
-\c@savedoriglocation=\count367
-\c@origpublisher=\count368
-\c@savedorigpublisher=\count369
-\c@publisher=\count370
-\c@savedpublisher=\count371
-\c@language=\count372
-\c@savedlanguage=\count373
-\c@origlanguage=\count374
-\c@savedoriglanguage=\count375
-\c@citation=\count376
-\c@savedcitation=\count377
-\c@pageref=\count378
-\c@savedpageref=\count379
+\c@afterword=\count308
+\c@savedafterword=\count309
+\c@annotator=\count310
+\c@savedannotator=\count311
+\c@author=\count312
+\c@savedauthor=\count313
+\c@bookauthor=\count314
+\c@savedbookauthor=\count315
+\c@commentator=\count316
+\c@savedcommentator=\count317
+\c@editor=\count318
+\c@savededitor=\count319
+\c@editora=\count320
+\c@savededitora=\count321
+\c@editorb=\count322
+\c@savededitorb=\count323
+\c@editorc=\count324
+\c@savededitorc=\count325
+\c@foreword=\count326
+\c@savedforeword=\count327
+\c@holder=\count328
+\c@savedholder=\count329
+\c@introduction=\count330
+\c@savedintroduction=\count331
+\c@namea=\count332
+\c@savednamea=\count333
+\c@nameb=\count334
+\c@savednameb=\count335
+\c@namec=\count336
+\c@savednamec=\count337
+\c@translator=\count338
+\c@savedtranslator=\count339
+\c@shortauthor=\count340
+\c@savedshortauthor=\count341
+\c@shorteditor=\count342
+\c@savedshorteditor=\count343
+\c@groupauthor=\count344
+\c@savedgroupauthor=\count345
+\c@narrator=\count346
+\c@savednarrator=\count347
+\c@execproducer=\count348
+\c@savedexecproducer=\count349
+\c@execdirector=\count350
+\c@savedexecdirector=\count351
+\c@with=\count352
+\c@savedwith=\count353
+\c@labelname=\count354
+\c@savedlabelname=\count355
+\c@institution=\count356
+\c@savedinstitution=\count357
+\c@lista=\count358
+\c@savedlista=\count359
+\c@listb=\count360
+\c@savedlistb=\count361
+\c@listc=\count362
+\c@savedlistc=\count363
+\c@listd=\count364
+\c@savedlistd=\count365
+\c@liste=\count366
+\c@savedliste=\count367
+\c@listf=\count368
+\c@savedlistf=\count369
+\c@location=\count370
+\c@savedlocation=\count371
+\c@organization=\count372
+\c@savedorganization=\count373
+\c@origlocation=\count374
+\c@savedoriglocation=\count375
+\c@origpublisher=\count376
+\c@savedorigpublisher=\count377
+\c@publisher=\count378
+\c@savedpublisher=\count379
+\c@language=\count380
+\c@savedlanguage=\count381
+\c@origlanguage=\count382
+\c@savedoriglanguage=\count383
+\c@citation=\count384
+\c@savedcitation=\count385
+\c@pageref=\count386
+\c@savedpageref=\count387
 \shorthandwidth=\skip59
 \shortjournalwidth=\skip60
 \shortserieswidth=\skip61
@@ -365,19 +390,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count380
-\c@textcitetotal=\count381
-\c@textcitemaxnames=\count382
-\c@biburlbigbreakpenalty=\count383
-\c@biburlbreakpenalty=\count384
-\c@biburlnumpenalty=\count385
-\c@biburlucpenalty=\count386
-\c@biburllcpenalty=\count387
+\c@textcitecount=\count388
+\c@textcitetotal=\count389
+\c@textcitemaxnames=\count390
+\c@biburlbigbreakpenalty=\count391
+\c@biburlbreakpenalty=\count392
+\c@biburlnumpenalty=\count393
+\c@biburlucpenalty=\count394
+\c@biburllcpenalty=\count395
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count388
+\c@smartand=\count396
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -397,8 +422,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count389
-\c@bbx:relatedtotal=\count390
+\c@bbx:relatedcount=\count397
+\c@bbx:relatedtotal=\count398
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -451,9 +476,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen146
-\Hy@linkcounter=\count391
-\Hy@pagecounter=\count392
+\@linkdim=\dimen150
+\Hy@linkcounter=\count399
+\Hy@pagecounter=\count400
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
@@ -466,7 +491,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count393
+\Hy@SavedSpaceFactor=\count401
 Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
 Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
 Package hyperref Info: Hyper figures OFF on input line 4464.
@@ -476,9 +501,9 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count394
+\c@Hy@tempcnt=\count402
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen147
+\XeTeXLinkMargin=\dimen151
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -487,9 +512,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count395
-\Field@Width=\dimen148
-\Fld@charsize=\dimen149
+\Fld@menulength=\count403
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -503,9 +528,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 ("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count396
-\c@Item=\count397
-\c@Hfootnote=\count398
+\Hy@abspage=\count404
+\c@Item=\count405
+\c@Hfootnote=\count406
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -515,8 +540,8 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 ("C:\Program Files\MiKTeX 2.9\tex/latex/atveryend\atveryend.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count399
-\c@bookmark@seq@number=\count400
+\Fld@listcount=\count407
+\c@bookmark@seq@number=\count408
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -534,7 +559,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks23
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -557,8 +582,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
 Package: caption 2020/05/30 v3.4k Customizing captions (AR)
@@ -566,18 +591,19 @@ Package: caption 2020/05/30 v3.4k Customizing captions (AR)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
 Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen152
-\captionmargin@=\dimen153
-\captionwidth=\dimen154
-\caption@tempdima=\dimen155
-\caption@indent=\dimen156
-\caption@parindent=\dimen157
-\caption@hangindent=\dimen158
+\captionmargin=\dimen156
+\captionmargin@=\dimen157
+\captionwidth=\dimen158
+\caption@tempdima=\dimen159
+\caption@indent=\dimen160
+\caption@parindent=\dimen161
+\caption@hangindent=\dimen162
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count401
-\c@continuedfloat=\count402
+\c@caption@flags=\count409
+\c@continuedfloat=\count410
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\eucal.sty"
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
@@ -597,10 +623,10 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks23
-\footnotemargin=\dimen159
-\c@pp@next@reset=\count403
-\c@@fnserial=\count404
+\FN@temptoken=\toks24
+\footnotemargin=\dimen163
+\c@pp@next@reset=\count411
+\c@@fnserial=\count412
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -612,29 +638,27 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count405
-\mult@box=\box47
-\multicol@leftmargin=\dimen160
-\c@unbalance=\count406
-\c@collectmore=\count407
-\doublecol@number=\count408
-\multicoltolerance=\count409
-\multicolpretolerance=\count410
-\full@width=\dimen161
-\page@free=\dimen162
-\premulticols=\dimen163
-\postmulticols=\dimen164
+\c@tracingmulticols=\count413
+\mult@box=\box49
+\multicol@leftmargin=\dimen164
+\c@unbalance=\count414
+\c@collectmore=\count415
+\doublecol@number=\count416
+\multicoltolerance=\count417
+\multicolpretolerance=\count418
+\full@width=\dimen165
+\page@free=\dimen166
+\premulticols=\dimen167
+\postmulticols=\dimen168
 \multicolsep=\skip74
 \multicolbaselineskip=\skip75
-\partial@page=\box48
-\last@line=\box49
-\maxbalancingoverflow=\dimen165
-\mult@rightbox=\box50
-\mult@grightbox=\box51
-\mult@gfirstbox=\box52
-\mult@firstbox=\box53
-\@tempa=\box54
-\@tempa=\box55
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen169
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
 \@tempa=\box56
 \@tempa=\box57
 \@tempa=\box58
@@ -670,15 +694,17 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
-\c@minrows=\count411
-\c@columnbadness=\count412
-\c@finalcolumnbadness=\count413
-\last@try=\dimen166
-\multicolovershoot=\dimen167
-\multicolundershoot=\dimen168
-\mult@nat@firstbox=\box91
-\colbreak@box=\box92
-\mc@col@check@num=\count414
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count419
+\c@columnbadness=\count420
+\c@finalcolumnbadness=\count421
+\last@try=\dimen170
+\multicolovershoot=\dimen171
+\multicolundershoot=\dimen172
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count422
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tocbibind\tocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -689,9 +715,9 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/appendix\appendix.sty"
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count415
-\c@@ppsavesec=\count416
-\c@@ppsaveapp=\count417
+\c@@pps=\count423
+\c@@ppsavesec=\count424
+\c@@ppsaveapp=\count425
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
@@ -730,23 +756,23 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip99
-\multirow@cntb=\count418
+\multirow@cntb=\count426
 \multirow@dima=\skip100
-\bigstrutjot=\dimen169
+\bigstrutjot=\dimen173
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/makecell\makecell.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen170
-\c@nlinenum=\count419
-\TeXr@lab=\toks24
+\rotheadsize=\dimen174
+\c@nlinenum=\count427
+\TeXr@lab=\toks25
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count420
+\c@r@tfl@t=\count428
 \rotFPtop=\skip101
 \rotFPbot=\skip102
-\rot@float@box=\box93
-\rot@mess@toks=\toks25
+\rot@float@box=\box95
+\rot@mess@toks=\toks26
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/siunitx\siunitx.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
@@ -754,17 +780,17 @@ Package: expl3 2020-06-03 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count421
-\l__pdf_internal_box=\box94
+\l__kernel_color_stack_int=\count429
+\l__pdf_internal_box=\box96
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
 Package: xparse 2020-05-15 L3 Experimental document command parser
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse-generic.tex"
-\l__xparse_current_arg_int=\count422
-\g__xparse_grabber_int=\count423
-\l__xparse_m_args_int=\count424
-\l__xparse_v_nesting_int=\count425
+\l__xparse_current_arg_int=\count430
+\g__xparse_grabber_int=\count431
+\l__xparse_m_args_int=\count432
+\l__xparse_v_nesting_int=\count433
 ))
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
@@ -772,50 +798,50 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
-\ex@=\dimen171
+\@emptytoks=\toks27
+\ex@=\dimen175
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box95
-\l__siunitx_tmp_dim=\dimen172
-\l__siunitx_tmp_int=\count426
-\l__siunitx_number_mantissa_length_int=\count427
-\l__siunitx_number_uncert_length_int=\count428
-\l__siunitx_round_int=\count429
-\l__siunitx_process_decimal_int=\count430
-\l__siunitx_process_uncertainty_int=\count431
-\l__siunitx_process_fixed_int=\count432
-\l__siunitx_process_integer_min_int=\count433
-\l__siunitx_process_precision_int=\count434
-\l__siunitx_group_min_int=\count435
-\l__siunitx_angle_marker_box=\box96
-\l__siunitx_angle_unit_box=\box97
-\l__siunitx_angle_marker_dim=\dimen173
-\l__siunitx_angle_unit_dim=\dimen174
-\l__siunitx_unit_int=\count436
-\l__siunitx_unit_denominator_int=\count437
-\l__siunitx_unit_numerator_int=\count438
-\l__siunitx_unit_prefix_int=\count439
-\l__siunitx_unit_prefix_base_int=\count440
-\l__siunitx_unit_prefix_gram_int=\count441
-\l__siunitx_number_product_int=\count442
+\l__siunitx_tmp_box=\box97
+\l__siunitx_tmp_dim=\dimen176
+\l__siunitx_tmp_int=\count434
+\l__siunitx_number_mantissa_length_int=\count435
+\l__siunitx_number_uncert_length_int=\count436
+\l__siunitx_round_int=\count437
+\l__siunitx_process_decimal_int=\count438
+\l__siunitx_process_uncertainty_int=\count439
+\l__siunitx_process_fixed_int=\count440
+\l__siunitx_process_integer_min_int=\count441
+\l__siunitx_process_precision_int=\count442
+\l__siunitx_group_min_int=\count443
+\l__siunitx_angle_marker_box=\box98
+\l__siunitx_angle_unit_box=\box99
+\l__siunitx_angle_marker_dim=\dimen177
+\l__siunitx_angle_unit_dim=\dimen178
+\l__siunitx_unit_int=\count444
+\l__siunitx_unit_denominator_int=\count445
+\l__siunitx_unit_numerator_int=\count446
+\l__siunitx_unit_prefix_int=\count447
+\l__siunitx_unit_prefix_base_int=\count448
+\l__siunitx_unit_prefix_gram_int=\count449
+\l__siunitx_number_product_int=\count450
 \c__siunitx_one_fill_skip=\skip103
 \l__siunitx_table_unit_align_skip=\skip104
-\l__siunitx_table_exponent_dim=\dimen175
-\l__siunitx_table_integer_dim=\dimen176
-\l__siunitx_table_mantissa_dim=\dimen177
-\l__siunitx_table_marker_dim=\dimen178
-\l__siunitx_table_result_dim=\dimen179
-\l__siunitx_table_uncert_dim=\dimen180
-\l__siunitx_table_fill_pre_dim=\dimen181
-\l__siunitx_table_fill_post_dim=\dimen182
-\l__siunitx_table_fill_mid_dim=\dimen183
-\l__siunitx_table_pre_box=\box98
-\l__siunitx_table_post_box=\box99
-\l__siunitx_table_mantissa_box=\box100
-\l__siunitx_table_result_box=\box101
+\l__siunitx_table_exponent_dim=\dimen179
+\l__siunitx_table_integer_dim=\dimen180
+\l__siunitx_table_mantissa_dim=\dimen181
+\l__siunitx_table_marker_dim=\dimen182
+\l__siunitx_table_result_dim=\dimen183
+\l__siunitx_table_uncert_dim=\dimen184
+\l__siunitx_table_fill_pre_dim=\dimen185
+\l__siunitx_table_fill_post_dim=\dimen186
+\l__siunitx_table_fill_mid_dim=\dimen187
+\l__siunitx_table_pre_box=\box100
+\l__siunitx_table_post_box=\box101
+\l__siunitx_table_mantissa_box=\box102
+\l__siunitx_table_result_box=\box103
 \l__siunitx_table_number_align_skip=\skip105
 \l__siunitx_table_text_align_skip=\skip106
 
@@ -832,11 +858,11 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/colortbl\colortbl.sty"
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks27
+\everycr=\toks28
 \minrowclearance=\skip107
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count443
+\rownum=\count451
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -854,46 +880,46 @@ Package: amsmath 2020/01/20 v2.17e AMS math features
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen184
+\pmbraise@=\dimen188
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count444
+\inf@bad=\count452
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count445
-\leftroot@=\count446
+\uproot@=\count453
+\leftroot@=\count454
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count447
-\DOTSCASE@=\count448
+\classnum@=\count455
+\DOTSCASE@=\count456
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box102
-\strutbox@=\box103
-\big@size=\dimen185
+\Mathstrutbox@=\box104
+\strutbox@=\box105
+\big@size=\dimen189
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count449
-\c@MaxMatrixCols=\count450
+\macc@depth=\count457
+\c@MaxMatrixCols=\count458
 \dotsspace@=\muskip21
-\c@parentequation=\count451
-\dspbrk@lvl=\count452
-\tag@help=\toks28
-\row@=\count453
-\column@=\count454
-\maxfields@=\count455
-\andhelp@=\toks29
-\eqnshift@=\dimen186
-\alignsep@=\dimen187
-\tagshift@=\dimen188
-\tagwidth@=\dimen189
-\totwidth@=\dimen190
-\lineht@=\dimen191
-\@envbody=\toks30
+\c@parentequation=\count459
+\dspbrk@lvl=\count460
+\tag@help=\toks29
+\row@=\count461
+\column@=\count462
+\maxfields@=\count463
+\andhelp@=\toks30
+\eqnshift@=\dimen190
+\alignsep@=\dimen191
+\tagshift@=\dimen192
+\tagwidth@=\dimen193
+\totwidth@=\dimen194
+\lineht@=\dimen195
+\@envbody=\toks31
 \multlinegap=\skip109
 \multlinetaggap=\skip110
-\mathdisplay@stack=\toks31
+\mathdisplay@stack=\toks32
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -902,15 +928,15 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count456
-\calc@Bcount=\count457
-\calc@Adimen=\dimen192
-\calc@Bdimen=\dimen193
+\calc@Acount=\count464
+\calc@Bcount=\count465
+\calc@Adimen=\dimen196
+\calc@Bdimen=\dimen197
 \calc@Askip=\skip111
 \calc@Bskip=\skip112
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count458
+\calc@Ccount=\count466
 \calc@Cskip=\skip113
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
@@ -920,21 +946,21 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count459
-\l_MT_multwidth_dim=\dimen194
+\g_MT_multlinerow_int=\count467
+\l_MT_multwidth_dim=\dimen198
 \origjot=\skip114
-\l_MT_shortvdotswithinadjustabove_dim=\dimen195
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen196
-\l_MT_above_intertext_sep=\dimen197
-\l_MT_below_intertext_sep=\dimen198
-\l_MT_above_shortintertext_sep=\dimen199
-\l_MT_below_shortintertext_sep=\dimen256
-\xmathstrut@box=\box104
-\xmathstrut@dim=\dimen257
+\l_MT_shortvdotswithinadjustabove_dim=\dimen199
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen256
+\l_MT_above_intertext_sep=\dimen257
+\l_MT_below_intertext_sep=\dimen258
+\l_MT_above_shortintertext_sep=\dimen259
+\l_MT_below_shortintertext_sep=\dimen260
+\xmathstrut@box=\box106
+\xmathstrut@dim=\dimen261
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/ncctools\nccmath.sty"
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
-\NCC@fracrulewidth=\dimen258
+\NCC@fracrulewidth=\dimen262
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/cool\cool.sty"
 Package: cool 2006/12/29 v1.35 COntent Oriented LaTeX
@@ -944,20 +970,20 @@ Package: coollist 2009/09/20 v1.4 COntent Oriented LaTeX Lists
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/coolstr\coolstr.sty"
 Package: coolstr 2009/09/09 v2.2 COntent Oriented LaTeX Strings
-\c@COOL@strlen=\count460
-\c@COOL@strpointer=\count461
-\c@COOL@str@index=\count462
-\c@COOL@str@start=\count463
-\c@COOL@str@end=\count464
+\c@COOL@strlen=\count468
+\c@COOL@strpointer=\count469
+\c@COOL@str@index=\count470
+\c@COOL@str@start=\count471
+\c@COOL@str@end=\count472
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/forloop\forloop.sty"
 Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
 )
-\c@COOL@listlen=\count465
-\c@COOL@listpointer=\count466
-\c@COOL@intsum=\count467
-\c@COOL@register@ct=\count468
-\c@COOL@register@len=\count469
+\c@COOL@listlen=\count473
+\c@COOL@listpointer=\count474
+\c@COOL@intsum=\count475
+\c@COOL@register@ct=\count476
+\c@COOL@register@len=\count477
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/bbm\bbm.sty"
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
@@ -966,11 +992,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\c@COOL@ct=\count470
-\c@COOL@ct@=\count471
-\c@COOL@multideriv=\count472
-\c@COOL@row=\count473
-\c@COOL@col=\count474
+\c@COOL@ct=\count478
+\c@COOL@ct@=\count479
+\c@COOL@multideriv=\count480
+\c@COOL@row=\count481
+\c@COOL@col=\count482
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -1004,8 +1030,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip141
 \cftfigindent=\skip142
 \cftfignumwidth=\skip143
-\c@lofdepth=\count475
-\c@lotdepth=\count476
+\c@lofdepth=\count483
+\c@lotdepth=\count484
 \cftbeforelottitleskip=\skip144
 \cftafterlottitleskip=\skip145
 \cftbeforetabskip=\skip146
@@ -1016,19 +1042,19 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
 Package caption Info: Option `' requires the `newfloat' package on input line 1
-50.
+52.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/newfloat\newfloat.sty"
 Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
 Package newfloat Info: Document class `report' detected (Hy).
 Package newfloat Info: `rotating' package detected.
 )
-Package newfloat Info: New float `equcaption' with options `' on input line 150
+Package newfloat Info: New float `equcaption' with options `' on input line 152
 .
-\c@equcaption=\count477
-\newfloat@ftype=\count478
-Package newfloat Info: float type `equcaption'=8 on input line 150.
-\c@loequcaptiondepth=\count479
+\c@equcaption=\count485
+\newfloat@ftype=\count486
+Package newfloat Info: float type `equcaption'=8 on input line 152.
+\c@loequcaptiondepth=\count487
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1047,24 +1073,24 @@ LaTeX Info: Redefining \% on input line 29.
 (anexos/anexo.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-56.
+58.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -1102,8 +1128,9 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
+\c@lstlisting=\count488
+LaTeX Info: Redefining \. on input line 158.
+LaTeX Info: Redefining \% on input line 158.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex-apa\spanish-apa.lbx"
@@ -1153,10 +1180,10 @@ Package biblatex Warning: Biber reported the following issues
 .bib): Invalid format '9' of date field 'date' - ignoring.
 
 )
-Package biblatex Info: Reference section=0 on input line 156.
-Package biblatex Info: Reference segment=0 on input line 156.
-\AtBeginShipoutBox=\box105
-Package hyperref Info: Link coloring ON on input line 156.
+Package biblatex Info: Reference section=0 on input line 158.
+Package biblatex Info: Reference segment=0 on input line 158.
+\AtBeginShipoutBox=\box107
+Package hyperref Info: Link coloring ON on input line 158.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1166,11 +1193,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count480
+\c@section@level=\count489
 )
-LaTeX Info: Redefining \ref on input line 156.
-LaTeX Info: Redefining \pageref on input line 156.
-LaTeX Info: Redefining \nameref on input line 156.
+LaTeX Info: Redefining \ref on input line 158.
+LaTeX Info: Redefining \pageref on input line 158.
+LaTeX Info: Redefining \nameref on input line 158.
 
 (tesis.out) (tesis.out)
 \@outlinefile=\write4
@@ -1179,17 +1206,17 @@ LaTeX Info: Redefining \nameref on input line 156.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count481
-\scratchdimen=\dimen259
-\scratchbox=\box106
-\nofMPsegments=\count482
-\nofMParguments=\count483
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count484
-\MPscratchDim=\dimen260
-\MPnumerator=\count485
-\makeMPintoPDFobject=\count486
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count490
+\scratchdimen=\dimen263
+\scratchbox=\box108
+\nofMPsegments=\count491
+\nofMParguments=\count492
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count493
+\MPscratchDim=\dimen264
+\MPnumerator=\count494
+\makeMPintoPDFobject=\count495
+\everyMPtoPDFconversion=\toks34
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1200,7 +1227,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 156.
+LaTeX Info: Redefining \selectfont on input line 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-
 English.dict"
@@ -1210,39 +1237,39 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 156.
+ 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 156.
+ 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 156.
+ 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 156.
+ 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
-<images_repo/esanlogomin.png, id=527, 100.6962pt x 100.2144pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
+<images_repo/esanlogomin.png, id=539, 100.6962pt x 100.2144pt>
 File: images_repo/esanlogomin.png Graphic file (type png)
 <use images_repo/esanlogomin.png>
-Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 163.
+Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 165.
 (pdftex.def)             Requested size: 203.83434pt x 202.87491pt.
  [1
 
@@ -1254,7 +1281,7 @@ epo/esanlogomin.png>]
 (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 \include{0/aprobacion}
+l.189 \include{0/aprobacion}
                              [1
 
 ]
@@ -1301,8 +1328,8 @@ LaTeX Info: Redefining \% on input line 129.
 \tf@toc=\write5
 \openout5 = `tesis.toc'.
 
-LaTeX Info: Redefining \. on input line 203.
-LaTeX Info: Redefining \% on input line 203.
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
  [7] (tesis.lof
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1324,8 +1351,8 @@ LaTeX Info: Redefining \% on input line 80.
 \tf@lof=\write6
 \openout6 = `tesis.lof'.
 
-LaTeX Info: Redefining \. on input line 205.
-LaTeX Info: Redefining \% on input line 205.
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
  [11] (tesis.lot
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
@@ -1363,7 +1390,7 @@ gen-te hi-perb[]oli-ca. Fuen-te: [][][]Do-rof-ki y col.,
 
  (1/planteamiento.tex
 Cap\'{\i }tulo 1.
-<1/figures/cuadro_esan.jpg, id=1071, 964.60374pt x 650.43pt>
+<1/figures/cuadro_esan.jpg, id=1115, 964.60374pt x 650.43pt>
 File: 1/figures/cuadro_esan.jpg Graphic file (type jpg)
 <use 1/figures/cuadro_esan.jpg>
 Package pdftex.def Info: 1/figures/cuadro_esan.jpg  used on input line 10.
@@ -1379,7 +1406,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
  [17 <./1/figures/cuadro_esan.jpg>]
-<1/figures/kickstarter_success_rate_2009_2019.jpg, id=1099, 602.25pt x 600.2425
+<1/figures/kickstarter_success_rate_2009_2019.jpg, id=1143, 602.25pt x 600.2425
 pt>
 File: 1/figures/kickstarter_success_rate_2009_2019.jpg Graphic file (type jpg)
 <use 1/figures/kickstarter_success_rate_2009_2019.jpg>
@@ -1402,8 +1429,8 @@ LaTeX Info: Redefining \% on input line 110.
 LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
  [21])
-LaTeX Info: Redefining \. on input line 214.
-LaTeX Info: Redefining \% on input line 214.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
 
 [22]
 \openout2 = `2/marco.aux'.
@@ -1538,12 +1565,12 @@ LaTeX Info: Redefining \% on input line 10.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
  [30]
-<2/figures/regresion.jpg, id=1198, 416.30531pt x 278.54062pt>
+<2/figures/regresion.jpg, id=1242, 416.30531pt x 278.54062pt>
 File: 2/figures/regresion.jpg Graphic file (type jpg)
 <use 2/figures/regresion.jpg>
 Package pdftex.def Info: 2/figures/regresion.jpg  used on input line 25.
 (pdftex.def)             Requested size: 271.7837pt x 181.85254pt.
-<2/figures/clasificacion.jpg, id=1201, 399.74344pt x 372.64218pt>
+<2/figures/clasificacion.jpg, id=1245, 399.74344pt x 372.64218pt>
 File: 2/figures/clasificacion.jpg Graphic file (type jpg)
 <use 2/figures/clasificacion.jpg>
 Package pdftex.def Info: 2/figures/clasificacion.jpg  used on input line 29.
@@ -1556,7 +1583,7 @@ LaTeX Info: Redefining \% on input line 44.
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 48.
 
-<2/figures/knn.jpg, id=1216, 357.58594pt x 195.73125pt>
+<2/figures/knn.jpg, id=1260, 357.58594pt x 195.73125pt>
 File: 2/figures/knn.jpg Graphic file (type jpg)
 <use 2/figures/knn.jpg>
 Package pdftex.def Info: 2/figures/knn.jpg  used on input line 65.
@@ -1567,7 +1594,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
 [32]
-<2/figures/kmeans.jpg, id=1237, 341.77687pt x 257.46187pt>
+<2/figures/kmeans.jpg, id=1281, 341.77687pt x 257.46187pt>
 File: 2/figures/kmeans.jpg Graphic file (type jpg)
 <use 2/figures/kmeans.jpg>
 Package pdftex.def Info: 2/figures/kmeans.jpg  used on input line 94.
@@ -1576,7 +1603,7 @@ Package pdftex.def Info: 2/figures/kmeans.jpg  used on input line 94.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/aprendizaje_refuerzo.jpg, id=1243, 601.4972pt x 225.09094pt>
+<2/figures/aprendizaje_refuerzo.jpg, id=1287, 601.4972pt x 225.09094pt>
 File: 2/figures/aprendizaje_refuerzo.jpg Graphic file (type jpg)
 <use 2/figures/aprendizaje_refuerzo.jpg>
 Package pdftex.def Info: 2/figures/aprendizaje_refuerzo.jpg  used on input line
@@ -1588,7 +1615,7 @@ LaTeX Info: Redefining \% on input line 108.
 LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
  [34 <./2/figures/kmeans.jpg> <./2/figures/aprendizaje_refuerzo.jpg>]
-<2/figures/deeplearning_machinelearning.jpg, id=1260, 631.76025pt x 307.74976pt
+<2/figures/deeplearning_machinelearning.jpg, id=1304, 631.76025pt x 307.74976pt
 >
 File: 2/figures/deeplearning_machinelearning.jpg Graphic file (type jpg)
 <use 2/figures/deeplearning_machinelearning.jpg>
@@ -1598,7 +1625,7 @@ put line 117.
 LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
  [35 <./2/figures/deeplearning_machinelearning.jpg>]
-<2/figures/data_mining_steps.jpg, id=1276, 338.01282pt x 204.01219pt>
+<2/figures/data_mining_steps.jpg, id=1320, 338.01282pt x 204.01219pt>
 File: 2/figures/data_mining_steps.jpg Graphic file (type jpg)
 <use 2/figures/data_mining_steps.jpg>
 Package pdftex.def Info: 2/figures/data_mining_steps.jpg  used on input line 14
@@ -1611,7 +1638,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 153.
 LaTeX Info: Redefining \% on input line 153.
 [36]
-<2/figures/crispdm.jpg, id=1290, 428.35031pt x 389.20406pt>
+<2/figures/crispdm.jpg, id=1334, 428.35031pt x 389.20406pt>
 File: 2/figures/crispdm.jpg Graphic file (type jpg)
 <use 2/figures/crispdm.jpg>
 Package pdftex.def Info: 2/figures/crispdm.jpg  used on input line 158.
@@ -1628,7 +1655,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 LaTeX Info: Redefining \. on input line 175.
 LaTeX Info: Redefining \% on input line 175.
  [37 <./2/figures/data_mining_steps.jpg>]
-<2/figures/semma.jpg, id=1300, 583.42969pt x 429.10312pt>
+<2/figures/semma.jpg, id=1344, 583.42969pt x 429.10312pt>
 File: 2/figures/semma.jpg Graphic file (type jpg)
 <use 2/figures/semma.jpg>
 Package pdftex.def Info: 2/figures/semma.jpg  used on input line 178.
@@ -1637,7 +1664,7 @@ Package pdftex.def Info: 2/figures/semma.jpg  used on input line 178.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/kdd.jpg, id=1304, 555.57562pt x 212.29312pt>
+<2/figures/kdd.jpg, id=1348, 555.57562pt x 212.29312pt>
 File: 2/figures/kdd.jpg Graphic file (type jpg)
 <use 2/figures/kdd.jpg>
 Package pdftex.def Info: 2/figures/kdd.jpg  used on input line 197.
@@ -1667,7 +1694,7 @@ Overfull \hbox (25.02301pt too wide) in paragraph at lines 223--281
 LaTeX Info: Redefining \. on input line 290.
 LaTeX Info: Redefining \% on input line 290.
 [40]
-<2/figures/rnn_mcculloch.jpg, id=1328, 682.04813pt x 272.51813pt>
+<2/figures/rnn_mcculloch.jpg, id=1372, 682.04813pt x 272.51813pt>
 File: 2/figures/rnn_mcculloch.jpg Graphic file (type jpg)
 <use 2/figures/rnn_mcculloch.jpg>
 Package pdftex.def Info: 2/figures/rnn_mcculloch.jpg  used on input line 299.
@@ -1679,7 +1706,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 316.
 LaTeX Info: Redefining \% on input line 316.
 [41]
-<2/figures/rna_activaciones.jpg, id=1345, 797.22844pt x 234.8775pt>
+<2/figures/rna_activaciones.jpg, id=1389, 797.22844pt x 234.8775pt>
 File: 2/figures/rna_activaciones.jpg Graphic file (type jpg)
 <use 2/figures/rna_activaciones.jpg>
 Package pdftex.def Info: 2/figures/rna_activaciones.jpg  used on input line 330
@@ -1692,7 +1719,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 347.
 LaTeX Info: Redefining \% on input line 347.
 [42 <./2/figures/rnn_mcculloch.jpg>]
-<2/figures/sigmoide.jpg, id=1362, 198.7425pt x 167.12437pt>
+<2/figures/sigmoide.jpg, id=1406, 198.7425pt x 167.12437pt>
 File: 2/figures/sigmoide.jpg Graphic file (type jpg)
 <use 2/figures/sigmoide.jpg>
 Package pdftex.def Info: 2/figures/sigmoide.jpg  used on input line 350.
@@ -1700,7 +1727,7 @@ Package pdftex.def Info: 2/figures/sigmoide.jpg  used on input line 350.
 LaTeX Info: Redefining \. on input line 367.
 LaTeX Info: Redefining \% on input line 367.
  [43 <./2/figures/rna_activaciones.jpg> <./2/figures/sigmoide.jpg>]
-<2/figures/gradiente_descendiente.jpg, id=1380, 386.94562pt x 398.23781pt>
+<2/figures/gradiente_descendiente.jpg, id=1424, 386.94562pt x 398.23781pt>
 File: 2/figures/gradiente_descendiente.jpg Graphic file (type jpg)
 <use 2/figures/gradiente_descendiente.jpg>
 Package pdftex.def Info: 2/figures/gradiente_descendiente.jpg  used on input li
@@ -1710,7 +1737,7 @@ ne 383.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/pesos_graddescen.jpg, id=1389, 680.5425pt x 411.78844pt>
+<2/figures/pesos_graddescen.jpg, id=1433, 680.5425pt x 411.78844pt>
 File: 2/figures/pesos_graddescen.jpg Graphic file (type jpg)
 <use 2/figures/pesos_graddescen.jpg>
 Package pdftex.def Info: 2/figures/pesos_graddescen.jpg  used on input line 407
@@ -1725,13 +1752,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 432.
 LaTeX Info: Redefining \% on input line 432.
 [45 <./2/figures/gradiente_descendiente.jpg>]
-<2/figures/backpropagation.jpg, id=1410, 471.26062pt x 322.20375pt>
+<2/figures/backpropagation.jpg, id=1454, 471.26062pt x 322.20375pt>
 File: 2/figures/backpropagation.jpg Graphic file (type jpg)
 <use 2/figures/backpropagation.jpg>
 Package pdftex.def Info: 2/figures/backpropagation.jpg  used on input line 436.
 
 (pdftex.def)             Requested size: 226.48413pt x 154.84778pt.
-<2/figures/rna_pesos.jpg, id=1414, 637.63219pt x 472.38985pt>
+<2/figures/rna_pesos.jpg, id=1458, 637.63219pt x 472.38985pt>
 File: 2/figures/rna_pesos.jpg Graphic file (type jpg)
 <use 2/figures/rna_pesos.jpg>
 Package pdftex.def Info: 2/figures/rna_pesos.jpg  used on input line 445.
@@ -1750,12 +1777,12 @@ Overfull \hbox (1.9885pt too wide) in paragraph at lines 478--482
 LaTeX Info: Redefining \. on input line 497.
 LaTeX Info: Redefining \% on input line 497.
 [47 <./2/figures/rna_pesos.jpg>]
-<2/figures/hiperbolica.jpg, id=1441, 215.30438pt x 164.11313pt>
+<2/figures/hiperbolica.jpg, id=1485, 215.30438pt x 164.11313pt>
 File: 2/figures/hiperbolica.jpg Graphic file (type jpg)
 <use 2/figures/hiperbolica.jpg>
 Package pdftex.def Info: 2/figures/hiperbolica.jpg  used on input line 511.
 (pdftex.def)             Requested size: 135.89185pt x 103.58463pt.
-<2/figures/purelin.jpg, id=1448, 237.13594pt x 183.68625pt>
+<2/figures/purelin.jpg, id=1492, 237.13594pt x 183.68625pt>
 File: 2/figures/purelin.jpg Graphic file (type jpg)
 <use 2/figures/purelin.jpg>
 Package pdftex.def Info: 2/figures/purelin.jpg  used on input line 529.
@@ -1773,12 +1800,12 @@ Overfull \hbox (10.85272pt too wide) in paragraph at lines 535--550
 LaTeX Info: Redefining \. on input line 550.
 LaTeX Info: Redefining \% on input line 550.
 [48 <./2/figures/hiperbolica.jpg>]
-<2/figures/relu.jpg, id=1466, 318.43968pt x 264.99pt>
+<2/figures/relu.jpg, id=1510, 318.43968pt x 264.99pt>
 File: 2/figures/relu.jpg Graphic file (type jpg)
 <use 2/figures/relu.jpg>
 Package pdftex.def Info: 2/figures/relu.jpg  used on input line 553.
 (pdftex.def)             Requested size: 135.89185pt x 113.08223pt.
-<2/figures/perceptron_simple.jpg, id=1472, 284.56313pt x 188.20313pt>
+<2/figures/perceptron_simple.jpg, id=1516, 284.56313pt x 188.20313pt>
 File: 2/figures/perceptron_simple.jpg Graphic file (type jpg)
 <use 2/figures/perceptron_simple.jpg>
 Package pdftex.def Info: 2/figures/perceptron_simple.jpg  used on input line 56
@@ -1787,13 +1814,13 @@ Package pdftex.def Info: 2/figures/perceptron_simple.jpg  used on input line 56
 LaTeX Info: Redefining \. on input line 571.
 LaTeX Info: Redefining \% on input line 571.
  [49 <./2/figures/purelin.jpg> <./2/figures/relu.jpg>]
-<2/figures/perceptron_multicapa.jpg, id=1484, 238.8925pt x 157.08687pt>
+<2/figures/perceptron_multicapa.jpg, id=1528, 238.8925pt x 157.08687pt>
 File: 2/figures/perceptron_multicapa.jpg Graphic file (type jpg)
 <use 2/figures/perceptron_multicapa.jpg>
 Package pdftex.def Info: 2/figures/perceptron_multicapa.jpg  used on input line
  575.
 (pdftex.def)             Requested size: 294.4266pt x 193.61597pt.
-<2/figures/cnn.jpg, id=1489, 380.42125pt x 201.75375pt>
+<2/figures/cnn.jpg, id=1533, 380.42125pt x 201.75375pt>
 File: 2/figures/cnn.jpg Graphic file (type jpg)
 <use 2/figures/cnn.jpg>
 Package pdftex.def Info: 2/figures/cnn.jpg  used on input line 584.
@@ -1802,12 +1829,12 @@ LaTeX Info: Redefining \. on input line 589.
 LaTeX Info: Redefining \% on input line 589.
  [50 <./2/figures/perceptron_simple.jpg> <./2/figures/perceptron_multicapa.jpg>
 ]
-<2/figures/neocognitron.jpg, id=1500, 642.14906pt x 405.76593pt>
+<2/figures/neocognitron.jpg, id=1544, 642.14906pt x 405.76593pt>
 File: 2/figures/neocognitron.jpg Graphic file (type jpg)
 <use 2/figures/neocognitron.jpg>
 Package pdftex.def Info: 2/figures/neocognitron.jpg  used on input line 595.
 (pdftex.def)             Requested size: 271.7837pt x 171.7393pt.
-<2/figures/lenet5.jpg, id=1503, 764.8575pt x 231.11343pt>
+<2/figures/lenet5.jpg, id=1547, 764.8575pt x 231.11343pt>
 File: 2/figures/lenet5.jpg Graphic file (type jpg)
 <use 2/figures/lenet5.jpg>
 Package pdftex.def Info: 2/figures/lenet5.jpg  used on input line 599.
@@ -1815,7 +1842,7 @@ Package pdftex.def Info: 2/figures/lenet5.jpg  used on input line 599.
 LaTeX Info: Redefining \. on input line 607.
 LaTeX Info: Redefining \% on input line 607.
  [51 <./2/figures/cnn.jpg>]
-<2/figures/convolucion.jpg, id=1517, 557.08125pt x 193.32225pt>
+<2/figures/convolucion.jpg, id=1561, 557.08125pt x 193.32225pt>
 File: 2/figures/convolucion.jpg Graphic file (type jpg)
 <use 2/figures/convolucion.jpg>
 Package pdftex.def Info: 2/figures/convolucion.jpg  used on input line 624.
@@ -1823,7 +1850,7 @@ Package pdftex.def Info: 2/figures/convolucion.jpg  used on input line 624.
 LaTeX Info: Redefining \. on input line 629.
 LaTeX Info: Redefining \% on input line 629.
  [52 <./2/figures/neocognitron.jpg> <./2/figures/lenet5.jpg>]
-<2/figures/filtros_cnn.jpg, id=1526, 892.83563pt x 444.15938pt>
+<2/figures/filtros_cnn.jpg, id=1570, 892.83563pt x 444.15938pt>
 File: 2/figures/filtros_cnn.jpg Graphic file (type jpg)
 <use 2/figures/filtros_cnn.jpg>
 Package pdftex.def Info: 2/figures/filtros_cnn.jpg  used on input line 633.
@@ -1835,12 +1862,12 @@ Package pdftex.def Info: 2/figures/filtros_cnn.jpg  used on input line 642.
 LaTeX Info: Redefining \. on input line 647.
 LaTeX Info: Redefining \% on input line 647.
  [53 <./2/figures/convolucion.jpg> <./2/figures/filtros_cnn.jpg>]
-<2/figures/features_cnn.jpg, id=1538, 1152.55594pt x 529.98pt>
+<2/figures/features_cnn.jpg, id=1582, 1152.55594pt x 529.98pt>
 File: 2/figures/features_cnn.jpg Graphic file (type jpg)
 <use 2/figures/features_cnn.jpg>
 Package pdftex.def Info: 2/figures/features_cnn.jpg  used on input line 651.
 (pdftex.def)             Requested size: 339.7262pt x 156.21335pt.
-<2/figures/matriz_cnn.jpg, id=1545, 429.85594pt x 130.98938pt>
+<2/figures/matriz_cnn.jpg, id=1589, 429.85594pt x 130.98938pt>
 File: 2/figures/matriz_cnn.jpg Graphic file (type jpg)
 <use 2/figures/matriz_cnn.jpg>
 Package pdftex.def Info: 2/figures/matriz_cnn.jpg  used on input line 674.
@@ -1852,13 +1879,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 681.
 LaTeX Info: Redefining \% on input line 681.
 [54 <./2/figures/features_cnn.jpg>]
-<2/figures/input_filter_cnn.jpg, id=1559, 444.15938pt x 453.19313pt>
+<2/figures/input_filter_cnn.jpg, id=1603, 444.15938pt x 453.19313pt>
 File: 2/figures/input_filter_cnn.jpg Graphic file (type jpg)
 <use 2/figures/input_filter_cnn.jpg>
 Package pdftex.def Info: 2/figures/input_filter_cnn.jpg  used on input line 702
 .
 (pdftex.def)             Requested size: 135.89185pt x 138.6559pt.
-<2/figures/stride_cnn.jpg, id=1562, 740.0147pt x 281.55188pt>
+<2/figures/stride_cnn.jpg, id=1606, 740.0147pt x 281.55188pt>
 File: 2/figures/stride_cnn.jpg Graphic file (type jpg)
 <use 2/figures/stride_cnn.jpg>
 Package pdftex.def Info: 2/figures/stride_cnn.jpg  used on input line 706.
@@ -1866,7 +1893,7 @@ Package pdftex.def Info: 2/figures/stride_cnn.jpg  used on input line 706.
 LaTeX Info: Redefining \. on input line 717.
 LaTeX Info: Redefining \% on input line 717.
  [55 <./2/figures/matriz_cnn.jpg>]
-<2/figures/fully_conected_cnn.jpg, id=1573, 550.30594pt x 304.88907pt>
+<2/figures/fully_conected_cnn.jpg, id=1617, 550.30594pt x 304.88907pt>
 File: 2/figures/fully_conected_cnn.jpg Graphic file (type jpg)
 <use 2/figures/fully_conected_cnn.jpg>
 Package pdftex.def Info: 2/figures/fully_conected_cnn.jpg  used on input line 7
@@ -1876,7 +1903,7 @@ Package pdftex.def Info: 2/figures/fully_conected_cnn.jpg  used on input line 7
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/arquitectura_cnn.jpg, id=1577, 713.66624pt x 173.14688pt>
+<2/figures/arquitectura_cnn.jpg, id=1621, 713.66624pt x 173.14688pt>
 File: 2/figures/arquitectura_cnn.jpg Graphic file (type jpg)
 <use 2/figures/arquitectura_cnn.jpg>
 Package pdftex.def Info: 2/figures/arquitectura_cnn.jpg  used on input line 733
@@ -1885,7 +1912,7 @@ Package pdftex.def Info: 2/figures/arquitectura_cnn.jpg  used on input line 733
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/rnn_ejemplo.jpg, id=1582, 580.66937pt x 189.70876pt>
+<2/figures/rnn_ejemplo.jpg, id=1626, 580.66937pt x 189.70876pt>
 File: 2/figures/rnn_ejemplo.jpg Graphic file (type jpg)
 <use 2/figures/rnn_ejemplo.jpg>
 Package pdftex.def Info: 2/figures/rnn_ejemplo.jpg  used on input line 742.
@@ -1893,7 +1920,7 @@ Package pdftex.def Info: 2/figures/rnn_ejemplo.jpg  used on input line 742.
 LaTeX Info: Redefining \. on input line 747.
 LaTeX Info: Redefining \% on input line 747.
 [56 <./2/figures/input_filter_cnn.jpg> <./2/figures/stride_cnn.jpg>]
-<2/figures/svm_hiperplano.jpg, id=1591, 417.81094pt x 336.50719pt>
+<2/figures/svm_hiperplano.jpg, id=1635, 417.81094pt x 336.50719pt>
 File: 2/figures/svm_hiperplano.jpg Graphic file (type jpg)
 <use 2/figures/svm_hiperplano.jpg>
 Package pdftex.def Info: 2/figures/svm_hiperplano.jpg  used on input line 751.
@@ -1905,17 +1932,17 @@ LaTeX Info: Redefining \% on input line 756.
 LaTeX Info: Redefining \. on input line 762.
 LaTeX Info: Redefining \% on input line 762.
  [58 <./2/figures/svm_hiperplano.jpg>]
-<2/figures/caso1_svm.jpg, id=1610, 307.1475pt x 252.945pt>
+<2/figures/caso1_svm.jpg, id=1654, 307.1475pt x 252.945pt>
 File: 2/figures/caso1_svm.jpg Graphic file (type jpg)
 <use 2/figures/caso1_svm.jpg>
 Package pdftex.def Info: 2/figures/caso1_svm.jpg  used on input line 766.
 (pdftex.def)             Requested size: 135.89185pt x 111.90982pt.
-<2/figures/caso2_svm.jpg, id=1613, 302.63063pt x 248.42813pt>
+<2/figures/caso2_svm.jpg, id=1657, 302.63063pt x 248.42813pt>
 File: 2/figures/caso2_svm.jpg Graphic file (type jpg)
 <use 2/figures/caso2_svm.jpg>
 Package pdftex.def Info: 2/figures/caso2_svm.jpg  used on input line 770.
 (pdftex.def)             Requested size: 135.89185pt x 111.55281pt.
-<2/figures/kernel_svm.jpg, id=1620, 495.35063pt x 187.45032pt>
+<2/figures/kernel_svm.jpg, id=1664, 495.35063pt x 187.45032pt>
 File: 2/figures/kernel_svm.jpg Graphic file (type jpg)
 <use 2/figures/kernel_svm.jpg>
 Package pdftex.def Info: 2/figures/kernel_svm.jpg  used on input line 796.
@@ -1927,7 +1954,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 803.
 LaTeX Info: Redefining \% on input line 803.
 [59 <./2/figures/caso1_svm.jpg> <./2/figures/caso2_svm.jpg>]
-<2/figures/arbol_decision.jpg, id=1631, 797.22844pt x 511.9125pt>
+<2/figures/arbol_decision.jpg, id=1675, 797.22844pt x 511.9125pt>
 File: 2/figures/arbol_decision.jpg Graphic file (type jpg)
 <use 2/figures/arbol_decision.jpg>
 Package pdftex.def Info: 2/figures/arbol_decision.jpg  used on input line 809.
@@ -1951,8 +1978,8 @@ LaTeX Info: Redefining \% on input line 28.
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
  [64]))
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
  [65]
 \openout2 = `3/metodologia.aux'.
 
@@ -1963,7 +1990,7 @@ Cap\'{\i }tulo 3.
 
 
 ]
-<3/figures/prototipo.jpg, id=1698, 930.8376pt x 534.3162pt>
+<3/figures/prototipo.jpg, id=1742, 930.8376pt x 534.3162pt>
 File: 3/figures/prototipo.jpg Graphic file (type jpg)
 <use 3/figures/prototipo.jpg>
 Package pdftex.def Info: 3/figures/prototipo.jpg  used on input line 20.
@@ -1997,7 +2024,7 @@ Overfull \hbox (11.42303pt too wide) in paragraph at lines 60--84
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
 [69]
-<3/figures/cronograma.jpg, id=1712, 999.735pt x 283.65974pt>
+<3/figures/cronograma.jpg, id=1756, 999.735pt x 283.65974pt>
 File: 3/figures/cronograma.jpg Graphic file (type jpg)
 <use 3/figures/cronograma.jpg>
 Package pdftex.def Info: 3/figures/cronograma.jpg  used on input line 103.
@@ -2008,14 +2035,14 @@ Overfull \hbox (45.29958pt too wide) in paragraph at lines 103--104
  []
 
 )
-LaTeX Info: Redefining \. on input line 216.
-LaTeX Info: Redefining \% on input line 216.
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
  [70 <./3/figures/cronograma.jpg>]
 \openout2 = `4/desarrollo.aux'.
 
  (4/desarrollo.tex
 Cap\'{\i }tulo 4.
-<4/figures/web_robots_2019.png, id=1719, 1129.97156pt x 658.71094pt>
+<4/figures/web_robots_2019.png, id=1763, 1129.97156pt x 658.71094pt>
 File: 4/figures/web_robots_2019.png Graphic file (type png)
 <use 4/figures/web_robots_2019.png>
 Package pdftex.def Info: 4/figures/web_robots_2019.png  used on input line 10.
@@ -2025,7 +2052,7 @@ Package pdftex.def Info: 4/figures/web_robots_2019.png  used on input line 10.
 
 
 ]
-<4/figures/dataset_201907.png, id=1727, 870.25125pt x 271.76532pt>
+<4/figures/dataset_201907.png, id=1771, 870.25125pt x 271.76532pt>
 File: 4/figures/dataset_201907.png Graphic file (type png)
 <use 4/figures/dataset_201907.png>
 Package pdftex.def Info: 4/figures/dataset_201907.png  used on input line 31.
@@ -2033,19 +2060,19 @@ Package pdftex.def Info: 4/figures/dataset_201907.png  used on input line 31.
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
  [72 <./4/figures/web_robots_2019.png> <./4/figures/dataset_201907.png>]
-<4/figures/dataset_filtrada_201907.png, id=1734, 292.09125pt x 75.28125pt>
+<4/figures/dataset_filtrada_201907.png, id=1778, 292.09125pt x 75.28125pt>
 File: 4/figures/dataset_filtrada_201907.png Graphic file (type png)
 <use 4/figures/dataset_filtrada_201907.png>
 Package pdftex.def Info: 4/figures/dataset_filtrada_201907.png  used on input l
 ine 41.
 (pdftex.def)             Requested size: 226.48413pt x 58.37451pt.
-<4/figures/alteryx_flux_part1.png, id=1736, 1137.65025pt x 1034.6655pt>
+<4/figures/alteryx_flux_part1.png, id=1780, 1137.65025pt x 1034.6655pt>
 File: 4/figures/alteryx_flux_part1.png Graphic file (type png)
 <use 4/figures/alteryx_flux_part1.png>
 Package pdftex.def Info: 4/figures/alteryx_flux_part1.png  used on input line 5
 5.
 (pdftex.def)             Requested size: 317.0764pt x 288.37819pt.
-<4/figures/alteryx_flux_part2.png, id=1737, 1137.65025pt x 1544.77126pt>
+<4/figures/alteryx_flux_part2.png, id=1781, 1137.65025pt x 1544.77126pt>
 File: 4/figures/alteryx_flux_part2.png Graphic file (type png)
 <use 4/figures/alteryx_flux_part2.png>
 Package pdftex.def Info: 4/figures/alteryx_flux_part2.png  used on input line 5
@@ -2061,7 +2088,7 @@ LaTeX Info: Redefining \% on input line 67.
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
  [74 <./4/figures/alteryx_flux_part1.png> <./4/figures/alteryx_flux_part2.png>]
-<4/figures/metadata_kaggle_preview.jpg, id=1749, 875.6715pt x 609.477pt>
+<4/figures/metadata_kaggle_preview.jpg, id=1793, 875.6715pt x 609.477pt>
 File: 4/figures/metadata_kaggle_preview.jpg Graphic file (type jpg)
 <use 4/figures/metadata_kaggle_preview.jpg>
 Package pdftex.def Info: 4/figures/metadata_kaggle_preview.jpg  used on input l
@@ -2083,13 +2110,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 133.
 LaTeX Info: Redefining \% on input line 133.
 [75 <./4/figures/metadata_kaggle_preview.jpg>]
-<4/figures/description_scraping.png, id=1756, 827.34094pt x 555.57562pt>
+<4/figures/description_scraping.png, id=1800, 827.34094pt x 555.57562pt>
 File: 4/figures/description_scraping.png Graphic file (type png)
 <use 4/figures/description_scraping.png>
 Package pdftex.def Info: 4/figures/description_scraping.png  used on input line
  136.
 (pdftex.def)             Requested size: 362.37598pt x 243.34348pt.
-<4/figures/description_kaggle_preview.jpg, id=1758, 260.172pt x 387.24675pt>
+<4/figures/description_kaggle_preview.jpg, id=1802, 260.172pt x 387.24675pt>
 File: 4/figures/description_kaggle_preview.jpg Graphic file (type jpg)
 <use 4/figures/description_kaggle_preview.jpg>
 Package pdftex.def Info: 4/figures/description_kaggle_preview.jpg  used on inpu
@@ -2109,13 +2136,13 @@ LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
  [77 <./4/figures/description_scraping.png> <./4/figures/description_kaggle_pre
 view.jpg>]
-<4/figures/comments_scraping.jpg, id=1768, 605.26125pt x 442.65375pt>
+<4/figures/comments_scraping.jpg, id=1812, 605.26125pt x 442.65375pt>
 File: 4/figures/comments_scraping.jpg Graphic file (type jpg)
 <use 4/figures/comments_scraping.jpg>
 Package pdftex.def Info: 4/figures/comments_scraping.jpg  used on input line 16
 3.
 (pdftex.def)             Requested size: 362.37598pt x 265.02016pt.
-<4/figures/comments_kaggle_preview.jpg, id=1770, 262.581pt x 336.65775pt>
+<4/figures/comments_kaggle_preview.jpg, id=1814, 262.581pt x 336.65775pt>
 File: 4/figures/comments_kaggle_preview.jpg Graphic file (type jpg)
 <use 4/figures/comments_kaggle_preview.jpg>
 Package pdftex.def Info: 4/figures/comments_kaggle_preview.jpg  used on input l
@@ -2124,13 +2151,13 @@ ine 173.
 LaTeX Info: Redefining \. on input line 180.
 LaTeX Info: Redefining \% on input line 180.
  [78 <./4/figures/comments_scraping.jpg>]
-<4/figures/gc_instances_comments.jpg, id=1777, 531.78674pt x 260.172pt>
+<4/figures/gc_instances_comments.jpg, id=1821, 531.78674pt x 260.172pt>
 File: 4/figures/gc_instances_comments.jpg Graphic file (type jpg)
 <use 4/figures/gc_instances_comments.jpg>
 Package pdftex.def Info: 4/figures/gc_instances_comments.jpg  used on input lin
 e 183.
 (pdftex.def)             Requested size: 317.0764pt x 155.12779pt.
-<4/figures/projects by state.png, id=1779, 298.4751pt x 245.718pt>
+<4/figures/projects by state.png, id=1823, 298.4751pt x 245.718pt>
 File: 4/figures/projects by state.png Graphic file (type png)
 <use 4/figures/projects by state.png>
 Package pdftex.def Info: 4/figures/projects by state.png  used on input line 19
@@ -2140,13 +2167,13 @@ LaTeX Info: Redefining \. on input line 198.
 LaTeX Info: Redefining \% on input line 198.
  [79 <./4/figures/comments_kaggle_preview.jpg> <./4/figures/gc_instances_commen
 ts.jpg>]
-<4/figures/projects state by year.png, id=1785, 416.2752pt x 329.5512pt>
+<4/figures/projects state by year.png, id=1829, 416.2752pt x 329.5512pt>
 File: 4/figures/projects state by year.png Graphic file (type png)
 <use 4/figures/projects state by year.png>
 Package pdftex.def Info: 4/figures/projects state by year.png  used on input li
 ne 205.
 (pdftex.def)             Requested size: 317.0764pt x 251.02971pt.
-<4/figures/projects state evolution by year.png, id=1787, 455.301pt x 339.669pt
+<4/figures/projects state evolution by year.png, id=1831, 455.301pt x 339.669pt
 >
 File: 4/figures/projects state evolution by year.png Graphic file (type png)
 <use 4/figures/projects state evolution by year.png>
@@ -2157,19 +2184,19 @@ LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
  [80 <./4/figures/projects by state.png> <./4/figures/projects state by year.pn
 g>]
-<4/figures/category_distribution.png, id=1798, 462.528pt x 291.2481pt>
+<4/figures/category_distribution.png, id=1842, 462.528pt x 291.2481pt>
 File: 4/figures/category_distribution.png Graphic file (type png)
 <use 4/figures/category_distribution.png>
 Package pdftex.def Info: 4/figures/category_distribution.png  used on input lin
 e 229.
 (pdftex.def)             Requested size: 294.4266pt x 185.4071pt.
-<4/figures/country_distribution.png, id=1799, 372.1905pt x 286.9119pt>
+<4/figures/country_distribution.png, id=1843, 372.1905pt x 286.9119pt>
 File: 4/figures/country_distribution.png Graphic file (type png)
 <use 4/figures/country_distribution.png>
 Package pdftex.def Info: 4/figures/country_distribution.png  used on input line
  233.
 (pdftex.def)             Requested size: 249.13391pt x 192.05046pt.
-<4/figures/currency_distribution.png, id=1800, 372.1905pt x 286.9119pt>
+<4/figures/currency_distribution.png, id=1844, 372.1905pt x 286.9119pt>
 File: 4/figures/currency_distribution.png Graphic file (type png)
 <use 4/figures/currency_distribution.png>
 Package pdftex.def Info: 4/figures/currency_distribution.png  used on input lin
@@ -2182,19 +2209,19 @@ LaTeX Info: Redefining \. on input line 248.
 LaTeX Info: Redefining \% on input line 248.
  [82 <./4/figures/category_distribution.png> <./4/figures/country_distribution.
 png> <./4/figures/currency_distribution.png>]
-<4/figures/caja_bigote_backers.png, id=1813, 606.01407pt x 144.54pt>
+<4/figures/caja_bigote_backers.png, id=1857, 606.01407pt x 144.54pt>
 File: 4/figures/caja_bigote_backers.png Graphic file (type png)
 <use 4/figures/caja_bigote_backers.png>
 Package pdftex.def Info: 4/figures/caja_bigote_backers.png  used on input line 
 254.
 (pdftex.def)             Requested size: 317.0764pt x 75.62657pt.
-<4/figures/caja_bigote_goal.png, id=1814, 618.05907pt x 145.29282pt>
+<4/figures/caja_bigote_goal.png, id=1858, 618.05907pt x 145.29282pt>
 File: 4/figures/caja_bigote_goal.png Graphic file (type png)
 <use 4/figures/caja_bigote_goal.png>
 Package pdftex.def Info: 4/figures/caja_bigote_goal.png  used on input line 269
 .
 (pdftex.def)             Requested size: 317.0764pt x 74.53952pt.
-<4/figures/caja_bigote_pledged.png, id=1815, 612.03656pt x 147.55125pt>
+<4/figures/caja_bigote_pledged.png, id=1859, 612.03656pt x 147.55125pt>
 File: 4/figures/caja_bigote_pledged.png Graphic file (type png)
 <use 4/figures/caja_bigote_pledged.png>
 Package pdftex.def Info: 4/figures/caja_bigote_pledged.png  used on input line 
@@ -2203,25 +2230,25 @@ Package pdftex.def Info: 4/figures/caja_bigote_pledged.png  used on input line
 LaTeX Info: Redefining \. on input line 294.
 LaTeX Info: Redefining \% on input line 294.
  [83 <./4/figures/caja_bigote_backers.png> <./4/figures/caja_bigote_goal.png>]
-<4/figures/caja_bigote_duration.png, id=1820, 620.3175pt x 146.04562pt>
+<4/figures/caja_bigote_duration.png, id=1864, 620.3175pt x 146.04562pt>
 File: 4/figures/caja_bigote_duration.png Graphic file (type png)
 <use 4/figures/caja_bigote_duration.png>
 Package pdftex.def Info: 4/figures/caja_bigote_duration.png  used on input line
  299.
 (pdftex.def)             Requested size: 317.0764pt x 74.65163pt.
-<4/figures/metadata correlation.png, id=1822, 434.3427pt x 302.0886pt>
+<4/figures/metadata correlation.png, id=1866, 434.3427pt x 302.0886pt>
 File: 4/figures/metadata correlation.png Graphic file (type png)
 <use 4/figures/metadata correlation.png>
 Package pdftex.def Info: 4/figures/metadata correlation.png  used on input line
  311.
 (pdftex.def)             Requested size: 294.4266pt x 204.78601pt.
-<4/figures/metadata cor-plot1.png, id=1824, 737.8767pt x 733.5405pt>
+<4/figures/metadata cor-plot1.png, id=1868, 737.8767pt x 733.5405pt>
 File: 4/figures/metadata cor-plot1.png Graphic file (type png)
 <use 4/figures/metadata cor-plot1.png>
 Package pdftex.def Info: 4/figures/metadata cor-plot1.png  used on input line 3
 23.
 (pdftex.def)             Requested size: 362.37598pt x 360.25507pt.
-<4/figures/metadata cor-plot2.png, id=1826, 985.0401pt x 889.6437pt>
+<4/figures/metadata cor-plot2.png, id=1870, 985.0401pt x 889.6437pt>
 File: 4/figures/metadata cor-plot2.png Graphic file (type png)
 <use 4/figures/metadata cor-plot2.png>
 Package pdftex.def Info: 4/figures/metadata cor-plot2.png  used on input line 3
@@ -2238,7 +2265,7 @@ LaTeX Info: Redefining \. on input line 343.
 LaTeX Info: Redefining \% on input line 343.
 [85 <./4/figures/metadata correlation.png> <./4/figures/metadata cor-plot1.png>
 ]
-<4/figures/description_wordcloud_original_data.png, id=1839, 372.1905pt x 193.6
+<4/figures/description_wordcloud_original_data.png, id=1883, 372.1905pt x 193.6
 836pt>
 File: 4/figures/description_wordcloud_original_data.png Graphic file (type png)
 
@@ -2246,7 +2273,7 @@ File: 4/figures/description_wordcloud_original_data.png Graphic file (type png)
 Package pdftex.def Info: 4/figures/description_wordcloud_original_data.png  use
 d on input line 346.
 (pdftex.def)             Requested size: 317.0764pt x 165.00124pt.
-<4/figures/projects state by comment.png, id=1841, 462.528pt x 346.896pt>
+<4/figures/projects state by comment.png, id=1885, 462.528pt x 346.896pt>
 File: 4/figures/projects state by comment.png Graphic file (type png)
 <use 4/figures/projects state by comment.png>
 Package pdftex.def Info: 4/figures/projects state by comment.png  used on input
@@ -2255,26 +2282,26 @@ Package pdftex.def Info: 4/figures/projects state by comment.png  used on input
 LaTeX Info: Redefining \. on input line 364.
 LaTeX Info: Redefining \% on input line 364.
  [86 <./4/figures/metadata cor-plot2.png>]
-<4/figures/projects comment by state.png, id=1848, 462.528pt x 346.896pt>
+<4/figures/projects comment by state.png, id=1892, 462.528pt x 346.896pt>
 File: 4/figures/projects comment by state.png Graphic file (type png)
 <use 4/figures/projects comment by state.png>
 Package pdftex.def Info: 4/figures/projects comment by state.png  used on input
  line 367.
 (pdftex.def)             Requested size: 317.0764pt x 237.81816pt.
-<4/figures/total comments by projects state.png, id=1850, 462.528pt x 346.896pt
+<4/figures/total comments by projects state.png, id=1894, 462.528pt x 346.896pt
 >
 File: 4/figures/total comments by projects state.png Graphic file (type png)
 <use 4/figures/total comments by projects state.png>
 Package pdftex.def Info: 4/figures/total comments by projects state.png  used o
 n input line 377.
 (pdftex.def)             Requested size: 362.37598pt x 271.79521pt.
-<4/figures/comments_wordcloud_wordunit.png, id=1853, 372.1905pt x 193.6836pt>
+<4/figures/comments_wordcloud_wordunit.png, id=1897, 372.1905pt x 193.6836pt>
 File: 4/figures/comments_wordcloud_wordunit.png Graphic file (type png)
 <use 4/figures/comments_wordcloud_wordunit.png>
 Package pdftex.def Info: 4/figures/comments_wordcloud_wordunit.png  used on inp
 ut line 387.
 (pdftex.def)             Requested size: 317.0764pt x 165.00124pt.
-<4/figures/comments_wordcloud_wordcouple.png, id=1854, 372.1905pt x 193.6836pt>
+<4/figures/comments_wordcloud_wordcouple.png, id=1898, 372.1905pt x 193.6836pt>
 
 File: 4/figures/comments_wordcloud_wordcouple.png Graphic file (type png)
 <use 4/figures/comments_wordcloud_wordcouple.png>
@@ -2293,7 +2320,7 @@ LaTeX Info: Redefining \. on input line 401.
 LaTeX Info: Redefining \% on input line 401.
  [89 <./4/figures/comments_wordcloud_wordunit.png> <./4/figures/comments_wordcl
 oud_wordcouple.png>]
-<4/figures/metadata correlation v2.png, id=1874, 444.4605pt x 374.3586pt>
+<4/figures/metadata correlation v2.png, id=1918, 444.4605pt x 374.3586pt>
 File: 4/figures/metadata correlation v2.png Graphic file (type png)
 <use 4/figures/metadata correlation v2.png>
 Package pdftex.def Info: 4/figures/metadata correlation v2.png  used on input l
@@ -2302,7 +2329,7 @@ ine 404.
 LaTeX Info: Redefining \. on input line 413.
 LaTeX Info: Redefining \% on input line 413.
  [90 <./4/figures/metadata correlation v2.png>]
-<4/figures/description_data_clean.png, id=1882, 228.3732pt x 520.8258pt>
+<4/figures/description_data_clean.png, id=1926, 228.3732pt x 520.8258pt>
 File: 4/figures/description_data_clean.png Graphic file (type png)
 <use 4/figures/description_data_clean.png>
 Package pdftex.def Info: 4/figures/description_data_clean.png  used on input li
@@ -2312,94 +2339,191 @@ LaTeX Info: Redefining \. on input line 426.
 LaTeX Info: Redefining \% on input line 426.
 
 [91 <./4/figures/description_data_clean.png>]
-<4/figures/description_wordcloud.png, id=1889, 372.1905pt x 193.6836pt>
+<4/figures/description_wordcloud.png, id=1933, 372.1905pt x 193.6836pt>
 File: 4/figures/description_wordcloud.png Graphic file (type png)
 <use 4/figures/description_wordcloud.png>
 Package pdftex.def Info: 4/figures/description_wordcloud.png  used on input lin
 e 431.
 (pdftex.def)             Requested size: 317.0764pt x 165.00124pt.
-<4/figures/comments_wordcloud_processed.png, id=1891, 372.1905pt x 193.6836pt>
+<4/figures/comments_wordcloud_processed.png, id=1935, 372.1905pt x 193.6836pt>
 File: 4/figures/comments_wordcloud_processed.png Graphic file (type png)
 <use 4/figures/comments_wordcloud_processed.png>
 Package pdftex.def Info: 4/figures/comments_wordcloud_processed.png  used on in
 put line 446.
 (pdftex.def)             Requested size: 317.0764pt x 165.00124pt.
+LaTeX Info: Redefining \. on input line 455.
+LaTeX Info: Redefining \% on input line 455.
+ [92 <./4/figures/description_wordcloud.png>] ("C:\Program Files\MiKTeX 2.9\tex
+/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Info: Redefining \. on input line 217.
-LaTeX Info: Redefining \% on input line 217.
- [92 <./4/figures/description_wordcloud.png>]
-LaTeX Info: Redefining \. on input line 217.
-LaTeX Info: Redefining \% on input line 217.
- [93 <./4/figures/comments_wordcloud_processed.png>]
+Overfull \hbox (51.03687pt too wide) in paragraph at lines 457--458
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Info: Redefining \. on input line 466.
+LaTeX Info: Redefining \% on input line 466.
+[93 <./4/figures/comments_wordcloud_processed.png>]
+<4/figures/model_mlp_metadata.png, id=1949, 374.39874pt x 629.35126pt>
+File: 4/figures/model_mlp_metadata.png Graphic file (type png)
+<use 4/figures/model_mlp_metadata.png>
+Package pdftex.def Info: 4/figures/model_mlp_metadata.png  used on input line 4
+69.
+(pdftex.def)             Requested size: 181.18454pt x 304.56277pt.
+<4/figures/description_tokenizer_function.jpg, id=1952, 290.88675pt x 133.6995p
+t>
+File: 4/figures/description_tokenizer_function.jpg Graphic file (type jpg)
+<use 4/figures/description_tokenizer_function.jpg>
+Package pdftex.def Info: 4/figures/description_tokenizer_function.jpg  used on 
+input line 480.
+(pdftex.def)             Requested size: 226.48413pt x 104.10156pt.
+<4/figures/description_encoder_function.jpg, id=1953, 502.87875pt x 163.812pt>
+File: 4/figures/description_encoder_function.jpg Graphic file (type jpg)
+<use 4/figures/description_encoder_function.jpg>
+Package pdftex.def Info: 4/figures/description_encoder_function.jpg  used on in
+put line 483.
+(pdftex.def)             Requested size: 362.37598pt x 118.04202pt.
+LaTeX Info: Redefining \. on input line 490.
+LaTeX Info: Redefining \% on input line 490.
+ [94 <./4/figures/model_mlp_metadata.png>]
+<4/figures/description_glove.jpg, id=1962, 364.36125pt x 236.68425pt>
+File: 4/figures/description_glove.jpg Graphic file (type jpg)
+<use 4/figures/description_glove.jpg>
+Package pdftex.def Info: 4/figures/description_glove.jpg  used on input line 49
+3.
+(pdftex.def)             Requested size: 271.7837pt x 176.55208pt.
+LaTeX Info: Redefining \. on input line 500.
+LaTeX Info: Redefining \% on input line 500.
+ [95 <./4/figures/description_tokenizer_function.jpg> <./4/figures/description_
+encoder_function.jpg> <./4/figures/description_glove.jpg>]
+<4/figures/model_cnn_description.png, id=1971, 598.235pt x 739.76375pt>
+File: 4/figures/model_cnn_description.png Graphic file (type png)
+<use 4/figures/model_cnn_description.png>
+Package pdftex.def Info: 4/figures/model_cnn_description.png  used on input lin
+e 503.
+(pdftex.def)             Requested size: 271.7837pt x 336.08507pt.
+)
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
+
+[96 <./4/figures/model_cnn_description.png>]
 \openout2 = `5/resultados.aux'.
 
-
-(5/resultados.tex
+ (5/resultados.tex
 Cap\'{\i }tulo 5.
-) [94
+<4/figures/metadata_model_accuracy.png, id=1979, 401.8212pt x 278.2395pt>
+File: 4/figures/metadata_model_accuracy.png Graphic file (type png)
+<use 4/figures/metadata_model_accuracy.png>
+Package pdftex.def Info: 4/figures/metadata_model_accuracy.png  used on input l
+ine 9.
+(pdftex.def)             Requested size: 271.7837pt x 188.1984pt.
+<4/figures/metadata_model_loss.png, id=1980, 393.8715pt x 278.2395pt>
+File: 4/figures/metadata_model_loss.png Graphic file (type png)
+<use 4/figures/metadata_model_loss.png>
+Package pdftex.def Info: 4/figures/metadata_model_loss.png  used on input line 
+12.
+(pdftex.def)             Requested size: 271.7837pt x 192.00668pt.
+<4/figures/metadata_confusion_matrix.png, id=1982, 381.5856pt x 298.4751pt>
+File: 4/figures/metadata_confusion_matrix.png Graphic file (type png)
+<use 4/figures/metadata_confusion_matrix.png>
+Package pdftex.def Info: 4/figures/metadata_confusion_matrix.png  used on input
+ line 22.
+(pdftex.def)             Requested size: 271.7837pt x 212.5974pt.
+[97
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
- [95]
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [98 <./4/figures/metadata_model_accuracy.png> <./4/figures/metadata_model_loss
+.png>]
+<4/figures/description_model_accuracy.png, id=1995, 393.1488pt x 278.2395pt>
+File: 4/figures/description_model_accuracy.png Graphic file (type png)
+<use 4/figures/description_model_accuracy.png>
+Package pdftex.def Info: 4/figures/description_model_accuracy.png  used on inpu
+t line 37.
+(pdftex.def)             Requested size: 271.7837pt x 192.35483pt.
+<4/figures/description_model_loss.png, id=1996, 394.5942pt x 278.2395pt>
+File: 4/figures/description_model_loss.png Graphic file (type png)
+<use 4/figures/description_model_loss.png>
+Package pdftex.def Info: 4/figures/description_model_loss.png  used on input li
+ne 40.
+(pdftex.def)             Requested size: 271.7837pt x 191.6543pt.
+<4/figures/description_confusion_matrix.png, id=1998, 381.5856pt x 298.4751pt>
+File: 4/figures/description_confusion_matrix.png Graphic file (type png)
+<use 4/figures/description_confusion_matrix.png>
+Package pdftex.def Info: 4/figures/description_confusion_matrix.png  used on in
+put line 50.
+(pdftex.def)             Requested size: 271.7837pt x 212.5974pt.
+)
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
+ [99 <./4/figures/metadata_confusion_matrix.png>]
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
+ [100 <./4/figures/description_model_accuracy.png> <./4/figures/description_mod
+el_loss.png>]
+LaTeX Info: Redefining \. on input line 220.
+LaTeX Info: Redefining \% on input line 220.
+
+[101 <./4/figures/description_confusion_matrix.png>]
 \openout2 = `6/conclusion.aux'.
 
  (6/conclusion.tex
 Cap\'{\i }tulo 6.
-) [96
+) [102
 
 
 
-] [97
+] [103
 
 
 ]
-Overfull \hbox (47.66238pt too wide) in paragraph at lines 224--224
+Overfull \hbox (47.66238pt too wide) in paragraph at lines 226--226
 [][]\OT1/ptm/m/n/12 Gupta, P. (2017). De-ci-sion Trees in Ma-chi-ne Lear-ning. 
 \OT1/ptm/m/it/12 To-wards Da-ta Scien-ce\OT1/ptm/m/n/12 . [][]$https : / / towa
 rdsdatascience .
  []
 
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
-[98]
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
- [99]
-Overfull \hbox (27.30882pt too wide) in paragraph at lines 224--224
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+[104]
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+ [105]
+Overfull \hbox (27.30882pt too wide) in paragraph at lines 226--226
 [][]\OT1/ptm/m/n/12 L[]opez Brie-ga, R. E. (2016). Re-des neu-ro-na-les con-vo-
 lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
  []
 
 
-Overfull \hbox (2.5964pt too wide) in paragraph at lines 224--224
+Overfull \hbox (2.5964pt too wide) in paragraph at lines 226--226
 [][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
 VM). [][]$https : / / la . mathworks . com / discovery /
  []
 
-
-Overfull \hbox (2.32396pt too wide) in paragraph at lines 224--224
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+[106]
+Overfull \hbox (2.32396pt too wide) in paragraph at lines 226--226
 \OT1/ptm/m/n/12 go-cio que por des-em-pleo. \OT1/ptm/m/it/12 Dia-rio Ges-ti[]on
 \OT1/ptm/m/n/12 . [][]$https : / / gestion . pe / economia / emprendimiento -[]
 
  []
 
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
-[100]
-Overfull \hbox (36.85689pt too wide) in paragraph at lines 224--224
+
+Overfull \hbox (36.85689pt too wide) in paragraph at lines 226--226
 [][]\OT1/ptm/m/n/12 Solidaridad La-ti-na. (s.f.). ?`C[]omo fun-cio-na el crowd-
 fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
  []
 
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
-[101]
-LaTeX Info: Redefining \. on input line 232.
-LaTeX Info: Redefining \% on input line 232.
- [102] [103
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+[107]
+LaTeX Info: Redefining \. on input line 234.
+LaTeX Info: Redefining \% on input line 234.
+ [108] [109
 
 
 ]
@@ -2407,22 +2531,22 @@ LaTeX Info: Redefining \% on input line 232.
 
  (anexos/anexo.tex
 Anexo A.
-<anexos/arbol_problemas.jpg, id=2082, 645.00975pt x 411.33675pt>
+<anexos/arbol_problemas.jpg, id=2187, 645.00975pt x 411.33675pt>
 File: anexos/arbol_problemas.jpg Graphic file (type jpg)
 <use anexos/arbol_problemas.jpg>
 Package pdftex.def Info: anexos/arbol_problemas.jpg  used on input line 6.
 (pdftex.def)             Requested size: 452.96826pt x 288.86896pt.
-[104
+[110
 
 
  <./anexos/arbol_problemas.jpg>]
 Anexo B.
-<anexos/arbol_objetivos.jpg, id=2088, 595.023pt x 378.213pt>
+<anexos/arbol_objetivos.jpg, id=2193, 595.023pt x 378.213pt>
 File: anexos/arbol_objetivos.jpg Graphic file (type jpg)
 <use anexos/arbol_objetivos.jpg>
 Package pdftex.def Info: anexos/arbol_objetivos.jpg  used on input line 15.
 (pdftex.def)             Requested size: 452.96826pt x 287.92386pt.
-[105
+[111
 
  <./anexos/arbol_objetivos.jpg>]
 Anexo C.
@@ -2464,12 +2588,12 @@ Overfull \hbox (11.42305pt too wide) in paragraph at lines 26--51
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[106
+[112
 
 ]
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [107]
+ [113]
 Anexo D.
 
 Overfull \hbox (1.37367pt too wide) in paragraph at lines 68--68
@@ -2573,7 +2697,7 @@ Overfull \hbox (2.92818pt too wide) in paragraph at lines 79--79
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
-[]|\OT1/ptm/m/n/10 2016 IEEE/ACIS
+[]|\OT1/ptm/m/n/10 2016 IEEE/A-CIS
  []
 
 
@@ -2774,14 +2898,14 @@ Underfull \hbox (badness 7362) in paragraph at lines 94--96
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [108
+) [114
 
 ]
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
- [109]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
+ [115]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (tesis.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
@@ -2789,26 +2913,19 @@ LaTeX Info: Redefining \% on input line 29.
 (0/agradecimientos.aux) (0/resumen.aux) (0/introduccion.aux)
 (1/planteamiento.aux) (2/marco.aux) (3/metodologia.aux) (4/desarrollo.aux)
 (5/resultados.aux) (6/conclusion.aux) (anexos/anexo.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
-
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: E169FE35DCCF5A1B72FE45BFB1C75B7E;11486
-(rerunfilecheck)             After:  03C80CDCF0D85F59B4EA3BEAD1FFA143;11694.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: AAF8AECBD7B5EDCBF90AE144B924B3BB;11724.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25331 strings out of 480763
- 468890 string characters out of 2904056
- 1296543 words of memory out of 3000000
- 40302 multiletter control sequences out of 15000+200000
+ 27192 strings out of 480763
+ 494880 string characters out of 2904056
+ 1327967 words of memory out of 3000000
+ 42119 multiletter control sequences out of 15000+200000
  587282 words of font info for 149 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,32n,81p,1814b,4052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2823,9 +2940,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (110 pages, 6708809 bytes).
+Output written on tesis.pdf (116 pages, 7038848 bytes).
 PDF statistics:
- 2246 PDF objects out of 2487 (max. 8388607)
- 443 named destinations out of 1000 (max. 500000)
- 1449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2354 PDF objects out of 2487 (max. 8388607)
+ 460 named destinations out of 1000 (max. 500000)
+ 1528 words of extra memory for PDF output out of 10000 (max. 10000000)
 

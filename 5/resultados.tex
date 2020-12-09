@@ -1,27 +1,59 @@
 \chapter{ANÁLISIS Y DISCUSIÓN DE RESULTADOS}
-\section{X}
+\section{Metadata}
+Luego de 27 épocas, con un rango entre 2 y 3 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 3 épocas antes se había reducido su tasa de aprendizaje.
 
-Hello, here is some text without a meaning.  This text should 
-show what a printed text will look like at this place.  If you 
-read this text, you will get no information.  Really?  Is there 
-no information?  Is there a difference between this text and some 
-nonsense like ``Huardest gefburn?  Kjift " not at all!...
+Así, de acuerdo a las Figuras \ref{5:fig1} y \ref{5:fig2}, en la época 20 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9523 y 0.1246 respectivamente.
 
-\begin{table}
-	\centering
-	\begin{tabular}{l|r}
-		Item & Quantity \\\hline
-		Widgets & 42 \\
-		Gadgets & 13
-	\end{tabular}
-	\caption{\label{tab:widgetxcxs}An example table.}
-\end{table}
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{4/figures/metadata_model_accuracy.png}
+		\caption{Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
+		\label{5:fig1}
+		\includegraphics[width=0.60\textwidth]{4/figures/metadata_model_loss.png}
+		\caption{Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
+		\label{5:fig2}
+	\end{center}
+\end{figure}
 
-\section{Y}
+La matriz de confusión resultante se representa en la Figura \ref{5:fig3}.
 
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit. 
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{4/figures/metadata_confusion_matrix.png}
+		\caption{Matriz de confusión para el modelo MLP de metadata. Fuente: Elaboración propia.}
+		\label{5:fig3}
+	\end{center}
+\end{figure}
 
+De esta matriz, derivan los siguientes resultados evaluados según las métricas seleccionadas (citar).
 
-\section{Z}
+\section{Descripción}
+Luego de 78 épocas, con un rango entre 102 y 114 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 5 épocas antes se había reducido su tasa de aprendizaje.
 
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
+Así, de acuerdo a las Figuras \ref{5:fig4} y \ref{5:fig5}, en la época 68 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.7665 y 0.4922 respectivamente.
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{4/figures/description_model_accuracy.png}
+		\caption{Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
+		\label{5:fig4}
+		\includegraphics[width=0.60\textwidth]{4/figures/description_model_loss.png}
+		\caption{Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
+		\label{5:fig5}
+	\end{center}
+\end{figure}
+
+La matriz de confusión resultante se representa en la Figura \ref{5:fig6}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{4/figures/description_confusion_matrix.png}
+		\caption{Matriz de confusión para el modelo CNN de descripciones. Fuente: Elaboración propia.}
+		\label{5:fig6}
+	\end{center}
+\end{figure}
+
+De esta matriz, derivan los siguientes resultados evaluados según las métricas seleccionadas (citar).
+
+\section{Comentarios}
+

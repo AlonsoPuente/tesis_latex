@@ -81,7 +81,18 @@
 \contentsline {figure}{\numberline {4.31}{\ignorespaces Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.\relax }}{91}{figure.caption.113}%
 \contentsline {figure}{\numberline {4.32}{\ignorespaces Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{92}{figure.caption.114}%
 \contentsline {figure}{\numberline {4.33}{\ignorespaces Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{93}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.\relax }}{94}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.\relax }}{95}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.\relax }}{95}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.\relax }}{95}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.\relax }}{96}{figure.caption.119}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{98}{figure.caption.120}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{98}{figure.caption.120}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Matriz de confusión para el modelo MLP de metadata. Fuente: Elaboración propia.\relax }}{99}{figure.caption.121}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{100}{figure.caption.122}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{100}{figure.caption.122}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Matriz de confusión para el modelo CNN de descripciones. Fuente: Elaboración propia.\relax }}{101}{figure.caption.123}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

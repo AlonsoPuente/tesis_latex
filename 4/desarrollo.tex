@@ -451,8 +451,59 @@ Finalmente, se removieron caracteres especiales, espacios múltiples, signos de 
 
 
 \section{Creación de los modelos predictivos}
+Una vez generado las variables independiente (observación o conjunto de observaciones, X) y dependiente (etiquetas del estado de financiamiento, Y), cada uno es separado en subconjuntos de entrenamiento y prueba, con una proporción de 80\% y 20\% respectivamente según el autor (citar) y asignándose un valor fijo de aleatoriedad. Asimismo, dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función train\_test\_split, de la siguiente manera:
+
+\begin{lstlisting}[language=Python]
+train_test_split(X, Y, test_size = 0.20, stratify = Y, random_state=0)
+\end{lstlisting}
+
+Antes de crear los modelos correspondientes, y después de definir los valores de entrada y parámetros (las subsecciones que se detallarán a continuación), se asigna una semilla inicial con un valor fijado por el usuario con el fin de evitar resultados aleatorios para futuras iteraciones. Se establece, además, una ruta local en donde se almacena cada punto de control basado en la mejora de la pérdida del subconjunto de validación con respecto a su iteración anterior. En caso de un estancamiento de esta última durante 10 épocas, es decir, si el valor de la pérdida no decrementa, el modelo dejará de entrenar. A esta regla se le añade la reducción de la tasa de aprendizaje luego de 5 épocas en caso el valor de la exactitud del subconjunto de validación no refleje un incremento. El objetivo de estas condiciones es evitar el sobreajuste en los modelos.
+
+Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{status}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
+
 \subsection{Metainformación}
+Con las entradas listas para los parámetros, se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig34}. La cantidad de épocas fue de 100 y el número de lotes fue de 32.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
+		\caption{Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.}
+		\label{4:fig34}
+	\end{center}
+\end{figure}
 
 \subsection{Descripción}
+Para crear la capa de incrustación de palabras, se usa la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{<OOV>}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig35}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig36}).
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=0.50\textwidth]{4/figures/description_tokenizer_function.jpg}
+		\caption{Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.}
+		\label{4:fig35}
+		\includegraphics[width=0.80\textwidth]{4/figures/description_encoder_function.jpg}
+		\caption{Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.}
+		\label{4:fig36}
+	\end{center}
+\end{figure}
+
+Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe (Figura \ref{4:fig37}), un algoritmo de aprendizaje no supervisado para obtener representaciones vectoriales de palabras \parencite{gl_pennington_glove}. Para la presente investigación, se seleccionó la opción más usada, GloVe pre-entrenado con 6 billones de tokens, vocabulario de más de 400 mil palabras de Wikipedia (2014) y Gigaword (5ta edición) de la Universidad de Pensilvania, y matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus \parencite{tec_malik2019pythonnlp}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{4/figures/description_glove.jpg}
+		\caption{Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.}
+		\label{4:fig37}
+	\end{center}
+\end{figure}
+
+Con las entradas listas para los parámetros, se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional (CNN por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig38}. La cantidad de épocas fue de 100 y el número de lotes fue de 128.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
+		\caption{Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.}
+		\label{4:fig38}
+	\end{center}
+\end{figure}
 
 \subsection{Comentarios}
