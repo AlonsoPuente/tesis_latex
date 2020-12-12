@@ -2091,6 +2091,39 @@
       \field{title}{A guide to the project management body of knowledge (PMBOK guide)}
       \field{year}{2017}
     \endentry
+    \entry{tec_ranjan2019thumbrules}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=138183e14e5a991d939c81f02604e7bb}{%
+           family={Ranjan},
+           familyi={R\bibinitperiod},
+           given={Chitta},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{138183e14e5a991d939c81f02604e7bb}
+      \strng{fullhash}{138183e14e5a991d939c81f02604e7bb}
+      \strng{bibnamehash}{138183e14e5a991d939c81f02604e7bb}
+      \strng{authorbibnamehash}{138183e14e5a991d939c81f02604e7bb}
+      \strng{authornamehash}{138183e14e5a991d939c81f02604e7bb}
+      \strng{authorfullhash}{138183e14e5a991d939c81f02604e7bb}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Data Science}
+      \field{month}{7}
+      \field{title}{Rules-of-thumb for building a Neural Network}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/17-rules-of-thumb-for-building-a-neural-network-93356f9930af
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/17-rules-of-thumb-for-building-a-neural-network-93356f9930af
+      \endverb
+    \endentry
     \entry{gl_rae}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b397d66b02476457c3703cb2d7051bea}{%

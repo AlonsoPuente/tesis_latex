@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  9 DEC 2020 01:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  12 DEC 2020 02:15
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2370,87 +2370,90 @@ File: 4/figures/model_mlp_metadata.png Graphic file (type png)
 Package pdftex.def Info: 4/figures/model_mlp_metadata.png  used on input line 4
 69.
 (pdftex.def)             Requested size: 181.18454pt x 304.56277pt.
-<4/figures/description_tokenizer_function.jpg, id=1952, 290.88675pt x 133.6995p
+LaTeX Info: Redefining \. on input line 483.
+LaTeX Info: Redefining \% on input line 483.
+ [94 <./4/figures/model_mlp_metadata.png>]
+<4/figures/description_tokenizer_function.jpg, id=1959, 290.88675pt x 133.6995p
 t>
 File: 4/figures/description_tokenizer_function.jpg Graphic file (type jpg)
 <use 4/figures/description_tokenizer_function.jpg>
 Package pdftex.def Info: 4/figures/description_tokenizer_function.jpg  used on 
-input line 480.
+input line 491.
 (pdftex.def)             Requested size: 226.48413pt x 104.10156pt.
-<4/figures/description_encoder_function.jpg, id=1953, 502.87875pt x 163.812pt>
+<4/figures/description_encoder_function.jpg, id=1960, 502.87875pt x 163.812pt>
 File: 4/figures/description_encoder_function.jpg Graphic file (type jpg)
 <use 4/figures/description_encoder_function.jpg>
 Package pdftex.def Info: 4/figures/description_encoder_function.jpg  used on in
-put line 483.
+put line 494.
 (pdftex.def)             Requested size: 362.37598pt x 118.04202pt.
-LaTeX Info: Redefining \. on input line 490.
-LaTeX Info: Redefining \% on input line 490.
- [94 <./4/figures/model_mlp_metadata.png>]
-<4/figures/description_glove.jpg, id=1962, 364.36125pt x 236.68425pt>
+<4/figures/description_glove.jpg, id=1964, 364.36125pt x 236.68425pt>
 File: 4/figures/description_glove.jpg Graphic file (type jpg)
 <use 4/figures/description_glove.jpg>
-Package pdftex.def Info: 4/figures/description_glove.jpg  used on input line 49
-3.
+Package pdftex.def Info: 4/figures/description_glove.jpg  used on input line 50
+4.
 (pdftex.def)             Requested size: 271.7837pt x 176.55208pt.
-LaTeX Info: Redefining \. on input line 500.
-LaTeX Info: Redefining \% on input line 500.
- [95 <./4/figures/description_tokenizer_function.jpg> <./4/figures/description_
-encoder_function.jpg> <./4/figures/description_glove.jpg>]
-<4/figures/model_cnn_description.png, id=1971, 598.235pt x 739.76375pt>
+LaTeX Info: Redefining \. on input line 508.
+LaTeX Info: Redefining \% on input line 508.
+ [95]
+<4/figures/model_cnn_description.png, id=1972, 598.235pt x 739.76375pt>
 File: 4/figures/model_cnn_description.png Graphic file (type png)
 <use 4/figures/model_cnn_description.png>
 Package pdftex.def Info: 4/figures/model_cnn_description.png  used on input lin
-e 503.
+e 514.
 (pdftex.def)             Requested size: 271.7837pt x 336.08507pt.
 )
 LaTeX Info: Redefining \. on input line 219.
 LaTeX Info: Redefining \% on input line 219.
+ [96 <./4/figures/description_tokenizer_function.jpg> <./4/figures/description_
+encoder_function.jpg> <./4/figures/description_glove.jpg>]
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
 
-[96 <./4/figures/model_cnn_description.png>]
+[97 <./4/figures/model_cnn_description.png>]
 \openout2 = `5/resultados.aux'.
 
  (5/resultados.tex
 Cap\'{\i }tulo 5.
-<4/figures/metadata_model_accuracy.png, id=1979, 401.8212pt x 278.2395pt>
+<4/figures/metadata_model_accuracy.png, id=1985, 401.8212pt x 278.2395pt>
 File: 4/figures/metadata_model_accuracy.png Graphic file (type png)
 <use 4/figures/metadata_model_accuracy.png>
 Package pdftex.def Info: 4/figures/metadata_model_accuracy.png  used on input l
 ine 9.
 (pdftex.def)             Requested size: 271.7837pt x 188.1984pt.
-<4/figures/metadata_model_loss.png, id=1980, 393.8715pt x 278.2395pt>
+<4/figures/metadata_model_loss.png, id=1986, 393.8715pt x 278.2395pt>
 File: 4/figures/metadata_model_loss.png Graphic file (type png)
 <use 4/figures/metadata_model_loss.png>
 Package pdftex.def Info: 4/figures/metadata_model_loss.png  used on input line 
 12.
 (pdftex.def)             Requested size: 271.7837pt x 192.00668pt.
-<4/figures/metadata_confusion_matrix.png, id=1982, 381.5856pt x 298.4751pt>
+<4/figures/metadata_confusion_matrix.png, id=1988, 381.5856pt x 298.4751pt>
 File: 4/figures/metadata_confusion_matrix.png Graphic file (type png)
 <use 4/figures/metadata_confusion_matrix.png>
 Package pdftex.def Info: 4/figures/metadata_confusion_matrix.png  used on input
  line 22.
 (pdftex.def)             Requested size: 271.7837pt x 212.5974pt.
-[97
+[98
 
 
 
 ]
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
- [98 <./4/figures/metadata_model_accuracy.png> <./4/figures/metadata_model_loss
+ [99 <./4/figures/metadata_model_accuracy.png> <./4/figures/metadata_model_loss
 .png>]
-<4/figures/description_model_accuracy.png, id=1995, 393.1488pt x 278.2395pt>
+<4/figures/description_model_accuracy.png, id=2001, 393.1488pt x 278.2395pt>
 File: 4/figures/description_model_accuracy.png Graphic file (type png)
 <use 4/figures/description_model_accuracy.png>
 Package pdftex.def Info: 4/figures/description_model_accuracy.png  used on inpu
 t line 37.
 (pdftex.def)             Requested size: 271.7837pt x 192.35483pt.
-<4/figures/description_model_loss.png, id=1996, 394.5942pt x 278.2395pt>
+<4/figures/description_model_loss.png, id=2002, 394.5942pt x 278.2395pt>
 File: 4/figures/description_model_loss.png Graphic file (type png)
 <use 4/figures/description_model_loss.png>
 Package pdftex.def Info: 4/figures/description_model_loss.png  used on input li
 ne 40.
 (pdftex.def)             Requested size: 271.7837pt x 191.6543pt.
-<4/figures/description_confusion_matrix.png, id=1998, 381.5856pt x 298.4751pt>
+<4/figures/description_confusion_matrix.png, id=2004, 381.5856pt x 298.4751pt>
 File: 4/figures/description_confusion_matrix.png Graphic file (type png)
 <use 4/figures/description_confusion_matrix.png>
 Package pdftex.def Info: 4/figures/description_confusion_matrix.png  used on in
@@ -2459,24 +2462,24 @@ put line 50.
 )
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
- [99 <./4/figures/metadata_confusion_matrix.png>]
+ [100 <./4/figures/metadata_confusion_matrix.png>]
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
- [100 <./4/figures/description_model_accuracy.png> <./4/figures/description_mod
+ [101 <./4/figures/description_model_accuracy.png> <./4/figures/description_mod
 el_loss.png>]
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
 
-[101 <./4/figures/description_confusion_matrix.png>]
+[102 <./4/figures/description_confusion_matrix.png>]
 \openout2 = `6/conclusion.aux'.
 
  (6/conclusion.tex
 Cap\'{\i }tulo 6.
-) [102
+) [103
 
 
 
-] [103
+] [104
 
 
 ]
@@ -2488,10 +2491,10 @@ rdsdatascience .
 
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
-[104]
+[105]
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
- [105]
+ [106]
 Overfull \hbox (27.30882pt too wide) in paragraph at lines 226--226
 [][]\OT1/ptm/m/n/12 L[]opez Brie-ga, R. E. (2016). Re-des neu-ro-na-les con-vo-
 lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
@@ -2505,14 +2508,16 @@ VM). [][]$https : / / la . mathworks . com / discovery /
 
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
-[106]
+[107]
 Overfull \hbox (2.32396pt too wide) in paragraph at lines 226--226
 \OT1/ptm/m/n/12 go-cio que por des-em-pleo. \OT1/ptm/m/it/12 Dia-rio Ges-ti[]on
 \OT1/ptm/m/n/12 . [][]$https : / / gestion . pe / economia / emprendimiento -[]
 
  []
 
-
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+[108]
 Overfull \hbox (36.85689pt too wide) in paragraph at lines 226--226
 [][]\OT1/ptm/m/n/12 Solidaridad La-ti-na. (s.f.). ?`C[]omo fun-cio-na el crowd-
 fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
@@ -2520,10 +2525,10 @@ fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
 
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
-[107]
+[109]
 LaTeX Info: Redefining \. on input line 234.
 LaTeX Info: Redefining \% on input line 234.
- [108] [109
+ [110] [111
 
 
 ]
@@ -2531,22 +2536,22 @@ LaTeX Info: Redefining \% on input line 234.
 
  (anexos/anexo.tex
 Anexo A.
-<anexos/arbol_problemas.jpg, id=2187, 645.00975pt x 411.33675pt>
+<anexos/arbol_problemas.jpg, id=2199, 645.00975pt x 411.33675pt>
 File: anexos/arbol_problemas.jpg Graphic file (type jpg)
 <use anexos/arbol_problemas.jpg>
 Package pdftex.def Info: anexos/arbol_problemas.jpg  used on input line 6.
 (pdftex.def)             Requested size: 452.96826pt x 288.86896pt.
-[110
+[112
 
 
  <./anexos/arbol_problemas.jpg>]
 Anexo B.
-<anexos/arbol_objetivos.jpg, id=2193, 595.023pt x 378.213pt>
+<anexos/arbol_objetivos.jpg, id=2205, 595.023pt x 378.213pt>
 File: anexos/arbol_objetivos.jpg Graphic file (type jpg)
 <use anexos/arbol_objetivos.jpg>
 Package pdftex.def Info: anexos/arbol_objetivos.jpg  used on input line 15.
 (pdftex.def)             Requested size: 452.96826pt x 287.92386pt.
-[111
+[113
 
  <./anexos/arbol_objetivos.jpg>]
 Anexo C.
@@ -2588,12 +2593,12 @@ Overfull \hbox (11.42305pt too wide) in paragraph at lines 26--51
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[112
+[114
 
 ]
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [113]
+ [115]
 Anexo D.
 
 Overfull \hbox (1.37367pt too wide) in paragraph at lines 68--68
@@ -2898,12 +2903,12 @@ Underfull \hbox (badness 7362) in paragraph at lines 94--96
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [114
+) [116
 
 ]
 LaTeX Info: Redefining \. on input line 237.
 LaTeX Info: Redefining \% on input line 237.
- [115]
+ [117]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (tesis.aux
@@ -2917,15 +2922,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: AAF8AECBD7B5EDCBF90AE144B924B3BB;11724.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27192 strings out of 480763
- 494880 string characters out of 2904056
- 1327967 words of memory out of 3000000
- 42119 multiletter control sequences out of 15000+200000
+ 27199 strings out of 480763
+ 495064 string characters out of 2904056
+ 1329950 words of memory out of 3000000
+ 42123 multiletter control sequences out of 15000+200000
  587282 words of font info for 149 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,32n,81p,1814b,4052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2940,9 +2950,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (116 pages, 7038848 bytes).
+Output written on tesis.pdf (118 pages, 7044494 bytes).
 PDF statistics:
- 2354 PDF objects out of 2487 (max. 8388607)
- 460 named destinations out of 1000 (max. 500000)
+ 2367 PDF objects out of 2487 (max. 8388607)
+ 463 named destinations out of 1000 (max. 500000)
  1528 words of extra memory for PDF output out of 10000 (max. 10000000)
 
