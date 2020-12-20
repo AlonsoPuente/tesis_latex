@@ -114,36 +114,39 @@ Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo
 
 
 \subsection{Octavo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep*{pr_yu2018deeplearning}}
-\citeauthor{pr_yu2018deeplearning} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_yu2018deeplearning} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_yu2018deeplearning} realizaron un resumen de la conferencia 2018 IEEE 15th International Conference on e-Business Engineering (ICEBE) del 12 al 14 de octubre del 2018 en Xi'an, China. Este fue titulado \citetitle{pr_yu2018deeplearning}, la cual traducida al español significa «Predicción del éxito de proyecto de financiamiento colectivo con Aprendizaje Profundo».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
+Debido al aumento dramático de la actividad de financiamiento colectivo en los últimos años, en el cual tanto creadores como patrocinadores participan, son más las campañas que buscan alcanzar su objetivo. Sin embargo, según el análisis empírico, solo la tercera parte lo logra.
+
+Por ello, los autores plantean como objetivo el desarrollo de un modelo que prediga el éxito del proyecto de crowdfunding con Aprendizaje Profundo. Se recolectaron más de 378 mil campañas de Kickstarter entre Mayo 2009 y Marzo 2018.
 
 
 \subsubsection{Técnicas empleadas por los autores}
-
+Los autores elaboraron un modelo basado en un Perceptrón Multicapa (MLP), alimentado por 6 variables visibles de la campaña (metadata). Además, sus resultados se compararon con otros modelos considerados en sus antecentes como Bosques aleatorios, AdaBoost, Máquina de vectores de soporte, Árboles de decisión, Regresión logística y Naïve Bayes.
 
 \subsubsection{Metodología empleada por los autores}
-
+Se recolectaron registros históricos de campañas de Kickstarter recopilados retrospectivamente de Kaggle. A continuación, realizaron análisis exploratorio de los datos para entender la data y seleccionar variables, y finalmente construyeron un modelo, el cual se comparó sus resultados con los de otros modelos.
 
 \subsubsection{Resultados obtenidos}
-
-
+Para comparar los resultados del modelo propuesto con los antecedentes, se tomaron en cuenta como métricas la exactitud y el área bajo la curva (AUC). De acuerdo a ellas, para ambos escenarios se lograron mejor performance, con una exactitud de 0.9320 y un área bajo la curva de 0.9323 frente al mejor modelo de los antecedentes, Bosques Aleatorios, que obtuvo como resultados 0.9293 y 0.9272 para las mismas métricas respectivamente.
 
 \subsection{Noveno antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep*{pr_jin2019dayssuccess}}
-\citeauthor{pr_jin2019dayssuccess} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_jin2019dayssuccess} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_jin2019dayssuccess} realizaron un resumen de la conferencia The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019) del 27 de enero al 1 de febrero del 2019 en Honolulu, Estados Unidos. Este fue titulado \citetitle{pr_jin2019dayssuccess} la cual traducida al español significa «Estimación de días de éxito de campañas en financiamiento colectivo: Una perspectiva de supervivencia profunda».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
+Dado el incremento de actividad en campañas de crowdfunding en sitios como Kickstarter o Indiegogo, los estudios sobre este tema también han ido de la mano. Sin embargo, la mayoría de investigaciones se enfocan en predecir el ratio de éxito de financiamiento en una campaña.
 
+Los autores plantean la predicción de la fecha exacta de finalización de una campaña, así como controlar la distribución de patrocinios conforme a la evolución del tiempo. El reto dado de predecir el tiempo de duración es más complicado porque se ve afectada por la variabilidad de la metadata y los comentarios del proyecto.
 
 \subsubsection{Técnicas empleadas por los autores}
-
+Se elaboró un modelo Seq2seq (encoder + decoder) con antecedentes multifacéticos (SMP) para la distribución de patrocinios y el tiempo de éxito, así como también un modelo evolutivo lineal para mantener el cambio de las distribuciones de patrocinios.
 
 \subsubsection{Metodología empleada por los autores}
-
+Se definió el problema en primer lugar, luego los detalles técnicos de SMP así como el pre-procesamiento de entrada. A continuación, se construyó la arquitectura SMP y se definieron los antecedentes multifacéticos. Finalmente, se entrenó el modelo con más de 14 mil proyectos de Indiegogo.
 
 \subsubsection{Resultados obtenidos}
-
-
+Respecto a la predicción de distribución de patrocinios, y evaluando mejor con RECM, los modelos propuestos de SMP fueron los más efectivos (0.135 para 70\% de ratio de partición) para el Encoder.Respecto a la predicción del tiempo de éxito, los modelos propuestos de SMP (el mejor con 0.96 para 50\% de ratio de partición) fueron mejores que modelos de referencia para el Decoder.
 
 \subsection{Décimo antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep*{pr_cheng2019deeplearning}}
 \citeauthor{pr_cheng2019deeplearning} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_cheng2019deeplearning} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».

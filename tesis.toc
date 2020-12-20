@@ -61,76 +61,76 @@
 \contentsline {subsubsection}{\numberline {2.1.7.3}Metodología empleada por los autores}{27}{subsubsection.2.1.7.3}%
 \contentsline {subsubsection}{\numberline {2.1.7.4}Resultados obtenidos}{27}{subsubsection.2.1.7.4}%
 \contentsline {subsection}{\numberline {2.1.8}Octavo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep *{pr_yu2018deeplearning}}{27}{subsection.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.1.8.1}Planteamiento del Problema y objetivo }{27}{subsubsection.2.1.8.1}%
+\contentsline {subsubsection}{\numberline {2.1.8.1}Planteamiento del Problema y objetivo}{27}{subsubsection.2.1.8.1}%
 \contentsline {subsubsection}{\numberline {2.1.8.2}Técnicas empleadas por los autores}{27}{subsubsection.2.1.8.2}%
-\contentsline {subsubsection}{\numberline {2.1.8.3}Metodología empleada por los autores}{27}{subsubsection.2.1.8.3}%
-\contentsline {subsubsection}{\numberline {2.1.8.4}Resultados obtenidos}{27}{subsubsection.2.1.8.4}%
-\contentsline {subsection}{\numberline {2.1.9}Noveno antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep *{pr_jin2019dayssuccess}}{27}{subsection.2.1.9}%
-\contentsline {subsubsection}{\numberline {2.1.9.1}Planteamiento del Problema y objetivo }{28}{subsubsection.2.1.9.1}%
-\contentsline {subsubsection}{\numberline {2.1.9.2}Técnicas empleadas por los autores}{28}{subsubsection.2.1.9.2}%
-\contentsline {subsubsection}{\numberline {2.1.9.3}Metodología empleada por los autores}{28}{subsubsection.2.1.9.3}%
-\contentsline {subsubsection}{\numberline {2.1.9.4}Resultados obtenidos}{28}{subsubsection.2.1.9.4}%
-\contentsline {subsection}{\numberline {2.1.10}Décimo antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep *{pr_cheng2019deeplearning}}{28}{subsection.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.1.10.1}Planteamiento del Problema y objetivo }{28}{subsubsection.2.1.10.1}%
-\contentsline {subsubsection}{\numberline {2.1.10.2}Técnicas empleadas por los autores}{28}{subsubsection.2.1.10.2}%
-\contentsline {subsubsection}{\numberline {2.1.10.3}Metodología empleada por los autores}{28}{subsubsection.2.1.10.3}%
-\contentsline {subsubsection}{\numberline {2.1.10.4}Resultados obtenidos}{28}{subsubsection.2.1.10.4}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{28}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{28}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{30}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{35}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Modelo Predictivo}{36}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Minería de Datos}{36}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Metodologías de Minería de Datos}{36}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Técnicas de Minería de Datos}{41}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Procesamiento del Lenguaje Natural}{60}{subsection.2.2.8}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{61}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{61}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{63}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Proyecto}{63}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Campaña}{64}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{66}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{66}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Enfoque de la investigación}{66}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Alcance de la investigación}{66}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Tipo de la investigación}{67}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Descripción del prototipo de investigación}{67}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Población y muestra}{68}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Población}{68}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Muestra}{68}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Unidad de análisis}{68}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Operacionalización de Variables}{68}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Instrumentos de medida}{69}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{69}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{70}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{70}{section.3.7}%
-\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{71}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{71}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Metainformación}{71}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Descripción}{75}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Comentarios}{78}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{80}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metainformación}{81}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Descripción}{86}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Comentarios}{86}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{90}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Metainformación}{90}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Descripción}{91}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Comentarios}{92}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{93}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Metainformación}{94}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Descripción}{95}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Comentarios}{96}{subsection.4.4.3}%
-\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{98}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metadata}{98}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{98}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{100}{section.5.3}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{103}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{103}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{103}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{104}{chapter*.124}%
-\contentsline {chapter}{Anexo}{111}{section*.125}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{112}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{113}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{114}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{116}{appendix.1.Alph4}%
+\contentsline {subsubsection}{\numberline {2.1.8.3}Metodología empleada por los autores}{28}{subsubsection.2.1.8.3}%
+\contentsline {subsubsection}{\numberline {2.1.8.4}Resultados obtenidos}{28}{subsubsection.2.1.8.4}%
+\contentsline {subsection}{\numberline {2.1.9}Noveno antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep *{pr_jin2019dayssuccess}}{28}{subsection.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.9.1}Planteamiento del Problema y objetivo}{28}{subsubsection.2.1.9.1}%
+\contentsline {subsubsection}{\numberline {2.1.9.2}Técnicas empleadas por los autores}{29}{subsubsection.2.1.9.2}%
+\contentsline {subsubsection}{\numberline {2.1.9.3}Metodología empleada por los autores}{29}{subsubsection.2.1.9.3}%
+\contentsline {subsubsection}{\numberline {2.1.9.4}Resultados obtenidos}{29}{subsubsection.2.1.9.4}%
+\contentsline {subsection}{\numberline {2.1.10}Décimo antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep *{pr_cheng2019deeplearning}}{29}{subsection.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.10.1}Planteamiento del Problema y objetivo }{30}{subsubsection.2.1.10.1}%
+\contentsline {subsubsection}{\numberline {2.1.10.2}Técnicas empleadas por los autores}{30}{subsubsection.2.1.10.2}%
+\contentsline {subsubsection}{\numberline {2.1.10.3}Metodología empleada por los autores}{30}{subsubsection.2.1.10.3}%
+\contentsline {subsubsection}{\numberline {2.1.10.4}Resultados obtenidos}{30}{subsubsection.2.1.10.4}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{30}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{30}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{32}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{36}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Modelo Predictivo}{37}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Minería de Datos}{38}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Metodologías de Minería de Datos}{38}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Técnicas de Minería de Datos}{42}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Procesamiento del Lenguaje Natural}{62}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{63}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{63}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{65}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Proyecto}{65}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Campaña}{66}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{68}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{68}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Enfoque de la investigación}{68}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Alcance de la investigación}{68}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Tipo de la investigación}{69}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Descripción del prototipo de investigación}{69}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Población y muestra}{70}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Población}{70}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Muestra}{70}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Unidad de análisis}{70}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Operacionalización de Variables}{70}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Instrumentos de medida}{71}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{71}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{72}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{72}{section.3.7}%
+\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{73}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{73}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Metainformación}{73}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Descripción}{77}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Comentarios}{80}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{82}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metainformación}{83}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Descripción}{88}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comentarios}{88}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{92}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Metainformación}{92}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Descripción}{93}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Comentarios}{94}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{95}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Metainformación}{96}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Descripción}{97}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Comentarios}{98}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{100}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metadata}{100}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Descripción}{100}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comentarios}{102}{section.5.3}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{105}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{105}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{105}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{106}{chapter*.124}%
+\contentsline {chapter}{Anexo}{113}{section*.125}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{114}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{115}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{116}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{118}{appendix.1.Alph4}%
