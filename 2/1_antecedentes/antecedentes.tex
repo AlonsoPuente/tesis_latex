@@ -50,9 +50,9 @@ Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo
 
 
 \subsection{Cuarto antecedente: «The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach» \citep*{pr_yuan2016textanalytics}}
-\citeauthor{pr_yuan2016textanalytics} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_yuan2016textanalytics} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_yuan2016textanalytics} realizaron un artículo de investigación el cual fue publicado en la revista «Decision Support Systems» en el año 2016. Este fue titulado \citetitle{pr_yuan2016textanalytics} la cual traducida al español significa «Los determinantes del éxito del financiamiento colectivo: Un enfoque de analítica semántica de texto».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
 
 
 \subsubsection{Técnicas empleadas por los autores}
@@ -66,35 +66,39 @@ Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo
 
 
 \subsection{Quinto antecedente: «Will your Project get the Green light? Predicting the success of crowdfunding campaigns» \citep*{pr_chen2015predcrowd}}
-\citeauthor{pr_chen2015predcrowd} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_chen2015predcrowd} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_chen2015predcrowd} realizaron un resumen de la conferencia «Pacific Asia Conference on Information Systems (PACIS) 2015» en New York, Estados Unidos. Este fue titulado \citetitle{pr_chen2015predcrowd} la cual traducida al español significa «¿Tu proyecto obtendrá la luz verda? Prediciendo el éxito de campañas de financiamiento colectivo».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
+Desde el surgimiento de campañas de financiamiento colectivo en sitios web así como estudios de estos casos, la mayoría de estos presentan problemas en la predicción de éxito de una campaña por distintas casuísticas ya que suelen enfocarse en aquellos concluídos. ¿Será posible desarrollar una técnica efectiva para predecir si una campaña será exitosa o no en diferentes momentos de tiempo de las campañas de crowdfunding?
 
+Para responder esta interrogante, los autores desarrollaron una técnica efectiva para predecir si una campaña de crowdfunding tendrá éxito o fracasará a través de extracción y posterior uso de características estáticas y dinámicas.
 
 \subsubsection{Técnicas empleadas por los autores}
-
+Los autores construyeron una serie de 8 modelos de Bosque Aleatorio para diferentes etapas (puntos de tiempo) de la campaña desde el día 0 hasta el día 7.
 
 \subsubsection{Metodología empleada por los autores}
-
+Se recolectaron más de 4 mil proyectos de Kickstarter obtenido directamente desde el sitio, así como con ayuda de la página web Kickspy, entre el primer y último día de abril del 2014. Una vez pre-procesada la data, se extrajeron las características para la tarea de predicción de objetivos. Luego, estas características se clasificaron en 5 categorías: características intrínsecas, mecanismo financiero, calidad y sentimiento del contenido, interacción social y efecto de progresión, en donde las 3 primeras + interacción social corresponden a un nuevo grupo asignado como «características estáticas», mientras que la última + interacción social se asignó como «características dinámicas». Ambos nuevos conjuntos agrupados finalmente fueron entrenados con la serie de modelos para diferentes etapas.
 
 \subsubsection{Resultados obtenidos}
-
+Se comparó la serie de modelos propuestos considerando todas las características con modelos que solo consideraban algunas, así como también comparado con uno de la literatura. El resultado final de la evaluación medidos por la exactitud determinó que la primera opción mencionada logró la mejor performance, con un valor de 0.8467.
 
 
 \subsection{Sexto antecedente: «Project Success Prediction in Crowdfunding Environments» \citep*{pr_li2016predcrowd}}
-\citeauthor{pr_li2016predcrowd} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_li2016predcrowd} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_li2016predcrowd} realizaron un resumen de la conferencia «WSDM’ 16 Proceedings of the Ninth ACM International Conference on Web Search and Data Mining» en San Francisco (2016). Este fue titulado \citetitle{pr_li2016predcrowd} la cual traducida al español significa «Predicción de éxito de un proyecto en ambientes de financiamiento colectivo».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
+Durante la última década se han elaborado una serie de modelos de clasificación que permitan pronosticar con cierto nivel de exactitud si algunos proyectos de financiamiento colectivo tendrán éxito o no. Sin embargo, el hecho de estimar si esto ocurrirá durante el plazo dado de la campaña no puede proporcionar una guía adecuada a los patrocinadores que desean invertir en proyectos populares. Es entonces que se cuestiona la posibilidad de predecir el éxito de campañas en sitios web de crowdfunding como Kickstarter considerando características obtenidas durante la operación de la campaña.
 
+Para ello, los autores formularon la predicción del éxito del proyecto como un problema de análisis de supervivencia y aplicar el enfoque de regresión censurada.
 
 \subsubsection{Técnicas empleadas por los autores}
- 
+Los autores desarrollaron 2 modelos para evaluar la regresión censurada: 1 modelo de distribución logística y 1 de distribución log-logística. Para comparar con sus modelos, también se elaboraron otros métodos para manejar observaciones censuradas, mencionados en la literatura como Cox, Regresión Tobit, estimación Buckley-James e Índice de Concordancia Boosting (BoostCI).
 
 \subsubsection{Metodología empleada por los autores}
-
+Inicialmente, se recolectaron más de 27 mil proyectos de Kickstarter entre diciembre del 2013 y junio del 2014 para la data estática, a los cuales se removieron los cancelados, suspendidos o con menos de 1 patrocinador y monto prometido de \$100. Asimismo, para la data dinámica se capturaron más de 106 mil tweets de Twitter que contenían el enlace rápido hacia la página de Kickstarter. Una vez obtenidos los conjuntos de datos, se pre-procesaron para finalmente elaborar los modelos predictivos.
 
 \subsubsection{Resultados obtenidos}
-
+Como resultados de las múltiples pruebas en los modelos, en los cuales los autores experimentaron distintas combinatorias con la data estática y la dinámica, así como agregando y desagregando proyectos fracasados, se obtuvo que el modelo de Regresión log-logística evaluado con el área bajo la curva (AUC) presentó mejor performance que el resto en 3 de las 4 combinatorias, alcanzando su mejor nivel en el conjunto de datos que combina data estática, dinámica, de características de proyectos transcurridos los primeros 3 días y con proyectos fracasados, con un puntaje Survival AUC de 0.9030.
 
 
 \subsection{Séptimo antecedente: «Effect of Social Media Connectivity on Success of Crowdfunding Campaigns» \citep*{pr_kaur2017socmedcrowd}}
@@ -118,7 +122,7 @@ Culminados los experimentos de la selección de variables en la matriz de correl
 
 
 \subsection{Octavo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep*{pr_yu2018deeplearning}}
-\citeauthor{pr_yu2018deeplearning} realizaron un resumen de la conferencia 2018 IEEE 15th International Conference on e-Business Engineering (ICEBE) del 12 al 14 de octubre del 2018 en Xi'an, China. Este fue titulado \citetitle{pr_yu2018deeplearning}, la cual traducida al español significa «Predicción del éxito de proyecto de financiamiento colectivo con Aprendizaje Profundo».
+\citeauthor{pr_yu2018deeplearning} realizaron un resumen de la conferencia «2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)» del 12 al 14 de octubre del 2018 en Xi'an, China. Este fue titulado \citetitle{pr_yu2018deeplearning}, la cual traducida al español significa «Predicción del éxito de proyecto de financiamiento colectivo con Aprendizaje Profundo».
 
 \subsubsection{Planteamiento del Problema y objetivo}
 Debido al aumento dramático de la actividad de financiamiento colectivo en los últimos años, en el cual tanto creadores como patrocinadores participan, son más las campañas que buscan alcanzar su objetivo. Sin embargo, según el análisis empírico, solo la tercera parte lo logra. La incógnita que rodea a esta situación es la posibilidad de elaborar un modelo predictivo de éxito en proyectos de Kickstarter utilizando distintas técnicas al Aprendizaje Automático.
@@ -135,7 +139,7 @@ Se recolectaron más de 378 mil campañas de Kickstarter entre Mayo 2009 y Marzo
 Para comparar los resultados del modelo propuesto con los antecedentes, se tomaron en cuenta como métricas la exactitud y el área bajo la curva (AUC). De acuerdo a ellas, para ambos escenarios se lograron mejor performance, con una exactitud de 0.9320 y un área bajo la curva de 0.9323 frente al mejor modelo de los antecedentes, Bosques Aleatorios, que obtuvo como resultados 0.9293 y 0.9272 para las mismas métricas respectivamente.
 
 \subsection{Noveno antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep*{pr_jin2019dayssuccess}}
-\citeauthor{pr_jin2019dayssuccess} realizaron un resumen de la conferencia The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019) del 27 de enero al 1 de febrero del 2019 en Honolulu, Estados Unidos. Este fue titulado \citetitle{pr_jin2019dayssuccess} la cual traducida al español significa «Estimación de días de éxito de campañas en financiamiento colectivo: Una perspectiva de supervivencia profunda».
+\citeauthor{pr_jin2019dayssuccess} realizaron un resumen de la conferencia «The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019)» del 27 de enero al 1 de febrero del 2019 en Honolulu, Estados Unidos. Este fue titulado \citetitle{pr_jin2019dayssuccess} la cual traducida al español significa «Estimación de días de éxito de campañas en financiamiento colectivo: Una perspectiva de supervivencia profunda».
 
 \subsubsection{Planteamiento del Problema y objetivo}
 Dado el incremento de actividad en campañas de crowdfunding en sitios como Kickstarter o Indiegogo, los estudios sobre este tema también han ido de la mano. Sin embargo, la mayoría de investigaciones se enfocan en predecir el ratio de éxito de financiamiento en una campaña. El reto de predecir el tiempo de duración es más complicado porque se ve afectada por la variabilidad de la metadata y los comentarios del proyecto, resultando un alto nivel de fracaso (60\%) en la financiación de proyectos.
@@ -153,7 +157,7 @@ Respecto a la predicción de distribución de patrocinios, y evaluando mejor con
 Respecto a la predicción del tiempo de éxito, los modelos propuestos de SMP (el mejor con 0.96 para 50\% de ratio de partición) fueron mejores que modelos de referencia para el Decoder.
 
 \subsection{Décimo antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep*{pr_cheng2019deeplearning}}
-\citeauthor{pr_cheng2019deeplearning} realizaron un resumen de la conferencia The Twenty-Eighth International Joint Conference on Artificial Intelligence (IJCAI-19) del 10 al 16 de agosto del 2019 en Macao, China. Este fue titulado \citetitle{pr_cheng2019deeplearning} la cual traducida al español significa «Predicción del éxito en financiamiento colectivo con Aprendizaje Profundo Multimodal».
+\citeauthor{pr_cheng2019deeplearning} realizaron un resumen de la conferencia «The Twenty-Eighth International Joint Conference on Artificial Intelligence (IJCAI-19)» del 10 al 16 de agosto del 2019 en Macao, China. Este fue titulado \citetitle{pr_cheng2019deeplearning} la cual traducida al español significa «Predicción del éxito en financiamiento colectivo con Aprendizaje Profundo Multimodal».
 
 \subsubsection{Planteamiento del Problema y objetivo}
 La mayoría de los enfoques de predicción existentes aprovechan solo la modalidad dominada por el texto a pesar de existir más información en los perfiles de los proyectos, como por ejemplo, metadatos e imágenes. A estos últimos se han realizado poco trabajo para evaluar sus efectos hacia la predicción del éxito. Además, la metainformación ha sido explotada en muchos enfoques existentes para mejorar la precisión de la predicción. Sin embargo, esta generalmente se limita a la dinámica después de la publicación de los proyectos, haciendo que tanto los creadores del proyecto como las plataformas no puedan predecir el resultado de manera oportuna. Se carecen estudios basados en distintas modalidades más allá de la metainformación.
