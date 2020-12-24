@@ -2,9 +2,9 @@ En esta sección se presentarán diversos trabajos de investigación basados en 
 Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo4}) de lo que se presenta en esta sección.
 
 \subsection{Primer antecedente: «Supervised Learning Model For Kickstarter Campaigns With R Mining» \citep*{pr_kamath2018suplearn}}
-\citeauthor{pr_kamath2018suplearn} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_kamath2018suplearn} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_kamath2018suplearn} realizaron un artículo de investigación el cual fue publicado en la revista «International Journal of Information Technology, Modeling and Computing» en el año 2018. Este fue titulado \citetitle{pr_kamath2018suplearn} la cual traducida al español significa «Modelo de aprendizaje supervisado para campañas de Kickstarter con R Mining».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
 
 
 \subsubsection{Técnicas empleadas por los autores}
@@ -18,9 +18,9 @@ Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo
 
 
 \subsection{Segundo antecedente: «Predicting Success in Equity Crowdfunding» \citep*{pr_beckwith2016predcrowd}}
-\citeauthor{pr_beckwith2016predcrowd} realizó un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_beckwith2016predcrowd} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_beckwith2016predcrowd} realizó un artículo de investigación el cual fue publicado en la revista «Joseph Wharton Scholars» de la Universidad de Pensilvania en el año 2016. Este fue titulado \citetitle{pr_beckwith2016predcrowd} la cual traducida al español significa «Prediciendo el éxito en el financiamiento colectivo de acciones».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
 
 
 \subsubsection{Técnicas empleadas por los autores}
@@ -34,35 +34,39 @@ Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo
 
 
 \subsection{Tercer antecedente: «Money Talks: A Predictive Model on Crowdfunding Success Using Project Description» \citep*{pr_zhou2018projectdesc}}
-\citeauthor{pr_zhou2018projectdesc} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_zhou2018projectdesc} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\citeauthor{pr_zhou2018projectdesc} realizaron un resumen de la conferencia «Twenty-first Americas Conference on Information Systems» en Puerto Rico en el año 2018. Este fue titulado \citetitle{pr_zhou2018projectdesc} la cual traducida al español significa «Money Talks: un modelo predictivo sobre el éxito del crowdfunding utilizando la descripción del proyecto».
 
-\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Planteamiento del Problema y objetivo}
+Las investigaciones existentes de crowdfunding se centran principalmente en las variables básicas del proyecto como la categoría y la meta; sin embargo, son muy pocos estudios basados en el contenido de la información, es decir, en la descripción del mismo.
 
+El objetivo de los autores fue estudiar la influencia y el impacto del uso de descripciones de proyectos en su éxito de financiación para predecirlo.
 
 \subsubsection{Técnicas empleadas por los autores}
-
+Se desarrolló un modelo de Regresión Logística usando variables previamente identificadas (meta del proyecto, duración del proyecto, si el creador tiene conección a Facebook, número de amigos en Facebook del creador, si el proyecto incluye una imagen, si el proyecto incluye un video, número de recompensas, año de lanzamiento del proyecto, categoría del proyecto) y nuevas introducidas (número de palabras en la descripción del proyecto, legibilidad de descripción del proyecto medido por Índice de niebla Gunning, ratio de positivo y negativo en descripción del proyecto, número de proyectos previamente creados y número de proyectos previamente patrocinados por el autor).
 
 \subsubsection{Metodología empleada por los autores}
-
+Se comenzó con la operacionalización de los constructos, es decir, cómo se consideraría la información recolectada a partir de los antecedentes en la literatura. El siguiente paso fue la recolección de información de más de 154 mil proyectos de Kickstarter entre 2009 y 2014. Y finalmente, se construyó el modelo predictivo y se comparó contra otros modelos de la base y convencionales.
 
 \subsubsection{Resultados obtenidos}
-
+Todos los modelos (base, convencional y propuesto) fueron evaluados por el valor-F probando en validaciones cruzadas de 3, 5 y 10 iteraciones. Bajo esta métrica, el mejor modelo fue el propuesto, alcanzando un valor-F de 71.17 con 10 iteraciones.
 
 
 \subsection{Cuarto antecedente: «The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach» \citep*{pr_yuan2016textanalytics}}
 \citeauthor{pr_yuan2016textanalytics} realizaron un artículo de investigación el cual fue publicado en la revista «Decision Support Systems» en el año 2016. Este fue titulado \citetitle{pr_yuan2016textanalytics} la cual traducida al español significa «Los determinantes del éxito del financiamiento colectivo: Un enfoque de analítica semántica de texto».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+Actualmente existen diversos estudios de éxito de campañas de financiamiento colectivo, la mayoría usando modelos predictivos en proyectos crowdfunding basados en recompensas y análisis de características poco profundas del lenguaje en descripción de los proyectos (por ejemplo, número de palabras, errores ortográficos, etc) así como en la implementación de métodos de Aprendizaje Automático.
 
+Como propuesta alterna, los autores construyeron un marco de trabajo basado en análisis de texto que pueda extraer semánticas de descripciones textuales de proyectos para predecir sus resultados de recaudación de fondos.
 
 \subsubsection{Técnicas empleadas por los autores}
-
+Se creó un modelo de Bosque Aleatorio para los datos numéricos, y POS Tag Stemming más modelo DC-LDA más características tópicas para los datos textuales. Esta arquitectura se comparó con otros modelos en la literatura de la publicación.
 
 \subsubsection{Metodología empleada por los autores}
-
+Se recolectaron 500 proyectos de 2 webs chinas sobre crowdfunding cada una. Luego, se construyó el framework de análisis textual. A continuación, se desarrolló un modelo DC-LDA para una extracción más efectiva de las características tópicas a partir de las descripciones. Y finalmente, se realizó un análisis empírico para identificar características discriminatorias que influye en el éxito de la recaudación de fondos.
 
 \subsubsection{Resultados obtenidos}
-
+Para los datos numéricos, la mejor performance se obtuvo evaluando el modelo con la sensibilidad para el Random Forest (0.98 en la segunda data); mientras que para los datos textuales, el modelo DC-LDA (al ser comparado con el LDA normal) obtuvo un puntaje F1 de 0.91.
 
 
 \subsection{Quinto antecedente: «Will your Project get the Green light? Predicting the success of crowdfunding campaigns» \citep*{pr_chen2015predcrowd}}
