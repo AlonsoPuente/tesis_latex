@@ -5,32 +5,37 @@ Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo
 \citeauthor{pr_kamath2018suplearn} realizaron un artículo de investigación el cual fue publicado en la revista «International Journal of Information Technology, Modeling and Computing» en el año 2018. Este fue titulado \citetitle{pr_kamath2018suplearn} la cual traducida al español significa «Modelo de aprendizaje supervisado para campañas de Kickstarter con R Mining».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+Kickstarter actualmente es la plataforma web basado en crowdfunding más grande existente. Sin embargo, no todas las campañas que se encuentran en su portal son exitosas. Algunos trabajos previos citados en este artículo citan que el lenguaje usado en las campañas alcanza el poder predictivo de 58.86\%, es decir, la descripción semántica de un proyecto ayuda considerablemente en la predicción de éxito debido a que muchos patrocinadores se fijan en la calidad presente en una campaña antes de invertir.  Sin embargo, es dejada de lado en muchos trabajos de investigación destinados a la predicción de éxito de financiamiento, así como también las interacciones de un proyecto en redes sociales. Para el tiempo en que este artículo fue publicado, el nivel de exactitud de los modelos predictivos ya existentes bordeaba por el 68\% como el descrito anteriormente
 
+Ante esto, autores desarrollaron un sistema con técnicas de Aprendizaje Automático usando el entorno R aplicada a conjunto de datos de campañas en Kickstarter para clasificar proyectos entrenando diferentes clasificadores en esta data y predecir con un alto nivel de exactitud.
 
 \subsubsection{Técnicas empleadas por los autores}
- 
+Los autores elaboraron 5 modelos clasificadores para la investigación: Árbol de decisión, Bosque Aleatorio, Red Neuronal Artificial, Vecino K más cercano, y Naïve Bayes. Se consideraron como variables para estos modelos al nombre del proyecto, URL del proyecto, descripción del proyecto, categoría, sub-categoría, número de patrocinadores, monto total patrocinado, meta de financiación, fecha de lanzamiento del proyecto, duración del proyecto, número de actualizaciones, número de recompensas, si el proyecto cuenta con video, localización del proyecto, y creador del proyecto.
 
 \subsubsection{Metodología empleada por los autores}
-
+En primer lugar, se analizó y definió el problema. A continuación, se recolectaron 120 proyectos de Kickstarter a través de su URL. Luego, las variables categóricas fueron transformadas en numéricas como parte del pre-procesamiento. Esto permitió realizar extracción y exploración del conjunto final mediante estadísticas descriptivas con paquetes de R. Una vez analizado los datos, se procedió a elaborar los modelos clasificadores y finalmente, con la matriz de confusión, se seleccionó el mejor de ellos evaluándolos mediante la exactitud.
 
 \subsubsection{Resultados obtenidos}
-
+Bajo la métrica de exactitud, el mejor de los 5 modelos clasificadores construidos fue la Red Neuronal, con un valor de 0.94.
 
 
 \subsection{Segundo antecedente: «Predicting Success in Equity Crowdfunding» \citep*{pr_beckwith2016predcrowd}}
 \citeauthor{pr_beckwith2016predcrowd} realizó un artículo de investigación el cual fue publicado en la revista «Joseph Wharton Scholars» de la Universidad de Pensilvania en el año 2016. Este fue titulado \citetitle{pr_beckwith2016predcrowd} la cual traducida al español significa «Prediciendo el éxito en el financiamiento colectivo de acciones».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+El financiamiento colectivo o crowdfunding de inversión está haciéndose cada vez más popular. Este concepto permite que los emprendedores ofrezcan algún tipo de producto o servicio como compensación por contribuciones financieras una vez que ya se tengan ventas reales o acuerdos comerciales, a diferencia por ejemplo del crowdfunding de recompensas que ofrece algo a sus patrocinadores desde la concepción del proyecto. Resulta ser muy interesante para los patrocinadores ya que no se necesita contar con un capital muy alto. A cambio, ellos recibirán algo a cambio una vez que el proyecto se realice. Este factor permite su mayor probabilidad de éxito de financiamiento al momento de darse una campaña de este tipo de crowdfunding ya que los patrocinadores pueden invertir en más de un proyecto a la vez. A partir de este punto nace la siguiente cuestión: “Dados diferentes start-ups con similares características observables, ¿qué motiva a pequeños patrocinadores a invertir en ciertos start-ups y no en otros?”.
 
+Por ello, el objetivo del autor fue determinar la relación entre las características de una compañía determinada y su capacidad para recaudar fondos en la plataforma de financiamiento colectivo de capital AngelList.
 
 \subsubsection{Técnicas empleadas por los autores}
- 
+El autor desarrolló un modelo de Regresión logística usando las siguientes variables: si la empresa previamente había recibido o no financiación, si la compañía cuenta con perfil en Twitter, número de veces que la compañía había sido mencionada en alguna publicación, número de veces que la compañía había sido mencionada en TechCrunch, número de personas listadas como co-fundadoras en el perfil de la compañía AngelList, si AngelList lista entre 11 y 50 empleados como tamaño de la empresa, si la compañía está ubicada en San Francisco, si entre los fundadores de AngelList al menos uno de ellos cuenta con un MBA, si entre los fundadores de AngelList al menos uno de ellos realizó sus estudios en alguna de las mejores 20 universidades de Estados Unidos, y el número de cierre del S\&P 500 el día anterior al lanzamiento de la campaña de crowdfunding de AngelList.
+Este modelo se comparó con un Árbol de Decisión CART, un modelo de Naïve Bayes y una Máquina de Vectores de Soporte.
 
 \subsubsection{Metodología empleada por los autores}
-
+Inicialmente, se recolectaron más de 5 mil compañías de AngelList que solicitaron contribuciones financieras. De esta cantidad, se considerarons aquellas con datos completos (2,603 empresas). Luego del pre-procesamiento del conjunto final de datos, se elaboró el modelo y se evaluó el modelo mediante la exactitud, precisión, sensibilidad, puntaje F1, y área bajo la curva (AUC).
 
 \subsubsection{Resultados obtenidos}
-
+Bajo las métricas mencionadas, el modelo propuesto por los autores superó a los otros 3 modelos comparados en cada una, tomando como resultados 0.87 de exactitud, precisión promedio de 0.85, sensibilidad promedio de 0.88, puntaje F1 promedio de 0.86, y área bajo la curva de 0.74.
 
 
 \subsection{Tercer antecedente: «Money Talks: A Predictive Model on Crowdfunding Success Using Project Description» \citep*{pr_zhou2018projectdesc}}
