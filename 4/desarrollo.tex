@@ -34,7 +34,7 @@ Por ejemplo, en la Figura \ref{4:fig2} se detalla el tamaño del conjunto de dat
 	\end{center}
 \end{figure}
 
-A cada conjunto de datos generado se filtran los que pertenecen a la categoría \textit{\textbf{Technology}}. Debido a que no se cuenta con la información de la columna \textit{main\_category}, este proceso de filtración se logra utilizando la variable \textit{source\_url} al seleccionar aquellos registros que contengan la cadena de caracteres “https://www.kickstarter.com/discover/categories/technology”. En la Figura \ref{4:fig3} se aprecia cómo queda el conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
+A cada conjunto de datos generado se filtran los que pertenecen a la categoría \textit{\textbf{Technology}}. Debido a que no se cuenta con la información de la columna \textit{main\_category}, este proceso de filtración se logra utilizando la variable \textit{source\_url} al seleccionar aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”. En la Figura \ref{4:fig3} se aprecia cómo queda el conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
 
 \begin{figure}[h]
 	\begin{center}
@@ -154,7 +154,7 @@ El archivo generado fue subido a la plataforma Kaggle de manera pública (Figura
 \end{figure}
 
 \subsection{Comentarios}
-Al igual que la descripción, los comentarios se obtuvieron utilizando la variable \textit{urls} para web scraping, pero reemplazando caracteres que contengan “\textbf{?ref=}” en adelante por “\textbf{/comments}” para redireccionarse a la sección de comentarios de cada proyecto.
+Al igual que la descripción, los comentarios se obtuvieron utilizando la variable \textit{urls} para web scraping, pero reemplazando caracteres que contengan desde “\textbf{?ref=}” en adelante, por “\textbf{/comments}” para redireccionarse a la sección de comentarios de cada proyecto.
 
 Los comentarios, al ser dinámicos, no podían extraerse mediante la librería BeautifulSoup como en el caso de las descripciones, por lo que se utilizó la librería Selenium para extraerlos al iniciar una sesión desde Google Chrome, como se observa en el algoritmo de la Figura \ref{4:fig8}.
 
@@ -339,7 +339,9 @@ El mismo gráfico, segmentado por las dos clases del estado de financiamiento, s
 Se concluye entonces que la variable \textit{duration} es la única que sigue una distribución normal.
 
 \subsection{Descripción}
-La descripción con mayor cantidad de palabras presenta 5,152 palabras y, a nivel total de proyectos, el vocabulario es de 165,683 palabras. La Figura \ref{4:fig24} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas que aparecen con mayor frecuencia.
+Del conjunto de datos, solamente 640 proyectos (aproximadamente 2\% del universo) no presentaron descripciones por algún motivo durante el proceso de extracción de datos en el Web Scraping. De esta cantidad, 512 (80\% de proyectos sin descripciones) no fueron financiados al final de su campaña, es decir, su estado fue fracasado.
+
+De los registros con descripciones, aquel con descripción de mayor longitud presentó 5,152 palabras y, a nivel total de proyectos, el vocabulario fue de 165,683 palabras. La Figura \ref{4:fig24} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas que aparecen con mayor frecuencia.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -422,7 +424,7 @@ De acuerdo al autor (citar), para poder entrenar un modelo de clasificación bin
 	\end{center}
 \end{figure}
 
-Para el presente trabajo, se omitió el paso de lematización ya que según el antecedente (citar) y corroborando con los experimentos, los resultados fueron más favorables sin el anterior mencionado. Con el pre-procesamiento detallado en el párrafo anterior, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
+Para seguir con cada paso del flujo, se usaron elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. Como resultado de la secuencia, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 
 Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig32} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
 
@@ -518,3 +520,6 @@ Con las entradas listas para los parámetros, se diseñó el modelo de descripci
 \end{figure}
 
 \subsection{Comentarios}
+
+\subsection{Modelo apilado}
+Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado, es decir, una red neuronal de múltiples cabezas que luego aprenden la mejor manera de combinar las predicciones de cada modelo cargado cuyo resultado será mejor que estos individualmente.

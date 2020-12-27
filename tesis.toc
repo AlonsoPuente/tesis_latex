@@ -113,24 +113,26 @@
 \contentsline {subsection}{\numberline {4.2.1}Metainformación}{90}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Descripción}{95}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Comentarios}{95}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{99}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Metainformación}{99}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Descripción}{100}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{98}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Metainformación}{98}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Descripción}{99}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Comentarios}{101}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{102}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Metainformación}{103}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{101}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Metainformación}{102}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Descripción}{104}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Comentarios}{105}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{105}{subsection.4.4.4}%
 \contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{107}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Metadata}{107}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{107}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{109}{section.5.3}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{112}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{112}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{112}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{113}{chapter*.124}%
-\contentsline {chapter}{Anexo}{120}{section*.125}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{121}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{122}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{123}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{125}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {5.2}Descripción}{109}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comentarios}{111}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo apilado}{111}{section.5.4}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{113}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{113}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{113}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{114}{chapter*.128}%
+\contentsline {chapter}{Anexo}{121}{section*.129}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{122}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{123}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{124}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{126}{appendix.1.Alph4}%
