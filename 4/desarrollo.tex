@@ -407,7 +407,7 @@ Respecto al contenido, en las Figura \ref{4:fig29} y Figura \ref{4:fig30} se ilu
 \section{Pre-procesamiento de los conjuntos de datos}
 
 \subsection{Metainformación}
-De acuerdo al autor (citar), se consideran 7 variables adicionales basadas en la mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}), cantidad (\textit{pledges\_num}) y completitud (\textit{completeness}) del monto prometido. La nueva matriz de correlación se observa en la Figura \ref{4:fig31}.
+De acuerdo al autor (citar), se consideran 7 variables adicionales basadas en la mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}), cantidad (\textit{pledges\_num}) y porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido. La nueva matriz de correlación se observa en la Figura \ref{4:fig31}.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -495,7 +495,7 @@ Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto
 \subsection{Comentarios}
 La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios, separados en sublistas y diferenciados entre ellos por autor (patrocinador). De los 7,750 proyectos con comentarios (de los cuales, 4,626 fueron exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, así como URLs, emoticonos, emojis, números y caracteres especiales, resultando finalmente en 7,658 proyectos con comentarios (4,574 exitosos).
 
-Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de laFigura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras de esta nueva data se representa en la Figura \ref{4:fig34}.
+Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras de esta nueva data se representa en la Figura \ref{4:fig34}.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -539,7 +539,7 @@ El autor de algunas de estas reglas también menciona tener en consideración ut
 Todas estas opciones fueron probadas en el modelo y evaluadas con las métricas correspondientes. Sin embargo, al calibrar el modelo y comparar distintos resultados, se obtuvo que la mejor cantidad de neuronas para la primera capa densa era de 32. De este modo, la siguiente capa intermedia se le asignó la mitad (16). La función de activación \textbf{tanh} para la segunda capa oculta presentó mejores resultados, así como tasas de abandono entre 0.25 y 0.3 para las capas de desactivación. Por último, además de \textit{adam}, se realizó experimentos con otros optimizadores como por ejemplo \textit{RMSprop} siendo este el resultado más cercano. Al final, \textit{adam} fue escogido pero con una tasa de aprendizaje baja como 0.005 debido a que el modelo tendía a aprender muy rápido durante el transcurso de las épocas. En conjunto, el ratio de decaimiento se asignó un valor más bajo, 0.00005, y para evaluar los subconjuntos de entrenamiento y prueba se eligió precisión como métrica.
 
 \subsection{Descripción}
-Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{<OOV>}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig36}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig37}).
+Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig36}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig37}).
 
 \begin{figure}[htbp]
 	\begin{center}
@@ -573,7 +573,7 @@ Con las entradas listas para los parámetros, se diseñó el modelo de descripci
 \end{figure}
 
 \subsection{Comentarios}
-Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, el rellenado de ceros para homogenizar la longitud de cada vector de incrustaciones se limitó a 5,000 palabras en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
+Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
 
 De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig40}.
 
@@ -586,7 +586,7 @@ De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe 
 \end{figure}
 
 \subsection{Modelo apilado}
-Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado (Figura \ref{4:fig41}). La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo cargado para obtener mejor performance que cada uno de manera individual.
+Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}. La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo cargado para obtener mejor performance que cada uno de manera individual.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -595,3 +595,7 @@ Una vez construidos los modelos para cada modalidad (metainformación, descripci
 		\label{4:fig41}
 	\end{center}
 \end{figure}
+
+Las salidas de cada modelo se concatenaron en una capa debajo de estos, generando 3 valores de entrada para una penúltima capa densa con 10 neuronas de salida y una función de activación ReLu. Finalmente, el modelo apilado culmina con una capa densa de 1 salida y asignándose la función Sigmoide para generar probabilidades entre 0 y 1, los valores de Fracasado o Exitoso respectivamente.
+
+Previo a la compilación del modelo final, se repitió el ejercicio de cada modelo cargado asignar los parámetro de pérdida \textit{binary\_crossentropy} para la clasificación binaria, \textit{accuracy} (exactitud) para la métrica del entrenamiento, pesos balanceados para las clases de la variable \textit{state} (0.6987077585764833 para 0 y 1.7581290322580645 para 1), y optimizador \textit{Adam} con la variante de asignarle el ratio de aprendizaje y también de decaimiento de 0.00005.
