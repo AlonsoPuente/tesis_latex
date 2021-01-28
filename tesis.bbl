@@ -397,14 +397,64 @@
       \verb http://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/
       \endverb
     \endentry
+    \entry{pr_chen2019keywords_crowdfunding}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=04be7e1271a2bdef02d4eed0d90c7c5c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Long-Sheng},
+           giveni={L\bibinithyphendelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a1f3a49f4cf7783ab343b86073f8c2cf}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={En-Li},
+           giveni={E\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Tokyo, Japan}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ed1e246fc74bd99daff98f8beeceddd5}
+      \strng{fullhash}{ed1e246fc74bd99daff98f8beeceddd5}
+      \strng{bibnamehash}{ed1e246fc74bd99daff98f8beeceddd5}
+      \strng{authorbibnamehash}{ed1e246fc74bd99daff98f8beeceddd5}
+      \strng{authornamehash}{ed1e246fc74bd99daff98f8beeceddd5}
+      \strng{authorfullhash}{ed1e246fc74bd99daff98f8beeceddd5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)}
+      \field{eventyear}{2019}
+      \field{title}{Finding the Keywords Affecting the Success of Crowdfunding Projects}
+      \field{year}{2019}
+      \field{eventdateera}{ce}
+      \field{pages}{567\bibrangedash 571}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/IEA.2019.8714815
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8714815
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8714815
+      \endverb
+    \endentry
     \entry{pr_chen2015predcrowd}{article}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=ce84ab6ca882287ab52ae26f561041ed}{%
+        {{un=1,uniquepart=given,hash=ce84ab6ca882287ab52ae26f561041ed}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Shih-Ying},
            giveni={S\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=dfcb63a13c32df80af8722b60de591e5}{%
            family={Chen},
            familyi={C\bibinitperiod},
@@ -431,7 +481,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {New York}%
+        {New York, United States of America}%
       }
       \list{publisher}{1}{%
         {Association for Information Systems AIS Electronic Library (AISeL)}%
@@ -446,7 +496,6 @@
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{event}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{Pacific Asia Conference on Information Systems (PACIS) 2015 Proceedings}
@@ -489,7 +538,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Macao}%
+        {Macao, China}%
       }
       \strng{namehash}{ae21359550c49ed5f7ea8cc9aa833c59}
       \strng{fullhash}{4441c81f2bec29f70f958ea1f869a11c}
@@ -1137,7 +1186,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Honolulu}%
+        {Honolulu, Hawai}%
       }
       \list{publisher}{1}{%
         {Association for the Advancement of Artificial}%
@@ -1552,7 +1601,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {San Francisco}%
+        {San Francisco, United States of America}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -1919,6 +1968,95 @@
       \endverb
       \verb{url}
       \verb https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/data-mining-concepts?view=sql-server-2017
+      \endverb
+    \endentry
+    \entry{pr_mitra2014phrases}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4adddece80ffbb8473c9268318a702c9}{%
+           family={Mitra},
+           familyi={M\bibinitperiod},
+           given={Tanushree},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3163690c9103d2541d6910886053ba6}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Baltimore, United States of America}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{9d8dddc650ff74e30ff88ec23d6745f1}
+      \strng{fullhash}{9d8dddc650ff74e30ff88ec23d6745f1}
+      \strng{bibnamehash}{9d8dddc650ff74e30ff88ec23d6745f1}
+      \strng{authorbibnamehash}{9d8dddc650ff74e30ff88ec23d6745f1}
+      \strng{authornamehash}{9d8dddc650ff74e30ff88ec23d6745f1}
+      \strng{authorfullhash}{9d8dddc650ff74e30ff88ec23d6745f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{CSCW’14}
+      \field{eventyear}{2014}
+      \field{maintitle}{Proceedings of the 17th ACM conference on Computer supported cooperative work \& social computing}
+      \field{title}{The Language that Gets People to Give: Phrases that Predict Success on Kickstarter}
+      \field{year}{2014}
+      \field{eventdateera}{ce}
+      \field{pages}{49\bibrangedash 61}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/2531602.2531656
+      \endverb
+      \verb{urlraw}
+      \verb http://comp.social.gatech.edu/papers/cscw14.crowdfunding.mitra.pdf
+      \endverb
+      \verb{url}
+      \verb http://comp.social.gatech.edu/papers/cscw14.crowdfunding.mitra.pdf
+      \endverb
+    \endentry
+    \entry{tec_mukaka2012correlation}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=902a03e15293a2f32361c42198fda5d4}{%
+           family={Mukaka},
+           familyi={M\bibinitperiod},
+           given={Mavuto\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{902a03e15293a2f32361c42198fda5d4}
+      \strng{fullhash}{902a03e15293a2f32361c42198fda5d4}
+      \strng{bibnamehash}{902a03e15293a2f32361c42198fda5d4}
+      \strng{authorbibnamehash}{902a03e15293a2f32361c42198fda5d4}
+      \strng{authornamehash}{902a03e15293a2f32361c42198fda5d4}
+      \strng{authorfullhash}{902a03e15293a2f32361c42198fda5d4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Malawi Medical Journa}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Statistics Corner: A guide to appropriate use of Correlation coefficient in medical research}
+      \field{volume}{24}
+      \field{year}{2012}
+      \field{pages}{69\bibrangedash 71}
+      \range{pages}{3}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/236604665_Statistics_Corner_A_guide_to_appropriate_use_of_Correlation_coefficient_in_medical_research
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/236604665_Statistics_Corner_A_guide_to_appropriate_use_of_Correlation_coefficient_in_medical_research
       \endverb
     \endentry
     \entry{gl_pardo_reglogcosto}{misc}{}
@@ -3009,7 +3147,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Xi'an}%
+        {Xi'an, China}%
       }
       \list{publisher}{1}{%
         {IEEE}%
@@ -3206,6 +3344,37 @@
       \endverb
       \verb{url}
       \verb https://www.ncbi.nlm.nih.gov/pubmed/29755287
+      \endverb
+    \endentry
+    \entry{tec_zimovnov2018text_preprocessing}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=373068bb9a8bfbcc290add8272392d18}{%
+           family={Zimovnov},
+           familyi={Z\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{373068bb9a8bfbcc290add8272392d18}
+      \strng{fullhash}{373068bb9a8bfbcc290add8272392d18}
+      \strng{bibnamehash}{373068bb9a8bfbcc290add8272392d18}
+      \strng{authorbibnamehash}{373068bb9a8bfbcc290add8272392d18}
+      \strng{authornamehash}{373068bb9a8bfbcc290add8272392d18}
+      \strng{authorfullhash}{373068bb9a8bfbcc290add8272392d18}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NLP - Text Preprocessing and Text Classification (using Python) [Archivo de video]}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://youtu.be/nxhCyeRR75Q
+      \endverb
+      \verb{url}
+      \verb https://youtu.be/nxhCyeRR75Q
       \endverb
     \endentry
   \enddatalist
