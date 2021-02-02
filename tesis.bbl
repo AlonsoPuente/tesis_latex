@@ -293,7 +293,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Customer Analytics: Mejorando la inteligencia del cliente a través de los datos}
-      \field{type}{Publicación}
+      \field{type}{Reporte técnico}
       \field{year}{2015}
       \verb{urlraw}
       \verb https://docplayer.es/17897069-Customer-analytics-mejorando-la-inteligencia-del-cliente-a-traves-de-los-datos-jordi-conesa-i-caralt-coordinador-nuria-braulio-gil-josep-curto-diaz.html
@@ -395,6 +395,61 @@
       \endverb
       \verb{url}
       \verb http://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/
+      \endverb
+    \endentry
+    \entry{pr_chen2013kickpredict}{report}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=983d591f2f65ee1e0373cdf4378da02d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=880623849ab6070f9416b77e3d16d574}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Brock},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75f6a4f3eead9713d50021387d4feeaa}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7665be89749fbb59779c06b8eb644bb}{%
+           family={Schlamp},
+           familyi={S\bibinitperiod},
+           given={Brooklyn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto de Tecnología de California}%
+      }
+      \list{location}{1}{%
+        {California, Estados Unidos de América}%
+      }
+      \strng{namehash}{49f563b1dd03da9bda747713cfa16add}
+      \strng{fullhash}{620374e603645008eebffd0e9cc1e4a1}
+      \strng{bibnamehash}{620374e603645008eebffd0e9cc1e4a1}
+      \strng{authorbibnamehash}{620374e603645008eebffd0e9cc1e4a1}
+      \strng{authornamehash}{49f563b1dd03da9bda747713cfa16add}
+      \strng{authorfullhash}{620374e603645008eebffd0e9cc1e4a1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{KickPredict: Predicting Kickstarter Success}
+      \field{type}{Reporte técnico}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb http://courses.cms.caltech.edu/cs145/2013/blue.pdf
+      \endverb
+      \verb{url}
+      \verb http://courses.cms.caltech.edu/cs145/2013/blue.pdf
       \endverb
     \endentry
     \entry{pr_chen2019keywords_crowdfunding}{article}{}
@@ -1570,7 +1625,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Convolutional Neural Networks}
-      \field{type}{Publicación}
+      \field{type}{Reporte técnico}
       \field{year}{2019}
       \verb{urlraw}
       \verb http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
@@ -2510,7 +2565,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Entrenamiento de Redes Neuronales: mejorando el Gradiente Descendiente}
-      \field{type}{Publicación}
+      \field{type}{Reporte técnico}
       \field{year}{2017}
       \verb{urlraw}
       \verb http://www.cs.us.es/~fsancho/?e=165
@@ -2548,7 +2603,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Clasificación Supervisada y No Supervisada}
-      \field{type}{Publicación}
+      \field{type}{Reporte técnico}
       \field{year}{2018}
       \verb{urlraw}
       \verb http://www.cs.us.es/~fsancho/?e=77
@@ -2610,6 +2665,56 @@
       \endverb
       \verb{url}
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
+      \endverb
+    \endentry
+    \entry{pr_sawhney2016usingLT}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=928d5f8906d253b915a0a4a24d8585b4}{%
+           family={Sawhney},
+           familyi={S\bibinitperiod},
+           given={Kartik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4517dc2101cfb9ec22665af171cd8751}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Caelin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4b337f3c40cd78e358cb70f99126649}{%
+           family={Tuason},
+           familyi={T\bibinitperiod},
+           given={Ramon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Standford}%
+      }
+      \list{location}{1}{%
+        {California, Estados Unidos de América}%
+      }
+      \strng{namehash}{bab1a683e00f7ef93c59748cc576fdb7}
+      \strng{fullhash}{255b3d13534180dcb56fbcc7632cdfe0}
+      \strng{bibnamehash}{255b3d13534180dcb56fbcc7632cdfe0}
+      \strng{authorbibnamehash}{255b3d13534180dcb56fbcc7632cdfe0}
+      \strng{authornamehash}{bab1a683e00f7ef93c59748cc576fdb7}
+      \strng{authorfullhash}{255b3d13534180dcb56fbcc7632cdfe0}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Language to Predict Kickstarter Success}
+      \field{type}{Reporte técnico}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://stanford.edu/~kartiks2/kickstarter.pdf
+      \endverb
+      \verb{url}
+      \verb https://stanford.edu/~kartiks2/kickstarter.pdf
       \endverb
     \endentry
     \entry{tec_shafique2014dmmodels}{article}{}
