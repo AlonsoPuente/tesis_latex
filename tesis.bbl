@@ -397,6 +397,59 @@
       \verb http://www.diegocalvo.es/funcion-de-activacion-redes-neuronales/
       \endverb
     \endentry
+    \entry{pr_chaichi2019nlp_3dprinting}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3cafa0a05edd6afecc0bd95a26be0c93}{%
+           family={Chaichi},
+           familyi={C\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2e1df4061baa7f040baa5cc78fd5f7a}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Portland, Estados Unidos de América}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{51d33e277ec78f271c1a673c24bca415}
+      \strng{fullhash}{51d33e277ec78f271c1a673c24bca415}
+      \strng{bibnamehash}{51d33e277ec78f271c1a673c24bca415}
+      \strng{authorbibnamehash}{51d33e277ec78f271c1a673c24bca415}
+      \strng{authornamehash}{51d33e277ec78f271c1a673c24bca415}
+      \strng{authorfullhash}{51d33e277ec78f271c1a673c24bca415}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{2019 Portland International Conference on Management of Engineering and Technology (PICMET)}
+      \field{eventyear}{2019}
+      \field{maintitle}{2019 Proceedings of PICMET '19: Technology Management in the World of Intelligence Systems}
+      \field{series}{PICMET '19}
+      \field{title}{Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter}
+      \field{year}{2019}
+      \field{eventdateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.23919/PICMET.2019.8893839
+      \endverb
+      \verb{urlraw}
+      \verb https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1221&context=etm_fac
+      \endverb
+      \verb{url}
+      \verb https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1221&context=etm_fac
+      \endverb
+    \endentry
     \entry{pr_chen2013kickpredict}{report}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=983d591f2f65ee1e0373cdf4378da02d}{%
@@ -468,7 +521,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Tokyo, Japan}%
+        {Tokio, Japón}%
       }
       \list{publisher}{1}{%
         {IEEE}%
@@ -487,6 +540,7 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)}
       \field{eventyear}{2019}
+      \field{series}{ICIEA '19}
       \field{title}{Finding the Keywords Affecting the Success of Crowdfunding Projects}
       \field{year}{2019}
       \field{eventdateera}{ce}
@@ -536,7 +590,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {New York, United States of America}%
+        {Nueva York, Estados Unidos de América}%
       }
       \list{publisher}{1}{%
         {Association for Information Systems AIS Electronic Library (AISeL)}%
@@ -555,6 +609,7 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{Pacific Asia Conference on Information Systems (PACIS) 2015 Proceedings}
       \field{eventyear}{2015}
+      \field{series}{PACIS '15}
       \field{title}{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns}
       \field{year}{2015}
       \field{eventdateera}{ce}
@@ -1261,6 +1316,7 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019)}
       \field{eventyear}{2019}
+      \field{series}{AAAI'2019}
       \field{title}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective}
       \field{year}{2019}
       \field{eventdateera}{ce}
@@ -1588,6 +1644,65 @@
       \field{pages}{35\bibrangedash 46}
       \range{pages}{12}
     \endentry
+    \entry{pr_lee2018contentDL}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=e103f6590410869aaf802a1a6647d767}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={SeungHun},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=cc6f4b234f2934964a63d9d1b013d306}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={KangHee},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=319b6cd254b2142b29f8f53c4ba17096}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hyun-chul},
+           giveni={H\bibinithyphendelim c\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Jersey City, Estados Unidos de América}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery (ACM)}%
+      }
+      \strng{namehash}{6e6a928c9473d4c957d5653c1ce16f83}
+      \strng{fullhash}{5539b5840be4a687a28b0bd035573919}
+      \strng{bibnamehash}{5539b5840be4a687a28b0bd035573919}
+      \strng{authorbibnamehash}{5539b5840be4a687a28b0bd035573919}
+      \strng{authornamehash}{6e6a928c9473d4c957d5653c1ce16f83}
+      \strng{authorfullhash}{5539b5840be4a687a28b0bd035573919}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing}
+      \field{eventyear}{2019}
+      \field{isbn}{9781450360180}
+      \field{journaltitle}{Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing}
+      \field{series}{CSCW '18}
+      \field{title}{Content-based Success Prediction of Crowdfunding Campaigns: A Deep	Learning Approach}
+      \field{year}{2018}
+      \field{eventdateera}{ce}
+      \field{pages}{193\bibrangedash 196}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/3272973.3274053
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3272973.3274053
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3272973.3274053
+      \endverb
+    \endentry
     \entry{tec_li2019cnn}{report}{}
       \name{author}{3}{}{%
         {{un=1,uniquepart=given,hash=9147b1a8523fee33e02ea8ada6fde536}{%
@@ -1656,10 +1771,10 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {San Francisco, United States of America}%
+        {San Francisco, Estados Unidos de América}%
       }
       \list{publisher}{1}{%
-        {ACM}%
+        {Association for Computing Machinery (ACM)}%
       }
       \strng{namehash}{a71fd46be5707627f7ffea030721fc93}
       \strng{fullhash}{09fad6021b29f981f341d4813de2e15c}
@@ -1673,9 +1788,11 @@
       \field{labeldatesource}{event}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{WSDM' 16}
+      \field{eventtitle}{Ninth ACM International Conference on web search and data mining}
       \field{eventyear}{2016}
+      \field{journaltitle}{Ninth ACM International Conference on web search and data mining}
       \field{maintitle}{Proceedings of the Ninth ACM International Conference on web search and data mining}
+      \field{series}{WSDM '16}
       \field{title}{Project Success Prediction in Crowdfunding Environments}
       \field{year}{2016}
       \field{eventdateera}{ce}
@@ -2041,10 +2158,10 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Baltimore, United States of America}%
+        {Baltimore, Estados Unidos de América}%
       }
       \list{publisher}{1}{%
-        {ACM}%
+        {Association for Computing Machinery (ACM)}%
       }
       \strng{namehash}{9d8dddc650ff74e30ff88ec23d6745f1}
       \strng{fullhash}{9d8dddc650ff74e30ff88ec23d6745f1}
@@ -2059,9 +2176,10 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{CSCW’14}
+      \field{eventtitle}{17th ACM conference on Computer supported cooperative work \& social computing}
       \field{eventyear}{2014}
       \field{maintitle}{Proceedings of the 17th ACM conference on Computer supported cooperative work \& social computing}
+      \field{series}{CSCW '14}
       \field{title}{The Language that Gets People to Give: Phrases that Predict Success on Kickstarter}
       \field{year}{2014}
       \field{eventdateera}{ce}
@@ -2759,6 +2877,55 @@
       \verb http://www.ijisr.issr-journals.org/abstract.php?article=IJISR-14-281-04
       \endverb
     \endentry
+    \entry{pr_shafqat2019topicpredictions}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9baa9a9ee8ca0704dbfcafec1de80f22}{%
+           family={Shafqat},
+           familyi={S\bibinitperiod},
+           given={Wafa},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8acb2b6e48919c3938f69bb7462fb1fe}{%
+           family={Byun},
+           familyi={B\bibinitperiod},
+           given={Yung-Cheol},
+           giveni={Y\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{a75d6f72303370a6e9de75efc94e6648}
+      \strng{fullhash}{a75d6f72303370a6e9de75efc94e6648}
+      \strng{bibnamehash}{a75d6f72303370a6e9de75efc94e6648}
+      \strng{authorbibnamehash}{a75d6f72303370a6e9de75efc94e6648}
+      \strng{authornamehash}{a75d6f72303370a6e9de75efc94e6648}
+      \strng{authorfullhash}{a75d6f72303370a6e9de75efc94e6648}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{11}
+      \field{number}{24}
+      \field{title}{Topic Predictions and Optimized Recommendation	Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{5496}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app9245496
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/9/24/5496/pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/9/24/5496/pdf
+      \endverb
+    \endentry
     \entry{gl_bigdata2019bigdata}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=97f7653f976bc0f179677ed71e788ab6}{%
@@ -3272,6 +3439,7 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}
       \field{eventyear}{2018}
+      \field{series}{ICEBE '18}
       \field{title}{Prediction of Crowdfunding Project Success with Deep Learning}
       \field{year}{2018}
       \field{eventdateera}{ce}
@@ -3374,7 +3542,7 @@
       \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
       \endverb
     \endentry
-    \entry{pr_zhou2018projectdesc}{article}{}
+    \entry{pr_zhou2015projectdesc}{article}{}
       \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=ea82f1187cf74ae3aeeef6f1667648d1}{%
            family={Zhou},
@@ -3417,7 +3585,7 @@
         {Puerto Rico}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Association for Information Systems}%
       }
       \strng{namehash}{a60d2b6a0553b81678215223661371c8}
       \strng{fullhash}{49968c8277294bc995e4ab547026949b}
@@ -3433,22 +3601,15 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{Twenty-first Americas Conference on Information Systems, Puerto Rico, 2015}
-      \field{isbn}{ISSN}
-      \field{maintitle}{Information systems frontiers : a journal of research and innovation}
-      \field{number}{2}
+      \field{journaltitle}{21st Americas Conference on Information Systems, {AMCIS} 2015, Puerto Rico, August 13-15, 2015}
+      \field{series}{AMCIS '15}
       \field{title}{Money Talks: A Predictive Model on Crowdfunding Success Using Project Description}
-      \field{volume}{20}
-      \field{year}{2018}
-      \field{pages}{259\bibrangedash 274}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s10796-016-9723-1
-      \endverb
+      \field{year}{2015}
       \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/29755287
+      \verb http://aisel.aisnet.org/amcis2015/BizAnalytics/GeneralPresentations/37
       \endverb
       \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pubmed/29755287
+      \verb http://aisel.aisnet.org/amcis2015/BizAnalytics/GeneralPresentations/37
       \endverb
     \endentry
     \entry{tec_zimovnov2018text_preprocessing}{online}{}
