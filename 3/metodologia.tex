@@ -40,19 +40,7 @@ Debido a que se 214 imágenes del contenido visual no pudieron re-dimensionarse,
 La unidad de análisis para el presente trabajo será un proyecto en Kickstarter de la categoría tecnología de cualquier subcategoría entre los periodos 2009-2019 dentro del territorio de los Estados Unidos de América.
 
 \section{Operacionalización de Variables}
-En la Tabla 5 se presentan las variables a usar para el conjunto de datos final basado en contenido textual y metainformación. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 10 antecedentes en el Capítulo II.
-
-Los autores citados son los siguientes:
-\begin{itemize}
-	\item 
-	\item 
-	\item 
-	\item 
-	\item 
-	\item 
-	\item 
-	\item 
-\end{itemize}
+En la Tabla \ref{3:table1} se presentan las variables usadas para el conjunto de datos final basado en contenido textual y metainformación. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 17 antecedentes en el Capítulo II.
 
 \begin{table}[h!]
 	\centering
@@ -65,11 +53,17 @@ Los autores citados son los siguientes:
 		\rowcolor{turq}
 		\multicolumn{3}{c}{Variables independientes} \\
 		\hline
-		\textbf{backers\_count} & Número de patrocinadores de la campaña del proyecto. & int64 \\
-		\hline
 		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float64 \\
 		\hline
+		\textbf{completeness} & Porcentaje de financiamiento o completitud. & float64 \\
+		\hline
 		\textbf{duration} &	Duración de la campaña (en días). &	int64 \\
+		\hline
+		\textbf{pledges\_num} &	Cantidad de montos disponibles para contribuir. &	int64 \\
+		\hline
+		\textbf{pledged} &	Monto contribuído en la campaña. &	float64 \\
+		\hline
+		\textbf{pledges\_median} &	Mediana de montos disponibles para contribuir. &	float64 \\
 		\hline
 		\textbf{description} &	Descripción del proyecto. &	object \\
 		\hline
@@ -84,6 +78,20 @@ Los autores citados son los siguientes:
 	\caption{Diccionario de datos del conjunto final a entrenar. Fuente: Elaboración propia.}
 	\label{3:table1}
 \end{table}
+
+Los autores citados por cada variable utilizada se mencionan a continuación:
+\begin{itemize}
+	\item \textbf{goal}: \citeauthor{pr_kamath2018suplearn} (primer antecedente), \citeauthor{pr_zhou2015projectdesc} (tercer antecedente), \citeauthor{pr_yuan2016textanalytics} (cuarto antecedente), \citeauthor{pr_chen2015predcrowd} (quinto antecedente), \citeauthor{pr_li2016predcrowd} (sexto antecedente), \citeauthor{pr_kaur2017socmedcrowd} (séptimo antecedente), \citeauthor{pr_yu2018deeplearning} (octavo antecedente), \citeauthor{pr_jin2019dayssuccess} (noveno antecedente), \citeauthor{pr_cheng2019deeplearning} (décimo antecedente), \citeauthor{pr_mitra2014phrases} (duodécimo antecedente), \citeauthor{pr_sawhney2016usingLT} (decimotercer antecedente), \citeauthor{pr_chen2013kickpredict} (decimocuarto antecedente).
+	\item \textbf{completeness}: \citeauthor{pr_chen2015predcrowd} (quinto antecedente).
+	\item \textbf{duration}: \citeauthor{pr_kamath2018suplearn} (primer antecedente), \citeauthor{pr_zhou2015projectdesc} (tercer antecedente), \citeauthor{pr_li2016predcrowd} (sexto antecedente), \citeauthor{pr_kaur2017socmedcrowd} (séptimo antecedente), \citeauthor{pr_yu2018deeplearning} (octavo antecedente), \citeauthor{pr_jin2019dayssuccess} (noveno antecedente), \citeauthor{pr_mitra2014phrases} (duodécimo antecedente), \citeauthor{pr_sawhney2016usingLT} (decimotercer antecedente).
+	\item \textbf{pledges\_num}: \citeauthor{pr_yuan2016textanalytics} (cuarto antecedente), \citeauthor{pr_chen2015predcrowd} (quinto antecedente), \citeauthor{pr_jin2019dayssuccess} (noveno antecedente), \citeauthor{pr_mitra2014phrases} (duodécimo antecedente), \citeauthor{pr_chen2013kickpredict} (decimocuarto antecedente).
+	\item \textbf{pledged}: \citeauthor{pr_kamath2018suplearn} (primer antecedente), \citeauthor{pr_li2016predcrowd} (sexto antecedente), \citeauthor{pr_chen2013kickpredict} (decimocuarto antecedente).
+	\item \textbf{pledges\_median}: \citeauthor{pr_chen2015predcrowd} (quinto antecedente)*, \citeauthor{pr_jin2019dayssuccess} (noveno antecedente)*.
+	\item \textbf{description}: \citeauthor{pr_kamath2018suplearn} (primer antecedente), \citeauthor{pr_zhou2015projectdesc} (tercer antecedente), \citeauthor{pr_yuan2016textanalytics} (cuarto antecedente), \citeauthor{pr_jin2019dayssuccess} (noveno antecedente), \citeauthor{pr_cheng2019deeplearning} (décimo antecedente), \citeauthor{pr_chen2019keywords_crowdfunding} (undécimo antecedente), \citeauthor{pr_mitra2014phrases} (duodécimo antecedente), \citeauthor{pr_sawhney2016usingLT} (decimotercer antecedente), \citeauthor{pr_chaichi2019nlp_3dprinting} (decimoquinto antecedente).
+	\item \textbf{comments}: \citeauthor{pr_li2016predcrowd} (sexto antecedente), \citeauthor{pr_kaur2017socmedcrowd} (séptimo antecedente), \citeauthor{pr_jin2019dayssuccess} (noveno antecedente).
+\end{itemize}
+
+Si bien en los respectivos antecedentes marcados en (*) figuran el promedio de los montos disponibles para patrocinar, se usó la mediana en vez de la media ya que presentó mejor performance en los experimentos.
 
 \section{Instrumentos de medida}
 

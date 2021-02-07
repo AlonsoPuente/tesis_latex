@@ -137,8 +137,8 @@
 \contentsline {section}{\numberline {3.3}Operacionalización de Variables}{85}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Instrumentos de medida}{86}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{86}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{86}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{86}{section.3.7}%
+\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{87}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{87}{section.3.7}%
 \contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{88}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{88}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Metainformación}{88}{subsection.4.1.1}%
