@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  7 FEB 2021 00:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  7 FEB 2021 03:13
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2137,36 +2137,36 @@ LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
  [84 <./3/figures/prototipo.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
  []|\OT1/ptm/m/n/10.95 Detalle| 
  []
 
 
-Overfull \hbox (11.42303pt too wide) in paragraph at lines 48--78
+Overfull \hbox (11.42303pt too wide) in paragraph at lines 43--73
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
+LaTeX Info: Redefining \. on input line 83.
+LaTeX Info: Redefining \% on input line 83.
 [85]
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
- [86]
-<3/figures/cronograma.jpg, id=2070, 999.735pt x 283.65974pt>
+<3/figures/cronograma.jpg, id=2066, 999.735pt x 283.65974pt>
 File: 3/figures/cronograma.jpg Graphic file (type jpg)
 <use 3/figures/cronograma.jpg>
-Package pdftex.def Info: 3/figures/cronograma.jpg  used on input line 111.
+Package pdftex.def Info: 3/figures/cronograma.jpg  used on input line 106.
 (pdftex.def)             Requested size: 498.26784pt x 141.37505pt.
 
-Overfull \hbox (45.29958pt too wide) in paragraph at lines 111--112
+Overfull \hbox (45.29958pt too wide) in paragraph at lines 106--107
  [] 
  []
 
 )
+LaTeX Info: Redefining \. on input line 218.
+LaTeX Info: Redefining \% on input line 218.
+ [86]
 LaTeX Info: Redefining \. on input line 218.
 LaTeX Info: Redefining \% on input line 218.
  [87 <./3/figures/cronograma.jpg>]
@@ -3236,10 +3236,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27533 strings out of 480763
- 502471 string characters out of 2904056
- 1351809 words of memory out of 3000000
- 42355 multiletter control sequences out of 15000+200000
+ 27538 strings out of 480763
+ 502531 string characters out of 2904056
+ 1350833 words of memory out of 3000000
+ 42360 multiletter control sequences out of 15000+200000
  587282 words of font info for 149 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,32n,81p,2296b,4052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3254,7 +3254,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (144 pages, 7534577 bytes).
+Output written on tesis.pdf (144 pages, 7533925 bytes).
 PDF statistics:
  2797 PDF objects out of 2984 (max. 8388607)
  552 named destinations out of 1000 (max. 500000)

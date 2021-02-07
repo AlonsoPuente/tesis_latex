@@ -29,12 +29,7 @@ Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimo
 La población que será considerada para el presente trabajo será de 27,251 proyectos en Kickstarter de la categoría tecnología de todas las subcategorías entre los periodos 2009-2019, en su mayoría del territorio de los Estados Unidos de América.
 
 \subsection{Muestra}
-Debido a que se 214 imágenes del contenido visual no pudieron re-dimensionarse, así como 2 proyectos no contaban con descripciones en el contenido textual, se procedió a remover los 216 proyectos incompletos tanto en la metainformación como en las otras bases de datos, resultando finalmente en 27,035 registros en cada una de los tres conjuntos de datos. Sin embargo, la división en subconjuntos fue distinta en los tres casos y se dio de la siguiente manera:
-
-\begin{itemize}
-	\item Para la metainformación y el contenido textual, el conjunto de datos total de cada uno fue dividido en un subconjunto de entrenamiento (80\%) y uno de prueba (20\%) siguiendo las proporciones dadas en el octavo antecedente.
-	\item Para el contenido visual, el conjunto de datos total fue dividido en tres subconjuntos: entrenamiento (80\%), validación (10\%) y prueba (10\%) siguiendo las proporciones dadas en el décimo antecedente.
-\end{itemize}
+Se distribuyeron los subconjuntos de entrenamiento y prueba en proporciones de 80\% (21,710 registros) y 20\% (5,541 registros) respectivamente (\citeauthor{pr_yuan2016textanalytics}, cuarto antecedente; \citeauthor{pr_yu2018deeplearning}, octavo antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, undécimo antecedente; \citeauthor{pr_mitra2014phrases}, duodécimo antecedente; \citeauthor{pr_sawhney2016usingLT}, decimotercer antecedente).
 
 \subsection{Unidad de análisis}
 La unidad de análisis para el presente trabajo será un proyecto en Kickstarter de la categoría tecnología de cualquier subcategoría entre los periodos 2009-2019 dentro del territorio de los Estados Unidos de América.
@@ -75,7 +70,7 @@ En la Tabla \ref{3:table1} se presentan las variables usadas para el conjunto de
 		\textbf{state} & Estado de financiamiento del proyecto. & object \\
 		\hline
 	\end{tabular}
-	\caption{Diccionario de datos del conjunto final a entrenar. Fuente: Elaboración propia.}
+	\caption{Diccionario de datos del conjunto final entrenado. Fuente: Elaboración propia.}
 	\label{3:table1}
 \end{table}
 
