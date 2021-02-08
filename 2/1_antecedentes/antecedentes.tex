@@ -215,34 +215,43 @@ Se recolectaron 45,815 proyectos de Kickstarter del 2012. A continuación, se re
 
 \subsubsection{Resultados obtenidos}
 De las 59 variables de control que no son texto, 29 que tenían «valores aceptables» tenían pesos positivos. 15 variables fueron consideradas para proyectos que serán financiados, mientras que 14 para los que no. Se obtuvo un Top 100 de frases que tenían pesos positivos (proyectos que sí serán financiados), así como también para aquellas con pesos negativos (proyectos que no serán financiados).
-El ratio de error del modelo propuesto (variables de control + frases) fue de 2.24.
+El ratio de error del modelo propuesto (variables de control más frases) fue de 2.24.
 
 \subsection{Decimotercer antecedente: «Using Language to Predict Kickstarter Success» \citep*{pr_sawhney2016usingLT}}
 \citeauthor{pr_sawhney2016usingLT} realizaron la publicación «Using Language to Predict Kickstarter Success» para el Departamento de Ciencia de la Computación de la Universidad Standford. Este fue titulado \citetitle{pr_sawhney2016usingLT} la cual traducida al español significa «Uso del lenguaje para predecir el éxito de Kickstarter».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+Dada la considerable cantidad de investigaciones y trabajos de predicción de éxito financiamiento de proyectos basados en la evolución de variables estáticas, los autores construyeron un clasificador binario que logre predecir el éxito de una campaña a partir de su contenido, características lingüísticas y metadata.
 
 \subsubsection{Técnicas empleadas por los autores}
+Los autores utilizaron el Clasificador de Naive Bayes para las características primarias, Parts-of-Speech Tagging (POS), legibilidad Flesch-Kincaid, y Máquina de Vectores de Soporte (SVM) para los conjuntos de entrenamiento y prueba.
 
 \subsubsection{Metodología empleada por los autores}
+Se recolectaron más de 160 mil proyectos de Kickstarter, separando en proporciones de 0.80/0.20 los subconjuntos de entrenamiento y prueba respectivamente. A continuación, recopilaron las características primarias y se realizó un análisis de sentimientos. Luego, asignaron las meta-características para utilizarlos como entradas durante el entrenamiento de los modelos. Finalmente, estos últimos fueron calibrados y se probaron con el subconjunto de prueba para finalmente ser evaluados.
 
 \subsubsection{Resultados obtenidos}
+Considerando el modelo solo con las características primarias, el nivel de exactitud alcanzó 0.65. Sin embargo, utilizando el clasificador entrenado con SVM, el valor de la exactitud logró llegar hasta 0.92.
 
 \subsection{Decimocuarto antecedente: «KickPredict: Predicting Kickstarter Success» \citep*{pr_chen2013kickpredict}}
 \citeauthor{pr_chen2013kickpredict} realizaron la publicación «KickPredict: Predicting Kickstarter Success» para el Departamento de Ciencias Computacionales y Matemáticas del Instituto de Tecnología de California. Este fue titulado \citetitle{pr_chen2013kickpredict} la cual traducida al español significa «KickPredict: Predicción del éxito de Kickstarter».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+Ante la cantidad considerable de proyectos en Kickstarter que fracasan en financiarse debido a los datos colocados por sus creadores, los autores desarrollaron un sistema predictor de estado de financiamiento de un proyecto a partir de la obtención de las variables más importantes, tanto internas como de fuentes externas (YouTube y Twitter).
 
 \subsubsection{Técnicas empleadas por los autores}
+Para el sistema propuesto, se utilizaron Máquinas de Vectores de Soporte (SVM) entrenadas con cada combinatoria posible de las variables del conjunto de datos.
 
 \subsubsection{Metodología empleada por los autores}
+Se recolectaron 20 mil proyectos completados, es decir, cuyo estado de financiamiento fue exitoso o fracasado. De esta cantidad, el 95\% fue destinado al subconjunto de entrenamiento. Después, se utilizó un algoritmo clasificador binario estándar para identificar las variables más importantes. Por último, se desarrolló una aplicación en Android y una extensión en Google Chrome para usar en proyectos nuevos de Kickstarter.
 
 \subsubsection{Resultados obtenidos}
+Las 4 variables más importantes encontradas del algoritmo clasificador fueron el número de proyectos patrocinados por el creador, número de proyectos creados por el creador, si presenta o no video, monto de la meta del proyecto. Evaluando el modelo con la métrica de exactitud, se alcanzó el valor de 0.90 al 40\% de transcurrida la duración de la campaña.
 
 \subsection{Decimoquinto antecedente: «Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter» \citep*{pr_chaichi2019nlp_3dprinting}}
 \citeauthor{pr_chaichi2019nlp_3dprinting} realizaron un resumen de la conferencia «2019 Portland International Conference on Management of Engineering and Technology (PICMET)» del 25 al 29 de agosto del 2019 en Portland, Estados Unidos. Este fue titulado \citetitle{pr_chaichi2019nlp_3dprinting} la cual traducida al español significa «Implementación del procesamiento del lenguaje natural para extraer características clave del producto de las campañas de crowdfunding: el caso de las tecnologías de impresión 3D en Kickstarter».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+
 
 \subsubsection{Técnicas empleadas por los autores}
 
@@ -254,20 +263,32 @@ El ratio de error del modelo propuesto (variables de control + frases) fue de 2.
 \citeauthor{pr_lee2018contentDL} realizaron un resumen de la conferencia «Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing» del 3 al 7 de noviembre del 2018 en Jersey City, Estados Unidos. Este fue titulado \citetitle{pr_lee2018contentDL} la cual traducida al español significa «Predicción de éxito basada en contenido de campañas de crowdfunding: un enfoque de Aprendizaje Profundo».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+El ratio promedio de éxito de financiamiento colectivo ha ido decreciendo en los últimos años a pesar del éxito de plataformas basadas en este tipo de apoyo a proyectos. Asimismo, los desafíos más relevantes fueron descubrir las razones de su éxito y lograr predecirlo.
+
+Los autores plantearon utilizar solo el contenido textual de los proyectos (descripción de campaña, actualizaciones, comentarios y palabras obtenidas del video principal) para predecir el estado de financiamiento de proyectos de Tecnología (la categoría con ratio más bajo de éxito de financiamiento y a la vez, con los mayores montos financiados en la plataforma) a través de la creación de una Red Neuronal Profunda.
 
 \subsubsection{Técnicas empleadas por los autores}
+Se diseñó 1 Modelo de Secuencia a Secuencia (Seq2seq) con atención a nivel de oración y 1 Modelo de Atención Jerárquica (HAN).
 
 \subsubsection{Metodología empleada por los autores}
+Se recolectaron 216,136 proyectos de crowdfunding en Kickstarter, lanzados entre abril del 2009 y agosto del 2017. De ellos, se filtraron aquellos de la categoría Tecnología (22,982) para luego separar el conjunto de datos final en 0.80 (entrenamiento), 0.10 (validación) y 0.1 (prueba). Posteriormente, se diseñaron los 2 modelos de NLP, fueron entrenados y se compararon los resultados.
 
 \subsubsection{Resultados obtenidos}
+Ambos modelos fueron evaluados bajo la métrica de exactitud, bajo enfoques de distintos experimentos que alternaban la presencia de las variables. De todos ellos, basado en aquellos que utilizaron todas juntas, el modelo de Seq2seq + atención logró una exactitud de 0.80, mientras que el modelo HAN alcanzó el valor de 0.60.
 
 \subsection{Decimoséptimo antecedente: «Topic Predictions and Optimized Recommendation	Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms» \citep*{pr_shafqat2019topicpredictions}}
 \citeauthor{pr_shafqat2019topicpredictions} realizaron un artículo de investigación el cual fue publicado en la revista «Applied Sciences» en el año 2019. Este fue titulado \citetitle{pr_shafqat2019topicpredictions} la cual traducida al español significa «Predicciones de temas y mecanismo de recomendación optimizado basado en modelos integrados de temas y redes neuronales profundas en plataformas de financiación colectiva».
 
 \subsubsection{Planteamiento del Problema y objetivo}
+Los comentarios de los usuarios al momento de evaluar algún producto de su interés en el comercio electrónico pasa desapercibido. Estas reseñas suelen ser importantes en las plataformas de financiamiento colectivo dado que influye en otros usuarios en patrocinar un proyecto.
+
+Ante ello, los autores plantearon fusionar técnicas de modelado de lenguaje con redes neuronales para identificar patrones de discusión ocultos en los comentarios.
 
 \subsubsection{Técnicas empleadas por los autores}
+Se usó un híbrido basado en las redes neuronales recurrentes de Memoria a Largo Plazo (LSTM), alimentados con la distribución de temas latentes aprendidos del modelo pre-entrenado Asignación Latente de Dirichlet (LDA). Además, se utilizó el algoritmo Optimización por Enjambre de Partículas (PSO) para optimizar las recomendaciones.
 
 \subsubsection{Metodología empleada por los autores}
+Los autores diseñaron un flujo para la elaboración del conjunto final de datos, basándose en exclusión de potenciales proyectos fraudulentos en Kickstarter según distintas fuentes y navegación en la web, análisis de contenido y otros criterios adicionales para la lista restante de enlaces de campañas, y finalmente extrayendo los comentarios en archivos de texto. Como resultado, se obtuvieron inicialmente más de 645 mil comentarios provenientes de 600 proyectos. Sin embargo, se redujeron a 504,184 comentarios (841 en promedio por proyecto) cuyo contenido era visible públicamente. El 70\% fue destinado al subconjunto de entrenamiento, mientras que el resto, al de prueba. A continuación, se elaboró la arquitectura del modelo híbrido, la cual comienza recibiendo de entrada a los comentarios para crear los vectores de palabras en el tiempo \textit{t} de una campaña. Como resultado del proceso LDA, estos generan vectores latentes de temas, que alimentan al modelo LSTM con el fin de que logre predecir la clase del tema de la siguiente palabra en el documento. Con estas nuevas salidas, el módulo de recomendación sugiere algunos proyectos basados en los temas descubiertos por el patrocinador. Finalmente, este modelo fue evaluado y comparado contra otros estudios de referencia.
 
 \subsubsection{Resultados obtenidos}
+Tanto el modelo propuesto (LSTM-LDA) como los modelos de referencia fueron evaluados con la métrica de exactitud para 300 épocas de entrenamiento. El modelo de los autores RNN-LDA logró la mejor performance, alcanzando una exactitud de aproximadamente 0.96, frente al 0.94 de una red NN-LDA y 0.92 de una red NN.
