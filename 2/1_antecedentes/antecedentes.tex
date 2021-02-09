@@ -1,45 +1,41 @@
 En esta sección se presentarán diversos trabajos de investigación basados en la predicción de éxito o fracaso de campañas en Kickstarter o plataformas similares y el análisis de estas utilizando conjunto de datos de la propia plataforma o almacenadas en otros repositorios, con sus variables respectivas. En la mayoría de casos consideraron variables básicas que se obtienen del repositorio de las plataformas de crowdfunding, en otros casos consideraron variables cualitativas basadas en texto y descripción de proyectos, y en otros antecedentes usaron nuevas técnicas poco convencionales como el Aprendizaje Profundo e híbridos de modelos para obtener los mejores resultados posibles.
 Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{anexo4}) de lo que se presenta en esta sección.
 
-\subsection{Primer antecedente: «Supervised Learning Model For Kickstarter Campaigns With R Mining» \citep*{pr_kamath2018suplearn}}
-\citeauthor{pr_kamath2018suplearn} realizaron un artículo de investigación el cual fue publicado en la revista «International Journal of Information Technology, Modeling and Computing» en el año 2018. Este fue titulado \citetitle{pr_kamath2018suplearn} la cual traducida al español significa «Modelo de aprendizaje supervisado para campañas de Kickstarter con R Mining».
+\subsection{Primer antecedente: «KickPredict: Predicting Kickstarter Success» \citep*{pr_chen2013kickpredict}}
+\citeauthor{pr_chen2013kickpredict} realizaron la publicación «KickPredict: Predicting Kickstarter Success» para el Departamento de Ciencias Computacionales y Matemáticas del Instituto de Tecnología de California. Este fue titulado \citetitle{pr_chen2013kickpredict} la cual traducida al español significa «KickPredict: Predicción del éxito de Kickstarter».
 
 \subsubsection{Planteamiento del Problema y objetivo}
-Kickstarter actualmente es la plataforma web basado en crowdfunding más grande existente. Sin embargo, no todas las campañas que se encuentran en su portal son exitosas. Algunos trabajos previos citados en este artículo citan que el lenguaje usado en las campañas alcanza el poder predictivo de 58.86\%, es decir, la descripción semántica de un proyecto ayuda considerablemente en la predicción de éxito debido a que muchos patrocinadores se fijan en la calidad presente en una campaña antes de invertir.  Sin embargo, es dejada de lado en muchos trabajos de investigación destinados a la predicción de éxito de financiamiento, así como también las interacciones de un proyecto en redes sociales. Para el tiempo en que este artículo fue publicado, el nivel de exactitud de los modelos predictivos ya existentes bordeaba por el 68\% como el descrito anteriormente
-
-Ante esto, autores desarrollaron un sistema con técnicas de Aprendizaje Automático usando el entorno R aplicada a conjunto de datos de campañas en Kickstarter para clasificar proyectos entrenando diferentes clasificadores en esta data y predecir con un alto nivel de exactitud.
+Ante la cantidad considerable de proyectos en Kickstarter que fracasan en financiarse debido a los datos colocados por sus creadores, los autores desarrollaron un sistema predictor de estado de financiamiento de un proyecto a partir de la obtención de las variables más importantes, tanto internas como de fuentes externas (YouTube y Twitter).
 
 \subsubsection{Técnicas empleadas por los autores}
-Los autores elaboraron 5 modelos clasificadores para la investigación: Árbol de decisión, Bosque Aleatorio, Red Neuronal Artificial, Vecino K más cercano, y Naïve Bayes. Se consideraron como variables para estos modelos al nombre del proyecto, URL del proyecto, descripción del proyecto, categoría, sub-categoría, número de patrocinadores, monto total patrocinado, meta de financiación, fecha de lanzamiento del proyecto, duración del proyecto, número de actualizaciones, número de recompensas, si el proyecto cuenta con video, localización del proyecto, y creador del proyecto.
+Para el sistema propuesto, se utilizaron Máquinas de Vectores de Soporte (SVM) entrenadas con cada combinatoria posible de las variables del conjunto de datos.
 
 \subsubsection{Metodología empleada por los autores}
-En primer lugar, se analizó y definió el problema. A continuación, se recolectaron 120 proyectos de Kickstarter a través de su URL. Luego, las variables categóricas fueron transformadas en numéricas como parte del pre-procesamiento. Esto permitió realizar extracción y exploración del conjunto final mediante estadísticas descriptivas con paquetes de R. Una vez analizado los datos, se procedió a elaborar los modelos clasificadores y finalmente, con la matriz de confusión, se seleccionó el mejor de ellos evaluándolos mediante la exactitud.
+Se recolectaron 20 mil proyectos completados, es decir, cuyo estado de financiamiento fue exitoso o fracasado. De esta cantidad, el 95\% fue destinado al subconjunto de entrenamiento. Después, se utilizó un algoritmo clasificador binario estándar para identificar las variables más importantes. Por último, se desarrolló una aplicación en Android y una extensión en Google Chrome para usar en proyectos nuevos de Kickstarter.
 
 \subsubsection{Resultados obtenidos}
-Bajo la métrica de exactitud, el mejor de los 5 modelos clasificadores construidos fue la Red Neuronal, con un valor de 0.94.
+Las 4 variables más importantes encontradas del algoritmo clasificador fueron el número de proyectos patrocinados por el creador, número de proyectos creados por el creador, si presenta o no video, monto de la meta del proyecto. Evaluando el modelo con la métrica de exactitud, se alcanzó el valor de 0.90 al 40\% de transcurrida la duración de la campaña.
 
-
-\subsection{Segundo antecedente: «Predicting Success in Equity Crowdfunding» \citep*{pr_beckwith2016predcrowd}}
-\citeauthor{pr_beckwith2016predcrowd} realizó un artículo de investigación el cual fue publicado en la revista «Joseph Wharton Scholars» de la Universidad de Pensilvania en el año 2016. Este fue titulado \citetitle{pr_beckwith2016predcrowd} la cual traducida al español significa «Prediciendo el éxito en el financiamiento colectivo de acciones».
+\subsection{Segundo antecedente: «The Language that Gets People to Give: Phrases that Predict Success on Kickstarter» \citep*{pr_mitra2014phrases}}
+\citeauthor{pr_mitra2014phrases} realizaron un resumen de la conferencia «The 17th ACM conference on Computer supported cooperative work \& social computing (CSCW '14)» del 15 al 19 de febrero del 2014 en Baltimore, Estados Unidos. Este fue titulado \citetitle{pr_mitra2014phrases} la cual traducida al español significa «El lenguaje que hace que la gente dé: Frases que predicen el éxito en Kickstarter».
 
 \subsubsection{Planteamiento del Problema y objetivo}
-El financiamiento colectivo o crowdfunding de inversión está haciéndose cada vez más popular. Este concepto permite que los emprendedores ofrezcan algún tipo de producto o servicio como compensación por contribuciones financieras una vez que ya se tengan ventas reales o acuerdos comerciales, a diferencia por ejemplo del crowdfunding de recompensas que ofrece algo a sus patrocinadores desde la concepción del proyecto. Resulta ser muy interesante para los patrocinadores ya que no se necesita contar con un capital muy alto. A cambio, ellos recibirán algo a cambio una vez que el proyecto se realice. Este factor permite su mayor probabilidad de éxito de financiamiento al momento de darse una campaña de este tipo de crowdfunding ya que los patrocinadores pueden invertir en más de un proyecto a la vez. A partir de este punto nace la siguiente cuestión: “Dados diferentes start-ups con similares características observables, ¿qué motiva a pequeños patrocinadores a invertir en ciertos start-ups y no en otros?”.
+Existencia de poco conocimiento sobre los factores que impulsan a financiar proyectos a pesar del crecimiento en los últimos años de plataformas de financiamiento colectivo como Kickstarter.
 
-Por ello, el objetivo del autor fue determinar la relación entre las características de una compañía determinada y su capacidad para recaudar fondos en la plataforma de financiamiento colectivo de capital AngelList.
+Los autores elaboraron, ante ello, un modelo para predecir el éxito de financiamiento en proyectos crowdfunding a partir de frases textuales.
 
 \subsubsection{Técnicas empleadas por los autores}
-El autor desarrolló un modelo de Regresión logística usando las siguientes variables: si la empresa previamente había recibido o no financiación, si la compañía cuenta con perfil en Twitter, número de veces que la compañía había sido mencionada en alguna publicación, número de veces que la compañía había sido mencionada en TechCrunch, número de personas listadas como co-fundadoras en el perfil de la compañía AngelList, si AngelList lista entre 11 y 50 empleados como tamaño de la empresa, si la compañía está ubicada en San Francisco, si entre los fundadores de AngelList al menos uno de ellos cuenta con un MBA, si entre los fundadores de AngelList al menos uno de ellos realizó sus estudios en alguna de las mejores 20 universidades de Estados Unidos, y el número de cierre del S\&P 500 el día anterior al lanzamiento de la campaña de crowdfunding de AngelList.
-Este modelo se comparó con un Árbol de Decisión CART, un modelo de Naïve Bayes y una Máquina de Vectores de Soporte.
+Se diseñó un modelo de Regresión logística penalizada para proteger contra la colinealidad y escasez que prevalecen en el conjunto de datos de frases.
 
 \subsubsection{Metodología empleada por los autores}
-Inicialmente, se recolectaron más de 5 mil compañías de AngelList que solicitaron contribuciones financieras. De esta cantidad, se considerarons aquellas con datos completos (2,603 empresas). Luego del pre-procesamiento del conjunto final de datos, se elaboró el modelo y se evaluó el modelo mediante la exactitud, precisión, sensibilidad, puntaje F1, y área bajo la curva (AUC).
+Se recolectaron 45,815 proyectos de Kickstarter del 2012. A continuación, se realizó limpieza de datos eliminando campañas inconclusas y con esto se procedió a extraer la información textual (descripción y recompensas del proyecto). El siguiente paso fue la generación del cuerpo de más de 9 millones de frases únicas, de las cuales quedaron 20,391 frases que aparecen al menos 50 veces en todos los proyectos. Finalmente, se creó el modelo predictivo para encontrar las frases que determinen que un proyecto será financiado y aquellas que determinen lo contrario.
 
 \subsubsection{Resultados obtenidos}
-Bajo las métricas mencionadas, el modelo propuesto por los autores superó a los otros 3 modelos comparados en cada una, tomando como resultados 0.87 de exactitud, precisión promedio de 0.85, sensibilidad promedio de 0.88, puntaje F1 promedio de 0.86, y área bajo la curva de 0.74.
-
+De las 59 variables de control que no son texto, 29 que tenían «valores aceptables» tenían pesos positivos. 15 variables fueron consideradas para proyectos que serán financiados, mientras que 14 para los que no. Se obtuvo un Top 100 de frases que tenían pesos positivos (proyectos que sí serán financiados), así como también para aquellas con pesos negativos (proyectos que no serán financiados).
+El ratio de error del modelo propuesto (variables de control más frases) fue de 2.24.
 
 \subsection{Tercer antecedente: «Money Talks: A Predictive Model on Crowdfunding Success Using Project Description» \citep*{pr_zhou2015projectdesc}}
-\citeauthor{pr_zhou2015projectdesc} realizaron un resumen de la conferencia «Twenty-first Americas Conference on Information Systems» en Puerto Rico en el año 2018. Este fue titulado \citetitle{pr_zhou2015projectdesc} la cual traducida al español significa «Money Talks: un modelo predictivo sobre el éxito del crowdfunding utilizando la descripción del proyecto».
+\citeauthor{pr_zhou2015projectdesc} realizaron un resumen de la conferencia «Twenty-first Americas Conference on Information Systems» en Puerto Rico en el año 2015. Este fue titulado \citetitle{pr_zhou2015projectdesc} la cual traducida al español significa «Money Talks: un modelo predictivo sobre el éxito del crowdfunding utilizando la descripción del proyecto».
 
 \subsubsection{Planteamiento del Problema y objetivo}
 Las investigaciones existentes de crowdfunding se centran principalmente en las variables básicas del proyecto como la categoría y la meta; sin embargo, son muy pocos estudios basados en el contenido de la información, es decir, en la descripción del mismo.
@@ -55,26 +51,7 @@ Se comenzó con la operacionalización de los constructos, es decir, cómo se co
 \subsubsection{Resultados obtenidos}
 Todos los modelos (base, convencional y propuesto) fueron evaluados por el valor-F probando en validaciones cruzadas de 3, 5 y 10 iteraciones. Bajo esta métrica, el mejor modelo fue el propuesto, alcanzando un valor-F de 71.17 con 10 iteraciones.
 
-
-\subsection{Cuarto antecedente: «The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach» \citep*{pr_yuan2016textanalytics}}
-\citeauthor{pr_yuan2016textanalytics} realizaron un artículo de investigación el cual fue publicado en la revista «Decision Support Systems» en el año 2016. Este fue titulado \citetitle{pr_yuan2016textanalytics} la cual traducida al español significa «Los determinantes del éxito del financiamiento colectivo: Un enfoque de analítica semántica de texto».
-
-\subsubsection{Planteamiento del Problema y objetivo}
-Actualmente existen diversos estudios de éxito de campañas de financiamiento colectivo, la mayoría usando modelos predictivos en proyectos crowdfunding basados en recompensas y análisis de características poco profundas del lenguaje en descripción de los proyectos (por ejemplo, número de palabras, errores ortográficos, etc) así como en la implementación de métodos de Aprendizaje Automático.
-
-Como propuesta alterna, los autores construyeron un marco de trabajo basado en análisis de texto que pueda extraer semánticas de descripciones textuales de proyectos para predecir sus resultados de recaudación de fondos.
-
-\subsubsection{Técnicas empleadas por los autores}
-Se creó un modelo de Bosque Aleatorio para los datos numéricos, y POS Tag Stemming más modelo DC-LDA más características tópicas para los datos textuales. Esta arquitectura se comparó con otros modelos en la literatura de la publicación.
-
-\subsubsection{Metodología empleada por los autores}
-Se recolectaron 500 proyectos de 2 webs chinas sobre crowdfunding cada una. Luego, se construyó el framework de análisis textual. A continuación, se desarrolló un modelo DC-LDA para una extracción más efectiva de las características tópicas a partir de las descripciones. Y finalmente, se realizó un análisis empírico para identificar características discriminatorias que influye en el éxito de la recaudación de fondos.
-
-\subsubsection{Resultados obtenidos}
-Para los datos numéricos, la mejor performance se obtuvo evaluando el modelo con la sensibilidad para el Random Forest (0.98 en la segunda data); mientras que para los datos textuales, el modelo DC-LDA (al ser comparado con el LDA normal) obtuvo un puntaje F1 de 0.91.
-
-
-\subsection{Quinto antecedente: «Will your Project get the Green light? Predicting the success of crowdfunding campaigns» \citep*{pr_chen2015predcrowd}}
+\subsection{Cuarto antecedente: «Will your Project get the Green light? Predicting the success of crowdfunding campaigns» \citep*{pr_chen2015predcrowd}}
 \citeauthor{pr_chen2015predcrowd} realizaron un resumen de la conferencia «Pacific Asia Conference on Information Systems (PACIS) 2015» en New York, Estados Unidos, en el año 2015. Este fue titulado \citetitle{pr_chen2015predcrowd} la cual traducida al español significa «¿Tu proyecto obtendrá la luz verda? Prediciendo el éxito de campañas de financiamiento colectivo».
 
 \subsubsection{Planteamiento del Problema y objetivo}
@@ -91,6 +68,23 @@ Se recolectaron más de 4 mil proyectos de Kickstarter obtenido directamente des
 \subsubsection{Resultados obtenidos}
 Se comparó la serie de modelos propuestos considerando todas las características con modelos que solo consideraban algunas, así como también comparado con uno de la literatura. El resultado final de la evaluación medidos por la exactitud determinó que la primera opción mencionada logró la mejor performance, con un valor de 0.8467.
 
+\subsection{Quinto antecedente: «Predicting Success in Equity Crowdfunding» \citep*{pr_beckwith2016predcrowd}}
+\citeauthor{pr_beckwith2016predcrowd} realizó un artículo de investigación el cual fue publicado en la revista «Joseph Wharton Scholars» de la Universidad de Pensilvania en el año 2016. Este fue titulado \citetitle{pr_beckwith2016predcrowd} la cual traducida al español significa «Prediciendo el éxito en el financiamiento colectivo de acciones».
+
+\subsubsection{Planteamiento del Problema y objetivo}
+El financiamiento colectivo o crowdfunding de inversión está haciéndose cada vez más popular. Este concepto permite que los emprendedores ofrezcan algún tipo de producto o servicio como compensación por contribuciones financieras una vez que ya se tengan ventas reales o acuerdos comerciales, a diferencia por ejemplo del crowdfunding de recompensas que ofrece algo a sus patrocinadores desde la concepción del proyecto. Resulta ser muy interesante para los patrocinadores ya que no se necesita contar con un capital muy alto. A cambio, ellos recibirán algo a cambio una vez que el proyecto se realice. Este factor permite su mayor probabilidad de éxito de financiamiento al momento de darse una campaña de este tipo de crowdfunding ya que los patrocinadores pueden invertir en más de un proyecto a la vez. A partir de este punto nace la siguiente cuestión: “Dados diferentes start-ups con similares características observables, ¿qué motiva a pequeños patrocinadores a invertir en ciertos start-ups y no en otros?”.
+
+Por ello, el objetivo del autor fue determinar la relación entre las características de una compañía determinada y su capacidad para recaudar fondos en la plataforma de financiamiento colectivo de capital AngelList.
+
+\subsubsection{Técnicas empleadas por los autores}
+El autor desarrolló un modelo de Regresión logística usando las siguientes variables: si la empresa previamente había recibido o no financiación, si la compañía cuenta con perfil en Twitter, número de veces que la compañía había sido mencionada en alguna publicación, número de veces que la compañía había sido mencionada en TechCrunch, número de personas listadas como co-fundadoras en el perfil de la compañía AngelList, si AngelList lista entre 11 y 50 empleados como tamaño de la empresa, si la compañía está ubicada en San Francisco, si entre los fundadores de AngelList al menos uno de ellos cuenta con un MBA, si entre los fundadores de AngelList al menos uno de ellos realizó sus estudios en alguna de las mejores 20 universidades de Estados Unidos, y el número de cierre del S\&P 500 el día anterior al lanzamiento de la campaña de crowdfunding de AngelList.
+Este modelo se comparó con un Árbol de Decisión CART, un modelo de Naïve Bayes y una Máquina de Vectores de Soporte.
+
+\subsubsection{Metodología empleada por los autores}
+Inicialmente, se recolectaron más de 5 mil compañías de AngelList que solicitaron contribuciones financieras. De esta cantidad, se considerarons aquellas con datos completos (2,603 empresas). Luego del pre-procesamiento del conjunto final de datos, se elaboró el modelo y se evaluó el modelo mediante la exactitud, precisión, sensibilidad, puntaje F1, y área bajo la curva (AUC).
+
+\subsubsection{Resultados obtenidos}
+Bajo las métricas mencionadas, el modelo propuesto por los autores superó a los otros 3 modelos comparados en cada una, tomando como resultados 0.87 de exactitud, precisión promedio de 0.85, sensibilidad promedio de 0.88, puntaje F1 promedio de 0.86, y área bajo la curva de 0.74.
 
 \subsection{Sexto antecedente: «Project Success Prediction in Crowdfunding Environments» \citep*{pr_li2016predcrowd}}
 \citeauthor{pr_li2016predcrowd} realizaron un resumen de la conferencia «The Ninth ACM International Conference on Web Search and Data Mining (WSDM’ 16)» en San Francisco, Estados Unidos, en el año 2016. Este fue titulado \citetitle{pr_li2016predcrowd} la cual traducida al español significa «Predicción de éxito de un proyecto en ambientes de financiamiento colectivo».
@@ -109,8 +103,39 @@ Inicialmente, se recolectaron más de 27 mil proyectos de Kickstarter entre dici
 \subsubsection{Resultados obtenidos}
 Como resultados de las múltiples pruebas en los modelos, en los cuales los autores experimentaron distintas combinatorias con la data estática y la dinámica, así como agregando y desagregando proyectos fracasados, se obtuvo que el modelo de Regresión log-logística evaluado con el área bajo la curva (AUC) presentó mejor performance que el resto en 3 de las 4 combinatorias, alcanzando su mejor nivel en el conjunto de datos que combina data estática, dinámica, de características de proyectos transcurridos los primeros 3 días y con proyectos fracasados, con un puntaje Survival AUC de 0.9030.
 
+\subsection{Séptimo antecedente: «The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach» \citep*{pr_yuan2016textanalytics}}
+\citeauthor{pr_yuan2016textanalytics} realizaron un artículo de investigación el cual fue publicado en la revista «Decision Support Systems» en el año 2016. Este fue titulado \citetitle{pr_yuan2016textanalytics} la cual traducida al español significa «Los determinantes del éxito del financiamiento colectivo: Un enfoque de analítica semántica de texto».
 
-\subsection{Séptimo antecedente: «Effect of Social Media Connectivity on Success of Crowdfunding Campaigns» \citep*{pr_kaur2017socmedcrowd}}
+\subsubsection{Planteamiento del Problema y objetivo}
+Actualmente existen diversos estudios de éxito de campañas de financiamiento colectivo, la mayoría usando modelos predictivos en proyectos crowdfunding basados en recompensas y análisis de características poco profundas del lenguaje en descripción de los proyectos (por ejemplo, número de palabras, errores ortográficos, etc) así como en la implementación de métodos de Aprendizaje Automático.
+
+Como propuesta alterna, los autores construyeron un marco de trabajo basado en análisis de texto que pueda extraer semánticas de descripciones textuales de proyectos para predecir sus resultados de recaudación de fondos.
+
+\subsubsection{Técnicas empleadas por los autores}
+Se creó un modelo de Bosque Aleatorio para los datos numéricos, y POS Tag Stemming más modelo DC-LDA más características tópicas para los datos textuales. Esta arquitectura se comparó con otros modelos en la literatura de la publicación.
+
+\subsubsection{Metodología empleada por los autores}
+Se recolectaron 500 proyectos de 2 webs chinas sobre crowdfunding cada una. Luego, se construyó el framework de análisis textual. A continuación, se desarrolló un modelo DC-LDA para una extracción más efectiva de las características tópicas a partir de las descripciones. Y finalmente, se realizó un análisis empírico para identificar características discriminatorias que influye en el éxito de la recaudación de fondos.
+
+\subsubsection{Resultados obtenidos}
+Para los datos numéricos, la mejor performance se obtuvo evaluando el modelo con la sensibilidad para el Random Forest (0.98 en la segunda data); mientras que para los datos textuales, el modelo DC-LDA (al ser comparado con el LDA normal) obtuvo un puntaje F1 de 0.91.
+
+\subsection{Octavo antecedente: «Using Language to Predict Kickstarter Success» \citep*{pr_sawhney2016usingLT}}
+\citeauthor{pr_sawhney2016usingLT} realizaron la publicación «Using Language to Predict Kickstarter Success» para el Departamento de Ciencia de la Computación de la Universidad Standford. Este fue titulado \citetitle{pr_sawhney2016usingLT} la cual traducida al español significa «Uso del lenguaje para predecir el éxito de Kickstarter».
+
+\subsubsection{Planteamiento del Problema y objetivo}
+Dada la considerable cantidad de investigaciones y trabajos de predicción de éxito financiamiento de proyectos basados en la evolución de variables estáticas, los autores construyeron un clasificador binario que logre predecir el éxito de una campaña a partir de su contenido, características lingüísticas y metadata.
+
+\subsubsection{Técnicas empleadas por los autores}
+Los autores utilizaron el Clasificador de Naive Bayes para las características primarias, Parts-of-Speech Tagging (POS), legibilidad Flesch-Kincaid, y Máquina de Vectores de Soporte (SVM) para los conjuntos de entrenamiento y prueba.
+
+\subsubsection{Metodología empleada por los autores}
+Se recolectaron más de 160 mil proyectos de Kickstarter, separando en proporciones de 0.80/0.20 los subconjuntos de entrenamiento y prueba respectivamente. A continuación, recopilaron las características primarias y se realizó un análisis de sentimientos. Luego, asignaron las meta-características para utilizarlos como entradas durante el entrenamiento de los modelos. Finalmente, estos últimos fueron calibrados y se probaron con el subconjunto de prueba para finalmente ser evaluados.
+
+\subsubsection{Resultados obtenidos}
+Considerando el modelo solo con las características primarias, el nivel de exactitud alcanzó 0.65. Sin embargo, utilizando el clasificador entrenado con SVM, el valor de la exactitud logró llegar hasta 0.92.
+
+\subsection{Noveno antecedente: «Effect of Social Media Connectivity on Success of Crowdfunding Campaigns» \citep*{pr_kaur2017socmedcrowd}}
 \citeauthor{pr_kaur2017socmedcrowd} realizaron un artículo de investigación el cual fue publicado en la revista «Procedia Computer Science» en el año 2017. Este fue titulado \citetitle{pr_kaur2017socmedcrowd} la cual traducida al español significa «Efecto de conectividad en medios sociales en éxito de campañas de financiamiento colectivo».
 
 \subsubsection{Planteamiento del Problema y objetivo}
@@ -129,8 +154,24 @@ Una vez armados los conjuntos de datos, se creó el modelo propuesto y se compar
 \subsubsection{Resultados obtenidos}
 Culminados los experimentos de la selección de variables en la matriz de correlaciones, así como la ejecución del modelo de Regresión Logística, la exactitud de este alcanzó un valor de 0.767 para un subconjunto de 66\% de entrenamiento y de 34\% de prueba, indicando así que la conectividad a medios sociales e interacciones en ellos influye en la predicción de éxito de la campaña. Asimismo, evaluando también con precisión y sensibilidad promedio, el ratio alcanzó 0.768 y 0.767 respectivamente.
 
+\subsection{Décimo antecedente: «Supervised Learning Model For Kickstarter Campaigns With R Mining» \citep*{pr_kamath2018suplearn}}
+\citeauthor{pr_kamath2018suplearn} realizaron un artículo de investigación el cual fue publicado en la revista «International Journal of Information Technology, Modeling and Computing» en el año 2018. Este fue titulado \citetitle{pr_kamath2018suplearn} la cual traducida al español significa «Modelo de aprendizaje supervisado para campañas de Kickstarter con R Mining».
 
-\subsection{Octavo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep*{pr_yu2018deeplearning}}
+\subsubsection{Planteamiento del Problema y objetivo}
+Kickstarter actualmente es la plataforma web basado en crowdfunding más grande existente. Sin embargo, no todas las campañas que se encuentran en su portal son exitosas. Algunos trabajos previos citados en este artículo citan que el lenguaje usado en las campañas alcanza el poder predictivo de 58.86\%, es decir, la descripción semántica de un proyecto ayuda considerablemente en la predicción de éxito debido a que muchos patrocinadores se fijan en la calidad presente en una campaña antes de invertir.  Sin embargo, es dejada de lado en muchos trabajos de investigación destinados a la predicción de éxito de financiamiento, así como también las interacciones de un proyecto en redes sociales. Para el tiempo en que este artículo fue publicado, el nivel de exactitud de los modelos predictivos ya existentes bordeaba por el 68\% como el descrito anteriormente
+
+Ante esto, autores desarrollaron un sistema con técnicas de Aprendizaje Automático usando el entorno R aplicada a conjunto de datos de campañas en Kickstarter para clasificar proyectos entrenando diferentes clasificadores en esta data y predecir con un alto nivel de exactitud.
+
+\subsubsection{Técnicas empleadas por los autores}
+Los autores elaboraron 5 modelos clasificadores para la investigación: Árbol de decisión, Bosque Aleatorio, Red Neuronal Artificial, Vecino K más cercano, y Naïve Bayes. Se consideraron como variables para estos modelos al nombre del proyecto, URL del proyecto, descripción del proyecto, categoría, sub-categoría, número de patrocinadores, monto total patrocinado, meta de financiación, fecha de lanzamiento del proyecto, duración del proyecto, número de actualizaciones, número de recompensas, si el proyecto cuenta con video, localización del proyecto, y creador del proyecto.
+
+\subsubsection{Metodología empleada por los autores}
+En primer lugar, se analizó y definió el problema. A continuación, se recolectaron 120 proyectos de Kickstarter a través de su URL. Luego, las variables categóricas fueron transformadas en numéricas como parte del pre-procesamiento. Esto permitió realizar extracción y exploración del conjunto final mediante estadísticas descriptivas con paquetes de R. Una vez analizado los datos, se procedió a elaborar los modelos clasificadores y finalmente, con la matriz de confusión, se seleccionó el mejor de ellos evaluándolos mediante la exactitud.
+
+\subsubsection{Resultados obtenidos}
+Bajo la métrica de exactitud, el mejor de los 5 modelos clasificadores construidos fue la Red Neuronal, con un valor de 0.94.
+
+\subsection{Undécimo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep*{pr_yu2018deeplearning}}
 \citeauthor{pr_yu2018deeplearning} realizaron un resumen de la conferencia «2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)» del 12 al 14 de octubre del 2018 en Xi'an, China. Este fue titulado \citetitle{pr_yu2018deeplearning}, la cual traducida al español significa «Predicción del éxito de proyecto de financiamiento colectivo con Aprendizaje Profundo».
 
 \subsubsection{Planteamiento del Problema y objetivo}
@@ -147,7 +188,24 @@ Se recolectaron más de 378 mil campañas de Kickstarter entre Mayo 2009 y Marzo
 \subsubsection{Resultados obtenidos}
 Para comparar los resultados del modelo propuesto con los antecedentes, se tomaron en cuenta como métricas la exactitud y el área bajo la curva (AUC). De acuerdo a ellas, para ambos escenarios se lograron mejor performance, con una exactitud de 0.9320 y un área bajo la curva de 0.9323 frente al mejor modelo de los antecedentes, Bosques Aleatorios, que obtuvo como resultados 0.9293 y 0.9272 para las mismas métricas respectivamente.
 
-\subsection{Noveno antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep*{pr_jin2019dayssuccess}}
+\subsection{Duodécimo antecedente: «Content-based Success Prediction of Crowdfunding Campaigns: A Deep	Learning Approach» \citep*{pr_lee2018contentDL}}
+\citeauthor{pr_lee2018contentDL} realizaron un resumen de la conferencia «Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing» del 3 al 7 de noviembre del 2018 en Jersey City, Estados Unidos. Este fue titulado \citetitle{pr_lee2018contentDL} la cual traducida al español significa «Predicción de éxito basada en contenido de campañas de crowdfunding: un enfoque de Aprendizaje Profundo».
+
+\subsubsection{Planteamiento del Problema y objetivo}
+El ratio promedio de éxito de financiamiento colectivo ha ido decreciendo en los últimos años a pesar del éxito de plataformas basadas en este tipo de apoyo a proyectos. Asimismo, los desafíos más relevantes fueron descubrir las razones de su éxito y lograr predecirlo.
+
+Los autores plantearon utilizar solo el contenido textual de los proyectos (descripción de campaña, actualizaciones, comentarios y palabras obtenidas del video principal) para predecir el estado de financiamiento de proyectos de Tecnología (la categoría con ratio más bajo de éxito de financiamiento y a la vez, con los mayores montos financiados en la plataforma) a través de la creación de una Red Neuronal Profunda.
+
+\subsubsection{Técnicas empleadas por los autores}
+Se diseñó 1 Modelo de Secuencia a Secuencia (Seq2seq) con atención a nivel de oración y 1 Modelo de Atención Jerárquica (HAN).
+
+\subsubsection{Metodología empleada por los autores}
+Se recolectaron 216,136 proyectos de crowdfunding en Kickstarter, lanzados entre abril del 2009 y agosto del 2017. De ellos, se filtraron aquellos de la categoría Tecnología (22,982) para luego separar el conjunto de datos final en 0.80 (entrenamiento), 0.10 (validación) y 0.1 (prueba). Posteriormente, se diseñaron los 2 modelos de NLP, fueron entrenados y se compararon los resultados.
+
+\subsubsection{Resultados obtenidos}
+Ambos modelos fueron evaluados bajo la métrica de exactitud, bajo enfoques de distintos experimentos que alternaban la presencia de las variables. De todos ellos, basado en aquellos que utilizaron todas juntas, el modelo de Seq2seq + atención logró una exactitud de 0.80, mientras que el modelo HAN alcanzó el valor de 0.60.
+
+\subsection{Decimotercer antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep*{pr_jin2019dayssuccess}}
 \citeauthor{pr_jin2019dayssuccess} realizaron un resumen de la conferencia «The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019)» del 27 de enero al 1 de febrero del 2019 en Honolulu, Hawai. Este fue titulado \citetitle{pr_jin2019dayssuccess} la cual traducida al español significa «Estimación de días de éxito de campañas en financiamiento colectivo: Una perspectiva de supervivencia profunda».
 
 \subsubsection{Planteamiento del Problema y objetivo}
@@ -165,7 +223,7 @@ Se recolectó más de 14 mil proyectos de Indiegogo con información estática (
 Respecto a la predicción de distribución de patrocinios, y evaluando mejor con RECM, los modelos propuestos de SMP fueron los más efectivos (0.135 para 70\% de ratio de partición) para el Encoder.
 Respecto a la predicción del tiempo de éxito, los modelos propuestos de SMP (el mejor con 0.96 para 50\% de ratio de partición) fueron mejores que modelos de referencia para el Decoder.
 
-\subsection{Décimo antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep*{pr_cheng2019deeplearning}}
+\subsection{Decimocuarto antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep*{pr_cheng2019deeplearning}}
 \citeauthor{pr_cheng2019deeplearning} realizaron un resumen de la conferencia «The Twenty-Eighth International Joint Conference on Artificial Intelligence (IJCAI-19)» del 10 al 16 de agosto del 2019 en Macao, China. Este fue titulado \citetitle{pr_cheng2019deeplearning} la cual traducida al español significa «Predicción del éxito en financiamiento colectivo con Aprendizaje Profundo Multimodal».
 
 \subsubsection{Planteamiento del Problema y objetivo}
@@ -182,7 +240,7 @@ Se recolectaron más de 20 mil campañas finalizadas (exitosas o fracasadas) en 
 \subsubsection{Resultados obtenidos}
 Realizando una comparación entre la base de referencia de un modelo SVM con texto, imágenes y metadata (SVM-TIM), contra el modelo propuesto (MDL-TIM) por los autores, se observó que bajo todas las métricas, con excepción de la precisión, el marco de trabajo Multimodal obtuvo mejores resultados, con 0.7505 en sensibilidad, 0.7534 en puntaje F1 y 0.8326 en área bajo la curva, frente a 0.7411, 0.7483 y 0.7411 respectivamente.
 
-\subsection{Undécimo antecedente: «Finding the Keywords Affecting the Success of Crowdfunding Projects» \citep*{pr_chen2019keywords_crowdfunding}}
+\subsection{Decimoquinto antecedente: «Finding the Keywords Affecting the Success of Crowdfunding Projects» \citep*{pr_chen2019keywords_crowdfunding}}
 \citeauthor{pr_chen2019keywords_crowdfunding} realizaron un resumen de la conferencia «2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)» del 12 al 15 de abril del 2019 en Tokyo, Japón. Este fue titulado \citetitle{pr_chen2019keywords_crowdfunding} la cual traducida al español significa «Encontrar las palabras clave que influyen en el éxito de los proyectos de financiación colectiva».
 
 \subsubsection{Planteamiento del Problema y objetivo}
@@ -199,82 +257,21 @@ Se recolectaron las descripciones de proyectos de Kickstarter de la categoría �
 \subsubsection{Resultados obtenidos}
 Se realizó hasta dos experimentos manipulando los conjuntos de datos para el SVM-RFE y el mejor resultado fue una exactitud de 78.90\% para predecir el ratio de éxito de un proyecto crowdfunding a partir de 50 palabras claves importantes que se encuentren dentro de su contenido.
 
-\subsection{Duodécimo antecedente: «The Language that Gets People to Give: Phrases that Predict Success on Kickstarter» \citep*{pr_mitra2014phrases}}
-\citeauthor{pr_mitra2014phrases} realizaron un resumen de la conferencia «The 17th ACM conference on Computer supported cooperative work \& social computing (CSCW '14)» del 15 al 19 de febrero del 2014 en Baltimore, Estados Unidos. Este fue titulado \citetitle{pr_mitra2014phrases} la cual traducida al español significa «El lenguaje que hace que la gente dé: Frases que predicen el éxito en Kickstarter».
-
-\subsubsection{Planteamiento del Problema y objetivo}
-Existencia de poco conocimiento sobre los factores que impulsan a financiar proyectos a pesar del crecimiento en los últimos años de plataformas de financiamiento colectivo como Kickstarter.
-
-Los autores elaboraron, ante ello, un modelo para predecir el éxito de financiamiento en proyectos crowdfunding a partir de frases textuales.
-
-\subsubsection{Técnicas empleadas por los autores}
-Se diseñó un modelo de Regresión logística penalizada para proteger contra la colinealidad y escasez que prevalecen en el conjunto de datos de frases.
-
-\subsubsection{Metodología empleada por los autores}
-Se recolectaron 45,815 proyectos de Kickstarter del 2012. A continuación, se realizó limpieza de datos eliminando campañas inconclusas y con esto se procedió a extraer la información textual (descripción y recompensas del proyecto). El siguiente paso fue la generación del cuerpo de más de 9 millones de frases únicas, de las cuales quedaron 20,391 frases que aparecen al menos 50 veces en todos los proyectos. Finalmente, se creó el modelo predictivo para encontrar las frases que determinen que un proyecto será financiado y aquellas que determinen lo contrario.
-
-\subsubsection{Resultados obtenidos}
-De las 59 variables de control que no son texto, 29 que tenían «valores aceptables» tenían pesos positivos. 15 variables fueron consideradas para proyectos que serán financiados, mientras que 14 para los que no. Se obtuvo un Top 100 de frases que tenían pesos positivos (proyectos que sí serán financiados), así como también para aquellas con pesos negativos (proyectos que no serán financiados).
-El ratio de error del modelo propuesto (variables de control más frases) fue de 2.24.
-
-\subsection{Decimotercer antecedente: «Using Language to Predict Kickstarter Success» \citep*{pr_sawhney2016usingLT}}
-\citeauthor{pr_sawhney2016usingLT} realizaron la publicación «Using Language to Predict Kickstarter Success» para el Departamento de Ciencia de la Computación de la Universidad Standford. Este fue titulado \citetitle{pr_sawhney2016usingLT} la cual traducida al español significa «Uso del lenguaje para predecir el éxito de Kickstarter».
-
-\subsubsection{Planteamiento del Problema y objetivo}
-Dada la considerable cantidad de investigaciones y trabajos de predicción de éxito financiamiento de proyectos basados en la evolución de variables estáticas, los autores construyeron un clasificador binario que logre predecir el éxito de una campaña a partir de su contenido, características lingüísticas y metadata.
-
-\subsubsection{Técnicas empleadas por los autores}
-Los autores utilizaron el Clasificador de Naive Bayes para las características primarias, Parts-of-Speech Tagging (POS), legibilidad Flesch-Kincaid, y Máquina de Vectores de Soporte (SVM) para los conjuntos de entrenamiento y prueba.
-
-\subsubsection{Metodología empleada por los autores}
-Se recolectaron más de 160 mil proyectos de Kickstarter, separando en proporciones de 0.80/0.20 los subconjuntos de entrenamiento y prueba respectivamente. A continuación, recopilaron las características primarias y se realizó un análisis de sentimientos. Luego, asignaron las meta-características para utilizarlos como entradas durante el entrenamiento de los modelos. Finalmente, estos últimos fueron calibrados y se probaron con el subconjunto de prueba para finalmente ser evaluados.
-
-\subsubsection{Resultados obtenidos}
-Considerando el modelo solo con las características primarias, el nivel de exactitud alcanzó 0.65. Sin embargo, utilizando el clasificador entrenado con SVM, el valor de la exactitud logró llegar hasta 0.92.
-
-\subsection{Decimocuarto antecedente: «KickPredict: Predicting Kickstarter Success» \citep*{pr_chen2013kickpredict}}
-\citeauthor{pr_chen2013kickpredict} realizaron la publicación «KickPredict: Predicting Kickstarter Success» para el Departamento de Ciencias Computacionales y Matemáticas del Instituto de Tecnología de California. Este fue titulado \citetitle{pr_chen2013kickpredict} la cual traducida al español significa «KickPredict: Predicción del éxito de Kickstarter».
-
-\subsubsection{Planteamiento del Problema y objetivo}
-Ante la cantidad considerable de proyectos en Kickstarter que fracasan en financiarse debido a los datos colocados por sus creadores, los autores desarrollaron un sistema predictor de estado de financiamiento de un proyecto a partir de la obtención de las variables más importantes, tanto internas como de fuentes externas (YouTube y Twitter).
-
-\subsubsection{Técnicas empleadas por los autores}
-Para el sistema propuesto, se utilizaron Máquinas de Vectores de Soporte (SVM) entrenadas con cada combinatoria posible de las variables del conjunto de datos.
-
-\subsubsection{Metodología empleada por los autores}
-Se recolectaron 20 mil proyectos completados, es decir, cuyo estado de financiamiento fue exitoso o fracasado. De esta cantidad, el 95\% fue destinado al subconjunto de entrenamiento. Después, se utilizó un algoritmo clasificador binario estándar para identificar las variables más importantes. Por último, se desarrolló una aplicación en Android y una extensión en Google Chrome para usar en proyectos nuevos de Kickstarter.
-
-\subsubsection{Resultados obtenidos}
-Las 4 variables más importantes encontradas del algoritmo clasificador fueron el número de proyectos patrocinados por el creador, número de proyectos creados por el creador, si presenta o no video, monto de la meta del proyecto. Evaluando el modelo con la métrica de exactitud, se alcanzó el valor de 0.90 al 40\% de transcurrida la duración de la campaña.
-
-\subsection{Decimoquinto antecedente: «Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter» \citep*{pr_chaichi2019nlp_3dprinting}}
+\subsection{Decimosexto antecedente: «Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter» \citep*{pr_chaichi2019nlp_3dprinting}}
 \citeauthor{pr_chaichi2019nlp_3dprinting} realizaron un resumen de la conferencia «2019 Portland International Conference on Management of Engineering and Technology (PICMET)» del 25 al 29 de agosto del 2019 en Portland, Estados Unidos. Este fue titulado \citetitle{pr_chaichi2019nlp_3dprinting} la cual traducida al español significa «Implementación del procesamiento del lenguaje natural para extraer características clave del producto de las campañas de crowdfunding: el caso de las tecnologías de impresión 3D en Kickstarter».
 
 \subsubsection{Planteamiento del Problema y objetivo}
-
-
-\subsubsection{Técnicas empleadas por los autores}
-
-\subsubsection{Metodología empleada por los autores}
-
-\subsubsection{Resultados obtenidos}
-
-\subsection{Decimosexto antecedente: «Content-based Success Prediction of Crowdfunding Campaigns: A Deep	Learning Approach» \citep*{pr_lee2018contentDL}}
-\citeauthor{pr_lee2018contentDL} realizaron un resumen de la conferencia «Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing» del 3 al 7 de noviembre del 2018 en Jersey City, Estados Unidos. Este fue titulado \citetitle{pr_lee2018contentDL} la cual traducida al español significa «Predicción de éxito basada en contenido de campañas de crowdfunding: un enfoque de Aprendizaje Profundo».
-
-\subsubsection{Planteamiento del Problema y objetivo}
-El ratio promedio de éxito de financiamiento colectivo ha ido decreciendo en los últimos años a pesar del éxito de plataformas basadas en este tipo de apoyo a proyectos. Asimismo, los desafíos más relevantes fueron descubrir las razones de su éxito y lograr predecirlo.
-
-Los autores plantearon utilizar solo el contenido textual de los proyectos (descripción de campaña, actualizaciones, comentarios y palabras obtenidas del video principal) para predecir el estado de financiamiento de proyectos de Tecnología (la categoría con ratio más bajo de éxito de financiamiento y a la vez, con los mayores montos financiados en la plataforma) a través de la creación de una Red Neuronal Profunda.
+Debido a la dificultad para predecir éxito de campañas en Kickstarter a partir de información textual (data no estructurada), los autores propusieron predecir éxito de campañas de proyectos de impresión 3D en Kickstarter a partir de la extracción de características de producto a partir de información textual como título, resumen y descripción.
 
 \subsubsection{Técnicas empleadas por los autores}
-Se diseñó 1 Modelo de Secuencia a Secuencia (Seq2seq) con atención a nivel de oración y 1 Modelo de Atención Jerárquica (HAN).
+Para ello, principalmente usaron paquetes UDPipe y técnicas de extracción de palabras clave como TextRank R.
 
 \subsubsection{Metodología empleada por los autores}
-Se recolectaron 216,136 proyectos de crowdfunding en Kickstarter, lanzados entre abril del 2009 y agosto del 2017. De ellos, se filtraron aquellos de la categoría Tecnología (22,982) para luego separar el conjunto de datos final en 0.80 (entrenamiento), 0.10 (validación) y 0.1 (prueba). Posteriormente, se diseñaron los 2 modelos de NLP, fueron entrenados y se compararon los resultados.
+Se extrajo contenido textual (incluyendo título, resumen y descripción de campaña) de 528 proyectos de tecnología que contenían las palabras «3d printer» (impresora 3D) recopilados en Septiembre del 2017 usando la herramienta Selenium, de los cuales al eliminar aquellos que no contenían estas 3 variables textuales y algunos duplicados, quedaron finalmente 246 proyectos. El siguiente paso consistió en pre-procesar la data con algunas librerías de Python, incluyendo el paquete de R UDPipe, para armar el corpus final. UDPipe permitió generar segmentación de oraciones, tokenización, etiquetado POS (Part Of Speech), lematización, árboles de análisis de dependencia y colocaciones (palabras que continúan a otra). A continuación, se usó el algoritmo basado en grafos TextRank para extraer palabras claves, así como la técnica no supervisada RAKE (Extracción automática rápida de palabras clave) para extraer frases clave. Se probaron, además, otras tres técnicas más.
+Finalmente, los resultados de las 6 técnicas para extraer frases claves fueron comparados y se llegaron a conclusiones basadas en las similitudes entre estas.
 
 \subsubsection{Resultados obtenidos}
-Ambos modelos fueron evaluados bajo la métrica de exactitud, bajo enfoques de distintos experimentos que alternaban la presencia de las variables. De todos ellos, basado en aquellos que utilizaron todas juntas, el modelo de Seq2seq + atención logró una exactitud de 0.80, mientras que el modelo HAN alcanzó el valor de 0.60.
+Se encontraron palabras con mayor frecuencia según cada una de las 6 técnicas de extracción de palabras clave, ilustradas en nubes de palabras, como por ejemplo relacionadas a disponibilidad, buenas características y precios cómodos de impresoras 3D. También se observaron 2 problemas: no todas las palabras con mayor frecuencia son características del producto, y ambigüedad de algunas palabras.
 
 \subsection{Decimoséptimo antecedente: «Topic Predictions and Optimized Recommendation	Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms» \citep*{pr_shafqat2019topicpredictions}}
 \citeauthor{pr_shafqat2019topicpredictions} realizaron un artículo de investigación el cual fue publicado en la revista «Applied Sciences» en el año 2019. Este fue titulado \citetitle{pr_shafqat2019topicpredictions} la cual traducida al español significa «Predicciones de temas y mecanismo de recomendación optimizado basado en modelos integrados de temas y redes neuronales profundas en plataformas de financiación colectiva».

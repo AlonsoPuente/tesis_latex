@@ -4,35 +4,35 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Resultados y ratios obtenidos en la encuesta por GEM y ESAN. Fuente: \cite {cr_gestion2018emprend}\relax }}{18}{figure.caption.5}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Ratio de éxito de proyectos en Kickstarter desde 2009 hasta 2019 (Febrero). Fuente: \cite {cr_hustle2019successrate}\relax }}{20}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de algoritmo de regresión. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{49}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Ejemplo de algoritmo de clasificación. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{49}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite {tec_sancho2018supnosup}\relax }}{50}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de algoritmo de regresión. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{50}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ejemplo de algoritmo de clasificación. Fuente: \cite {bk_zambrano2018supnosup}\relax }}{50}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite {tec_sancho2018supnosup}\relax }}{51}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Funcionamiento del algoritmo de K medias. Fuente: \cite {tec_sancho2018supnosup}\relax }}{52}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Componentes del Aprendizaje por Refuerzo. Fuente: \cite {bk_sutton2018rl}\relax }}{52}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diferencia entre Aprendizaje Automático y Aprendizaje Profundo. Fuente: \cite {tec_cook2018deeplearning}\relax }}{53}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Componentes del Aprendizaje por Refuerzo. Fuente: \cite {bk_sutton2018rl}\relax }}{53}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diferencia entre Aprendizaje Automático y Aprendizaje Profundo. Fuente: \cite {tec_cook2018deeplearning}\relax }}{54}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Diagrama de los seis pasos básicos. Fuente: \cite {gl_microsoft2019datamining}\relax }}{55}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Fases de la metodología CRISP-DM. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{56}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Fases de la metodología SEMMA. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{57}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Fases de la metodología KDD. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{57}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Modelo para representar una neurona propuesto por McCulloch y Pitts (1943). Fuente: \cite {bk_russell2004intart}\relax }}{59}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Nodos con funciones de activación umbral en forma de puertas lógicas. Fuente: \cite {bk_russell2004intart}\relax }}{60}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Función de activación sigmoide. Fuente: \cite {pr_dorofki2012ann}\relax }}{61}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Ilustración del algoritmo gradiente descendiente. Fuente: \cite {tec_sancho2017descentgrad}\relax }}{62}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Actualización de pesos W con el algoritmo. Fuente: \cite {gl_iartificial2019descentgrad}\relax }}{63}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Capa oculta simple MLP con propagación hacia atrás. Fuente: \cite {gl_iartificial2019descentgrad}\relax }}{64}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Fases de la metodología KDD. Fuente: \cite {tec_braulio2015metodologiasdm}\relax }}{58}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Modelo para representar una neurona propuesto por McCulloch y Pitts (1943). Fuente: \cite {bk_russell2004intart}\relax }}{60}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Nodos con funciones de activación umbral en forma de puertas lógicas. Fuente: \cite {bk_russell2004intart}\relax }}{61}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Función de activación sigmoide. Fuente: \cite {pr_dorofki2012ann}\relax }}{62}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Ilustración del algoritmo gradiente descendiente. Fuente: \cite {tec_sancho2017descentgrad}\relax }}{63}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Actualización de pesos W con el algoritmo. Fuente: \cite {gl_iartificial2019descentgrad}\relax }}{64}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Capa oculta simple MLP con propagación hacia atrás. Fuente: \cite {gl_iartificial2019descentgrad}\relax }}{65}{figure.caption.40}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Redes neuronales de ejemplo. Fuente: \cite {gl_ansrw2019backpropagation}\relax }}{65}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Función de activación tangente hiperbólica. Fuente: \cite {pr_dorofki2012ann}\relax }}{66}{figure.caption.50}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Función de activación puramente lineal. Fuente: \cite {pr_dorofki2012ann}\relax }}{67}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Función de activación tangente hiperbólica. Fuente: \cite {pr_dorofki2012ann}\relax }}{67}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Función de activación puramente lineal. Fuente: \cite {pr_dorofki2012ann}\relax }}{68}{figure.caption.53}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Función de activación Unidad Lineal Rectificada. Fuente: \cite {gl_mlfa2019redesneuronales}\relax }}{68}{figure.caption.56}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Ejemplo de perceptrón simple. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{68}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Ejemplo de perceptrón simple. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{69}{figure.caption.57}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces Ejemplo de perceptrón multicapa. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{69}{figure.caption.58}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Ejemplo de red neuronal convolucional. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{69}{figure.caption.59}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Modelo Neocognitron de Fukushima (1980). Fuente: \cite {tec_li2019cnn}\relax }}{70}{figure.caption.60}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Modelo LeNet-5 de LeCun (1998). Fuente: \cite {tec_li2019cnn}\relax }}{70}{figure.caption.60}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Ejemplo de red neuronal convolucional. Fuente: \cite {gl_calvo2017clasifrna}\relax }}{70}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Modelo Neocognitron de Fukushima (1980). Fuente: \cite {tec_li2019cnn}\relax }}{71}{figure.caption.60}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Modelo LeNet-5 de LeCun (1998). Fuente: \cite {tec_li2019cnn}\relax }}{71}{figure.caption.60}%
 \contentsline {figure}{\numberline {2.26}{\ignorespaces Ejecución de la convolución en una entrada. Fuente: \cite {tec_lopez2016cnnTF}\relax }}{71}{figure.caption.63}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Generación de una nueva imagen a partir de filtros. Fuente: \cite {tec_li2019cnn}\relax }}{71}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Generación de una nueva imagen a partir de filtros. Fuente: \cite {tec_li2019cnn}\relax }}{72}{figure.caption.64}%
 \contentsline {figure}{\numberline {2.28}{\ignorespaces Secuencia de varias capas convolucionales. Fuente: \cite {tec_li2019cnn}\relax }}{72}{figure.caption.65}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Extracción de características a partir de convoluciones. Fuente: \cite {tec_li2019cnn}\relax }}{72}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Extracción de características a partir de convoluciones. Fuente: \cite {tec_li2019cnn}\relax }}{73}{figure.caption.66}%
 \contentsline {figure}{\numberline {2.30}{\ignorespaces Ejemplo de matriz de imagen de entrada y un filtro. Fuente: \cite {tec_prabhu2018cnn}\relax }}{73}{figure.caption.69}%
 \contentsline {figure}{\numberline {2.31}{\ignorespaces Dimensiones de una entrada y un filtro. Fuente: \cite {tec_li2019cnn}\relax }}{74}{figure.caption.72}%
 \contentsline {figure}{\numberline {2.32}{\ignorespaces Paso de 2 píxeles por parte de un filtro. Fuente: \cite {tec_prabhu2018cnn}\relax }}{74}{figure.caption.72}%
@@ -40,72 +40,72 @@
 \contentsline {figure}{\numberline {2.34}{\ignorespaces Arquitectura completa de una CNN. Fuente: \cite {tec_prabhu2018cnn}\relax }}{75}{figure.caption.74}%
 \contentsline {figure}{\numberline {2.35}{\ignorespaces Ejemplo de red neuronal recurrente. Fuente: \cite {gl_calvo2018rnn}\relax }}{76}{figure.caption.75}%
 \contentsline {figure}{\numberline {2.36}{\ignorespaces Hiperplano con dos clases separadas por una distancia m. Fuente: \cite {tec_betancourt2005svm}\relax }}{76}{figure.caption.76}%
-\contentsline {figure}{\numberline {2.37}{\ignorespaces Ejemplo de caso linealmente separable. Fuente: \cite {tec_betancourt2005svm}\relax }}{77}{figure.caption.77}%
-\contentsline {figure}{\numberline {2.38}{\ignorespaces Ejemplo de caso no linealmente separable. Fuente: \cite {tec_betancourt2005svm}\relax }}{77}{figure.caption.77}%
-\contentsline {figure}{\numberline {2.39}{\ignorespaces Aplicación de un kernel para transformar el espacio de los datos. Fuente: \cite {tec_betancourt2005svm}\relax }}{77}{figure.caption.80}%
-\contentsline {figure}{\numberline {2.40}{\ignorespaces Ejemplo del algoritmo de árbol de decisión. Fuente: \cite {bk_russell2004intart}\relax }}{78}{figure.caption.81}%
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Ejemplo de caso linealmente separable. Fuente: \cite {tec_betancourt2005svm}\relax }}{78}{figure.caption.77}%
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Ejemplo de caso no linealmente separable. Fuente: \cite {tec_betancourt2005svm}\relax }}{78}{figure.caption.77}%
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Aplicación de un kernel para transformar el espacio de los datos. Fuente: \cite {tec_betancourt2005svm}\relax }}{79}{figure.caption.80}%
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Ejemplo del algoritmo de árbol de decisión. Fuente: \cite {bk_russell2004intart}\relax }}{79}{figure.caption.81}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Marco de trabajo del prototipo final. Fuente: Elaboración propia\relax }}{86}{figure.caption.82}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{89}{figure.caption.84}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Marco de trabajo del prototipo final. Fuente: Elaboración propia\relax }}{87}{figure.caption.82}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{90}{figure.caption.84}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Vista (agosto 2019) del website Web Robots. Fuente: \cite {ot_webrobots2019kickstarter}\relax }}{91}{figure.caption.85}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.\relax }}{91}{figure.caption.86}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.\relax }}{92}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.\relax }}{93}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.\relax }}{94}{figure.caption.89}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.\relax }}{96}{figure.caption.91}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.\relax }}{96}{figure.caption.92}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.\relax }}{97}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.\relax }}{98}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.\relax }}{98}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.\relax }}{99}{figure.caption.96}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.\relax }}{99}{figure.caption.97}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.\relax }}{100}{figure.caption.98}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Distribución de categorías de tecnología. Fuente: Elaboración propia.\relax }}{101}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Distribución de países. Fuente: Elaboración propia.\relax }}{101}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Distribución de divisa del monto patrocinado. Fuente: Elaboración propia\relax }}{101}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.\relax }}{102}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de caja y bigote de meta. Fuente: Elaboración propia.\relax }}{102}{figure.caption.101}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.\relax }}{103}{figure.caption.102}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de caja y bigote de duración. Fuente: Elaboración propia.\relax }}{103}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{104}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{104}{figure.caption.105}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{105}{figure.caption.106}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{106}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Nube de palabras de descripciones. Fuente: Elaboración propia.\relax }}{106}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.\relax }}{107}{figure.caption.109}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{107}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.\relax }}{108}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Nube de palabras de comentarios por unidades más frecuentes. Fuente: Elaboración propia.\relax }}{109}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Nube de palabras de comentarios por unidades o parejas más frecuentes. Fuente: Elaboración propia.\relax }}{109}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.\relax }}{110}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.\relax }}{112}{figure.caption.115}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{112}{figure.caption.116}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{113}{figure.caption.117}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.\relax }}{114}{figure.caption.118}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.\relax }}{116}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.\relax }}{116}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.\relax }}{117}{figure.caption.120}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.\relax }}{117}{figure.caption.121}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.\relax }}{118}{figure.caption.122}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Arquitectura del modelo apilado final. Fuente: Elaboración propia.\relax }}{119}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Vista (agosto 2019) del website Web Robots. Fuente: \cite {ot_webrobots2019kickstarter}\relax }}{92}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.\relax }}{92}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.\relax }}{93}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.\relax }}{94}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.\relax }}{95}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.\relax }}{97}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.\relax }}{97}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.\relax }}{98}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.\relax }}{99}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.\relax }}{99}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.\relax }}{100}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.\relax }}{100}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.\relax }}{101}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Distribución de categorías de tecnología. Fuente: Elaboración propia.\relax }}{102}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Distribución de países. Fuente: Elaboración propia.\relax }}{102}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Distribución de divisa del monto patrocinado. Fuente: Elaboración propia\relax }}{102}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.\relax }}{103}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de caja y bigote de meta. Fuente: Elaboración propia.\relax }}{103}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.\relax }}{104}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de caja y bigote de duración. Fuente: Elaboración propia.\relax }}{104}{figure.caption.103}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{105}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{105}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{106}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{107}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Nube de palabras de descripciones. Fuente: Elaboración propia.\relax }}{107}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.\relax }}{108}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{108}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.\relax }}{109}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Nube de palabras de comentarios por unidades más frecuentes. Fuente: Elaboración propia.\relax }}{110}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Nube de palabras de comentarios por unidades o parejas más frecuentes. Fuente: Elaboración propia.\relax }}{110}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.\relax }}{111}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.\relax }}{113}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{113}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{114}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.\relax }}{115}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.\relax }}{117}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.\relax }}{117}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.\relax }}{118}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.\relax }}{118}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.\relax }}{119}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Arquitectura del modelo apilado final. Fuente: Elaboración propia.\relax }}{120}{figure.caption.123}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{121}{figure.caption.124}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{121}{figure.caption.124}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.\relax }}{122}{figure.caption.125}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Área bajo la curva de modelo de metadata. Fuente: Elaboración propia.\relax }}{122}{figure.caption.127}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{123}{figure.caption.128}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{123}{figure.caption.128}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{124}{figure.caption.129}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Área bajo la curva de modelo de descripciones. Fuente: Elaboración propia.\relax }}{125}{figure.caption.131}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{126}{figure.caption.132}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{126}{figure.caption.132}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{127}{figure.caption.133}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.\relax }}{127}{figure.caption.135}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{128}{figure.caption.136}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{128}{figure.caption.136}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.\relax }}{129}{figure.caption.137}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Área bajo la curva de modelo apilado. Fuente: Elaboración propia.\relax }}{130}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{122}{figure.caption.124}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{122}{figure.caption.124}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.\relax }}{123}{figure.caption.125}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Área bajo la curva de modelo de metadata. Fuente: Elaboración propia.\relax }}{123}{figure.caption.127}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{124}{figure.caption.128}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{124}{figure.caption.128}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{125}{figure.caption.129}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Área bajo la curva de modelo de descripciones. Fuente: Elaboración propia.\relax }}{126}{figure.caption.131}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{127}{figure.caption.132}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{127}{figure.caption.132}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{128}{figure.caption.133}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.\relax }}{128}{figure.caption.135}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{129}{figure.caption.136}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{129}{figure.caption.136}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.\relax }}{130}{figure.caption.137}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Área bajo la curva de modelo apilado. Fuente: Elaboración propia.\relax }}{131}{figure.caption.139}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

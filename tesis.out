@@ -23,12 +23,12 @@
 \BOOKMARK [2][-]{subsection.1.6.3}{Matriz de Consistencia}{section.1.6}% 23
 \BOOKMARK [0][-]{chapter.2}{MARCO TE\323RICO}{}% 24
 \BOOKMARK [1][-]{section.2.1}{Antecedentes de la investigaci\363n}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.1.1}{Primer antecedente: \253Supervised Learning Model For Kickstarter Campaigns With R Mining\273 *prkamath2018suplearn}{section.2.1}% 26
+\BOOKMARK [2][-]{subsection.2.1.1}{Primer antecedente: \253KickPredict: Predicting Kickstarter Success\273 *prchen2013kickpredict}{section.2.1}% 26
 \BOOKMARK [3][-]{subsubsection.2.1.1.1}{Planteamiento del Problema y objetivo}{subsection.2.1.1}% 27
 \BOOKMARK [3][-]{subsubsection.2.1.1.2}{T\351cnicas empleadas por los autores}{subsection.2.1.1}% 28
 \BOOKMARK [3][-]{subsubsection.2.1.1.3}{Metodolog\355a empleada por los autores}{subsection.2.1.1}% 29
 \BOOKMARK [3][-]{subsubsection.2.1.1.4}{Resultados obtenidos}{subsection.2.1.1}% 30
-\BOOKMARK [2][-]{subsection.2.1.2}{Segundo antecedente: \253Predicting Success in Equity Crowdfunding\273 *prbeckwith2016predcrowd}{section.2.1}% 31
+\BOOKMARK [2][-]{subsection.2.1.2}{Segundo antecedente: \253The Language that Gets People to Give: Phrases that Predict Success on Kickstarter\273 *prmitra2014phrases}{section.2.1}% 31
 \BOOKMARK [3][-]{subsubsection.2.1.2.1}{Planteamiento del Problema y objetivo}{subsection.2.1.2}% 32
 \BOOKMARK [3][-]{subsubsection.2.1.2.2}{T\351cnicas empleadas por los autores}{subsection.2.1.2}% 33
 \BOOKMARK [3][-]{subsubsection.2.1.2.3}{Metodolog\355a empleada por los autores}{subsection.2.1.2}% 34
@@ -38,12 +38,12 @@
 \BOOKMARK [3][-]{subsubsection.2.1.3.2}{T\351cnicas empleadas por los autores}{subsection.2.1.3}% 38
 \BOOKMARK [3][-]{subsubsection.2.1.3.3}{Metodolog\355a empleada por los autores}{subsection.2.1.3}% 39
 \BOOKMARK [3][-]{subsubsection.2.1.3.4}{Resultados obtenidos}{subsection.2.1.3}% 40
-\BOOKMARK [2][-]{subsection.2.1.4}{Cuarto antecedente: \253The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach\273 *pryuan2016textanalytics}{section.2.1}% 41
+\BOOKMARK [2][-]{subsection.2.1.4}{Cuarto antecedente: \253Will your Project get the Green light? Predicting the success of crowdfunding campaigns\273 *prchen2015predcrowd}{section.2.1}% 41
 \BOOKMARK [3][-]{subsubsection.2.1.4.1}{Planteamiento del Problema y objetivo}{subsection.2.1.4}% 42
 \BOOKMARK [3][-]{subsubsection.2.1.4.2}{T\351cnicas empleadas por los autores}{subsection.2.1.4}% 43
 \BOOKMARK [3][-]{subsubsection.2.1.4.3}{Metodolog\355a empleada por los autores}{subsection.2.1.4}% 44
 \BOOKMARK [3][-]{subsubsection.2.1.4.4}{Resultados obtenidos}{subsection.2.1.4}% 45
-\BOOKMARK [2][-]{subsection.2.1.5}{Quinto antecedente: \253Will your Project get the Green light? Predicting the success of crowdfunding campaigns\273 *prchen2015predcrowd}{section.2.1}% 46
+\BOOKMARK [2][-]{subsection.2.1.5}{Quinto antecedente: \253Predicting Success in Equity Crowdfunding\273 *prbeckwith2016predcrowd}{section.2.1}% 46
 \BOOKMARK [3][-]{subsubsection.2.1.5.1}{Planteamiento del Problema y objetivo}{subsection.2.1.5}% 47
 \BOOKMARK [3][-]{subsubsection.2.1.5.2}{T\351cnicas empleadas por los autores}{subsection.2.1.5}% 48
 \BOOKMARK [3][-]{subsubsection.2.1.5.3}{Metodolog\355a empleada por los autores}{subsection.2.1.5}% 49
@@ -53,52 +53,52 @@
 \BOOKMARK [3][-]{subsubsection.2.1.6.2}{T\351cnicas empleadas por los autores}{subsection.2.1.6}% 53
 \BOOKMARK [3][-]{subsubsection.2.1.6.3}{Metodolog\355a empleada por los autores}{subsection.2.1.6}% 54
 \BOOKMARK [3][-]{subsubsection.2.1.6.4}{Resultados obtenidos}{subsection.2.1.6}% 55
-\BOOKMARK [2][-]{subsection.2.1.7}{S\351ptimo antecedente: \253Effect of Social Media Connectivity on Success of Crowdfunding Campaigns\273 *prkaur2017socmedcrowd}{section.2.1}% 56
+\BOOKMARK [2][-]{subsection.2.1.7}{S\351ptimo antecedente: \253The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach\273 *pryuan2016textanalytics}{section.2.1}% 56
 \BOOKMARK [3][-]{subsubsection.2.1.7.1}{Planteamiento del Problema y objetivo}{subsection.2.1.7}% 57
 \BOOKMARK [3][-]{subsubsection.2.1.7.2}{T\351cnicas empleadas por los autores}{subsection.2.1.7}% 58
 \BOOKMARK [3][-]{subsubsection.2.1.7.3}{Metodolog\355a empleada por los autores}{subsection.2.1.7}% 59
 \BOOKMARK [3][-]{subsubsection.2.1.7.4}{Resultados obtenidos}{subsection.2.1.7}% 60
-\BOOKMARK [2][-]{subsection.2.1.8}{Octavo antecedente: \253Prediction of Crowdfunding Project Success with Deep Learning\273 *pryu2018deeplearning}{section.2.1}% 61
+\BOOKMARK [2][-]{subsection.2.1.8}{Octavo antecedente: \253Using Language to Predict Kickstarter Success\273 *prsawhney2016usingLT}{section.2.1}% 61
 \BOOKMARK [3][-]{subsubsection.2.1.8.1}{Planteamiento del Problema y objetivo}{subsection.2.1.8}% 62
 \BOOKMARK [3][-]{subsubsection.2.1.8.2}{T\351cnicas empleadas por los autores}{subsection.2.1.8}% 63
 \BOOKMARK [3][-]{subsubsection.2.1.8.3}{Metodolog\355a empleada por los autores}{subsection.2.1.8}% 64
 \BOOKMARK [3][-]{subsubsection.2.1.8.4}{Resultados obtenidos}{subsection.2.1.8}% 65
-\BOOKMARK [2][-]{subsection.2.1.9}{Noveno antecedente: \253Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective\273 *prjin2019dayssuccess}{section.2.1}% 66
+\BOOKMARK [2][-]{subsection.2.1.9}{Noveno antecedente: \253Effect of Social Media Connectivity on Success of Crowdfunding Campaigns\273 *prkaur2017socmedcrowd}{section.2.1}% 66
 \BOOKMARK [3][-]{subsubsection.2.1.9.1}{Planteamiento del Problema y objetivo}{subsection.2.1.9}% 67
 \BOOKMARK [3][-]{subsubsection.2.1.9.2}{T\351cnicas empleadas por los autores}{subsection.2.1.9}% 68
 \BOOKMARK [3][-]{subsubsection.2.1.9.3}{Metodolog\355a empleada por los autores}{subsection.2.1.9}% 69
 \BOOKMARK [3][-]{subsubsection.2.1.9.4}{Resultados obtenidos}{subsection.2.1.9}% 70
-\BOOKMARK [2][-]{subsection.2.1.10}{D\351cimo antecedente: \253Success Prediction on Crowdfunding with Multimodal Deep Learning\273 *prcheng2019deeplearning}{section.2.1}% 71
+\BOOKMARK [2][-]{subsection.2.1.10}{D\351cimo antecedente: \253Supervised Learning Model For Kickstarter Campaigns With R Mining\273 *prkamath2018suplearn}{section.2.1}% 71
 \BOOKMARK [3][-]{subsubsection.2.1.10.1}{Planteamiento del Problema y objetivo}{subsection.2.1.10}% 72
 \BOOKMARK [3][-]{subsubsection.2.1.10.2}{T\351cnicas empleadas por los autores}{subsection.2.1.10}% 73
 \BOOKMARK [3][-]{subsubsection.2.1.10.3}{Metodolog\355a empleada por los autores}{subsection.2.1.10}% 74
 \BOOKMARK [3][-]{subsubsection.2.1.10.4}{Resultados obtenidos}{subsection.2.1.10}% 75
-\BOOKMARK [2][-]{subsection.2.1.11}{Und\351cimo antecedente: \253Finding the Keywords Affecting the Success of Crowdfunding Projects\273 *prchen2019keywordscrowdfunding}{section.2.1}% 76
+\BOOKMARK [2][-]{subsection.2.1.11}{Und\351cimo antecedente: \253Prediction of Crowdfunding Project Success with Deep Learning\273 *pryu2018deeplearning}{section.2.1}% 76
 \BOOKMARK [3][-]{subsubsection.2.1.11.1}{Planteamiento del Problema y objetivo}{subsection.2.1.11}% 77
 \BOOKMARK [3][-]{subsubsection.2.1.11.2}{T\351cnicas empleadas por los autores}{subsection.2.1.11}% 78
 \BOOKMARK [3][-]{subsubsection.2.1.11.3}{Metodolog\355a empleada por los autores}{subsection.2.1.11}% 79
 \BOOKMARK [3][-]{subsubsection.2.1.11.4}{Resultados obtenidos}{subsection.2.1.11}% 80
-\BOOKMARK [2][-]{subsection.2.1.12}{Duod\351cimo antecedente: \253The Language that Gets People to Give: Phrases that Predict Success on Kickstarter\273 *prmitra2014phrases}{section.2.1}% 81
+\BOOKMARK [2][-]{subsection.2.1.12}{Duod\351cimo antecedente: \253Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach\273 *prlee2018contentDL}{section.2.1}% 81
 \BOOKMARK [3][-]{subsubsection.2.1.12.1}{Planteamiento del Problema y objetivo}{subsection.2.1.12}% 82
 \BOOKMARK [3][-]{subsubsection.2.1.12.2}{T\351cnicas empleadas por los autores}{subsection.2.1.12}% 83
 \BOOKMARK [3][-]{subsubsection.2.1.12.3}{Metodolog\355a empleada por los autores}{subsection.2.1.12}% 84
 \BOOKMARK [3][-]{subsubsection.2.1.12.4}{Resultados obtenidos}{subsection.2.1.12}% 85
-\BOOKMARK [2][-]{subsection.2.1.13}{Decimotercer antecedente: \253Using Language to Predict Kickstarter Success\273 *prsawhney2016usingLT}{section.2.1}% 86
+\BOOKMARK [2][-]{subsection.2.1.13}{Decimotercer antecedente: \253Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective\273 *prjin2019dayssuccess}{section.2.1}% 86
 \BOOKMARK [3][-]{subsubsection.2.1.13.1}{Planteamiento del Problema y objetivo}{subsection.2.1.13}% 87
 \BOOKMARK [3][-]{subsubsection.2.1.13.2}{T\351cnicas empleadas por los autores}{subsection.2.1.13}% 88
 \BOOKMARK [3][-]{subsubsection.2.1.13.3}{Metodolog\355a empleada por los autores}{subsection.2.1.13}% 89
 \BOOKMARK [3][-]{subsubsection.2.1.13.4}{Resultados obtenidos}{subsection.2.1.13}% 90
-\BOOKMARK [2][-]{subsection.2.1.14}{Decimocuarto antecedente: \253KickPredict: Predicting Kickstarter Success\273 *prchen2013kickpredict}{section.2.1}% 91
+\BOOKMARK [2][-]{subsection.2.1.14}{Decimocuarto antecedente: \253Success Prediction on Crowdfunding with Multimodal Deep Learning\273 *prcheng2019deeplearning}{section.2.1}% 91
 \BOOKMARK [3][-]{subsubsection.2.1.14.1}{Planteamiento del Problema y objetivo}{subsection.2.1.14}% 92
 \BOOKMARK [3][-]{subsubsection.2.1.14.2}{T\351cnicas empleadas por los autores}{subsection.2.1.14}% 93
 \BOOKMARK [3][-]{subsubsection.2.1.14.3}{Metodolog\355a empleada por los autores}{subsection.2.1.14}% 94
 \BOOKMARK [3][-]{subsubsection.2.1.14.4}{Resultados obtenidos}{subsection.2.1.14}% 95
-\BOOKMARK [2][-]{subsection.2.1.15}{Decimoquinto antecedente: \253Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter\273 *prchaichi2019nlp3dprinting}{section.2.1}% 96
+\BOOKMARK [2][-]{subsection.2.1.15}{Decimoquinto antecedente: \253Finding the Keywords Affecting the Success of Crowdfunding Projects\273 *prchen2019keywordscrowdfunding}{section.2.1}% 96
 \BOOKMARK [3][-]{subsubsection.2.1.15.1}{Planteamiento del Problema y objetivo}{subsection.2.1.15}% 97
 \BOOKMARK [3][-]{subsubsection.2.1.15.2}{T\351cnicas empleadas por los autores}{subsection.2.1.15}% 98
 \BOOKMARK [3][-]{subsubsection.2.1.15.3}{Metodolog\355a empleada por los autores}{subsection.2.1.15}% 99
 \BOOKMARK [3][-]{subsubsection.2.1.15.4}{Resultados obtenidos}{subsection.2.1.15}% 100
-\BOOKMARK [2][-]{subsection.2.1.16}{Decimosexto antecedente: \253Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach\273 *prlee2018contentDL}{section.2.1}% 101
+\BOOKMARK [2][-]{subsection.2.1.16}{Decimosexto antecedente: \253Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter\273 *prchaichi2019nlp3dprinting}{section.2.1}% 101
 \BOOKMARK [3][-]{subsubsection.2.1.16.1}{Planteamiento del Problema y objetivo}{subsection.2.1.16}% 102
 \BOOKMARK [3][-]{subsubsection.2.1.16.2}{T\351cnicas empleadas por los autores}{subsection.2.1.16}% 103
 \BOOKMARK [3][-]{subsubsection.2.1.16.3}{Metodolog\355a empleada por los autores}{subsection.2.1.16}% 104

@@ -1,37 +1,37 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'tesis.blg'
-[67] biber-MSWIN64:322> INFO - === 
-[86] Biber.pm:415> INFO - Reading 'tesis.bcf'
-[286] Biber.pm:943> INFO - Found 94 citekeys in bib section 0
-[304] Biber.pm:4256> INFO - Processing section 0
-[304] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
-[313] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
-[328] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
-[342] bibtex.pm:1653> INFO - LaTeX decoding ...
-[471] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
-[537] Utils.pm:304> WARN - month field 'Marzo' in entry 'tec_prabhu2018cnn' is not an integer - this will probably not sort properly.
-[544] Utils.pm:304> WARN - month field 'Abril' in entry 'tec_betancourt2005svm' is not an integer - this will probably not sort properly.
-[547] Utils.pm:304> WARN - month field 'Marzo' in entry 'cr_gestion2015emprendper' is not an integer - this will probably not sort properly.
-[548] Utils.pm:304> WARN - Entry 'cr_gestion2015emprendper' (biblio/references.bib): Invalid format '11' of date field 'date' - ignoring
-[550] Utils.pm:304> WARN - month field 'Agosto' in entry 'cr_gestion2018emprend' is not an integer - this will probably not sort properly.
-[551] Utils.pm:304> WARN - Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring
-[553] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_aep2018emprend' is not an integer - this will probably not sort properly.
-[554] Utils.pm:304> WARN - Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring
-[595] Utils.pm:304> WARN - month field 'Septiembre' in entry 'cr_stokes2014coleco' is not an integer - this will probably not sort properly.
-[605] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_hustle2019successrate' is not an integer - this will probably not sort properly.
-[605] Utils.pm:304> WARN - Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring
-[624] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_yuan2016textanalytics' is not an integer - this will probably not sort properly.
-[641] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_kaur2017socmedcrowd' is not an integer - this will probably not sort properly.
-[694] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_shafqat2019topicpredictions' is not an integer - this will probably not sort properly.
-[710] Utils.pm:304> WARN - month field 'Marzo' in entry 'bk_zambrano2018supnosup' is not an integer - this will probably not sort properly.
-[774] Utils.pm:304> WARN - month field 'Junio' in entry 'tec_gandhi2018svm' is not an integer - this will probably not sort properly.
-[778] Utils.pm:304> WARN - month field 'Agosto' in entry 'tec_smola2004svm' is not an integer - this will probably not sort properly.
-[783] Utils.pm:304> WARN - month field 'Mayo' in entry 'tec_gupta2017decisiontree' is not an integer - this will probably not sort properly.
-[836] Utils.pm:304> WARN - month field 'Septiembre' in entry 'tec_mukaka2012correlation' is not an integer - this will probably not sort properly.
-[842] Utils.pm:304> WARN - month field 'Julio' in entry 'tec_ranjan2019thumbrules' is not an integer - this will probably not sort properly.
-[1003] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1003] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1003] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1116] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[1173] bbl.pm:755> INFO - Output to tesis.bbl
-[1177] Biber.pm:128> INFO - WARNINGS: 20
+[1] Config.pm:307> INFO - Logfile is 'tesis.blg'
+[156] biber-MSWIN64:322> INFO - === 
+[354] Biber.pm:415> INFO - Reading 'tesis.bcf'
+[921] Biber.pm:943> INFO - Found 94 citekeys in bib section 0
+[996] Biber.pm:4256> INFO - Processing section 0
+[997] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
+[1057] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
+[1165] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
+[1190] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1510] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
+[1818] Utils.pm:304> WARN - month field 'Marzo' in entry 'tec_prabhu2018cnn' is not an integer - this will probably not sort properly.
+[1842] Utils.pm:304> WARN - month field 'Abril' in entry 'tec_betancourt2005svm' is not an integer - this will probably not sort properly.
+[1849] Utils.pm:304> WARN - month field 'Marzo' in entry 'cr_gestion2015emprendper' is not an integer - this will probably not sort properly.
+[1850] Utils.pm:304> WARN - Entry 'cr_gestion2015emprendper' (biblio/references.bib): Invalid format '11' of date field 'date' - ignoring
+[1856] Utils.pm:304> WARN - month field 'Agosto' in entry 'cr_gestion2018emprend' is not an integer - this will probably not sort properly.
+[1857] Utils.pm:304> WARN - Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring
+[1863] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_aep2018emprend' is not an integer - this will probably not sort properly.
+[1864] Utils.pm:304> WARN - Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring
+[2127] Utils.pm:304> WARN - month field 'Septiembre' in entry 'cr_stokes2014coleco' is not an integer - this will probably not sort properly.
+[2150] Utils.pm:304> WARN - month field 'Febrero' in entry 'cr_hustle2019successrate' is not an integer - this will probably not sort properly.
+[2150] Utils.pm:304> WARN - Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring
+[2237] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_yuan2016textanalytics' is not an integer - this will probably not sort properly.
+[2257] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_kaur2017socmedcrowd' is not an integer - this will probably not sort properly.
+[2358] Utils.pm:304> WARN - month field 'Noviembre' in entry 'pr_shafqat2019topicpredictions' is not an integer - this will probably not sort properly.
+[2395] Utils.pm:304> WARN - month field 'Marzo' in entry 'bk_zambrano2018supnosup' is not an integer - this will probably not sort properly.
+[2575] Utils.pm:304> WARN - month field 'Junio' in entry 'tec_gandhi2018svm' is not an integer - this will probably not sort properly.
+[2584] Utils.pm:304> WARN - month field 'Agosto' in entry 'tec_smola2004svm' is not an integer - this will probably not sort properly.
+[2595] Utils.pm:304> WARN - month field 'Mayo' in entry 'tec_gupta2017decisiontree' is not an integer - this will probably not sort properly.
+[2702] Utils.pm:304> WARN - month field 'Septiembre' in entry 'tec_mukaka2012correlation' is not an integer - this will probably not sort properly.
+[2708] Utils.pm:304> WARN - month field 'Julio' in entry 'tec_ranjan2019thumbrules' is not an integer - this will probably not sort properly.
+[2901] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2901] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2901] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[3112] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[3172] bbl.pm:755> INFO - Output to tesis.bbl
+[3178] Biber.pm:128> INFO - WARNINGS: 20
