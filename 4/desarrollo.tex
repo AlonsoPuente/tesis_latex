@@ -220,7 +220,7 @@ La evolución histórica detallada por su estado se observa en la Figura \ref{4:
 \end{figure}
 
 \subsection{Metainformación}
-De las 19 variables de la Tabla \ref{4:table1}, y en base a los antecedentes (citar), se consideraron como potenciales variables independientes a 5 numéricas (\textit{backers\_count}, \textit{goal}, \textit{pledged}, \textit{usd\_pledged} y \textit{duration}), 3 categóricas (\textit{category}, \textit{country} y \textit{currency}) y 1 del tipo lista compuesta por números (\textit{pledge\_amounts}).
+De las 19 variables de la Tabla \ref{4:table1}, se consideraron como potenciales variables independientes a 5 numéricas (\textit{backers\_count}, \textit{goal}, \textit{pledged}, \textit{usd\_pledged} y \textit{duration}), 3 categóricas (\textit{category}, \textit{country} y \textit{currency}) y 1 del tipo lista compuesta por números (\textit{pledge\_amounts}).
 
 Para las variables categóricas, se realizaron gráficos de pastel para observar la distribución de sus valores. Así tenemos la Figura \ref{4:fig14} para las categorías de tecnología, Figura \ref{4:fig15} para los países (por código) y la Figura \ref{4:fig16} para las divisas del monto final patrocinado (por código). De estos tres gráficos, se observa que más de la mitad de patrocinadores provienen de los Estados Unidos (US) e invierten en dólares (USD). El segundo y tercer lugar los constituyen personas de Gran Bretaña (GB) y Canadá (CA), invirtiendo en sus monedas locales respectivas (GBP y CAD). Por el lado de las categorías, la más recurrente son de Apps, representando casi la cuarta parte del universo observado.
 
@@ -407,7 +407,7 @@ Respecto al contenido, en las Figura \ref{4:fig29} y Figura \ref{4:fig30} se ilu
 \section{Pre-procesamiento de los conjuntos de datos}
 
 \subsection{Metainformación}
-De acuerdo a los autores \citeauthor{pr_chen2013kickpredict} (primer antecedente), \citeauthor{pr_chen2015predcrowd} (cuarto antecedente) y \citeauthor{pr_jin2019dayssuccess} (decimotercer antecedente), se consideran 7 variables adicionales basadas en el mecanismo financiero (mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}) y cantidad de montos disponibles para contribuir (\textit{pledges\_num})) y efecto progresión (porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido). Esta última se calcula dividiendo el monto alcanzado en el tiempo t, sobre la meta de la campaña, multiplicado por 100\%. La nueva matriz de correlación se observa en la Figura \ref{4:fig31}.
+De acuerdo a los autores \citeauthor{pr_chen2013kickpredict} (primer antecedente), \citeauthor{pr_chen2015predcrowd} (cuarto antecedente) y \citeauthor{pr_jin2019dayssuccess} (decimotercer antecedente), a las 5 potenciales variables numéricas se adicionaron 7 variables basadas en el mecanismo financiero (mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}) y cantidad de montos disponibles para contribuir (\textit{pledges\_num})) y efecto progresión (porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido). Esta última se calcula dividiendo el monto alcanzado en el tiempo t, sobre la meta de la campaña, multiplicado por 100\%. La nueva matriz de correlación se observa en la Figura \ref{4:fig31}.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -417,7 +417,7 @@ De acuerdo a los autores \citeauthor{pr_chen2013kickpredict} (primer antecedente
 	\end{center}
 \end{figure}
 
-Para la selección de variables, se considera a aquellas con correlación insignificante, es decir, menor o igual a 0.30 \parencite{tec_mukaka2012correlation}. Las únicas que cumplen son \textit{goal}, \textit{pledges\_num}, \textit{completeness} y \textit{duration}. Sin embargo, algunas de las restantes pueden ser consideradas condicionándose a excluir otras. En la Tabla \ref{4:table2} se listan las 8 combinatorias posibles de variables que se pueden formar.
+Para la selección de variables, se consideró a aquellas con correlación clasificada como insignificante, es decir, menor o igual a 0.30 \parencite{tec_mukaka2012correlation}. Las únicas que cumplen son \textit{goal}, \textit{pledges\_num}, \textit{completeness} y \textit{duration}. Sin embargo, algunas de las restantes pueden ser consideradas condicionándose a excluir otras. En la Tabla \ref{4:table2} se listan las 8 combinatorias posibles de variables que se pueden formar.
 
 \begin{table}[h!]
 	\centering
@@ -470,7 +470,7 @@ Para la selección de variables, se considera a aquellas con correlación insign
 \end{table}
 
 \subsection{Descripción}
-Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig32}, que complementa la limpieza de texto referidos previamente (\citeauthor{pr_mitra2014phrases} (segundo antecedente), \citeauthor{pr_yuan2016textanalytics} (séptimo antecedente) y \citeauthor{pr_chen2019keywords_crowdfunding} (decimoquinto antecedente)) con el dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
+Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig32}, que complementa la limpieza de texto referidos previamente (\citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; y \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -495,7 +495,7 @@ Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto
 \subsection{Comentarios}
 La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios, separados en sublistas y diferenciados entre ellos por autor (patrocinador). De los 7,750 proyectos con comentarios (de los cuales, 4,626 fueron exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, así como URLs, emoticonos, emojis, números y caracteres especiales, resultando finalmente en 7,658 proyectos con comentarios (4,574 exitosos).
 
-Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras de esta nueva data se representa en la Figura \ref{4:fig34}.
+Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig34}.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -506,7 +506,7 @@ Debido a la gran cantidad de registros carecientes de comentarios, se propuso re
 \end{figure}
 
 \section{Creación de los modelos predictivos}
-Una vez generado las variables independiente (observación o conjunto de observaciones, X) y dependiente (etiquetas del estado de financiamiento, Y), cada uno es separado en subconjuntos de entrenamiento y prueba, con una proporción de 80\% y 20\% respectivamente según el autor (citar) y asignándose un valor fijo de aleatoriedad. Asimismo, dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función train\_test\_split, de la siguiente manera:
+Una vez generadas las variables independientes (observaciones, X) y dependiente (estado de financiamiento, Y), el conjunto de datos es separado en subconjuntos de entrenamiento y prueba, con proporciones de 80\% y 20\% respectivamente (\citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_yu2018deeplearning}, undécimo antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_sawhney2016usingLT}, octavo antecedente) y se fija un valor de aleatoriedad. Dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función \textit{train\_test\_split}, de la siguiente manera:
 
 \begin{lstlisting}[language=Python]
 train_test_split(X, Y, test_size = 0.20, stratify = Y, random_state=0)
@@ -517,7 +517,7 @@ Antes de crear los modelos correspondientes, y después de definir los valores d
 Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{status}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
 
 \subsection{Metainformación}
-Con las entradas listas para los parámetros, se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig35}. La cantidad de épocas fue de 100 y el número de lotes fue de 32.
+Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig35} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -556,13 +556,13 @@ Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cad
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/description_glove.jpg}
+		\includegraphics[width=0.55\textwidth]{4/figures/description_glove.jpg}
 		\caption{Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.}
 		\label{4:fig38}
 	\end{center}
 \end{figure}
 
-Con las entradas listas para los parámetros, se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional (CNN por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig39}. La cantidad de épocas fue de 100 y el número de lotes fue de 128.
+Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional (CNN por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig39} y teniendo como referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y el número de lotes fue 128.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -571,6 +571,10 @@ Con las entradas listas para los parámetros, se diseñó el modelo de descripci
 		\label{4:fig39}
 	\end{center}
 \end{figure}
+
+Esta red se compone de una capa de incrustación de palabras alimentada por los datos de entrada en la primera capa de dimensión de 3,671 vectores de palabras (la mayor longitud de palabras de todas las descripciones), la cual genera como salida una matriz de 3,671 por 100 (número de columnas de incrustaciones de GloVe). Para esta capa se entrenarán 14,827,000 parámetros como resultado del producto de las 100 columnas mencionadas y 148,270 como el tamaño del vocabulario entrenado.
+
+La siguiente capa es la Convolución en 1 dimensión (usado frecuentemente para extraer características de datos de textos por ser unidimensionales) que, con 128 características, 5 de tamaño de kernel y función de activación \textbf{relu}, generó una salida de 3,667 por 128; así como 64,128 parámetros entrenables.
 
 \subsection{Comentarios}
 Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.

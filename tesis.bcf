@@ -3233,9 +3233,16 @@
     <bcf:citekey order="433">pr_yuan2016textanalytics</bcf:citekey>
     <bcf:citekey order="434">pr_chen2019keywords_crowdfunding</bcf:citekey>
     <bcf:citekey order="435">tec_zimovnov2018text_preprocessing</bcf:citekey>
-    <bcf:citekey order="436">tec_ranjan2019thumbrules</bcf:citekey>
-    <bcf:citekey order="437">gl_pennington_glove</bcf:citekey>
-    <bcf:citekey order="438">tec_malik2019pythonnlp</bcf:citekey>
+    <bcf:citekey order="436">pr_yuan2016textanalytics</bcf:citekey>
+    <bcf:citekey order="437">pr_yu2018deeplearning</bcf:citekey>
+    <bcf:citekey order="438">pr_chen2019keywords_crowdfunding</bcf:citekey>
+    <bcf:citekey order="439">pr_mitra2014phrases</bcf:citekey>
+    <bcf:citekey order="440">pr_sawhney2016usingLT</bcf:citekey>
+    <bcf:citekey order="441">pr_yu2018deeplearning</bcf:citekey>
+    <bcf:citekey order="442">tec_ranjan2019thumbrules</bcf:citekey>
+    <bcf:citekey order="443">gl_pennington_glove</bcf:citekey>
+    <bcf:citekey order="444">tec_malik2019pythonnlp</bcf:citekey>
+    <bcf:citekey order="445">tec_malik2019pythonnlp</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
