@@ -302,6 +302,55 @@
       \verb https://docplayer.es/17897069-Customer-analytics-mejorando-la-inteligencia-del-cliente-a-traves-de-los-datos-jordi-conesa-i-caralt-coordinador-nuria-braulio-gil-josep-curto-diaz.html
       \endverb
     \endentry
+    \entry{bk_britos2006datamining}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8591aac07f97318ff8b1e582d8924bb3}{%
+           family={Britos},
+           familyi={B\bibinitperiod},
+           given={Paola\bibnamedelima Verónica},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77fe5067d9dd80641f954691954385a2}{%
+           family={García\bibnamedelima Martínez},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2480872d59ddf2da36d9e5c66e9f3214}{%
+           family={Hossian},
+           familyi={H\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed7230027d4f0fbe3fc6109048dac6dd}{%
+           family={Sierra},
+           familyi={S\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {España}%
+      }
+      \list{publisher}{1}{%
+        {Nueva Librería}%
+      }
+      \strng{namehash}{d09b6aff7356807953c13f74b740da96}
+      \strng{fullhash}{19688258318be6229ddc03114be3f7e2}
+      \strng{bibnamehash}{19688258318be6229ddc03114be3f7e2}
+      \strng{authorbibnamehash}{19688258318be6229ddc03114be3f7e2}
+      \strng{authornamehash}{d09b6aff7356807953c13f74b740da96}
+      \strng{authorfullhash}{19688258318be6229ddc03114be3f7e2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Minería de Datos}
+      \field{year}{2006}
+    \endentry
     \entry{gl_calvo2017clasifrna}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8bc0c62a6a897230e8d9d10ceb7eea5e}{%
@@ -1043,6 +1092,65 @@
       \verb https://www.gartner.com/it-glossary/predictive-modeling/
       \endverb
     \endentry
+    \entry{gl_gonzalez2019auc}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=77097be61ee0735f8c0a1f03fbdfeb4a}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Ligdi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77097be61ee0735f8c0a1f03fbdfeb4a}
+      \strng{fullhash}{77097be61ee0735f8c0a1f03fbdfeb4a}
+      \strng{bibnamehash}{77097be61ee0735f8c0a1f03fbdfeb4a}
+      \strng{authorbibnamehash}{77097be61ee0735f8c0a1f03fbdfeb4a}
+      \strng{authornamehash}{77097be61ee0735f8c0a1f03fbdfeb4a}
+      \strng{authorfullhash}{77097be61ee0735f8c0a1f03fbdfeb4a}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Curvas ROC y Área bajo la curva (AUC)}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://ligdigonzalez.com/curvas-roc-y-area-bajo-la-curva-auc-machine-learning/
+      \endverb
+      \verb{url}
+      \verb http://ligdigonzalez.com/curvas-roc-y-area-bajo-la-curva-auc-machine-learning/
+      \endverb
+    \endentry
+    \entry{gl_google2018machinelearning}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Glosario sobre aprendizaje automático}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://developers.google.com/machine-learning/glossary/?hl=es-419
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/machine-learning/glossary/?hl=es-419
+      \endverb
+    \endentry
     \entry{tec_gupta2017decisiontree}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=42bc7a574ae1f7adf2636b11f4736bb7}{%
@@ -1260,6 +1368,37 @@
       \endverb
       \verb{url}
       \verb https://towardsdatascience.com/understanding-neural-networks-what-how-and-why-18ec703ebd31
+      \endverb
+    \endentry
+    \entry{gl_izco2018bdc}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
+           family={Izco},
+           familyi={I\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
+      \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
+      \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
+      \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
+      \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
+      \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Base de Datos Corporativa}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
+      \endverb
+      \verb{url}
+      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
       \endverb
     \endentry
     \entry{pr_jin2019dayssuccess}{article}{}
@@ -1576,6 +1715,43 @@
       \endverb
       \verb{url}
       \verb https://www.kickstarter.com/press?ref=hello
+      \endverb
+    \endentry
+    \entry{gl_kohavi1998ml_glossary}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f2a149b8d68fbffd75e8ece81b80708f}{%
+           family={Kohavi},
+           familyi={K\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79fae1f3d670f588a9b7148774f77abf}{%
+           family={Provost},
+           familyi={P\bibinitperiod},
+           given={Foster},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09ccb8b870dc387623a2bb010466df17}
+      \strng{fullhash}{09ccb8b870dc387623a2bb010466df17}
+      \strng{bibnamehash}{09ccb8b870dc387623a2bb010466df17}
+      \strng{authorbibnamehash}{09ccb8b870dc387623a2bb010466df17}
+      \strng{authornamehash}{09ccb8b870dc387623a2bb010466df17}
+      \strng{authorfullhash}{09ccb8b870dc387623a2bb010466df17}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Glossary of Terms Journal of Machine Learning}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb http://ai.stanford.edu/~ronnyk/glossary.html
+      \endverb
+      \verb{url}
+      \verb http://ai.stanford.edu/~ronnyk/glossary.html
       \endverb
     \endentry
     \entry{cr_lee2019crwdfactors}{article}{}
@@ -2193,6 +2369,49 @@
       \endverb
       \verb{url}
       \verb http://comp.social.gatech.edu/papers/cscw14.crowdfunding.mitra.pdf
+      \endverb
+    \endentry
+    \entry{pr_molina2017pediatria_curvaroc}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=05200cea61fff6478dcd41cc1a3e7863}{%
+           family={Molina\bibnamedelima Arias},
+           familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c55f84f02a4b07c50b1b2b137d0bd98f}{%
+           family={Ochoa\bibnamedelima Sangrador},
+           familyi={O\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9d464e27b7eb4a0bc912025adc283ad}
+      \strng{fullhash}{c9d464e27b7eb4a0bc912025adc283ad}
+      \strng{bibnamehash}{c9d464e27b7eb4a0bc912025adc283ad}
+      \strng{authorbibnamehash}{c9d464e27b7eb4a0bc912025adc283ad}
+      \strng{authornamehash}{c9d464e27b7eb4a0bc912025adc283ad}
+      \strng{authorfullhash}{c9d464e27b7eb4a0bc912025adc283ad}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1885-7388}
+      \field{journaltitle}{Evidencias en Pediatría}
+      \field{month}{2}
+      \field{title}{Pruebas diagnósticas con resultados continuos o politómicos. Curvas ROC}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{12}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://archivos.evidenciasenpediatria.es/files/41-13133-RUTA/Fundamentos_MBE_12.pdf
+      \endverb
+      \verb{url}
+      \verb http://archivos.evidenciasenpediatria.es/files/41-13133-RUTA/Fundamentos_MBE_12.pdf
       \endverb
     \endentry
     \entry{tec_mukaka2012correlation}{article}{}
@@ -2926,6 +3145,35 @@
       \verb https://www.mdpi.com/2076-3417/9/24/5496/pdf
       \endverb
     \endentry
+    \entry{gl_bigdata2019metricas}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97f7653f976bc0f179677ed71e788ab6}{%
+           family={{SitioBigData.com}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{fullhash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{bibnamehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{authorbibnamehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{authornamehash}{97f7653f976bc0f179677ed71e788ab6}
+      \strng{authorfullhash}{97f7653f976bc0f179677ed71e788ab6}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning: Selección Métricas de clasificación}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://sitiobigdata.com/2019/01/19/machine-learning-metrica-clasificacion-parte-3/#
+      \endverb
+      \verb{url}
+      \verb http://sitiobigdata.com/2019/01/19/machine-learning-metrica-clasificacion-parte-3/#
+      \endverb
+    \endentry
     \entry{gl_bigdata2019bigdata}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=97f7653f976bc0f179677ed71e788ab6}{%
@@ -2938,11 +3186,12 @@
       \strng{authorbibnamehash}{97f7653f976bc0f179677ed71e788ab6}
       \strng{authornamehash}{97f7653f976bc0f179677ed71e788ab6}
       \strng{authorfullhash}{97f7653f976bc0f179677ed71e788ab6}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ReLU: Funciones de activación}

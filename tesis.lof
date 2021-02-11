@@ -46,66 +46,69 @@
 \contentsline {figure}{\numberline {2.40}{\ignorespaces Ejemplo del algoritmo de árbol de decisión. Fuente: \cite {bk_russell2004intart}\relax }}{79}{figure.caption.81}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Marco de trabajo del prototipo final. Fuente: Elaboración propia\relax }}{87}{figure.caption.82}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{90}{figure.caption.84}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Descripción de resultados de modelo descriptivo de ejemplo. Fuente: \parencite {gl_gonzalez2019auc}\relax }}{91}{figure.caption.84}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Comparación de tres resultados de la curva AUC en el modelo. Fuente: \parencite {pr_molina2017pediatria_curvaroc}\relax }}{92}{figure.caption.85}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flujograma de la recolección de conjuntos finales de datos. Fuente: Elaboración propia.\relax }}{93}{figure.caption.86}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Cronograma de actividades de la investigación. Fuente: Elaboración propia\relax }}{94}{figure.caption.87}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Vista (agosto 2019) del website Web Robots. Fuente: \cite {ot_webrobots2019kickstarter}\relax }}{92}{figure.caption.85}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.\relax }}{92}{figure.caption.86}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.\relax }}{93}{figure.caption.87}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.\relax }}{94}{figure.caption.88}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.\relax }}{95}{figure.caption.89}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.\relax }}{97}{figure.caption.91}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.\relax }}{97}{figure.caption.92}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.\relax }}{98}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.\relax }}{99}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.\relax }}{99}{figure.caption.95}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.\relax }}{100}{figure.caption.96}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.\relax }}{100}{figure.caption.97}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.\relax }}{101}{figure.caption.98}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Distribución de categorías de tecnología. Fuente: Elaboración propia.\relax }}{102}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Distribución de países. Fuente: Elaboración propia.\relax }}{102}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Distribución de divisa del monto patrocinado. Fuente: Elaboración propia\relax }}{102}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.\relax }}{103}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de caja y bigote de meta. Fuente: Elaboración propia.\relax }}{103}{figure.caption.101}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.\relax }}{104}{figure.caption.102}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de caja y bigote de duración. Fuente: Elaboración propia.\relax }}{104}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{105}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{105}{figure.caption.105}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{106}{figure.caption.106}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{107}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Nube de palabras de descripciones. Fuente: Elaboración propia.\relax }}{107}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.\relax }}{108}{figure.caption.109}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{108}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.\relax }}{109}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Nube de palabras de comentarios por unidades más frecuentes. Fuente: Elaboración propia.\relax }}{110}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Nube de palabras de comentarios por unidades o parejas más frecuentes. Fuente: Elaboración propia.\relax }}{110}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.\relax }}{111}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.\relax }}{113}{figure.caption.115}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{113}{figure.caption.116}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{114}{figure.caption.117}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.\relax }}{115}{figure.caption.118}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.\relax }}{117}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.\relax }}{117}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.\relax }}{118}{figure.caption.120}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.\relax }}{118}{figure.caption.121}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.\relax }}{120}{figure.caption.122}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Arquitectura del modelo apilado final. Fuente: Elaboración propia.\relax }}{120}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Vista (agosto 2019) del website Web Robots. Fuente: \cite {ot_webrobots2019kickstarter}\relax }}{96}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.\relax }}{96}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.\relax }}{97}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.\relax }}{98}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.\relax }}{99}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.\relax }}{101}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.\relax }}{101}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.\relax }}{102}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.\relax }}{103}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.\relax }}{103}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.\relax }}{104}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.\relax }}{104}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.\relax }}{105}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Distribución de categorías de tecnología. Fuente: Elaboración propia.\relax }}{106}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Distribución de países. Fuente: Elaboración propia.\relax }}{106}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Distribución de divisa del monto patrocinado. Fuente: Elaboración propia\relax }}{106}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.\relax }}{107}{figure.caption.103}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagrama de caja y bigote de meta. Fuente: Elaboración propia.\relax }}{107}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.\relax }}{108}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagrama de caja y bigote de duración. Fuente: Elaboración propia.\relax }}{108}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{109}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{109}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.\relax }}{110}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{111}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Nube de palabras de descripciones. Fuente: Elaboración propia.\relax }}{111}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.\relax }}{112}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.\relax }}{112}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.\relax }}{113}{figure.caption.114}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Nube de palabras de comentarios por unidades más frecuentes. Fuente: Elaboración propia.\relax }}{114}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Nube de palabras de comentarios por unidades o parejas más frecuentes. Fuente: Elaboración propia.\relax }}{114}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.\relax }}{115}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.\relax }}{117}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{117}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.\relax }}{118}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.\relax }}{119}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.\relax }}{121}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.\relax }}{121}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.\relax }}{122}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.\relax }}{122}{figure.caption.124}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.\relax }}{124}{figure.caption.125}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Arquitectura del modelo apilado final. Fuente: Elaboración propia.\relax }}{124}{figure.caption.126}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{123}{figure.caption.124}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{123}{figure.caption.124}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.\relax }}{124}{figure.caption.125}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Área bajo la curva de modelo de metadata. Fuente: Elaboración propia.\relax }}{124}{figure.caption.127}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{125}{figure.caption.128}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{125}{figure.caption.128}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{126}{figure.caption.129}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Área bajo la curva de modelo de descripciones. Fuente: Elaboración propia.\relax }}{127}{figure.caption.131}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{128}{figure.caption.132}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{128}{figure.caption.132}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{129}{figure.caption.133}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.\relax }}{129}{figure.caption.135}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{130}{figure.caption.136}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{130}{figure.caption.136}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.\relax }}{131}{figure.caption.137}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Área bajo la curva de modelo apilado. Fuente: Elaboración propia.\relax }}{132}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{127}{figure.caption.127}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{127}{figure.caption.127}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.\relax }}{128}{figure.caption.128}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Área bajo la curva de modelo de metadata. Fuente: Elaboración propia.\relax }}{128}{figure.caption.130}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{129}{figure.caption.131}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.\relax }}{129}{figure.caption.131}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{130}{figure.caption.132}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Área bajo la curva de modelo de descripciones. Fuente: Elaboración propia.\relax }}{131}{figure.caption.134}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{132}{figure.caption.135}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.\relax }}{132}{figure.caption.135}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{133}{figure.caption.136}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.\relax }}{133}{figure.caption.138}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{134}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.\relax }}{134}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.\relax }}{135}{figure.caption.140}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Área bajo la curva de modelo apilado. Fuente: Elaboración propia.\relax }}{136}{figure.caption.142}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
