@@ -107,9 +107,27 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 \begin{itemize}
 	\item \textbf{Exactitud} (\textit{accuracy}): Representa la fracción de predicciones que se realizaron correctamente sobre el total de ejemplos en un modelo de clasificación. Se determina mediante la siguiente fórmula \parencite{gl_kohavi1998ml_glossary}:
 	
+	\begin{equcaption}[!ht]
+		\begin{equation*}	
+		\phantomsection
+		Exactitud=\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}
+		\end{equation*}
+		\caption[Fórmula para calcular la exactitud. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular la exactitud. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\label{eq:accuracy}
+	\end{equcaption}
+	
 	Esta métrica responde a la pregunta ¿Cuál es la proporción de predicciones que se realizaron correctamente? \parencite{gl_izco2018bdc}
 	
 	\item \textbf{Precisión} (\textit{precision}): Representa el número de elementos identificados correctamente como positivo de un total de elementos identificados como positivos \parencite{gl_bigdata2019metricas}. Se calcula mediante la siguiente fórmula:
+	
+	\begin{equcaption}[!ht]
+		\begin{equation*}	
+		\phantomsection
+		Precisi\acute{o}n=\frac{V.P.}{V.P.+F.P.}
+		\end{equation*}
+		\caption[Fórmula para calcular la precisión. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular la precisión. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\label{eq:precision}
+	\end{equcaption}
 	
 	Esta métrica responde a la pregunta ¿Qué proporción de predicciones positivas es correcta? \parencite{gl_izco2018bdc}
 	
@@ -150,7 +168,27 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 		\item Si el área bajo la curva ROC $\geq$ 0.9, entonces el poder discriminante del modelo es excepcionalmente bueno.
 	\end{itemize}
 	\item \textbf{Sensibilidad} (\textit{recall}, \textit{sensitivity} o \textit{True Positive Rate}): Representa el número de elementos correctamente identificados como positivos del total de positivos verdaderos \parencite{gl_bigdata2019metricas}. Se calcula mediante la siguiente fórmula:
+	
+	\begin{equcaption}[!ht]
+		\begin{equation*}	
+		\phantomsection
+		Sensibilidad=\frac{V.P.}{V.P.+F.N.}
+		\end{equation*}
+		\caption[Fórmula para calcular la sensibilidad. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular la sensibilidad. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\label{eq:recall}
+	\end{equcaption}
+	
 	\item \textbf{Puntaje F1} (\textit{F1-Score}): Representa la media armónica de la precisión y la sensibilidad. Normalmente, se usa cuando uno difiere mucho del otro y no es posible realizar una conclusión determinante ya que solo es posible predecir bien una clase \parencite{gl_bigdata2019metricas}. Se calcula mediante la siguiente fórmula:
+	
+	\begin{equcaption}[!ht]
+		\begin{equation*}	
+		\phantomsection
+		Puntaje F1=\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}
+		\end{equation*}
+		\caption[Fórmula para calcular el puntaje F1. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular el puntaje F1. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\label{eq:f1-score}
+	\end{equcaption}
+	
 \end{itemize}
 
 \section{Técnicas de recolección de datos}
