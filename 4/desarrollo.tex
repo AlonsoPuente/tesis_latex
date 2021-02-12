@@ -122,7 +122,7 @@ La Tabla \ref{4:table1} detalla cada variable del conjunto final, adicionando la
 		\textbf{state} & Estado de financiamiento del proyecto. & string \\
 		\hline
 	\end{tabular}
-	\caption{Diccionario de datos del conjunto final de metainformación. Fuente: Elaboración propia.}
+	\caption{Diccionario de datos del dataset de metainformación generado. Fuente: Elaboración propia.}
 	\label{4:table1}
 \end{table}
 
@@ -514,7 +514,7 @@ train_test_split(X, Y, test_size = 0.20, stratify = Y, random_state=0)
 
 Antes de crear los modelos correspondientes, y después de definir los valores de entrada y parámetros (las subsecciones que se detallarán a continuación), se asigna una semilla inicial con un valor fijado por el usuario con el fin de evitar resultados aleatorios para futuras iteraciones. Se establece, además, una ruta local en donde se almacena cada punto de control basado en la mejora de la pérdida del subconjunto de validación con respecto a su iteración anterior. En caso de un estancamiento de esta última durante 10 épocas, es decir, si el valor de la pérdida no decrementa, el modelo dejará de entrenar. A esta regla se le añade la reducción de la tasa de aprendizaje luego de 5 épocas en caso el valor de la exactitud del subconjunto de validación no refleje un incremento. El objetivo de estas condiciones es evitar el sobreajuste en los modelos.
 
-Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{status}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
+Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{state}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
 
 \subsection{Metainformación}
 Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig35} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.

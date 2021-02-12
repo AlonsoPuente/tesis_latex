@@ -1754,6 +1754,66 @@
       \verb http://ai.stanford.edu/~ronnyk/glossary.html
       \endverb
     \endentry
+    \entry{cr_kraus2016crowdfunding_strategies}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=063bf5127fe4e4527985e89cd1e30ab4}{%
+           family={Kraus},
+           familyi={K\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b86654a7c6326e5073dd2e599ef4ea8d}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60249b88b91aaedd45c6062ea5443bc0}{%
+           family={Brem},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cec147df1c9e28649381f323164b71b}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Cheng-Feng},
+           giveni={C\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=074842e3409734b95ff7d19cba31e7a5}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Man-Ling},
+           giveni={M\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier España}%
+      }
+      \strng{namehash}{dcdc2288d21aa8ab293450c36b9ad43c}
+      \strng{fullhash}{c8a88734b6d359ff22bc20b041e0f7a9}
+      \strng{bibnamehash}{c8a88734b6d359ff22bc20b041e0f7a9}
+      \strng{authorbibnamehash}{c8a88734b6d359ff22bc20b041e0f7a9}
+      \strng{authornamehash}{dcdc2288d21aa8ab293450c36b9ad43c}
+      \strng{authorfullhash}{c8a88734b6d359ff22bc20b041e0f7a9}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Innovation \& Knowledge}
+      \field{month}{Abril}
+      \field{title}{Strategies for reward-based crowdfunding campaigns}
+      \field{volume}{1}
+      \field{year}{2016}
+      \field{pages}{13\bibrangedash 23}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.jik.2016.01.010
+      \endverb
+    \endentry
     \entry{cr_lee2019crwdfactors}{article}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=b686d37b5d383d1396d814af4534a68d}{%
@@ -3628,14 +3688,44 @@
       \verb https://ieeexplore.ieee.org/document/8481838
       \endverb
     \endentry
+    \entry{cr_yu2017kickstarter_course}{report}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=4b42a6a8c9f54e5b570f803edaea7463}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {Udemy}%
+      }
+      \strng{namehash}{4b42a6a8c9f54e5b570f803edaea7463}
+      \strng{fullhash}{4b42a6a8c9f54e5b570f803edaea7463}
+      \strng{bibnamehash}{4b42a6a8c9f54e5b570f803edaea7463}
+      \strng{authorbibnamehash}{4b42a6a8c9f54e5b570f803edaea7463}
+      \strng{authornamehash}{4b42a6a8c9f54e5b570f803edaea7463}
+      \strng{authorfullhash}{4b42a6a8c9f54e5b570f803edaea7463}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Complete Crowdfunding Course for Kickstarter \& Indiegogo}
+      \field{type}{Diapositivas de PowerPoint}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 85}
+      \range{pages}{85}
+    \endentry
     \entry{pr_yu2018deeplearning}{article}{}
       \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=d3b838ceb6ea0136cecfe19c4b611a0c}{%
+        {{un=1,uniquepart=given,hash=d3b838ceb6ea0136cecfe19c4b611a0c}{%
            family={Yu},
            familyi={Y\bibinitperiod},
            given={Pi-Fen},
            giveni={P\bibinithyphendelim F\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=311643315097206f0f8df3337383085a}{%
            family={Huang},
            familyi={H\bibinitperiod},
@@ -3683,7 +3773,6 @@
       \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{event}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}

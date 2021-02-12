@@ -1,23 +1,22 @@
 \chapter{METODOLOGÍA DE LA INVESTIGACIÓN}
 \section{Diseño de la investigación}
-En esta sección del documento se explicará cual es el diseño, el tipo y el enfoque del trabajo de
+En esta sección del documento se explica cuál fue el diseño, el tipo y el enfoque del trabajo de
 investigación, así como también la población y la muestra. 
-%Para finalizar se explicará el
-%proceso de aplicación de las redes neuronales convolucionales.
+
 \subsection{Enfoque de la investigación}
-El presente trabajo tendrá un enfoque cuantitativo ya que se busca diseñar y desarrollar instrumentos, en este caso modelos predictivos, para responder al problema estudiado a partir de medición de datos históricos en la plataforma Kickstarter con herramientas basadas en la estadística y matemáticas que puedan ser interpretadas por cualquier investigador. 
+El presente trabajo tuvo un enfoque cuantitativo ya que se busca diseñar y desarrollar instrumentos, en este caso modelos predictivos, para responder al problema estudiado a partir de medición de datos históricos en la plataforma Kickstarter con herramientas basadas en la estadística y matemáticas que puedan ser interpretadas por cualquier investigador. 
 
 \subsection{Alcance de la investigación}
-El alcance del presente trabajo será descriptivo ya que se recolectarán datos en un determinado rango de tiempo (desde 2009 hasta el presente año 2019) para describir el comportamiento de las campañas de proyectos tecnológicos en Kickstarter a partir de las características de sus variables y con ello, pronosticar su posible éxito o fracaso antes de finalizar la campaña con un nivel óptimo de precisión.
+El alcance del presente trabajo fue descriptivo ya que se recolectaron datos en un determinado rango de tiempo (desde 2009 hasta el presente año 2019) para describir el comportamiento de las campañas de proyectos tecnológicos en Kickstarter a partir de las características de sus variables y con ello, pronosticar su posible éxito o fracaso antes de finalizar la campaña con un nivel óptimo de precisión.
 
 \subsection{Tipo de la investigación}
-Para determinar el tipo de la investigación, primero es necesario definir el actual trabajo como Diseño Experimental ya que las variables que se tienen serán controladas, es decir, serán agregadas o quitadas en el o los modelos construidos en el experimento para analizar el impacto que este o estos tendrán en los resultados obtenidos. Dentro de esta categoría se clasifica como Diseño Experimental Puro ya que se busca medir la variable dependiente, en este caso Status (el estado actual del proyecto en Kickstarter) a partir de la manipulación de las demás variables independientes agregando o desagregándolas para comparar los rendimientos obtenidos de los instrumentos de medición y determinar cuáles de ellas finalmente serán tomadas en cuenta.
+Para determinar el tipo de la investigación, primero fue necesario definir el actual trabajo como Diseño Experimental ya que las variables que se tienen serán controladas, es decir, fueron agregadas o removidas en los modelos construidos en el experimento para analizar el impacto que estos tuvieron en los resultados obtenidos. Dentro de esta categoría se clasifica como Diseño Experimental Puro ya que se buscó medir la variable dependiente, en este caso \textit{state} (el estado actual del proyecto en Kickstarter) a partir de la manipulación de las demás variables independientes agregando o desagregándolas para comparar los rendimientos obtenidos de los instrumentos de medición y determinar cuáles de ellas finalmente fueron tomadas en cuenta.
 
 \subsection{Descripción del prototipo de investigación}
 Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\citeauthor{pr_kamath2018suplearn}, décimo antecedente; \citeauthor{pr_jin2019dayssuccess}, decimotercer antecedente; \citeauthor{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\citeauthor{pr_chen2013kickpredict}, primer antecedente; \citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_zhou2015projectdesc}, tercer antecedente; \citeauthor{pr_chen2015predcrowd}, cuarto antecedente; \citeauthor{pr_beckwith2016predcrowd}, quinto antecedente; \citeauthor{pr_li2016predcrowd}, sexto antecedente; \citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_sawhney2016usingLT}, octavo antecedente; \citeauthor{pr_kaur2017socmedcrowd}, noveno antecedente; \citeauthor{pr_kamath2018suplearn}, décimo antecedente; \citeauthor{pr_yu2018deeplearning}, undécimo antecedente; \citeauthor{pr_jin2019dayssuccess}, decimotercer antecedente; \citeauthor{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_zhou2015projectdesc}, tercer antecedente; \citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_sawhney2016usingLT}, octavo antecedente; \citeauthor{pr_lee2018contentDL}, duodécimo antecedente; \citeauthor{pr_jin2019dayssuccess}, decimotercer antecedente; \citeauthor{pr_cheng2019deeplearning}, decimocuarto antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \citeauthor{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\citeauthor{pr_chen2015predcrowd}, cuarto antecedente; \citeauthor{pr_li2016predcrowd}, sexto antecedente; \citeauthor{pr_jin2019dayssuccess}, decimotercer antecedente; \citeauthor{pr_lee2018contentDL}, duodécimo antecedente; \citeauthor{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig1}.
 \begin{figure}[htbp]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/prototipo.jpg}
+		\includegraphics[width=1\textwidth]{3/figures/framework.png}
 		\caption{Marco de trabajo del prototipo final. Fuente: Elaboración propia}
 		\label{3:fig1}
 	\end{center}
@@ -26,13 +25,13 @@ Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimo
 \section{Población y muestra}
 
 \subsection{Población}
-La población que será considerada para el presente trabajo será de 27,251 proyectos en Kickstarter de la categoría tecnología de todas las subcategorías entre los periodos 2009-2019, en su mayoría del territorio de los Estados Unidos de América.
+La población considerada para el presente trabajo fue de 27,251 proyectos en Kickstarter de la categoría tecnología incluyendo todas las subcategorías entre los periodos 2009-2019, en su mayoría del territorio de los Estados Unidos de América.
 
 \subsection{Muestra}
 Se distribuyeron los subconjuntos de entrenamiento y prueba en proporciones de 80\% (21,710 registros) y 20\% (5,541 registros) respectivamente (\citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_yu2018deeplearning}, undécimo antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_sawhney2016usingLT}, octavo antecedente).
 
 \subsection{Unidad de análisis}
-La unidad de análisis para el presente trabajo será un proyecto en Kickstarter de la categoría tecnología de cualquier subcategoría entre los periodos 2009-2019 dentro del territorio de los Estados Unidos de América.
+La unidad de análisis fue un proyecto en Kickstarter de la categoría tecnología de cualquier subcategoría entre los periodos 2009-2019 dentro del territorio de los Estados Unidos.
 
 \section{Operacionalización de Variables}
 En la Tabla \ref{3:table1} se presentan las variables usadas para el conjunto de datos final basado en contenido textual y metainformación. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 17 antecedentes en el Capítulo II.
@@ -89,13 +88,27 @@ Los autores citados por cada variable utilizada se mencionan a continuación:
 Si bien en los respectivos antecedentes marcados en (*) figuran el promedio de los montos disponibles para patrocinar, se usó la mediana en vez de la media ya que presentó mejor performance en los experimentos.
 
 \section{Instrumentos de medida}
-Los instrumentos de medida que servirán para determinar la performance del o los modelos construidos en el experimento serán algunas de las métricas de clasificación de Machine Learning descritas en los papers tomados como antecedentes en el Capítulo II del presente trabajo y seleccionadas mediante Benchmarking considerando como criterio la similitud del problema y propuestas de solución más aproximadas. Antes de proceder a explicar detalladamente cada una de ellas, es necesario conocer los conceptos de la Matriz de confusión, así como sus elementos que la componen.
+Los instrumentos de medida que sirvieron para determinar la performance del o los modelos construidos en el experimento serán algunas de las métricas de clasificación de Machine Learning descritas en los papers tomados como antecedentes en el Capítulo II del presente trabajo y seleccionadas mediante Benchmarking considerando como criterio la similitud del problema y propuestas de solución más aproximadas. Antes de proceder a explicar detalladamente cada una de ellas, es necesario conocer los conceptos de la Matriz de confusión, así como sus elementos que la componen.
 
 \begin{itemize}
 	\item \textbf{Matriz de confusión}: Es una tabla de NxN que resume el nivel de éxito de las predicciones de un modelo de clasificación; es decir, la correlación que existe entre la etiqueta y la clasificación del modelo. Un eje de una matriz de confusión es la etiqueta que el modelo predijo; el otro es la etiqueta real. N representa el número de clases. Es un problema de clasificación binaria, N=2 \parencite{gl_kohavi1998ml_glossary}. Su principal objetivo es describir el rendimiento de un modelo supervisado de Machine Learning en los datos de prueba, donde se desconocen los verdaderos valores. Se le llama “matriz de confusión” porque hace que sea fácil detectar dónde el sistema está confundiendo dos clases \parencite{gl_bigdata2019metricas}. Se representa de la siguiente manera:
+	
+	\begin{table}[h!]
+		\centering
+		\small
+		\begin{tabular}{llcc}
+			&                                                            & \multicolumn{2}{c}{\textbf{Valores Actuales}}                                                      \\ \cline{3-4} 
+			& \multicolumn{1}{l|}{}                                      & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Positivos (1)} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Negativos (0)} \\ \cline{2-4} 
+			\multicolumn{1}{c|}{}                                             & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Positivos (1)} & \multicolumn{1}{c|}{Verdaderos Positivos (VP)}             & \multicolumn{1}{c|}{Falsos Positivos (FP)}                 \\ \cline{2-4} 
+			\multicolumn{1}{c|}{\multirow{-2}{*}{\textbf{Valores Predichos}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Negativos (0)} & \multicolumn{1}{c|}{Falsos Negativos (FN)}                 & \multicolumn{1}{c|}{Verdaderos Negativos (VN)}             \\ \cline{2-4} 
+		\end{tabular}
+		\caption{Matriz de confusión. Fuente: \cite{gl_izco2018bdc}}
+		\label{3:table2}
+	\end{table}
+	
 \end{itemize}
 
-De la anterior tabla, existen 4 elementos clave:
+De la Tabla \ref{3:table2}, existen 4 elementos clave:
 \begin{itemize}
 	\item \textbf{Verdadero positivo} (TP o \textit{True Positive}): Es el ejemplo en el que el modelo predijo de manera correcta la clase positiva. Por ejemplo, el modelo infirió correctamente que un paciente con determinadas características descritas en las variables sufre de cáncer \parencite{gl_google2018machinelearning}.
 	\item \textbf{Verdadero negativo} (TN o \textit{True Negative}): Es el ejemplo en el que el modelo predijo de manera correcta la clase negativa. Por ejemplo, el modelo infirió correctamente que una determinada especie animal de acuerdo a sus características no era un mamífero \parencite{gl_google2018machinelearning}.
@@ -139,7 +152,7 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	
 	\begin{figure}[htbp]
 		\begin{center}
-			\includegraphics[width=0.7\textwidth]{3/figures/auc_example.jpg}
+			\includegraphics[width=0.55\textwidth]{3/figures/auc_example.jpg}
 			\caption{Descripción de resultados de modelo descriptivo de ejemplo. Fuente: \parencite{gl_gonzalez2019auc}}
 			\label{3:fig2}
 		\end{center}
@@ -153,7 +166,7 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	
 	\begin{figure}[htbp]
 		\begin{center}
-			\includegraphics[width=0.9\textwidth]{3/figures/auc_curves.jpg}
+			\includegraphics[width=0.8\textwidth]{3/figures/auc_curves.jpg}
 			\caption{Comparación de tres resultados de la curva AUC en el modelo. Fuente: \parencite{pr_molina2017pediatria_curvaroc}}
 			\label{3:fig3}
 		\end{center}
@@ -205,11 +218,77 @@ Los conjuntos de datos recolectados para la investigación se componen de mezcla
 Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
 
 \section{Técnicas para el procesamiento y análisis de la información}
+Como se explicó en el punto 2.2.6 del Marco Teórico del presente trabajo, dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, tres de las metodologías más usadas son CRISP-DM, SEMMA y KDD \parencite{tec_braulio2015metodologiasdm}.
 
+Después de evaluar y comparar las tres mencionadas, se concluyó que la mejor de ellas dependerá de la intención o finalidad que busca lograr el o los involucrados en el negocio tanto en objetivos como en resultados. Para la presente investigación, se siguió la metodología de CRISP-DM debido a la coyuntura en la que se desarrolló. Las razones de la elección de la misma fueron las siguientes:
+
+\begin{itemize}
+	\item La metodología CRISP-DM contempla entre sus fases la comprensión del negocio además de la parte técnica que incluye el modelado y análisis de resultados. La comprensión del negocio tiene un rol importante ya que se define al inicio de todo el proceso para dar el alcance del proyecto y definir objetivos que se buscan a partir de la Minería de Datos y Big Data.
+	\item Ayuda a la gerencia del proyecto en la planeación y toma de decisiones (fase Despliegue) a partir de los resultados obtenidos, reportándolos y convirtiéndolos en oportunidades a considerar en los objetivos del negocio.
+	\item Evalúa en todo el proceso los datos y variables usadas con el fin de crear el mejor modelo. Las variables seleccionadas serán importantes para interpretar los resultados y tomar decisiones.
+	\item Si se habla de las otras dos metodologías, empezando por KDD, si bien esta contempla 9 pasos durante su proceso, el objetivo de KDD en cada uno de estos resulta ser más técnico, es decir, trabajar, seleccionar e interpretar métricas, variables, modelos, entre otros para obtener los mejores resultados más allá de considerar el contexto y comprensión del negocio. De hecho, no existe alguna fase dedicada al entendimiento del mismo.
+	\item Por otra parte, la metodología SEMMA se basa, como su nombre lo indica, en la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio desconocidos. Sin embargo, al limitarse a 5 fases comenzando con la fase de muestreo, no hace hincapié en la comprensión del negocio, sino más bien comienza con el procesamiento de datos para la construcción del modelo.
+\end{itemize}
+
+Cada una de las fases de la metodología seleccionada se detalla a continuación.
+
+\subsection{Comprensión del negocio}
+La primera fase de la metodología CRISP-DM consiste en la definición del problema de Minería de Datos que se tiene, así como el entendimiento de los objetivos y requerimientos que se espera lograr en el proyecto.
+
+Para empezar, el crowdfunding se basa, como su nombre en inglés lo indica, en lograr que un proyecto emprendedor sea llevado a cabo gracias al financiamiento colectivo. Existen 4 diferentes modelos de crowdfunding: basado en donaciones, basado en recompensas, basado en capital social y basado en deuda. El crowdfunding basado en capital social se encuentra actualmente limitado en los Estados Unidos debido a que la Regulación D de la Ley de Valores de 1933 prohíbe la participación de muchos potenciales inversionistas y los obliga a tener un ingreso anual mayor a \$200,000 o más de \$1 millón en patrimonio neto \parencite{cr_lichtig2015crowdfunding}.
+
+El modelo basado en donaciones se refiere a la recaudación de fondos a través de la Web 2.0, en el cual los patrocinadores no esperan recompensas materiales a cambio sino más bien una recompensa social. Por el contrario, el modelo basado en recompensas ofrece compensación tanto material como inmaterial y representa hoy en día el modelo de crowdfunding más frecuente. Los financiadores, por un lado, pueden verse beneficiados de la venta anticipada, recibiendo el proyecto o producto financiado antes de su publicación o entrada al mercado al mejor precio. Los proyectos que pertenecen a esta categoría a menudo son organizaciones sin fines de lucro \parencite{cr_kraus2016crowdfunding_strategies}.
+
+Kickstarter, la plataforma de crowdfunding más citada, analizada y una de las más grandes, es una comunidad basada en el crowdfunding por recompensas. A la fecha, 128 mil proyectos han sido financiados, 3 billones de dólares fueron prometidos en proyectos y 13 millones de patrocinadores han participado, del cual el 31\% ha colocado dinero en más de 1 proyecto.
+
+La particularidad de los proyectos en esta plataforma es que, luego de cumplir un plazo de tiempo determinado, el monto prometido acumulado puede ser asignado a los proyectos que hayan alcanzado o superado la meta estipulada al inicio. Para ello, los dueños de los proyectos tienen que crear estrategias para lograr campañas exitosas y hacer realidad su producto. Un 75\% de los proyectos que fueron apoyados por al menos 25 patrocinadores han sido financiados exitosamente \parencite{cr_kickstarter_learn}.
+
+Para lograr que un proyecto en la plataforma logre impactar en la comunidad, debe contar con conexiones duraderas, retroalimentación del producto y ser tangible. Asimismo, algunos enfoques importantes se basan en probar nuevas ideas, aumentar la comunidad y cubrir costos de manufacturación.
+
+Para empezar a realizar la campaña del proyecto, es necesario seguir las sugerencias basadas en los autores \cite{cr_yu2017kickstarter_course} y \cite{cr_kickstarter_intro}:
+\begin{itemize}
+	\item Identificar la meta óptima del proyecto. Se debe realizar una lista de todos los costos, así como el shipping que deben de cada país. También se debe contar con un buffer en caso ocurra un imprevisto. Se puede determinar la meta a través de la fórmula (Gastos + Buffer) x Alcance.
+	\item Crear el video de la campaña en un presupuesto. El vídeo resulta ser un factor muy importante ya que aquellos que cuentan con un video de su proyecto tienen un 50\% de chance de tener éxito. El promedio debería ser de 3.38 minutos, aunque el público presta más atención hacia aquellos que duran poco. El vídeo debe contener y responder las siguientes preguntas:
+	\begin{itemize}
+		\item ¿Qué hace memorable al proyecto?
+		\item ¿Cómo se verá el proyecto?
+		\item ¿Por qué se está creando el producto?
+		\item ¿Por qué lo necesitas?
+		\item ¿Por qué es importante que tu proyecto exista?
+		\item ¿Por qué debes ser tú su creador?
+		\item ¿Por qué tu compañía?
+		\item ¿Cómo proveerás una solución?
+		\item ¿Cómo funciona la solución?
+	\end{itemize}
+	Es importante destacar las estadísticas del problema que se piensa resolver al inicio del video ya que el primer minuto resulta ser el lapso de tiempo que más capta la atención del público. Se recomienda también tener buen audio e iluminación.
+	\item Escribir la descripción del proyecto. Otro factor clave en el desempeño de la campaña de un proyecto en Kickstarter resulta ser la descripción que representa un resumen de los puntos más relevantes del producto. Se debe mencionar una breve introducción del proyecto, cómo funciona, para quiénes son, el proceso que se siguió en el desarrollo, detalles y especificaciones, y un cronograma e hitos.
+	\item Incluir imágenes sobre cómo lucirá el proyecto. Esta prueba convencerá a más de una persona en querer invertir en el proyecto. Las imágenes a veces atraen más a las personas que no gustan leer la descripción completa del proyecto.
+	\item Determinar las recompensas del proyecto. Al basarse en un modelo de crowdfunding en recompensas, los patrocinadores esperan un beneficio por parte del proyecto una vez este logre alcanzar su financiamiento. El número ideal de recompensas puede ser entre 5 y 7. Una recompensa en promedio de \$100 es la que genera más dinero. Las recompensas pueden ser de cuatro tipos: el producto en sí mismo entregado hacia los patrocinadores antes que este salga al mercado, reconocimientos en la página web y acceso hacia actualizaciones, recuerdos y certificados de membresía, y nuevas experiencias como visita a los desarrolladores en sus estudios.
+\end{itemize}
+
+Todos los factores anteriormente mencionados determinarán en gran medida el nivel de éxito que tendrá un proyecto una vez su campaña sea lanzada en la plataforma.
+
+\subsection{Comprensión de los datos}
+Una vez comprendido el funcionamiento del negocio y sus objetivos que busca lograr, la siguiente fase fue entender el significado de los datos con los que se trabajaron. Estos incluyen valores y variables que determinaron la performance del modelo elaborado en las siguientes etapas.
+
+Para ello, se analizaron estadísticamente las variables numéricas del dataset generado de la Metainformación (Tabla \ref{4:table1}) luego del proceso de construcción bajo el flujo de la Figura \ref{3:fig4} y que se explica en el subcapítulo 1 del Capítulo IV.
+
+En el siguiente subcapítulo del mismo capítulo, se detalla el análisis exploratorio de cada variable, entre los cuales destaca el desbalance en las etiquetas de la variable dependiente a predecir (\textit{state}).
+
+\subsection{Preparación de los datos}
+El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table1}.
+
+\subsection{Modelamiento}
+Luego del pre-procesamiento de los datos, en esta fase se procedió a crear modelos predictivos para cada modalidad considerada. Tomando de referencia algunos de los papers en el Marco Teórico
+
+
+\subsection{Evaluación}
+
+\subsection{Despliegue}
 
 
 \section{Cronograma de actividades y presupuesto}
-Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig5}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación en el mes de diciembre.
+Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig5}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=1.1\textwidth]{3/figures/cronograma.png}

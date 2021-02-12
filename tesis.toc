@@ -1,174 +1,180 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
-\contentsline {chapter}{Índice de Figuras}{8}{section*.1}%
-\contentsline {chapter}{Índice de Tablas}{13}{section*.2}%
-\contentsline {chapter}{Índice de Ecuaciones}{14}{section*.4}%
-\contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{18}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{18}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Formulación del Problema}{21}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Problema General}{21}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Problemas Espec\'{i}ficos}{22}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{22}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{22}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'{i}ficos}{22}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{23}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Teórica}{23}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Práctica}{23}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Metodológica}{23}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Delimitación del Estudio}{23}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Espacial}{23}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Temporal}{23}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Conceptual}{24}{subsection.1.5.3}%
-\contentsline {section}{\numberline {1.6}Hipótesis}{24}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Hipótesis General}{24}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Hipótesis Específicas}{24}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Matriz de Consistencia}{24}{subsection.1.6.3}%
-\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{25}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{25}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Primer antecedente: «KickPredict: Predicting Kickstarter Success» \citep *{pr_chen2013kickpredict}}{25}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Planteamiento del Problema y objetivo}{26}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Técnicas empleadas por los autores}{26}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Metodología empleada por los autores}{26}{subsubsection.2.1.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.1.4}Resultados obtenidos}{26}{subsubsection.2.1.1.4}%
-\contentsline {subsection}{\numberline {2.1.2}Segundo antecedente: «The Language that Gets People to Give: Phrases that Predict Success on Kickstarter» \citep *{pr_mitra2014phrases}}{26}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}Planteamiento del Problema y objetivo}{27}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Técnicas empleadas por los autores}{27}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.3}Metodología empleada por los autores}{27}{subsubsection.2.1.2.3}%
-\contentsline {subsubsection}{\numberline {2.1.2.4}Resultados obtenidos}{27}{subsubsection.2.1.2.4}%
-\contentsline {subsection}{\numberline {2.1.3}Tercer antecedente: «Money Talks: A Predictive Model on Crowdfunding Success Using Project Description» \citep *{pr_zhou2015projectdesc}}{28}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Planteamiento del Problema y objetivo}{28}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Técnicas empleadas por los autores}{28}{subsubsection.2.1.3.2}%
-\contentsline {subsubsection}{\numberline {2.1.3.3}Metodología empleada por los autores}{28}{subsubsection.2.1.3.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.4}Resultados obtenidos}{29}{subsubsection.2.1.3.4}%
-\contentsline {subsection}{\numberline {2.1.4}Cuarto antecedente: «Will your Project get the Green light? Predicting the success of crowdfunding campaigns» \citep *{pr_chen2015predcrowd}}{29}{subsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema y objetivo}{29}{subsubsection.2.1.4.1}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}Técnicas empleadas por los autores}{29}{subsubsection.2.1.4.2}%
-\contentsline {subsubsection}{\numberline {2.1.4.3}Metodología empleada por los autores}{30}{subsubsection.2.1.4.3}%
-\contentsline {subsubsection}{\numberline {2.1.4.4}Resultados obtenidos}{30}{subsubsection.2.1.4.4}%
-\contentsline {subsection}{\numberline {2.1.5}Quinto antecedente: «Predicting Success in Equity Crowdfunding» \citep *{pr_beckwith2016predcrowd}}{30}{subsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema y objetivo}{30}{subsubsection.2.1.5.1}%
-\contentsline {subsubsection}{\numberline {2.1.5.2}Técnicas empleadas por los autores}{31}{subsubsection.2.1.5.2}%
-\contentsline {subsubsection}{\numberline {2.1.5.3}Metodología empleada por los autores}{31}{subsubsection.2.1.5.3}%
-\contentsline {subsubsection}{\numberline {2.1.5.4}Resultados obtenidos}{31}{subsubsection.2.1.5.4}%
-\contentsline {subsection}{\numberline {2.1.6}Sexto antecedente: «Project Success Prediction in Crowdfunding Environments» \citep *{pr_li2016predcrowd}}{32}{subsection.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.1.6.1}Planteamiento del Problema y objetivo}{32}{subsubsection.2.1.6.1}%
-\contentsline {subsubsection}{\numberline {2.1.6.2}Técnicas empleadas por los autores}{32}{subsubsection.2.1.6.2}%
-\contentsline {subsubsection}{\numberline {2.1.6.3}Metodología empleada por los autores}{32}{subsubsection.2.1.6.3}%
-\contentsline {subsubsection}{\numberline {2.1.6.4}Resultados obtenidos}{33}{subsubsection.2.1.6.4}%
-\contentsline {subsection}{\numberline {2.1.7}Séptimo antecedente: «The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach» \citep *{pr_yuan2016textanalytics}}{33}{subsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.7.1}Planteamiento del Problema y objetivo}{33}{subsubsection.2.1.7.1}%
-\contentsline {subsubsection}{\numberline {2.1.7.2}Técnicas empleadas por los autores}{34}{subsubsection.2.1.7.2}%
-\contentsline {subsubsection}{\numberline {2.1.7.3}Metodología empleada por los autores}{34}{subsubsection.2.1.7.3}%
-\contentsline {subsubsection}{\numberline {2.1.7.4}Resultados obtenidos}{34}{subsubsection.2.1.7.4}%
-\contentsline {subsection}{\numberline {2.1.8}Octavo antecedente: «Using Language to Predict Kickstarter Success» \citep *{pr_sawhney2016usingLT}}{34}{subsection.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.1.8.1}Planteamiento del Problema y objetivo}{34}{subsubsection.2.1.8.1}%
-\contentsline {subsubsection}{\numberline {2.1.8.2}Técnicas empleadas por los autores}{35}{subsubsection.2.1.8.2}%
-\contentsline {subsubsection}{\numberline {2.1.8.3}Metodología empleada por los autores}{35}{subsubsection.2.1.8.3}%
-\contentsline {subsubsection}{\numberline {2.1.8.4}Resultados obtenidos}{35}{subsubsection.2.1.8.4}%
-\contentsline {subsection}{\numberline {2.1.9}Noveno antecedente: «Effect of Social Media Connectivity on Success of Crowdfunding Campaigns» \citep *{pr_kaur2017socmedcrowd}}{35}{subsection.2.1.9}%
-\contentsline {subsubsection}{\numberline {2.1.9.1}Planteamiento del Problema y objetivo}{35}{subsubsection.2.1.9.1}%
-\contentsline {subsubsection}{\numberline {2.1.9.2}Técnicas empleadas por los autores}{36}{subsubsection.2.1.9.2}%
-\contentsline {subsubsection}{\numberline {2.1.9.3}Metodología empleada por los autores}{36}{subsubsection.2.1.9.3}%
-\contentsline {subsubsection}{\numberline {2.1.9.4}Resultados obtenidos}{36}{subsubsection.2.1.9.4}%
-\contentsline {subsection}{\numberline {2.1.10}Décimo antecedente: «Supervised Learning Model For Kickstarter Campaigns With R Mining» \citep *{pr_kamath2018suplearn}}{37}{subsection.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.1.10.1}Planteamiento del Problema y objetivo}{37}{subsubsection.2.1.10.1}%
-\contentsline {subsubsection}{\numberline {2.1.10.2}Técnicas empleadas por los autores}{37}{subsubsection.2.1.10.2}%
-\contentsline {subsubsection}{\numberline {2.1.10.3}Metodología empleada por los autores}{38}{subsubsection.2.1.10.3}%
-\contentsline {subsubsection}{\numberline {2.1.10.4}Resultados obtenidos}{38}{subsubsection.2.1.10.4}%
-\contentsline {subsection}{\numberline {2.1.11}Undécimo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep *{pr_yu2018deeplearning}}{38}{subsection.2.1.11}%
-\contentsline {subsubsection}{\numberline {2.1.11.1}Planteamiento del Problema y objetivo}{38}{subsubsection.2.1.11.1}%
-\contentsline {subsubsection}{\numberline {2.1.11.2}Técnicas empleadas por los autores}{39}{subsubsection.2.1.11.2}%
-\contentsline {subsubsection}{\numberline {2.1.11.3}Metodología empleada por los autores}{39}{subsubsection.2.1.11.3}%
-\contentsline {subsubsection}{\numberline {2.1.11.4}Resultados obtenidos}{39}{subsubsection.2.1.11.4}%
-\contentsline {subsection}{\numberline {2.1.12}Duodécimo antecedente: «Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach» \citep *{pr_lee2018contentDL}}{39}{subsection.2.1.12}%
-\contentsline {subsubsection}{\numberline {2.1.12.1}Planteamiento del Problema y objetivo}{40}{subsubsection.2.1.12.1}%
-\contentsline {subsubsection}{\numberline {2.1.12.2}Técnicas empleadas por los autores}{40}{subsubsection.2.1.12.2}%
-\contentsline {subsubsection}{\numberline {2.1.12.3}Metodología empleada por los autores}{40}{subsubsection.2.1.12.3}%
-\contentsline {subsubsection}{\numberline {2.1.12.4}Resultados obtenidos}{40}{subsubsection.2.1.12.4}%
-\contentsline {subsection}{\numberline {2.1.13}Decimotercer antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep *{pr_jin2019dayssuccess}}{41}{subsection.2.1.13}%
-\contentsline {subsubsection}{\numberline {2.1.13.1}Planteamiento del Problema y objetivo}{41}{subsubsection.2.1.13.1}%
-\contentsline {subsubsection}{\numberline {2.1.13.2}Técnicas empleadas por los autores}{41}{subsubsection.2.1.13.2}%
-\contentsline {subsubsection}{\numberline {2.1.13.3}Metodología empleada por los autores}{41}{subsubsection.2.1.13.3}%
-\contentsline {subsubsection}{\numberline {2.1.13.4}Resultados obtenidos}{42}{subsubsection.2.1.13.4}%
-\contentsline {subsection}{\numberline {2.1.14}Decimocuarto antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep *{pr_cheng2019deeplearning}}{42}{subsection.2.1.14}%
-\contentsline {subsubsection}{\numberline {2.1.14.1}Planteamiento del Problema y objetivo}{42}{subsubsection.2.1.14.1}%
-\contentsline {subsubsection}{\numberline {2.1.14.2}Técnicas empleadas por los autores}{42}{subsubsection.2.1.14.2}%
-\contentsline {subsubsection}{\numberline {2.1.14.3}Metodología empleada por los autores}{43}{subsubsection.2.1.14.3}%
-\contentsline {subsubsection}{\numberline {2.1.14.4}Resultados obtenidos}{43}{subsubsection.2.1.14.4}%
-\contentsline {subsection}{\numberline {2.1.15}Decimoquinto antecedente: «Finding the Keywords Affecting the Success of Crowdfunding Projects» \citep *{pr_chen2019keywords_crowdfunding}}{43}{subsection.2.1.15}%
-\contentsline {subsubsection}{\numberline {2.1.15.1}Planteamiento del Problema y objetivo}{44}{subsubsection.2.1.15.1}%
-\contentsline {subsubsection}{\numberline {2.1.15.2}Técnicas empleadas por los autores}{44}{subsubsection.2.1.15.2}%
-\contentsline {subsubsection}{\numberline {2.1.15.3}Metodología empleada por los autores}{44}{subsubsection.2.1.15.3}%
-\contentsline {subsubsection}{\numberline {2.1.15.4}Resultados obtenidos}{44}{subsubsection.2.1.15.4}%
-\contentsline {subsection}{\numberline {2.1.16}Decimosexto antecedente: «Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter» \citep *{pr_chaichi2019nlp_3dprinting}}{45}{subsection.2.1.16}%
-\contentsline {subsubsection}{\numberline {2.1.16.1}Planteamiento del Problema y objetivo}{45}{subsubsection.2.1.16.1}%
-\contentsline {subsubsection}{\numberline {2.1.16.2}Técnicas empleadas por los autores}{45}{subsubsection.2.1.16.2}%
-\contentsline {subsubsection}{\numberline {2.1.16.3}Metodología empleada por los autores}{45}{subsubsection.2.1.16.3}%
-\contentsline {subsubsection}{\numberline {2.1.16.4}Resultados obtenidos}{46}{subsubsection.2.1.16.4}%
-\contentsline {subsection}{\numberline {2.1.17}Decimoséptimo antecedente: «Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms» \citep *{pr_shafqat2019topicpredictions}}{46}{subsection.2.1.17}%
-\contentsline {subsubsection}{\numberline {2.1.17.1}Planteamiento del Problema y objetivo}{46}{subsubsection.2.1.17.1}%
-\contentsline {subsubsection}{\numberline {2.1.17.2}Técnicas empleadas por los autores}{47}{subsubsection.2.1.17.2}%
-\contentsline {subsubsection}{\numberline {2.1.17.3}Metodología empleada por los autores}{47}{subsubsection.2.1.17.3}%
-\contentsline {subsubsection}{\numberline {2.1.17.4}Resultados obtenidos}{47}{subsubsection.2.1.17.4}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{48}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{48}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{49}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{54}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Modelo Predictivo}{55}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Minería de Datos}{55}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Metodologías de Minería de Datos}{56}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Técnicas de Minería de Datos}{60}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Procesamiento del Lenguaje Natural}{80}{subsection.2.2.8}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{81}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{81}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{83}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Proyecto}{83}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Campaña}{84}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{86}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{86}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Enfoque de la investigación}{86}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Alcance de la investigación}{86}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Tipo de la investigación}{87}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Descripción del prototipo de investigación}{87}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Población y muestra}{88}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Población}{88}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Muestra}{88}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Unidad de análisis}{88}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Operacionalización de Variables}{89}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Instrumentos de medida}{90}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{94}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{95}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{95}{section.3.7}%
-\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{97}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{97}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Metainformación}{97}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Descripción}{101}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Comentarios}{104}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{106}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metainformación}{107}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Descripción}{112}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Comentarios}{113}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{115}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Metainformación}{115}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Descripción}{117}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Comentarios}{120}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{120}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Metainformación}{121}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Descripción}{123}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Comentarios}{125}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{125}{subsection.4.4.4}%
-\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{128}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metadata}{128}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{130}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{132}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelo apilado}{133}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Demostración del modelo final}{137}{section.5.5}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{139}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{139}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{139}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{140}{chapter*.151}%
-\contentsline {chapter}{Anexo}{148}{section*.152}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{149}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{150}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{151}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{153}{appendix.1.Alph4}%
+\contentsline {chapter}{Índice de Figuras}{9}{section*.1}%
+\contentsline {chapter}{Índice de Tablas}{14}{section*.2}%
+\contentsline {chapter}{Índice de Ecuaciones}{15}{section*.4}%
+\contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{19}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{19}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Formulación del Problema}{22}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problema General}{22}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Problemas Espec\'{i}ficos}{23}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{23}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{23}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'{i}ficos}{23}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{24}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Teórica}{24}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Práctica}{24}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Metodológica}{24}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Delimitación del Estudio}{24}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Espacial}{24}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Temporal}{24}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Conceptual}{25}{subsection.1.5.3}%
+\contentsline {section}{\numberline {1.6}Hipótesis}{25}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Hipótesis General}{25}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Hipótesis Específicas}{25}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Matriz de Consistencia}{25}{subsection.1.6.3}%
+\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{26}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{26}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Primer antecedente: «KickPredict: Predicting Kickstarter Success» \citep *{pr_chen2013kickpredict}}{26}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Planteamiento del Problema y objetivo}{27}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Técnicas empleadas por los autores}{27}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Metodología empleada por los autores}{27}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Resultados obtenidos}{27}{subsubsection.2.1.1.4}%
+\contentsline {subsection}{\numberline {2.1.2}Segundo antecedente: «The Language that Gets People to Give: Phrases that Predict Success on Kickstarter» \citep *{pr_mitra2014phrases}}{27}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Planteamiento del Problema y objetivo}{28}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Técnicas empleadas por los autores}{28}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Metodología empleada por los autores}{28}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Resultados obtenidos}{28}{subsubsection.2.1.2.4}%
+\contentsline {subsection}{\numberline {2.1.3}Tercer antecedente: «Money Talks: A Predictive Model on Crowdfunding Success Using Project Description» \citep *{pr_zhou2015projectdesc}}{29}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Planteamiento del Problema y objetivo}{29}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Técnicas empleadas por los autores}{29}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}Metodología empleada por los autores}{29}{subsubsection.2.1.3.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.4}Resultados obtenidos}{30}{subsubsection.2.1.3.4}%
+\contentsline {subsection}{\numberline {2.1.4}Cuarto antecedente: «Will your Project get the Green light? Predicting the success of crowdfunding campaigns» \citep *{pr_chen2015predcrowd}}{30}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema y objetivo}{30}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Técnicas empleadas por los autores}{30}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}Metodología empleada por los autores}{31}{subsubsection.2.1.4.3}%
+\contentsline {subsubsection}{\numberline {2.1.4.4}Resultados obtenidos}{31}{subsubsection.2.1.4.4}%
+\contentsline {subsection}{\numberline {2.1.5}Quinto antecedente: «Predicting Success in Equity Crowdfunding» \citep *{pr_beckwith2016predcrowd}}{31}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema y objetivo}{31}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Técnicas empleadas por los autores}{32}{subsubsection.2.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Metodología empleada por los autores}{32}{subsubsection.2.1.5.3}%
+\contentsline {subsubsection}{\numberline {2.1.5.4}Resultados obtenidos}{32}{subsubsection.2.1.5.4}%
+\contentsline {subsection}{\numberline {2.1.6}Sexto antecedente: «Project Success Prediction in Crowdfunding Environments» \citep *{pr_li2016predcrowd}}{33}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}Planteamiento del Problema y objetivo}{33}{subsubsection.2.1.6.1}%
+\contentsline {subsubsection}{\numberline {2.1.6.2}Técnicas empleadas por los autores}{33}{subsubsection.2.1.6.2}%
+\contentsline {subsubsection}{\numberline {2.1.6.3}Metodología empleada por los autores}{33}{subsubsection.2.1.6.3}%
+\contentsline {subsubsection}{\numberline {2.1.6.4}Resultados obtenidos}{34}{subsubsection.2.1.6.4}%
+\contentsline {subsection}{\numberline {2.1.7}Séptimo antecedente: «The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach» \citep *{pr_yuan2016textanalytics}}{34}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}Planteamiento del Problema y objetivo}{34}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Técnicas empleadas por los autores}{35}{subsubsection.2.1.7.2}%
+\contentsline {subsubsection}{\numberline {2.1.7.3}Metodología empleada por los autores}{35}{subsubsection.2.1.7.3}%
+\contentsline {subsubsection}{\numberline {2.1.7.4}Resultados obtenidos}{35}{subsubsection.2.1.7.4}%
+\contentsline {subsection}{\numberline {2.1.8}Octavo antecedente: «Using Language to Predict Kickstarter Success» \citep *{pr_sawhney2016usingLT}}{35}{subsection.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.8.1}Planteamiento del Problema y objetivo}{35}{subsubsection.2.1.8.1}%
+\contentsline {subsubsection}{\numberline {2.1.8.2}Técnicas empleadas por los autores}{36}{subsubsection.2.1.8.2}%
+\contentsline {subsubsection}{\numberline {2.1.8.3}Metodología empleada por los autores}{36}{subsubsection.2.1.8.3}%
+\contentsline {subsubsection}{\numberline {2.1.8.4}Resultados obtenidos}{36}{subsubsection.2.1.8.4}%
+\contentsline {subsection}{\numberline {2.1.9}Noveno antecedente: «Effect of Social Media Connectivity on Success of Crowdfunding Campaigns» \citep *{pr_kaur2017socmedcrowd}}{36}{subsection.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.9.1}Planteamiento del Problema y objetivo}{36}{subsubsection.2.1.9.1}%
+\contentsline {subsubsection}{\numberline {2.1.9.2}Técnicas empleadas por los autores}{37}{subsubsection.2.1.9.2}%
+\contentsline {subsubsection}{\numberline {2.1.9.3}Metodología empleada por los autores}{37}{subsubsection.2.1.9.3}%
+\contentsline {subsubsection}{\numberline {2.1.9.4}Resultados obtenidos}{37}{subsubsection.2.1.9.4}%
+\contentsline {subsection}{\numberline {2.1.10}Décimo antecedente: «Supervised Learning Model For Kickstarter Campaigns With R Mining» \citep *{pr_kamath2018suplearn}}{38}{subsection.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.10.1}Planteamiento del Problema y objetivo}{38}{subsubsection.2.1.10.1}%
+\contentsline {subsubsection}{\numberline {2.1.10.2}Técnicas empleadas por los autores}{38}{subsubsection.2.1.10.2}%
+\contentsline {subsubsection}{\numberline {2.1.10.3}Metodología empleada por los autores}{39}{subsubsection.2.1.10.3}%
+\contentsline {subsubsection}{\numberline {2.1.10.4}Resultados obtenidos}{39}{subsubsection.2.1.10.4}%
+\contentsline {subsection}{\numberline {2.1.11}Undécimo antecedente: «Prediction of Crowdfunding Project Success with Deep Learning» \citep *{pr_yu2018deeplearning}}{39}{subsection.2.1.11}%
+\contentsline {subsubsection}{\numberline {2.1.11.1}Planteamiento del Problema y objetivo}{39}{subsubsection.2.1.11.1}%
+\contentsline {subsubsection}{\numberline {2.1.11.2}Técnicas empleadas por los autores}{40}{subsubsection.2.1.11.2}%
+\contentsline {subsubsection}{\numberline {2.1.11.3}Metodología empleada por los autores}{40}{subsubsection.2.1.11.3}%
+\contentsline {subsubsection}{\numberline {2.1.11.4}Resultados obtenidos}{40}{subsubsection.2.1.11.4}%
+\contentsline {subsection}{\numberline {2.1.12}Duodécimo antecedente: «Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach» \citep *{pr_lee2018contentDL}}{40}{subsection.2.1.12}%
+\contentsline {subsubsection}{\numberline {2.1.12.1}Planteamiento del Problema y objetivo}{41}{subsubsection.2.1.12.1}%
+\contentsline {subsubsection}{\numberline {2.1.12.2}Técnicas empleadas por los autores}{41}{subsubsection.2.1.12.2}%
+\contentsline {subsubsection}{\numberline {2.1.12.3}Metodología empleada por los autores}{41}{subsubsection.2.1.12.3}%
+\contentsline {subsubsection}{\numberline {2.1.12.4}Resultados obtenidos}{41}{subsubsection.2.1.12.4}%
+\contentsline {subsection}{\numberline {2.1.13}Decimotercer antecedente: «Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective» \citep *{pr_jin2019dayssuccess}}{42}{subsection.2.1.13}%
+\contentsline {subsubsection}{\numberline {2.1.13.1}Planteamiento del Problema y objetivo}{42}{subsubsection.2.1.13.1}%
+\contentsline {subsubsection}{\numberline {2.1.13.2}Técnicas empleadas por los autores}{42}{subsubsection.2.1.13.2}%
+\contentsline {subsubsection}{\numberline {2.1.13.3}Metodología empleada por los autores}{42}{subsubsection.2.1.13.3}%
+\contentsline {subsubsection}{\numberline {2.1.13.4}Resultados obtenidos}{43}{subsubsection.2.1.13.4}%
+\contentsline {subsection}{\numberline {2.1.14}Decimocuarto antecedente: «Success Prediction on Crowdfunding with Multimodal Deep Learning» \citep *{pr_cheng2019deeplearning}}{43}{subsection.2.1.14}%
+\contentsline {subsubsection}{\numberline {2.1.14.1}Planteamiento del Problema y objetivo}{43}{subsubsection.2.1.14.1}%
+\contentsline {subsubsection}{\numberline {2.1.14.2}Técnicas empleadas por los autores}{43}{subsubsection.2.1.14.2}%
+\contentsline {subsubsection}{\numberline {2.1.14.3}Metodología empleada por los autores}{44}{subsubsection.2.1.14.3}%
+\contentsline {subsubsection}{\numberline {2.1.14.4}Resultados obtenidos}{44}{subsubsection.2.1.14.4}%
+\contentsline {subsection}{\numberline {2.1.15}Decimoquinto antecedente: «Finding the Keywords Affecting the Success of Crowdfunding Projects» \citep *{pr_chen2019keywords_crowdfunding}}{44}{subsection.2.1.15}%
+\contentsline {subsubsection}{\numberline {2.1.15.1}Planteamiento del Problema y objetivo}{45}{subsubsection.2.1.15.1}%
+\contentsline {subsubsection}{\numberline {2.1.15.2}Técnicas empleadas por los autores}{45}{subsubsection.2.1.15.2}%
+\contentsline {subsubsection}{\numberline {2.1.15.3}Metodología empleada por los autores}{45}{subsubsection.2.1.15.3}%
+\contentsline {subsubsection}{\numberline {2.1.15.4}Resultados obtenidos}{45}{subsubsection.2.1.15.4}%
+\contentsline {subsection}{\numberline {2.1.16}Decimosexto antecedente: «Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter» \citep *{pr_chaichi2019nlp_3dprinting}}{46}{subsection.2.1.16}%
+\contentsline {subsubsection}{\numberline {2.1.16.1}Planteamiento del Problema y objetivo}{46}{subsubsection.2.1.16.1}%
+\contentsline {subsubsection}{\numberline {2.1.16.2}Técnicas empleadas por los autores}{46}{subsubsection.2.1.16.2}%
+\contentsline {subsubsection}{\numberline {2.1.16.3}Metodología empleada por los autores}{46}{subsubsection.2.1.16.3}%
+\contentsline {subsubsection}{\numberline {2.1.16.4}Resultados obtenidos}{47}{subsubsection.2.1.16.4}%
+\contentsline {subsection}{\numberline {2.1.17}Decimoséptimo antecedente: «Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms» \citep *{pr_shafqat2019topicpredictions}}{47}{subsection.2.1.17}%
+\contentsline {subsubsection}{\numberline {2.1.17.1}Planteamiento del Problema y objetivo}{47}{subsubsection.2.1.17.1}%
+\contentsline {subsubsection}{\numberline {2.1.17.2}Técnicas empleadas por los autores}{48}{subsubsection.2.1.17.2}%
+\contentsline {subsubsection}{\numberline {2.1.17.3}Metodología empleada por los autores}{48}{subsubsection.2.1.17.3}%
+\contentsline {subsubsection}{\numberline {2.1.17.4}Resultados obtenidos}{48}{subsubsection.2.1.17.4}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{49}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{49}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{50}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{55}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Modelo Predictivo}{56}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Minería de Datos}{56}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Metodologías de Minería de Datos}{57}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Técnicas de Minería de Datos}{61}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Procesamiento del Lenguaje Natural}{81}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{82}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{82}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{84}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Proyecto}{84}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Campaña}{85}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{87}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{87}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Enfoque de la investigación}{87}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Alcance de la investigación}{87}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Tipo de la investigación}{88}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Descripción del prototipo de investigación}{88}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Población y muestra}{89}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Población}{89}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Muestra}{89}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Unidad de análisis}{89}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Operacionalización de Variables}{90}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Instrumentos de medida}{91}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Técnicas de recolección de datos}{95}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Técnicas para el procesamiento y análisis de la información}{96}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Comprensión del negocio}{97}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Comprensión de los datos}{100}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Preparación de los datos}{100}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Modelamiento}{100}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Evaluación}{100}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Despliegue}{100}{subsection.3.6.6}%
+\contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{100}{section.3.7}%
+\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{102}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{102}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Metainformación}{102}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Descripción}{106}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Comentarios}{109}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{111}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metainformación}{112}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Descripción}{117}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comentarios}{118}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{120}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Metainformación}{120}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Descripción}{122}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Comentarios}{125}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{125}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Metainformación}{126}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Descripción}{128}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Comentarios}{130}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{130}{subsection.4.4.4}%
+\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{133}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metadata}{133}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Descripción}{135}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comentarios}{137}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo apilado}{138}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Demostración del modelo final}{142}{section.5.5}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{144}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{144}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{144}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{145}{chapter*.152}%
+\contentsline {chapter}{Anexo}{153}{section*.153}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{154}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{155}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{156}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{158}{appendix.1.Alph4}%
