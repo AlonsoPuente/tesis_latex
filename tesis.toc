@@ -145,36 +145,36 @@
 \contentsline {subsection}{\numberline {3.6.5}Evaluación}{101}{subsection.3.6.5}%
 \contentsline {subsection}{\numberline {3.6.6}Despliegue}{103}{subsection.3.6.6}%
 \contentsline {section}{\numberline {3.7}Cronograma de actividades y presupuesto}{103}{section.3.7}%
-\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{104}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{104}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Metainformación}{104}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Descripción}{108}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Comentarios}{111}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{113}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Metainformación}{114}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Descripción}{119}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Comentarios}{120}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{122}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Metainformación}{122}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Descripción}{124}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Comentarios}{127}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{127}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Metainformación}{128}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Descripción}{130}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Comentarios}{132}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{132}{subsection.4.4.4}%
-\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{135}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metadata}{135}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{137}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{139}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelo apilado}{140}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Demostración del modelo final}{144}{section.5.5}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{146}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{146}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{146}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{147}{chapter*.152}%
-\contentsline {chapter}{Anexo}{155}{section*.153}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{156}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{157}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{158}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{160}{appendix.1.Alph4}%
+\contentsline {chapter}{\numberline {4}DESARROLLO DEL EXPERIMENTO}{105}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Construcción de los conjuntos finales de datos}{105}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Metainformación}{105}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Descripción}{109}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Comentarios}{112}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Análisis Exploratorios de los datos}{114}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Metainformación}{115}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Descripción}{120}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Comentarios}{121}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Pre-procesamiento de los conjuntos de datos}{123}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Metainformación}{123}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Descripción}{125}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Comentarios}{128}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Creación de los modelos predictivos}{128}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Metainformación}{129}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Descripción}{131}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Comentarios}{133}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{134}{subsection.4.4.4}%
+\contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{136}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metadata}{136}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Descripción}{138}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comentarios}{140}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo apilado}{141}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Demostración del modelo final}{145}{section.5.5}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{147}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{147}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{147}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{148}{chapter*.154}%
+\contentsline {chapter}{Anexo}{156}{section*.155}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{157}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{158}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{159}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{161}{appendix.1.Alph4}%

@@ -572,9 +572,15 @@ Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional 
 	\end{center}
 \end{figure}
 
-Esta red se compone de una capa de incrustación de palabras alimentada por los datos de entrada en la primera capa de dimensión de 3,671 vectores de palabras (la mayor longitud de palabras de todas las descripciones), la cual genera como salida una matriz de 3,671 por 100 (número de columnas de incrustaciones de GloVe). Para esta capa se entrenarán 14,827,000 parámetros como resultado del producto de las 100 columnas mencionadas y 148,270 como el tamaño del vocabulario entrenado.
+Esta red se compone de una capa de incrustación de palabras o \textit{Embedding} alimentada por los datos de entrada en la primera capa \textit{InputLayer} de dimensión de 3,671 vectores de palabras (la mayor longitud de palabras de todas las descripciones), la cual genera como salida una matriz de 3,671 por 100 (número de columnas de incrustaciones de GloVe). Para esta capa se entrenarán 14,827,000 parámetros como resultado del producto de las 100 columnas mencionadas y 148,270 como el tamaño del vocabulario entrenado.
 
-La siguiente capa es la Convolución en 1 dimensión (usado frecuentemente para extraer características de datos de textos por ser unidimensionales) que, con 128 características, 5 de tamaño de kernel y función de activación \textbf{relu}, generó una salida de 3,667 por 128; así como 64,128 parámetros entrenables.
+La siguiente capa es la Convolución en 1 dimensión o \textit{Conv1D} (usado frecuentemente para extraer características de datos de textos por ser unidimensionales) que, con 128 características, 5 de tamaño de kernel y función de activación \textbf{relu}, generó una salida de 3,667 por 128; así como 64,128 parámetros entrenables.
+
+Continuando la capa Conv1D, le sigue la capa de reducción \textit{GlobalMaxPooling}. Al igual que en la convolución, esta también fue unidimensional y se caracteriza por realizar agrupamiento global basado en el valor máximo de los bloques seleccionados para reducir el tamaño del vector.
+
+Esta nueva salida pasa por la capa de aplanamiento o \textit{Flatten}, en donde se multiplican las filas y columnas y tener un solo vector. Esta sirve para conectar con las 64 neuronas de la nueva capa densa y función de activación \textbf{tanh}, agregada con el fin de mejorar la performance del modelo. El criterio para considerar una función \textit{tanh} en vez de una \textit{relu} fue por el mejor desempeño de la primera ante el sobreajuste durante el entrenamiento.
+
+Finalmente, la arquitectura culmina con la última capa con función de activación \textbf{sigmoid} para regular el valor de salida entre 0 y 1, ya que se trata de un problema de clasificación binaria (por ello, también cuenta con solo 1 neurona y su parámetro de pérdida es “\textit{binary\_crossentropy}”).
 
 \subsection{Comentarios}
 Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
@@ -588,6 +594,10 @@ De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe 
 		\label{4:fig40}
 	\end{center}
 \end{figure}
+
+Existe una similitud de estructura en las 2 primeras capas con las del modelo de descripción. Luego de la capa de incrustaciones o \textit{Embedding}, para reducir las conexiones entre neuronas se añadió 1 capa de desactivación o \textit{Dropout}.
+
+A continuación, los vectores de palabras ingresan a la capa de la red neuronal recurrente \textit{LSTM}. La particularidad de esta capa es que fue asignada como Bidireccional, ya que
 
 \subsection{Modelo apilado}
 Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}. La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo cargado para obtener mejor performance que cada uno de manera individual.

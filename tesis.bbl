@@ -1123,6 +1123,32 @@
       \verb http://ligdigonzalez.com/curvas-roc-y-area-bajo-la-curva-auc-machine-learning/
       \endverb
     \endentry
+    \entry{ot_googlecloud_freetrial}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=57f3af2a3d1051c172ab3c3db7d5409d}{%
+           family={{Google Cloud}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{fullhash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{bibnamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{authorbibnamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{authornamehash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \strng{authorfullhash}{57f3af2a3d1051c172ab3c3db7d5409d}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Programa gratuito de Google Cloud}
+      \verb{urlraw}
+      \verb https://cloud.google.com/free/docs/gcp-free-tier
+      \endverb
+      \verb{url}
+      \verb https://cloud.google.com/free/docs/gcp-free-tier
+      \endverb
+    \endentry
     \entry{gl_google2018machinelearning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6bc28252c14133d21331dc54856c1797}{%
