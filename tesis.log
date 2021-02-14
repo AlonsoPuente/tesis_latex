@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  14 FEB 2021 05:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  14 FEB 2021 16:33
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2694,24 +2694,23 @@ File: 4/figures/model_rnn_comments.png Graphic file (type png)
 Package pdftex.def Info: 4/figures/model_rnn_comments.png  used on input line 5
 92.
 (pdftex.def)             Requested size: 271.7837pt x 238.50587pt.
-LaTeX Info: Redefining \. on input line 596.
-LaTeX Info: Redefining \% on input line 596.
+LaTeX Info: Redefining \. on input line 599.
+LaTeX Info: Redefining \% on input line 599.
  [133]
 <4/figures/final_stacked_model.png, id=2525, 1908.12875pt x 1073.00874pt>
 File: 4/figures/final_stacked_model.png Graphic file (type png)
 <use 4/figures/final_stacked_model.png>
 Package pdftex.def Info: 4/figures/final_stacked_model.png  used on input line 
-607.
+609.
 (pdftex.def)             Requested size: 475.61804pt x 267.44925pt.
 
-Overfull \hbox (22.64978pt too wide) in paragraph at lines 607--608
+Overfull \hbox (22.64978pt too wide) in paragraph at lines 609--610
  [] 
  []
 
-)
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
- [134 <./4/figures/model_rnn_comments.png>]
+LaTeX Info: Redefining \. on input line 616.
+LaTeX Info: Redefining \% on input line 616.
+[134 <./4/figures/model_rnn_comments.png>])
 LaTeX Info: Redefining \. on input line 219.
 LaTeX Info: Redefining \% on input line 219.
  [135 <./4/figures/final_stacked_model.png>]
@@ -3384,7 +3383,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (163 pages, 7771870 bytes).
+Output written on tesis.pdf (163 pages, 7772480 bytes).
 PDF statistics:
  3041 PDF objects out of 3580 (max. 8388607)
  601 named destinations out of 1000 (max. 500000)

@@ -576,7 +576,7 @@ Esta red se compone de una capa de incrustación de palabras o \textit{Embedding
 
 La siguiente capa es la Convolución en 1 dimensión o \textit{Conv1D} (usado frecuentemente para extraer características de datos de textos por ser unidimensionales) que, con 128 características, 5 de tamaño de kernel y función de activación \textbf{relu}, generó una salida de 3,667 por 128; así como 64,128 parámetros entrenables.
 
-Continuando la capa Conv1D, le sigue la capa de reducción \textit{GlobalMaxPooling}. Al igual que en la convolución, esta también fue unidimensional y se caracteriza por realizar agrupamiento global basado en el valor máximo de los bloques seleccionados para reducir el tamaño del vector.
+A continuación, le sigue la capa de reducción \textit{GlobalMaxPooling}. Al igual que en la convolución, esta también fue unidimensional y se caracteriza por realizar agrupamiento global basado en el valor máximo de los bloques seleccionados para reducir el tamaño del vector.
 
 Esta nueva salida pasa por la capa de aplanamiento o \textit{Flatten}, en donde se multiplican las filas y columnas y tener un solo vector. Esta sirve para conectar con las 64 neuronas de la nueva capa densa y función de activación \textbf{tanh}, agregada con el fin de mejorar la performance del modelo. El criterio para considerar una función \textit{tanh} en vez de una \textit{relu} fue por el mejor desempeño de la primera ante el sobreajuste durante el entrenamiento.
 
@@ -597,10 +597,12 @@ De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe 
 
 Existe una similitud de estructura en las 2 primeras capas con las del modelo de descripción. Luego de la capa de incrustaciones o \textit{Embedding}, para reducir las conexiones entre neuronas se añadió 1 capa de desactivación o \textit{Dropout}.
 
-A continuación, los vectores de palabras ingresan a la capa de la red neuronal recurrente \textit{LSTM}. La particularidad de esta capa es que fue asignada como Bidireccional, ya que
+A continuación, los vectores de palabras ingresan a la capa de la red neuronal recurrente \textit{LSTM}. La particularidad de esta capa es que fue una LSTM Bidireccional de 128 neuronas, ya que como se explica en el Marco Teórico del Capítulo II, las RNN bidireccionales presentan mejor desempeño que las regulares al entrenar dos LSTM juntas (la segunda representa una copia invertida de la secuencia de entrada) en donde cada capa ahora puede considerar también información de las capas siguientes junto con la información de las previas que ya tenía en cuenta, es decir, toma información de 2 direcciones.
+
+Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de entrada (2*128 de la capa Bidireccional LSTM) y utiliza la función de activación \textit{sigmoid} para transformar el valor final entre 0 y 1.
 
 \subsection{Modelo apilado}
-Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}. La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo cargado para obtener mejor performance que cada uno de manera individual.
+Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}. La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo para obtener mejor performance que cada uno individualmente.
 
 \begin{figure}[!ht]
 	\begin{center}
