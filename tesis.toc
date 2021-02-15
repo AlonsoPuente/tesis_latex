@@ -162,19 +162,20 @@
 \contentsline {subsection}{\numberline {4.4.1}Metainformación}{129}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Descripción}{131}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Comentarios}{133}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{134}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.4}Modelo apilado}{135}{subsection.4.4.4}%
 \contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{136}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metadata}{136}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Metainformación}{136}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Descripción}{138}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Comentarios}{141}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Modelo apilado}{143}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Demostración del modelo final}{145}{section.5.5}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{146}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{146}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{146}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{147}{chapter*.154}%
-\contentsline {chapter}{Anexo}{155}{section*.155}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{156}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{157}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{158}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{160}{appendix.1.Alph4}%
+\contentsline {section}{\numberline {5.5}Comparación de resultados}{145}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Demostración del modelo final}{146}{section.5.6}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{147}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{147}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{147}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{148}{chapter*.156}%
+\contentsline {chapter}{Anexo}{156}{section*.157}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{157}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{158}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{159}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{161}{appendix.1.Alph4}%

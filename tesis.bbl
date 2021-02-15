@@ -195,7 +195,7 @@
         {Universidad de Buenos Aires}%
       }
       \list{location}{1}{%
-        {Buenos Aires}%
+        {Buenos Aires, Argentina}%
       }
       \strng{namehash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
       \strng{fullhash}{ea10ff96a3eb16fea2f4ae1298fa86c5}
@@ -277,7 +277,7 @@
         {Universitat Oberta de Catalunya}%
       }
       \list{location}{1}{%
-        {Barcelona}%
+        {Barcelona, España}%
       }
       \strng{namehash}{133c222139e7d73f7783f4b413749d74}
       \strng{fullhash}{133c222139e7d73f7783f4b413749d74}
@@ -350,6 +350,40 @@
       \field{labeltitlesource}{title}
       \field{title}{Minería de Datos}
       \field{year}{2006}
+    \endentry
+    \entry{tec_brownlee2019vanishing_gradients}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Fix the Vanishing Gradients Problem Using the ReLU}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/how-to-fix-vanishing-gradients-using-the-rectified-linear-activation-function/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/how-to-fix-vanishing-gradients-using-the-rectified-linear-activation-function/
+      \endverb
     \endentry
     \entry{gl_calvo2017clasifrna}{misc}{}
       \name{author}{1}{}{%
@@ -1461,7 +1495,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Honolulu, Hawai}%
+        {Honolulu, Hawái}%
       }
       \list{publisher}{1}{%
         {Association for the Advancement of Artificial}%
@@ -1741,6 +1775,42 @@
       \endverb
       \verb{url}
       \verb https://www.kickstarter.com/press?ref=hello
+      \endverb
+    \endentry
+    \entry{ot_kickstarter_revopointproject}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=75b1d293ecc0cbc2e59d27d84f2b74d6}{%
+           family={{Kickstarter}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=34f0db12e274c24111322c9e505ce6f6}{%
+           family={{Revopoint 3D}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{fullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{bibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorbibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authornamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{authorfullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
+      \strng{editorbibnamehash}{34f0db12e274c24111322c9e505ce6f6}
+      \strng{editornamehash}{34f0db12e274c24111322c9e505ce6f6}
+      \strng{editorfullhash}{34f0db12e274c24111322c9e505ce6f6}
+      \field{extraname}{7}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revopoint POP: Precise 3D Scanner for 3D printing}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.kickstarter.com/projects/2125914059/revopoint-pop-high-precision-3d-scanner-for-3d-printing
+      \endverb
+      \verb{url}
+      \verb https://www.kickstarter.com/projects/2125914059/revopoint-pop-high-precision-3d-scanner-for-3d-printing
       \endverb
     \endentry
     \entry{gl_kohavi1998ml_glossary}{misc}{}
@@ -2166,7 +2236,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Ibarra}%
+        {Ibarra, Ecuador}%
       }
       \list{publisher}{1}{%
         {Pontificia Universidad Católica del Ecuador Sede Ibarra}%
@@ -2238,7 +2308,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Nueva York}%
+        {Nueva York, Estados Unidos de América}%
       }
       \list{publisher}{1}{%
         {Springer}%
@@ -2457,7 +2527,7 @@
       \verb http://comp.social.gatech.edu/papers/cscw14.crowdfunding.mitra.pdf
       \endverb
     \endentry
-    \entry{pr_molina2017pediatria_curvaroc}{article}{}
+    \entry{gl_molina2017pediatria_curvaroc}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=05200cea61fff6478dcd41cc1a3e7863}{%
            family={Molina\bibnamedelima Arias},
@@ -2707,6 +2777,40 @@
       \field{title}{A guide to the project management body of knowledge (PMBOK guide)}
       \field{year}{2017}
     \endentry
+    \entry{pr_puente2019kickstarter_prediction}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7acb4d7fd2e4cb46f086cc49ba45ac5}{%
+           family={Puente},
+           familyi={P\bibinitperiod},
+           given={Alonso},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad ESAN}%
+      }
+      \list{location}{1}{%
+        {Lima, Perú}%
+      }
+      \strng{namehash}{c7acb4d7fd2e4cb46f086cc49ba45ac5}
+      \strng{fullhash}{c7acb4d7fd2e4cb46f086cc49ba45ac5}
+      \strng{bibnamehash}{c7acb4d7fd2e4cb46f086cc49ba45ac5}
+      \strng{authorbibnamehash}{c7acb4d7fd2e4cb46f086cc49ba45ac5}
+      \strng{authornamehash}{c7acb4d7fd2e4cb46f086cc49ba45ac5}
+      \strng{authorfullhash}{c7acb4d7fd2e4cb46f086cc49ba45ac5}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Predicción del estado de financiamiento de proyectos de tecnología en web de crowdfunding Kickstarter mediante modelo(s) de Aprendizaje Automático}
+      \field{type}{Tesis de pregrado}
+      \field{year}{2019}
+      \field{pages}{140}
+      \range{pages}{1}
+    \endentry
     \entry{tec_ranjan2019thumbrules}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=138183e14e5a991d939c81f02604e7bb}{%
@@ -2740,6 +2844,32 @@
       \verb https://towardsdatascience.com/17-rules-of-thumb-for-building-a-neural-network-93356f9930af
       \endverb
     \endentry
+    \entry{ot_rae_hidra}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b397d66b02476457c3703cb2d7051bea}{%
+           family={{Real Academia Española}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b397d66b02476457c3703cb2d7051bea}
+      \strng{fullhash}{b397d66b02476457c3703cb2d7051bea}
+      \strng{bibnamehash}{b397d66b02476457c3703cb2d7051bea}
+      \strng{authorbibnamehash}{b397d66b02476457c3703cb2d7051bea}
+      \strng{authornamehash}{b397d66b02476457c3703cb2d7051bea}
+      \strng{authorfullhash}{b397d66b02476457c3703cb2d7051bea}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hidra}
+      \verb{urlraw}
+      \verb https://dle.rae.es/hidra
+      \endverb
+      \verb{url}
+      \verb https://dle.rae.es/hidra
+      \endverb
+    \endentry
     \entry{gl_rae}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b397d66b02476457c3703cb2d7051bea}{%
@@ -2752,11 +2882,11 @@
       \strng{authorbibnamehash}{b397d66b02476457c3703cb2d7051bea}
       \strng{authornamehash}{b397d66b02476457c3703cb2d7051bea}
       \strng{authorfullhash}{b397d66b02476457c3703cb2d7051bea}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{Vigesimotercera edición}
@@ -2889,7 +3019,7 @@
            giveni={R\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Madrid}%
+        {Madrid, España}%
       }
       \list{publisher}{1}{%
         {Pearson Educación, S.A.}%
@@ -2972,7 +3102,7 @@
         {Universidad de Sevilla}%
       }
       \list{location}{1}{%
-        {Sevilla}%
+        {Sevilla, España}%
       }
       \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
@@ -3010,7 +3140,7 @@
         {Universidad de Sevilla}%
       }
       \list{location}{1}{%
-        {Sevilla}%
+        {Sevilla, España}%
       }
       \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
@@ -3427,7 +3557,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Cambridge}%
+        {Cambridge, Inglaterra}%
       }
       \list{publisher}{1}{%
         {MIT Press}%
@@ -3548,7 +3678,7 @@
            givenun=1}}%
       }
       \list{location}{1}{%
-        {Ibarra}%
+        {Ibarra, Ecuador}%
       }
       \list{publisher}{1}{%
         {MDPI}%
@@ -3679,7 +3809,7 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Honolulu}%
+        {Honolulu, Hawái}%
       }
       \list{publisher}{1}{%
         {PICMET}%

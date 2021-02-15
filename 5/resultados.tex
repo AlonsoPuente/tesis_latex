@@ -3,7 +3,7 @@ Como parte de la aplicación de la metodología CRISP-DM, explicada en el sexto 
 
 En el antecedente marcado en (*), los modelos no fueron evaluados por AUC; mientras que en (**), las métricas precisión y AUC no fueron tomadas en cuenta.
 
-\section{Metadata}
+\section{Metainformación}
 Luego de 19 épocas, con un promedio de 3 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 3 épocas se redujo su tasa de aprendizaje.
 
 Así, de acuerdo a la Figura \ref{5:fig1}, en la época 11 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9523 y 0.1246 respectivamente.
@@ -273,4 +273,45 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table4} y el AUC en
 
 El área bajo la Curva ROC presenta un valor aproximado de 93\%, del cual se observa en el gráfico que su sensibilidad es muy alta y su ratio de Falsa Alarma es casi nulo. Esto significa que el poder discriminante del modelo es excepcionalmente bueno \parencite{bk_britos2006datamining}.
 
+\section{Comparación de resultados}
+Considerando los antecedentes mencionados al inicio del capítulo (\citeauthor{pr_beckwith2016predcrowd}, quinto antecedente; \citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_kaur2017socmedcrowd}, noveno antecedente; \citeauthor{pr_cheng2019deeplearning}, decimocuarto antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente), así como un trabajo previo del autor de la presente investigación cuyo trabajo sirvió de base \parencite{pr_puente2019kickstarter_prediction}, se armó el cuadro comparativo de la Tabla \ref{5:table5}.
+
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{|
+			>{\columncolor[HTML]{FFFFFF}}l |c|c|c|c|c|}
+		\hline
+		\multicolumn{1}{|c|}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Modelos}}} & \cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Exactitud}} & \cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Precisión}} & \cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Sensibilidad}} & \cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Puntaje F1}} & \cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{AUC}} \\ \hline
+		\textbf{Antecedente 5}                                                                & 0.87                                                              & 0.85                                                              & 0.88                                                                 & 0.86                                                               & 0.74                                                        \\ \hline
+		\textbf{Antecedente 7*}                                                               & 0.95                                                              & 0.92                                                              & 0.98                                                                 & 0.95                                                               & -                                                           \\ \hline
+		\textbf{Antecedente 9}                                                                & 0.77                                                              & 0.77                                                              & 0.77                                                                 & 0.77                                                               & 0.85                                                        \\ \hline
+		\textbf{Antecedente 14**}                                                             & 0.79                                                              & 0.76                                                              & 0.75                                                                 & 0.75                                                               & 0.83                                                        \\ \hline
+		\textbf{Antecedente 15}                                                               & 0.79                                                              & -                                                                 & 0.89                                                                 & 0.72                                                               & -                                                           \\ \hline
+		\textbf{Tesis de pregrado - Metainformación}                                                   & 0.89                                                              & 0.86                                                              & 0.72                                                                 & 0.75                                                               & 0.84                                                        \\ \hline
+		\textbf{Tesis de pregrado - Descripción}                                                & 0.75                                                              & 0.59                                                              & 0.53                                                                 & 0.35                                                               & 0.68                                                        \\ \hline
+		\textbf{Propuesta - Metainformación}                                                         & 0.93                                                              & 0.91                                                              & 0.92                                                                 & 0.92                                                               & 0.92                                                        \\ \hline
+		\textbf{Propuesta - Descripción}                                                      & 0.77                                                              & 0.72                                                              & 0.75                                                                 & 0.73                                                               & 0.75                                                        \\ \hline
+		\textbf{Propuesta - Comentarios}                                                      & 0.85                                                              & 0.87                                                              & 0.75                                                                 & 0.79                                                               & 0.75                                                        \\ \hline
+		\textbf{Propuesta - The Hydra}                                                        & 0.93                                                              & 0.91                                                              & 0.93                                                                 & 0.92                                                               & 0.93                                                        \\ \hline
+	\end{tabular}
+	\caption{Comparación de resultados de modelos propuestos con antecedentes. Fuente: Elaboración propia.}
+	\label{5:table5}
+\end{table}
+
+Los resultados del antecedente marcado en (*) se basan en los mejores obtenidos de las 2 bases de datos usadas; mientras que la exactitud del antecedente marcado en (**) se basa en el experimento con mayor nivel de texto y menor de imágenes.
+
+Los modelos citados de la Tesis de Bachiller para Metainformación y Descripción fueron una Máquina de Vectores de Soporte (SVM) y una SVM entrenada con el algoritmo TF-IDF, respectivamente.
+
 \section{Demostración del modelo final}
+Para culminar con la investigación, se diseñó un sistema piloto que contiene tanto el modelo The Hydra como el pre-procesamiento de datos previo para alimentarlo. El software se ejecutó desde la plataforma Google Colab y fue probado con la URL de un proyecto aleatorio de Kickstarter (Figura \ref{5:fig13}).
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{5/figures/example_project_150221.jpg}
+		\caption{Proyecto usado para la demostración. Captura de pantalla: 15/02/21. Fuente: \cite{ot_kickstarter_revopointproject}}
+		\label{5:fig13}
+	\end{center}
+\end{figure}
+
+Lo primero que realiza el sistema es extraer la metainformación, descripción y comentarios del proyecto desde el enlace dado. La ejecución de la prueba del sistema se dio el 23 de enero del 2021. A dicha fecha, los resultados de la extracción de datos fueron los siguientes:
