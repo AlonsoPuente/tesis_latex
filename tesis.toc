@@ -166,15 +166,15 @@
 \contentsline {chapter}{\numberline {5}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{136}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Metadata}{136}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Descripción}{138}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{140}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelo apilado}{141}{section.5.4}%
+\contentsline {section}{\numberline {5.3}Comentarios}{141}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo apilado}{143}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Demostración del modelo final}{145}{section.5.5}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{147}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{147}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{147}{section.6.2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{148}{chapter*.154}%
-\contentsline {chapter}{Anexo}{156}{section*.155}%
-\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{157}{appendix.1.Alph1}%
-\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{158}{appendix.1.Alph2}%
-\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{159}{appendix.1.Alph3}%
-\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{161}{appendix.1.Alph4}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONES Y RECOMENDACIONES}{146}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{146}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{146}{section.6.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{147}{chapter*.154}%
+\contentsline {chapter}{Anexo}{155}{section*.155}%
+\contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{156}{appendix.1.Alph1}%
+\contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{157}{appendix.1.Alph2}%
+\contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{158}{appendix.1.Alph3}%
+\contentsline {chapter}{Anexo \numberline {D}Resumen de Papers investigados}{160}{appendix.1.Alph4}%

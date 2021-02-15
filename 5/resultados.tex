@@ -1,31 +1,32 @@
 \chapter{ANÁLISIS Y DISCUSIÓN DE RESULTADOS}
+Como parte de la aplicación de la metodología CRISP-DM, explicada en el sexto subcapítulo del Capítulo III, se mencionaron las métricas usadas en la literatura. La más recurrente fue la exactitud. Dado que la librería Scikit-learn cuenta con un reporte de clasificación con esta métrica y otras 4 más como la precisión, sensibilidad, puntaje F1 y AUC, además que la distribución de proyectos por su estado de financiamiento es desbalanceada y se necesita más de un indicador para poder evaluar y comparar, se decidió usar estas 5 teniendo como referencias a los autores \citeauthor{pr_beckwith2016predcrowd} (quinto antecedente), \citeauthor{pr_yuan2016textanalytics}* (séptimo antecedente), \citeauthor{pr_kaur2017socmedcrowd} (noveno antecedente), \citeauthor{pr_cheng2019deeplearning} (decimocuarto antecedente), y \citeauthor{pr_chen2019keywords_crowdfunding}** (decimoquinto antecedente).
+
+En el antecedente marcado en (*), los modelos no fueron evaluados por AUC; mientras que en (**), las métricas precisión y AUC no fueron tomadas en cuenta.
+
 \section{Metadata}
-Luego de 27 épocas, con un rango entre 2 y 3 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 3 épocas antes se había reducido su tasa de aprendizaje.
+Luego de 19 épocas, con un promedio de 3 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 3 épocas se redujo su tasa de aprendizaje.
 
-Así, de acuerdo a las Figuras \ref{5:fig1} y \ref{5:fig2}, en la época 20 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9523 y 0.1246 respectivamente.
+Así, de acuerdo a la Figura \ref{5:fig1}, en la época 11 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9523 y 0.1246 respectivamente.
 
-\begin{figure}[htbp]
+\begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/metadata_model_accuracy.png}
-		\caption{Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
+		\includegraphics[width=1\textwidth]{5/figures/metadata_model_acc_loss.png}
+		\caption{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas. Fuente: Elaboración propia.}
 		\label{5:fig1}
-		\includegraphics[width=0.60\textwidth]{4/figures/metadata_model_loss.png}
-		\caption{Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
+	\end{center}
+\end{figure}
+
+La matriz de confusión resultante se representa en la Figura \ref{5:fig2}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{5/figures/metadata_confusion_matrix.png}
+		\caption{Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.}
 		\label{5:fig2}
 	\end{center}
 \end{figure}
 
-La matriz de confusión resultante se representa en la Figura \ref{5:fig3}.
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/metadata_confusion_matrix.png}
-		\caption{Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.}
-		\label{5:fig3}
-	\end{center}
-\end{figure}
-
-De esta matriz, derivan los resultados de la Tabla \ref{5:table1} evaluados según las métricas seleccionadas (citar).
+De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en la Figura \ref{5:fig3}.
 
 \begin{table}[h!]
 	\centering
@@ -35,61 +36,65 @@ De esta matriz, derivan los resultados de la Tabla \ref{5:table1} evaluados seg�
 		\rowcolor{bluejean}
 		\Centering \color{white}{Valor}& \Centering \color{white}{Precisión}& \Centering \color{white}{Sensibilidad}& \Centering \color{white}{Puntaje F1}& \Centering \color{white}{Muestras}\\
 		\hline
-		\textbf{Fracasado} & 0.99 & 0.95 & 0.97 & 3,901 \\
+		\textbf{Fracasado} & 0.96 & 0.95 & 0.95 & 3,901 \\
 		\hline
-		\textbf{Exitoso} & 0.88 & 0.97 & 0.92 & 1,550 \\
+		\textbf{Exitoso} & 0.87 & 0.89 & 0.88 & 1,550 \\
 		\hline
 		\rowcolor{turq}
 		\multicolumn{5}{c}{ } \\
 		\hline
-		\textbf{Exactitud} &  &	 & 0.95 & 5,451 \\
+		\textbf{Exactitud} &  &	 & 0.93 & 5,451 \\
 		\hline
-		\textbf{Promedio macro} & 0.93 & 0.96 & 0.94 & 5,451 \\
+		\textbf{Promedio macro} & 0.91 & 0.92 & 0.92 & 5,451 \\
 		\hline
-		\textbf{Promedio ponderado} & 0.96 & 0.95 & 0.95 & 5,451 \\
+		\textbf{Promedio ponderado} & 0.93 & 0.93 & 0.93 & 5,451 \\
 		\hline
 	\end{tabular}
 	\caption{Informe de clasificación para el modelo de metadata. Fuente: Elaboración propia.}
 	\label{5:table1}
 \end{table}
 
-Además, el área bajo la curva (AUC) tuvo un valor de como se muestra en la Figura \ref{5:fig4}.
+\begin{itemize}
+	\item El ratio de exactitud se interpreta como: El 93\% de los proyectos de la muestra fueron predichos correctamente.
+	\item El ratio de precisión para los positivos (\textit{Successful}) se interpreta como: El 87\% de los proyectos exitosos predichos de la muestra fueron clasificados correctamente. 
+	\item El ratio de sensibilidad para los positivos (\textit{Successful}) se interpreta como: El 89\% de los proyectos exitosos reales de la muestra fueron clasificados correctamente.
+	\item El ratio de Puntaje F1 para los positivos (\textit{Successful}) representa un balance entre las 2 métricas anteriores. En la tabla se observa que su valor es de 88\%, lo cual indica que en general, el modelo mantiene un alto rendimiento.
+\end{itemize}
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/metadata_auc.png}
-		\caption{Área bajo la curva de modelo de metadata. Fuente: Elaboración propia.}
+		\includegraphics[width=0.55\textwidth]{5/figures/metadata_auc.png}
+		\caption{Área bajo la curva ROC de modelo de metadata. Fuente: Elaboración propia.}
+		\label{5:fig3}
+	\end{center}
+\end{figure}
+
+El área bajo la Curva ROC presenta un valor de aproximadamente 92\%, del cual se observa en el gráfico que su sensibilidad es muy alta y el ratio de Falsa Alarma o Falsos Positivos es casi nulo. Esto significa que el poder discriminante del modelo es excelente \parencite{bk_britos2006datamining}.
+
+\section{Descripción}
+Luego de 82 épocas, con un promedio de 106 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 5 épocas se redujo su tasa de aprendizaje.
+
+Así, de acuerdo a la Figura \ref{5:fig4}, en la época 72 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.7683 y 0.4901 respectivamente.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{5/figures/description_model_acc_loss.png}
+		\caption{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas. Fuente: Elaboración propia.}
 		\label{5:fig4}
 	\end{center}
 \end{figure}
 
-\section{Descripción}
-Luego de 78 épocas, con un rango entre 102 y 114 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 5 épocas antes se había reducido su tasa de aprendizaje.
-
-Así, de acuerdo a las Figuras \ref{5:fig5} y \ref{5:fig6}, en la época 68 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.7665 y 0.4922 respectivamente.
-
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/description_model_accuracy.png}
-		\caption{Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
-		\label{5:fig5}
-		\includegraphics[width=0.60\textwidth]{4/figures/description_model_loss.png}
-		\caption{Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones para un entrenamiento de 100 épocas. Fuente: Elaboración propia.}
-		\label{5:fig6}
-	\end{center}
-\end{figure}
-
-La matriz de confusión resultante se representa en la Figura \ref{5:fig7}.
+La matriz de confusión resultante se representa en la Figura \ref{5:fig5}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/description_confusion_matrix.png}
+		\includegraphics[width=0.60\textwidth]{5/figures/description_confusion_matrix.png}
 		\caption{Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.}
-		\label{5:fig7}
+		\label{5:fig5}
 	\end{center}
 \end{figure}
 
-De esta matriz, derivan los resultados de la Tabla \ref{5:table2} evaluados según las métricas seleccionadas (citar).
+De esta matriz, se derivan los resultados de la Tabla \ref{5:table2} y el AUC en la Figura \ref{5:fig6}.
 
 \begin{table}[h!]
 	\centering
@@ -117,42 +122,46 @@ De esta matriz, derivan los resultados de la Tabla \ref{5:table2} evaluados seg�
 	\label{5:table2}
 \end{table}
 
-Además, el área bajo la curva (AUC) tuvo un valor de como se muestra en la Figura \ref{5:fig8}.
+\begin{itemize}
+	\item El ratio de exactitud se interpreta como: El 77\% de los proyectos de la muestra fueron predichos correctamente.
+	\item El ratio de precisión para los positivos (\textit{Successful}) se interpreta como: El 58\% de los proyectos exitosos predichos de la muestra fueron clasificados correctamente. 
+	\item El ratio de sensibilidad para los positivos (\textit{Successful}) se interpreta como: El 71\% de los proyectos exitosos reales de la muestra fueron clasificados correctamente.
+	\item El ratio de Puntaje F1 para los positivos (\textit{Successful}) representa un balance entre las 2 métricas anteriores. En la tabla se observa que su valor es de 63\%, lo cual indica que en general, el modelo presenta un rendimiento regular.
+\end{itemize}
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/description_auc.png}
-		\caption{Área bajo la curva de modelo de descripciones. Fuente: Elaboración propia.}
-		\label{5:fig8}
+		\includegraphics[width=0.55\textwidth]{5/figures/description_auc.png}
+		\caption{Área bajo la curva ROC de modelo de descripciones. Fuente: Elaboración propia.}
+		\label{5:fig6}
 	\end{center}
 \end{figure}
+
+El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es medianamente alta y el ratio de Falsa Alarma es medianamente baja. Esto significa que el poder discriminante del modelo es aceptable \parencite{bk_britos2006datamining}.
 
 \section{Comentarios}
 Luego de 43 épocas, con 77 segundos en promedio de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 1 época antes se había reducido su tasa de aprendizaje.
 
-Así, de acuerdo a las Figuras \ref{5:fig9} y \ref{5:fig10}, en la época 33 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.8510 y 0.4472 respectivamente.
+Así, de acuerdo a la Figura \ref{5:fig7}, en la época 33 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.8510 y 0.4472 respectivamente.
 
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/comments_model_accuracy.png}
-		\caption{Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.}
-		\label{5:fig9}
-		\includegraphics[width=0.60\textwidth]{4/figures/comments_model_loss.png}
-		\caption{Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios para un entrenamiento de 50 épocas. Fuente: Elaboración propia.}
-		\label{5:fig10}
-	\end{center}
-\end{figure}
-
-La matriz de confusión resultante se representa en la Figura \ref{5:fig11}.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/comments_confusion_matrix.png}
-		\caption{Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.}
-		\label{5:fig11}
+		\includegraphics[width=1\textwidth]{5/figures/comments_model_acc_loss.png}
+		\caption{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas. Fuente: Elaboración propia.}
+		\label{5:fig7}
 	\end{center}
 \end{figure}
 
-De esta matriz, derivan los resultados de la Tabla \ref{5:table3} evaluados según las métricas seleccionadas (citar).
+La matriz de confusión resultante se representa en la Figura \ref{5:fig8}.
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.60\textwidth]{5/figures/comments_confusion_matrix.png}
+		\caption{Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.}
+		\label{5:fig8}
+	\end{center}
+\end{figure}
+
+De esta matriz, se derivan los resultados de la Tabla \ref{5:table3} y el AUC en la Figura \ref{5:fig9}.
 
 \begin{table}[h!]
 	\centering
@@ -180,42 +189,46 @@ De esta matriz, derivan los resultados de la Tabla \ref{5:table3} evaluados seg�
 	\label{5:table3}
 \end{table}
 
-Además, el área bajo la curva (AUC) tuvo un valor de como se muestra en la Figura \ref{5:fig12}.
+\begin{itemize}
+	\item El ratio de exactitud se interpreta como: El 85\% de los proyectos de la muestra fueron predichos correctamente.
+	\item El ratio de precisión para los positivos (\textit{Successful}) se interpreta como: El 91\% de los proyectos exitosos predichos de la muestra fueron clasificados correctamente. 
+	\item El ratio de sensibilidad para los positivos (\textit{Successful}) se interpreta como: El 53\% de los proyectos exitosos reales de la muestra fueron clasificados correctamente.
+	\item El ratio de Puntaje F1 para los positivos (\textit{Successful}) representa un balance entre las 2 métricas anteriores. En la tabla se observa que su valor es de 67\%, lo cual indica que en general, el modelo presenta un rendimiento regular.
+\end{itemize}
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/comments_auc.png}
+		\includegraphics[width=0.55\textwidth]{5/figures/comments_auc.png}
 		\caption{Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.}
-		\label{5:fig12}
+		\label{5:fig9}
 	\end{center}
 \end{figure}
+
+El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es baja pero su ratio de Falsa Alarma es casi nulo. Esto significa que el poder discriminante del modelo es aceptable \parencite{bk_britos2006datamining}.
 
 \section{Modelo apilado}
-Luego de 13 épocas, con 152 segundos en promedio de entrenamientos cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 2 épocas antes se había reducido su tasa de aprendizaje.
+Luego de 13 épocas, con 152 segundos de entrenamientos cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 2 épocas se redujo su tasa de aprendizaje.
 
-Así, de acuerdo a las Figuras \ref{5:fig13} y \ref{5:fig14}, en la época 3 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9336 y 0.1810 respectivamente.
+Así, de acuerdo a la Figura \ref{5:fig10}, en la época 3 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9336 y 0.1810 respectivamente.
 
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/stacked_model_accuracy.png}
-		\caption{Evolución de la exactitud de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.}
-		\label{5:fig13}
-		\includegraphics[width=0.60\textwidth]{4/figures/stacked_model_loss.png}
-		\caption{Evolución de la pérdida de los subconjuntos de entrenamiento y validación para el modelo apilado para un entrenamiento de 200 épocas. Fuente: Elaboración propia.}
-		\label{5:fig14}
-	\end{center}
-\end{figure}
-
-La matriz de confusión resultante se representa en la Figura \ref{5:fig15}.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/stacked_confusion_matrix.png}
-		\caption{Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.}
-		\label{5:fig15}
+		\includegraphics[width=1\textwidth]{5/figures/stacked_model_acc_loss.png}
+		\caption{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas. Fuente: Elaboración propia.}
+		\label{5:fig10}
 	\end{center}
 \end{figure}
 
-De esta matriz, derivan los resultados de la Tabla \ref{5:table4} evaluados según las métricas seleccionadas (citar).
+La matriz de confusión resultante se representa en la Figura \ref{5:fig11}.
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.55\textwidth]{5/figures/stacked_confusion_matrix.png}
+		\caption{Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.}
+		\label{5:fig11}
+	\end{center}
+\end{figure}
+
+De esta matriz, se derivan los resultados de la Tabla \ref{5:table4} y el AUC en la Figura \ref{5:fig12}.
 
 \begin{table}[h!]
 	\centering
@@ -243,14 +256,21 @@ De esta matriz, derivan los resultados de la Tabla \ref{5:table4} evaluados seg�
 	\label{5:table4}
 \end{table}
 
-Además, el área bajo la curva (AUC) tuvo un valor de como se muestra en la Figura \ref{5:fig16}.
+\begin{itemize}
+	\item El ratio de exactitud se interpreta como: El 93\% de los proyectos de la muestra fueron predichos correctamente.
+	\item El ratio de precisión para los positivos (\textit{Successful}) se interpreta como: El 87\% de los proyectos exitosos predichos de la muestra fueron clasificados correctamente. 
+	\item El ratio de sensibilidad para los positivos (\textit{Successful}) se interpreta como: El 91\% de los proyectos exitosos reales de la muestra fueron clasificados correctamente.
+	\item El ratio de Puntaje F1 para los positivos (\textit{Successful}) representa un balance entre las 2 métricas anteriores. En la tabla se observa que su valor es de 89\%, lo cual indica que en general, el modelo presenta un rendimiento regular.
+\end{itemize}
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/stacked_auc.png}
+		\includegraphics[width=0.50\textwidth]{5/figures/stacked_auc.png}
 		\caption{Área bajo la curva de modelo apilado. Fuente: Elaboración propia.}
-		\label{5:fig16}
+		\label{5:fig12}
 	\end{center}
 \end{figure}
+
+El área bajo la Curva ROC presenta un valor aproximado de 93\%, del cual se observa en el gráfico que su sensibilidad es muy alta y su ratio de Falsa Alarma es casi nulo. Esto significa que el poder discriminante del modelo es excepcionalmente bueno \parencite{bk_britos2006datamining}.
 
 \section{Demostración del modelo final}
