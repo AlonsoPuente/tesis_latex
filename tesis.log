@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  15 FEB 2021 02:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  15 FEB 2021 02:30
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2861,7 +2861,7 @@ LaTeX Info: Redefining \. on input line 275.
 LaTeX Info: Redefining \% on input line 275.
  [144 <./5/figures/stacked_confusion_matrix.png> <./5/figures/stacked_auc.png>]
 
-Overfull \hbox (14.71303pt too wide) in paragraph at lines 282--298
+Overfull \hbox (4.28877pt too wide) in paragraph at lines 282--298
  [][] 
  []
 
@@ -3344,7 +3344,7 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Here is how much of TeX's memory you used:
  27794 strings out of 480763
  507190 string characters out of 2904056
- 1367829 words of memory out of 3000000
+ 1368829 words of memory out of 3000000
  42558 multiletter control sequences out of 15000+200000
  587907 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3360,7 +3360,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (163 pages, 7884845 bytes).
+Output written on tesis.pdf (163 pages, 7884561 bytes).
 PDF statistics:
  3054 PDF objects out of 3580 (max. 8388607)
  608 named destinations out of 1000 (max. 500000)
