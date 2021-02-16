@@ -304,14 +304,57 @@ Los resultados del antecedente marcado en (*) se basan en los mejores obtenidos 
 Los modelos citados de la Tesis de Bachiller para Metainformación y Descripción fueron una Máquina de Vectores de Soporte (SVM) y una SVM entrenada con el algoritmo TF-IDF, respectivamente.
 
 \section{Demostración del modelo final}
-Para culminar con la investigación, se diseñó un sistema piloto que contiene tanto el modelo The Hydra como el pre-procesamiento de datos previo para alimentarlo. El software se ejecutó desde la plataforma Google Colab y fue probado con la URL de un proyecto aleatorio de Kickstarter (Figura \ref{5:fig13}).
+Para culminar con la investigación, se diseñó un sistema piloto que logra predecir el estado de financiamiento de un determinado proyecto siguiendo el flujo de la Figura \ref{5:fig13}.
 
-\begin{figure}[!ht]
+\begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{5/figures/example_project_150221.jpg}
-		\caption{Proyecto usado para la demostración. Captura de pantalla: 15/02/21. Fuente: \cite{ot_kickstarter_revopointproject}}
+		\includegraphics[width=0.95\textwidth]{5/figures/demo_flux.png}
+		\caption{Flujograma del sistema piloto. Fuente: Elaboración propia.}
 		\label{5:fig13}
 	\end{center}
 \end{figure}
 
-Lo primero que realiza el sistema es extraer la metainformación, descripción y comentarios del proyecto desde el enlace dado. La ejecución de la prueba del sistema se dio el 23 de enero del 2021. A dicha fecha, los resultados de la extracción de datos fueron los siguientes:
+Como se observa en la anterior imagen, el software ejecutado localmente desde Jupyter Notebook recibe de entrada el enlace web de un proyecto no finalizado de Kickstarter. Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campaña de la Figura \ref{5:fig14}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{5/figures/example_project_150221.jpg}
+		\caption{Proyecto usado para la demostración. Captura de pantalla: 15/02/21. Fuente: \cite{ot_kickstarter_revopointproject}}
+		\label{5:fig14}
+	\end{center}
+\end{figure}
+
+La primera acción hecha por el sistema fue extraer la metainformación, descripción y comentarios del proyecto desde el ingreso al URL por un navegador. Debido al cambio de políticas de acceso a la plataforma en 2020, Kickstarter detecta la presencia de bots y restringe la navegación usando CAPTCHAs para evitar su accionar. Algunas veces fue detectado el bot del sistema. Ante ello, la única acción manual por parte del usuario en el sistema se da en este paso presionando por 5 segundos el botón de “\textit{I'm a human}” (Soy humano por su traducción al español) que se muestra en la ventana. Desde este punto, luego de ingresar al enlace de la campaña del proyecto, el sistema primero se redirige a la sección de la metainformación y extrae las variables usadas para el entrenamiento del modelo. Del mismo modo, repite esta secuencia para la descripción y los comentarios.
+
+Los datos extraídos de cada modalidad se muestran en la Figura \ref{5:fig15} respectivamente.
+\begin{figure}[!ht]
+	\centering
+	\small
+	\begin{subfigure}{.35\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{5/figures/metadata_scraped_project.jpg}
+		\caption{Metainformación}
+	\end{subfigure}%
+	\begin{subfigure}{.35\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{5/figures/description_scraped_project.jpg}
+		\caption{Descripción}
+	\end{subfigure}%
+	\begin{subfigure}{.35\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{5/figures/comments_scraped_project.jpg}
+		\caption{Comentarios}
+	\end{subfigure}
+	\caption{Variables extraídas del proyecto. Fuente: Elaboración propia.}
+	\label{5:fig15}
+\end{figure}
+
+Esta información es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{5:fig16}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{5/figures/demo_project_prediction.jpg}
+		\caption{Resultado de predicción de The Hydra para el proyecto consultado. Fuente: Elaboración propia.}
+		\label{5:fig16}
+	\end{center}
+\end{figure}
