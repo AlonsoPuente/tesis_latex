@@ -351,6 +351,74 @@
       \field{title}{Minería de Datos}
       \field{year}{2006}
     \endentry
+    \entry{bk_brownlee2017deeplearning_nlp}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning for Natural Language Processing: Develop Deep Learning Models for your Natural Language Problems}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
+      \endverb
+      \verb{url}
+      \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
+      \endverb
+    \endentry
+    \entry{tec_brownlee2018stacked_models}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stacking Ensemble for Deep Learning Neural Networks in Python}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
+      \endverb
+    \endentry
     \entry{tec_brownlee2019vanishing_gradients}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
@@ -369,11 +437,11 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{How to Fix the Vanishing Gradients Problem Using the ReLU}

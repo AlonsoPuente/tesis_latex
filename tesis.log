@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  16 FEB 2021 03:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  17 FEB 2021 02:03
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -1345,7 +1345,7 @@ LaTeX Info: Redefining \. on input line 113.
 LaTeX Info: Redefining \% on input line 113.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 17.26263pt.
+Make it at least 17.21764pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
@@ -2928,17 +2928,23 @@ oject_prediction.jpg>]
 
  (6/conclusion.tex
 Cap\'{\i }tulo 6.
-) [148
+[148
 
 
 
-] [149
+]
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+ [149])
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
+ [150] [151
 
 
 ]
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
- [150]
+ [152]
 Overfull \hbox (47.66238pt too wide) in paragraph at lines 228--228
 [][]\OT1/ptm/m/n/12 Gupta, P. (2017). De-ci-sion Trees in Ma-chi-ne Lear-ning. 
 \OT1/ptm/m/it/12 To-wards Da-ta Scien-ce\OT1/ptm/m/n/12 . [][]$https : / / towa
@@ -2947,15 +2953,16 @@ rdsdatascience .
 
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
-[151]
+[153]
+LaTeX Info: Redefining \. on input line 228.
+LaTeX Info: Redefining \% on input line 228.
+ [154]
 Overfull \hbox (27.30882pt too wide) in paragraph at lines 228--228
 [][]\OT1/ptm/m/n/12 L[]opez Brie-ga, R. E. (2016). Re-des neu-ro-na-les con-vo-
 lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
  []
 
-LaTeX Info: Redefining \. on input line 228.
-LaTeX Info: Redefining \% on input line 228.
-[152]
+
 Overfull \hbox (2.5964pt too wide) in paragraph at lines 228--228
 [][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
 VM). [][]$https : / / la . mathworks . com / discovery /
@@ -2969,7 +2976,7 @@ Overfull \hbox (12.33052pt too wide) in paragraph at lines 228--228
 
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
-[153]
+[155]
 Overfull \hbox (2.32396pt too wide) in paragraph at lines 228--228
 \OT1/ptm/m/n/12 go-cio que por des-em-pleo. \OT1/ptm/m/it/12 Dia-rio Ges-ti[]on
 \OT1/ptm/m/n/12 . [][]$https : / / gestion . pe / economia / emprendimiento -[]
@@ -2978,7 +2985,7 @@ Overfull \hbox (2.32396pt too wide) in paragraph at lines 228--228
 
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
-[154]
+[156]
 Overfull \hbox (36.85689pt too wide) in paragraph at lines 228--228
 [][]\OT1/ptm/m/n/12 Solidaridad La-ti-na. (s.f.). ?`C[]omo fun-cio-na el crowd-
 fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
@@ -2986,10 +2993,10 @@ fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
 
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
-[155]
+[157]
 LaTeX Info: Redefining \. on input line 236.
 LaTeX Info: Redefining \% on input line 236.
- [156] [157
+ [158] [159
 
 
 ]
@@ -2997,22 +3004,22 @@ LaTeX Info: Redefining \% on input line 236.
 
  (anexos/anexo.tex
 Anexo A.
-<anexos/arbol_problemas.jpg, id=2880, 645.00975pt x 411.33675pt>
+<anexos/arbol_problemas.jpg, id=2897, 645.00975pt x 411.33675pt>
 File: anexos/arbol_problemas.jpg Graphic file (type jpg)
 <use anexos/arbol_problemas.jpg>
 Package pdftex.def Info: anexos/arbol_problemas.jpg  used on input line 6.
 (pdftex.def)             Requested size: 452.96826pt x 288.86896pt.
-[158
+[160
 
 
  <./anexos/arbol_problemas.jpg>]
 Anexo B.
-<anexos/arbol_objetivos.jpg, id=2886, 595.023pt x 378.213pt>
+<anexos/arbol_objetivos.jpg, id=2903, 595.023pt x 378.213pt>
 File: anexos/arbol_objetivos.jpg Graphic file (type jpg)
 <use anexos/arbol_objetivos.jpg>
 Package pdftex.def Info: anexos/arbol_objetivos.jpg  used on input line 15.
 (pdftex.def)             Requested size: 452.96826pt x 287.92386pt.
-[159
+[161
 
  <./anexos/arbol_objetivos.jpg>]
 Anexo C.
@@ -3054,12 +3061,12 @@ Overfull \hbox (11.42305pt too wide) in paragraph at lines 26--51
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[160
+[162
 
 ]
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [161]
+ [163]
 Anexo D.
 
 Overfull \hbox (1.37367pt too wide) in paragraph at lines 68--68
@@ -3364,12 +3371,12 @@ Underfull \hbox (badness 7362) in paragraph at lines 94--96
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [162
+) [164
 
 ]
 LaTeX Info: Redefining \. on input line 239.
 LaTeX Info: Redefining \% on input line 239.
- [163]
+ [165]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (tesis.aux
@@ -3383,20 +3390,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 002EB66F0BC30990D812DC63090E2533;16682.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27907 strings out of 480763
- 509637 string characters out of 2904056
- 1371215 words of memory out of 3000000
- 42659 multiletter control sequences out of 15000+200000
+ 27921 strings out of 480763
+ 510052 string characters out of 2904056
+ 1373159 words of memory out of 3000000
+ 42669 multiletter control sequences out of 15000+200000
  589014 words of font info for 152 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,32n,81p,2376b,4052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3411,9 +3413,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (164 pages, 8671945 bytes).
+Output written on tesis.pdf (166 pages, 8678762 bytes).
 PDF statistics:
- 3077 PDF objects out of 3580 (max. 8388607)
- 612 named destinations out of 1000 (max. 500000)
+ 3096 PDF objects out of 3580 (max. 8388607)
+ 616 named destinations out of 1000 (max. 500000)
  1978 words of extra memory for PDF output out of 10000 (max. 10000000)
 
