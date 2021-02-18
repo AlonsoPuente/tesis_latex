@@ -351,40 +351,6 @@
       \field{title}{Minería de Datos}
       \field{year}{2006}
     \endentry
-    \entry{bk_brownlee2017deeplearning_nlp}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
-           family={Brownlee},
-           familyi={B\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Machine Learning Mastery}%
-      }
-      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Deep Learning for Natural Language Processing: Develop Deep Learning Models for your Natural Language Problems}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
-      \endverb
-      \verb{url}
-      \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
-      \endverb
-    \endentry
     \entry{tec_brownlee2018stacked_models}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
@@ -403,7 +369,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -437,7 +403,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -1596,12 +1562,12 @@
     \endentry
     \entry{pr_kamath2018suplearn}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=68e694a06a9d6b3c41665a1fe91e011c}{%
+        {{un=1,uniquepart=given,hash=68e694a06a9d6b3c41665a1fe91e011c}{%
            family={Kamath},
            familyi={K\bibinitperiod},
            given={R.\bibnamedelimi S.},
            giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=05e23504222da69528ccde71569de146}{%
            family={Kamat},
            familyi={K\bibinitperiod},
@@ -1622,7 +1588,6 @@
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Information Technology, Modeling and Computing (IJITMC)}
@@ -1634,11 +1599,50 @@
       \verb 10.5281/zenodo.1228716
       \endverb
       \verb{urlraw}
-      \verb https://search.datacite.org/works/10.5281/zenodo.1228716
+      \verb https://www.aircconline.com/ijitmc/V4N1/4116ijitmc02.pdf
       \endverb
       \verb{url}
-      \verb https://search.datacite.org/works/10.5281/zenodo.1228716
+      \verb https://www.aircconline.com/ijitmc/V4N1/4116ijitmc02.pdf
       \endverb
+    \endentry
+    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
+           family={Kamath},
+           familyi={K\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=43b0dce2cc8966238118a2bec6068e52}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0ab2cb08ed94aa242262cef31788bcb}{%
+           family={Whitaker},
+           familyi={W\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{833301448c7c5c65ed3aafb1cfd401dd}
+      \strng{fullhash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{bibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authorbibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authornamehash}{833301448c7c5c65ed3aafb1cfd401dd}
+      \strng{authorfullhash}{ed948ed3d6f5cbfb413490904762ee41}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning for NLP and Speech Recognition}
+      \field{year}{2019}
     \endentry
     \entry{pr_kaur2017socmedcrowd}{article}{}
       \name{author}{2}{}{%
@@ -2542,6 +2546,32 @@
       \verb https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/data-mining-concepts?view=sql-server-2017
       \endverb
     \endentry
+    \entry{tec_missinglink_conv1d}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4a38e72761346eff03ee0dd26e5911e4}{%
+           family={{MissingLink.ai}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a38e72761346eff03ee0dd26e5911e4}
+      \strng{fullhash}{4a38e72761346eff03ee0dd26e5911e4}
+      \strng{bibnamehash}{4a38e72761346eff03ee0dd26e5911e4}
+      \strng{authorbibnamehash}{4a38e72761346eff03ee0dd26e5911e4}
+      \strng{authornamehash}{4a38e72761346eff03ee0dd26e5911e4}
+      \strng{authorfullhash}{4a38e72761346eff03ee0dd26e5911e4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Keras Conv1D: Working with 1D Convolutional Neural Networks in Keras}
+      \verb{urlraw}
+      \verb https://missinglink.ai/guides/keras/keras-conv1d-working-1d-convolutional-neural-networks-keras/
+      \endverb
+      \verb{url}
+      \verb https://missinglink.ai/guides/keras/keras-conv1d-working-1d-convolutional-neural-networks-keras/
+      \endverb
+    \endentry
     \entry{pr_mitra2014phrases}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=4adddece80ffbb8473c9268318a702c9}{%
@@ -2911,6 +2941,40 @@
       \verb{url}
       \verb https://towardsdatascience.com/17-rules-of-thumb-for-building-a-neural-network-93356f9930af
       \endverb
+    \endentry
+    \entry{bk_rao2019nlp_pytorch}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6f8d73738cebb38f81616b4692bd8619}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Delip},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0df78bdf27a1eefc29b803e55e7a167}{%
+           family={McMahan},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O’Reilly}%
+      }
+      \strng{namehash}{b44412181303781babe95b92390cada2}
+      \strng{fullhash}{b44412181303781babe95b92390cada2}
+      \strng{bibnamehash}{b44412181303781babe95b92390cada2}
+      \strng{authorbibnamehash}{b44412181303781babe95b92390cada2}
+      \strng{authornamehash}{b44412181303781babe95b92390cada2}
+      \strng{authorfullhash}{b44412181303781babe95b92390cada2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Natural Language Processing with PyTorch: Build Intelligent Language Applications Using Deep Learning}
+      \field{year}{2019}
     \endentry
     \entry{ot_rae_hidra}{misc}{}
       \name{author}{1}{}{%

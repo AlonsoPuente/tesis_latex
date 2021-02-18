@@ -760,18 +760,24 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	
 	Una Máquina de Vectores de Soporte aprende la superficie decisión de dos clases distintas de los puntos de entrada. Como un clasificador de una sola clase, la descripción dada por los datos de los vectores de soporte es capaz de formar una frontera de decisión alrededor del dominio de los datos de aprendizaje con muy poco o ningún conocimiento de los datos fuera de esta frontera. Los datos son mapeados por medio de un \textit{kernel} Gaussiano u otro tipo de \textit{kernel} a un espacio de características en un espacio dimensional más alto, donde se busca la separación máxima entre clases. Cuando es traída de regreso al espacio de entrada, la función de frontera puede separar los datos en todas las clases distintas, cada una formando un agrupamiento. Esta teoría se basa en la idea de minimización de riesgo estructural (SRM), demostrando en muchas aplicaciones tener mejor desempeño que otros algoritmos de aprendizaje tradicional como las redes neuronales para resolver problemas de clasificación \parencite{tec_betancourt2005svm}.
 	
-	Cabe mencionar que hay casos en que el conjunto de datos de dos clases puede ser separables no necesariamente de forma lineal. En las Figura \ref{2:fig37} y Figura \ref{2:fig38} se observan casos linealmente y no linealmente separables, respectivamente.
-	\begin{figure}[htbp]
-		\begin{center}
-			\includegraphics[width=0.3\textwidth]{2/figures/caso1_svm.jpg}
-			\caption{Ejemplo de caso linealmente separable. Fuente: \cite{tec_betancourt2005svm}}
-			\label{2:fig37}
-			
-			\includegraphics[width=0.3\textwidth]{2/figures/caso2_svm.jpg}
-			\caption{Ejemplo de caso no linealmente separable. Fuente: \cite{tec_betancourt2005svm}}
-			\label{2:fig38}
-		\end{center}
+	Cabe mencionar que hay casos en que el conjunto de datos de dos clases puede ser separables no necesariamente de forma lineal. En la Figura \ref{2:fig37} se observan casos linealmente y no linealmente separables, respectivamente.
+	\begin{figure}[!ht]
+		\centering
+		\small
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.6\linewidth]{2/figures/caso1_svm.jpg}
+			\caption{Linealmente separable}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.6\linewidth]{2/figures/caso2_svm.jpg}
+			\caption{No linealmente separable}
+		\end{subfigure}
+		\caption{Ejemplo de separación de 2 clases. Fuente: \cite{tec_betancourt2005svm}}
+		\label{2:fig37}
 	\end{figure}
+	
 	
 	Lo que se debe hacer para el primer caso es crear el hiperplano a través de una función lineal $w*z+b=0$ y, definido el par $(w,b)$, separar el punto $x_i$ según la Ecuación \ref{eq:hiperplano}:
 	
@@ -790,12 +796,12 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\label{eq:hiperplano}
 	\end{equcaption}
 	
-	Para el segundo caso, debido a su mayor complejidad, se puede introducir algunas variables no-negativas a la función del hiperplano para hallar su valor óptimo; o también es viable utilizar una función \textit{kernel} que calcule el producto punto de los puntos de entrada en el espacio de características Z, como se aprecia en la Figura \ref{2:fig39}.
+	Para el segundo caso, debido a su mayor complejidad, se puede introducir algunas variables no-negativas a la función del hiperplano para hallar su valor óptimo; o también es viable utilizar una función \textit{kernel} que calcule el producto punto de los puntos de entrada en el espacio de características Z, como se aprecia en la Figura \ref{2:fig38}.
 	\begin{figure}[h]
 		\begin{center}
-			\includegraphics[width=0.8\textwidth]{2/figures/kernel_svm.jpg}
+			\includegraphics[width=0.7\textwidth]{2/figures/kernel_svm.jpg}
 			\caption{Aplicación de un kernel para transformar el espacio de los datos. Fuente: \cite{tec_betancourt2005svm}}
-			\label{2:fig39}
+			\label{2:fig38}
 		\end{center}
 	\end{figure}
 	
@@ -803,12 +809,12 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	
 	Un árbol de decisión toma como entrada un objeto descrito a través de un conjunto de atributos y devuelve una “decisión”. Estos pueden ser discretos o continuos. La salida puede tomar cualquiera de estos dos tipos de valores; en el caso que aprenda una función tomando valores discretos se le denominará clasificación, y en el caso que la función sea continua será llamada regresión. En las clasificaciones booleanas, es decir de dos valores o binaria, clasificará como verdadero (positivo) o falso (negativo). Para alcanzar una decisión, el árbol desarrolla una serie de pruebas a través de sus nodos y las ramas que salen del nodo son etiquetadas con los valores posibles de dicha propiedad. Además, cada nodo hojas del árbol representa el valor que ha de ser devuelto si es alcanzado \parencite{bk_russell2004intart}.
 	
-	Por ejemplo, representando un ejemplo de este algoritmo, se ilustra en la Figura \ref{2:fig40} para decidir si se debe esperar por una mesa en un restaurante.
+	Por ejemplo, representando un ejemplo de este algoritmo, se ilustra en la Figura \ref{2:fig39} para decidir si se debe esperar por una mesa en un restaurante.
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.8\textwidth]{2/figures/arbol_decision.jpg}
 			\caption{Ejemplo del algoritmo de árbol de decisión. Fuente: \cite{bk_russell2004intart}}
-			\label{2:fig40}
+			\label{2:fig39}
 		\end{center}
 	\end{figure}
 \end{itemize}
@@ -823,3 +829,33 @@ El Racionalismo, nomenclatura establecida entre las décadas de los años 60s y 
 El Empirismo, la segunda ola, se caracterizó por la explotación del cuerpo de texto (\textit{data corpora}) y su uso con Aprendizaje Automático. Esta idea plantea que la mente humana comienza con operaciones de asociación, patrones de reconocimiento y generalización. Algunos ejemplos son el Modelo Ocultro de Markov (HMM) y los modelos de traducción de IBM.
 
 El Aprendizaje Profundo, la tercera y última ola, se basa en el uso de estas técnicas para resolver problemas de Lenguaje Natural que el Aprendizaje Automático no puede lograr para entrenar con grandes cantidades de datos, por ejemplo. Las más comunes son las Redes Neuronales Artificiales, debido a que su configuración permite personalizar la arquitectura basada en múltiples capas e hiperparámetros para soportar el entrenamiento con volúmenes considerables. Sin embargo, pese a sus ventajas, algunas de las limitaciones que presenta son justamente este último detalle para lograr resultados estadísticos impresionantes, mucha capacidad computacional, o habilidades pobres para entender las relaciones de inter-oracional como frases o palabras progresivas dentro de una oración.
+
+Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver problemas de NLP comprenden modelos anteriormente mencionados como las Redes Neuronales Convolucionales (CNN) o las Redes Neuronales Recurrentes (RNN). A continuación, se detallarán algunas de las más usadas, así como las principales características y diferencias de ejemplos ya explicados bajo este contexto.
+
+\begin{itemize}
+	\item \textbf{Redes Neuronales Convolucionales} (\textit{Convolutional Neural Networks}): Entre las técnicas de minería de datos, se explicaron los conceptos y tipos de Redes Neuronales Artificiales, entre ellas, la actual mencionada. Se comentó que entre sus mayores usos se dan actualmente en el tratamiento de imágenes, problemas de clasificación a partir de estas y visión por computador. El ejemplo más popular fue ImageNet desarrollado por Yann LeCun, informático reconocido por ser el fundador de este tipo de redes, para reconocer objetos dentro de imágenes. Sin embargo, también son utilizadas para problemas de clasificación de texto. Ronan Collobert y Jason Weston fueron los pioneros de la aplicación de las CNN en tareas de procesamiento de lenguaje natural, modificando y adaptando su arquitectura y parámetros internos \parencite{bk_kamath2019deeplearning_nlp_sr}
+	
+	Una de las principales diferencias entre ambos tipos de aplicación es que las convoluciones para imágenes son bidimensionales (2d) debido a que se desplazan a través de matrices de 2 dimensiones (largo y ancho). En la Figura \ref{2:fig40} se representa un ejemplo.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{2/figures/2D-convolutional-example.png}
+			\caption{Ejemplo de convolución 2d. Fuente: \cite{tec_missinglink_conv1d}}
+			\label{2:fig40}
+		\end{center}
+	\end{figure}
+	
+	Mientras que las convoluciones unidimensionales (1d) son muy útiles para series de tiempo y operaciones de NLP por estar conformadas por vectores, donde cada palabra es un vector, aprendiendo así patrones en la dimensión de secuencia \parencite{bk_rao2019nlp_pytorch}. En la Figura \ref{2:fig41} se observa un ejemplo.
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{2/figures/1D-convolutional-example.png}
+			\caption{Ejemplo de convolución 1d. Fuente: \cite{tec_missinglink_conv1d}}
+			\label{2:fig41}
+		\end{center}
+	\end{figure}
+	
+	\item \textbf{Redes Neuronales Recurrentes} (\textit{Recurrent Neural Networks}):
+	
+	\item \textbf{Modelo Secuencia a Secuencia} (\textit{Sequence-to-Sequence Model} o \textit{Seq2seq Model}): 
+	
+	\item \textbf{Aprendizaje Profundo Multimodal y Multitarea} (\textit{Multimodal and Multitask Deep Learning}):
+\end{itemize}
