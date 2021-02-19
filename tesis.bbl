@@ -351,6 +351,40 @@
       \field{title}{Minería de Datos}
       \field{year}{2006}
     \endentry
+    \entry{bk_brownlee2017deeplearning_nlp}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning for Natural Language Processing: Develop Deep Learning Models for your Natural Language Problems}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
+      \endverb
+      \verb{url}
+      \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
+      \endverb
+    \endentry
     \entry{tec_brownlee2018stacked_models}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
@@ -369,7 +403,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -403,7 +437,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -1883,6 +1917,53 @@
       \endverb
       \verb{url}
       \verb https://www.kickstarter.com/projects/2125914059/revopoint-pop-high-precision-3d-scanner-for-3d-printing
+      \endverb
+    \endentry
+    \entry{tec_kim2014convolutional}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fecefbf07117382be6f83e7910ea8a0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yoon},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Doha, Qatar}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{fullhash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{bibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorbibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authornamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorfullhash}{1fecefbf07117382be6f83e7910ea8a0}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
+      \field{eventyear}{2014}
+      \field{journaltitle}{Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
+      \field{month}{10}
+      \field{title}{Convolutional Neural Networks for Sentence Classification}
+      \field{year}{2014}
+      \field{eventdateera}{ce}
+      \field{pages}{1746\bibrangedash 1751}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3115/v1/D14-1181
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aclweb.org/anthology/D14-1181.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.aclweb.org/anthology/D14-1181.pdf
       \endverb
     \endentry
     \entry{gl_kohavi1998ml_glossary}{misc}{}
@@ -4083,12 +4164,12 @@
     \endentry
     \entry{pr_yuan2016textanalytics}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=8f3ed4b2f5fd45048b82c0528592a87c}{%
+        {{un=1,uniquepart=given,hash=8f3ed4b2f5fd45048b82c0528592a87c}{%
            family={Yuan},
            familyi={Y\bibinitperiod},
            given={Hui},
            giveni={H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=4bc99eef079dcf0abdc0d747d1f2a577}{%
            family={Lau},
            familyi={L\bibinitperiod},
@@ -4115,7 +4196,6 @@
       \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Decision Support Systems}
@@ -4133,6 +4213,49 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0167923616301373
+      \endverb
+    \endentry
+    \entry{tec_yuan2019lstm}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=ecb55833597933ca227cfe0f18a0cbcb}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Xiaofeng},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1df2b6f67a5a1fe41f9bc9df027cdb34}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=545bceebb758f906e35c23284bcf915b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yalin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4fef08a04a6fd2389aecb61dd8a8636}
+      \strng{fullhash}{4455c407e6c7e4bfef17b3b806db8385}
+      \strng{bibnamehash}{4455c407e6c7e4bfef17b3b806db8385}
+      \strng{authorbibnamehash}{4455c407e6c7e4bfef17b3b806db8385}
+      \strng{authornamehash}{d4fef08a04a6fd2389aecb61dd8a8636}
+      \strng{authorfullhash}{4455c407e6c7e4bfef17b3b806db8385}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{month}{2}
+      \field{title}{Nonlinear Dynamic Soft Sensor Modeling With Supervised Long Short-Term Memory Network}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/TII.2019.2902129
       \endverb
     \endentry
     \entry{bk_zambrano2018supnosup}{article}{}
@@ -4166,6 +4289,55 @@
       \endverb
       \verb{url}
       \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
+      \endverb
+    \endentry
+    \entry{tec_zhang2017cnn_sentenceclassification}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5ddec46e090404e1224890533cbaa882}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcf3fece96fc55df5a003eccf64d2961}{%
+           family={Wallace},
+           familyi={W\bibinitperiod},
+           given={Byron\bibnamedelima C.},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Taipei, Taiwan}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{615367a133b779975ce17728b05f6a32}
+      \strng{fullhash}{615367a133b779975ce17728b05f6a32}
+      \strng{bibnamehash}{615367a133b779975ce17728b05f6a32}
+      \strng{authorbibnamehash}{615367a133b779975ce17728b05f6a32}
+      \strng{authornamehash}{615367a133b779975ce17728b05f6a32}
+      \strng{authorfullhash}{615367a133b779975ce17728b05f6a32}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{event}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{The 8th International Joint Conference on Natural Language Processing}
+      \field{eventyear}{2017}
+      \field{journaltitle}{Proceedings of the The 8th International Joint Conference on Natural Language Processing}
+      \field{title}{A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification}
+      \field{year}{2017}
+      \field{eventdateera}{ce}
+      \field{pages}{253\bibrangedash 263}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://www.aclweb.org/anthology/I17-1026.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.aclweb.org/anthology/I17-1026.pdf
       \endverb
     \endentry
     \entry{pr_zhou2015projectdesc}{article}{}

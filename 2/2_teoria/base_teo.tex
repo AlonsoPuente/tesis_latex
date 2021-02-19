@@ -833,27 +833,89 @@ El Aprendizaje Profundo, la tercera y última ola, se basa en el uso de estas t�
 Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver problemas de NLP comprenden modelos anteriormente mencionados como las Redes Neuronales Convolucionales (CNN) o las Redes Neuronales Recurrentes (RNN). A continuación, se detallarán algunas de las más usadas, así como las principales características y diferencias de ejemplos ya explicados bajo este contexto.
 
 \begin{itemize}
-	\item \textbf{Redes Neuronales Convolucionales} (\textit{Convolutional Neural Networks}): Entre las técnicas de minería de datos, se explicaron los conceptos y tipos de Redes Neuronales Artificiales, entre ellas, la actual mencionada. Se comentó que entre sus mayores usos se dan actualmente en el tratamiento de imágenes, problemas de clasificación a partir de estas y visión por computador. El ejemplo más popular fue ImageNet desarrollado por Yann LeCun, informático reconocido por ser el fundador de este tipo de redes, para reconocer objetos dentro de imágenes. Sin embargo, también son utilizadas para problemas de clasificación de texto. Ronan Collobert y Jason Weston fueron los pioneros de la aplicación de las CNN en tareas de procesamiento de lenguaje natural, modificando y adaptando su arquitectura y parámetros internos \parencite{bk_kamath2019deeplearning_nlp_sr}
+	\item \textbf{Redes Neuronales Convolucionales} (\textit{Convolutional Neural Networks}): Entre las técnicas de minería de datos, se explicaron los conceptos y tipos de Redes Neuronales Artificiales, entre ellas, la actual mencionada. Se comentó que entre sus mayores usos se dan actualmente en el tratamiento de imágenes, problemas de clasificación a partir de estas y visión por computador. El ejemplo más popular fue ImageNet desarrollado por Yann LeCun, informático reconocido por ser el fundador de este tipo de redes, para reconocer objetos dentro de imágenes.
 	
-	Una de las principales diferencias entre ambos tipos de aplicación es que las convoluciones para imágenes son bidimensionales (2d) debido a que se desplazan a través de matrices de 2 dimensiones (largo y ancho). En la Figura \ref{2:fig40} se representa un ejemplo.
-	\begin{figure}[h]
+	Sin embargo, también son utilizadas para problemas de clasificación de texto. Ronan Collobert y Jason Weston fueron los pioneros de la aplicación de las CNN en tareas de procesamiento de lenguaje natural, modificando y adaptando su arquitectura y parámetros internos \parencite{bk_kamath2019deeplearning_nlp_sr}. En la Figura \ref{2:fig40} se ilustra la arquitectura de una CNN para problemas de NLP.
+	\begin{figure}[!ht]
 		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/figures/2D-convolutional-example.png}
-			\caption{Ejemplo de convolución 2d. Fuente: \cite{tec_missinglink_conv1d}}
+			\includegraphics[width=0.8\textwidth]{2/figures/cnn_nlp.png}
+			\caption{Arquitectura de modelo CNN con 2 canales para una oración de ejemplo. Fuente: \cite{tec_kim2014convolutional}}
 			\label{2:fig40}
 		\end{center}
 	\end{figure}
 	
-	Mientras que las convoluciones unidimensionales (1d) son muy útiles para series de tiempo y operaciones de NLP por estar conformadas por vectores, donde cada palabra es un vector, aprendiendo así patrones en la dimensión de secuencia \parencite{bk_rao2019nlp_pytorch}. En la Figura \ref{2:fig41} se observa un ejemplo.
-	\begin{figure}[h]
+	Una de las principales diferencias entre ambos tipos de aplicación es que las convoluciones para imágenes son bidimensionales (2d) debido a que se desplazan a través de matrices de 2 dimensiones (largo y ancho). Mientras que las convoluciones unidimensionales (1d) son muy útiles para series de tiempo y operaciones de NLP por estar conformadas por vectores, aprendiendo así patrones en la dimensión de secuencia \parencite{bk_rao2019nlp_pytorch}. En la Figura \ref{2:fig41} se observa una comparación entre ambos tipos de convolución según el tamaño de dimensión.
+
+	\begin{figure}[!ht]
+		\centering
+		\small
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.85\linewidth]{2/figures/2D-convolutional-example.png}
+			\caption{Convolución 2d}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.70\linewidth]{2/figures/1D-convolutional-example.png}
+			\caption{Convolución 1d}
+		\end{subfigure}
+		\caption{Diferencias entre convoluciones según su dimensión. Fuente: \cite{tec_missinglink_conv1d}}
+		\label{2:fig41}
+	\end{figure}
+	
+	En la anterior imagen, donde cada palabra codificada se representa por un vector, un kernel de convolución de tamaño de 2 bloques (\textit{kernel\_size}) recorre toda la oración con paso (\textit{stride}) de 1 bloque.
+	
+	Para problemas de clasificación de texto como los que se considera en esta investigación y en algunos antecedentes con contenido textual, el proceso de la arquitectura CNN de manera general se basa en la Figura \ref{2:fig42}.
+	\begin{figure}[!ht]
 		\begin{center}
-			\includegraphics[width=0.5\textwidth]{2/figures/1D-convolutional-example.png}
-			\caption{Ejemplo de convolución 1d. Fuente: \cite{tec_missinglink_conv1d}}
-			\label{2:fig41}
+			\includegraphics[width=0.5\textwidth]{2/figures/cnn_steps_for_nlp.png}
+			\caption{Arquitectura de modelo CNN para clasificación de oraciones. Fuente: \cite{tec_zhang2017cnn_sentenceclassification}}
+			\label{2:fig42}
 		\end{center}
 	\end{figure}
 	
-	\item \textbf{Redes Neuronales Recurrentes} (\textit{Recurrent Neural Networks}):
+	La idea general es básicamente formar vectores de palabras codificadas para generar una matriz, la cual al ser recorrida por filtros de una dimensión determinada, se obtengan mapas de características para la siguiente entrada. De cada capa resultante, se agruparán (\textit{pooling}) según el criterio del usuario (puede ser valor máximo, mínimo, promedio, etc) para generar nuevos vectores univariantes que serán concatenados y luego el valor final de predicción regularizado entre un rango dependiendo de la función de activación asignada para el problema (\textit{sigmoid} para clasificación de 2 clases o \textit{softmax} a partir de 3 clases). 
+	
+	\item \textbf{Redes Neuronales Recurrentes} (\textit{Recurrent Neural Networks}): Este tipo de redes también fue comentada brevemente en los tipos de redes neuronales más conocidas. Las RNN son muy usadas incluso también en series de tiempo, ya que los datos para estas casuísticas son secuencias, es decir, una colección ordenada de elementos. Para el caso del lenguaje humano, en donde el habla es un conjunto de secuencia de palabras llamadas fonemas, se busca predecir la siguiente palabra en una oración dada a partir de un elemento dependiente, en este caso, las palabras previas \parencite{bk_rao2019nlp_pytorch}. Como ejemplos de estos casos de uso más comunes se mencionan a los motores de búsqueda en navegadores o sitios web, traductores, entre otros.
+	
+	Según \cite{bk_brownlee2017deeplearning_nlp}, las RNN generalmente más usadas son los siguientes 3 tipos:
+	\begin{itemize}
+		\item \textbf{RNN Simple} (\textit{Elman Network} o S-RNN): Son el tipo de redes neuronales recurrentes más básicas, propuesto por Jeffrey L. Elman en 1990, cuya arquitectura se caracteriza por la secuencia de elementos, como en la Figura \ref{2:fig35}.
+		Las S-RNN proporcionan resultados sólidos para el etiquetado de secuencias, así como para el modelado del lenguaje.
+		
+		La ecuación para representar un estado determinado en una RNN toma la siguiente forma:
+		
+		\begin{equcaption}[!ht]
+			\begin{equation*}	
+			\phantomsection
+			s_i = R_{SRNN}(x_i, s_{i-1}) = g([s_{i-1};x_i]W+b)
+			\end{equation*}
+			\caption[Fórmula para determinar un estado en una S-RNN. Fuente: \cite{bk_brownlee2017deeplearning_nlp}]{Fórmula para determinar un estado en una S-RNN. Fuente: \cite{bk_brownlee2017deeplearning_nlp}}
+			\label{eq:srnn}
+		\end{equcaption}
+		
+		Donde se observa que un estado depende de la información del estado previo.
+		
+		\item \textbf{Memoria Larga a Corto Plazo} (\textit{Long-Short Term Memory} o LSTM): Este modelo fue desarrollado para encargarse del problema de los gradientes que desaparecen de la RNN Simple, que limitaba más adelante el entrenamiento de las RNN profundas.
+		
+		Según el mismo autor, este problema surge debido a que los gradientes incluyen la multiplicación repetida de la matriz W (de la Ecuación \ref{eq:srnn}), haciendo que los valores desaparezcan.
+		
+		Esta arquitectura divide el vector de un estado observado $s_i$ en dos mitades, donde una es tratada como “celdas de memoria” y la otra es la memoria de trabajo. Las del primer grupo tienen como función preservar la memoria, así como también los gradientes de error, a lo largo del tiempo. Son controladas mediante componentes de puerta diferenciables, que son funciones matemáticas suaves simuladoras puertas lógicas. En cada estado de entrada, se utiliza una puerta para decidir qué cantidad de la nueva entrada se debe escribir en la memoria.
+		
+		La arquitectura LSTM es actualmente la más exitosa dentro de las RNN. Un ejemplo de su representación puede ilustrarse en la Figura \ref{2:fig43}.
+		
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width=0.6\textwidth]{2/figures/lstm.png}
+				\caption{Arquitectura de una LSTM. Fuente: \cite{tec_yuan2019lstm}}
+				\label{2:fig43}
+			\end{center}
+		\end{figure}
+	
+		En donde $x$ son las entradas, $c_{t-1}$ y $c_{t}$ los estados de la celda, y $h_{t-1}$ y $h_{t}$ las salidas.
+		
+		\item \textbf{Unidad Recurrente Cerrada} (\textit{Gated Recurrent Unit} o GRU): Este modelo se desarrolló con la intención de simplificar las LSTM. Sin embargo, al compararse los resultados entre estos 3 tipos de modelos, por lo general tuvo mejor desempeño la LSTM.
+	\end{itemize}
 	
 	\item \textbf{Modelo Secuencia a Secuencia} (\textit{Sequence-to-Sequence Model} o \textit{Seq2seq Model}): 
 	

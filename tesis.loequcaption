@@ -19,11 +19,12 @@
 \contentsline {equcaption}{\numberline {2.17}{\ignorespaces Cálculo del volumen del mapa de activación. Fuente: \cite {tec_prabhu2018cnn}}}{75}{equcaption.caption.67}%
 \contentsline {equcaption}{\numberline {2.18}{\ignorespaces Cálculo del tamaño de la imagen reducida. Fuente: \cite {tec_li2019cnn}}}{76}{equcaption.caption.70}%
 \contentsline {equcaption}{\numberline {2.19}{\ignorespaces Ecuación del hiperplano para clasificar dos clases. Fuente: \cite {tec_betancourt2005svm}}}{80}{equcaption.caption.78}%
+\contentsline {equcaption}{\numberline {2.20}{\ignorespaces Fórmula para determinar un estado en una S-RNN. Fuente: \cite {bk_brownlee2017deeplearning_nlp}}}{85}{equcaption.caption.85}%
 \addvspace {10\p@ }
-\contentsline {equcaption}{\numberline {3.1}{\ignorespaces Fórmula para calcular la exactitud. Fuente: \cite {gl_kohavi1998ml_glossary}}}{94}{equcaption.caption.87}%
-\contentsline {equcaption}{\numberline {3.2}{\ignorespaces Fórmula para calcular la precisión. Fuente: \cite {gl_kohavi1998ml_glossary}}}{94}{equcaption.caption.89}%
-\contentsline {equcaption}{\numberline {3.3}{\ignorespaces Fórmula para calcular la sensibilidad. Fuente: \cite {gl_kohavi1998ml_glossary}}}{96}{equcaption.caption.93}%
-\contentsline {equcaption}{\numberline {3.4}{\ignorespaces Fórmula para calcular el puntaje F1. Fuente: \cite {gl_kohavi1998ml_glossary}}}{96}{equcaption.caption.95}%
+\contentsline {equcaption}{\numberline {3.1}{\ignorespaces Fórmula para calcular la exactitud. Fuente: \cite {gl_kohavi1998ml_glossary}}}{97}{equcaption.caption.91}%
+\contentsline {equcaption}{\numberline {3.2}{\ignorespaces Fórmula para calcular la precisión. Fuente: \cite {gl_kohavi1998ml_glossary}}}{97}{equcaption.caption.93}%
+\contentsline {equcaption}{\numberline {3.3}{\ignorespaces Fórmula para calcular la sensibilidad. Fuente: \cite {gl_kohavi1998ml_glossary}}}{99}{equcaption.caption.97}%
+\contentsline {equcaption}{\numberline {3.4}{\ignorespaces Fórmula para calcular el puntaje F1. Fuente: \cite {gl_kohavi1998ml_glossary}}}{99}{equcaption.caption.99}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
