@@ -912,12 +912,58 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 			\end{center}
 		\end{figure}
 	
-		En donde $x$ son las entradas, $c_{t-1}$ y $c_{t}$ los estados de la celda, y $h_{t-1}$ y $h_{t}$ las salidas.
+		En donde $x$ son las entradas, $c_{t-1}$ y $c_{t}$ los estados de la celda, y $h_{t-1}$ y $h_{t}$  las salidas.
 		
-		\item \textbf{Unidad Recurrente Cerrada} (\textit{Gated Recurrent Unit} o GRU): Este modelo se desarrolló con la intención de simplificar las LSTM. Sin embargo, al compararse los resultados entre estos 3 tipos de modelos, por lo general tuvo mejor desempeño la LSTM.
+		Una variante muy útil de las RNN son las RNN Bidireccionales (\textit{Bidirectional RNN} o \textit{BiRNN}). Mientras una red neuronal recurrente toma una palabra del pasado para predecir el siguiente, las bidireccionales permiten mirar arbitrariamente lejos tanto al pasado como al futuro dentro de una secuencia \parencite{bk_goldberg2017nn_nlp}.
+		La ventaja que se logra a partir de estas características es que, por ejemplo, el modelo puede identificar y discernir mejor en la predicción de la siguiente palabra en el caso de existir 2 o más secuencias idénticas (problema de reconocimiento de entidades nombradas) al lograr conocer más información.
+		
+		\citeauthor{tec_ng2018bidirectionalRNN}, fundador de Coursera, DeepLearning.AI, Landing AI y Google Brain, explica lo anterior con el siguiente ejemplo como parte del curso Redes Neuronales Recurrentes \parencite{tec_ng2018bidirectionalRNN}:
+		
+		Sean las oraciones \textit{He said, “Teddy bears are on sale!”} y \textit{He said, “Teddy Roosevel was a great President!”}, se desea saber si \textit{Teddy} es parte del nombre de una persona. El problema es que se cuenta con 2 oraciones cuya secuencia inicial de 3 palabras resultan ser las mismas, pero con distinto panorama posterior a estas. Por ello, la red es duplicada pero con orden de secuencia invertida y colocada en paralelo con la original para que cada una de las nuevas capas conecten sus salidas con las pre-existentes y originen una nueva predicción que toma información previa y posterior.
+		
+		Bajo la misma premisa, pero con la oración de ejemplo \textit{The brown fox jumped over the dog}, se representa la arquitectura de una BiRNN en la Figura \ref{2:fig44}.
+		
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width=0.8\textwidth]{2/figures/birnn_architecture.jpg}
+				\caption{Representación de arquitectura BiRNN de la palabra \textit{jumped} en la oración. Fuente: \cite{bk_goldberg2017nn_nlp}}
+				\label{2:fig44}
+			\end{center}
+		\end{figure}
+		
+		Como parte de las BiRNN, se encuentra la LSTM Bidireccional (\textit{Bidirectional LSTM} o \textit{BiLSTM}), mejora de la LSTM, que sobresale particularmente en la representación de palabras en la secuencia junto con sus contextos, capturando la palabra y las incontables posibilidades existentes a su alrededor \parencite{bk_deng2018deeplearningnlp}.
+		
+		\item \textbf{Unidad Recurrente Cerrada} (\textit{Gated Recurrent Unit} o GRU): Este modelo se desarrolló con la intención de simplificar la LSTM debido a su complejidad. Al igual que esta, consiste en un mecanismo de puertas pero en menor cantidad y sin un componente de memoria separada (ver Figura \ref{2:fig45}). La red GRU muestra ser efectiva en modelamiento de lenguaje y máquina traductora \parencite{bk_goldberg2017nn_nlp}.
+		
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width=0.8\textwidth]{2/figures/lstm_vs_gru.png}
+				\caption{Comparación entre arquitecturas LSTM y GRU. Fuente: \cite{tec_phi2018gru}}
+				\label{2:fig45}
+			\end{center}
+		\end{figure}
+		
+		Sin embargo, al compararse los resultados entre estos 3 tipos de modelos, por lo general el mejor desempeño tiene la LSTM \parencite{bk_brownlee2017deeplearning_nlp}.
 	\end{itemize}
 	
-	\item \textbf{Modelo Secuencia a Secuencia} (\textit{Sequence-to-Sequence Model} o \textit{Seq2seq Model}): 
+	\item \textbf{Modelo Secuencia a Secuencia} (\textit{Sequence-to-Sequence Model} o \textit{Seq2seq Model}): También conocida como \textit{Encoder-Decoder} (Codificador-Decodificador por su traducción al español), es un tipo de generador de lenguaje natural (\textit{Natural Language Generation} o NLG) usado comúnmente para traducción (por ejemplo, Google Traductor). Se basa en 2 capas LSTM, en donde la primera es usada para codificar la oración de entrada en un “vector de pensamiento”, y la otra para decodificar en una respuesta (ver Figura \ref{2:fig46}) \parencite{bk_deng2018deeplearningnlp}.
 	
-	\item \textbf{Aprendizaje Profundo Multimodal y Multitarea} (\textit{Multimodal and Multitask Deep Learning}):
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.7\textwidth]{2/figures/encoder-decoder.jpeg}
+			\caption{Arquitectura de un modelo Seq2seq. Fuente: \cite{tec_kostadinov2019seq2seq}}
+			\label{2:fig46}
+		\end{center}
+	\end{figure}
+	
+	\item \textbf{Aprendizaje Profundo Multimodal y Multitarea} (\textit{Multimodal and Multitask Deep Learning}): Son un tipo de aprendizaje basado en la explotación de representaciones latentes en las redes neuronales profundas agrupando distintas modalidades (por ejemplo, audio, imágenes, texto, videos, etc) o múltiples tareas (predicción, clasificación, series de tiempo, entre otros) como en la Figura \ref{2:fig47} \parencite{bk_deng2018deeplearningnlp}
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.55\textwidth]{2/figures/multimodal_network.jpg}
+			\caption{Arquitectura de un modelo multimodal de imágenes y texto. Fuente: \cite{tec_nishida2015multimodal}}
+			\label{2:fig47}
+		\end{center}
+	\end{figure}
+	
 \end{itemize}

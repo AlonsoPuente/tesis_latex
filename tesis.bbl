@@ -372,6 +372,7 @@
       \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -383,6 +384,41 @@
       \endverb
       \verb{url}
       \verb http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf
+      \endverb
+    \endentry
+    \entry{tec_brownlee2017bidirectional_lstm}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Develop a Bidirectional LSTM For Sequence Classification in Python with Keras}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/develop-bidirectional-lstm-sequence-classification-python-keras/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/develop-bidirectional-lstm-sequence-classification-python-keras/
       \endverb
     \endentry
     \entry{tec_brownlee2018stacked_models}{online}{}
@@ -403,7 +439,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -437,7 +473,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -1103,7 +1139,7 @@
       \verb https://tecdigital.tec.ac.cr/revistamatematica/cursos-linea/EcuacionesDiferenciales/EDO-Geo/edo-cap5-geo/laplace/node7.html
       \endverb
     \endentry
-    \entry{tec_gandhi2018svm}{article}{}
+    \entry{tec_gandhi2018svm}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c3fbdd9716d1767634626ad22e2c767f}{%
            family={Gandhi},
@@ -1111,6 +1147,9 @@
            given={Rohith},
            giveni={R\bibinitperiod},
            givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
       }
       \strng{namehash}{c3fbdd9716d1767634626ad22e2c767f}
       \strng{fullhash}{c3fbdd9716d1767634626ad22e2c767f}
@@ -1125,7 +1164,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Towards Data Science}
       \field{month}{6}
       \field{title}{Support Vector Machine — Introduction to Machine Learning Algorithms}
       \field{year}{2018}
@@ -1192,6 +1230,51 @@
       \endverb
       \verb{url}
       \verb https://www.gartner.com/it-glossary/predictive-modeling/
+      \endverb
+    \endentry
+    \entry{bk_goldberg2017nn_nlp}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=33b00f3e2f4f1bb310f1cf8d4a4c500a}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Yoav},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d5214b09070be8ba4dd4b092d74a6a64}{%
+           family={Hirst},
+           familyi={H\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Newtown Square}%
+      }
+      \list{publisher}{1}{%
+        {Morgan \& Claypool Publishers}%
+      }
+      \strng{namehash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{fullhash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{bibnamehash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{authorbibnamehash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{authornamehash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{authorfullhash}{33b00f3e2f4f1bb310f1cf8d4a4c500a}
+      \strng{editorbibnamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editornamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editorfullhash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1627052984}
+      \field{title}{Neural Network Methods for Natural Language Processing}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.2200/S00762ED1V01Y201703HLT037
       \endverb
     \endentry
     \entry{gl_gonzalez2019auc}{misc}{}
@@ -1279,7 +1362,7 @@
       \verb https://developers.google.com/machine-learning/glossary/?hl=es-419
       \endverb
     \endentry
-    \entry{tec_gupta2017decisiontree}{article}{}
+    \entry{tec_gupta2017decisiontree}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=42bc7a574ae1f7adf2636b11f4736bb7}{%
            family={Gupta},
@@ -1287,6 +1370,9 @@
            given={Prashant},
            giveni={P\bibinitperiod},
            givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
       }
       \strng{namehash}{42bc7a574ae1f7adf2636b11f4736bb7}
       \strng{fullhash}{42bc7a574ae1f7adf2636b11f4736bb7}
@@ -1301,7 +1387,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Towards Data Science}
       \field{month}{5}
       \field{title}{Decision Trees in Machine Learning}
       \field{year}{2017}
@@ -1466,7 +1551,7 @@
       \verb https://www.ibm.com/support/knowledgecenter/es/SSLVMB_sub/statistics_mainhelp_ddita/spss/regression/idh_lreg.html
       \endverb
     \endentry
-    \entry{tec_inzaugarat2018ann}{article}{}
+    \entry{tec_inzaugarat2018ann}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d15029c802bff38149cd156bb0c77fe3}{%
            family={Inzaugarat},
@@ -1474,6 +1559,9 @@
            given={Eugenia},
            giveni={E\bibinitperiod},
            givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
       }
       \strng{namehash}{d15029c802bff38149cd156bb0c77fe3}
       \strng{fullhash}{d15029c802bff38149cd156bb0c77fe3}
@@ -1488,7 +1576,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Towards Data Science}
       \field{title}{Understanding Neural Networks: What, How and Why?}
       \field{year}{2018}
       \verb{urlraw}
@@ -2001,6 +2088,40 @@
       \endverb
       \verb{url}
       \verb http://ai.stanford.edu/~ronnyk/glossary.html
+      \endverb
+    \endentry
+    \entry{tec_kostadinov2019seq2seq}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=34205253e789317c9ae45ea3ab0739ae}{%
+           family={Kostadinov},
+           familyi={K\bibinitperiod},
+           given={Simeon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{fullhash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{bibnamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authorbibnamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authornamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authorfullhash}{34205253e789317c9ae45ea3ab0739ae}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Encoder-Decoder Sequence to Sequence Model}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/understanding-encoder-decoder-sequence-to-sequence-model-679e04af4346
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/understanding-encoder-decoder-sequence-to-sequence-model-679e04af4346
       \endverb
     \endentry
     \entry{cr_kraus2016crowdfunding_strategies}{article}{}
@@ -2786,6 +2907,78 @@
       \verb https://www.researchgate.net/publication/236604665_Statistics_Corner_A_guide_to_appropriate_use_of_Correlation_coefficient_in_medical_research
       \endverb
     \endentry
+    \entry{tec_ng2018bidirectionalRNN}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bdb4d740fc9548d1c32a62103c30169d}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{fullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{bibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorbibnamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authornamehash}{bdb4d740fc9548d1c32a62103c30169d}
+      \strng{authorfullhash}{bdb4d740fc9548d1c32a62103c30169d}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RNN W1L11 : Bidirectional RNN [Archivo de video]}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=bTXGpATdKRY
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=bTXGpATdKRY
+      \endverb
+    \endentry
+    \entry{tec_nishida2015multimodal}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c215f8d03e8981958b33fef05bef95de}{%
+           family={Nishida},
+           familyi={N\bibinitperiod},
+           given={Noriki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ff031d2ad4586c77cd52cd46d1311}{%
+           family={Nakayama},
+           familyi={N\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Tokio}%
+      }
+      \strng{namehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{fullhash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{bibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorbibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authornamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorfullhash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multimodal gesture recognition using multi-stream recurrent neural network}
+      \field{type}{Reporte técnico}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
+      \endverb
+      \verb{url}
+      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
+      \endverb
+    \endentry
     \entry{gl_pardo_reglogcosto}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f3bea5e36645e3644eeaf13347e8fcc}{%
@@ -2854,6 +3047,40 @@
       \endverb
       \verb{url}
       \verb https://nlp.stanford.edu/projects/glove/
+      \endverb
+    \endentry
+    \entry{tec_phi2018gru}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f593f62d4d87395a7b35acad51e85c3f}{%
+           family={Phi},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{f593f62d4d87395a7b35acad51e85c3f}
+      \strng{fullhash}{f593f62d4d87395a7b35acad51e85c3f}
+      \strng{bibnamehash}{f593f62d4d87395a7b35acad51e85c3f}
+      \strng{authorbibnamehash}{f593f62d4d87395a7b35acad51e85c3f}
+      \strng{authornamehash}{f593f62d4d87395a7b35acad51e85c3f}
+      \strng{authorfullhash}{f593f62d4d87395a7b35acad51e85c3f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Illustrated Guide to LSTM's and GRU's: A step by step explanation}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
       \endverb
     \endentry
     \entry{tec_poole1998machinelearning}{article}{}
@@ -2990,7 +3217,7 @@
       \field{pages}{140}
       \range{pages}{1}
     \endentry
-    \entry{tec_ranjan2019thumbrules}{article}{}
+    \entry{tec_ranjan2019thumbrules}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=138183e14e5a991d939c81f02604e7bb}{%
            family={Ranjan},
@@ -2998,6 +3225,9 @@
            given={Chitta},
            giveni={C\bibinitperiod},
            givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
       }
       \strng{namehash}{138183e14e5a991d939c81f02604e7bb}
       \strng{fullhash}{138183e14e5a991d939c81f02604e7bb}
@@ -3012,7 +3242,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Towards Data Science}
       \field{month}{7}
       \field{title}{Rules-of-thumb for building a Neural Network}
       \field{year}{2019}
