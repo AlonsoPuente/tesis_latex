@@ -100,22 +100,22 @@
 \contentsline {figure}{\numberline {4.40}{\ignorespaces Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.\relax }}{140}{figure.caption.146}%
 \contentsline {figure}{\numberline {4.41}{\ignorespaces Arquitectura del modelo apilado final. Fuente: Elaboración propia.\relax }}{141}{figure.caption.147}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas. Fuente: Elaboración propia.\relax }}{143}{figure.caption.148}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.\relax }}{143}{figure.caption.149}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Área bajo la curva ROC de modelo de metadata. Fuente: Elaboración propia.\relax }}{144}{figure.caption.151}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas. Fuente: Elaboración propia.\relax }}{145}{figure.caption.152}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{145}{figure.caption.153}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Área bajo la curva ROC de modelo de descripciones. Fuente: Elaboración propia.\relax }}{146}{figure.caption.155}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas. Fuente: Elaboración propia.\relax }}{147}{figure.caption.156}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{147}{figure.caption.157}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.\relax }}{148}{figure.caption.159}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas. Fuente: Elaboración propia.\relax }}{149}{figure.caption.160}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.\relax }}{150}{figure.caption.161}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Área bajo la curva de modelo apilado. Fuente: Elaboración propia.\relax }}{150}{figure.caption.163}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Flujograma del sistema piloto. Fuente: Elaboración propia.\relax }}{152}{figure.caption.165}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Proyecto usado para la demostración. Captura de pantalla: 15/02/21. Fuente: \cite {ot_kickstarter_revopointproject}\relax }}{152}{figure.caption.166}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Variables extraídas del proyecto. Fuente: Elaboración propia.\relax }}{153}{figure.caption.167}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado. Fuente: Elaboración propia.\relax }}{153}{figure.caption.168}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas. Fuente: Elaboración propia.\relax }}{144}{figure.caption.148}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Matriz de confusión para el modelo de metadata. Fuente: Elaboración propia.\relax }}{144}{figure.caption.149}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Área bajo la curva ROC de modelo de metadata. Fuente: Elaboración propia.\relax }}{145}{figure.caption.151}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas. Fuente: Elaboración propia.\relax }}{146}{figure.caption.152}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Matriz de confusión para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{146}{figure.caption.153}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Área bajo la curva ROC de modelo de descripciones. Fuente: Elaboración propia.\relax }}{147}{figure.caption.155}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas. Fuente: Elaboración propia.\relax }}{148}{figure.caption.156}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Matriz de confusión para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{148}{figure.caption.157}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Área bajo la curva de modelo de comentarios. Fuente: Elaboración propia.\relax }}{149}{figure.caption.159}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas. Fuente: Elaboración propia.\relax }}{150}{figure.caption.160}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Matriz de confusión para el modelo apilado. Fuente: Elaboración propia.\relax }}{151}{figure.caption.161}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Área bajo la curva de modelo apilado. Fuente: Elaboración propia.\relax }}{151}{figure.caption.163}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Flujograma del sistema piloto. Fuente: Elaboración propia.\relax }}{153}{figure.caption.165}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Proyecto usado para la demostración. Captura de pantalla: 15/02/21. Fuente: \cite {ot_kickstarter_revopointproject}\relax }}{153}{figure.caption.166}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Variables extraídas del proyecto. Fuente: Elaboración propia.\relax }}{154}{figure.caption.167}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado. Fuente: Elaboración propia.\relax }}{154}{figure.caption.168}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

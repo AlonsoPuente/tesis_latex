@@ -601,16 +601,21 @@ A continuación, los vectores de palabras ingresan a la capa de la red neuronal 
 
 Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de entrada (2*128 de la capa Bidireccional LSTM) y utiliza la función de activación \textit{sigmoid} para transformar el valor final entre 0 y 1.
 
-\subsection{Modelo apilado}
-Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}. La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo para obtener mejor performance que cada uno individualmente.
+\begin{landscape}
+	\subsection{Modelo apilado}
+	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}.
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=1.25\textwidth]{4/figures/final_stacked_model.png}
+			\caption{Arquitectura del modelo apilado final. Fuente: Elaboración propia.}
+			\label{4:fig41}
+		\end{center}
+	\end{figure}
+	
+\end{landscape}
 
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=1.05\textwidth]{4/figures/final_stacked_model.png}
-		\caption{Arquitectura del modelo apilado final. Fuente: Elaboración propia.}
-		\label{4:fig41}
-	\end{center}
-\end{figure}
+La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo para obtener mejor performance que cada uno individualmente.
 
 A este modelo se le denominó “\textit{The Hydra}” (La Hidra por su traducción al español) en referencia al monstruo mitológico del lago de Lerna, con 7 cabezas que renacían a medida que se cortaban \parencite{ot_rae_hidra}.
 
