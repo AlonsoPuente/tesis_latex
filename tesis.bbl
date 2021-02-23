@@ -3121,7 +3121,7 @@
       \field{title}{Computational Intelligence: A Logical Approach}
       \field{year}{1998}
     \endentry
-    \entry{tec_prabhu2018cnn}{article}{}
+    \entry{tec_prabhu2018cnn}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0e2e01a4d53a604d8b0129346b009ad3}{%
            family={Prabhu},
@@ -3129,6 +3129,9 @@
            given={Raghav},
            giveni={R\bibinitperiod},
            givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
       }
       \strng{namehash}{0e2e01a4d53a604d8b0129346b009ad3}
       \strng{fullhash}{0e2e01a4d53a604d8b0129346b009ad3}
@@ -3143,7 +3146,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Medium}
       \field{month}{3}
       \field{title}{Understanding of Convolutional Neural Network (CNN) — Deep Learning}
       \field{year}{2018}
@@ -4487,7 +4489,7 @@
       \verb 10.1109/TII.2019.2902129
       \endverb
     \endentry
-    \entry{bk_zambrano2018supnosup}{article}{}
+    \entry{bk_zambrano2018supnosup}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5382f6d4dddfd71a612981c6be0a65c5}{%
            family={Zambrano},
@@ -4495,6 +4497,9 @@
            given={Juan},
            giveni={J\bibinitperiod},
            givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
       }
       \strng{namehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{fullhash}{5382f6d4dddfd71a612981c6be0a65c5}
@@ -4509,7 +4514,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Medium}
       \field{month}{3}
       \field{title}{¿Aprendizaje supervisado o no supervisado? Conoce sus diferencias dentro del machine learning y la automatización inteligente}
       \field{year}{2018}
