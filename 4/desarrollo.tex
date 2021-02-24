@@ -384,36 +384,32 @@ Por último, del universo de proyectos tecnológicos que presentan comentarios, 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{4/figures/total comments by projects state.png}
+		\includegraphics[width=0.75\textwidth]{4/figures/total comments by projects state.png}
 		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
 		\label{4:fig28}
 	\end{center}
 \end{figure}
 
-Respecto al contenido, en las Figura \ref{4:fig29} y Figura \ref{4:fig30} se ilustran las nubes de palabras de agrupadas en unidades y/o parejas más frecuentes, respectivamente, luego de quitar enlaces URLs, emoticonos y términos en idioma distinto al inglés.
+Respecto al contenido, en la Figura \ref{4:fig29} se ilustra la nube de palabras más frecuentes, respectivamente, luego de quitar URLs, emoticonos y términos en idioma distinto al inglés.
 
 \begin{figure}[htbp]
 	\begin{center}
-		\includegraphics[width=0.70\textwidth]{4/figures/comments_wordcloud_wordunit.png}
-		\caption{Nube de palabras de comentarios por unidades más frecuentes. Fuente: Elaboración propia.}
+		\includegraphics[width=0.68\textwidth]{4/figures/comments_wordcloud_wordunit.png}
+		\caption{Nube de palabras de comentarios más frecuentes. Fuente: Elaboración propia.}
 		\label{4:fig29}
-		
-		\includegraphics[width=0.70\textwidth]{4/figures/comments_wordcloud_wordcouple.png}
-		\caption{Nube de palabras de comentarios por unidades o parejas más frecuentes. Fuente: Elaboración propia.}
-		\label{4:fig30}
 	\end{center}
 \end{figure}
 
 \section{Pre-procesamiento de los conjuntos de datos}
 
 \subsection{Metainformación}
-De acuerdo a los autores \cite{pr_chen2013kickpredict} (primer antecedente), \cite{pr_chen2015predcrowd} (cuarto antecedente) y \cite{pr_jin2019dayssuccess} (decimotercer antecedente), a las 5 potenciales variables numéricas se adicionaron 7 variables basadas en el mecanismo financiero (mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}) y cantidad de montos disponibles para contribuir (\textit{pledges\_num})) y efecto progresión (porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido). Esta última se calcula dividiendo el monto alcanzado en el tiempo t, sobre la meta de la campaña, multiplicado por 100\%. La nueva matriz de correlación se observa en la Figura \ref{4:fig31}.
+De acuerdo a los autores \cite{pr_chen2013kickpredict} (primer antecedente), \cite{pr_chen2015predcrowd} (cuarto antecedente) y \cite{pr_jin2019dayssuccess} (decimotercer antecedente), a las 5 potenciales variables numéricas se adicionaron 7 variables basadas en el mecanismo financiero (mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}) y cantidad de montos disponibles para contribuir (\textit{pledges\_num})) y efecto progresión (porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido). Esta última se calcula dividiendo el monto alcanzado en el tiempo t, sobre la meta de la campaña, multiplicado por 100\%. La nueva matriz de correlación se observa en la Figura \ref{4:fig30}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{4/figures/metadata correlation v2.png}
+		\includegraphics[width=0.85\textwidth]{4/figures/metadata correlation v2.png}
 		\caption{Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.}
-		\label{4:fig31}
+		\label{4:fig30}
 	\end{center}
 \end{figure}
 
@@ -470,38 +466,38 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 \end{table}
 
 \subsection{Descripción}
-Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig32}, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; y \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
+Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig31}, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; y \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.35\textwidth]{4/figures/description_data_clean.png}
 		\caption{Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.}
-		\label{4:fig32}
+		\label{4:fig31}
 	\end{center}
 \end{figure}
 
 Para seguir con cada paso del flujo, se usaron elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. Como resultado de la secuencia, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 
-Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig33} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
+Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig32} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud.png}
 		\caption{Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.}
-		\label{4:fig33}
+		\label{4:fig32}
 	\end{center}
 \end{figure}
 
 \subsection{Comentarios}
 La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios, separados en sublistas y diferenciados entre ellos por autor (patrocinador). De los 7,750 proyectos con comentarios (de los cuales, 4,626 fueron exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, así como URLs, emoticonos, emojis, números y caracteres especiales, resultando finalmente en 7,658 proyectos con comentarios (4,574 exitosos).
 
-Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig34}.
+Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig33}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/comments_wordcloud_processed.png}
 		\caption{Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.}
-		\label{4:fig34}
+		\label{4:fig33}
 	\end{center}
 \end{figure}
 
@@ -517,19 +513,20 @@ Antes de crear los modelos correspondientes, y después de definir los valores d
 Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{state}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
 
 \subsection{Metainformación}
-Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig35} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.
+Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig34} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
 		\caption{Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.}
-		\label{4:fig35}
+		\label{4:fig34}
 	\end{center}
 \end{figure}
 
 La arquitectura comienza con la capa de entrada alimentadas por las 6 variables consideradas, la cual asimismo representará la cantidad de neuronas, tanto de entrada como de salida.
 Si bien no existe alguna regla general para definir el número de capas óptimas, así como los hiperparámetros que se deben configurar en ellas, se puede utilizar como referencia algunas metodologías como las Reglas del Pulgar \parencite{tec_ranjan2019thumbrules}.
 
+\newpage
 De acuerdo a algunas de estas, el número de capas ocultas comienza con 2 sin contar la última. La primera capa densa continúa a la capa de entrada, mientras que la segunda aparece después de la primera capa de desactivación.
 
 Otro punto considerado fue el número de nodos o neuronas de las capas intermedias. Estas deben seguir una progresión geométrica de 2, donde la primera capa debe ser la mitad del número de variables en la capa de entrada. Dado que la mitad de 6 es un valor que no cumple, un número potencial puede ser 4.
@@ -539,36 +536,36 @@ El autor de algunas de estas reglas también menciona tener en consideración ut
 Todas estas opciones fueron probadas en el modelo y evaluadas con las métricas correspondientes. Sin embargo, al calibrar el modelo y comparar distintos resultados, se obtuvo que la mejor cantidad de neuronas para la primera capa densa era de 32. De este modo, la siguiente capa intermedia se le asignó la mitad (16). La función de activación \textbf{tanh} para la segunda capa oculta presentó mejores resultados, así como tasas de abandono entre 0.25 y 0.3 para las capas de desactivación. Por último, además de \textit{adam}, se realizó experimentos con otros optimizadores como por ejemplo \textit{RMSprop} siendo este el resultado más cercano. Al final, \textit{adam} fue escogido pero con una tasa de aprendizaje baja como 0.005 debido a que el modelo tendía a aprender muy rápido durante el transcurso de las épocas. En conjunto, el ratio de decaimiento se asignó un valor más bajo, 0.00005, y para evaluar los subconjuntos de entrenamiento y prueba se eligió precisión como métrica.
 
 \subsection{Descripción}
-Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig36}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig37}).
+Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig35}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig36}).
 
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.50\textwidth]{4/figures/description_tokenizer_function.jpg}
 		\caption{Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.}
-		\label{4:fig36}
+		\label{4:fig35}
 		\includegraphics[width=0.80\textwidth]{4/figures/description_encoder_function.jpg}
 		\caption{Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.}
-		\label{4:fig37}
+		\label{4:fig36}
 	\end{center}
 \end{figure}
 
-Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe (Figura \ref{4:fig38}), un algoritmo de aprendizaje no supervisado para obtener representaciones vectoriales de palabras \parencite{gl_pennington_glove}. Para la presente investigación, se seleccionó la opción más usada, GloVe pre-entrenado con 6 billones de tokens, vocabulario de más de 400 mil palabras de Wikipedia (2014) y Gigaword (5ta edición) de la Universidad de Pensilvania, y matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
+Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe (Figura \ref{4:fig37}). Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{4/figures/description_glove.jpg}
 		\caption{Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.}
-		\label{4:fig38}
+		\label{4:fig37}
 	\end{center}
 \end{figure}
 
-Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional (CNN por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig39} y teniendo como referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y el número de lotes fue 128.
+Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig38}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
 		\caption{Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.}
-		\label{4:fig39}
+		\label{4:fig38}
 	\end{center}
 \end{figure}
 
@@ -585,13 +582,13 @@ Finalmente, la arquitectura culmina con la última capa con función de activaci
 \subsection{Comentarios}
 Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
 
-De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig40}.
+De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig39}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_rnn_comments.png}
 		\caption{Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.}
-		\label{4:fig40}
+		\label{4:fig39}
 	\end{center}
 \end{figure}
 
@@ -603,13 +600,13 @@ Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de 
 
 \begin{landscape}
 	\subsection{Modelo apilado}
-	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig41}.
+	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig40}.
 	
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=1.25\textwidth]{4/figures/final_stacked_model.png}
 			\caption{Arquitectura del modelo apilado final. Fuente: Elaboración propia.}
-			\label{4:fig41}
+			\label{4:fig40}
 		\end{center}
 	\end{figure}
 	
