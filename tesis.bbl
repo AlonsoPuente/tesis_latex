@@ -489,6 +489,40 @@
       \verb https://machinelearningmastery.com/how-to-fix-vanishing-gradients-using-the-rectified-linear-activation-function/
       \endverb
     \endentry
+    \entry{tec_bujokas2020word2vec}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1f7fd90be689fe17698a8c3180c40f2f}{%
+           family={Bujokas},
+           familyi={B\bibinitperiod},
+           given={Eligijus},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{1f7fd90be689fe17698a8c3180c40f2f}
+      \strng{fullhash}{1f7fd90be689fe17698a8c3180c40f2f}
+      \strng{bibnamehash}{1f7fd90be689fe17698a8c3180c40f2f}
+      \strng{authorbibnamehash}{1f7fd90be689fe17698a8c3180c40f2f}
+      \strng{authornamehash}{1f7fd90be689fe17698a8c3180c40f2f}
+      \strng{authorfullhash}{1f7fd90be689fe17698a8c3180c40f2f}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Creating Word Embeddings: Coding the Word2Vec Algorithm in Python using Deep Learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/creating-word-embeddings-coding-the-word2vec-algorithm-in-python-using-deep-learning-b337d0ba17a8
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/creating-word-embeddings-coding-the-word2vec-algorithm-in-python-using-deep-learning-b337d0ba17a8
+      \endverb
+    \endentry
     \entry{gl_calvo2017clasifrna}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8bc0c62a6a897230e8d9d10ceb7eea5e}{%
@@ -3041,11 +3075,12 @@
       \strng{authorbibnamehash}{077003808bf2e10b988df0fc99931a19}
       \strng{authornamehash}{53011f5d2e5e36f9701e6ec74c20784b}
       \strng{authorfullhash}{077003808bf2e10b988df0fc99931a19}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{GloVe: Global Vectors for Word Representation}
@@ -3056,6 +3091,50 @@
       \endverb
       \verb{url}
       \verb https://nlp.stanford.edu/pubs/glove.pdf
+      \endverb
+    \endentry
+    \entry{tec_pennington2014glove}{online}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ab47b497d1b0cdaddd8594e4bd501ee5}{%
+           family={Pennington},
+           familyi={P\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5670b2600fea169724521e252d9d09d}{%
+           family={Socher},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2214edb8305f7ccd7cdc310b3a8ae1b4}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53011f5d2e5e36f9701e6ec74c20784b}
+      \strng{fullhash}{077003808bf2e10b988df0fc99931a19}
+      \strng{bibnamehash}{077003808bf2e10b988df0fc99931a19}
+      \strng{authorbibnamehash}{077003808bf2e10b988df0fc99931a19}
+      \strng{authornamehash}{53011f5d2e5e36f9701e6ec74c20784b}
+      \strng{authorfullhash}{077003808bf2e10b988df0fc99931a19}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GloVe: Global Vectors for Word Representation}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://nlp.stanford.edu/projects/glove/
+      \endverb
+      \verb{url}
+      \verb https://nlp.stanford.edu/projects/glove/
       \endverb
     \endentry
     \entry{tec_phi2018gru}{online}{}

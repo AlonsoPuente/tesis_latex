@@ -1014,9 +1014,47 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 	\begin{itemize}
 		\item \textbf{Capa de incrustación} (\textit{Embedding Layer}): Consiste en una incrustación de palabras que aprende con un modelo de red neuronal. En esta capa, se especifica el tamaño del espacio vectorial (dimensiones), donde los vectores inicializan con pequeños valores aleatorios. La capa se utiliza en el extremo frontal de la red, es decir, luego de la capa de entrada, y es ajustada de forma supervisada mediante el algoritmo de propagación hacia atrás. Puede recibir palabras codificadas, en donde cada una se representa por un código, o codificación en caliente, la cual presenta mayor dimensión. Si se utiliza un Perceptrón Multicapa (MLP), los vectores de palabras son concatenados antes de entrar al modelo. En el caso se use una RNN, cada palabra será tomada como una entrada en una secuencia \parencite{bk_brownlee2017deeplearning_nlp}.
 		
-		\item \textbf{Palabra a vector} (\textit{Word2Vec}): Se trata de un método estadístico, desarrollado en el 2013 por Tomas Mikolov, cuya finalidad es de aprender eficientemente una incrustación de palabras independientes de un corpus de texto, incluso si este y sus dimensiones son más grandes. En este trabajo se involucró el análisis de los vectores aprendidos y la exploración de la matemática vectorial para representar palabras. Para entender estos conceptos, se ilustra bajo el ejemplo de la analogía “\textit{Rey es a Reina como hombre es a mujer}”, en donde se evidencia la relación sintáctica y semántica capturada por su proximidad vectorial \parencite{bk_brownlee2017deeplearning_nlp}. 
 		
-		\item \textbf{Vectores globales para representación de palabra} (\textit{GloVe}): Es un algoritmo de aprendizaje no supervisado para obtener representaciones vectoriales de palabras. Es una extensión del método Word2Vec, desarrollado en 2014 por Jeffrey Pennington como proyecto de código abierto en la Universidad Stanford. Las representaciones de palabras del modelo de espacio vectorial clásico se desarrollaron utilizando técnicas de factorización matricial como el Análisis semántico latente (LSA), con el cual combina sus características de aprendizaje adoptadas de Word2Vec, logrando un modelo de aprendizaje con mejor performance para incrustación de palabras \parencite{gl_pennington2014glove}. GloVe dispone en su web distintos vectores de palabras pre-entrenados, entre ellas, un vocabulario de más de 400 mil palabras, hasta 4 opciones de matrices con distintas dimensiones, y 6 billones de tokens extraídos de Wikipedia (2014) y Gigaword (5ta edición) de la Universidad de Pensilvania, así como datas públicas extraídas de mayor tamaño.
+		
+		\item \textbf{Palabra a vector} (\textit{Word2Vec}): Se trata de un método estadístico, desarrollado en el 2013 por Tomas Mikolov, cuya finalidad es de aprender eficientemente una incrustación de palabras independientes de un corpus de texto, incluso si este y sus dimensiones son más grandes. En este trabajo se involucró el análisis de los vectores aprendidos y la exploración de la matemática vectorial para representar palabras. Para entender estos conceptos, se ilustra bajo el ejemplo de la analogía “\textit{Rey es a Reina como hombre es a mujer}”, en donde se evidencia la relación sintáctica y semántica capturada por su proximidad vectorial \parencite{bk_brownlee2017deeplearning_nlp}. La Figura \ref{2:fig48} ilustra las palabras relacionadas gracias al algoritmo, en un espacio vectorial.
+		
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width=0.80\textwidth]{2/figures/word2vec.png}
+				\caption{Incrustaciones de palabras por Word2Vec. Fuente: \cite{tec_bujokas2020word2vec}}
+				\label{2:fig48}
+			\end{center}
+		\end{figure}
+		
+		\item \textbf{Vectores globales para representación de palabra} (\textit{GloVe}): Es un algoritmo de aprendizaje no supervisado para obtener representaciones vectoriales de palabras. Es una extensión del método Word2Vec, desarrollado en 2014 por Jeffrey Pennington como proyecto de código abierto en la Universidad Stanford. Las representaciones de palabras del modelo de espacio vectorial clásico se desarrollaron utilizando técnicas de factorización matricial como el Análisis semántico latente (LSA), con el cual combina sus características de aprendizaje adoptadas de Word2Vec, logrando un modelo de aprendizaje con mejor performance para incrustación de palabras \parencite{gl_pennington2014glove}. GloVe dispone en su web distintos vectores de palabras pre-entrenados, entre ellas, un vocabulario de más de 400 mil palabras, hasta 4 opciones de matrices con distintas dimensiones, y 6 billones de tokens extraídos de Wikipedia (2014) y Gigaword (5ta edición) de la Universidad de Pensilvania, así como datas públicas extraídas de mayor tamaño. La Figura \ref{2:fig49} ilustra ejemplos de palabras semánticamente distintas, relacionadas gracias al algoritmo, en un espacio vectorial.
+		
+		\begin{figure}[!ht]
+			\centering
+			\small
+			\begin{subfigure}{.55\textwidth}
+				\centering
+				\includegraphics[width=0.70\linewidth]{2/figures/glove_man-woman.jpg}
+				\caption{hombre - mujer}
+			\end{subfigure}%
+			\begin{subfigure}{.55\textwidth}
+				\centering
+				\includegraphics[width=0.70\linewidth]{2/figures/glove_company-ceo.jpg}
+				\caption{empresa - CEO}
+			\end{subfigure}
+			\begin{subfigure}{.55\textwidth}
+				\centering
+				\includegraphics[width=0.70\linewidth]{2/figures/glove_comparative-superlative.jpg}
+				\caption{comparativo - superlativo}
+			\end{subfigure}%
+			\begin{subfigure}{.55\textwidth}
+				\centering
+				\includegraphics[width=0.70\linewidth]{2/figures/glove_city-zipcode.jpg}
+				\caption{ciudad - código postal}
+			\end{subfigure}
+			\caption{Incrustaciones de palabras por GloVe. Fuente: \cite{tec_pennington2014glove}}
+			\label{2:fig49}
+		\end{figure}
+		
 	\end{itemize}
 
 	\item \textbf{Bolsa de palabras} (\textit{Bag-of-Words} o \textit{BoW}): Consiste en una forma de extraer características de textos implicando un vocabulario de palabras conocidas y una métrica de presencia de éstas. Se le denomina Bolsa de palabras ya que no considera el orden o la estructura de las palabras dentro del documento, sólo conocer su presencia. El algoritmo relaciona la similitud entre documentos si tienen contenido similar \parencite{bk_brownlee2017deeplearning_nlp}.
