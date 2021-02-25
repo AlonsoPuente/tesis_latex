@@ -1012,21 +1012,27 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 	
 	Algunos de los algoritmos destacados de este grupo son:
 	\begin{itemize}
-		\item \textbf{Capa de incrustación} (\textit{Embedding Layer}): Consiste en una incrustación de palabras que aprende con un modelo de red neuronal. En esta capa, se especifica el tamaño del espacio vectorial (dimensiones), donde los vectores inicializan con pequeños valores aleatorios. La capa se utiliza en el extremo frontal de la red, es decir, luego de la capa de entrada, y es ajustada de forma supervisada mediante el algoritmo de propagación hacia atrás. Puede recibir palabras codificadas, en donde cada una se representa por un código, o codificación en caliente, la cual presenta mayor dimensión. Si se utiliza un Perceptrón Multicapa (MLP), los vectores de palabras son concatenados antes de entrar al modelo. En el caso se use una RNN, cada palabra será tomada como una entrada en una secuencia \parencite{bk_brownlee2017deeplearning_nlp}.
-		
-		
-		
-		\item \textbf{Palabra a vector} (\textit{Word2Vec}): Se trata de un método estadístico, desarrollado en el 2013 por Tomas Mikolov, cuya finalidad es de aprender eficientemente una incrustación de palabras independientes de un corpus de texto, incluso si este y sus dimensiones son más grandes. En este trabajo se involucró el análisis de los vectores aprendidos y la exploración de la matemática vectorial para representar palabras. Para entender estos conceptos, se ilustra bajo el ejemplo de la analogía “\textit{Rey es a Reina como hombre es a mujer}”, en donde se evidencia la relación sintáctica y semántica capturada por su proximidad vectorial \parencite{bk_brownlee2017deeplearning_nlp}. La Figura \ref{2:fig48} ilustra las palabras relacionadas gracias al algoritmo, en un espacio vectorial.
+		\item \textbf{Capa de incrustación} (\textit{Embedding Layer}): Consiste en una incrustación de palabras que aprende con un modelo de red neuronal. En esta capa, se especifica el tamaño del espacio vectorial (dimensiones), donde los vectores inicializan con pequeños valores aleatorios. La capa se utiliza en el extremo frontal de la red, es decir, luego de la capa de entrada, y es ajustada de forma supervisada mediante el algoritmo de propagación hacia atrás. Puede recibir palabras codificadas, en donde cada una se representa por un código, o codificación en caliente, la cual presenta mayor dimensión. Si se utiliza un Perceptrón Multicapa (MLP), los vectores de palabras son concatenados antes de entrar al modelo. En el caso se use una RNN, cada palabra será tomada como una entrada en una secuencia \parencite{bk_brownlee2017deeplearning_nlp}. Como se observa en la Figura \ref{2:fig47}, la capa de incrustación toma como entrada a la matriz de incrustación y la transforma en un vector tridimensional de \textit{n} registros.
 		
 		\begin{figure}[!ht]
 			\begin{center}
-				\includegraphics[width=0.80\textwidth]{2/figures/word2vec.png}
+				\includegraphics[width=0.50\textwidth]{2/figures/embedding_layer.jpg}
+				\caption{Ejemplo de funcionamiento de una capa de incrustación. Fuente: \cite{tec_chengwei2018embedding}}
+				\label{2:fig47}
+			\end{center}
+		\end{figure}
+		
+		\item \textbf{Palabra a vector} (\textit{Word2Vec}): Se trata de un método estadístico, desarrollado en el 2013 por Tomas Mikolov, cuya finalidad es de aprender eficientemente una incrustación de palabras independientes de un corpus de texto, incluso si este y sus dimensiones son más grandes. En este trabajo se involucró el análisis de los vectores aprendidos y la exploración de la matemática vectorial para representar palabras. Para entender estos conceptos, se ilustra bajo el ejemplo de la analogía “\textit{Rey es a Reina como hombre es a mujer}”, en donde se evidencia la relación sintáctica y semántica capturada por su proximidad vectorial \parencite{bk_brownlee2017deeplearning_nlp}. La Figura \ref{2:fig48} grafica las palabras relacionadas en un espacio vectorial gracias al algoritmo.
+		
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width=0.60\textwidth]{2/figures/word2vec.png}
 				\caption{Incrustaciones de palabras por Word2Vec. Fuente: \cite{tec_bujokas2020word2vec}}
 				\label{2:fig48}
 			\end{center}
 		\end{figure}
 		
-		\item \textbf{Vectores globales para representación de palabra} (\textit{GloVe}): Es un algoritmo de aprendizaje no supervisado para obtener representaciones vectoriales de palabras. Es una extensión del método Word2Vec, desarrollado en 2014 por Jeffrey Pennington como proyecto de código abierto en la Universidad Stanford. Las representaciones de palabras del modelo de espacio vectorial clásico se desarrollaron utilizando técnicas de factorización matricial como el Análisis semántico latente (LSA), con el cual combina sus características de aprendizaje adoptadas de Word2Vec, logrando un modelo de aprendizaje con mejor performance para incrustación de palabras \parencite{gl_pennington2014glove}. GloVe dispone en su web distintos vectores de palabras pre-entrenados, entre ellas, un vocabulario de más de 400 mil palabras, hasta 4 opciones de matrices con distintas dimensiones, y 6 billones de tokens extraídos de Wikipedia (2014) y Gigaword (5ta edición) de la Universidad de Pensilvania, así como datas públicas extraídas de mayor tamaño. La Figura \ref{2:fig49} ilustra ejemplos de palabras semánticamente distintas, relacionadas gracias al algoritmo, en un espacio vectorial.
+		\item \textbf{Vectores globales para representación de palabra} (\textit{GloVe}): Es un algoritmo de aprendizaje no supervisado para obtener representaciones vectoriales de palabras. Es una extensión del método Word2Vec, desarrollado en 2014 por Jeffrey Pennington como proyecto de código abierto en la Universidad Stanford. Las representaciones de palabras del modelo de espacio vectorial clásico se desarrollaron utilizando técnicas de factorización matricial como el Análisis semántico latente (LSA), con el cual combina sus características de aprendizaje adoptadas de Word2Vec, logrando un modelo de aprendizaje con mejor performance para incrustación de palabras \parencite{gl_pennington2014glove}. GloVe dispone en su web distintos vectores de palabras pre-entrenados, entre ellas, un vocabulario de más de 400 mil palabras, hasta 4 opciones de matrices con distintas dimensiones, y 6 billones de tokens extraídos de Wikipedia (2014) y Gigaword (5ta edición) de la Universidad de Pensilvania, así como datas públicas extraídas de mayor tamaño. La Figura \ref{2:fig49} ilustra ejemplos de palabras  relacionadas en un espacio vectorial gracias al algoritmo. La relación semántica (palabras clasificadas en un mismo grupo) entre ellas se aprecia por la cercanía en su el eje Y. Mientras que aquellos señalados con líneas horizontales en su eje X se encuentran asociadas por analogías, como por ejemplo, género, geolocalización, compañía, grados del adjetivo, entre otros.
 		
 		\begin{figure}[!ht]
 			\centering
@@ -1039,7 +1045,7 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 			\begin{subfigure}{.55\textwidth}
 				\centering
 				\includegraphics[width=0.70\linewidth]{2/figures/glove_company-ceo.jpg}
-				\caption{empresa - CEO}
+				\caption{compañía - CEO}
 			\end{subfigure}
 			\begin{subfigure}{.55\textwidth}
 				\centering
@@ -1057,5 +1063,33 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 		
 	\end{itemize}
 
-	\item \textbf{Bolsa de palabras} (\textit{Bag-of-Words} o \textit{BoW}): Consiste en una forma de extraer características de textos implicando un vocabulario de palabras conocidas y una métrica de presencia de éstas. Se le denomina Bolsa de palabras ya que no considera el orden o la estructura de las palabras dentro del documento, sólo conocer su presencia. El algoritmo relaciona la similitud entre documentos si tienen contenido similar \parencite{bk_brownlee2017deeplearning_nlp}.
+	\item \textbf{Bolsa de palabras} (\textit{Bag-of-Words} o \textit{BoW}): Consiste en una forma de extraer características de textos implicando un vocabulario de palabras conocidas y una métrica de presencia de éstas. Se le denomina Bolsa de palabras ya que no considera el orden o la estructura de las palabras dentro del documento, sólo se enfoca en conocer su presencia. El algoritmo relaciona la similitud entre documentos si tienen contenido similar \parencite{bk_brownlee2017deeplearning_nlp}. Por ejemplo, en la Figura \ref{2:fig50} el algoritmo cuantifica la frecuencia cada palabra individual dentro de un documento sin importar su orden. De esta manera, los relaciona a partir de su recurrencia en todos ellos
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.70\textwidth]{2/figures/bow_example.png}
+			\caption{Ejemplo de funcionamiento de bolsa de palabras. Fuente: \cite{tec_zhou2019bow}}
+			\label{2:fig50}
+		\end{center}
+	\end{figure}
+	
+	\item \textbf{Frecuencia del término - Frecuencia inversa del documento} (\textit{Term Frequency - Inverse Document Frequency} o \textit{TF-IDF}): Es un algoritmo que también contabiliza palabras pero que resaltan aquellas más significativas para calcular sus pesos correspondientes. Se compone por la frecuencia del término, que representa la frecuencia con la que una palabra determinada aparece en un documento, y la frecuencia inversa del documento, el cual reduce la escala de palabras que aparecen mucho en los documentos \parencite{bk_brownlee2017deeplearning_nlp}. Su peso se calcula bajo la siguiente fórmula:
+	
+	\begin{equcaption}[!ht]
+		\begin{equation*}
+		\phantomsection
+		TF-IDF_{(n,d)}=TF_{(n,d)}*IDF_{(n)}
+		\end{equation*}
+		\caption[Fórmula de TF-IDF. Fuente: \cite{tec_hamdaoui2019tfidf}]{Fórmula de TF-IDF. Fuente: \cite{tec_hamdaoui2019tfidf}}
+		\label{eq:tfidf}
+	\end{equcaption}
+	
+	Donde:
+	\begin{conditions}
+		TF_{(n,d)}	&	número de veces que el término \textit{t} aparece en un documento \textit{d} \\
+		IDF_{(n)}	&	$\log{\frac{1+n}{1+df_{(d,n)}}+1}$	\\
+		n			&	número de documentos	\\
+		df_{(d,n)}	&	frecuencia de documentos \textit{d} que contienen el término \textit{t}
+	\end{conditions}
+	
 \end{itemize}

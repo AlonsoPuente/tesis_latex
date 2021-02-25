@@ -898,6 +898,37 @@
       \verb https://www.ijcai.org/proceedings/2019/0299.pdf
       \endverb
     \endentry
+    \entry{tec_chengwei2018embedding}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0624976497ed6d8fe3ffd7de34d5fd39}{%
+           family={Chengwei},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {DLology}%
+      }
+      \strng{namehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{fullhash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{bibnamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{authorbibnamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{authornamehash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \strng{authorfullhash}{0624976497ed6d8fe3ffd7de34d5fd39}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Simple Stock Sentiment Analysis with news data in Keras}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.dlology.com/blog/simple-stock-sentiment-analysis-with-news-data-in-keras/
+      \endverb
+      \verb{url}
+      \verb https://www.dlology.com/blog/simple-stock-sentiment-analysis-with-news-data-in-keras/
+      \endverb
+    \endentry
     \entry{cr_colgren2014risecrwd}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d702637e7ebb7502f91baeed338aade8}{%
@@ -1429,6 +1460,40 @@
       \endverb
       \verb{url}
       \verb https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
+      \endverb
+    \endentry
+    \entry{tec_hamdaoui2019tfidf}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd7322e319111e38026e8f70c44138ef}{%
+           family={Hamdaoui},
+           familyi={H\bibinitperiod},
+           given={Yassine},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{fd7322e319111e38026e8f70c44138ef}
+      \strng{fullhash}{fd7322e319111e38026e8f70c44138ef}
+      \strng{bibnamehash}{fd7322e319111e38026e8f70c44138ef}
+      \strng{authorbibnamehash}{fd7322e319111e38026e8f70c44138ef}
+      \strng{authornamehash}{fd7322e319111e38026e8f70c44138ef}
+      \strng{authorfullhash}{fd7322e319111e38026e8f70c44138ef}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TF(Term Frequency)-IDF(Inverse Document Frequency) from scratch in python .}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/tf-term-frequency-idf-inverse-document-frequency-from-scratch-in-python-6c2b61b78558
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/tf-term-frequency-idf-inverse-document-frequency-from-scratch-in-python-6c2b61b78558
       \endverb
     \endentry
     \entry{cr_hollas2013crwd}{article}{}
@@ -4716,7 +4781,6 @@
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eventtitle}{Twenty-first Americas Conference on Information Systems, Puerto Rico, 2015}
@@ -4729,6 +4793,39 @@
       \endverb
       \verb{url}
       \verb http://aisel.aisnet.org/amcis2015/BizAnalytics/GeneralPresentations/37
+      \endverb
+    \endentry
+    \entry{tec_zhou2019bow}{online}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=92fbef0a0ce86c0e3aef107ef15821f6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{92fbef0a0ce86c0e3aef107ef15821f6}
+      \strng{fullhash}{92fbef0a0ce86c0e3aef107ef15821f6}
+      \strng{bibnamehash}{92fbef0a0ce86c0e3aef107ef15821f6}
+      \strng{authorbibnamehash}{92fbef0a0ce86c0e3aef107ef15821f6}
+      \strng{authornamehash}{92fbef0a0ce86c0e3aef107ef15821f6}
+      \strng{authorfullhash}{92fbef0a0ce86c0e3aef107ef15821f6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Simple Explanation of the Bag-of-Words Model}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/a-simple-explanation-of-the-bag-of-words-model-b88fc4f4971
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/a-simple-explanation-of-the-bag-of-words-model-b88fc4f4971
       \endverb
     \endentry
     \entry{tec_zimovnov2018text_preprocessing}{online}{}

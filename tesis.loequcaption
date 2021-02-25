@@ -21,11 +21,12 @@
 \contentsline {equcaption}{\numberline {2.19}{\ignorespaces Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros. Fuente: \cite {tec_li2019cnn}}}{77}{equcaption.caption.74}%
 \contentsline {equcaption}{\numberline {2.20}{\ignorespaces Ecuación del hiperplano para clasificar dos clases. Fuente: \cite {tec_betancourt2005svm}}}{80}{equcaption.caption.81}%
 \contentsline {equcaption}{\numberline {2.21}{\ignorespaces Fórmula para determinar un estado en una S-RNN. Fuente: \cite {bk_brownlee2017deeplearning_nlp}}}{85}{equcaption.caption.88}%
+\contentsline {equcaption}{\numberline {2.22}{\ignorespaces Fórmula de TF-IDF. Fuente: \cite {tec_hamdaoui2019tfidf}}}{92}{equcaption.caption.99}%
 \addvspace {10\p@ }
-\contentsline {equcaption}{\numberline {3.1}{\ignorespaces Fórmula para calcular la exactitud. Fuente: \cite {gl_kohavi1998ml_glossary}}}{102}{equcaption.caption.100}%
-\contentsline {equcaption}{\numberline {3.2}{\ignorespaces Fórmula para calcular la precisión. Fuente: \cite {gl_kohavi1998ml_glossary}}}{102}{equcaption.caption.102}%
-\contentsline {equcaption}{\numberline {3.3}{\ignorespaces Fórmula para calcular la sensibilidad. Fuente: \cite {gl_kohavi1998ml_glossary}}}{104}{equcaption.caption.106}%
-\contentsline {equcaption}{\numberline {3.4}{\ignorespaces Fórmula para calcular el puntaje F1. Fuente: \cite {gl_kohavi1998ml_glossary}}}{104}{equcaption.caption.108}%
+\contentsline {equcaption}{\numberline {3.1}{\ignorespaces Fórmula para calcular la exactitud. Fuente: \cite {gl_kohavi1998ml_glossary}}}{103}{equcaption.caption.104}%
+\contentsline {equcaption}{\numberline {3.2}{\ignorespaces Fórmula para calcular la precisión. Fuente: \cite {gl_kohavi1998ml_glossary}}}{103}{equcaption.caption.106}%
+\contentsline {equcaption}{\numberline {3.3}{\ignorespaces Fórmula para calcular la sensibilidad. Fuente: \cite {gl_kohavi1998ml_glossary}}}{105}{equcaption.caption.110}%
+\contentsline {equcaption}{\numberline {3.4}{\ignorespaces Fórmula para calcular el puntaje F1. Fuente: \cite {gl_kohavi1998ml_glossary}}}{105}{equcaption.caption.112}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
