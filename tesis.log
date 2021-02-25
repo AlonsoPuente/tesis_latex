@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  25 FEB 2021 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.20)  25 FEB 2021 18:34
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2975,56 +2975,58 @@ LaTeX Info: Redefining \. on input line 275.
 LaTeX Info: Redefining \% on input line 275.
  [156 <./5/figures/stacked_confusion_matrix.png> <./5/figures/stacked_auc.png>]
 
-Overfull \hbox (4.28877pt too wide) in paragraph at lines 282--298
+Overfull \hbox (4.28877pt too wide) in paragraph at lines 282--293
  [][] 
  []
 
+LaTeX Info: Redefining \. on input line 301.
+LaTeX Info: Redefining \% on input line 301.
+[157]
 <5/figures/demo_flux.png, id=3008, 932.7648pt x 496.7358pt>
 File: 5/figures/demo_flux.png Graphic file (type png)
 <use 5/figures/demo_flux.png>
-Package pdftex.def Info: 5/figures/demo_flux.png  used on input line 311.
+Package pdftex.def Info: 5/figures/demo_flux.png  used on input line 308.
 (pdftex.def)             Requested size: 430.31847pt x 229.16066pt.
-LaTeX Info: Redefining \. on input line 315.
-LaTeX Info: Redefining \% on input line 315.
-[157]
-<5/figures/example_project_150221.jpg, id=3015, 947.9415pt x 531.78674pt>
+<5/figures/example_project_150221.jpg, id=3010, 947.9415pt x 531.78674pt>
 File: 5/figures/example_project_150221.jpg Graphic file (type jpg)
 <use 5/figures/example_project_150221.jpg>
 Package pdftex.def Info: 5/figures/example_project_150221.jpg  used on input li
-ne 321.
+ne 318.
 (pdftex.def)             Requested size: 339.7262pt x 190.58295pt.
-LaTeX Info: Redefining \. on input line 328.
-LaTeX Info: Redefining \% on input line 328.
- [158 <./5/figures/demo_flux.png> <./5/figures/example_project_150221.jpg>]
-<5/figures/metadata_scraped_project.jpg, id=3025, 335.45325pt x 93.951pt>
+LaTeX Info: Redefining \. on input line 325.
+LaTeX Info: Redefining \% on input line 325.
+ [158
+
+ <./5/figures/demo_flux.png> <./5/figures/example_project_150221.jpg>]
+<5/figures/metadata_scraped_project.jpg, id=3020, 335.45325pt x 93.951pt>
 File: 5/figures/metadata_scraped_project.jpg Graphic file (type jpg)
 <use 5/figures/metadata_scraped_project.jpg>
 Package pdftex.def Info: 5/figures/metadata_scraped_project.jpg  used on input 
-line 335.
+line 332.
 (pdftex.def)             Requested size: 150.61407pt x 42.18437pt.
-<5/figures/description_scraped_project.jpg, id=3026, 746.18774pt x 510.10574pt>
+<5/figures/description_scraped_project.jpg, id=3021, 746.18774pt x 510.10574pt>
 
 File: 5/figures/description_scraped_project.jpg Graphic file (type jpg)
 <use 5/figures/description_scraped_project.jpg>
 Package pdftex.def Info: 5/figures/description_scraped_project.jpg  used on inp
-ut line 340.
+ut line 337.
 (pdftex.def)             Requested size: 150.61407pt x 102.96115pt.
-<5/figures/comments_scraped_project.jpg, id=3027, 752.8125pt x 254.1495pt>
+<5/figures/comments_scraped_project.jpg, id=3022, 752.8125pt x 254.1495pt>
 File: 5/figures/comments_scraped_project.jpg Graphic file (type jpg)
 <use 5/figures/comments_scraped_project.jpg>
 Package pdftex.def Info: 5/figures/comments_scraped_project.jpg  used on input 
-line 345.
+line 342.
 (pdftex.def)             Requested size: 150.61407pt x 50.8445pt.
 
-Overfull \hbox (22.65666pt too wide) in paragraph at lines 333--348
+Overfull \hbox (22.65666pt too wide) in paragraph at lines 330--345
  []$[]$$[]$$[]$ 
  []
 
-<5/figures/demo_project_prediction.jpg, id=3029, 323.40825pt x 33.12375pt>
+<5/figures/demo_project_prediction.jpg, id=3024, 323.40825pt x 33.12375pt>
 File: 5/figures/demo_project_prediction.jpg Graphic file (type jpg)
 <use 5/figures/demo_project_prediction.jpg>
 Package pdftex.def Info: 5/figures/demo_project_prediction.jpg  used on input l
-ine 356.
+ine 353.
 (pdftex.def)             Requested size: 317.0764pt x 32.47519pt.
 )
 LaTeX Info: Redefining \. on input line 222.
@@ -3119,7 +3121,7 @@ LaTeX Info: Redefining \% on input line 236.
 
  (anexos/anexo.tex
 Anexo A.
-<anexos/arbol_problemas.png, id=3304, 917.3472pt x 515.526pt>
+<anexos/arbol_problemas.png, id=3300, 917.3472pt x 515.526pt>
 File: anexos/arbol_problemas.png Graphic file (type png)
 <use anexos/arbol_problemas.png>
 Package pdftex.def Info: anexos/arbol_problemas.png  used on input line 6.
@@ -3134,7 +3136,7 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 6--8
 
  <./anexos/arbol_problemas.png>]
 Anexo B.
-<anexos/arbol_objetivos.png, id=3311, 915.9018pt x 516.4896pt>
+<anexos/arbol_objetivos.png, id=3307, 915.9018pt x 516.4896pt>
 File: anexos/arbol_objetivos.png Graphic file (type png)
 <use anexos/arbol_objetivos.png>
 Package pdftex.def Info: anexos/arbol_objetivos.png  used on input line 15.
@@ -3195,15 +3197,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 73759A305406D1E5273668C7A7D941D5;16602.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28172 strings out of 480763
- 516747 string characters out of 2904056
- 1392100 words of memory out of 3000000
- 42848 multiletter control sequences out of 15000+200000
+ 28167 strings out of 480763
+ 516687 string characters out of 2904056
+ 1391070 words of memory out of 3000000
+ 42843 multiletter control sequences out of 15000+200000
  591544 words of font info for 155 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,13n,81p,2196b,4052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3218,9 +3225,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (177 pages, 9714767 bytes).
+Output written on tesis.pdf (177 pages, 9713572 bytes).
 PDF statistics:
- 3506 PDF objects out of 3580 (max. 8388607)
+ 3502 PDF objects out of 3580 (max. 8388607)
  661 named destinations out of 1000 (max. 500000)
  2045 words of extra memory for PDF output out of 10000 (max. 10000000)
 

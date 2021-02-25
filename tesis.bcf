@@ -3426,19 +3426,15 @@
     <bcf:citekey order="640">bk_britos2006datamining</bcf:citekey>
     <bcf:citekey order="641">bk_britos2006datamining</bcf:citekey>
     <bcf:citekey order="642">bk_britos2006datamining</bcf:citekey>
-    <bcf:citekey order="643">pr_beckwith2016predcrowd</bcf:citekey>
-    <bcf:citekey order="644">pr_yuan2016textanalytics</bcf:citekey>
-    <bcf:citekey order="645">pr_kaur2017socmedcrowd</bcf:citekey>
-    <bcf:citekey order="646">pr_cheng2019deeplearning</bcf:citekey>
-    <bcf:citekey order="647">pr_chen2019keywords_crowdfunding</bcf:citekey>
-    <bcf:citekey order="648">pr_puente2019kickstarter_prediction</bcf:citekey>
-    <bcf:citekey order="649">ot_kickstarter_revopointproject</bcf:citekey>
-    <bcf:citekey order="650">ot_kickstarter_revopointproject</bcf:citekey>
-    <bcf:citekey order="651">tec_brownlee2018stacked_models</bcf:citekey>
-    <bcf:citekey order="652">pr_cheng2019deeplearning</bcf:citekey>
-    <bcf:citekey order="653">pr_puente2019kickstarter_prediction</bcf:citekey>
-    <bcf:citekey order="654">pr_shafqat2019topicpredictions</bcf:citekey>
-    <bcf:citekey order="655">pr_chen2013kickpredict</bcf:citekey>
+    <bcf:citekey order="643">pr_puente2019kickstarter_prediction</bcf:citekey>
+    <bcf:citekey order="644">ot_kickstarter_revopointproject</bcf:citekey>
+    <bcf:citekey order="645">ot_kickstarter_revopointproject</bcf:citekey>
+    <bcf:citekey order="646">tec_brownlee2018stacked_models</bcf:citekey>
+    <bcf:citekey order="647">pr_puente2019kickstarter_prediction</bcf:citekey>
+    <bcf:citekey order="648">pr_cheng2019deeplearning</bcf:citekey>
+    <bcf:citekey order="649">pr_shafqat2019topicpredictions</bcf:citekey>
+    <bcf:citekey order="650">pr_chen2013kickpredict</bcf:citekey>
+    <bcf:citekey order="651">pr_shafqat2019topicpredictions</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
