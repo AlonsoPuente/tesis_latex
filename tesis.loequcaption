@@ -1,32 +1,32 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {equcaption}{\numberline {2.1}{\ignorespaces Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite {tec_sancho2018supnosup}}}{52}{equcaption.caption.8}%
-\contentsline {equcaption}{\numberline {2.2}{\ignorespaces Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite {tec_sancho2018supnosup}}}{52}{equcaption.caption.10}%
-\contentsline {equcaption}{\numberline {2.3}{\ignorespaces Fórmula del algoritmo k-means. Fuente: \cite {tec_sancho2018supnosup}}}{53}{equcaption.caption.13}%
-\contentsline {equcaption}{\numberline {2.4}{\ignorespaces Fórmula del cálculo del valor de un nodo i. Fuente: \cite {bk_russell2004intart}}}{63}{equcaption.caption.24}%
-\contentsline {equcaption}{\numberline {2.5}{\ignorespaces Fórmula de una función de activación g para la salida del nodo. Fuente: \cite {bk_russell2004intart}}}{63}{equcaption.caption.26}%
-\contentsline {equcaption}{\numberline {2.6}{\ignorespaces Fórmula de la función de activación sigmoide. Fuente: \cite {pr_dorofki2012ann}}}{64}{equcaption.caption.29}%
-\contentsline {equcaption}{\numberline {2.7}{\ignorespaces Fórmula de función de coste de una regresión logística. Fuente: \cite {gl_pardo_reglogcosto}}}{65}{equcaption.caption.32}%
-\contentsline {equcaption}{\numberline {2.8}{\ignorespaces Actualización de pesos W mediante gradiente descendiente. Fuente: \cite {gl_iartificial2019descentgrad}}}{66}{equcaption.caption.35}%
-\contentsline {equcaption}{\numberline {2.9}{\ignorespaces Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite {tec_bertona2005algevol}}}{67}{equcaption.caption.38}%
-\contentsline {equcaption}{\numberline {2.10}{\ignorespaces Cálculo del error cometido en una red neuronal. Fuente: \cite {tec_viera2013backpropexplain}}}{68}{equcaption.caption.42}%
-\contentsline {equcaption}{\numberline {2.11}{\ignorespaces Actualización de pesos mediante propagación hacia atrás. Fuente: \cite {tec_viera2013backpropexplain}}}{68}{equcaption.caption.44}%
-\contentsline {equcaption}{\numberline {2.12}{\ignorespaces Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite {tec_viera2013backpropexplain}}}{69}{equcaption.caption.46}%
-\contentsline {equcaption}{\numberline {2.13}{\ignorespaces Fórmula de la función de activación tangente hiperbólica. Fuente: \cite {pr_dorofki2012ann}}}{69}{equcaption.caption.49}%
-\contentsline {equcaption}{\numberline {2.14}{\ignorespaces Fórmula de la función de activación puramente lineal. Fuente: \cite {pr_dorofki2012ann}}}{70}{equcaption.caption.52}%
-\contentsline {equcaption}{\numberline {2.15}{\ignorespaces Fórmula de la función de activación ReLU. Fuente: \cite {gl_calvo2018activrna}}}{70}{equcaption.caption.55}%
-\contentsline {equcaption}{\numberline {2.16}{\ignorespaces Fórmula matemática de la convolución. Fuente: \cite {tec_figueroa_convolucion}}}{73}{equcaption.caption.61}%
-\contentsline {equcaption}{\numberline {2.17}{\ignorespaces Cálculo del volumen del mapa de activación. Fuente: \cite {tec_prabhu2018cnn}}}{75}{equcaption.caption.68}%
-\contentsline {equcaption}{\numberline {2.18}{\ignorespaces Cálculo del tamaño de la imagen reducida. Fuente: \cite {tec_li2019cnn}}}{76}{equcaption.caption.71}%
-\contentsline {equcaption}{\numberline {2.19}{\ignorespaces Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros. Fuente: \cite {tec_li2019cnn}}}{77}{equcaption.caption.74}%
-\contentsline {equcaption}{\numberline {2.20}{\ignorespaces Ecuación del hiperplano para clasificar dos clases. Fuente: \cite {tec_betancourt2005svm}}}{80}{equcaption.caption.81}%
-\contentsline {equcaption}{\numberline {2.21}{\ignorespaces Fórmula para determinar un estado en una S-RNN. Fuente: \cite {bk_brownlee2017deeplearning_nlp}}}{85}{equcaption.caption.88}%
-\contentsline {equcaption}{\numberline {2.22}{\ignorespaces Fórmula de TF-IDF. Fuente: \cite {tec_hamdaoui2019tfidf}}}{92}{equcaption.caption.99}%
+\contentsline {equcaption}{\numberline {2.1}{\ignorespaces Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite {tec_sancho2018supnosup}}}{53}{equcaption.caption.10}%
+\contentsline {equcaption}{\numberline {2.2}{\ignorespaces Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite {tec_sancho2018supnosup}}}{53}{equcaption.caption.12}%
+\contentsline {equcaption}{\numberline {2.3}{\ignorespaces Fórmula del algoritmo k-means. Fuente: \cite {tec_sancho2018supnosup}}}{54}{equcaption.caption.15}%
+\contentsline {equcaption}{\numberline {2.4}{\ignorespaces Fórmula del cálculo del valor de un nodo i. Fuente: \cite {bk_russell2004intart}}}{64}{equcaption.caption.26}%
+\contentsline {equcaption}{\numberline {2.5}{\ignorespaces Fórmula de una función de activación g para la salida del nodo. Fuente: \cite {bk_russell2004intart}}}{64}{equcaption.caption.28}%
+\contentsline {equcaption}{\numberline {2.6}{\ignorespaces Fórmula de la función de activación sigmoide. Fuente: \cite {pr_dorofki2012ann}}}{65}{equcaption.caption.31}%
+\contentsline {equcaption}{\numberline {2.7}{\ignorespaces Fórmula de función de coste de una regresión logística. Fuente: \cite {gl_pardo_reglogcosto}}}{66}{equcaption.caption.34}%
+\contentsline {equcaption}{\numberline {2.8}{\ignorespaces Actualización de pesos W mediante gradiente descendiente. Fuente: \cite {gl_iartificial2019descentgrad}}}{67}{equcaption.caption.37}%
+\contentsline {equcaption}{\numberline {2.9}{\ignorespaces Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite {tec_bertona2005algevol}}}{68}{equcaption.caption.40}%
+\contentsline {equcaption}{\numberline {2.10}{\ignorespaces Cálculo del error cometido en una red neuronal. Fuente: \cite {tec_viera2013backpropexplain}}}{69}{equcaption.caption.44}%
+\contentsline {equcaption}{\numberline {2.11}{\ignorespaces Actualización de pesos mediante propagación hacia atrás. Fuente: \cite {tec_viera2013backpropexplain}}}{69}{equcaption.caption.46}%
+\contentsline {equcaption}{\numberline {2.12}{\ignorespaces Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite {tec_viera2013backpropexplain}}}{70}{equcaption.caption.48}%
+\contentsline {equcaption}{\numberline {2.13}{\ignorespaces Fórmula de la función de activación tangente hiperbólica. Fuente: \cite {pr_dorofki2012ann}}}{70}{equcaption.caption.51}%
+\contentsline {equcaption}{\numberline {2.14}{\ignorespaces Fórmula de la función de activación puramente lineal. Fuente: \cite {pr_dorofki2012ann}}}{71}{equcaption.caption.54}%
+\contentsline {equcaption}{\numberline {2.15}{\ignorespaces Fórmula de la función de activación ReLU. Fuente: \cite {gl_calvo2018activrna}}}{71}{equcaption.caption.57}%
+\contentsline {equcaption}{\numberline {2.16}{\ignorespaces Fórmula matemática de la convolución. Fuente: \cite {tec_figueroa_convolucion}}}{74}{equcaption.caption.63}%
+\contentsline {equcaption}{\numberline {2.17}{\ignorespaces Cálculo del volumen del mapa de activación. Fuente: \cite {tec_prabhu2018cnn}}}{76}{equcaption.caption.70}%
+\contentsline {equcaption}{\numberline {2.18}{\ignorespaces Cálculo del tamaño de la imagen reducida. Fuente: \cite {tec_li2019cnn}}}{77}{equcaption.caption.73}%
+\contentsline {equcaption}{\numberline {2.19}{\ignorespaces Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros. Fuente: \cite {tec_li2019cnn}}}{78}{equcaption.caption.76}%
+\contentsline {equcaption}{\numberline {2.20}{\ignorespaces Ecuación del hiperplano para clasificar dos clases. Fuente: \cite {tec_betancourt2005svm}}}{81}{equcaption.caption.83}%
+\contentsline {equcaption}{\numberline {2.21}{\ignorespaces Fórmula para determinar un estado en una S-RNN. Fuente: \cite {bk_brownlee2017deeplearning_nlp}}}{86}{equcaption.caption.90}%
+\contentsline {equcaption}{\numberline {2.22}{\ignorespaces Fórmula de TF-IDF. Fuente: \cite {tec_hamdaoui2019tfidf}}}{93}{equcaption.caption.101}%
 \addvspace {10\p@ }
-\contentsline {equcaption}{\numberline {3.1}{\ignorespaces Fórmula para calcular la exactitud. Fuente: \cite {gl_kohavi1998ml_glossary}}}{103}{equcaption.caption.104}%
-\contentsline {equcaption}{\numberline {3.2}{\ignorespaces Fórmula para calcular la precisión. Fuente: \cite {gl_kohavi1998ml_glossary}}}{103}{equcaption.caption.106}%
-\contentsline {equcaption}{\numberline {3.3}{\ignorespaces Fórmula para calcular la sensibilidad. Fuente: \cite {gl_kohavi1998ml_glossary}}}{105}{equcaption.caption.110}%
-\contentsline {equcaption}{\numberline {3.4}{\ignorespaces Fórmula para calcular el puntaje F1. Fuente: \cite {gl_kohavi1998ml_glossary}}}{105}{equcaption.caption.112}%
+\contentsline {equcaption}{\numberline {3.1}{\ignorespaces Fórmula para calcular la exactitud. Fuente: \cite {gl_kohavi1998ml_glossary}}}{104}{equcaption.caption.106}%
+\contentsline {equcaption}{\numberline {3.2}{\ignorespaces Fórmula para calcular la precisión. Fuente: \cite {gl_kohavi1998ml_glossary}}}{104}{equcaption.caption.108}%
+\contentsline {equcaption}{\numberline {3.3}{\ignorespaces Fórmula para calcular la sensibilidad. Fuente: \cite {gl_kohavi1998ml_glossary}}}{106}{equcaption.caption.112}%
+\contentsline {equcaption}{\numberline {3.4}{\ignorespaces Fórmula para calcular el puntaje F1. Fuente: \cite {gl_kohavi1998ml_glossary}}}{106}{equcaption.caption.114}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

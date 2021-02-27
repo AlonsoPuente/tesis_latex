@@ -5,7 +5,7 @@
 \usepackage{array}
 \usepackage{listings}
 \usepackage{pdflscape}
-
+%%Paquete para ocultar indices de tabla de contenidos
 
 %%%%paquete para usar citas de diferentes formatos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -14,7 +14,7 @@
 %\usepackage[authoryear,round]{natbib}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
-\usepackage[spanish]{babel}
+\usepackage[spanish,es-lcroman]{babel}
 \decimalpoint
 \usepackage[style=apa ,
 %hyperref=auto,
@@ -26,10 +26,10 @@ backend=biber]{biblatex}
 %paquete para hiperlinks entre citas e imagenes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks=true,
-citecolor=blue,
-urlcolor=cyan,
+citecolor=black,
+urlcolor=black,
 bookmarks=true,
-linkcolor=blue,
+linkcolor=black,
 pdftitle={Tesis-nombre-alumno},
 pdfauthor={autor nombres}]{hyperref}
 
@@ -55,13 +55,24 @@ pdfauthor={autor nombres}]{hyperref}
 \newcommand{\changefont}{%
 	\fontsize{9pt}{1.5pt}\selectfont
 }
+
 \pagestyle{fancy}
-\fancyhf{} %% delete default configuration of page
+%%Para borrar fancy por default (incluye numeracion)
+\fancyhf{} % sets both header and footer to nothing
+%%Para borrar linea de encabezado
+\renewcommand{\headrulewidth}{0pt}
+%%Encabezados solo con numero de pagina
+\fancypagestyle{normal}{%
+	\fancyhead{} % clear all header fields
+	\fancyhead[R]{\thepage}}
+%%Encabezados con titulo de tesis y numero de pagina
+\fancypagestyle{special}{%
+	\fancyhead[L]{\changefont Predicción del estado de financiamiento de proyectos de tecnología en web de crowdfunding Kickstarter mediante modelo(s) de Aprendizaje Automático}
+	\fancyhead[R]{\thepage}}
+
+
+%\fancyhf{} %% delete default configuration of page
 %%\setlength\headheight{15pt}
-\fancyhead[L]{\changefont Predicción del estado de financiamiento de proyectos de tecnología en web de crowdfunding Kickstarter mediante modelo(s) de Aprendizaje Profundo}
-\fancyhead[R]{\changefont \leftmark}
-%%\fancyfoot[L]{\leftmark}
-\fancyfoot[R]{\thepage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 %%%% Configuracion de los parrafos
@@ -146,7 +157,7 @@ pdfauthor={autor nombres}]{hyperref}
 \makeatother
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Agregando librerías para que aparezca texto debajo de las ecuaciones.
+% Agregando librerias para que aparezca texto debajo de las ecuaciones.
 \usepackage{tocbibind}
 \usepackage{tocloft}
 \usepackage{xpatch}
@@ -157,8 +168,22 @@ pdfauthor={autor nombres}]{hyperref}
 {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
 	{\end{tabular}\par\vspace{\belowdisplayskip}}
 
+%\usepackage[titles]{tocloft}
+\renewcommand{\cftdot}{}
+
 \begin{document}
-% Se añade esto para agregar la lista de ecuaciones en el Índice del documento	
+% Se añade esto para agregar la lista de ecuaciones en el indice del documento	
+
+%%Numeros de pagina en romano (minuscula)
+%\pagenumbering{roman}
+\renewcommand{\thepage}{\roman{page}}
+
+% Beginning of hack...
+%\let\oldthispagestyle=\thispagestyle % If we want to see a page number.
+%\def\thispagestyle#1{} % If we want to see a page number.
+%\let\oldsetcounter=\setcounter
+%\def\setcounter#1#2{}
+% End of hack...
 
 \begin{titlepage}
 
@@ -171,7 +196,7 @@ pdfauthor={autor nombres}]{hyperref}
 		INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS
 		\vspace*{8ex} \\
 		%\textbf
-		{Predicción del estado de financiamiento de proyectos de tecnología en web de crowdfunding Kickstarter mediante modelo(s) de Aprendizaje Profundo}
+		{Predicción del estado de financiamiento de proyectos de tecnología en web de crowdfunding Kickstarter mediante modelo(s) de Aprendizaje Automático}
 		\vspace*{8ex}\\	
 		Tesis para optar el Título de Ingeniero de Tecnologías de Información y Sistemas que presenta: 
 		\vspace*{8ex} \\	
@@ -183,11 +208,15 @@ pdfauthor={autor nombres}]{hyperref}
 		
 	\end{center}
 \end{titlepage}
+%%Permite mostrar encabezado y numeracion en primera pagina de capitulos - indices
+\fancypagestyle{plain}{}
 %%cambiar nombres de objetos para el indice y otros
 \renewcommand{\listfigurename}{Índice de Figuras}
 \renewcommand{\tablename}{Tabla}
 \renewcommand{\listtablename}{Índice de Tablas}
-
+%%Permite empezar conteo de paginas de forma personalizada
+\addtocounter{page}{1}
+\pagestyle{normal}
 \include{0/aprobacion}
 \include{0/titulo}
 \include{0/agradecimientos}
@@ -211,10 +240,25 @@ pdfauthor={autor nombres}]{hyperref}
 \clearpage
 \phantomsection
 \listofequcaptions % print list of equations
-
-
+\clearpage
+%%Numeros de pagina en arabic
+\renewcommand{\thepage}{\arabic{page}}
+%%Encabezado con titulo de tesis y numeracion
+\pagestyle{special}
 \include{0/resumen}
 \include{0/introduccion}
+%\newcommand\chap[1]{%
+%	\chapter*{#1}%
+%	\addcontentsline{toc}{chapter}{#1}}
+
+
+%%Num. de capitulos en romano y el resto en arabic
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
+\renewcommand{\theequcaption}{\arabic{chapter}.\arabic{equcaption}}
 \include{1/planteamiento}
 \include{2/marco}
 \include{3/metodologia}
@@ -230,8 +274,8 @@ pdfauthor={autor nombres}]{hyperref}
 
 %%Anexos
 \appendix
-\renewcommand{\appendixname}{Anexo} %Esto es para las páginas
-\renewcommand{\appendixtocname}{Anexo} %Esto es para el índice
+\renewcommand{\appendixname}{Anexo} %Esto es para las paginas
+\renewcommand{\appendixtocname}{Anexo} %Esto es para el indice
 \renewcommand{\appendixpagename}{Anexos}
 \clearpage
 \addappheadtotoc
