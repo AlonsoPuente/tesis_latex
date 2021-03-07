@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.2.26)  26 FEB 2021 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.2.26)  6 MAR 2021 22:56
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2855,7 +2855,7 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Here is how much of TeX's memory you used:
  28172 strings out of 480763
  516743 string characters out of 2904056
- 1390756 words of memory out of 3000000
+ 1389759 words of memory out of 3000000
  42845 multiletter control sequences out of 15000+200000
  591544 words of font info for 155 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2871,7 +2871,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (177 pages, 9696864 bytes).
+Output written on tesis.pdf (177 pages, 9696832 bytes).
 PDF statistics:
  3510 PDF objects out of 3580 (max. 8388607)
  664 named destinations out of 1000 (max. 500000)
