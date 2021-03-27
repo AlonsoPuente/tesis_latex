@@ -2,21 +2,21 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Cuadro comparativo entre características de las tres metodologías. Fuente: \cite {tec_shafique2014dmmodels}\relax }}{62}{table.caption.24}%
+\contentsline {table}{\numberline {1}{\ignorespaces Cuadro comparativo entre características de las tres metodologías}}{60}{table.caption.20}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Diccionario de datos del conjunto final entrenado. Fuente: Elaboración propia.\relax }}{101}{table.caption.104}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Matriz de confusión. Fuente: \cite {gl_izco2018bdc}\relax }}{103}{table.caption.105}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Presupuesto de los costos personales del autor. Fuente: Elaboración propia.\relax }}{116}{table.caption.118}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Presupuesto de los costos de las herramientas para el proyecto. Fuente: Elaboración propia.\relax }}{116}{table.caption.119}%
+\contentsline {table}{\numberline {2}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{99}{table.caption.94}%
+\contentsline {table}{\numberline {3}{\ignorespaces Matriz de confusión}}{101}{table.caption.95}%
+\contentsline {table}{\numberline {4}{\ignorespaces Presupuesto de los costos personales del autor}}{114}{table.caption.108}%
+\contentsline {table}{\numberline {5}{\ignorespaces Presupuesto de los costos de las herramientas para el proyecto}}{114}{table.caption.109}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Diccionario de datos del dataset de metainformación generado. Fuente: Elaboración propia.\relax }}{122}{table.caption.125}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Combinatorias posibles de variables de metadata. Fuente: Elaboración propia.\relax }}{137}{table.caption.149}%
+\contentsline {table}{\numberline {6}{\ignorespaces Diccionario de datos del dataset de metainformación generado}}{120}{table.caption.115}%
+\contentsline {table}{\numberline {7}{\ignorespaces Combinatorias posibles de variables de metadata}}{135}{table.caption.139}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Informe de clasificación para el modelo de metadata. Fuente: Elaboración propia.\relax }}{151}{table.caption.161}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Informe de clasificación para el modelo de descripciones. Fuente: Elaboración propia.\relax }}{153}{table.caption.165}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Informe de clasificación para el modelo de comentarios. Fuente: Elaboración propia.\relax }}{155}{table.caption.169}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Informe de clasificación para el modelo apilado. Fuente: Elaboración propia.\relax }}{156}{table.caption.173}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes. Fuente: Elaboración propia.\relax }}{158}{table.caption.175}%
+\contentsline {table}{\numberline {8}{\ignorespaces Informe de clasificación para el modelo de metadata}}{148}{table.caption.151}%
+\contentsline {table}{\numberline {9}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{150}{table.caption.155}%
+\contentsline {table}{\numberline {10}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{152}{table.caption.159}%
+\contentsline {table}{\numberline {11}{\ignorespaces Informe de clasificación para el modelo apilado}}{153}{table.caption.163}%
+\contentsline {table}{\numberline {12}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{155}{table.caption.165}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -7,6 +7,16 @@
 \usepackage{pdflscape}
 %%Paquete para ocultar indices de tabla de contenidos
 
+% Numeración continua en figuras y tablas
+\setcounter{equation}{0}
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+\counterwithout{equation}{chapter}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\theequation}{\arabic{equation}}
+
 %%%%paquete para usar citas de diferentes formatos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%add al indice
@@ -132,8 +142,9 @@ pdfauthor={autor nombres}]{hyperref}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath}
-\numberwithin{equation}{chapter} %%enumerar ecuaciones
-\renewcommand{\theequation}{Ecuación \thechapter.\arabic{equation}}   
+%\setcounter{equation}{0}
+%\numberwithin{equation}{chapter} %%enumerar ecuaciones
+%\renewcommand{\theequation}{Ecuación \arabic{equation}}   
 \usepackage{mathtools, nccmath, cool}
 %%%Configuraciones de biblatex
 
@@ -169,10 +180,35 @@ pdfauthor={autor nombres}]{hyperref}
 	{\end{tabular}\par\vspace{\belowdisplayskip}}
 
 %\usepackage[titles]{tocloft}
-\renewcommand{\cftdot}{}
+
+% Para agregar linea de puntos en la tabla de contenidos
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+
+% Para eliminar linea de puntos de la tabla de contenidos
+%\renewcommand{\cftdot}{}
+
+% Para alinear párrafo en indice de figuras y tablas
+\cftsetindents{figure}{0em}{2.5em}
+\renewcommand\cftfigpresnum{\figurename~}
+\renewcommand{\cftfigaftersnum}{.} % Goes after figure number
+\newlength\mylength
+\settowidth\mylength{\cftfigpresnum}
+\addtolength\cftfignumwidth{\mylength}
+\cftsetindents{table}{0em}{2.5em}
+\renewcommand\cfttabpresnum{Tabla }
+\renewcommand{\cfttabaftersnum}{.} % Goes after figure number
+\settowidth\mylength{\cfttabpresnum}
+\addtolength\cfttabnumwidth{\mylength}
 
 \begin{document}
 % Se añade esto para agregar la lista de ecuaciones en el indice del documento	
+
+\newcommand{\listequationsname}{Índice de Ecuaciones}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+	\addcontentsline{equ}{myequations}{Ecuación \protect\numberline{\theequation}#1}\par}
+\addcontentsline{toc}{section}{Índice de Ecuaciones}
 
 %%Numeros de pagina en romano (minuscula)
 %\pagenumbering{roman}
@@ -234,12 +270,13 @@ pdfauthor={autor nombres}]{hyperref}
 
 %: ----------------------- list of figures/tables ------------------------
 \clearpage
-\listoffigures	% print list of figures
+\listoffigures
 \clearpage
 \listoftables  % print list of tables
 \clearpage
 \phantomsection
-\listofequcaptions % print list of equations
+%\listofequcaptions % print list of equations
+\listofmyequations
 \clearpage
 %%Numeros de pagina en arabic
 \renewcommand{\thepage}{\arabic{page}}
@@ -256,9 +293,9 @@ pdfauthor={autor nombres}]{hyperref}
 \renewcommand{\thechapter}{\Roman{chapter}}
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
 \renewcommand{\thesubsection}{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
-\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
-\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
-\renewcommand{\theequcaption}{\arabic{chapter}.\arabic{equcaption}}
+
+% Este es el comando que funciona para las ecuaciones
+\renewcommand{\theequcaption}{\arabic{equcaption}}
 \include{1/planteamiento}
 \include{2/marco}
 \include{3/metodologia}

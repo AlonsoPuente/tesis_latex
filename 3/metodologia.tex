@@ -17,7 +17,7 @@ Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimo
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{3/figures/framework.png}
-		\caption{Marco de trabajo del prototipo final. Fuente: Elaboración propia}
+		\caption[Marco de trabajo del prototipo final]{Marco de trabajo del prototipo final. Fuente: Elaboración propia}
 		\label{3:fig1}
 	\end{center}
 \end{figure}
@@ -69,7 +69,7 @@ En la Tabla \ref{3:table1} se presentan las variables usadas para el conjunto de
 		\textbf{state} & Estado de financiamiento del proyecto. & object \\
 		\hline
 	\end{tabular}
-	\caption{Diccionario de datos del conjunto final entrenado. Fuente: Elaboración propia.}
+	\caption[Diccionario de datos del conjunto final entrenado]{Diccionario de datos del conjunto final entrenado. Fuente: Elaboración propia.}
 	\label{3:table1}
 \end{table}
 
@@ -102,7 +102,7 @@ Los instrumentos de medida que sirvieron para determinar la performance del o lo
 			\multicolumn{1}{c|}{}                                             & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Positivos (1)} & \multicolumn{1}{c|}{Verdaderos Positivos (VP)}             & \multicolumn{1}{c|}{Falsos Positivos (FP)}                 \\ \cline{2-4} 
 			\multicolumn{1}{c|}{\multirow{-2}{*}{\textbf{Valores Predichos}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Negativos (0)} & \multicolumn{1}{c|}{Falsos Negativos (FN)}                 & \multicolumn{1}{c|}{Verdaderos Negativos (VN)}             \\ \cline{2-4} 
 		\end{tabular}
-		\caption{Matriz de confusión. Fuente: \cite{gl_izco2018bdc}}
+		\caption[Matriz de confusión]{Matriz de confusión. Fuente: \cite{gl_izco2018bdc}}
 		\label{3:table2}
 	\end{table}
 	
@@ -121,11 +121,11 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	\item \textbf{Exactitud} (\textit{accuracy}): Representa la fracción de predicciones que se realizaron correctamente sobre el total de ejemplos en un modelo de clasificación. Se determina mediante la siguiente fórmula \parencite{gl_kohavi1998ml_glossary}:
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}	
+		\begin{equation}	
 		\phantomsection
 		Exactitud=\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}
-		\end{equation*}
-		\caption[Fórmula para calcular la exactitud. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular la exactitud. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\end{equation}
+		\caption[Fórmula para calcular la exactitud]{Fórmula para calcular la exactitud. Fuente: \cite{gl_kohavi1998ml_glossary}}
 		\label{eq:accuracy}
 	\end{equcaption}
 	
@@ -134,11 +134,11 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	\item \textbf{Precisión} (\textit{precision}): Representa el número de elementos identificados correctamente como positivo de un total de elementos identificados como positivos \parencite{gl_bigdata2019metricas}. Se calcula mediante la siguiente fórmula:
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}	
+		\begin{equation}	
 		\phantomsection
 		Precisi\acute{o}n=\frac{V.P.}{V.P.+F.P.}
-		\end{equation*}
-		\caption[Fórmula para calcular la precisión. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular la precisión. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\end{equation}
+		\caption[Fórmula para calcular la precisión]{Fórmula para calcular la precisión. Fuente: \cite{gl_kohavi1998ml_glossary}}
 		\label{eq:precision}
 	\end{equcaption}
 	
@@ -153,7 +153,7 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	\begin{figure}[htbp]
 		\begin{center}
 			\includegraphics[width=0.50\textwidth]{3/figures/auc_example.jpg}
-			\caption{Descripción de resultados de modelo descriptivo de ejemplo. Fuente: \cite{gl_gonzalez2019auc}}
+			\caption[Descripción de resultados de modelo descriptivo de ejemplo]{Descripción de resultados de modelo descriptivo de ejemplo. Fuente: \cite{gl_gonzalez2019auc}}
 			\label{3:fig2}
 		\end{center}
 	\end{figure}
@@ -167,7 +167,7 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	\begin{figure}[htbp]
 		\begin{center}
 			\includegraphics[width=0.75\textwidth]{3/figures/auc_curves.jpg}
-			\caption{Comparación de tres resultados de la curva AUC en el modelo. Fuente: \cite{gl_molina2017pediatria_curvaroc}}
+			\caption[Comparación de tres resultados de la curva AUC en el modelo]{Comparación de tres resultados de la curva AUC en el modelo. Fuente: \cite{gl_molina2017pediatria_curvaroc}}
 			\label{3:fig3}
 		\end{center}
 	\end{figure}
@@ -183,22 +183,22 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	\item \textbf{Sensibilidad} (\textit{recall}, \textit{sensitivity} o \textit{True Positive Rate}): Representa el número de elementos correctamente identificados como positivos del total de positivos verdaderos \parencite{gl_bigdata2019metricas}. Se calcula mediante la siguiente fórmula:
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}	
+		\begin{equation}	
 		\phantomsection
 		Sensibilidad=\frac{V.P.}{V.P.+F.N.}
-		\end{equation*}
-		\caption[Fórmula para calcular la sensibilidad. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular la sensibilidad. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\end{equation}
+		\caption[Fórmula para calcular la sensibilidad]{Fórmula para calcular la sensibilidad. Fuente: \cite{gl_kohavi1998ml_glossary}}
 		\label{eq:recall}
 	\end{equcaption}
 	
 	\item \textbf{Puntaje F1} (\textit{F1-Score}): Representa la media armónica de la precisión y la sensibilidad. Normalmente, se usa cuando uno difiere mucho del otro y no es posible realizar una conclusión determinante ya que solo es posible predecir bien una clase \parencite{gl_bigdata2019metricas}. Se calcula mediante la siguiente fórmula:
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}	
+		\begin{equation}	
 		\phantomsection
 		Puntaje F1=\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}
-		\end{equation*}
-		\caption[Fórmula para calcular el puntaje F1. Fuente: \cite{gl_kohavi1998ml_glossary}]{Fórmula para calcular el puntaje F1. Fuente: \cite{gl_kohavi1998ml_glossary}}
+		\end{equation}
+		\caption[Fórmula para calcular el puntaje F1]{Fórmula para calcular el puntaje F1. Fuente: \cite{gl_kohavi1998ml_glossary}}
 		\label{eq:f1-score}
 	\end{equcaption}
 	
@@ -212,7 +212,7 @@ Los conjuntos de datos recolectados para la investigación se componen de mezcla
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{3/figures/data_recolection_flux.png}
-		\caption{Flujograma de la recolección de conjuntos finales de datos. Fuente: Elaboración propia.}
+		\caption[Flujograma de la recolección de conjuntos finales de datos]{Flujograma de la recolección de conjuntos finales de datos. Fuente: Elaboración propia.}
 		\label{3:fig4}
 	\end{center}
 \end{figure}
@@ -326,7 +326,7 @@ Se elaboró un cronograma de actividades de toda la investigación, mostrada en 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=1.1\textwidth]{3/figures/cronograma.png}
-		\caption{Cronograma de actividades de la investigación. Fuente: Elaboración propia}
+		\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación. Fuente: Elaboración propia}
 		\label{3:fig5}
 	\end{center}
 \end{figure}
@@ -358,7 +358,7 @@ Los costos personales del autor del trabajo de tesis se muestran en la Tabla \re
 		\rowcolor[HTML]{303498} 
 		{\color[HTML]{FFFFFF} \textbf{Total}}                                            & {\color[HTML]{FFFFFF} }                                                                    & \multicolumn{1}{l}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} }}                       & \multicolumn{1}{l}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} \textbf{S/.10,060.00}}}
 	\end{tabular}
-	\caption{Presupuesto de los costos personales del autor. Fuente: Elaboración propia.}
+	\caption[Presupuesto de los costos personales del autor]{Presupuesto de los costos personales del autor. Fuente: Elaboración propia.}
 	\label{3:table3}
 \end{table}
 
@@ -385,7 +385,7 @@ Asimismo, también se contemplan los costos por uso de servicios en la nube como
 		\rowcolor[HTML]{303498} 
 		{\color[HTML]{FFFFFF} \textbf{Total a pagar}}                                    & {\color[HTML]{FFFFFF} }                                                              & \multicolumn{1}{l}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} }}                         & \multicolumn{1}{l}{\cellcolor[HTML]{303498}}                                      & {\color[HTML]{FFFFFF} \textbf{\$49.95}}                                             
 	\end{tabular}
-	\caption{Presupuesto de los costos de las herramientas para el proyecto. Fuente: Elaboración propia.}
+	\caption[Presupuesto de los costos de las herramientas para el proyecto]{Presupuesto de los costos de las herramientas para el proyecto. Fuente: Elaboración propia.}
 	\label{3:table4}
 \end{table}
 

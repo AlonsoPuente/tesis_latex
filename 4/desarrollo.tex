@@ -8,7 +8,7 @@ Como se mencionó en las Técnicas de recolección de datos del Capítulo III, e
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/web_robots_2019.png}
-		\caption{Vista (agosto 2019) del website Web Robots. Fuente: \cite{ot_webrobots2019kickstarter}}
+		\caption[Vista (agosto 2019) del website Web Robots]{Vista (agosto 2019) del website Web Robots. Fuente: \cite{ot_webrobots2019kickstarter}}
 		\label{4:fig1}
 	\end{center}
 \end{figure}
@@ -29,7 +29,7 @@ Por ejemplo, en la Figura \ref{4:fig2} se detalla el tamaño del conjunto de dat
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{4/figures/dataset_201907.png}
-		\caption{Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.}
+		\caption[Tamaño de conjunto de datos al corte de Julio 2019]{Tamaño de conjunto de datos al corte de Julio 2019. Fuente: Elaboración propia.}
 		\label{4:fig2}
 	\end{center}
 \end{figure}
@@ -39,7 +39,7 @@ A cada conjunto de datos generado se filtran los que pertenecen a la categoría 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{4/figures/dataset_filtrada_201907.png}
-		\caption{Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.}
+		\caption[Tamaño de conjunto de datos filtrado del corte de Julio 2019]{Tamaño de conjunto de datos filtrado del corte de Julio 2019. Fuente: Elaboración propia.}
 		\label{4:fig3}
 	\end{center}
 \end{figure}
@@ -54,7 +54,7 @@ Con los conjuntos de datos filtrados, se creó el flujo de trabajo representado 
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/alteryx_flux_part1.png}	
 		\includegraphics[width=0.7\textwidth]{4/figures/alteryx_flux_part2.png}
-		\caption{Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.}
+		\caption[Flujo de trabajo de la data final en Alteryx Designer]{Flujo de trabajo de la data final en Alteryx Designer. Fuente: Elaboración propia.}
 		\label{4:fig4}
 	\end{center}
 \end{figure}
@@ -68,7 +68,7 @@ El flujograma culmina con la generación de un archivo de valores separados por 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/metadata_kaggle_preview.jpg}
-		\caption{Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.}
+		\caption[Visualización del archivo de metainformación subido a Kaggle]{Visualización del archivo de metainformación subido a Kaggle. Fuente: Elaboración propia.}
 		\label{4:fig5}
 	\end{center}
 \end{figure}
@@ -122,7 +122,7 @@ La Tabla \ref{4:table1} detalla cada variable del conjunto final, adicionando la
 		\textbf{state} & Estado de financiamiento del proyecto. & string \\
 		\hline
 	\end{tabular}
-	\caption{Diccionario de datos del dataset de metainformación generado. Fuente: Elaboración propia.}
+	\caption[Diccionario de datos del dataset de metainformación generado]{Diccionario de datos del dataset de metainformación generado. Fuente: Elaboración propia.}
 	\label{4:table1}
 \end{table}
 
@@ -134,7 +134,7 @@ La variable se obtuvo utilizando web scraping en cada proyecto gracias a la vari
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/description_scraping.png}
-		\caption{Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.}
+		\caption[Función del algoritmo web scraping de la descripción de proyectos]{Función del algoritmo web scraping de la descripción de proyectos. Fuente: Elaboración propia.}
 		\label{4:fig6}
 	\end{center}
 \end{figure}
@@ -148,7 +148,7 @@ El archivo generado fue subido a la plataforma Kaggle de manera pública (Figura
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{4/figures/description_kaggle_preview.jpg}
-		\caption{Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.}
+		\caption[Visualización del archivo de descripción subido a Kaggle]{Visualización del archivo de descripción subido a Kaggle. Fuente: Elaboración propia.}
 		\label{4:fig7}
 	\end{center}
 \end{figure}
@@ -161,7 +161,7 @@ Los comentarios, al ser dinámicos, no podían extraerse mediante la librería B
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/comments_scraping.jpg}
-		\caption{Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.}
+		\caption[Función del algoritmo web scraping de los comentarios]{Función del algoritmo web scraping de los comentarios. Fuente: Elaboración propia.}
 		\label{4:fig8}
 	\end{center}
 \end{figure}
@@ -171,7 +171,7 @@ La función consiste en redireccionarse a la sección de comentarios del proyect
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{4/figures/comments_kaggle_preview.jpg}
-		\caption{Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.}
+		\caption[Visualización del archivo de comentarios subido a Kaggle]{Visualización del archivo de comentarios subido a Kaggle. Fuente: Elaboración propia.}
 		\label{4:fig9}
 	\end{center}
 \end{figure}
@@ -181,7 +181,7 @@ Para optimizar la descarga, se crearon 8 instancias en Google Cloud (Figura \ref
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/gc_instances_comments.jpg}
-		\caption{Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.}
+		\caption[Instancias lanzadas en paralelo para la extracción de comentarios]{Instancias lanzadas en paralelo para la extracción de comentarios. Fuente: Elaboración propia.}
 		\label{4:fig10}
 	\end{center}
 \end{figure}
@@ -192,7 +192,7 @@ Según su estado de financiamiento, los 27,251 proyectos se distribuyen mediante
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{4/figures/projects by state.png}
-		\caption{Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.}
+		\caption[Distribución de proyectos tecnológicos según su estado]{Distribución de proyectos tecnológicos según su estado. Fuente: Elaboración propia.}
 		\label{4:fig11}
 	\end{center}
 \end{figure}
@@ -203,7 +203,7 @@ Al visualizarlos por año (Figura \ref{4:fig12}), se puede ver que el histórico
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state by year.png}
-		\caption{Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.}
+		\caption[Evolución de cantidad de proyectos tecnológicos por año]{Evolución de cantidad de proyectos tecnológicos por año. Fuente: Elaboración propia.}
 		\label{4:fig12}
 	\end{center}
 \end{figure}
@@ -214,7 +214,7 @@ La evolución histórica detallada por su estado se observa en la Figura \ref{4:
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state evolution by year.png}
-		\caption{Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.}
+		\caption[Evolución de proyectos tecnológicos, por su estado y año]{Evolución de proyectos tecnológicos, por su estado y año. Fuente: Elaboración propia.}
 		\label{4:fig13}
 	\end{center}
 \end{figure}
@@ -227,15 +227,15 @@ Para las variables categóricas, se realizaron gráficos de pastel para observar
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{4/figures/category_distribution.png}
-		\caption{Distribución de categorías de tecnología. Fuente: Elaboración propia.}
+		\caption[Distribución de categorías de tecnología]{Distribución de categorías de tecnología. Fuente: Elaboración propia.}
 		\label{4:fig14}
 		
 		\includegraphics[width=0.55\textwidth]{4/figures/country_distribution.png}
-		\caption{Distribución de países. Fuente: Elaboración propia.}
+		\caption[Distribución de países]{Distribución de países. Fuente: Elaboración propia.}
 		\label{4:fig15}
 		
 		\includegraphics[width=0.55\textwidth]{4/figures/currency_distribution.png}
-		\caption{Distribución de divisa del monto patrocinado. Fuente: Elaboración propia}
+		\caption[Distribución de divisa del monto patrocinado]{Distribución de divisa del monto patrocinado. Fuente: Elaboración propia}
 		\label{4:fig16}
 	\end{center}
 \end{figure}
@@ -252,7 +252,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_backers.png}
-				\caption{Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.}
+				\caption[Diagrama de caja y bigote de patrocinadores]{Diagrama de caja y bigote de patrocinadores. Fuente: Elaboración propia.}
 				\label{4:fig17}
 			\end{center}
 		\end{figure}
@@ -267,7 +267,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_goal.png}
-				\caption{Diagrama de caja y bigote de meta. Fuente: Elaboración propia.}
+				\caption[Diagrama de caja y bigote de meta]{Diagrama de caja y bigote de meta. Fuente: Elaboración propia.}
 				\label{4:fig18}
 			\end{center}
 		\end{figure}
@@ -282,7 +282,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_pledged.png}
-				\caption{Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.}
+				\caption[Diagrama de caja y bigote de monto patrocinado]{Diagrama de caja y bigote de monto patrocinado. Fuente: Elaboración propia.}
 				\label{4:fig19}
 			\end{center}
 		\end{figure}
@@ -297,7 +297,7 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_duration.png}
-				\caption{Diagrama de caja y bigote de duración. Fuente: Elaboración propia.}
+				\caption[Diagrama de caja y bigote de duración]{Diagrama de caja y bigote de duración. Fuente: Elaboración propia.}
 				\label{4:fig20}
 			\end{center}
 		\end{figure}
@@ -309,7 +309,7 @@ Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{4/figures/metadata correlation.png}
-		\caption{Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.}
+		\caption[Matriz de correlaciones entre variables independientes]{Matriz de correlaciones entre variables independientes. Fuente: Elaboración propia.}
 		\label{4:fig21}
 	\end{center}
 \end{figure}
@@ -321,7 +321,7 @@ Asimismo, si se observan los registros desde una matriz que contiene, además de
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{4/figures/metadata cor-plot1.png}
-		\caption{Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.}
+		\caption[Gráfico de dispersión de correlaciones entre variables independientes]{Gráfico de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.}
 		\label{4:fig22}
 	\end{center}
 \end{figure}
@@ -331,7 +331,7 @@ El mismo gráfico, segmentado por las dos clases del estado de financiamiento, s
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{4/figures/metadata cor-plot2.png}
-		\caption{Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.}
+		\caption[Gráfico alterno de dispersión de correlaciones entre variables independientes]{Gráfico alterno de dispersión de correlaciones entre variables independientes. Fuente: Elaboración propia.}
 		\label{4:fig23}
 	\end{center}
 \end{figure}
@@ -344,7 +344,7 @@ Del conjunto de datos, solamente 640 proyectos (aproximadamente 2\% de la poblac
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects description by state.png}
-		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
+		\caption[Aperturas de proyectos por presencia de comentarios y estado de financiamiento]{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
 		\label{4:fig24}
 	\end{center}
 \end{figure}
@@ -354,7 +354,7 @@ En este universo, el registro con descripción de mayor longitud presentó 5,152
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud_original_data.png}
-		\caption{Nube de palabras de descripciones. Fuente: Elaboración propia.}
+		\caption[Nube de palabras de descripciones]{Nube de palabras de descripciones. Fuente: Elaboración propia.}
 		\label{4:fig25}
 	\end{center}
 \end{figure}
@@ -365,7 +365,7 @@ Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de com
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state by comment.png}
-		\caption{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
+		\caption[Aperturas de proyectos por estado de financiamiento y presencia de comentarios]{Aperturas de proyectos por estado de financiamiento y presencia de comentarios. Fuente: Elaboración propia.}
 		\label{4:fig26}
 	\end{center}
 \end{figure}
@@ -375,7 +375,7 @@ Ordenando la distribución por presencia de comentarios (Figura \ref{4:fig27}), 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects comment by state.png}
-		\caption{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
+		\caption[Aperturas de proyectos por presencia de comentarios y estado de financiamiento]{Aperturas de proyectos por presencia de comentarios y estado de financiamiento. Fuente: Elaboración propia.}
 		\label{4:fig27}
 	\end{center}
 \end{figure}
@@ -385,7 +385,7 @@ Por último, del universo de proyectos tecnológicos que presentan comentarios, 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{4/figures/total comments by projects state.png}
-		\caption{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
+		\caption[Distribución de comentarios en proyectos exitosos y fracasados]{Distribución de comentarios en proyectos exitosos y fracasados. Fuente: Elaboración propia.}
 		\label{4:fig28}
 	\end{center}
 \end{figure}
@@ -395,7 +395,7 @@ Respecto al contenido, en la Figura \ref{4:fig29} se ilustra la nube de palabras
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.68\textwidth]{4/figures/comments_wordcloud_wordunit.png}
-		\caption{Nube de palabras de comentarios más frecuentes. Fuente: Elaboración propia.}
+		\caption[Nube de palabras de comentarios más frecuentes]{Nube de palabras de comentarios más frecuentes. Fuente: Elaboración propia.}
 		\label{4:fig29}
 	\end{center}
 \end{figure}
@@ -408,7 +408,7 @@ De acuerdo a los autores \cite{pr_chen2013kickpredict} (primer antecedente), \ci
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{4/figures/metadata correlation v2.png}
-		\caption{Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.}
+		\caption[Matriz de correlaciones entre variables independientes considerando adicionales]{Matriz de correlaciones entre variables independientes considerando adicionales. Fuente: Elaboración propia.}
 		\label{4:fig30}
 	\end{center}
 \end{figure}
@@ -461,7 +461,7 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 		 &  & pledges\_std &  \\
 		\hline
 	\end{tabular}
-	\caption{Combinatorias posibles de variables de metadata. Fuente: Elaboración propia.}
+	\caption[Combinatorias posibles de variables de metadata]{Combinatorias posibles de variables de metadata. Fuente: Elaboración propia.}
 	\label{4:table2}
 \end{table}
 
@@ -471,7 +471,7 @@ Para poder entrenar un modelo de clasificación binaria basado en texto, se debe
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.35\textwidth]{4/figures/description_data_clean.png}
-		\caption{Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.}
+		\caption[Flujograma de limpieza de conjunto de datos de descripciones]{Flujograma de limpieza de conjunto de datos de descripciones. Fuente: Elaboración propia.}
 		\label{4:fig31}
 	\end{center}
 \end{figure}
@@ -483,7 +483,7 @@ Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud.png}
-		\caption{Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.}
+		\caption[Nube de palabras de descripciones posterior al pre-procesamiento]{Nube de palabras de descripciones posterior al pre-procesamiento. Fuente: Elaboración propia.}
 		\label{4:fig32}
 	\end{center}
 \end{figure}
@@ -496,7 +496,7 @@ Debido a la gran cantidad de registros carecientes de comentarios, se propuso re
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/comments_wordcloud_processed.png}
-		\caption{Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.}
+		\caption[Nube de palabras de comentarios posterior al pre-procesamiento]{Nube de palabras de comentarios posterior al pre-procesamiento. Fuente: Elaboración propia.}
 		\label{4:fig33}
 	\end{center}
 \end{figure}
@@ -518,7 +518,7 @@ Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP p
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
-		\caption{Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.}
+		\caption[Arquitectura de modelo MLP para la metadata]{Arquitectura de modelo MLP para la metadata. Fuente: Elaboración propia.}
 		\label{4:fig34}
 	\end{center}
 \end{figure}
@@ -541,10 +541,10 @@ Para crear la capa de incrustación de palabras, se usó la función \textit{Tok
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.50\textwidth]{4/figures/description_tokenizer_function.jpg}
-		\caption{Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.}
+		\caption[Función de tokenización de palabras de descripciones]{Función de tokenización de palabras de descripciones. Fuente: Elaboración propia.}
 		\label{4:fig35}
 		\includegraphics[width=0.80\textwidth]{4/figures/description_encoder_function.jpg}
-		\caption{Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.}
+		\caption[Función de codificación de palabras y rellenado de arreglos]{Función de codificación de palabras y rellenado de arreglos. Fuente: Elaboración propia.}
 		\label{4:fig36}
 	\end{center}
 \end{figure}
@@ -554,7 +554,7 @@ Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cad
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{4/figures/description_glove.jpg}
-		\caption{Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.}
+		\caption[Elaboración de matriz de incrustaciones de palabras]{Elaboración de matriz de incrustaciones de palabras. Fuente: Elaboración propia.}
 		\label{4:fig37}
 	\end{center}
 \end{figure}
@@ -564,7 +564,7 @@ Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
-		\caption{Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.}
+		\caption[Arquitectura de modelo CNN para las descripciones]{Arquitectura de modelo CNN para las descripciones. Fuente: Elaboración propia.}
 		\label{4:fig38}
 	\end{center}
 \end{figure}
@@ -587,7 +587,7 @@ De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_rnn_comments.png}
-		\caption{Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.}
+		\caption[Arquitectura de modelo RNN para los comentarios]{Arquitectura de modelo RNN para los comentarios. Fuente: Elaboración propia.}
 		\label{4:fig39}
 	\end{center}
 \end{figure}
@@ -605,7 +605,7 @@ Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de 
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=1.25\textwidth]{4/figures/final_stacked_model.png}
-			\caption{Arquitectura del modelo apilado final. Fuente: Elaboración propia.}
+			\caption[Arquitectura del modelo apilado final]{Arquitectura del modelo apilado final. Fuente: Elaboración propia.}
 			\label{4:fig40}
 		\end{center}
 	\end{figure}

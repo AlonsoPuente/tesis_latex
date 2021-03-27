@@ -778,7 +778,7 @@
       \endverb
     \endentry
     \entry{pr_chen2015predcrowd}{article}{}
-      \name{author}{5}{}{%
+      \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=ce84ab6ca882287ab52ae26f561041ed}{%
            family={Chen},
            familyi={C\bibinitperiod},
@@ -809,6 +809,12 @@
            given={Wan-Ching},
            giveni={W\bibinithyphendelim C\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=542e9c3668d05980aca3efe03f8d7cc5}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Chih-Ping},
+           giveni={C\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Nueva York, Estados Unidos de América}%
@@ -817,11 +823,11 @@
         {Association for Information Systems AIS Electronic Library (AISeL)}%
       }
       \strng{namehash}{47472b9b0a4af7b931e9da9c0d65b94f}
-      \strng{fullhash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
-      \strng{bibnamehash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
-      \strng{authorbibnamehash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
+      \strng{fullhash}{30f098c47a893bebd17c6a4ff8a7a679}
+      \strng{bibnamehash}{30f098c47a893bebd17c6a4ff8a7a679}
+      \strng{authorbibnamehash}{30f098c47a893bebd17c6a4ff8a7a679}
       \strng{authornamehash}{47472b9b0a4af7b931e9da9c0d65b94f}
-      \strng{authorfullhash}{3719b7bbf213d5a2fdd62ee3c15bfbf3}
+      \strng{authorfullhash}{30f098c47a893bebd17c6a4ff8a7a679}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
@@ -834,6 +840,8 @@
       \field{title}{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns}
       \field{year}{2015}
       \field{eventdateera}{ce}
+      \field{pages}{79}
+      \range{pages}{1}
       \verb{urlraw}
       \verb http://aisel.aisnet.org/pacis2015/79
       \endverb
@@ -886,11 +894,15 @@
       \field{labeltitlesource}{title}
       \field{eventtitle}{The Twenty-Eighth International Joint Conference on Artificial Intelligence}
       \field{eventyear}{2019}
+      \field{series}{IJCAI-19}
       \field{title}{Success Prediction on Crowdfunding with Multimodal Deep Learning}
       \field{year}{2019}
       \field{eventdateera}{ce}
       \field{pages}{2158\bibrangedash 2164}
       \range{pages}{7}
+      \verb{doi}
+      \verb 10.24963/ijcai.2019/299
+      \endverb
       \verb{urlraw}
       \verb https://www.ijcai.org/proceedings/2019/0299.pdf
       \endverb
@@ -1771,8 +1783,14 @@
       \field{eventyear}{2019}
       \field{series}{AAAI'2019}
       \field{title}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective}
+      \field{volume}{33}
       \field{year}{2019}
       \field{eventdateera}{ce}
+      \field{pages}{4023\bibrangedash 4030}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1609/aaai.v33i01.33014023
+      \endverb
       \verb{urlraw}
       \verb http://staff.ustc.edu.cn/~cheneh/paper_pdf/2019/Binbin-Jin-AAAI.pdf
       \endverb
@@ -4129,7 +4147,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
-      \field{title}{Making sense of the UK collaborative economy}
+      \field{title}{Making sense of the UK	collaborative economy}
       \field{year}{2014}
       \verb{urlraw}
       \verb http://collaboriamo.org/media/2014/10/making_sense_of_the_uk_collaborative_economy_14.pdf

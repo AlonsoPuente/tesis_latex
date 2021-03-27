@@ -33,28 +33,28 @@ Los tres tipos de aprendizaje principales son:
 			\includegraphics[width=0.65\linewidth]{2/figures/clasificacion.jpg}
 			\caption{Clasificación}
 		\end{subfigure}
-		\caption{Ejemplo de algoritmos de regresión y clasificación. Fuente: \cite{bk_zambrano2018supnosup}}
+		\caption[Ejemplo de algoritmos de regresión y clasificación]{Ejemplo de algoritmos de regresión y clasificación. Fuente: \cite{bk_zambrano2018supnosup}}
 		\label{2:fig1}
 	\end{figure}
 	
 	Para el segundo tipo de aprendizaje supervisado, el algoritmo más usado es el de los K Vecinos más cercanos o \textit{k-NN Nearest Neighbour} en inglés. Este se basa en la idea de que los nuevos ejemplos serán clasificados a la clase a la cual pertenezca la mayor cantidad de vecinos más cercanos del conjunto de entrenamiento más cercano a él. Sin embargo, el número k de vecinos más cercanos lo decide el usuario, de preferencia impar, para evitar ambigüedad al momento de clasificar un registro por parte del algoritmo (esto puede ocasionarse por las mismas distancias existentes entre dos o más registros). Otra variante aplicada consiste en la ponderación de cada vecino de acuerdo a la distancia entre él y el ejemplar a ser clasificado, asignando mayor peso a los más próximos \parencite{tec_sancho2018supnosup}. Para ello, se tiene la Ecuación \ref{eq:weights-KNN} y su variante en la Ecuación \ref{eq:weights-KNN_alt}:	
-	\begin{equcaption}[!ht]
-		\begin{equation*}
-		\phantomsection
-		W_i = \frac{1}{d(x, x_i)^2}
-		\end{equation*}
-		\caption[Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}]{Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}}
-		\label{eq:weights-KNN}
-	\end{equcaption}
+	%\begin{equcaption}[!ht]
+	\begin{equation}\label{eq:weights-KNN}
+	\phantomsection
+	W_i = \frac{1}{d(x, x_i)^2}
+	\end{equation}
+	\myequations{Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias}
+	%\caption[Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias]{Cálculo de los pesos para el algoritmo K-NN mediante ponderación de sus distancias. Fuente: \cite{tec_sancho2018supnosup}}
+	%\end{equcaption}
 
-	\begin{equcaption}[!ht]
-		\begin{equation*}
-		\phantomsection
-		argmax_{v \in V}\sum_{i=1…k,x_i \in v}W_i
-		\end{equation*}
-		\caption[Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}}
-		\label{eq:weights-KNN_alt}
-	\end{equcaption}
+	%\begin{equcaption}[!ht]
+	\begin{equation}\label{eq:weights-KNN_alt}
+	\phantomsection
+	argmax_{v \in V}\sum_{i=1…k,x_i \in v}W_i
+	\end{equation}
+	\myequations{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos}
+	%\caption[Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos]{Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos. Fuente: \cite{tec_sancho2018supnosup}}
+	%\end{equcaption}
 
 	Donde:
 	\begin{conditions}
@@ -68,7 +68,7 @@ Los tres tipos de aprendizaje principales son:
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.55\textwidth]{2/figures/knn.jpg}
-			\caption{Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite{tec_sancho2018supnosup}}
+			\caption[Algoritmo de K Vecinos más cercanos con pesos ponderados]{Algoritmo de K Vecinos más cercanos con pesos ponderados. Fuente: \cite{tec_sancho2018supnosup}}
 			\label{2:fig2}
 		\end{center}
 	\end{figure}
@@ -78,14 +78,14 @@ Los tres tipos de aprendizaje principales son:
 	La función es agrupar ejemplares, por lo que el algoritmo los cataloga por similitud en sus características y a partir de ahí, crea grupos o clústeres sin tener la capacidad de definir cómo es cada individualidad de cada uno de los integrantes de los mismos \parencite{bk_zambrano2018supnosup}.
 	
 	El algoritmo usado para este tipo de aprendizaje es el de las K medias o \textit{k-means} en inglés. Este intenta encontrar una partición de las muestras en K agrupaciones, de manera que cada ejemplar pertenezca a una de ellas de acuerdo al centroide más cercano. Si bien el valor de K es definido por el usuario, a partir de pruebas de varias iteraciones se le puede consultar al algoritmo cuál es su valor óptimo. La función para lograr esto se observa en la Ecuación \ref{eq:k-means}:
-	\begin{equcaption}[!ht]
-		\begin{equation*}
-		\phantomsection
-		\sum_{i}\sum_{j}\mathrm{d}(x_j^i, c_i)^2
-		\end{equation*}
-		\caption[Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}]{Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}}
-		\label{eq:k-means}
-	\end{equcaption}
+	%\begin{equcaption}[!ht]
+	\begin{equation}\label{eq:k-means}
+	\phantomsection
+	\sum_{i}\sum_{j}\mathrm{d}(x_j^i, c_i)^2
+	\end{equation}
+	\myequations{Fórmula del algoritmo k-means}
+	%\caption[Fórmula del algoritmo k-means]{Fórmula del algoritmo k-means. Fuente: \cite{tec_sancho2018supnosup}}
+	%\end{equcaption}
 	
 	Donde:
 	\begin{conditions}
@@ -97,7 +97,7 @@ Los tres tipos de aprendizaje principales son:
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.50\textwidth]{2/figures/kmeans.jpg}
-			\caption{Funcionamiento del algoritmo de K medias. Fuente: \cite{tec_sancho2018supnosup}}
+			\caption[Funcionamiento del algoritmo de K medias]{Funcionamiento del algoritmo de K medias. Fuente: \cite{tec_sancho2018supnosup}}
 			\label{2:fig3}
 		\end{center}
 	\end{figure}
@@ -106,7 +106,7 @@ Los tres tipos de aprendizaje principales son:
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.60\textwidth]{2/figures/aprendizaje_refuerzo.jpg}
-			\caption{Componentes del Aprendizaje por Refuerzo. Fuente: \cite{bk_sutton2018rl}}
+			\caption[Componentes del Aprendizaje por Refuerzo]{Componentes del Aprendizaje por Refuerzo. Fuente: \cite{bk_sutton2018rl}}
 			\label{2:fig4}
 		\end{center}
 	\end{figure}
@@ -122,7 +122,7 @@ La principal diferencia con el Aprendizaje Automático es que el Aprendizaje Pro
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.70\textwidth]{2/figures/deeplearning_machinelearning.jpg}
-		\caption{Diferencia entre Aprendizaje Automático y Aprendizaje Profundo. Fuente: \cite{tec_cook2018deeplearning}}
+		\caption[Diferencia entre Aprendizaje Automático y Aprendizaje Profundo]{Diferencia entre Aprendizaje Automático y Aprendizaje Profundo. Fuente: \cite{tec_cook2018deeplearning}}
 		\label{2:fig5}
 	\end{center}
 \end{figure}
@@ -148,7 +148,7 @@ La generación de un modelo de minería de datos forma de un macro-proceso descr
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{2/figures/data_mining_steps.jpg}
-		\caption{Diagrama de los seis pasos básicos. Fuente: \cite{gl_microsoft2019datamining}}
+		\caption[Diagrama de los seis pasos básicos]{Diagrama de los seis pasos básicos. Fuente: \cite{gl_microsoft2019datamining}}
 		\label{2:fig6}
 	\end{center}
 \end{figure}
@@ -165,7 +165,7 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.65\textwidth]{2/figures/crispdm.jpg}
-			\caption{Fases de la metodología CRISP-DM. Fuente: \cite{tec_braulio2015metodologiasdm}}
+			\caption[Fases de la metodología CRISP-DM]{Fases de la metodología CRISP-DM. Fuente: \cite{tec_braulio2015metodologiasdm}}
 			\label{2:fig7}
 		\end{center}
 	\end{figure}
@@ -185,7 +185,7 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.70\textwidth]{2/figures/semma.jpg}
-			\caption{Fases de la metodología SEMMA. Fuente: \cite{tec_braulio2015metodologiasdm}}
+			\caption[Fases de la metodología SEMMA]{Fases de la metodología SEMMA. Fuente: \cite{tec_braulio2015metodologiasdm}}
 			\label{2:fig8}
 		\end{center}
 	\end{figure}
@@ -204,7 +204,7 @@ Dentro de los sistemas de analítica de negocio, Big Data y Minería de Datos, l
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.80\textwidth]{2/figures/kdd.jpg}
-			\caption{Fases de la metodología KDD. Fuente: \cite{tec_braulio2015metodologiasdm}}
+			\caption[Fases de la metodología KDD]{Fases de la metodología KDD. Fuente: \cite{tec_braulio2015metodologiasdm}}
 			\label{2:fig9}
 		\end{center}
 	\end{figure}
@@ -287,7 +287,7 @@ Las tres metodologías tienen distinto número de pasos, así como distintos enf
 		\\
 		\hline
 	\end{tabular}%
-	\caption{Cuadro comparativo entre características de las tres metodologías. Fuente: \cite{tec_shafique2014dmmodels}}
+	\caption[Cuadro comparativo entre características de las tres metodologías]{Cuadro comparativo entre características de las tres metodologías. Fuente: \cite{tec_shafique2014dmmodels}}
 	\label{2:table1}
 \end{table}
 
@@ -308,7 +308,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.75\textwidth]{2/figures/rnn_mcculloch.jpg}
-			\caption{Modelo para representar una neurona propuesto por McCulloch y Pitts (1943). Fuente: \cite{bk_russell2004intart}}
+			\caption[Modelo para representar una neurona propuesto por McCulloch y Pitts (1943)]{Modelo para representar una neurona propuesto por McCulloch y Pitts (1943). Fuente: \cite{bk_russell2004intart}}
 			\label{2:fig10}
 		\end{center}
 	\end{figure}
@@ -318,24 +318,24 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	La última figura descrita muestra, además de los pesos, funciones de activación tanto para la entrada ($a_j$) como para la salida ($a_i$). Pero, ¿qué son estas funciones y para qué sirven?
 	
 	Para comenzar, las redes neuronales están compuestas de nodos (la elipse) conectados a través de conexiones dirigidas (las flechas). Una conexión del nodo $j$ a la unidad $i$ sirve para propagar la activación $a_j$ de $j$ a $i$. Asimismo, cada conexión tiene un peso numérico $W(j,i)$ que determina la fuerza y el signo de la conexión. Para calcular cada nodo $i$, se realiza una suma ponderada de sus entradas (producto entre pesos y nodos de entrada $j$), y se le añade el sesgo (\textit{bias}) $\theta_i$ (aumenta/disminuye el valor de la combinación lineal de las entradas) como se observa en la Ecuación \ref{eq:nodo}:
-	\begin{equcaption}[!ht]
-		\begin{equation*}
-		\phantomsection
-		in_i=\sum_{j=0}^n W_{j,i}*a_j + \theta_i
-		\end{equation*}
-		\caption[Fórmula del cálculo del valor de un nodo i. Fuente: \cite{bk_russell2004intart}]{Fórmula del cálculo del valor de un nodo i. Fuente: \cite{bk_russell2004intart}}
-		\label{eq:nodo}
-	\end{equcaption}
+	%\begin{equcaption}[!ht]
+	\begin{equation}\label{eq:nodo}
+	\phantomsection
+	in_i=\sum_{j=0}^n W_{j,i}*a_j + \theta_i
+	\end{equation}
+	\myequations{Fórmula del cálculo del valor de un nodo i}
+	%\caption[Fórmula del cálculo del valor de un nodo i]{Fórmula del cálculo del valor de un nodo \textit{i}. Fuente: \cite{bk_russell2004intart}}
+	%\end{equcaption}
 	
 	Posteriormente, se efectúa una función de activación g a esta suma para producir la salida de la Ecuación \ref{eq:activacion}:
-	\begin{equcaption}[!ht]
-		\begin{equation*}
-		\phantomsection
-		a_i = g(in_i) = g \left(\sum_{j=0}^n W_{j,i}*a_j + \theta_i\right)
-		\end{equation*}
-		\caption[Fórmula de una función de activación g para la salida del nodo. Fuente: \cite{bk_russell2004intart}]{Fórmula de una función de activación g para la salida del nodo. Fuente: \cite{bk_russell2004intart}}
-		\label{eq:activacion}
-	\end{equcaption}
+	%\begin{equcaption}[!ht]
+	\begin{equation}\label{eq:activacion}
+	\phantomsection
+	a_i = g(in_i) = g \left(\sum_{j=0}^n W_{j,i}*a_j + \theta_i\right)
+	\end{equation}
+	\myequations{Fórmula de una función de activación g para la salida del nodo}
+	%\caption[Fórmula de una función de activación g para la salida del nodo]{Fórmula de una función de activación g para la salida del nodo. Fuente: \cite{bk_russell2004intart}}
+	%\end{equcaption}
 	
 	\clearpage
 	
@@ -343,7 +343,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.75\textwidth]{2/figures/rna_activaciones.jpg}
-			\caption{Nodos con funciones de activación umbral en forma de puertas lógicas. Fuente: \cite{bk_russell2004intart}}
+			\caption[Nodos con funciones de activación umbral en forma de puertas lógicas]{Nodos con funciones de activación umbral en forma de puertas lógicas. Fuente: \cite{bk_russell2004intart}}
 			\label{2:fig11}
 		\end{center}
 	\end{figure}
@@ -351,19 +351,19 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	Entre las funciones de activación que más destacan son las siguientes:
 	\begin{itemize}
 		\item \textbf{Función sigmoide o logística}: Toma los valores de entrada que oscilan entre infinito negativo y positivo, y restringe los valores de salida al rango entre 0 y 1. Frecuentemente es usada en Redes Multicapa (MLP) entrenadas con el algoritmo de propagación inversa. Se representa como en la Figura \ref{2:fig12} y su fórmula para calcular su nuevo valor es la Ecuación \ref{eq:sigmoide}:
-		\begin{equcaption}[!ht]
-			\begin{equation*}	
-			\phantomsection
-			a=Logsig(n)=\frac{1}{1+e^{-n}}
-			\end{equation*}
-			\caption[Fórmula de la función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}]{Fórmula de la función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}}
-			\label{eq:sigmoide}
-		\end{equcaption}
+		%\begin{equcaption}[!ht]
+		\begin{equation}\label{eq:sigmoide}
+		\phantomsection
+		a=Logsig(n)=\frac{1}{1+e^{-n}}
+		\end{equation}
+		\myequations{Fórmula de la función de activación sigmoide}
+		%\caption[Fórmula de la función de activación sigmoide]{Fórmula de la función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}}
+		%\end{equcaption}
 		
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.3\textwidth]{2/figures/sigmoide.jpg}
-				\caption{Función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}}
+				\caption[Función de activación sigmoide]{Función de activación sigmoide. Fuente: \cite{pr_dorofki2012ann}}
 				\label{2:fig12}
 			\end{center}
 		\end{figure}
@@ -371,14 +371,14 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		Un dato curioso de esta función relacionado con la regresión logística es que el nombre de esta última no deriva de una regresión. Por el contrario, se debe a que, al principio de la neurona, se realiza una combinación lineal muy parecida a una regresión lineal y después se aplica la función logística o sigmoide. De ahí el origen del nombre \parencite{gl_iartificial2019reglogistica}.
 		\begin{itemize}
 			\item \textbf{Regresión Logística}: Como se mencionó antes, es similar a un modelo de regresión lineal, pero está adaptado para modelos en los que la variable dependiente es dicotómica, es decir, presenta solo dos posibles valores. Resulta muy útil para los casos en los que se desea predecir la presencia o ausencia de una característica o resultado según los valores de un conjunto de predictores \parencite{gl_ibm2019reglogistica}. Su función de coste que se optimiza con gradiente descendiente se representa mediante la Ecuación \ref{eq:logistica}:
-			\begin{equcaption}[!ht]
-				\begin{equation*}
-				\phantomsection
-				J(\theta)=\frac{1}{m}\sum_{i=1}^m [-y_i*\log(h_{\theta}(x_{i}))-(1-y_i)*\log(1-h_{\theta}(x_{i}))]
-				\end{equation*}
-				\caption[Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_pardo_reglogcosto}]{Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_pardo_reglogcosto}}
-				\label{eq:logistica}
-			\end{equcaption}
+			%\begin{equcaption}[!ht]
+			\begin{equation}\label{eq:logistica}
+			\phantomsection
+			J(\theta)=\frac{1}{m}\sum_{i=1}^m [-y_i*\log(h_{\theta}(x_{i}))-(1-y_i)*\log(1-h_{\theta}(x_{i}))]
+			\end{equation}
+			\myequations{Fórmula de función de coste de una regresión logística}
+			%\caption[Fórmula de función de coste de una regresión logística]{Fórmula de función de coste de una regresión logística. Fuente: \cite{gl_pardo_reglogcosto}}
+			%\end{equcaption}
 			
 			Donde:
 			\begin{conditions}
@@ -396,20 +396,20 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.35\textwidth]{2/figures/gradiente_descendiente.jpg}
-					\caption{Ilustración del algoritmo gradiente descendiente. Fuente: \cite{tec_sancho2017descentgrad}}
+					\caption[Ilustración del algoritmo gradiente descendiente]{Ilustración del algoritmo gradiente descendiente. Fuente: \cite{tec_sancho2017descentgrad}}
 					\label{2:fig13}
 				\end{center}
 			\end{figure}
 			
 			El Descenso del Gradiente, como también se le conoce, es el algoritmo de entrenamiento más simple y también el más extendido y conocido. Solo hace uso del vector gradiente, y por ello se dice que es un método de primer orden \parencite{tec_sancho2017descentgrad}. Un gradiente es la generalización de la derivada. Matemática, la derivada de una función mide la rapidez con la que cambia el valor de esta, según varié el valor de su variable independiente. La gradiente se calcula con derivadas parciales, por lo que al actualizar los coeficientes W para un tiempo t, se usa la Ecuación \ref{eq:w_descgrad} \parencite{gl_iartificial2019descentgrad}:
-			\begin{equcaption}[!ht]
-				\begin{equation*}
-				\phantomsection
-				W_{(t+1)}=W_{(t)}-\alpha \left(\frac{\partial MSE}{\partial W} \right)
-				\end{equation*}
-				\caption[Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}]{Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}}
-				\label{eq:w_descgrad}
-			\end{equcaption}
+			%\begin{equcaption}[!ht]
+			\begin{equation}\label{eq:w_descgrad}
+			\phantomsection
+			W_{(t+1)}=W_{(t)}-\alpha \left(\frac{\partial MSE}{\partial W} \right)
+			\end{equation}
+			\myequations{Actualización de pesos W mediante gradiente descendiente}
+			%\caption[Actualización de pesos W mediante gradiente descendiente]{Actualización de pesos W mediante gradiente descendiente. Fuente: \cite{gl_iartificial2019descentgrad}}
+			%\end{equcaption}
 		
 			Donde: $\alpha$ = ratio de aprendizaje
 			
@@ -417,22 +417,22 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.45\textwidth]{2/figures/pesos_graddescen.jpg}
-					\caption{Actualización de pesos W con el algoritmo. Fuente: \cite{gl_iartificial2019descentgrad}}
+					\caption[Actualización de pesos W con el algoritmo]{Actualización de pesos W con el algoritmo. Fuente: \cite{gl_iartificial2019descentgrad}}
 					\label{2:fig14}
 				\end{center}
 			\end{figure}
 			
 			\item \textbf{Propagación hacia atrás}: También conocido en inglés como \textit{Backpropagation}, es un método que consta de dos fases: en la primera se aplica un patrón, el cual se propaga por las distintas capas que componen la red hasta producir la salida de la misma. Luego, esta se compara con la salida deseada y se calcula el error cometido por cada neurona de salida. Estos errores se transmiten hacia atrás, partiendo de la capa de salida, hacia todas las neuronas de las capas intermedias [Fritsch, 1996] \parencite{tec_bertona2005algevol}. La actualización iterativa de los pesos que el algoritmo propone es mediante la Ecuación \ref{eq:backpropagation}:
-			\begin{equcaption}[!ht]
-				\begin{equation*}
-				\phantomsection
-				W_{ji}(t+1)=W_{ji}(t)+[\alpha \delta_{pj} y_{pj} + \beta \Delta W_{ji}(t)]
-				\end{equation*}
-				\caption[Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite{tec_bertona2005algevol}]{Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite{tec_bertona2005algevol}}
-				\label{eq:backpropagation}
-			\end{equcaption}
+			%\begin{equcaption}[!ht]
+			\begin{equation}\label{eq:backpropagation}
+			\phantomsection
+			W_{ji}(t+1)=W_{ji}(t)+[\alpha \delta_{pj} y_{pj} + \beta \Delta W_{ji}(t)]
+			\end{equation}
+			\myequations{Fórmula del algoritmo de propagación hacia atrás}
+			%\caption[Fórmula del algoritmo de propagación hacia atrás]{Fórmula del algoritmo de propagación hacia atrás. Fuente: \cite{tec_bertona2005algevol}}
+			%\end{equcaption}
 		
-			\begin{equation*}
+			\begin{equation}
 			%\phantomsection
 			\text{siendo} \quad \delta_{pj} =
 			\left\{
@@ -441,12 +441,13 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 				\left(\sum_{k} \delta_{pk} W_{kj}\right)f'_j(h_j) \quad\text{si j es una neurona oculta}
 			\end{aligned}
 			\right.
-			\end{equation*}
+			\end{equation}
+			\myequations{pendiente}
 			
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.5\textwidth]{2/figures/backpropagation.jpg}
-					\caption{Capa oculta simple MLP con propagación hacia atrás. Fuente: \cite{gl_iartificial2019descentgrad}}
+					\caption[Capa oculta simple MLP con propagación hacia atrás]{Capa oculta simple MLP con propagación hacia atrás. Fuente: \cite{gl_iartificial2019descentgrad}}
 					\label{2:fig15}
 				\end{center}
 			\end{figure}
@@ -457,7 +458,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.55\textwidth]{2/figures/rna_pesos.jpg}
-					\caption{Redes neuronales de ejemplo. Fuente: \cite{gl_ansrw2019backpropagation}}
+					\caption[Redes neuronales de ejemplo]{Redes neuronales de ejemplo. Fuente: \cite{gl_ansrw2019backpropagation}}
 					\label{2:fig16}
 				\end{center}
 			\end{figure}
@@ -466,11 +467,11 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			
 			El proceso normal para calcular el valor del nodo final se da, tanto con los nodos de entrada y los de capa oculta, mediante la sumatoria de producto de cada peso con su valor, es decir, mediante la fórmula de las RNA $in_i=\sum_{j=0}^n W_{j,i}*a_j+b_{j,i}$, al mismo tiempo que devuelve un valor del error cometido. Este último se calcula mediante la Ecuación \ref{eq:rnaerror}:
 			\begin{equcaption}[!ht]
-				\begin{equation*}
+				\begin{equation}
 				\phantomsection
 				E_k=(T_k-O_k)*O_k*(1-O_k)
-				\end{equation*}
-				\caption[Cálculo del error cometido en una red neuronal. Fuente: \cite{tec_viera2013backpropexplain}]{Cálculo del error cometido en una red neuronal. Fuente: \cite{tec_viera2013backpropexplain}}
+				\end{equation}
+				\caption[Cálculo del error cometido en una red neuronal]{Cálculo del error cometido en una red neuronal. Fuente: \cite{tec_viera2013backpropexplain}}
 				\label{eq:rnaerror}
 			\end{equcaption}
 			
@@ -482,11 +483,11 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			
 			Con estos errores, se retrocede hacia la capa oculta y se procede a calcular los nuevos pesos para sus nodos. Esto se realiza mediante la Ecuación \ref{eq:updateweightsrna}:
 			\begin{equcaption}[!ht]
-				\begin{equation*}
+				\begin{equation}
 				\phantomsection
 				W_{jk}=W_{jk}+L*E_k*O_j
-				\end{equation*}
-				\caption[Actualización de pesos mediante propagación hacia atrás. Fuente: \cite{tec_viera2013backpropexplain}]{Actualización de pesos mediante propagación hacia atrás. Fuente: \cite{tec_viera2013backpropexplain}}
+				\end{equation}
+				\caption[Actualización de pesos mediante propagación hacia atrás]{Actualización de pesos mediante propagación hacia atrás. Fuente: \cite{tec_viera2013backpropexplain}}
 				\label{eq:updateweightsrna}
 			\end{equcaption}
 			
@@ -499,11 +500,11 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			
 			Estos nuevos pesos permitirán redefinir los errores de ambos nodos, con una pequeña diferencia en su cálculo (Ecuación \ref{eq:errornodorna}):
 			\begin{equcaption}[!ht]
-				\begin{equation*}
+				\begin{equation}
 				\phantomsection
 				E_{j}=O_{j}*(1-O_{j})*\sum E_{k}*W_{jk}
-				\end{equation*}
-				\caption[Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite{tec_viera2013backpropexplain}]{Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite{tec_viera2013backpropexplain}}
+				\end{equation}
+				\caption[Cálculo de errores de nodos usando pesos actualizados]{Cálculo de errores de nodos usando pesos actualizados. Fuente: \cite{tec_viera2013backpropexplain}}
 				\label{eq:errornodorna}
 			\end{equcaption}
 			
@@ -516,17 +517,17 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=0.30\textwidth]{2/figures/hiperbolica.jpg}
-			\caption{Función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}}
+			\caption[Función de activación tangente hiperbólica]{Función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}}
 			\label{2:fig17}
 		\end{center}
 	\end{figure}
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}
+		\begin{equation}
 		\phantomsection
 		a=Tansig(n)=\frac{2}{1+e^{-2n}}-1
-		\end{equation*}
-		\caption[Fórmula de la función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}]{Fórmula de la función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}}
+		\end{equation}
+		\caption[Fórmula de la función de activación tangente hiperbólica]{Fórmula de la función de activación tangente hiperbólica. Fuente: \cite{pr_dorofki2012ann}}
 		\label{eq:tansig}
 	\end{equcaption}
 
@@ -535,17 +536,17 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.30\textwidth]{2/figures/purelin.jpg}
-			\caption{Función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}}
+			\caption[Función de activación puramente lineal]{Función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}}
 			\label{2:fig18}
 		\end{center}
 	\end{figure}
 
 	\begin{equcaption}[!ht]
-		\begin{equation*}
+		\begin{equation}
 		\phantomsection
 		a=n
-		\end{equation*}
-		\caption[Fórmula de la función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}]{Fórmula de la función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}}
+		\end{equation}
+		\caption[Fórmula de la función de activación puramente lineal]{Fórmula de la función de activación puramente lineal. Fuente: \cite{pr_dorofki2012ann}}
 		\label{eq:purelin}
 	\end{equcaption}
 	
@@ -553,13 +554,13 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.30\textwidth]{2/figures/relu.jpg}
-			\caption{Función de activación ReLU. Fuente: \cite{gl_mlfa2019redesneuronales}}
+			\caption[Función de activación ReLU]{Función de activación ReLU. Fuente: \cite{gl_mlfa2019redesneuronales}}
 			\label{2:fig19}
 		\end{center}
 	\end{figure}
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}
+		\begin{equation}
 		\phantomsection
 		f(x) = \max (0,x) =
 		\left\{
@@ -568,8 +569,8 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		x \quad \text{para} \quad x \geq 0
 		\end{aligned}
 		\right.
-		\end{equation*}
-		\caption[Fórmula de la función de activación ReLU. Fuente: \cite{gl_calvo2018activrna}]{Fórmula de la función de activación ReLU. Fuente: \cite{gl_calvo2018activrna}}
+		\end{equation}
+		\caption[Fórmula de la función de activación ReLU]{Fórmula de la función de activación ReLU. Fuente: \cite{gl_calvo2018activrna}}
 		\label{eq:relu}
 	\end{equcaption}
 	
@@ -582,7 +583,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.45\textwidth]{2/figures/perceptron_simple.jpg}
-				\caption{Ejemplo de perceptrón simple. Fuente: \cite{gl_calvo2017clasifrna}}
+				\caption[Ejemplo de perceptrón simple]{Ejemplo de perceptrón simple. Fuente: \cite{gl_calvo2017clasifrna}}
 				\label{2:fig20}
 			\end{center}
 		\end{figure}
@@ -591,7 +592,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.50\textwidth]{2/figures/perceptron_multicapa.jpg}
-				\caption{Ejemplo de perceptrón multicapa. Fuente: \cite{gl_calvo2017clasifrna}}
+				\caption[Ejemplo de perceptrón multicapa]{Ejemplo de perceptrón multicapa. Fuente: \cite{gl_calvo2017clasifrna}}
 				\label{2:fig21}
 			\end{center}
 		\end{figure}
@@ -600,7 +601,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.50\textwidth]{2/figures/cnn.jpg}
-				\caption{Ejemplo de red neuronal convolucional. Fuente: \cite{gl_calvo2017clasifrna}}
+				\caption[Ejemplo de red neuronal convolucional]{Ejemplo de red neuronal convolucional. Fuente: \cite{gl_calvo2017clasifrna}}
 				\label{2:fig22}
 			\end{center}
 		\end{figure}
@@ -611,11 +612,11 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{figure}[htbp]
 			\begin{center}
 				\includegraphics[width=0.6\textwidth]{2/figures/neocognitron.jpg}
-				\caption{Modelo Neocognitron de Fukushima (1980). Fuente: \cite{tec_li2019cnn}}
+				\caption[Modelo Neocognitron de Fukushima (1980)]{Modelo Neocognitron de Fukushima (1980). Fuente: \cite{tec_li2019cnn}}
 				\label{2:fig23}
 				
 				\includegraphics[width=0.8\textwidth]{2/figures/lenet5.jpg}
-				\caption{Modelo LeNet-5 de LeCun (1998). Fuente: \cite{tec_li2019cnn}}
+				\caption[Modelo LeNet-5 de LeCun (1998)]{Modelo LeNet-5 de LeCun (1998). Fuente: \cite{tec_li2019cnn}}
 				\label{2:fig24}
 			\end{center}
 		\end{figure}
@@ -624,11 +625,11 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		
 		Su nombre deriva del concepto convolución. La convolución es un término en las matemáticas usado como operador matemático que convierte dos funciones f y g en una tercera función en donde la primera se superpone a una versión invertida y trasladada de la segunda, así como para denotar la distribución de la función de probabilidad de la suma de dos variables independientes aleatorias. Esta se da por la Ecuación \ref{eq:convolution} \parencite{tec_figueroa_convolucion}:
 		\begin{equcaption}[!ht]
-			\begin{equation*}
+			\begin{equation}
 			\phantomsection
 			(f*g)(t)=\int_0^t f(t-\tau)g(\tau)\mathrm{d}\tau
-			\end{equation*}
-			\caption[Fórmula matemática de la convolución. Fuente: \cite{tec_figueroa_convolucion}]{Fórmula matemática de la convolución. Fuente: \cite{tec_figueroa_convolucion}}
+			\end{equation}
+			\caption[Fórmula matemática de la convolución]{Fórmula matemática de la convolución. Fuente: \cite{tec_figueroa_convolucion}}
 			\label{eq:convolution}
 		\end{equcaption}
 		
@@ -640,7 +641,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.8\textwidth]{2/figures/convolucion.jpg}
-					\caption{Ejecución de la convolución en una entrada. Fuente: \cite{tec_lopez2016cnnTF}}
+					\caption[Ejecución de la convolución en una entrada]{Ejecución de la convolución en una entrada. Fuente: \cite{tec_lopez2016cnnTF}}
 					\label{2:fig25}
 				\end{center}
 			\end{figure}
@@ -649,7 +650,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.7\textwidth]{2/figures/filtros_cnn.jpg}
-					\caption{Generación de una nueva imagen a partir de filtros. Fuente: \cite{tec_li2019cnn}}
+					\caption[Generación de una nueva imagen a partir de filtros]{Generación de una nueva imagen a partir de filtros. Fuente: \cite{tec_li2019cnn}}
 					\label{2:fig26}
 				\end{center}
 			\end{figure}
@@ -658,7 +659,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.60\textwidth]{2/figures/filtros_cnn.jpg}
-					\caption{Secuencia de varias capas convolucionales. Fuente: \cite{tec_li2019cnn}}
+					\caption[Secuencia de varias capas convolucionales]{Secuencia de varias capas convolucionales. Fuente: \cite{tec_li2019cnn}}
 					\label{2:fig27}
 				\end{center}
 			\end{figure}
@@ -667,7 +668,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.70\textwidth]{2/figures/features_cnn.jpg}
-					\caption{Extracción de características a partir de convoluciones. Fuente: \cite{tec_li2019cnn}}
+					\caption[Extracción de características a partir de convoluciones]{Extracción de características a partir de convoluciones. Fuente: \cite{tec_li2019cnn}}
 					\label{2:fig28}
 				\end{center}
 			\end{figure}
@@ -681,17 +682,17 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.75\textwidth]{2/figures/matriz_cnn.jpg}
-					\caption{Ejemplo de matriz de imagen de entrada y un filtro. Fuente: \cite{tec_prabhu2018cnn}}
+					\caption[Ejemplo de matriz de imagen de entrada y un filtro]{Ejemplo de matriz de imagen de entrada y un filtro. Fuente: \cite{tec_prabhu2018cnn}}
 					\label{2:fig29}
 				\end{center}
 			\end{figure}
 			
 			\begin{equcaption}[!ht]
-				\begin{equation*}
+				\begin{equation}
 				\phantomsection
 				Volumen=(h-f_h+1)*(w-f_w+1)*1
-				\end{equation*}
-				\caption[Cálculo del volumen del mapa de activación. Fuente: \cite{tec_prabhu2018cnn}]{Cálculo del volumen del mapa de activación. Fuente: \cite{tec_prabhu2018cnn}}
+				\end{equation}
+				\caption[Cálculo del volumen del mapa de activación]{Cálculo del volumen del mapa de activación. Fuente: \cite{tec_prabhu2018cnn}}
 				\label{eq:mapaact}
 			\end{equcaption}
 			
@@ -701,17 +702,17 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[htbp]
 				\begin{center}
 					\includegraphics[width=0.3\textwidth]{2/figures/input_filter_cnn.jpg}
-					\caption{Dimensiones de una entrada y un filtro. Fuente: \cite{tec_li2019cnn}}
+					\caption[Dimensiones de una entrada y un filtro]{Dimensiones de una entrada y un filtro. Fuente: \cite{tec_li2019cnn}}
 					\label{2:fig30}
 				\end{center}
 			\end{figure}
 		
 			\begin{equcaption}[!ht]
-				\begin{equation*}
+				\begin{equation}
 				\phantomsection
 				Salida=\frac{N-F}{S}+1
-				\end{equation*}
-				\caption[Cálculo del tamaño de la imagen reducida. Fuente: \cite{tec_li2019cnn}]{Cálculo del tamaño de la imagen reducida. Fuente: \cite{tec_li2019cnn}}
+				\end{equation}
+				\caption[Cálculo del tamaño de la imagen reducida]{Cálculo del tamaño de la imagen reducida. Fuente: \cite{tec_li2019cnn}}
 				\label{eq:outputconv}
 			\end{equcaption}
 		
@@ -726,7 +727,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[htbp]
 				\begin{center}
 					\includegraphics[width=0.60\textwidth]{2/figures/stride_cnn.jpg}
-					\caption{Paso de 2 píxeles por parte de un filtro. Fuente: \cite{tec_prabhu2018cnn}}
+					\caption[Paso de 2 píxeles por parte de un filtro]{Paso de 2 píxeles por parte de un filtro. Fuente: \cite{tec_prabhu2018cnn}}
 					\label{2:fig31}
 				\end{center}
 			\end{figure}
@@ -734,11 +735,11 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			Si, por el contrario, se desea aplicar convolución a una imagen sin afectar sus dimensiones luego de pasar por la capa de reducción, se construye bordes de ceros de n píxeles. A este tamaño de borde se le llama Relleno (\textit{pad} en inglés), por lo que el tamaño de la nueva salida se obtiene mediante la fórmula:
 			
 			\begin{equcaption}[!ht]
-				\begin{equation*}
+				\begin{equation}
 				\phantomsection
 				Salida=\frac{N-F+2*Relleno}{S}+1
-				\end{equation*}
-				\caption[Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros. Fuente: \cite{tec_li2019cnn}]{Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros. Fuente: \cite{tec_li2019cnn}}
+				\end{equation}
+				\caption[Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros]{Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros. Fuente: \cite{tec_li2019cnn}}
 				\label{eq:outputconvwithpad}
 			\end{equcaption}
 			
@@ -753,7 +754,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\begin{figure}[h]
 				\begin{center}
 					\includegraphics[width=0.60\textwidth]{2/figures/fully_conected_cnn.jpg}
-					\caption{Aplanado de matrices luego de agrupar la capa. Fuente: \cite{tec_prabhu2018cnn}}
+					\caption[Aplanado de matrices luego de agrupar la capa]{Aplanado de matrices luego de agrupar la capa. Fuente: \cite{tec_prabhu2018cnn}}
 					\label{2:fig32}
 				\end{center}
 			\end{figure}
@@ -762,7 +763,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.8\textwidth]{2/figures/arquitectura_cnn.jpg}
-				\caption{Arquitectura completa de una CNN. Fuente: \cite{tec_prabhu2018cnn}}
+				\caption[Arquitectura completa de una CNN]{Arquitectura completa de una CNN. Fuente: \cite{tec_prabhu2018cnn}}
 				\label{2:fig33}
 			\end{center}
 		\end{figure}
@@ -771,7 +772,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		\begin{figure}[h]
 			\begin{center}
 				\includegraphics[width=0.8\textwidth]{2/figures/rnn_ejemplo.jpg}
-				\caption{Ejemplo de red neuronal recurrente. Fuente: \cite{gl_calvo2018rnn}}
+				\caption[Ejemplo de red neuronal recurrente]{Ejemplo de red neuronal recurrente. Fuente: \cite{gl_calvo2018rnn}}
 				\label{2:fig34}
 			\end{center}
 		\end{figure}
@@ -780,7 +781,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.45\textwidth]{2/figures/svm_hiperplano.jpg}
-			\caption{Hiperplano con dos clases separadas por una distancia m. Fuente: \cite{tec_betancourt2005svm}}
+			\caption[Hiperplano con dos clases separadas por una distancia m]{Hiperplano con dos clases separadas por una distancia m. Fuente: \cite{tec_betancourt2005svm}}
 			\label{2:fig35}
 		\end{center}
 	\end{figure}
@@ -805,7 +806,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 			\includegraphics[width=0.6\linewidth]{2/figures/caso2_svm.jpg}
 			\caption{No linealmente separable}
 		\end{subfigure}
-		\caption{Ejemplo de separación de 2 clases. Fuente: \cite{tec_betancourt2005svm}}
+		\caption[Ejemplo de separación de 2 clases]{Ejemplo de separación de 2 clases. Fuente: \cite{tec_betancourt2005svm}}
 		\label{2:fig36}
 	\end{figure}
 	
@@ -813,7 +814,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	Lo que se debe hacer para el primer caso es crear el hiperplano a través de una función lineal $w*z+b=0$ y, definido el par $(w,b)$, separar el punto $x_i$ según la Ecuación \ref{eq:hiperplano}:
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}
+		\begin{equation}
 		\phantomsection
 		f(x_i) = sign(w*z+b) =
 		\left\{
@@ -822,8 +823,8 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 		-1 \quad y_i=-1
 		\end{aligned}
 		\right.
-		\end{equation*}
-		\caption[Ecuación del hiperplano para clasificar dos clases. Fuente: \cite{tec_betancourt2005svm}]{Ecuación del hiperplano para clasificar dos clases. Fuente: \cite{tec_betancourt2005svm}}
+		\end{equation}
+		\caption[Ecuación del hiperplano para clasificar dos clases]{Ecuación del hiperplano para clasificar dos clases. Fuente: \cite{tec_betancourt2005svm}}
 		\label{eq:hiperplano}
 	\end{equcaption}
 	
@@ -831,7 +832,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.7\textwidth]{2/figures/kernel_svm.jpg}
-			\caption{Aplicación de un kernel para transformar el espacio de los datos. Fuente: \cite{tec_betancourt2005svm}}
+			\caption[Aplicación de un kernel para transformar el espacio de los datos]{Aplicación de un kernel para transformar el espacio de los datos. Fuente: \cite{tec_betancourt2005svm}}
 			\label{2:fig37}
 		\end{center}
 	\end{figure}
@@ -844,7 +845,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.8\textwidth]{2/figures/arbol_decision.jpg}
-			\caption{Ejemplo del algoritmo de árbol de decisión. Fuente: \cite{bk_russell2004intart}}
+			\caption[Ejemplo del algoritmo de árbol de decisión]{Ejemplo del algoritmo de árbol de decisión. Fuente: \cite{bk_russell2004intart}}
 			\label{2:fig38}
 		\end{center}
 	\end{figure}
@@ -871,7 +872,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=0.8\textwidth]{2/figures/cnn_nlp.png}
-			\caption{Arquitectura de modelo CNN con 2 canales para una oración de ejemplo. Fuente: \cite{tec_kim2014convolutional}}
+			\caption[Arquitectura de modelo CNN con 2 canales para una oración de ejemplo]{Arquitectura de modelo CNN con 2 canales para una oración de ejemplo. Fuente: \cite{tec_kim2014convolutional}}
 			\label{2:fig39}
 		\end{center}
 	\end{figure}
@@ -891,7 +892,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 			\includegraphics[width=0.70\linewidth]{2/figures/1D-convolutional-example.png}
 			\caption{Convolución 1d}
 		\end{subfigure}
-		\caption{Diferencias entre convoluciones según su dimensión. Fuente: \cite{tec_missinglink_conv1d}}
+		\caption[Diferencias entre convoluciones según su dimensión]{Diferencias entre convoluciones según su dimensión. Fuente: \cite{tec_missinglink_conv1d}}
 		\label{2:fig40}
 	\end{figure}
 	
@@ -901,7 +902,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=0.40\textwidth]{2/figures/cnn_steps_for_nlp.png}
-			\caption{Arquitectura de modelo CNN para clasificación de oraciones. Fuente: \cite{tec_zhang2017cnn_sentenceclassification}}
+			\caption[Arquitectura de modelo CNN para clasificación de oraciones]{Arquitectura de modelo CNN para clasificación de oraciones. Fuente: \cite{tec_zhang2017cnn_sentenceclassification}}
 			\label{2:fig41}
 		\end{center}
 	\end{figure}
@@ -918,11 +919,11 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 		La ecuación para representar un estado determinado en una RNN toma la siguiente forma:
 		
 		\begin{equcaption}[!ht]
-			\begin{equation*}	
+			\begin{equation}	
 			\phantomsection
 			s_i = R_{SRNN}(x_i, s_{i-1}) = g([s_{i-1};x_i]W+b)
-			\end{equation*}
-			\caption[Fórmula para determinar un estado en una S-RNN. Fuente: \cite{bk_brownlee2017deeplearning_nlp}]{Fórmula para determinar un estado en una S-RNN. Fuente: \cite{bk_brownlee2017deeplearning_nlp}}
+			\end{equation}
+			\caption[Fórmula para determinar un estado en una S-RNN]{Fórmula para determinar un estado en una S-RNN. Fuente: \cite{bk_brownlee2017deeplearning_nlp}}
 			\label{eq:srnn}
 		\end{equcaption}
 		
@@ -939,7 +940,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.6\textwidth]{2/figures/lstm.png}
-				\caption{Arquitectura de una LSTM. Fuente: \cite{tec_yuan2019lstm}}
+				\caption[Arquitectura de una LSTM]{Arquitectura de una LSTM. Fuente: \cite{tec_yuan2019lstm}}
 				\label{2:fig42}
 			\end{center}
 		\end{figure}
@@ -958,7 +959,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.8\textwidth]{2/figures/birnn_architecture.jpg}
-				\caption{Representación de arquitectura BiRNN de la palabra \textit{jumped} en la oración. Fuente: \cite{bk_goldberg2017nn_nlp}}
+				\caption[Representación de arquitectura BiRNN de la palabra \textit{jumped} en la oración]{Representación de arquitectura BiRNN de la palabra \textit{jumped} en la oración. Fuente: \cite{bk_goldberg2017nn_nlp}}
 				\label{2:fig43}
 			\end{center}
 		\end{figure}
@@ -970,7 +971,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.8\textwidth]{2/figures/lstm_vs_gru.png}
-				\caption{Comparación entre arquitecturas LSTM y GRU. Fuente: \cite{tec_phi2018gru}}
+				\caption[Comparación entre arquitecturas LSTM y GRU]{Comparación entre arquitecturas LSTM y GRU. Fuente: \cite{tec_phi2018gru}}
 				\label{2:fig44}
 			\end{center}
 		\end{figure}
@@ -983,7 +984,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=0.7\textwidth]{2/figures/encoder-decoder.jpeg}
-			\caption{Arquitectura de un modelo Seq2seq. Fuente: \cite{tec_kostadinov2019seq2seq}}
+			\caption[Arquitectura de un modelo Seq2seq]{Arquitectura de un modelo Seq2seq. Fuente: \cite{tec_kostadinov2019seq2seq}}
 			\label{2:fig45}
 		\end{center}
 	\end{figure}
@@ -993,7 +994,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=0.50\textwidth]{2/figures/multimodal_network.jpg}
-			\caption{Arquitectura de un modelo multimodal de imágenes y texto. Fuente: \cite{tec_nishida2015multimodal}}
+			\caption[Arquitectura de un modelo multimodal de imágenes y texto]{Arquitectura de un modelo multimodal de imágenes y texto. Fuente: \cite{tec_nishida2015multimodal}}
 			\label{2:fig46}
 		\end{center}
 	\end{figure}
@@ -1017,7 +1018,7 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.50\textwidth]{2/figures/embedding_layer.jpg}
-				\caption{Ejemplo de funcionamiento de una capa de incrustación. Fuente: \cite{tec_chengwei2018embedding}}
+				\caption[Ejemplo de funcionamiento de una capa de incrustación]{Ejemplo de funcionamiento de una capa de incrustación. Fuente: \cite{tec_chengwei2018embedding}}
 				\label{2:fig47}
 			\end{center}
 		\end{figure}
@@ -1027,7 +1028,7 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 		\begin{figure}[!ht]
 			\begin{center}
 				\includegraphics[width=0.60\textwidth]{2/figures/word2vec.png}
-				\caption{Incrustaciones de palabras por Word2Vec. Fuente: \cite{tec_bujokas2020word2vec}}
+				\caption[Incrustaciones de palabras por Word2Vec]{Incrustaciones de palabras por Word2Vec. Fuente: \cite{tec_bujokas2020word2vec}}
 				\label{2:fig48}
 			\end{center}
 		\end{figure}
@@ -1057,7 +1058,7 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 				\includegraphics[width=0.70\linewidth]{2/figures/glove_city-zipcode.jpg}
 				\caption{ciudad - código postal}
 			\end{subfigure}
-			\caption{Incrustaciones de palabras por GloVe. Fuente: \cite{tec_pennington2014glove}}
+			\caption[Incrustaciones de palabras por GloVe]{Incrustaciones de palabras por GloVe. Fuente: \cite{tec_pennington2014glove}}
 			\label{2:fig49}
 		\end{figure}
 		
@@ -1068,7 +1069,7 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=0.70\textwidth]{2/figures/bow_example.png}
-			\caption{Ejemplo de funcionamiento de bolsa de palabras. Fuente: \cite{tec_zhou2019bow}}
+			\caption[Ejemplo de funcionamiento de bolsa de palabras]{Ejemplo de funcionamiento de bolsa de palabras. Fuente: \cite{tec_zhou2019bow}}
 			\label{2:fig50}
 		\end{center}
 	\end{figure}
@@ -1076,11 +1077,11 @@ Luego de la limpieza de texto, el nuevo conjunto de datos debe representarse com
 	\item \textbf{Frecuencia del término - Frecuencia inversa del documento} (\textit{Term Frequency - Inverse Document Frequency} o \textit{TF-IDF}): Es un algoritmo que también contabiliza palabras pero que resaltan aquellas más significativas para calcular sus pesos correspondientes. Se compone por la frecuencia del término, que representa la frecuencia con la que una palabra determinada aparece en un documento, y la frecuencia inversa del documento, el cual reduce la escala de palabras que aparecen mucho en los documentos \parencite{bk_brownlee2017deeplearning_nlp}. Su peso se calcula bajo la siguiente fórmula:
 	
 	\begin{equcaption}[!ht]
-		\begin{equation*}
+		\begin{equation}
 		\phantomsection
 		TF-IDF_{(n,d)}=TF_{(n,d)}*IDF_{(n)}
-		\end{equation*}
-		\caption[Fórmula de TF-IDF. Fuente: \cite{tec_hamdaoui2019tfidf}]{Fórmula de TF-IDF. Fuente: \cite{tec_hamdaoui2019tfidf}}
+		\end{equation}
+		\caption[Fórmula de TF-IDF]{Fórmula de TF-IDF. Fuente: \cite{tec_hamdaoui2019tfidf}}
 		\label{eq:tfidf}
 	\end{equcaption}
 	
