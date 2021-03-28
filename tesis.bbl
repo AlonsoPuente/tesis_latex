@@ -1474,40 +1474,6 @@
       \verb https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
       \endverb
     \endentry
-    \entry{tec_hamdaoui2019tfidf}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fd7322e319111e38026e8f70c44138ef}{%
-           family={Hamdaoui},
-           familyi={H\bibinitperiod},
-           given={Yassine},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {Towards Data Science}%
-      }
-      \strng{namehash}{fd7322e319111e38026e8f70c44138ef}
-      \strng{fullhash}{fd7322e319111e38026e8f70c44138ef}
-      \strng{bibnamehash}{fd7322e319111e38026e8f70c44138ef}
-      \strng{authorbibnamehash}{fd7322e319111e38026e8f70c44138ef}
-      \strng{authornamehash}{fd7322e319111e38026e8f70c44138ef}
-      \strng{authorfullhash}{fd7322e319111e38026e8f70c44138ef}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{TF(Term Frequency)-IDF(Inverse Document Frequency) from scratch in python .}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://towardsdatascience.com/tf-term-frequency-idf-inverse-document-frequency-from-scratch-in-python-6c2b61b78558
-      \endverb
-      \verb{url}
-      \verb https://towardsdatascience.com/tf-term-frequency-idf-inverse-document-frequency-from-scratch-in-python-6c2b61b78558
-      \endverb
-    \endentry
     \entry{cr_hollas2013crwd}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=563d6265ec8990eabf3362628698abc7}{%
@@ -3096,35 +3062,6 @@
       \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
       \endverb
     \endentry
-    \entry{gl_pardo_reglogcosto}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4f3bea5e36645e3644eeaf13347e8fcc}{%
-           family={Pardo},
-           familyi={P\bibinitperiod},
-           given={Carlos\bibnamedelima Julio},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{4f3bea5e36645e3644eeaf13347e8fcc}
-      \strng{fullhash}{4f3bea5e36645e3644eeaf13347e8fcc}
-      \strng{bibnamehash}{4f3bea5e36645e3644eeaf13347e8fcc}
-      \strng{authorbibnamehash}{4f3bea5e36645e3644eeaf13347e8fcc}
-      \strng{authornamehash}{4f3bea5e36645e3644eeaf13347e8fcc}
-      \strng{authorfullhash}{4f3bea5e36645e3644eeaf13347e8fcc}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{MACHINE LEARNING – Regresión Logística}
-      \verb{urlraw}
-      \verb https://carlosjuliopardoblog.wordpress.com/2017/12/31/regresion-logistica/
-      \endverb
-      \verb{url}
-      \verb https://carlosjuliopardoblog.wordpress.com/2017/12/31/regresion-logistica/
-      \endverb
-    \endentry
     \entry{gl_pennington2014glove}{report}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ab47b497d1b0cdaddd8594e4bd501ee5}{%
@@ -4347,37 +4284,6 @@
       \endverb
       \verb{url}
       \verb https://www.universocrowdfunding.com/que-es-el-crowdfunding/
-      \endverb
-    \endentry
-    \entry{tec_viera2013backpropexplain}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8ad22d4167e6563ed3315dc243a57fb8}{%
-           family={Viera\bibnamedelima Balanta},
-           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Víctor},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8ad22d4167e6563ed3315dc243a57fb8}
-      \strng{fullhash}{8ad22d4167e6563ed3315dc243a57fb8}
-      \strng{bibnamehash}{8ad22d4167e6563ed3315dc243a57fb8}
-      \strng{authorbibnamehash}{8ad22d4167e6563ed3315dc243a57fb8}
-      \strng{authornamehash}{8ad22d4167e6563ed3315dc243a57fb8}
-      \strng{authorfullhash}{8ad22d4167e6563ed3315dc243a57fb8}
-      \field{sortinit}{V}
-      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Backpropagation explicación}
-      \field{year}{2013}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=0odQ286nsIY
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=0odQ286nsIY
       \endverb
     \endentry
     \entry{ot_webrobots2019kickstarter}{misc}{}
