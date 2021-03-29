@@ -2,7 +2,7 @@
 \BOOKMARK [0][-]{section*.1}{\315ndice de Figuras}{}% 2
 \BOOKMARK [0][-]{section*.2}{\315ndice de Tablas}{}% 3
 \BOOKMARK [0][-]{chapter*.4}{RESUMEN}{}% 4
-\BOOKMARK [0][-]{chapter*.5}{INTRODUCCI\323N}{}% 5
+\BOOKMARK [0][-]{chapter*.6}{INTRODUCCI\323N}{}% 5
 \BOOKMARK [0][-]{chapter.1}{PLANTEAMIENTO DEL PROBLEMA}{}% 6
 \BOOKMARK [1][-]{section.1.1}{Descripci\363n de la Realidad Problem\341tica}{chapter.1}% 7
 \BOOKMARK [1][-]{section.1.2}{Formulaci\363n del Problema}{chapter.1}% 8
@@ -25,156 +25,121 @@
 \BOOKMARK [2][-]{subsection.1.6.3}{Matriz de Consistencia}{section.1.6}% 25
 \BOOKMARK [0][-]{chapter.2}{MARCO TE\323RICO}{}% 26
 \BOOKMARK [1][-]{section.2.1}{Antecedentes de la investigaci\363n}{chapter.2}% 27
-\BOOKMARK [2][-]{subsection.2.1.1}{KickPredict: Predicting Kickstarter Success *prchen2013kickpredict}{section.2.1}% 28
+\BOOKMARK [2][-]{subsection.2.1.1}{Using Language to Predict Kickstarter Success *prsawhney2016usingLT}{section.2.1}% 28
 \BOOKMARK [3][-]{subsubsection.2.1.1.1}{Planteamiento del Problema y objetivo}{subsection.2.1.1}% 29
 \BOOKMARK [3][-]{subsubsection.2.1.1.2}{T\351cnicas empleadas por los autores}{subsection.2.1.1}% 30
 \BOOKMARK [3][-]{subsubsection.2.1.1.3}{Metodolog\355a empleada por los autores}{subsection.2.1.1}% 31
 \BOOKMARK [3][-]{subsubsection.2.1.1.4}{Resultados obtenidos}{subsection.2.1.1}% 32
-\BOOKMARK [2][-]{subsection.2.1.2}{The Language that Gets People to Give: Phrases that Predict Success on Kickstarter *prmitra2014phrases}{section.2.1}% 33
+\BOOKMARK [2][-]{subsection.2.1.2}{Effect of Social Media Connectivity on Success of Crowdfunding Campaigns *prkaur2017socmedcrowd}{section.2.1}% 33
 \BOOKMARK [3][-]{subsubsection.2.1.2.1}{Planteamiento del Problema y objetivo}{subsection.2.1.2}% 34
 \BOOKMARK [3][-]{subsubsection.2.1.2.2}{T\351cnicas empleadas por los autores}{subsection.2.1.2}% 35
 \BOOKMARK [3][-]{subsubsection.2.1.2.3}{Metodolog\355a empleada por los autores}{subsection.2.1.2}% 36
 \BOOKMARK [3][-]{subsubsection.2.1.2.4}{Resultados obtenidos}{subsection.2.1.2}% 37
-\BOOKMARK [2][-]{subsection.2.1.3}{Money Talks: A Predictive Model on Crowdfunding Success Using Project Description *przhou2015projectdesc}{section.2.1}% 38
+\BOOKMARK [2][-]{subsection.2.1.3}{Supervised Learning Model For Kickstarter Campaigns With R Mining *prkamath2018suplearn}{section.2.1}% 38
 \BOOKMARK [3][-]{subsubsection.2.1.3.1}{Planteamiento del Problema y objetivo}{subsection.2.1.3}% 39
 \BOOKMARK [3][-]{subsubsection.2.1.3.2}{T\351cnicas empleadas por los autores}{subsection.2.1.3}% 40
 \BOOKMARK [3][-]{subsubsection.2.1.3.3}{Metodolog\355a empleada por los autores}{subsection.2.1.3}% 41
 \BOOKMARK [3][-]{subsubsection.2.1.3.4}{Resultados obtenidos}{subsection.2.1.3}% 42
-\BOOKMARK [2][-]{subsection.2.1.4}{Will your Project get the Green light? Predicting the success of crowdfunding campaigns *prchen2015predcrowd}{section.2.1}% 43
+\BOOKMARK [2][-]{subsection.2.1.4}{Prediction of Crowdfunding Project Success with Deep Learning *pryu2018deeplearning}{section.2.1}% 43
 \BOOKMARK [3][-]{subsubsection.2.1.4.1}{Planteamiento del Problema y objetivo}{subsection.2.1.4}% 44
 \BOOKMARK [3][-]{subsubsection.2.1.4.2}{T\351cnicas empleadas por los autores}{subsection.2.1.4}% 45
 \BOOKMARK [3][-]{subsubsection.2.1.4.3}{Metodolog\355a empleada por los autores}{subsection.2.1.4}% 46
 \BOOKMARK [3][-]{subsubsection.2.1.4.4}{Resultados obtenidos}{subsection.2.1.4}% 47
-\BOOKMARK [2][-]{subsection.2.1.5}{Predicting Success in Equity Crowdfunding *prbeckwith2016predcrowd}{section.2.1}% 48
+\BOOKMARK [2][-]{subsection.2.1.5}{Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach *prlee2018contentDL}{section.2.1}% 48
 \BOOKMARK [3][-]{subsubsection.2.1.5.1}{Planteamiento del Problema y objetivo}{subsection.2.1.5}% 49
 \BOOKMARK [3][-]{subsubsection.2.1.5.2}{T\351cnicas empleadas por los autores}{subsection.2.1.5}% 50
 \BOOKMARK [3][-]{subsubsection.2.1.5.3}{Metodolog\355a empleada por los autores}{subsection.2.1.5}% 51
 \BOOKMARK [3][-]{subsubsection.2.1.5.4}{Resultados obtenidos}{subsection.2.1.5}% 52
-\BOOKMARK [2][-]{subsection.2.1.6}{Project Success Prediction in Crowdfunding Environments *prli2016predcrowd}{section.2.1}% 53
+\BOOKMARK [2][-]{subsection.2.1.6}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective *prjin2019dayssuccess}{section.2.1}% 53
 \BOOKMARK [3][-]{subsubsection.2.1.6.1}{Planteamiento del Problema y objetivo}{subsection.2.1.6}% 54
 \BOOKMARK [3][-]{subsubsection.2.1.6.2}{T\351cnicas empleadas por los autores}{subsection.2.1.6}% 55
 \BOOKMARK [3][-]{subsubsection.2.1.6.3}{Metodolog\355a empleada por los autores}{subsection.2.1.6}% 56
 \BOOKMARK [3][-]{subsubsection.2.1.6.4}{Resultados obtenidos}{subsection.2.1.6}% 57
-\BOOKMARK [2][-]{subsection.2.1.7}{The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach *pryuan2016textanalytics}{section.2.1}% 58
+\BOOKMARK [2][-]{subsection.2.1.7}{Success Prediction on Crowdfunding with Multimodal Deep Learning *prcheng2019deeplearning}{section.2.1}% 58
 \BOOKMARK [3][-]{subsubsection.2.1.7.1}{Planteamiento del Problema y objetivo}{subsection.2.1.7}% 59
 \BOOKMARK [3][-]{subsubsection.2.1.7.2}{T\351cnicas empleadas por los autores}{subsection.2.1.7}% 60
 \BOOKMARK [3][-]{subsubsection.2.1.7.3}{Metodolog\355a empleada por los autores}{subsection.2.1.7}% 61
 \BOOKMARK [3][-]{subsubsection.2.1.7.4}{Resultados obtenidos}{subsection.2.1.7}% 62
-\BOOKMARK [2][-]{subsection.2.1.8}{Using Language to Predict Kickstarter Success *prsawhney2016usingLT}{section.2.1}% 63
+\BOOKMARK [2][-]{subsection.2.1.8}{Finding the Keywords Affecting the Success of Crowdfunding Projects *prchen2019keywordscrowdfunding}{section.2.1}% 63
 \BOOKMARK [3][-]{subsubsection.2.1.8.1}{Planteamiento del Problema y objetivo}{subsection.2.1.8}% 64
 \BOOKMARK [3][-]{subsubsection.2.1.8.2}{T\351cnicas empleadas por los autores}{subsection.2.1.8}% 65
 \BOOKMARK [3][-]{subsubsection.2.1.8.3}{Metodolog\355a empleada por los autores}{subsection.2.1.8}% 66
 \BOOKMARK [3][-]{subsubsection.2.1.8.4}{Resultados obtenidos}{subsection.2.1.8}% 67
-\BOOKMARK [2][-]{subsection.2.1.9}{Effect of Social Media Connectivity on Success of Crowdfunding Campaigns *prkaur2017socmedcrowd}{section.2.1}% 68
+\BOOKMARK [2][-]{subsection.2.1.9}{Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter *prchaichi2019nlp3dprinting}{section.2.1}% 68
 \BOOKMARK [3][-]{subsubsection.2.1.9.1}{Planteamiento del Problema y objetivo}{subsection.2.1.9}% 69
 \BOOKMARK [3][-]{subsubsection.2.1.9.2}{T\351cnicas empleadas por los autores}{subsection.2.1.9}% 70
 \BOOKMARK [3][-]{subsubsection.2.1.9.3}{Metodolog\355a empleada por los autores}{subsection.2.1.9}% 71
 \BOOKMARK [3][-]{subsubsection.2.1.9.4}{Resultados obtenidos}{subsection.2.1.9}% 72
-\BOOKMARK [2][-]{subsection.2.1.10}{Supervised Learning Model For Kickstarter Campaigns With R Mining *prkamath2018suplearn}{section.2.1}% 73
+\BOOKMARK [2][-]{subsection.2.1.10}{Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms *prshafqat2019topicpredictions}{section.2.1}% 73
 \BOOKMARK [3][-]{subsubsection.2.1.10.1}{Planteamiento del Problema y objetivo}{subsection.2.1.10}% 74
 \BOOKMARK [3][-]{subsubsection.2.1.10.2}{T\351cnicas empleadas por los autores}{subsection.2.1.10}% 75
 \BOOKMARK [3][-]{subsubsection.2.1.10.3}{Metodolog\355a empleada por los autores}{subsection.2.1.10}% 76
 \BOOKMARK [3][-]{subsubsection.2.1.10.4}{Resultados obtenidos}{subsection.2.1.10}% 77
-\BOOKMARK [2][-]{subsection.2.1.11}{Prediction of Crowdfunding Project Success with Deep Learning *pryu2018deeplearning}{section.2.1}% 78
-\BOOKMARK [3][-]{subsubsection.2.1.11.1}{Planteamiento del Problema y objetivo}{subsection.2.1.11}% 79
-\BOOKMARK [3][-]{subsubsection.2.1.11.2}{T\351cnicas empleadas por los autores}{subsection.2.1.11}% 80
-\BOOKMARK [3][-]{subsubsection.2.1.11.3}{Metodolog\355a empleada por los autores}{subsection.2.1.11}% 81
-\BOOKMARK [3][-]{subsubsection.2.1.11.4}{Resultados obtenidos}{subsection.2.1.11}% 82
-\BOOKMARK [2][-]{subsection.2.1.12}{Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach *prlee2018contentDL}{section.2.1}% 83
-\BOOKMARK [3][-]{subsubsection.2.1.12.1}{Planteamiento del Problema y objetivo}{subsection.2.1.12}% 84
-\BOOKMARK [3][-]{subsubsection.2.1.12.2}{T\351cnicas empleadas por los autores}{subsection.2.1.12}% 85
-\BOOKMARK [3][-]{subsubsection.2.1.12.3}{Metodolog\355a empleada por los autores}{subsection.2.1.12}% 86
-\BOOKMARK [3][-]{subsubsection.2.1.12.4}{Resultados obtenidos}{subsection.2.1.12}% 87
-\BOOKMARK [2][-]{subsection.2.1.13}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective *prjin2019dayssuccess}{section.2.1}% 88
-\BOOKMARK [3][-]{subsubsection.2.1.13.1}{Planteamiento del Problema y objetivo}{subsection.2.1.13}% 89
-\BOOKMARK [3][-]{subsubsection.2.1.13.2}{T\351cnicas empleadas por los autores}{subsection.2.1.13}% 90
-\BOOKMARK [3][-]{subsubsection.2.1.13.3}{Metodolog\355a empleada por los autores}{subsection.2.1.13}% 91
-\BOOKMARK [3][-]{subsubsection.2.1.13.4}{Resultados obtenidos}{subsection.2.1.13}% 92
-\BOOKMARK [2][-]{subsection.2.1.14}{Success Prediction on Crowdfunding with Multimodal Deep Learning *prcheng2019deeplearning}{section.2.1}% 93
-\BOOKMARK [3][-]{subsubsection.2.1.14.1}{Planteamiento del Problema y objetivo}{subsection.2.1.14}% 94
-\BOOKMARK [3][-]{subsubsection.2.1.14.2}{T\351cnicas empleadas por los autores}{subsection.2.1.14}% 95
-\BOOKMARK [3][-]{subsubsection.2.1.14.3}{Metodolog\355a empleada por los autores}{subsection.2.1.14}% 96
-\BOOKMARK [3][-]{subsubsection.2.1.14.4}{Resultados obtenidos}{subsection.2.1.14}% 97
-\BOOKMARK [2][-]{subsection.2.1.15}{Finding the Keywords Affecting the Success of Crowdfunding Projects *prchen2019keywordscrowdfunding}{section.2.1}% 98
-\BOOKMARK [3][-]{subsubsection.2.1.15.1}{Planteamiento del Problema y objetivo}{subsection.2.1.15}% 99
-\BOOKMARK [3][-]{subsubsection.2.1.15.2}{T\351cnicas empleadas por los autores}{subsection.2.1.15}% 100
-\BOOKMARK [3][-]{subsubsection.2.1.15.3}{Metodolog\355a empleada por los autores}{subsection.2.1.15}% 101
-\BOOKMARK [3][-]{subsubsection.2.1.15.4}{Resultados obtenidos}{subsection.2.1.15}% 102
-\BOOKMARK [2][-]{subsection.2.1.16}{Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter *prchaichi2019nlp3dprinting}{section.2.1}% 103
-\BOOKMARK [3][-]{subsubsection.2.1.16.1}{Planteamiento del Problema y objetivo}{subsection.2.1.16}% 104
-\BOOKMARK [3][-]{subsubsection.2.1.16.2}{T\351cnicas empleadas por los autores}{subsection.2.1.16}% 105
-\BOOKMARK [3][-]{subsubsection.2.1.16.3}{Metodolog\355a empleada por los autores}{subsection.2.1.16}% 106
-\BOOKMARK [3][-]{subsubsection.2.1.16.4}{Resultados obtenidos}{subsection.2.1.16}% 107
-\BOOKMARK [2][-]{subsection.2.1.17}{Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms *prshafqat2019topicpredictions}{section.2.1}% 108
-\BOOKMARK [3][-]{subsubsection.2.1.17.1}{Planteamiento del Problema y objetivo}{subsection.2.1.17}% 109
-\BOOKMARK [3][-]{subsubsection.2.1.17.2}{T\351cnicas empleadas por los autores}{subsection.2.1.17}% 110
-\BOOKMARK [3][-]{subsubsection.2.1.17.3}{Metodolog\355a empleada por los autores}{subsection.2.1.17}% 111
-\BOOKMARK [3][-]{subsubsection.2.1.17.4}{Resultados obtenidos}{subsection.2.1.17}% 112
-\BOOKMARK [1][-]{section.2.2}{Bases Te\363ricas}{chapter.2}% 113
-\BOOKMARK [2][-]{subsection.2.2.1}{Inteligencia Artificial}{section.2.2}% 114
-\BOOKMARK [2][-]{subsection.2.2.2}{Aprendizaje Autom\341tico}{section.2.2}% 115
-\BOOKMARK [2][-]{subsection.2.2.3}{Aprendizaje Profundo}{section.2.2}% 116
-\BOOKMARK [2][-]{subsection.2.2.4}{Modelo Predictivo}{section.2.2}% 117
-\BOOKMARK [2][-]{subsection.2.2.5}{Miner\355a de Datos}{section.2.2}% 118
-\BOOKMARK [2][-]{subsection.2.2.6}{Metodolog\355as de Miner\355a de Datos}{section.2.2}% 119
-\BOOKMARK [2][-]{subsection.2.2.7}{T\351cnicas de Miner\355a de Datos}{section.2.2}% 120
-\BOOKMARK [2][-]{subsection.2.2.8}{Procesamiento del Lenguaje Natural}{section.2.2}% 121
-\BOOKMARK [1][-]{section.2.3}{Marco Conceptual}{chapter.2}% 122
-\BOOKMARK [2][-]{subsection.2.3.1}{Crowdfunding}{section.2.3}% 123
-\BOOKMARK [2][-]{subsection.2.3.2}{Kickstarter}{section.2.3}% 124
-\BOOKMARK [2][-]{subsection.2.3.3}{Proyecto}{section.2.3}% 125
-\BOOKMARK [2][-]{subsection.2.3.4}{Campa\361a}{section.2.3}% 126
-\BOOKMARK [0][-]{chapter.3}{METODOLOG\315A DE LA INVESTIGACI\323N}{}% 127
-\BOOKMARK [1][-]{section.3.1}{Dise\361o de la investigaci\363n}{chapter.3}% 128
-\BOOKMARK [2][-]{subsection.3.1.1}{Enfoque de la investigaci\363n}{section.3.1}% 129
-\BOOKMARK [2][-]{subsection.3.1.2}{Alcance de la investigaci\363n}{section.3.1}% 130
-\BOOKMARK [2][-]{subsection.3.1.3}{Tipo de la investigaci\363n}{section.3.1}% 131
-\BOOKMARK [2][-]{subsection.3.1.4}{Descripci\363n del prototipo de investigaci\363n}{section.3.1}% 132
-\BOOKMARK [1][-]{section.3.2}{Poblaci\363n y muestra}{chapter.3}% 133
-\BOOKMARK [2][-]{subsection.3.2.1}{Poblaci\363n}{section.3.2}% 134
-\BOOKMARK [2][-]{subsection.3.2.2}{Muestra}{section.3.2}% 135
-\BOOKMARK [2][-]{subsection.3.2.3}{Unidad de an\341lisis}{section.3.2}% 136
-\BOOKMARK [1][-]{section.3.3}{Operacionalizaci\363n de Variables}{chapter.3}% 137
-\BOOKMARK [1][-]{section.3.4}{Instrumentos de medida}{chapter.3}% 138
-\BOOKMARK [1][-]{section.3.5}{T\351cnicas de recolecci\363n de datos}{chapter.3}% 139
-\BOOKMARK [1][-]{section.3.6}{T\351cnicas para el procesamiento y an\341lisis de la informaci\363n}{chapter.3}% 140
-\BOOKMARK [2][-]{subsection.3.6.1}{Comprensi\363n del negocio}{section.3.6}% 141
-\BOOKMARK [2][-]{subsection.3.6.2}{Comprensi\363n de los datos}{section.3.6}% 142
-\BOOKMARK [2][-]{subsection.3.6.3}{Preparaci\363n de los datos}{section.3.6}% 143
-\BOOKMARK [2][-]{subsection.3.6.4}{Modelamiento}{section.3.6}% 144
-\BOOKMARK [2][-]{subsection.3.6.5}{Evaluaci\363n}{section.3.6}% 145
-\BOOKMARK [2][-]{subsection.3.6.6}{Despliegue}{section.3.6}% 146
-\BOOKMARK [1][-]{section.3.7}{Cronograma de actividades y presupuesto}{chapter.3}% 147
-\BOOKMARK [0][-]{chapter.4}{DESARROLLO DEL EXPERIMENTO}{}% 148
-\BOOKMARK [1][-]{section.4.1}{Construcci\363n de los conjuntos finales de datos}{chapter.4}% 149
-\BOOKMARK [2][-]{subsection.4.1.1}{Metainformaci\363n}{section.4.1}% 150
-\BOOKMARK [2][-]{subsection.4.1.2}{Descripci\363n}{section.4.1}% 151
-\BOOKMARK [2][-]{subsection.4.1.3}{Comentarios}{section.4.1}% 152
-\BOOKMARK [1][-]{section.4.2}{An\341lisis Exploratorios de los datos}{chapter.4}% 153
-\BOOKMARK [2][-]{subsection.4.2.1}{Metainformaci\363n}{section.4.2}% 154
-\BOOKMARK [2][-]{subsection.4.2.2}{Descripci\363n}{section.4.2}% 155
-\BOOKMARK [2][-]{subsection.4.2.3}{Comentarios}{section.4.2}% 156
-\BOOKMARK [1][-]{section.4.3}{Pre-procesamiento de los conjuntos de datos}{chapter.4}% 157
-\BOOKMARK [2][-]{subsection.4.3.1}{Metainformaci\363n}{section.4.3}% 158
-\BOOKMARK [2][-]{subsection.4.3.2}{Descripci\363n}{section.4.3}% 159
-\BOOKMARK [2][-]{subsection.4.3.3}{Comentarios}{section.4.3}% 160
-\BOOKMARK [1][-]{section.4.4}{Creaci\363n de los modelos predictivos}{chapter.4}% 161
-\BOOKMARK [2][-]{subsection.4.4.1}{Metainformaci\363n}{section.4.4}% 162
-\BOOKMARK [2][-]{subsection.4.4.2}{Descripci\363n}{section.4.4}% 163
-\BOOKMARK [2][-]{subsection.4.4.3}{Comentarios}{section.4.4}% 164
-\BOOKMARK [2][-]{subsection.4.4.4}{Modelo apilado}{section.4.4}% 165
-\BOOKMARK [0][-]{chapter.5}{AN\301LISIS Y DISCUSI\323N DE RESULTADOS}{}% 166
-\BOOKMARK [1][-]{section.5.1}{Metainformaci\363n}{chapter.5}% 167
-\BOOKMARK [1][-]{section.5.2}{Descripci\363n}{chapter.5}% 168
-\BOOKMARK [1][-]{section.5.3}{Comentarios}{chapter.5}% 169
-\BOOKMARK [1][-]{section.5.4}{Modelo apilado}{chapter.5}% 170
-\BOOKMARK [1][-]{section.5.5}{Comparaci\363n de resultados}{chapter.5}% 171
-\BOOKMARK [1][-]{section.5.6}{Demostraci\363n del modelo final}{chapter.5}% 172
-\BOOKMARK [0][-]{chapter.6}{CONCLUSIONES Y RECOMENDACIONES}{}% 173
-\BOOKMARK [1][-]{section.6.1}{Conclusiones}{chapter.6}% 174
-\BOOKMARK [1][-]{section.6.2}{Recomendaciones}{chapter.6}% 175
-\BOOKMARK [0][-]{chapter*.153}{REFERENCIAS}{}% 176
-\BOOKMARK [0][-]{section*.154}{Anexo}{}% 177
-\BOOKMARK [0][-]{appendix.1.Alph1}{Anexo \301rbol de Problemas}{}% 178
-\BOOKMARK [0][-]{appendix.1.Alph2}{Anexo \301rbol de Objetivos}{}% 179
-\BOOKMARK [0][-]{appendix.1.Alph3}{Anexo Matriz de Consistencia}{}% 180
+\BOOKMARK [1][-]{section.2.2}{Bases Te\363ricas}{chapter.2}% 78
+\BOOKMARK [2][-]{subsection.2.2.1}{Inteligencia Artificial}{section.2.2}% 79
+\BOOKMARK [2][-]{subsection.2.2.2}{Aprendizaje Autom\341tico}{section.2.2}% 80
+\BOOKMARK [2][-]{subsection.2.2.3}{Aprendizaje Profundo}{section.2.2}% 81
+\BOOKMARK [2][-]{subsection.2.2.4}{Modelo Predictivo}{section.2.2}% 82
+\BOOKMARK [2][-]{subsection.2.2.5}{Miner\355a de Datos}{section.2.2}% 83
+\BOOKMARK [2][-]{subsection.2.2.6}{Metodolog\355as de Miner\355a de Datos}{section.2.2}% 84
+\BOOKMARK [2][-]{subsection.2.2.7}{T\351cnicas de Miner\355a de Datos}{section.2.2}% 85
+\BOOKMARK [2][-]{subsection.2.2.8}{Procesamiento del Lenguaje Natural}{section.2.2}% 86
+\BOOKMARK [1][-]{section.2.3}{Marco Conceptual}{chapter.2}% 87
+\BOOKMARK [2][-]{subsection.2.3.1}{Crowdfunding}{section.2.3}% 88
+\BOOKMARK [2][-]{subsection.2.3.2}{Kickstarter}{section.2.3}% 89
+\BOOKMARK [2][-]{subsection.2.3.3}{Proyecto}{section.2.3}% 90
+\BOOKMARK [2][-]{subsection.2.3.4}{Campa\361a}{section.2.3}% 91
+\BOOKMARK [0][-]{chapter.3}{METODOLOG\315A DE LA INVESTIGACI\323N}{}% 92
+\BOOKMARK [1][-]{section.3.1}{Dise\361o de la investigaci\363n}{chapter.3}% 93
+\BOOKMARK [2][-]{subsection.3.1.1}{Enfoque de la investigaci\363n}{section.3.1}% 94
+\BOOKMARK [2][-]{subsection.3.1.2}{Alcance de la investigaci\363n}{section.3.1}% 95
+\BOOKMARK [2][-]{subsection.3.1.3}{Tipo de la investigaci\363n}{section.3.1}% 96
+\BOOKMARK [2][-]{subsection.3.1.4}{Descripci\363n del prototipo de investigaci\363n}{section.3.1}% 97
+\BOOKMARK [1][-]{section.3.2}{Poblaci\363n y muestra}{chapter.3}% 98
+\BOOKMARK [2][-]{subsection.3.2.1}{Poblaci\363n}{section.3.2}% 99
+\BOOKMARK [2][-]{subsection.3.2.2}{Muestra}{section.3.2}% 100
+\BOOKMARK [2][-]{subsection.3.2.3}{Unidad de an\341lisis}{section.3.2}% 101
+\BOOKMARK [1][-]{section.3.3}{Operacionalizaci\363n de Variables}{chapter.3}% 102
+\BOOKMARK [1][-]{section.3.4}{Instrumentos de medida}{chapter.3}% 103
+\BOOKMARK [1][-]{section.3.5}{T\351cnicas de recolecci\363n de datos}{chapter.3}% 104
+\BOOKMARK [1][-]{section.3.6}{T\351cnicas para el procesamiento y an\341lisis de la informaci\363n}{chapter.3}% 105
+\BOOKMARK [2][-]{subsection.3.6.1}{Comprensi\363n del negocio}{section.3.6}% 106
+\BOOKMARK [2][-]{subsection.3.6.2}{Comprensi\363n de los datos}{section.3.6}% 107
+\BOOKMARK [2][-]{subsection.3.6.3}{Preparaci\363n de los datos}{section.3.6}% 108
+\BOOKMARK [2][-]{subsection.3.6.4}{Modelamiento}{section.3.6}% 109
+\BOOKMARK [2][-]{subsection.3.6.5}{Evaluaci\363n}{section.3.6}% 110
+\BOOKMARK [2][-]{subsection.3.6.6}{Despliegue}{section.3.6}% 111
+\BOOKMARK [1][-]{section.3.7}{Cronograma de actividades y presupuesto}{chapter.3}% 112
+\BOOKMARK [0][-]{chapter.4}{DESARROLLO DEL EXPERIMENTO}{}% 113
+\BOOKMARK [1][-]{section.4.1}{Construcci\363n de los conjuntos finales de datos}{chapter.4}% 114
+\BOOKMARK [2][-]{subsection.4.1.1}{Metainformaci\363n}{section.4.1}% 115
+\BOOKMARK [2][-]{subsection.4.1.2}{Descripci\363n}{section.4.1}% 116
+\BOOKMARK [2][-]{subsection.4.1.3}{Comentarios}{section.4.1}% 117
+\BOOKMARK [1][-]{section.4.2}{An\341lisis Exploratorios de los datos}{chapter.4}% 118
+\BOOKMARK [2][-]{subsection.4.2.1}{Metainformaci\363n}{section.4.2}% 119
+\BOOKMARK [2][-]{subsection.4.2.2}{Descripci\363n}{section.4.2}% 120
+\BOOKMARK [2][-]{subsection.4.2.3}{Comentarios}{section.4.2}% 121
+\BOOKMARK [1][-]{section.4.3}{Pre-procesamiento de los conjuntos de datos}{chapter.4}% 122
+\BOOKMARK [2][-]{subsection.4.3.1}{Metainformaci\363n}{section.4.3}% 123
+\BOOKMARK [2][-]{subsection.4.3.2}{Descripci\363n}{section.4.3}% 124
+\BOOKMARK [2][-]{subsection.4.3.3}{Comentarios}{section.4.3}% 125
+\BOOKMARK [1][-]{section.4.4}{Creaci\363n de los modelos predictivos}{chapter.4}% 126
+\BOOKMARK [2][-]{subsection.4.4.1}{Metainformaci\363n}{section.4.4}% 127
+\BOOKMARK [2][-]{subsection.4.4.2}{Descripci\363n}{section.4.4}% 128
+\BOOKMARK [2][-]{subsection.4.4.3}{Comentarios}{section.4.4}% 129
+\BOOKMARK [2][-]{subsection.4.4.4}{Modelo apilado}{section.4.4}% 130
+\BOOKMARK [0][-]{chapter.5}{AN\301LISIS Y DISCUSI\323N DE RESULTADOS}{}% 131
+\BOOKMARK [1][-]{section.5.1}{Metainformaci\363n}{chapter.5}% 132
+\BOOKMARK [1][-]{section.5.2}{Descripci\363n}{chapter.5}% 133
+\BOOKMARK [1][-]{section.5.3}{Comentarios}{chapter.5}% 134
+\BOOKMARK [1][-]{section.5.4}{Modelo apilado}{chapter.5}% 135
+\BOOKMARK [1][-]{section.5.5}{Comparaci\363n de resultados}{chapter.5}% 136
+\BOOKMARK [1][-]{section.5.6}{Demostraci\363n del modelo final}{chapter.5}% 137
+\BOOKMARK [0][-]{chapter.6}{CONCLUSIONES Y RECOMENDACIONES}{}% 138
+\BOOKMARK [1][-]{section.6.1}{Conclusiones}{chapter.6}% 139
+\BOOKMARK [1][-]{section.6.2}{Recomendaciones}{chapter.6}% 140
+\BOOKMARK [0][-]{chapter*.162}{REFERENCIAS}{}% 141
+\BOOKMARK [0][-]{section*.163}{Anexo}{}% 142
+\BOOKMARK [0][-]{appendix.1.Alph1}{Anexo \301rbol de Problemas}{}% 143
+\BOOKMARK [0][-]{appendix.1.Alph2}{Anexo \301rbol de Objetivos}{}% 144
+\BOOKMARK [0][-]{appendix.1.Alph3}{Anexo Matriz de Consistencia}{}% 145

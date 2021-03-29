@@ -1,26 +1,26 @@
-\contentsline {myequations}{Ecuación \numberline {1}Cálculo de pesos para K-NN mediante ponderación de sus distancias}{50}{section*.9}%
-\contentsline {myequations}{Ecuación \numberline {2}Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos}{50}{section*.10}%
-\contentsline {myequations}{Ecuación \numberline {3}Fórmula del algoritmo k-means}{51}{section*.12}%
-\contentsline {myequations}{Ecuación \numberline {4}Fórmula del cálculo del valor de un nodo i}{61}{section*.22}%
-\contentsline {myequations}{Ecuación \numberline {5}Fórmula de una función de activación g para la salida del nodo}{61}{section*.23}%
-\contentsline {myequations}{Ecuación \numberline {6}Fórmula de la función de activación sigmoide}{62}{section*.25}%
-\contentsline {myequations}{Ecuación \numberline {7}Fórmula de función de coste de una regresión logística}{63}{section*.27}%
-\contentsline {myequations}{Ecuación \numberline {8}Actualización de pesos W mediante gradiente descendiente}{64}{section*.29}%
-\contentsline {myequations}{Ecuación \numberline {9}Fórmula del algoritmo de propagación hacia atrás}{65}{section*.31}%
-\contentsline {myequations}{Ecuación \numberline {10}Cálculo del error cometido en una red neuronal}{66}{section*.34}%
-\contentsline {myequations}{Ecuación \numberline {11}Actualización de pesos mediante propagación hacia atrás}{66}{section*.35}%
-\contentsline {myequations}{Ecuación \numberline {12}Cálculo de errores de nodos usando pesos actualizados}{67}{section*.36}%
-\contentsline {myequations}{Ecuación \numberline {13}Fórmula de la función de activación tangente hiperbólica}{67}{section*.38}%
-\contentsline {myequations}{Ecuación \numberline {14}Fórmula de la función de activación puramente lineal}{68}{section*.40}%
-\contentsline {myequations}{Ecuación \numberline {15}Fórmula de la función de activación ReLU}{68}{section*.42}%
-\contentsline {myequations}{Ecuación \numberline {16}Fórmula matemática de la convolución}{72}{section*.47}%
-\contentsline {myequations}{Ecuación \numberline {17}Cálculo del volumen del mapa de activación}{74}{section*.53}%
-\contentsline {myequations}{Ecuación \numberline {18}Cálculo del tamaño de la imagen reducida}{75}{section*.55}%
-\contentsline {myequations}{Ecuación \numberline {19}Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros}{76}{section*.57}%
-\contentsline {myequations}{Ecuación \numberline {20}Ecuación del hiperplano para clasificar dos clases}{78}{section*.63}%
-\contentsline {myequations}{Ecuación \numberline {21}Fórmula para determinar un estado en una S-RNN}{84}{section*.69}%
-\contentsline {myequations}{Ecuación \numberline {22}Fórmula de TF-IDF}{92}{section*.79}%
-\contentsline {myequations}{Ecuación \numberline {23}Fórmula para calcular la exactitud}{103}{section*.83}%
-\contentsline {myequations}{Ecuación \numberline {24}Fórmula para calcular la precisión}{103}{section*.84}%
-\contentsline {myequations}{Ecuación \numberline {25}Fórmula para calcular la sensibilidad}{105}{section*.87}%
-\contentsline {myequations}{Ecuación \numberline {26}Fórmula para calcular el puntaje F1}{105}{section*.88}%
+\contentsline {myequations}{Ecuación \numberline {1}Cálculo de pesos para K-NN mediante ponderación de sus distancias}{50}{section*.18}%
+\contentsline {myequations}{Ecuación \numberline {2}Fórmula alternativa del algoritmo K-NN mediante sumatoria de pesos}{50}{section*.19}%
+\contentsline {myequations}{Ecuación \numberline {3}Fórmula del algoritmo k-means}{51}{section*.21}%
+\contentsline {myequations}{Ecuación \numberline {4}Fórmula del cálculo del valor de un nodo i}{62}{section*.31}%
+\contentsline {myequations}{Ecuación \numberline {5}Fórmula de una función de activación g para la salida del nodo}{62}{section*.32}%
+\contentsline {myequations}{Ecuación \numberline {6}Fórmula de la función de activación sigmoide}{63}{section*.34}%
+\contentsline {myequations}{Ecuación \numberline {7}Fórmula de función de coste de una regresión logística}{64}{section*.36}%
+\contentsline {myequations}{Ecuación \numberline {8}Actualización de pesos W mediante gradiente descendiente}{65}{section*.38}%
+\contentsline {myequations}{Ecuación \numberline {9}Fórmula del algoritmo de propagación hacia atrás}{66}{section*.40}%
+\contentsline {myequations}{Ecuación \numberline {10}Cálculo del error cometido en una red neuronal}{67}{section*.43}%
+\contentsline {myequations}{Ecuación \numberline {11}Actualización de pesos mediante propagación hacia atrás}{67}{section*.44}%
+\contentsline {myequations}{Ecuación \numberline {12}Cálculo de errores de nodos usando pesos actualizados}{68}{section*.45}%
+\contentsline {myequations}{Ecuación \numberline {13}Fórmula de la función de activación tangente hiperbólica}{68}{section*.47}%
+\contentsline {myequations}{Ecuación \numberline {14}Fórmula de la función de activación puramente lineal}{69}{section*.49}%
+\contentsline {myequations}{Ecuación \numberline {15}Fórmula de la función de activación ReLU}{69}{section*.51}%
+\contentsline {myequations}{Ecuación \numberline {16}Fórmula matemática de la convolución}{73}{section*.56}%
+\contentsline {myequations}{Ecuación \numberline {17}Cálculo del volumen del mapa de activación}{75}{section*.62}%
+\contentsline {myequations}{Ecuación \numberline {18}Cálculo del tamaño de la imagen reducida}{76}{section*.64}%
+\contentsline {myequations}{Ecuación \numberline {19}Cálculo del tamaño de la imagen reducida con bordes rellenados con ceros}{77}{section*.66}%
+\contentsline {myequations}{Ecuación \numberline {20}Ecuación del hiperplano para clasificar dos clases}{79}{section*.72}%
+\contentsline {myequations}{Ecuación \numberline {21}Fórmula para determinar un estado en una S-RNN}{85}{section*.78}%
+\contentsline {myequations}{Ecuación \numberline {22}Fórmula de TF-IDF}{93}{section*.88}%
+\contentsline {myequations}{Ecuación \numberline {23}Fórmula para calcular la exactitud}{104}{section*.92}%
+\contentsline {myequations}{Ecuación \numberline {24}Fórmula para calcular la precisión}{104}{section*.93}%
+\contentsline {myequations}{Ecuación \numberline {25}Fórmula para calcular la sensibilidad}{106}{section*.96}%
+\contentsline {myequations}{Ecuación \numberline {26}Fórmula para calcular el puntaje F1}{106}{section*.97}%

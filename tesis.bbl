@@ -147,7 +147,7 @@
       \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
       \endverb
     \endentry
-    \entry{pr_beckwith2016predcrowd}{article}{}
+    \entry{pr_beckwith2016predcrowd}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=10f25e146ac037056a2607af539b34a2}{%
            family={Beckwith},
@@ -156,8 +156,11 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {University of Pennsylvania ScholarlyCommons}%
+      \list{institution}{1}{%
+        {Universidad de Pensilvania}%
+      }
+      \list{location}{1}{%
+        {Filadelfia, Pensilvania, Estados Unidos}%
       }
       \strng{namehash}{10f25e146ac037056a2607af539b34a2}
       \strng{fullhash}{10f25e146ac037056a2607af539b34a2}
@@ -172,9 +175,11 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Joseph Wharton Scholars}
       \field{title}{Predicting Success in Equity Crowdfunding}
+      \field{type}{Tesis de grado}
       \field{year}{2016}
+      \field{pages}{140}
+      \range{pages}{1}
       \verb{urlraw}
       \verb http://repository.upenn.edu/joseph_wharton_scholars/25
       \endverb
