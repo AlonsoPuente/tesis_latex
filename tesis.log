@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.3.27)  1 APR 2021 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.3.27)  1 APR 2021 21:21
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2760,6 +2760,16 @@ Underfull \hbox (badness 3219) in paragraph at lines 34--34
  []
 
 
+Underfull \hbox (badness 1087) in paragraph at lines 34--34
+[]|\OT1/ptm/m/n/10.95 Predecir el es-ta-do de fi-nan-cia-
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 34--34
+\OT1/ptm/m/n/10.95 mien-to de pro-yec-tos de tec-no-
+ []
+
+
 Underfull \hbox (badness 7667) in paragraph at lines 39--39
 []|\OT1/ptm/m/n/10.95 Utilizar t[]ecni-cas de Ma-chi-ne
  []
@@ -2795,11 +2805,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 4728562E1079BB45065EE0DFDE61CBCE;6780.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
@@ -2807,7 +2812,7 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 Here is how much of TeX's memory you used:
  28235 strings out of 480763
  517532 string characters out of 2904056
- 1367935 words of memory out of 3000000
+ 1367996 words of memory out of 3000000
  42946 multiletter control sequences out of 15000+200000
  591960 words of font info for 155 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2823,7 +2828,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (177 pages, 12025590 bytes).
+Output written on tesis.pdf (177 pages, 12026307 bytes).
 PDF statistics:
  2910 PDF objects out of 2984 (max. 8388607)
  594 named destinations out of 1000 (max. 500000)
