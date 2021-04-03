@@ -52,6 +52,20 @@ backend=biber]{biblatex}
 \captionsetup[figure]{labelsep=period,labelfont={it,bf},justification=justified,singlelinecheck=false,font=doublespacing}
 \captionsetup[subfigure]{justification=centering}
 
+%%%Editar formato y tamaño de capítulos y secciones
+\usepackage{titlesec}
+\titleformat{\chapter}
+{\normalfont\large\bfseries}{CAPÍTULO \thechapter:}{1em}{}
+\titlespacing*{\chapter}{0pt}{-4ex}{1ex}
+
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+
 %\usepackage{biblatex}
 %paquete para hiperlinks entre citas e imagenes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

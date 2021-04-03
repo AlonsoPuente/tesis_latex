@@ -1479,6 +1479,67 @@
       \verb https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052
       \endverb
     \endentry
+    \entry{bk_hernandez2014metodologia}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=82531f0c5173ef965e84d101f98cbf0a}{%
+           family={Hernández\bibnamedelima Sampieri},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cda946b44fb9851bceae7fa35c71abde}{%
+           family={Fernández\bibnamedelima Collado},
+           familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e441489e7f536d4f82d39bf61aa6b76}{%
+           family={Baptista\bibnamedelima Lucio},
+           familyi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d5214b09070be8ba4dd4b092d74a6a64}{%
+           family={Hirst},
+           familyi={H\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Ciudad de México}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill Education}%
+      }
+      \strng{namehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
+      \strng{fullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{bibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authorbibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authornamehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
+      \strng{authorfullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{editorbibnamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editornamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editorfullhash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Sexta edición}
+      \field{isbn}{978-1-4562-2396-0}
+      \field{title}{Metodología de la Investigación}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
+      \endverb
+      \verb{url}
+      \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
+      \endverb
+    \endentry
     \entry{cr_hollas2013crwd}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=563d6265ec8990eabf3362628698abc7}{%
