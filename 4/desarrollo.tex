@@ -647,6 +647,64 @@ A continuación, los vectores de palabras ingresan a la capa de la red neuronal 
 
 Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de entrada (2*128 de la capa Bidireccional LSTM) y utiliza la función de activación \textit{sigmoid} para transformar el valor final entre 0 y 1.
 
+En la Tabla \ref{4:table3} se presentan las variables que se usaron para entrenar el modelo de Aprendizaje Profundo Multimodal. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 17 antecedentes en el Capítulo II.
+
+\begin{table}[h!]
+	\caption[Diccionario de datos del conjunto final entrenado]{Diccionario de datos del conjunto final entrenado.}
+	\label{4:table3}
+	\centering
+	\small
+	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
+		\hline
+		\rowcolor{bluejean}
+		\Centering \color{white}{Variable}& \Centering \color{white}{Detalle}& \Centering \color{white}{Tipo de dato}\\
+		\hline
+		\rowcolor{turq}
+		\multicolumn{3}{c}{Variables independientes} \\
+		\hline
+		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float64 \\
+		\hline
+		\textbf{completeness} & Porcentaje de financiamiento o completitud. & float64 \\
+		\hline
+		\textbf{duration} &	Duración de la campaña (en días). &	int64 \\
+		\hline
+		\textbf{pledges\_num} &	Cantidad de montos disponibles para contribuir. &	int64 \\
+		\hline
+		\textbf{pledged} &	Monto contribuído en la campaña. &	float64 \\
+		\hline
+		\textbf{pledges\_median} &	Mediana de montos disponibles para contribuir. &	float64 \\
+		\hline
+		\textbf{description} &	Descripción del proyecto. &	object \\
+		\hline
+		\textbf{comments} & Comentarios de patrocinadores sobre el proyecto. & object \\
+		\hline
+		\rowcolor{turq}
+		\multicolumn{3}{c}{Variable dependiente} \\
+		\hline
+		\textbf{state} & Estado de financiamiento del proyecto. & object \\
+		\hline
+	\end{tabular}
+	\par	%%Salto de linea
+	\bigskip
+	\begin{flushleft}	%%Alinear a la izquierda sin justificar
+		\small Fuente: Elaboración propia.
+	\end{flushleft}
+\end{table}
+
+Los autores citados por cada variable utilizada se mencionan a continuación:
+\begin{itemize}
+	\item \textbf{goal}: \cite{pr_chen2013kickpredict}, \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_chen2015predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}, \cite{pr_kaur2017socmedcrowd}, \cite{pr_kamath2018suplearn}, \cite{pr_yu2018deeplearning}, \cite{pr_jin2019dayssuccess}, \cite{pr_cheng2019deeplearning}.
+	\item \textbf{completeness}: \cite{pr_chen2015predcrowd}.
+	\item \textbf{duration}: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_li2016predcrowd}, \cite{pr_sawhney2016usingLT}, \cite{pr_kaur2017socmedcrowd}, \cite{pr_kamath2018suplearn}, \cite{pr_yu2018deeplearning}, \cite{pr_jin2019dayssuccess}.
+	\item \textbf{pledges\_num}: \cite{pr_chen2013kickpredict}, \cite{pr_mitra2014phrases}, \cite{pr_chen2015predcrowd}, \cite{pr_yuan2016textanalytics}, \cite{pr_jin2019dayssuccess}.
+	\item \textbf{pledged}: \cite{pr_chen2013kickpredict}, \cite{pr_li2016predcrowd}, \cite{pr_kamath2018suplearn}.
+	\item \textbf{pledges\_median}: \cite{pr_chen2015predcrowd}*, \cite{pr_jin2019dayssuccess}*.
+	\item \textbf{description}: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}, \cite{pr_kamath2018suplearn}, \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}, \cite{pr_cheng2019deeplearning}, \cite{pr_chen2019keywords_crowdfunding}, \cite{pr_chaichi2019nlp_3dprinting}.
+	\item \textbf{comments}: \cite{pr_li2016predcrowd}, \cite{pr_kaur2017socmedcrowd}, \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}.
+\end{itemize}
+
+Si bien en los respectivos antecedentes marcados en (*) figuran el promedio de los montos disponibles para patrocinar, se usó la mediana en vez de la media ya que presentó mejor performance en los experimentos.
+
 \begin{landscape}
 	\subsection{Modelo apilado}
 	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig40}.
