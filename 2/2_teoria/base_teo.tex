@@ -134,6 +134,18 @@ La principal diferencia con el Aprendizaje Automático es que el Aprendizaje Pro
 
 Por un lado, mientras en el Aprendizaje Automático o de máquina, el ordenador extrae conocimiento a través de experiencia supervisada, en el aprendizaje profundo está menos sometido a supervisión. Mientras que el primer tipo de aprendizaje consume muchísimo tiempo y se basa en proponer abstracciones que permiten aprender al ordenador, en el segundo no consume demasiado tiempo y por el contrario de su par, crea redes neuronales a gran escala que permiten que el ordenador aprenda y piense por sí mismo sin necesidad directa de intervención humana. Actualmente, el Aprendizaje Profundo se usa para crear softwares capaces de determinar emociones o eventos descritos en textos, reconocimiento de objetos en fotografías y realizar predicciones acerca del posible comportamiento futuro de las personas. Empresas como Google (proyecto Google Brain) o Facebook (Unidad de investigación en IA) han puesto en marcha proyectos basados en esta rama para potenciar y mejorar sus algoritmos con el fin de ofrecer una mejor experiencia de sus servicios a sus clientes \parencite{tec_banafa2019deeplearning}.
 
+\subsection{Aprendizaje Profundo Multimodal}
+El Aprendizaje Profundo Multimodal y Multitarea (\textit{Multimodal and Multitask Deep Learning}) son un tipo de aprendizaje basado en la explotación de representaciones latentes en las redes neuronales profundas agrupando distintas modalidades (por ejemplo, audio, imágenes, texto, videos, etc) o múltiples tareas (predicción, clasificación, series de tiempo, entre otros) como en la Figura \ref{2:fig46} \parencite{bk_deng2018deeplearningnlp}
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.50\textwidth]{2/figures/multimodal_network.jpg}
+		\caption[Arquitectura de un modelo multimodal de imágenes y texto]{Arquitectura de un modelo multimodal de imágenes y texto.\\
+			Fuente: \cite{tec_nishida2015multimodal}}
+		\label{2:fig46}
+	\end{center}
+\end{figure}
+
 \subsection{Modelo Predictivo}
 
 Son modelos de datos estadísticos utilizados para predecir el comportamiento futuro. En estos, se recopilan datos históricos y actuales, se formula un modelo estadístico, se realizan predicciones y el modelo se valida a medida que se dispone de datos adicionales. Los modelos predictivos analizan el rendimiento pasado para evaluar la probabilidad de que un cliente muestre un comportamiento específico en el futuro. En esta categoría también abarca la búsqueda de patrones ocultos \parencite{gl_gartner2019pm}.
@@ -1162,19 +1174,7 @@ Algunas técnicas de Aprendizaje Profundo utilizados actualmente para resolver p
 			Fuente: \cite{tec_kostadinov2019seq2seq}}
 			\label{2:fig45}
 		\end{center}
-	\end{figure}
-	
-	\item \textbf{Aprendizaje Profundo Multimodal y Multitarea} (\textit{Multimodal and Multitask Deep Learning}): Son un tipo de aprendizaje basado en la explotación de representaciones latentes en las redes neuronales profundas agrupando distintas modalidades (por ejemplo, audio, imágenes, texto, videos, etc) o múltiples tareas (predicción, clasificación, series de tiempo, entre otros) como en la Figura \ref{2:fig46} \parencite{bk_deng2018deeplearningnlp}
-	
-	\begin{figure}[!ht]
-		\begin{center}
-			\includegraphics[width=0.50\textwidth]{2/figures/multimodal_network.jpg}
-			\caption[Arquitectura de un modelo multimodal de imágenes y texto]{Arquitectura de un modelo multimodal de imágenes y texto.\\
-			Fuente: \cite{tec_nishida2015multimodal}}
-			\label{2:fig46}
-		\end{center}
-	\end{figure}
-	
+	\end{figure}	
 \end{itemize}
 
 El contenido textual que se usa en los modelos anteriores debe ser pre-procesada previamente. El texto en sí no puede ser incluido tal cual en los modelos de Aprendizaje Automático o Aprendizaje Profundo sin antes ser limpiado \parencite{bk_brownlee2017deeplearning_nlp}. Python ofrece una librería para trabajar y modelar texto llamada Natural Language Toolkit o NLTK. Algunas de las funciones disponibles se encuentran separación de texto en oraciones, separación en palabras o tokenización, eliminación de signos de puntuación, eliminación de palabras de parada (\textit{stop words}), reducción de palabras hacia su forma raíz (\textit{stemming}), retorno de palabras hacia su base o forma diccionario (\textit{lemmatization}).

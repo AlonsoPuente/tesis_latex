@@ -1,16 +1,16 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
-\contentsline {table}{\numberline {1}{\ignorespaces Cuadro comparativo entre características de las tres metodologías}}{61}{table.caption.39}%
-\contentsline {table}{\numberline {2}{\ignorespaces Matriz de confusión}}{83}{table.caption.85}%
-\contentsline {table}{\numberline {3}{\ignorespaces Matriz de operacionalización de variables}}{105}{table.3.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Cuadro comparativo para la selección de la metodología}}{108}{table.3.4}%
-\contentsline {table}{\numberline {5}{\ignorespaces Presupuesto de los costos personales del autor}}{117}{table.caption.109}%
-\contentsline {table}{\numberline {6}{\ignorespaces Presupuesto de los costos de las herramientas para el proyecto}}{117}{table.caption.110}%
-\contentsline {table}{\numberline {7}{\ignorespaces Diccionario de datos del dataset de metainformación generado}}{123}{table.caption.116}%
-\contentsline {table}{\numberline {8}{\ignorespaces Potenciales combinatorias de variables de metainformación}}{137}{table.caption.140}%
-\contentsline {table}{\numberline {9}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{148}{table.caption.149}%
-\contentsline {table}{\numberline {10}{\ignorespaces Informe de clasificación para el modelo de metadata}}{153}{table.caption.153}%
-\contentsline {table}{\numberline {11}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{156}{table.caption.157}%
-\contentsline {table}{\numberline {12}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{158}{table.caption.161}%
-\contentsline {table}{\numberline {13}{\ignorespaces Informe de clasificación para el modelo apilado}}{160}{table.caption.165}%
-\contentsline {table}{\numberline {14}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{161}{table.caption.167}%
+\contentsline {table}{\numberline {1}{\ignorespaces Cuadro comparativo entre características de las tres metodologías}}{61}{table.caption.40}%
+\contentsline {table}{\numberline {2}{\ignorespaces Matriz de confusión}}{83}{table.caption.86}%
+\contentsline {table}{\numberline {3}{\ignorespaces Matriz de operacionalización de variables}}{103}{table.3.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces Cuadro comparativo para la selección de la metodología}}{105}{table.3.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Presupuesto de los costos personales del autor}}{115}{table.caption.109}%
+\contentsline {table}{\numberline {6}{\ignorespaces Presupuesto de los costos de las herramientas para el proyecto}}{116}{table.caption.110}%
+\contentsline {table}{\numberline {7}{\ignorespaces Diccionario de datos del dataset de metainformación generado}}{122}{table.caption.116}%
+\contentsline {table}{\numberline {8}{\ignorespaces Potenciales combinatorias de variables de metainformación}}{136}{table.caption.140}%
+\contentsline {table}{\numberline {9}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{147}{table.caption.149}%
+\contentsline {table}{\numberline {10}{\ignorespaces Informe de clasificación para el modelo de metadata}}{152}{table.caption.153}%
+\contentsline {table}{\numberline {11}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{155}{table.caption.157}%
+\contentsline {table}{\numberline {12}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{157}{table.caption.161}%
+\contentsline {table}{\numberline {13}{\ignorespaces Informe de clasificación para el modelo apilado}}{159}{table.caption.165}%
+\contentsline {table}{\numberline {14}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{160}{table.caption.167}%

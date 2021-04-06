@@ -2,27 +2,11 @@
 \section{Diseño de la investigación}
 En esta sección del documento se explica cuál fue el diseño, el tipo y el enfoque del trabajo de investigación, así como también la población y la muestra. 
 
-\subsection{Enfoque de la investigación}
-El presente trabajo tuvo un enfoque cuantitativo ya que, según \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}, este enfoque utiliza la recolección de datos para probar hipótesis con base en la medición numérica y el análisis estadístico, con el fin de establecer pautas de comportamiento y probar teorías. Esto se refleja en los 10 pasos del proceso cuantitativo descritos por el anterior autor y que fueron aplicados en la investigación, desde la concepción de la idea hasta la elaboración del reporte de resultados.
-
-\subsection{Alcance de la investigación}
-El alcance del presente trabajo fue descriptivo ya que, según \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}, busca especificar propiedades y características importantes de cualquier fenómeno que se analice, así como describir tendencias de un grupo o población. Esto se refleja en el análisis de patrones de comportamiento de la muestra considerada en la investigación para que, a partir de las variables, se logre implementar un modelo predictivo del estado de financiamiento de proyectos tecnológicos de Kickstarter.
-
 \subsection{Tipo de la investigación}
 Para determinar el tipo de la investigación, primero fue necesario definir el actual trabajo como Diseño Experimental ya que, según \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}, se pretende establecer el posible efecto de una causa que se manipula. Dentro de esta categoría se clasifica como Diseño Experimental Puro, ya que se manipuló intencionalmente más de una variable independiente (fueron agregadas y/o removidas) con la finalidad de medir el efecto que estas generan en la variable dependiente, el estado final de financiamiento de un proyecto de tecnología en Kickstarter.
 
-\subsection{Descripción del prototipo de investigación}
-Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\cite{pr_chen2013kickpredict}, primer antecedente; \cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_beckwith2016predcrowd}, quinto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_kaur2017socmedcrowd}, noveno antecedente; \cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_yu2018deeplearning}, undécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente; \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \cite{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig1}.
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/framework.png}
-		\caption[Marco de trabajo del prototipo final]{Marco de trabajo del prototipo final.\\
-		Fuente: Elaboración propia}
-		\label{3:fig1}
-	\end{center}
-\end{figure}
-
-\section{Población y muestra}
+\subsection{Enfoque de la investigación}
+El presente trabajo tuvo un enfoque cuantitativo ya que, según \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}, este enfoque utiliza la recolección de datos para probar hipótesis con base en la medición numérica y el análisis estadístico, con el fin de establecer pautas de comportamiento y probar teorías. Esto se refleja en los 10 pasos del proceso cuantitativo descritos por el anterior autor y que fueron aplicados en la investigación, desde la concepción de la idea hasta la elaboración del reporte de resultados.
 
 \subsection{Población}
 La población fueron todos los proyectos de la web de crowdfunding Kickstarter.
@@ -30,74 +14,65 @@ La población fueron todos los proyectos de la web de crowdfunding Kickstarter.
 \subsection{Muestra}
 La muestra fueron 27,251 proyectos, incluyendo exitosos y fracasados, de la categoría Tecnología, de la web de crowdfunding Kickstarter, entre los periodos 2009 y 2019. Como se mencionó en el Capítulo I, el criterio de la elección de esta categoría se debe a su bajo ratio de éxito de financiamiento en promedio durante los periodos mencionados, los cuales se consideraron hasta el 2019 dado que tomar el año 2020 incurriría en la distorsión del ratio por la coyuntura de la pandemia del Covid-19.
 
-\subsection{Unidad de análisis}
-La unidad de análisis fue un proyecto en Kickstarter de la categoría Tecnología entre los periodos 2009-2019.
-
-\section{Operacionalización de Variables}
+\subsection{Operacionalización de Variables}
 En la Tabla \ref{3:table1} se presenta la operacionalización de variables para la investigación.
 
 %\begin{table}[h!]
-	
-	\begin{longtable}{|M{5cm}|M{4.5cm}|M{5.5cm}|}
-		\caption[Matriz de operacionalización de variables]{Matriz de operacionalización de variables.}
-		\label{3:table1}
-		\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
-		\centering
-		\small
-		\tabularnewline\hline
-		\textbf {VARIABLE} & \textbf {INDICADOR} & \textbf {CÁLCULO}
-		\\%%[5pt]
-		\hline
-		\multirow{2}{5cm}[-2ex]{\centering Estado de financiamiento de un proyecto} & Proyecto exitoso & Monto meta $\leq$ monto contribuido                                                   \\%%[10pt]
-		\cline{2-3} & Proyecto fracasado & Monto meta $>$ monto contribuido \\%%[10pt]
-		\hline
-		\multirow{2}{5cm}[-6ex]{\centering Aprendizaje Profundo Multimodal} & Modelo de Aprendizaje Profundo & \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
-			\item Perceptrón Multicapa
-			\item Red Neuronal Convolucional
-			\item LSTM Bidireccional
-		\end{itemize} \\
-		\cline{2-3} 
-		& Procesamiento de Lenguaje Natural &
-		\setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
-			\item Pre-procesamiento de textos
-			\item Representación de textos en vectores
-		\end{itemize} \\
-		\hline
-		\multirow{5}{5cm}{\centering Efectividad del modelo} & Exactitud & $\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}$ \\%%[10pt]
-		\cline{2-3} 
-		& Precisión & $\frac{V.P.}{V.P.+F.P.}$ \\%%[10pt]
-		\cline{2-3} 
-		& Área bajo la curva ROC & $P( score(x^{+}) > score(x^{-}) )$ \\%%[10pt]
-		\cline{2-3} 
-		& Sensibilidad & $\frac{V.P.}{V.P.+F.N.}$ \\%%[10pt]
-		\cline{2-3} 
-		& Puntaje F1 & $\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}$ \\%%[10pt]
-		\hline
-	\end{longtable}
-	%\par	%%Salto de linea
-	%\bigskip
-	\begin{flushleft}	%%Alinear a la izquierda sin justificar
-		\small Fuente: Elaboración propia.
-	\end{flushleft}
+
+\begin{longtable}{|M{5cm}|M{4.5cm}|M{5.5cm}|}
+	\caption[Matriz de operacionalización de variables]{Matriz de operacionalización de variables.}
+	\label{3:table1}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	\centering
+	\small
+	\tabularnewline\hline
+	\textbf {VARIABLE} & \textbf {INDICADOR} & \textbf {CÁLCULO}
+	\\%%[5pt]
+	\hline
+	\multirow{2}{5cm}[-2ex]{\centering Estado de financiamiento de un proyecto} & Proyecto exitoso & Monto meta $\leq$ monto contribuido                                                   \\%%[10pt]
+	\cline{2-3} & Proyecto fracasado & Monto meta $>$ monto contribuido \\%%[10pt]
+	\hline
+	\multirow{2}{5cm}[-6ex]{\centering Aprendizaje Profundo Multimodal} & Modelo de Aprendizaje Profundo & \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Perceptrón Multicapa
+		\item Red Neuronal Convolucional
+		\item LSTM Bidireccional
+	\end{itemize} \\
+	\cline{2-3} 
+	& Procesamiento de Lenguaje Natural &
+	\setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Pre-procesamiento de textos
+		\item Representación de textos en vectores
+	\end{itemize} \\
+	\hline
+	\multirow{5}{5cm}{\centering Efectividad del modelo} & Exactitud & $\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}$ \\%%[10pt]
+	\cline{2-3} 
+	& Precisión & $\frac{V.P.}{V.P.+F.P.}$ \\%%[10pt]
+	\cline{2-3} 
+	& Área bajo la curva ROC & $P( score(x^{+}) > score(x^{-}) )$ \\%%[10pt]
+	\cline{2-3} 
+	& Sensibilidad & $\frac{V.P.}{V.P.+F.N.}$ \\%%[10pt]
+	\cline{2-3} 
+	& Puntaje F1 & $\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}$ \\%%[10pt]
+	\hline
+\end{longtable}
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia.
+\end{flushleft}
 %\end{table}
 
+El trabajo busca resolver el problema de clasificación del estado final de financiamiento de un proyecto a través de la implementación de un modelo de Aprendizaje Profundo Multimodal.
+
+Como se explica en la subsección 2.3.3, un proyecto de Kickstarter presenta 5 categorías de acuerdo al logro del objetivo de su meta: exitoso, fracasado, vigente, suspendido y cancelado. Dado que se busca predecir si, a partir de una serie de variables, el proyecto llegará a ser financiado o no, el estudio se delimita a estas 2 clases. Para determinar este valor, y según la política “Todo o Nada” de la plataforma explicado en la subsección 2.3.2, un proyecto es determinado como exitoso cuando el monto contribuido al culminar el tiempo de vida de su campaña logra ser mayor o igual a su meta estimada. De lo contrario, se dice que es un proyecto fracasado.
+
+Con el fin de alcanzar el objetivo, se utilizó como principal vehículo un modelo de Aprendizaje Profundo Multimodal, cuyo concepto teórico se explica en la Sección 2.2.4. Este modelo, alimentado de 3 modalidades independientes presentes en cada campaña de Kickstarter, comprende el ensamblaje de 3 modelos de Aprendizaje Profundo: un modelo Perceptrón Multicapa (MLP), una Red Neuronal Convolucional (CNN) y un modelo LSTM Bidireccional. Al mismo tiempo, para los 2 últimos que corresponden a las modalidades de descripción y comentarios respectivamente, se trabajaron sus datos de entrada con técnicas de Procesamiento de Lenguaje Natural que incluye desde el pre-procesamiento de los textos hasta su conversión en vectores que finalmente serán entrenados.
+
+Por último, para poder evaluar la efectividad que este registrará al ser entrenado, su desempeño será evaluado a través de métricas de clasificación de Minería de Datos. Para la investigación, las 5 métricas utilizadas fueron la exactitud, la precisión, el área bajo la curva ROC, la sensibilidad y el puntaje F1, las cuales se describen en la Sección 2.2.9.
+
 \clearpage
-
-\section{Técnicas de recolección de datos}
-Los conjuntos de datos recolectados para la investigación se componen de mezcla de observaciones cuantitativas (variables numéricas basadas en características del proyecto como la meta de financiamiento, montos prometidos, duración de la campaña y otros indicadores financieros) y cualitativas (descripción y comentarios del proyecto). Para obtener los 3 principales datasets, se siguió el flujo de la Figura \ref{3:fig4}. La base de datos de la metainformación, que comprende las variables cuantitativas y propaganda del proyecto, fue consolidada luego de descargar un histórico público de 10 años de la página web “Web Robots”, fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, y posteriormente pre-procesarla. Mientras que por el lado de la descripción y comentarios de cada proyecto, se usaron técnicas y herramientas de \textit{web scraping} a partir de los URLs. El detalle de cada paso del proceso se explica en la sección de Construcción de los conjuntos finales de datos del Capítulo IV.
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.95\textwidth]{3/figures/data_recolection_flux.png}
-		\caption[Flujograma de la recolección de conjuntos finales de datos]{Flujograma de la recolección de conjuntos finales de datos.\\
-		Fuente: Elaboración propia.}
-		\label{3:fig4}
-	\end{center}
-\end{figure}
-
-Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
 
 \section{Técnicas para el procesamiento y análisis de la información}
 
@@ -109,7 +84,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 %\begin{table}[htbp]
 \begingroup
 	\renewcommand\arraystretch{0.3}
-	\begin{longtable}{|M{3cm}|M{3cm}|M{3cm}|M{6cm}|}
+	\begin{longtable}{|M{3cm}|M{2.5cm}|M{2.5cm}|M{6cm}|}
 		\caption[Cuadro comparativo para la selección de la metodología]{Cuadro comparativo para la selección de la metodología.}
 		\label{3:table2}
 		\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
@@ -126,7 +101,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 1
 		& 6
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Comprensión del negocio.
 			\item Comprensión de los datos.
 			\item Preparación de los datos.
@@ -140,7 +115,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 2
 		& 6
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Formulación del problema.
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
@@ -154,7 +129,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 1
 		& 6
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Formulación del problema.
 			\item Recolección de datos.
 			\item Selección de características.
@@ -168,7 +143,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 2
 		& 5
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
 			\item Selección de características.
@@ -181,7 +156,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 3
 		& 5
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Formulación del problema.
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
@@ -194,7 +169,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 3
 		& 5
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
 			\item Modelado.
@@ -207,7 +182,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 3
 		& 4
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
 			\item Modelado.
@@ -219,7 +194,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 1
 		& 4
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Recolección de datos.
 			\item Modelado.
 			\item Evaluación.
@@ -231,7 +206,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 2
 		& 3
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep]
+		\begin{itemize}[noitemsep,leftmargin=*]
 			\item Recolección de datos.
 			\item Modelado.
 			\item Evaluación.
@@ -247,15 +222,15 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 	\end{flushleft}
 %\end{table}
 
-Si bien es cierto que de las 3 metodologías mencionadas por \citeauthor{tec_braulio2015metodologiasdm}, solamente 1 autor especifica en su investigación el uso de una de ellas, en este caso CRISP-DM, otros 2 autores utilizaron metodologías con la misma secuencia de pasos que comprende la anterior como se puede distinguir en el Anexo.
+Si bien es cierto que de las 3 metodologías mencionadas por \citeauthor{tec_braulio2015metodologiasdm}, solamente 1 autor especifica en su investigación el uso de una de ellas, en este caso CRISP-DM, otros 3 autores (grupos A y B) en sus propias metodologías siguieron secuencias de actividades que se encuentran comprendidas también dentro de esta metodología. Por su parte, los grupos C, F y H guardan cierta relación de semejanza con la metodología SEMMA por comprender enfocarse más en el modeloado, así como tener de primera actividad el Muestreo y culminar con la evaluación de resultados, obviando la actividad de formulación del problema. En el Anexo REF se puede observar con más detalle las metodologías de la Tabla \ref{3:table2} asignadas a la investigación correspondiente.
 
-Después de evaluar y comparar las tres mencionadas, se concluyó que la mejor de ellas dependerá de la intención o finalidad que busca lograr el o los involucrados en el negocio tanto en objetivos como en resultados. Para la presente investigación, se siguió la metodología de CRISP-DM debido a la coyuntura en la que se desarrolló. Las razones de la elección de la misma fueron las siguientes:
+Además de lo anterior expuesto, algunas de las siguientes características de acuerdo a la literatura también influyeron en la elección de la metodología CRISP-DM:
 
 \begin{itemize}
-	\item La metodología CRISP-DM contempla entre sus fases la comprensión del negocio además de la parte técnica que incluye el modelado y análisis de resultados. La comprensión del negocio tiene un rol importante ya que se define al inicio de todo el proceso para dar el alcance del proyecto y definir objetivos que se buscan a partir de la Minería de Datos y Big Data.
-	\item Ayuda a la gerencia del proyecto en la planeación y toma de decisiones (fase Despliegue) a partir de los resultados obtenidos, reportándolos y convirtiéndolos en oportunidades a considerar en los objetivos del negocio.
+	\item La metodología seleccionada contempla entre sus fases la comprensión del negocio además de la parte técnica que incluye el modelado y análisis de resultados. Esta guarda un rol importante ya que en ella se define el inicio de todo el proceso para dar el alcance del proyecto y definir objetivos que se buscan a partir de la Minería de Datos y Big Data. La formulación del problema se encuentra presente en el actual trabajo.
+	\item Ayuda a los responsables del proyecto y/o investigación en la planeación y toma de decisiones (fase Despliegue) a partir de los resultados obtenidos, reportando y convirtiéndolos en oportunidades a considerar en los objetivos.
 	\item Evalúa en todo el proceso los datos y variables usadas con el fin de crear el mejor modelo. Las variables seleccionadas serán importantes para interpretar los resultados y tomar decisiones.
-	\item Si se habla de las otras dos metodologías, empezando por KDD, si bien esta contempla 9 pasos durante su proceso, el objetivo de KDD en cada uno de estos resulta ser más técnico, es decir, trabajar, seleccionar e interpretar métricas, variables, modelos, entre otros para obtener los mejores resultados más allá de considerar el contexto y comprensión del negocio. De hecho, no existe alguna fase dedicada al entendimiento del mismo.
+	\item Respecto a las otras dos metodologías, ambas omiten en su primera iteración la formulación del problema, la cual se encuentra presente en el actual trabajo. Por el lado de KDD, si bien esta contempla 9 pasos durante su proceso, el objetivo de KDD en cada uno de estos resulta ser más técnico, es decir, trabajar, seleccionar e interpretar métricas, variables, modelos, entre otros para obtener los mejores resultados más allá de considerar el contexto y comprensión del negocio. De hecho, no existe alguna fase dedicada al entendimiento del mismo.
 	\item Por otra parte, la metodología SEMMA se basa, como su nombre lo indica, en la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio desconocidos. Sin embargo, al limitarse a 5 fases comenzando con la fase de muestreo, no hace hincapié en la comprensión del negocio, sino más bien comienza con el procesamiento de datos para la construcción del modelo.
 \end{itemize}
 
@@ -347,6 +322,33 @@ En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada mode
 
 \subsection{Despliegue}
 Luego de analizar el desempeño de cada modelo, tanto individual como el modelo final, se compararon los resultados con los antecedentes y se desarrolló una prueba piloto en la cual el modelo apilado entrenado fue ejecutado usando como entrada la URL de un proyecto aleatorio de Kickstarter para, luego de obtener sus características, predecir su estado de financiamiento. Esta acción también se encuentra detallada en el Capítulo 5.
+
+\subsection{Descripción del prototipo de investigación}
+Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\cite{pr_chen2013kickpredict}, primer antecedente; \cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_beckwith2016predcrowd}, quinto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_kaur2017socmedcrowd}, noveno antecedente; \cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_yu2018deeplearning}, undécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente; \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \cite{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig1}.
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{3/figures/framework.png}
+		\caption[Marco de trabajo del prototipo final]{Marco de trabajo del prototipo final.\\
+			Fuente: Elaboración propia}
+		\label{3:fig1}
+	\end{center}
+\end{figure}
+
+
+\section{Técnicas de recolección de datos}
+Los conjuntos de datos recolectados para la investigación se componen de mezcla de observaciones cuantitativas (variables numéricas basadas en características del proyecto como la meta de financiamiento, montos prometidos, duración de la campaña y otros indicadores financieros) y cualitativas (descripción y comentarios del proyecto). Para obtener los 3 principales datasets, se siguió el flujo de la Figura \ref{3:fig4}. La base de datos de la metainformación, que comprende las variables cuantitativas y propaganda del proyecto, fue consolidada luego de descargar un histórico público de 10 años de la página web “Web Robots”, fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, y posteriormente pre-procesarla. Mientras que por el lado de la descripción y comentarios de cada proyecto, se usaron técnicas y herramientas de \textit{web scraping} a partir de los URLs. El detalle de cada paso del proceso se explica en la sección de Construcción de los conjuntos finales de datos del Capítulo IV.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{3/figures/data_recolection_flux.png}
+		\caption[Flujograma de la recolección de conjuntos finales de datos]{Flujograma de la recolección de conjuntos finales de datos.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig4}
+	\end{center}
+\end{figure}
+
+Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
+
 
 \section{Cronograma de actividades y presupuesto}
 Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig5}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
