@@ -1,10 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
-\contentsline {section}{Índice de Ecuaciones}{i}{Doc-Start}%
-\contentsline {chapter}{Índice de Figuras}{viii}{section*.1}%
-\contentsline {chapter}{Índice de Tablas}{xiii}{section*.2}%
-\contentsline {chapter}{RESUMEN}{15}{chapter*.4}%
-\contentsline {chapter}{INTRODUCCIÓN}{17}{chapter*.6}%
+\contentsline {chapter}{RESUMEN}{15}{chapter*.2}%
+\contentsline {chapter}{INTRODUCCIÓN}{17}{chapter*.4}%
 \contentsline {chapter}{\numberline {I}PLANTEAMIENTO DEL PROBLEMA}{19}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{19}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{21}{section.1.2}%
@@ -89,8 +86,8 @@
 \contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{164}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Conclusiones}{164}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Recomendaciones}{165}{section.6.2}%
-\contentsline {chapter}{REFERENCIAS}{167}{chapter*.172}%
-\contentsline {chapter}{Anexo}{176}{section*.173}%
+\contentsline {chapter}{REFERENCIAS}{167}{chapter*.170}%
+\contentsline {chapter}{Anexo}{176}{section*.171}%
 \contentsline {chapter}{Anexo \numberline {A}Árbol de Problemas}{177}{appendix.1.Alph1}%
 \contentsline {chapter}{Anexo \numberline {B}Árbol de Objetivos}{178}{appendix.1.Alph2}%
 \contentsline {chapter}{Anexo \numberline {C}Matriz de Consistencia}{179}{appendix.1.Alph3}%

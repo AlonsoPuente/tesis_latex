@@ -93,7 +93,8 @@ pdfauthor={autor nombres}]{hyperref}
 \usepackage{ifthen}
 \usepackage{multicol} % for pages with multiple text columns, e.g. References
 \setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
-\usepackage[nottoc]{tocbibind} % correct page numbers for bib in TOC, nottoc suppresses an entry for TOC itself
+%% Para no mostrar índices de figuras ni tablas en el índice general
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 %\usepackage{appendix}
 \usepackage[titletoc]{appendix} 
 
@@ -207,7 +208,6 @@ pdfauthor={autor nombres}]{hyperref}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Agregando librerias para que aparezca texto debajo de las ecuaciones.
-\usepackage{tocbibind}
 \usepackage{tocloft}
 \usepackage{xpatch}
 \usepackage{caption}
@@ -246,7 +246,7 @@ pdfauthor={autor nombres}]{hyperref}
 \newlistof{myequations}{equ}{\listequationsname}
 \newcommand{\myequations}[1]{%
 	\addcontentsline{equ}{myequations}{Ecuación \protect\numberline{\theequation}#1}\par}
-\addcontentsline{toc}{section}{Índice de Ecuaciones}
+%\addcontentsline{toc}{section}{Índice de Ecuaciones}
 
 %%Numeros de pagina en romano (minuscula)
 %\pagenumbering{roman}
