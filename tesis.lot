@@ -4,13 +4,20 @@
 \contentsline {table}{\numberline {2}{\ignorespaces Matriz de confusión}}{83}{table.caption.84}%
 \contentsline {table}{\numberline {3}{\ignorespaces Matriz de operacionalización de variables}}{103}{table.3.3}%
 \contentsline {table}{\numberline {4}{\ignorespaces Cuadro comparativo para la selección de la metodología}}{105}{table.3.4}%
-\contentsline {table}{\numberline {5}{\ignorespaces Presupuesto de los costos personales del autor}}{115}{table.caption.107}%
-\contentsline {table}{\numberline {6}{\ignorespaces Presupuesto de los costos de las herramientas para el proyecto}}{116}{table.caption.108}%
-\contentsline {table}{\numberline {7}{\ignorespaces Diccionario de datos del dataset de metainformación generado}}{122}{table.caption.114}%
-\contentsline {table}{\numberline {8}{\ignorespaces Potenciales combinatorias de variables de metainformación}}{136}{table.caption.138}%
-\contentsline {table}{\numberline {9}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{147}{table.caption.147}%
-\contentsline {table}{\numberline {10}{\ignorespaces Informe de clasificación para el modelo de metadata}}{152}{table.caption.151}%
-\contentsline {table}{\numberline {11}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{155}{table.caption.155}%
-\contentsline {table}{\numberline {12}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{157}{table.caption.159}%
-\contentsline {table}{\numberline {13}{\ignorespaces Informe de clasificación para el modelo apilado}}{159}{table.caption.163}%
-\contentsline {table}{\numberline {14}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{160}{table.caption.165}%
+\contentsline {table}{\numberline {5}{\ignorespaces Actividades de fase Comprensión del negocio}}{109}{table.3.5}%
+\contentsline {table}{\numberline {6}{\ignorespaces Actividades de fase Comprensión de los datos}}{111}{table.3.6}%
+\contentsline {table}{\numberline {7}{\ignorespaces Diccionario de datos del dataset final de Metainformación}}{116}{table.caption.110}%
+\contentsline {table}{\numberline {8}{\ignorespaces Actividades de fase Preparación de los datos}}{116}{table.3.8}%
+\contentsline {table}{\numberline {9}{\ignorespaces Actividades de fase Modelamiento}}{117}{table.3.9}%
+\contentsline {table}{\numberline {10}{\ignorespaces Actividades de fase Evaluación}}{119}{table.3.10}%
+\contentsline {table}{\numberline {11}{\ignorespaces Actividades de fase Despliegue}}{121}{table.3.11}%
+\contentsline {table}{\numberline {12}{\ignorespaces Presupuesto de los costos personales del autor}}{123}{table.caption.113}%
+\contentsline {table}{\numberline {13}{\ignorespaces Presupuesto de los costos de las herramientas para el proyecto}}{123}{table.caption.114}%
+\contentsline {table}{\numberline {14}{\ignorespaces Diccionario de datos del dataset de metainformación generado}}{129}{table.caption.120}%
+\contentsline {table}{\numberline {15}{\ignorespaces Potenciales combinatorias de variables de metainformación}}{143}{table.caption.144}%
+\contentsline {table}{\numberline {16}{\ignorespaces Diccionario de datos del conjunto final entrenado}}{154}{table.caption.153}%
+\contentsline {table}{\numberline {17}{\ignorespaces Informe de clasificación para el modelo de metadata}}{159}{table.caption.157}%
+\contentsline {table}{\numberline {18}{\ignorespaces Informe de clasificación para el modelo de descripciones}}{162}{table.caption.161}%
+\contentsline {table}{\numberline {19}{\ignorespaces Informe de clasificación para el modelo de comentarios}}{164}{table.caption.165}%
+\contentsline {table}{\numberline {20}{\ignorespaces Informe de clasificación para el modelo apilado}}{166}{table.caption.169}%
+\contentsline {table}{\numberline {21}{\ignorespaces Comparación de resultados de modelos propuestos con antecedentes}}{167}{table.caption.171}%

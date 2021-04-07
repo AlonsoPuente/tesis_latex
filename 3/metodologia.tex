@@ -71,8 +71,21 @@ Como se explica en la subsección 2.3.3, un proyecto de Kickstarter presenta 5 c
 Con el fin de alcanzar el objetivo, se utilizó como principal vehículo un modelo de Aprendizaje Profundo Multimodal, cuyo concepto teórico se explica en la Sección 2.2.4. Este modelo, alimentado de 3 modalidades independientes presentes en cada campaña de Kickstarter, comprende el ensamblaje de 3 modelos de Aprendizaje Profundo: un modelo Perceptrón Multicapa (MLP), una Red Neuronal Convolucional (CNN) y un modelo LSTM Bidireccional. Al mismo tiempo, para los 2 últimos que corresponden a las modalidades de descripción y comentarios respectivamente, se trabajaron sus datos de entrada con técnicas de Procesamiento de Lenguaje Natural que incluye desde el pre-procesamiento de los textos hasta su conversión en vectores que finalmente serán entrenados.
 
 Por último, para poder evaluar la efectividad que este registrará al ser entrenado, su desempeño será evaluado a través de métricas de clasificación de Minería de Datos. Para la investigación, las 5 métricas utilizadas fueron la exactitud, la precisión, el área bajo la curva ROC, la sensibilidad y el puntaje F1, las cuales se describen en la Sección 2.2.9.
+%\clearpage
 
-\clearpage
+\section{Técnicas de recolección de datos}
+Los conjuntos de datos recolectados para la investigación se componen de mezcla de observaciones cuantitativas (variables numéricas basadas en características del proyecto como la meta de financiamiento, montos prometidos, duración de la campaña y otros indicadores financieros) y cualitativas (descripción y comentarios del proyecto). Para obtener los 3 principales datasets, se siguió el flujo de la Figura \ref{3:fig1}. La base de datos de la metainformación, que comprende las variables cuantitativas y propaganda del proyecto, fue consolidada luego de descargar un histórico público de 10 años de la página web “Web Robots”, fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, y posteriormente pre-procesarla. Mientras que por el lado de la descripción y comentarios de cada proyecto, se usaron técnicas y herramientas de \textit{web scraping} a partir de los URLs.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{3/figures/data_recolection_flux.png}
+		\caption[Flujograma de la recolección de conjuntos finales de datos]{Flujograma de la recolección de conjuntos finales de datos.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig1}
+	\end{center}
+\end{figure}
+
+Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
 
 \section{Técnicas para el procesamiento y análisis de la información}
 
@@ -222,7 +235,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 	\end{flushleft}
 %\end{table}
 
-Si bien es cierto que de las 3 metodologías mencionadas por \citeauthor{tec_braulio2015metodologiasdm}, solamente 1 autor especifica en su investigación el uso de una de ellas, en este caso CRISP-DM, otros 3 autores (grupos A y B) en sus propias metodologías siguieron secuencias de actividades que se encuentran comprendidas también dentro de esta metodología. Por su parte, los grupos C, F y H guardan cierta relación de semejanza con la metodología SEMMA por comprender enfocarse más en el modeloado, así como tener de primera actividad el Muestreo y culminar con la evaluación de resultados, obviando la actividad de formulación del problema. En el Anexo REF se puede observar con más detalle las metodologías de la Tabla \ref{3:table2} asignadas a la investigación correspondiente.
+Si bien es cierto que de las 3 metodologías mencionadas por \citeauthor{tec_braulio2015metodologiasdm}, solamente 1 autor especifica en su investigación el uso de una de ellas, en este caso CRISP-DM, otros 3 autores (grupos A y B) en sus propias metodologías siguieron secuencias de actividades que se encuentran comprendidas también dentro de esta metodología. Por su parte, los grupos C, F y H guardan cierta relación de semejanza con la metodología SEMMA por comprender enfocarse más en el modeloado, así como tener de primera actividad el Muestreo y culminar con la evaluación de resultados, obviando la actividad de formulación del problema. En el Anexo \ref{anexo4} se puede observar con más detalle las metodologías de la Tabla \ref{3:table2} asignadas a la investigación correspondiente.
 
 Además de lo anterior expuesto, algunas de las siguientes características de acuerdo a la literatura también influyeron en la elección de la metodología CRISP-DM:
 
@@ -234,10 +247,90 @@ Además de lo anterior expuesto, algunas de las siguientes características de a
 	\item Por otra parte, la metodología SEMMA se basa, como su nombre lo indica, en la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio desconocidos. Sin embargo, al limitarse a 5 fases comenzando con la fase de muestreo, no hace hincapié en la comprensión del negocio, sino más bien comienza con el procesamiento de datos para la construcción del modelo.
 \end{itemize}
 
-Cada una de las fases de la metodología seleccionada se detalla a continuación.
+Cada una de las fases de la metodología seleccionada se detalla en la Figura \ref{3:fig2}.
 
-\subsection{Comprensión del negocio}
-La primera fase de la metodología CRISP-DM consiste en la definición del problema de Minería de Datos que se tiene, así como el entendimiento de los objetivos y requerimientos que se espera lograr en el proyecto.
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{3/figures/metodologia.png}
+		\caption[Metodología de la investigación]{Metodología de la investigación.\\
+			Fuente: Elaboración propia}
+		\label{3:fig2}
+	\end{center}
+\end{figure}
+
+A continuación, se explicarán las actividades y tareas efectuadas a lo largo de su implementación.
+
+\subsubsection{Comprensión del negocio}
+En la primera fase, se definió el problema a partir de comprender el contexto de la investigación. A partir de aquí, se formularon los objetivos y requerimientos que se espera lograr en el proyecto. La lista de actividades y tareas se presenta en la Tabla \ref{3:table3}.
+
+%\begingroup
+%\renewcommand\arraystretch{0.3}
+\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+	\caption[Actividades de fase Comprensión del negocio]{Actividades de fase Comprensión del negocio.}
+	\label{3:table3}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\small
+	%% Se agrega tabularnewline para longtable
+	\tabularnewline\hline
+	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\\
+	\hline
+	a
+	& 1
+	& 6                                               
+	\\
+	\hline
+	b
+	& 2
+	& 6
+	\\
+	\hline
+	c
+	& 1
+	& 6
+	\\
+	\hline
+	d
+	& 2
+	& 5
+	\\
+	\hline
+	e
+	& 3
+	& 5
+	\\
+	\hline
+	f
+	& 3
+	& 5
+	\\
+	\hline
+	g
+	& 3
+	& 4
+	\\
+	\hline
+	h
+	& 1
+	& 4
+	\\
+	\hline
+	i
+	& 2
+	& 3
+	\\
+	\hline
+\end{longtable}%
+%\endgroup
+
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia
+\end{flushleft}
 
 Para empezar, el crowdfunding se basa, como su nombre en inglés lo indica, en lograr que un proyecto emprendedor sea llevado a cabo gracias al financiamiento colectivo. Existen 4 diferentes modelos de crowdfunding: basado en donaciones, basado en recompensas, basado en capital social y basado en deuda. El crowdfunding basado en capital social se encuentra actualmente limitado en los Estados Unidos debido a que la Regulación D de la Ley de Valores de 1933 prohíbe la participación de muchos potenciales inversionistas y los obliga a tener un ingreso anual mayor a \$200,000 o más de \$1 millón en patrimonio neto \parencite{cr_lichtig2015crowdfunding}.
 
@@ -272,17 +365,365 @@ Para empezar a realizar la campaña del proyecto, es necesario seguir las sugere
 
 Todos los factores anteriormente mencionados determinarán en gran medida el nivel de éxito que tendrá un proyecto una vez su campaña sea lanzada en la plataforma.
 
-\subsection{Comprensión de los datos}
-Una vez comprendido el funcionamiento del negocio y sus objetivos que busca lograr, la siguiente fase fue entender el significado de los datos con los que se trabajaron. Estos incluyen valores y variables que determinaron la performance del modelo elaborado en las siguientes etapas.
+\subsubsection{Comprensión de los datos}
+La segunda fase abarcó tanto la recolección de los datos como el análisis estadístico de estos para conocer un poco más sus características. El conjunto total de datos utilizado para la investigación consistió en la recolección de 27,251 proyectos tecnológicos de Kickstarter comprendidos entre los años 2009 y 2019, en 3 partes: metainformación, descripción y comentarios (excluyendo los del creador) del proyectos.
 
-Para ello, se analizaron estadísticamente las variables numéricas del dataset generado de la Metainformación (Tabla \ref{4:table1}) luego del proceso de construcción bajo el flujo de la Figura \ref{3:fig4} y que se explica en el subcapítulo 1 del Capítulo IV.
+Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla \ref{3:table4}.
 
-En el siguiente subcapítulo del mismo capítulo, se detalla el análisis exploratorio de cada variable, entre los cuales destaca el desbalance en las etiquetas de la variable dependiente a predecir (\textit{state}).
+%\begingroup
+%\renewcommand\arraystretch{0.5}
+\begin{longtable}{|M{4cm}|M{5.5cm}|M{5.5cm}|}
+	\caption[Actividades de fase Comprensión de los datos]{Actividades de fase Comprensión de los datos.}
+	\label{3:table4}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\small
+	%% Se agrega tabularnewline para longtable
+	\tabularnewline\hline
+	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\\
+	\hline
+	Construir base de datos de Metainformación.
+	& Construcción de base de datos que contenga las variables de la campaña con excepción del contenido textual (descripción, actualizaciones y comentarios acerca del proyecto).
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Descargar conjuntos de datos comprimidos de la página Web Robots.
+		\item Descomprimir archivos en partes y fusionarlos en uno solo según su mes.
+		\item Fusionar archivos por mes, realizar limpieza de datos y generar base final.
+	\end{itemize} 
+	\\
+	\hline
+	Construir base de datos de Descripción.
+	& Construcción de base de datos que contenga la descripción del proyecto en la página principal de la campaña.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Identificar sección de descripción a partir de la búsqueda del URL desde la base de datos de Metainformación.
+		\item Capturar información de sección identificada.
+		\item Generar base final.
+	\end{itemize} 
+	\\
+	\hline
+	Construir base de datos de Comentarios.
+	& Construcción de base de datos que contenga los comentarios de los patrocinadores del proyecto en su sección correspondiente.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Identificar sección de comentarios a partir de la búsqueda del URL desde la base de datos de Metainformación.
+		\item Capturar información de sección identificada, excluyendo comentarios y respuestas de los creadores del proyecto.
+		\item Generar base final.
+	\end{itemize} 
+	\\
+	\hline
+	d
+	& 2
+	& 5
+	\\
+	\hline
+	e
+	& 3
+	& 5
+	\\
+	\hline
+	f
+	& 3
+	& 5
+	\\
+	\hline
+	g
+	& 3
+	& 4
+	\\
+	\hline
+	h
+	& 1
+	& 4
+	\\
+	\hline
+	i
+	& 2
+	& 3
+	\\
+	\hline
+\end{longtable}%
+%\endgroup
 
-\subsection{Preparación de los datos}
-El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table1}.
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia
+\end{flushleft}
 
-\subsection{Modelamiento}
+A continuación, cada actividad de la anterior tabla es detallada y se indican sus entregables respectivos.
+
+\textbf{Actividad 1: Construir base de datos de Metainformación}
+
+El punto de partida para la construcción de los conjuntos de datos que se usaron más adelante en cada modelo de acuerdo a su modalidad fue la adquisición de bases de datos capturadas mensualmente desde finales del 2015 hasta 2019 por la página Web Robots (\url{https://webrobots.io/kickstarter-datasets/}), como se aprecia en la Figura \ref{3:fig3}. El sitio ofrece poder descargarlos en archivos de valores separados por comas (.csv) como en formato JSON. Para el presente trabajo, se optó por la primera opción. De acuerdo con \cite{ot_webrobots2019kickstarter}, creadores del sitio Web Robots, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/web_robots_2019.png}
+		\caption[Vista del website Web Robots (visitado en agosto del 2019)]{Vista del website Web Robots (visitado en agosto del 2019).\\
+			Fuente: \cite{ot_webrobots2019kickstarter}}
+		\label{3:fig3}
+	\end{center}
+\end{figure}
+
+A continuación, los archivos descargados que se encontraban fraccionados en varios archivos .csv, donde luego de ser descomprimidos, fueron unidos por mes de captura y almacenados en carpetas independientes por mes, cuyo peso individual osciló entre 1 y 5 gigabytes (GB). Con el fin de ahorrar espacio en la computadora, las partes originales fueron eliminadas.
+
+En la Figura \ref{3:fig4} se detalla el tamaño del conjunto de datos total al corte del periodo de captura de información Julio 2019, aproximadamente más de 212 mil proyectos de todas las categorías y 37 columnas de variables.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{4/figures/dataset_201907.png}
+		\caption[Tamaño de conjunto de datos al corte de Julio 2019]{Tamaño de conjunto de datos al corte de Julio 2019.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig4}
+	\end{center}
+\end{figure}
+
+Para seleccionar solamente proyectos de la categoría Tecnología, que representaba en promedio el 10\% de cada dataset, se aplicó la lógica del pseudocódigo de la Figura CITAR.
+
+A cada conjunto de datos generado se filtran los que pertenecen a la categoría \textit{\textbf{Technology}}. Al no contar con la información de la columna \textit{main\_category}, este proceso se logró utilizando la variable \textit{source\_url} seleccionando aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”. En la Figura \ref{3:fig5} se aprecia el resultado del conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{4/figures/dataset_filtrada_201907.png}
+		\caption[Tamaño de conjunto de datos filtrado del corte de Julio 2019]{Tamaño de conjunto de datos filtrado del corte de Julio 2019.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig5}
+	\end{center}
+\end{figure}
+
+Cuando se repitió este procedimiento con cada conjunto generado, se observó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% de la totalidad. Esto se calculó al comparar el tamaño de cada conjunto generado con el total.
+
+La siguiente fase del pre-procesamiento fue la selección de variables y generación de algunas faltantes. Para ello, se usó el software Alteryx Designer, el cual permite desarrollar flujos de trabajo para preparar, unir y analizar volúmenes de datos complejos de distintas fuentes. Se ejecutó el flujograma representado de forma resumida en la Figura \ref{3:fig6}.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{3/figures/flujograma_metadata.png}
+		\caption[Flujograma resumido del pre-procesamiento de Metainformación]{Flujograma resumido del pre-procesamiento de Metainformación.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig6}
+	\end{center}
+\end{figure}
+
+El flujo comienza uniendo los 45 archivos separados por coma (.csv) capturados mensualmente desde noviembre del 2015 hasta agosto del 2019. Se realizaron 2 uniones internamente ya que, a partir de marzo del 2018, algunas de las variables y valores presentan diferente estructura a la de sus predecesoras. Sin embargo, esto no afectó al proceso al cruzar por el nombre de columna. Las variables escogidas se listan en la Tabla \ref{3:table5}.
+
+\begin{table}[h!]
+	\caption[Diccionario de datos del dataset final de Metainformación]{Diccionario de datos del dataset final de Metainformación.}
+	\label{3:table5}
+	\centering
+	\small
+	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
+		\hline
+		\Centering \textbf{VARIABLE}& \Centering \textbf{DETALLE}& \Centering \textbf{TIPO DE DATO}\\
+		\hline
+		\textbf{id} & Identificador del proyecto. & number \\
+		\hline
+		\textbf{backers\_count} & Número de patrocinadores de la campaña del proyecto. & number \\
+		\hline
+		\textbf{name} &	Nombre del proyecto. &	string \\
+		\hline
+		\textbf{blurb} & Propaganda del proyecto. & string \\
+		\hline
+		\textbf{category} & Categoría (dentro de categoría principal) del proyecto. & string \\
+		\hline
+		\textbf{photo} & Dirección de enlace de la foto del proyecto. & string \\
+		\hline
+		\textbf{urls} & Dirección de la página de la campaña del proyecto. & string \\
+		\hline
+		\textbf{city} & Ciudad del creador del proyecto. & string \\
+		\hline
+		\textbf{country} & Código de país del creador del proyecto. & string \\
+		\hline
+		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float \\
+		\hline
+		\textbf{pledge\_amounts} & Montos disponibles para patrocinar la campaña. & string \\
+		\hline
+		\textbf{pledged} & Monto final patrocinado de la campaña. & float \\
+		\hline
+		\textbf{currency} & Divisa del monto final patrocinado. & string \\
+		\hline
+		\textbf{usd\_pledged} & Monto final patrocinado de la campaña (en USD). & float \\
+		\hline
+		\textbf{created\_at} & Fecha de creación de la campaña. & date \\
+		\hline
+		\textbf{launched\_at} & Fecha de lanzamiento de la campaña. & date \\
+		\hline
+		\textbf{deadline} & Fecha de culminación de la campaña. & date \\
+		\hline
+		\textbf{duration} &	Duración de la campaña (en días). &	number \\
+		\hline
+		\textbf{state} & Estado de financiamiento del proyecto. & string \\
+		\hline
+	\end{tabular}
+	\par	%%Salto de linea
+	\bigskip
+	\begin{flushleft}	%%Alinear a la izquierda sin justificar
+		\small Fuente: Elaboración propia.
+	\end{flushleft}
+\end{table}
+
+Se realizó limpieza de datos para las variables \textit{category}, \textit{location}, \textit{photo} y \textit{urls}, y se transformaron las variables numéricas en milisegundos \textit{created\_at}, \textit{launched\_at} y \textit{deadline} a variables de fecha. Esto último permitió calcular la variable \textit{duration} para determinar la duración de la campaña (en días) de un proyecto calculando la diferencia entre la fecha de culminación (\textit{deadline}) y la fecha de lanzamiento (\textit{launched\_at}). Luego se excluyeron los proyectos en proceso de la variable \textit{state} para conservar los culminados, es decir, aquellos cuyo valor sea “successful” o “failed” ya que se analizarán solamente los proyectos que han sido exitosos o fracasados. Los proyectos cancelados o suspendidos no aparecieron. El último paso del flujo consistió en generar y exportar el archivo final en formato .csv.
+
+\textbf{Entregable}: Conjunto de datos de Metainformación, que contiene 19 variables cuantitativas y cualitativas para la muestra considerada.
+
+\textbf{Actividad 2: Construir base de datos de Descripción}
+
+
+\textbf{Entregable}: Conjunto de datos de Descripción, que contiene la variable textual de descripción del proyecto para la muestra considerada.
+
+\textbf{Actividad 3: Construir base de datos de Comentarios}
+
+
+
+\textbf{Entregable}: Conjunto de datos de Comentarios, que contiene la variable textual de comentarios de los patrocinadores, cada uno separado por autor y almacenados en conjunto en una lista por proyecto, para la muestra considerada.
+
+\subsubsection{Preparación de los datos}
+El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table6}.
+
+%\begingroup
+%\renewcommand\arraystretch{0.3}
+\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+	\caption[Actividades de fase Preparación de los datos]{Actividades de fase Preparación de los datos.}
+	\label{3:table6}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\small
+	%% Se agrega tabularnewline para longtable
+	\tabularnewline\hline
+	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\\
+	\hline
+	a
+	& 1
+	& 6                                               
+	\\
+	\hline
+	b
+	& 2
+	& 6
+	\\
+	\hline
+	c
+	& 1
+	& 6
+	\\
+	\hline
+	d
+	& 2
+	& 5
+	\\
+	\hline
+	e
+	& 3
+	& 5
+	\\
+	\hline
+	f
+	& 3
+	& 5
+	\\
+	\hline
+	g
+	& 3
+	& 4
+	\\
+	\hline
+	h
+	& 1
+	& 4
+	\\
+	\hline
+	i
+	& 2
+	& 3
+	\\
+	\hline
+\end{longtable}%
+%\endgroup
+
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia
+\end{flushleft}
+
+\subsubsection{Modelamiento}
+
+
+%\begingroup
+%\renewcommand\arraystretch{0.3}
+\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+	\caption[Actividades de fase Modelamiento]{Actividades de fase Modelamiento.}
+	\label{3:table7}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\small
+	%% Se agrega tabularnewline para longtable
+	\tabularnewline\hline
+	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\\
+	\hline
+	a
+	& 1
+	& 6                                               
+	\\
+	\hline
+	b
+	& 2
+	& 6
+	\\
+	\hline
+	c
+	& 1
+	& 6
+	\\
+	\hline
+	d
+	& 2
+	& 5
+	\\
+	\hline
+	e
+	& 3
+	& 5
+	\\
+	\hline
+	f
+	& 3
+	& 5
+	\\
+	\hline
+	g
+	& 3
+	& 4
+	\\
+	\hline
+	h
+	& 1
+	& 4
+	\\
+	\hline
+	i
+	& 2
+	& 3
+	\\
+	\hline
+\end{longtable}%
+%\endgroup
+
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia
+\end{flushleft}
+
 Luego del pre-procesamiento de los datos, en esta fase se procedió a crear modelos predictivos para cada modalidad considerada. Tomando de referencia a los antecedentes del Marco Teórico, los más usados para cada modalidad se detalla a continuación:
 \begin{itemize}
 	\item \textbf{Metainformación}: Perceptrón Multicapa (\cite{pr_kamath2018suplearn}; \cite{pr_yu2018deeplearning}; \cite{pr_cheng2019deeplearning}), Máquina de Vectores de Soporte (\cite{pr_chen2013kickpredict}; \cite{pr_beckwith2016predcrowd}; \cite{pr_sawhney2016usingLT}), Regresión Logística (\cite{pr_mitra2014phrases}; \cite{pr_zhou2015projectdesc}; \cite{pr_beckwith2016predcrowd}; \cite{pr_li2016predcrowd}; \cite{pr_kaur2017socmedcrowd}), Regresión Log-logística (\cite{pr_li2016predcrowd}), Bosques Aleatorios (\cite{pr_chen2015predcrowd}; \cite{pr_yuan2016textanalytics}; \cite{pr_kamath2018suplearn}), Árboles de Decisión (\cite{pr_beckwith2016predcrowd}; \cite{pr_kamath2018suplearn}), Naïve Bayes (\cite{pr_beckwith2016predcrowd}; \cite{pr_kamath2018suplearn}), Modelo Seq2seq (\cite{pr_jin2019dayssuccess}).
@@ -296,7 +737,88 @@ Según los anteriores autores, salvo en investigaciones donde se usaron 1 sola m
 
 Por ello, se optó por usar arquitecturas de Redes Neuronales para cada modalidad con el fin de poder ensamblar y comparar sus resultados, tanto de manera individual como en el modelo apilado, con la literatura.
 
-\subsection{Evaluación}
+Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\cite{pr_chen2013kickpredict}, primer antecedente; \cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_beckwith2016predcrowd}, quinto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_kaur2017socmedcrowd}, noveno antecedente; \cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_yu2018deeplearning}, undécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente; \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \cite{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig7}.
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{3/figures/framework.png}
+		\caption[Marco de trabajo del prototipo final]{Marco de trabajo del prototipo final.\\
+			Fuente: Elaboración propia}
+		\label{3:fig7}
+	\end{center}
+\end{figure}
+
+\subsubsection{Evaluación}
+
+%\begingroup
+%\renewcommand\arraystretch{0.3}
+\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+	\caption[Actividades de fase Evaluación]{Actividades de fase Evaluación.}
+	\label{3:table8}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\small
+	%% Se agrega tabularnewline para longtable
+	\tabularnewline\hline
+	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\\
+	\hline
+	a
+	& 1
+	& 6                                               
+	\\
+	\hline
+	b
+	& 2
+	& 6
+	\\
+	\hline
+	c
+	& 1
+	& 6
+	\\
+	\hline
+	d
+	& 2
+	& 5
+	\\
+	\hline
+	e
+	& 3
+	& 5
+	\\
+	\hline
+	f
+	& 3
+	& 5
+	\\
+	\hline
+	g
+	& 3
+	& 4
+	\\
+	\hline
+	h
+	& 1
+	& 4
+	\\
+	\hline
+	i
+	& 2
+	& 3
+	\\
+	\hline
+\end{longtable}%
+%\endgroup
+
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia
+\end{flushleft}
+
+
 De las métricas de clasificación de Aprendizaje Automático explicadas en el cuarto subcapítulo del presente capítulo, las usadas por los autores de la literatura fueron las siguientes:
 
 \begin{itemize}
@@ -320,54 +842,100 @@ De las métricas de clasificación de Aprendizaje Automático explicadas en el c
 
 En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada modelo.
 
-\subsection{Despliegue}
+\subsubsection{Despliegue}
+
+%\begingroup
+%\renewcommand\arraystretch{0.3}
+\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+	\caption[Actividades de fase Despliegue]{Actividades de fase Despliegue.}
+	\label{3:table8}
+	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+	%\scriptsize
+	\footnotesize
+	\centering
+	\small
+	%% Se agrega tabularnewline para longtable
+	\tabularnewline\hline
+	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\\
+	\hline
+	a
+	& 1
+	& 6                                               
+	\\
+	\hline
+	b
+	& 2
+	& 6
+	\\
+	\hline
+	c
+	& 1
+	& 6
+	\\
+	\hline
+	d
+	& 2
+	& 5
+	\\
+	\hline
+	e
+	& 3
+	& 5
+	\\
+	\hline
+	f
+	& 3
+	& 5
+	\\
+	\hline
+	g
+	& 3
+	& 4
+	\\
+	\hline
+	h
+	& 1
+	& 4
+	\\
+	\hline
+	i
+	& 2
+	& 3
+	\\
+	\hline
+\end{longtable}%
+%\endgroup
+
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia
+\end{flushleft}
+
+
 Luego de analizar el desempeño de cada modelo, tanto individual como el modelo final, se compararon los resultados con los antecedentes y se desarrolló una prueba piloto en la cual el modelo apilado entrenado fue ejecutado usando como entrada la URL de un proyecto aleatorio de Kickstarter para, luego de obtener sus características, predecir su estado de financiamiento. Esta acción también se encuentra detallada en el Capítulo 5.
 
-\subsection{Descripción del prototipo de investigación}
-Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\cite{pr_chen2013kickpredict}, primer antecedente; \cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_beckwith2016predcrowd}, quinto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_kaur2017socmedcrowd}, noveno antecedente; \cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_yu2018deeplearning}, undécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente; \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \cite{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig1}.
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/framework.png}
-		\caption[Marco de trabajo del prototipo final]{Marco de trabajo del prototipo final.\\
-			Fuente: Elaboración propia}
-		\label{3:fig1}
-	\end{center}
-\end{figure}
-
-
-\section{Técnicas de recolección de datos}
-Los conjuntos de datos recolectados para la investigación se componen de mezcla de observaciones cuantitativas (variables numéricas basadas en características del proyecto como la meta de financiamiento, montos prometidos, duración de la campaña y otros indicadores financieros) y cualitativas (descripción y comentarios del proyecto). Para obtener los 3 principales datasets, se siguió el flujo de la Figura \ref{3:fig4}. La base de datos de la metainformación, que comprende las variables cuantitativas y propaganda del proyecto, fue consolidada luego de descargar un histórico público de 10 años de la página web “Web Robots”, fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, y posteriormente pre-procesarla. Mientras que por el lado de la descripción y comentarios de cada proyecto, se usaron técnicas y herramientas de \textit{web scraping} a partir de los URLs. El detalle de cada paso del proceso se explica en la sección de Construcción de los conjuntos finales de datos del Capítulo IV.
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.95\textwidth]{3/figures/data_recolection_flux.png}
-		\caption[Flujograma de la recolección de conjuntos finales de datos]{Flujograma de la recolección de conjuntos finales de datos.\\
-			Fuente: Elaboración propia.}
-		\label{3:fig4}
-	\end{center}
-\end{figure}
-
-Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
-
+\subsection{Metodología para la medición de resultados}
 
 \section{Cronograma de actividades y presupuesto}
-Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig5}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
+Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig8}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=1.1\textwidth]{3/figures/cronograma.png}
 		\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación.\\
 		Fuente: Elaboración propia}
-		\label{3:fig5}
+		\label{3:fig8}
 	\end{center}
 \end{figure}
 
 La partida presupuestal de todo el proyecto se divide en dos partes: los costos personales del autor y los costos de las herramientas para la operación del proyecto.
 
-Los costos personales del autor del trabajo de tesis se muestran en la Tabla \ref{3:table3}. Estos incluyen las herramientas adquiridas antes del inicio de la investigación como la laptop, así como los pagos de servicios generales y del trámite de elaboración y sustentación pública de Tesis. Se menciona la cantidad de horas utilizadas por el autor para el desarrollo del trabajo; sin embargo no se considera un valor monetario por cada unidad al ser un valor incalculable.
+Los costos personales del autor del trabajo de tesis se muestran en la Tabla \ref{3:table9}. Estos incluyen las herramientas adquiridas antes del inicio de la investigación como la laptop, así como los pagos de servicios generales y del trámite de elaboración y sustentación pública de Tesis. Se menciona la cantidad de horas utilizadas por el autor para el desarrollo del trabajo; sin embargo no se considera un valor monetario por cada unidad al ser un valor incalculable.
 
 \begin{table}[h!]
 	\caption[Presupuesto de los costos personales del autor]{Presupuesto de los costos personales del autor.}
-	\label{3:table3}
+	\label{3:table9}
 	\centering
 	\small
 	\begin{tabular}{llrr}
@@ -397,11 +965,11 @@ Los costos personales del autor del trabajo de tesis se muestran en la Tabla \re
 	\end{flushleft}
 \end{table}
 
-Asimismo, también se contemplan los costos por uso de servicios en la nube como parte de la extracción de comentarios desde servidores en Google Cloud Platform (GCP) y desarrollo de modelos en Google Colab Pro en la Tabla \ref{3:table4}.
+Asimismo, también se contemplan los costos por uso de servicios en la nube como parte de la extracción de comentarios desde servidores en Google Cloud Platform (GCP) y desarrollo de modelos en Google Colab Pro en la Tabla \ref{3:table10}.
 
 \begin{table}[h!]
 	\caption[Presupuesto de los costos de las herramientas para el proyecto]{Presupuesto de los costos de las herramientas para el proyecto.}
-	\label{3:table4}
+	\label{3:table10}
 	\centering
 	\small
 	\begin{tabular}{llrrr}
