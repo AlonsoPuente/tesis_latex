@@ -412,37 +412,16 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 		\item Identificar sección de comentarios a partir de la búsqueda del URL desde la base de datos de Metainformación.
 		\item Capturar información de sección identificada, excluyendo comentarios y respuestas de los creadores del proyecto.
 		\item Generar base final.
-	\end{itemize} 
+	\end{itemize}
 	\\
 	\hline
-	d
-	& 2
-	& 5
-	\\
-	\hline
-	e
-	& 3
-	& 5
-	\\
-	\hline
-	f
-	& 3
-	& 5
-	\\
-	\hline
-	g
-	& 3
-	& 4
-	\\
-	\hline
-	h
-	& 1
-	& 4
-	\\
-	\hline
-	i
-	& 2
-	& 3
+	Realizar análisis exploratorio y estadístico de variables considerados.
+	& Análisis exploratorio y estadístico de las variables disponibles para cada modalidad.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Describir distribución de los datos y tendencias.
+		\item Analizar existencia de correlación en caso se encuentre presente.
+	\end{itemize}
 	\\
 	\hline
 \end{longtable}%
@@ -457,137 +436,76 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 A continuación, cada actividad de la anterior tabla es detallada y se indican sus entregables respectivos.
 
 \textbf{Actividad 1: Construir base de datos de Metainformación}
+\\
+De acuerdo a la Figura \ref{3:fig1}, en esta actividad se enfocó en la construcción de la base de datos de la Metainformación desde la descarga de los conjuntos de datos comprimidos de la página Web Robots hasta la generación del archivo final luego de limpiar los datos.
 
-El punto de partida para la construcción de los conjuntos de datos que se usaron más adelante en cada modelo de acuerdo a su modalidad fue la adquisición de bases de datos capturadas mensualmente desde finales del 2015 hasta 2019 por la página Web Robots (\url{https://webrobots.io/kickstarter-datasets/}), como se aprecia en la Figura \ref{3:fig3}. El sitio ofrece poder descargarlos en archivos de valores separados por comas (.csv) como en formato JSON. Para el presente trabajo, se optó por la primera opción. De acuerdo con \cite{ot_webrobots2019kickstarter}, creadores del sitio Web Robots, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter.
+La 2 primeras tareas de la anterior tabla se resumen en el flujo de la Figura \ref{3:fig3}.
 
-\begin{figure}[!ht]
+\begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{4/figures/web_robots_2019.png}
-		\caption[Vista del website Web Robots (visitado en agosto del 2019)]{Vista del website Web Robots (visitado en agosto del 2019).\\
-			Fuente: \cite{ot_webrobots2019kickstarter}}
+		\includegraphics[width=0.8\textwidth]{3/figures/flujograma_metadata_t1_t2.png}
+		\caption[Proceso de obtención y preparación de datasets iniciales de Metainformación]{Proceso de obtención y preparación de datasets iniciales de Metainformación.\\
+			Fuente: Elaboración propia.}
 		\label{3:fig3}
 	\end{center}
 \end{figure}
 
-A continuación, los archivos descargados que se encontraban fraccionados en varios archivos .csv, donde luego de ser descomprimidos, fueron unidos por mes de captura y almacenados en carpetas independientes por mes, cuyo peso individual osciló entre 1 y 5 gigabytes (GB). Con el fin de ahorrar espacio en la computadora, las partes originales fueron eliminadas.
-
-En la Figura \ref{3:fig4} se detalla el tamaño del conjunto de datos total al corte del periodo de captura de información Julio 2019, aproximadamente más de 212 mil proyectos de todas las categorías y 37 columnas de variables.
+La siguiente fase de la actividad fue la selección de variables y limpieza de datos utilizando el software Alteryx Designer, el cual permite desarrollar flujos de trabajo para preparar, unir y analizar volúmenes de datos complejos de distintas fuentes. Se ejecutó el flujograma representado de forma resumida en la Figura \ref{3:fig4}.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{4/figures/dataset_201907.png}
-		\caption[Tamaño de conjunto de datos al corte de Julio 2019]{Tamaño de conjunto de datos al corte de Julio 2019.\\
+		\includegraphics[width=1\textwidth]{3/figures/flujograma_metadata_t3.png}
+		\caption[Proceso resumido de generación de conjunto final de Metainformación]{Proceso resumido de generación de conjunto final de Metainformación.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig4}
 	\end{center}
 \end{figure}
 
-Para seleccionar solamente proyectos de la categoría Tecnología, que representaba en promedio el 10\% de cada dataset, se aplicó la lógica del pseudocódigo de la Figura CITAR.
+\textbf{Entregable}: Conjunto de datos de Metainformación, que contiene 19 variables cuantitativas y cualitativas para la muestra considerada.
 
-A cada conjunto de datos generado se filtran los que pertenecen a la categoría \textit{\textbf{Technology}}. Al no contar con la información de la columna \textit{main\_category}, este proceso se logró utilizando la variable \textit{source\_url} seleccionando aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”. En la Figura \ref{3:fig5} se aprecia el resultado del conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
+\textbf{Actividad 2: Construir base de datos de Descripción}
+\\
+De acuerdo a la Figura \ref{3:fig1}, una vez generado el conjunto de datos de Metainformación descrito en la anterior actividad, a partir de la variable \textit{urls} se puede extraer la descripción de cada proyecto, siguiendo el proceso del diagrama de flujo representado en la Figura \ref{3:fig5}.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.5\textwidth]{4/figures/dataset_filtrada_201907.png}
-		\caption[Tamaño de conjunto de datos filtrado del corte de Julio 2019]{Tamaño de conjunto de datos filtrado del corte de Julio 2019.\\
+		\includegraphics[width=0.5\textwidth]{3/figures/diagrama_flujo_scrapping_descripcion.png}
+		\caption[Diagrama de flujo del proceso de extracción de la descripción de un proyecto]{Diagrama de flujo del proceso de extracción de la descripción de un proyecto.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig5}
 	\end{center}
 \end{figure}
 
-Cuando se repitió este procedimiento con cada conjunto generado, se observó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% de la totalidad. Esto se calculó al comparar el tamaño de cada conjunto generado con el total.
+\textbf{Entregable}: Conjunto de datos de Descripción, que contiene la variable textual de descripción del proyecto para la muestra considerada.
 
-La siguiente fase del pre-procesamiento fue la selección de variables y generación de algunas faltantes. Para ello, se usó el software Alteryx Designer, el cual permite desarrollar flujos de trabajo para preparar, unir y analizar volúmenes de datos complejos de distintas fuentes. Se ejecutó el flujograma representado de forma resumida en la Figura \ref{3:fig6}.
+\textbf{Actividad 3: Construir base de datos de Comentarios}
+\\
+De acuerdo a la Figura \ref{3:fig1}, y realizando el mismo ejercicio con Descripción, una vez generado el conjunto de datos de Metainformación, a partir de la variable \textit{urls} se pueden extraer los comentarios de los patrocinadores por cada proyecto, siguiendo el proceso del diagrama de flujo representado en la Figura \ref{3:fig6}.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/flujograma_metadata.png}
-		\caption[Flujograma resumido del pre-procesamiento de Metainformación]{Flujograma resumido del pre-procesamiento de Metainformación.\\
+		\includegraphics[width=0.45\textwidth]{3/figures/diagrama_flujo_scrapping_comentarios.png}
+		\caption[Diagrama de flujo del proceso de extracción de comentarios de un proyecto]{Diagrama de flujo del proceso de extracción de comentarios de un proyecto.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig6}
 	\end{center}
 \end{figure}
 
-El flujo comienza uniendo los 45 archivos separados por coma (.csv) capturados mensualmente desde noviembre del 2015 hasta agosto del 2019. Se realizaron 2 uniones internamente ya que, a partir de marzo del 2018, algunas de las variables y valores presentan diferente estructura a la de sus predecesoras. Sin embargo, esto no afectó al proceso al cruzar por el nombre de columna. Las variables escogidas se listan en la Tabla \ref{3:table5}.
-
-\begin{table}[h!]
-	\caption[Diccionario de datos del dataset final de Metainformación]{Diccionario de datos del dataset final de Metainformación.}
-	\label{3:table5}
-	\centering
-	\small
-	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
-		\hline
-		\Centering \textbf{VARIABLE}& \Centering \textbf{DETALLE}& \Centering \textbf{TIPO DE DATO}\\
-		\hline
-		\textbf{id} & Identificador del proyecto. & number \\
-		\hline
-		\textbf{backers\_count} & Número de patrocinadores de la campaña del proyecto. & number \\
-		\hline
-		\textbf{name} &	Nombre del proyecto. &	string \\
-		\hline
-		\textbf{blurb} & Propaganda del proyecto. & string \\
-		\hline
-		\textbf{category} & Categoría (dentro de categoría principal) del proyecto. & string \\
-		\hline
-		\textbf{photo} & Dirección de enlace de la foto del proyecto. & string \\
-		\hline
-		\textbf{urls} & Dirección de la página de la campaña del proyecto. & string \\
-		\hline
-		\textbf{city} & Ciudad del creador del proyecto. & string \\
-		\hline
-		\textbf{country} & Código de país del creador del proyecto. & string \\
-		\hline
-		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float \\
-		\hline
-		\textbf{pledge\_amounts} & Montos disponibles para patrocinar la campaña. & string \\
-		\hline
-		\textbf{pledged} & Monto final patrocinado de la campaña. & float \\
-		\hline
-		\textbf{currency} & Divisa del monto final patrocinado. & string \\
-		\hline
-		\textbf{usd\_pledged} & Monto final patrocinado de la campaña (en USD). & float \\
-		\hline
-		\textbf{created\_at} & Fecha de creación de la campaña. & date \\
-		\hline
-		\textbf{launched\_at} & Fecha de lanzamiento de la campaña. & date \\
-		\hline
-		\textbf{deadline} & Fecha de culminación de la campaña. & date \\
-		\hline
-		\textbf{duration} &	Duración de la campaña (en días). &	number \\
-		\hline
-		\textbf{state} & Estado de financiamiento del proyecto. & string \\
-		\hline
-	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
-	\begin{flushleft}	%%Alinear a la izquierda sin justificar
-		\small Fuente: Elaboración propia.
-	\end{flushleft}
-\end{table}
-
-Se realizó limpieza de datos para las variables \textit{category}, \textit{location}, \textit{photo} y \textit{urls}, y se transformaron las variables numéricas en milisegundos \textit{created\_at}, \textit{launched\_at} y \textit{deadline} a variables de fecha. Esto último permitió calcular la variable \textit{duration} para determinar la duración de la campaña (en días) de un proyecto calculando la diferencia entre la fecha de culminación (\textit{deadline}) y la fecha de lanzamiento (\textit{launched\_at}). Luego se excluyeron los proyectos en proceso de la variable \textit{state} para conservar los culminados, es decir, aquellos cuyo valor sea “successful” o “failed” ya que se analizarán solamente los proyectos que han sido exitosos o fracasados. Los proyectos cancelados o suspendidos no aparecieron. El último paso del flujo consistió en generar y exportar el archivo final en formato .csv.
-
-\textbf{Entregable}: Conjunto de datos de Metainformación, que contiene 19 variables cuantitativas y cualitativas para la muestra considerada.
-
-\textbf{Actividad 2: Construir base de datos de Descripción}
-
-
-\textbf{Entregable}: Conjunto de datos de Descripción, que contiene la variable textual de descripción del proyecto para la muestra considerada.
-
-\textbf{Actividad 3: Construir base de datos de Comentarios}
-
-
-
 \textbf{Entregable}: Conjunto de datos de Comentarios, que contiene la variable textual de comentarios de los patrocinadores, cada uno separado por autor y almacenados en conjunto en una lista por proyecto, para la muestra considerada.
 
+\textbf{Actividad 4: Realizar análisis exploratorio y estadístico de variables considerados}
+\\
+
+\textbf{Entregable}:
+
 \subsubsection{Preparación de los datos}
-El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table6}.
+El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table5}.
 
 %\begingroup
 %\renewcommand\arraystretch{0.3}
 \begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
 	\caption[Actividades de fase Preparación de los datos]{Actividades de fase Preparación de los datos.}
-	\label{3:table6}
+	\label{3:table5}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
@@ -598,49 +516,35 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
 	\\
 	\hline
-	a
-	& 1
-	& 6                                               
+	Pre-procesar base de datos de Metainformación.
+	& Pre-procesamiento de las variables actuales y adicionales luego de evaluación de su comportamiento entre ellas.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Añadir más variables cuantitativas según literatura.
+		\item Evaluar comportamiento de variables en conjunto utilizando matriz de correlaciones.
+		\item Armar grupos combinatorias potenciales de variables.
+		\item Escalar variables a un mismo rango.
+	\end{itemize}                                             
 	\\
 	\hline
-	b
-	& 2
-	& 6
+	Pre-procesar base de datos de Descripción.
+	& Pre-procesamiento de la variable \textit{description}.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Realizar limpieza de datos de los textos.
+		\item Armar vocabulario de palabras únicas.
+		\item Transformar textos en vectores de palabras.
+	\end{itemize} 
 	\\
 	\hline
-	c
-	& 1
-	& 6
-	\\
-	\hline
-	d
-	& 2
-	& 5
-	\\
-	\hline
-	e
-	& 3
-	& 5
-	\\
-	\hline
-	f
-	& 3
-	& 5
-	\\
-	\hline
-	g
-	& 3
-	& 4
-	\\
-	\hline
-	h
-	& 1
-	& 4
-	\\
-	\hline
-	i
-	& 2
-	& 3
+	Pre-procesar base de datos de Comentarios.
+	& Pre-procesamiento de la variable \textit{comments}.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Realizar limpieza de datos de los textos.
+		\item Armar vocabulario de palabras únicas.
+		\item Transformar textos en vectores de palabras.
+	\end{itemize}
 	\\
 	\hline
 \end{longtable}%
@@ -655,11 +559,12 @@ El análisis exploratorio de los datos fue determinante para la selección final
 \subsubsection{Modelamiento}
 
 
+
 %\begingroup
 %\renewcommand\arraystretch{0.3}
 \begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
 	\caption[Actividades de fase Modelamiento]{Actividades de fase Modelamiento.}
-	\label{3:table7}
+	\label{3:table6}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
@@ -670,49 +575,37 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
 	\\
 	\hline
-	a
-	& 1
-	& 6                                               
+	Desarrollar modelo predictivo de Metainformación.
+	& Implementación del modelo Perceptrón Multicapa (MLP) para la modalidad Metainformación.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Diseñar arquitectura del modelo predictivo.
+		\item Entrenar cada grupo de combinatoria de variables con arquitectura diseñada.
+		\item Realizar experimentos con hiperparámetros modificados.
+		\item Comparar desempeños individuales entre todos los grupos.
+	\end{itemize}
 	\\
 	\hline
-	b
-	& 2
-	& 6
+	Desarrollar modelo predictivo de Descripción.
+	& Implementación de la Red Neuronal Convolucional (CNN) para la modalidad Descripción.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Diseñar arquitectura del modelo predictivo.
+		\item Entrenar base de datos pre-procesada con arquitectura diseñada.
+		\item Realizar experimentos con hiperparámetros modificados.
+		\item Comparar resultados obtenidos.
+	\end{itemize}
 	\\
 	\hline
-	c
-	& 1
-	& 6
-	\\
-	\hline
-	d
-	& 2
-	& 5
-	\\
-	\hline
-	e
-	& 3
-	& 5
-	\\
-	\hline
-	f
-	& 3
-	& 5
-	\\
-	\hline
-	g
-	& 3
-	& 4
-	\\
-	\hline
-	h
-	& 1
-	& 4
-	\\
-	\hline
-	i
-	& 2
-	& 3
+	Desarrollar modelo predictivo de Comentarios.
+	& Implementación del modelo LSTM Bidireccional para la modalidad Comentarios.
+	& \setlist{nolistsep}
+	\begin{itemize}[noitemsep,leftmargin=*]
+		\item Diseñar arquitectura del modelo predictivo.
+		\item Entrenar base de datos pre-procesada con arquitectura diseñada.
+		\item Realizar experimentos con hiperparámetros modificados.
+		\item Comparar resultados obtenidos.
+	\end{itemize}
 	\\
 	\hline
 \end{longtable}%
@@ -753,7 +646,7 @@ Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimo
 %\renewcommand\arraystretch{0.3}
 \begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
 	\caption[Actividades de fase Evaluación]{Actividades de fase Evaluación.}
-	\label{3:table8}
+	\label{3:table7}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize

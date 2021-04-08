@@ -1191,6 +1191,67 @@
       \verb 10.22178/pos.58-5
       \endverb
     \endentry
+    \entry{pr_fernandezblanco2020crowdfunding_empirical}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e567e8728541b2381f08ac0d316d5edb}{%
+           family={Fernandez-Blanco},
+           familyi={F\bibinithyphendelim B\bibinitperiod},
+           given={Aladino},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b4399166c5c6899efceaedc16305b81}{%
+           family={Villanueva-Balsera},
+           familyi={V\bibinithyphendelim B\bibinitperiod},
+           given={Joaquin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75ec820495bcff9a1d605284f771a4a0}{%
+           family={Rodriguez-Montequin},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Vicente},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38ca65309f8cee45f62b7e5bffb7d8da}{%
+           family={Moran-Palacios},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={Henar},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{8be74b8874238aef2c5e3b993337e0da}
+      \strng{fullhash}{0f00401c6d9e5697b3955ed6063799cc}
+      \strng{bibnamehash}{0f00401c6d9e5697b3955ed6063799cc}
+      \strng{authorbibnamehash}{0f00401c6d9e5697b3955ed6063799cc}
+      \strng{authornamehash}{8be74b8874238aef2c5e3b993337e0da}
+      \strng{authorfullhash}{0f00401c6d9e5697b3955ed6063799cc}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{month}{Enero}
+      \field{number}{2}
+      \field{title}{Key Factors for Project Crowdfunding Success: An Empirical Study}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{599}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12020599
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/12/2/599/pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/12/2/599/pdf
+      \endverb
+    \endentry
     \entry{tec_figueroa_convolucion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=db98454c38978c7566e44d388bed68b6}{%

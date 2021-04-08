@@ -1,94 +1,69 @@
 \chapter{DESARROLLO DEL EXPERIMENTO}
-\section{Construcción de los conjuntos finales de datos}
-El conjunto total de datos utilizado para la investigación consistió en la recolección de 27,251 proyectos tecnológicos de Kickstarter comprendidos entre los años 2009 y 2019, en 3 partes: metainformación, descripción y comentarios (excluyendo los del creador) del proyectos.
+En este capítulo se detalla el proceso explicado en el capítulo anterior para cada actividad de la metodología aplicada, así como los entregables comprometidas.
 
-\subsection{Metainformación}
-Como se mencionó en las Técnicas de recolección de datos del Capítulo III, el punto de partida para la construcción de los conjuntos de datos fue consolidar las bases públicas, archivos de valores separados por comas (.csv) comprimidos, de la página Web Robots (https://webrobots.io/kickstarter-datasets/), fraccionadas por fechas mensuales de captura de información comenzadas desde noviembre del 2015 hasta agosto del 2019 (Figura \ref{4:fig1}), y posteriormente pre-procesada con la ayuda del software Alteryx Designer. De acuerdo con la información de los creadores del sitio Web Robots, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter \parencite{ot_webrobots2019kickstarter}.
+\section{Comprensión del negocio}
+
+\section{Comprensión de los datos}
+\textbf{Actividad 1: Construir base de datos de Metainformación}
+\\
+El punto de partida para la construcción de los conjuntos de datos que se usaron más adelante en cada modelo de acuerdo a su modalidad fue la adquisición de bases de datos capturadas mensualmente desde finales del 2015 hasta 2019 por la página Web Robots (\url{https://webrobots.io/kickstarter-datasets/}), como se aprecia en la Figura \ref{4:fig1}. El sitio ofrece poder descargarlos en archivos de valores separados por comas (.csv) como en formato JSON. Para el presente trabajo, se optó por la primera opción. De acuerdo con \cite{ot_webrobots2019kickstarter}, creadores del sitio Web Robots, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{4/figures/web_robots_2019.png}
-		\caption[Vista (agosto 2019) del website Web Robots]{Vista (agosto 2019) del website Web Robots.\\
-		Fuente: \cite{ot_webrobots2019kickstarter}}
+		\includegraphics[width=1\textwidth]{4/figures/web_robots_2019.png}
+		\caption[Vista del website Web Robots (visitado en agosto del 2019)]{Vista del website Web Robots (visitado en agosto del 2019).\\
+			Fuente: \cite{ot_webrobots2019kickstarter}}
 		\label{4:fig1}
 	\end{center}
 \end{figure}
 
-Cada archivo descargado por fecha de captura mensual es descomprimido, y las particiones en formato .csv que contienen son juntadas mediante el siguiente proceso:
+A continuación, los archivos descargados que se encontraban fraccionados en varios archivos .csv, donde luego de ser descomprimidos, fueron unidos por mes de captura y almacenados en carpetas independientes por mes, cuyo peso individual osciló entre 1 y 5 gigabytes (GB). Con el fin de ahorrar espacio en la computadora, las partes originales fueron eliminadas.
 
-\begin{itemize}
-	\item Descargar librerías correspondientes de Python (pandas, numpy, glob, math).
-	\item Dirigirse a la ruta de destino.
-	\item Crear carpetas por mes para almacenar archivos particionados.
-	\item Ejecutar algoritmo para unir archivos particionados csv dentro de una misma carpeta.
-\end{itemize}
-
-Cuando el algoritmo finaliza su ejecución, se crea un nuevo archivo separado por comas en cada carpeta por mes de extracción, cuyo tamaño oscila entre 1 y 5 gigabytes (GB) en total por cada uno. Con el fin de ahorrar espacio en memoria dentro de la computadora, los archivos particionados son eliminados y solamente se almacenan los nuevos generados.
-
-Por ejemplo, en la Figura \ref{4:fig2} se detalla el tamaño del conjunto de datos total al corte del periodo de captura de información Julio 2019, aproximadamente más de 212 mil proyectos de todas las categorías y 37 columnas de variables.
+En la Figura \ref{4:fig2} se detalla el tamaño del conjunto de datos total al corte del periodo de captura de información Julio 2019, aproximadamente más de 212 mil proyectos de todas las categorías y 37 columnas de variables.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{4/figures/dataset_201907.png}
 		\caption[Tamaño de conjunto de datos al corte de Julio 2019]{Tamaño de conjunto de datos al corte de Julio 2019.\\
-		Fuente: Elaboración propia.}
+			Fuente: Elaboración propia.}
 		\label{4:fig2}
 	\end{center}
 \end{figure}
 
-A cada conjunto de datos generado se filtran los que pertenecen a la categoría \textit{\textbf{Technology}}. Debido a que no se cuenta con la información de la columna \textit{main\_category}, este proceso de filtración se logra utilizando la variable \textit{source\_url} al seleccionar aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”. En la Figura \ref{4:fig3} se aprecia cómo queda el conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
+A cada conjunto de datos generado se filtraron los que pertenecen a la categoría \textit{\textbf{Technology}}. Al no contar con la información de la columna \textit{main\_category}, este proceso se logró utilizando la variable \textit{source\_url} seleccionando aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”. En la Figura \ref{4:fig3} se aprecia el resultado del conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{4/figures/dataset_filtrada_201907.png}
 		\caption[Tamaño de conjunto de datos filtrado del corte de Julio 2019]{Tamaño de conjunto de datos filtrado del corte de Julio 2019.\\
-		Fuente: Elaboración propia.}
+			Fuente: Elaboración propia.}
 		\label{4:fig3}
 	\end{center}
 \end{figure}
 
-Cuando se repitió este procedimiento con cada conjunto de datos, se notó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% del total de proyectos. Esto se calculó al comparar los tamaños (cantidad de registros por fila) del conjunto de datos inicial y del filtrado.
+Cuando se repitió este procedimiento con cada conjunto generado, se observó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% de la totalidad. Esto se calculó al comparar el tamaño de cada conjunto generado con el total.
 
-La siguiente fase del pre-procesamiento fue la de seleccionar las variables de los nuevos conjuntos de datos filtrados que se usarán para generar el dataset final. Para ello, se usó el software Alteryx Designer, el cual permite desarrollar flujos de trabajo para preparar, unir y analizar volúmenes de datos complejos de distintas fuentes.
+A continuación, se unieron los 45 archivos separados por coma (.csv) capturados mensualmente desde noviembre del 2015 hasta agosto del 2019. Se realizaron 2 uniones internamente ya que, a partir de marzo del 2018, algunas de las variables y valores presentan diferente estructura a la de sus predecesoras. Sin embargo, esto no afectó al proceso al cruzar por el nombre de columna.
 
-Con los conjuntos de datos filtrados, se creó el flujo de trabajo representado en la Figura \ref{4:fig4}.
+Luego, se realizó limpieza de datos para las variables \textit{category}, \textit{location}, \textit{photo} y \textit{urls}, y se transformaron las variables numéricas en milisegundos \textit{created\_at}, \textit{launched\_at} y \textit{deadline} a variables de fecha. Esto último permitió calcular la variable \textit{duration} para determinar la duración de la campaña (en días) de un proyecto calculando la diferencia entre la fecha de culminación (\textit{deadline}) y la fecha de lanzamiento (\textit{launched\_at}). Luego se excluyeron los proyectos en proceso de la variable \textit{state} para conservar los culminados, es decir, aquellos cuyo valor sea “successful” o “failed” ya que se analizarán solamente los proyectos que han sido exitosos o fracasados. Los proyectos cancelados o suspendidos no aparecieron. El último paso del flujo consistió en generar y exportar el archivo final en formato .csv. En la Figura \ref{4:fig4} se visualiza el conjunto final de Metainformación subido públicamente a la plataforma Kaggle. Cada variable se detalla en la Tabla \ref{4:table1}.
 
-\begin{figure}[htbp]
+\begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{4/figures/alteryx_flux_part1.png}	
-		\includegraphics[width=0.65\textwidth]{4/figures/alteryx_flux_part2.png}
-		\caption[Flujo de trabajo del conjunto final de metainformación en Alteryx Designer]{Flujo de trabajo del conjunto final de metainformación en Alteryx Designer.\\
-		Fuente: Elaboración propia.}
+		\includegraphics[width=1\textwidth]{4/figures/metadata_kaggle_preview.jpg}
+		\caption[Visualización del archivo de metainformación subido a Kaggle]{Visualización del archivo de metainformación subido a Kaggle.\\
+			Fuente: Elaboración propia.}
 		\label{4:fig4}
 	\end{center}
 \end{figure}
 
-El flujo comienza con la carga de los datos de entrada, los cuales son los 45 archivos separados por coma por cada captura mensual desde noviembre del 2015 hasta agosto del 2019. Luego, se realizaron dos uniones en vez de una sola, esto debido a que, a partir de marzo del 2018, algunas de las variables y valores de estas son diferentes a la de sus predecesoras. Sin embargo, esto no afectará al proceso más adelante ya que ambas uniones fueron juntadas por las mismas variables.
-
-En cada una de las dos uniones, se seleccionaron las variables de la Tabla N° 3, se realizó limpieza de datos para las variables \textit{category}, \textit{location}, \textit{photo} y \textit{urls}, y se transformaron las variables numéricas en milisegundos \textit{created\_at}, \textit{launched\_at} y \textit{deadline} a variables de fecha. Esto último permitió crear la variable \textit{duration} para determinar la duración de la campaña (en días) de un proyecto calculando la diferencia entre la fecha de culminación (\textit{deadline}) y la fecha de lanzamiento (\textit{launched\_at}). Luego se excluyeron los proyectos en proceso de la variable \textit{state} para conservar los culminados, es decir, aquellos cuyo valor sea “successful” o “failed” ya que se analizarán solamente los proyectos que han sido exitosos o fracasados. Por último, la variable \textit{urls} contiene los enlaces directos de los proyectos.
-
-El flujograma culmina con la generación de un archivo de valores separados por coma (.csv) guardado en memoria local. Posteriormente, el archivo generado fue subido a la plataforma Kaggle de manera pública (Figura \ref{4:fig5}) para que pueda ser descargada.
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{4/figures/metadata_kaggle_preview.jpg}
-		\caption[Visualización del archivo de metainformación subido a Kaggle]{Visualización del archivo de metainformación subido a Kaggle.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig5}
-	\end{center}
-\end{figure}
-
-La Tabla \ref{4:table1} detalla cada variable del conjunto final, adicionando la variable \textit{pledge\_amounts} obtenida a partir de web scraping.
-
 \begin{table}[h!]
-	\caption[Diccionario de datos del dataset de metainformación generado]{Diccionario de datos del dataset de metainformación generado.}
+	\caption[Diccionario de datos del dataset final de Metainformación]{Diccionario de datos del dataset final de Metainformación.}
 	\label{4:table1}
 	\centering
 	\small
 	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
 		\hline
-		\rowcolor{bluejean}
-		\Centering \color{white}{Variable}& \Centering \color{white}{Detalle}& \Centering \color{white}{Tipo de dato}\\
+		\Centering \textbf{VARIABLE}& \Centering \textbf{DETALLE}& \Centering \textbf{TIPO DE DATO}\\
 		\hline
 		\textbf{id} & Identificador del proyecto. & number \\
 		\hline
@@ -136,17 +111,16 @@ La Tabla \ref{4:table1} detalla cada variable del conjunto final, adicionando la
 	\end{flushleft}
 \end{table}
 
-\subsection{Descripción}
-La descripción (variable \textit{description}) contiene todas las características del producto o servicio del proyecto ofrecido al público, así como otros datos importantes de la campaña. Al proveer gran cantidad de información, en los antecedentes de la investigación se confirma la relación que presenta esta observación con la performance de la campaña y, por ende, el resultado final del financiamiento del proyecto.
-
-La variable se obtuvo utilizando web scraping en cada proyecto gracias a la variable \textit{urls}. Para ello, y como se describe en la Figura \ref{4:fig6}, se elaboró un algoritmo usando la librería BeautifulSoup que, mediante la navegación al contenido de estas páginas a través de un agente falso, se dirigió a las descripciones de los proyectos identificando las etiquetas con clase llamada “\textbf{rte\_\_content js-full-description responsive-media}” y las almacenó en un vector vacío, uniendo previamente los párrafos y eliminando caracteres especiales, para posteriormente asignarle la id correspondiente y guardarlo en un archivo de extensión .csv. En caso el algoritmo no encuentre esta clase dentro de las páginas (IndexError), el vector almacenaba un registro nulo.
+\textbf{Actividad 2: Construir base de datos de Descripción}
+\\
+La variable \textit{description} se obtuvo utilizando web scraping en cada proyecto gracias a la variable \textit{urls}. Para ello, y como se describe en la Figura \ref{4:fig5}, se elaboró un algoritmo usando la librería BeautifulSoup que, mediante la navegación al contenido de estas páginas a través de un agente falso, se dirigió a las descripciones de los proyectos identificando las etiquetas con clase llamada “\textbf{rte\_\_content js-full-description responsive-media}” y las almacenó en un vector vacío, uniendo previamente los párrafos y eliminando caracteres especiales, para posteriormente asignarle la id correspondiente y guardarlo en un archivo de extensión .csv. En caso el algoritmo no encuentre esta clase dentro de las páginas (IndexError), el vector almacenaba un registro nulo.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/description_scraping.png}
 		\caption[Función del algoritmo web scraping de la descripción de proyectos]{Función del algoritmo web scraping de la descripción de proyectos.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig6}
+			Fuente: Elaboración propia.}
+		\label{4:fig5}
 	\end{center}
 \end{figure}
 
@@ -154,39 +128,40 @@ Debido a la gran cantidad de memoria y tiempo que iba a presentar este proceso, 
 
 Finalmente, las tres partes fueron unidas, se reemplazaron los valores nulos por espacios en blanco y se guardó como un nuevo archivo de valores separados por coma (.csv) en código Unicode UTF-8 para la lectura de caracteres no alfabéticos.
 
-El archivo generado fue subido a la plataforma Kaggle de manera pública (Figura \ref{4:fig7}) para que pueda ser descargada a través del API de la web.
+El archivo generado fue subido a la plataforma Kaggle de manera pública (Figura \ref{4:fig6}) para que pueda ser descargada a través del API de la web.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{4/figures/description_kaggle_preview.jpg}
 		\caption[Visualización del archivo de descripción subido a Kaggle]{Visualización del archivo de descripción subido a Kaggle.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig7}
+			Fuente: Elaboración propia.}
+		\label{4:fig6}
 	\end{center}
 \end{figure}
 
-\subsection{Comentarios}
+\textbf{Actividad 3: Construir base de datos de Comentarios}
+\\
 Al igual que la descripción, los comentarios se obtuvieron utilizando la variable \textit{urls} para web scraping, pero reemplazando caracteres que contengan desde “\textbf{?ref=}” en adelante, por “\textbf{/comments}” para redireccionarse a la sección de comentarios de cada proyecto.
 
-Los comentarios, al ser dinámicos, no podían extraerse mediante la librería BeautifulSoup como en el caso de las descripciones, por lo que se utilizó la librería Selenium para extraerlos al iniciar una sesión desde Google Chrome, como se observa en el algoritmo de la Figura \ref{4:fig8}.
+Los comentarios, al ser dinámicos, no podían extraerse mediante la librería BeautifulSoup como en el caso de las descripciones, por lo que se utilizó la librería Selenium para extraerlos al iniciar una sesión desde Google Chrome, como se observa en el algoritmo de la Figura \ref{4:fig7}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{4/figures/comments_scraping.jpg}
 		\caption[Función del algoritmo web scraping de los comentarios]{Función del algoritmo web scraping de los comentarios.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig8}
+			Fuente: Elaboración propia.}
+		\label{4:fig7}
 	\end{center}
 \end{figure}
 
-La función consiste en redireccionarse a la sección de comentarios del proyecto, esperar un máximo de 30 segundos de carga de la página, hacer clic en el botón “Load More” (Cargar más) hasta un límite de no más de 13 veces y almacenar en un vector cada comentario que no pertenezca al creador (se puede diferenciar gracias a una etiqueta en el extremo superior derecho del recuadro del comentario) de manera independiente. El siguiente paso implica la eliminación de ciertos caracteres especiales, emojis y comentarios completos de un patrocinador que no se encuentren en inglés. Finalmente, estos registros de vectores de comentarios con el id del proyecto correspondiente se almacenaron en un archivo .csv por cada fila terminada, el cual se encuentra disponible públicamente en Kaggle (Figura \ref{4:fig9}) así como los anteriores conjuntos comentados para poder ser descargados.
+La función consiste en redireccionarse a la sección de comentarios del proyecto, esperar un máximo de 30 segundos de carga de la página, hacer clic en el botón “Load More” (Cargar más) hasta un límite de no más de 13 veces y almacenar en un vector cada comentario que no pertenezca al creador (se puede diferenciar gracias a una etiqueta en el extremo superior derecho del recuadro del comentario) de manera independiente. El siguiente paso implica la eliminación de ciertos caracteres especiales, emojis y comentarios completos de un patrocinador que no se encuentren en inglés. Finalmente, estos registros de vectores de comentarios con el id del proyecto correspondiente se almacenaron en un archivo .csv por cada fila terminada, el cual se encuentra disponible públicamente en Kaggle (Figura \ref{4:fig8}) así como los anteriores conjuntos comentados para poder ser descargados.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{4/figures/comments_kaggle_preview.jpg}
 		\caption[Visualización del archivo de comentarios subido a Kaggle]{Visualización del archivo de comentarios subido a Kaggle.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig9}
+			Fuente: Elaboración propia.}
+		\label{4:fig8}
 	\end{center}
 \end{figure}
 
@@ -196,68 +171,66 @@ Para optimizar la descarga, se crearon 8 instancias en Google Cloud (Figura \ref
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/gc_instances_comments.jpg}
 		\caption[Instancias lanzadas en paralelo para la extracción de comentarios]{Instancias lanzadas en paralelo para la extracción de comentarios.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig10}
+			Fuente: Elaboración propia.}
+		\label{4:fig9}
 	\end{center}
 \end{figure}
 
-\section{Análisis Exploratorios de los datos}
-Según su estado de financiamiento, los 27,251 proyectos se distribuyen mediante el gráfico de pie de la Figura \ref{4:fig11}. De esta, se observa que más del 70\% de estos fracasaron.
+\textbf{Actividad 4: Realizar análisis exploratorio y estadístico de variables considerados}
+\\
+En esta sección, se analizaron las variables de cada modalidad. Según su estado de financiamiento, los 27,251 proyectos se distribuyen mediante el gráfico de pie de la Figura \ref{4:fig10}. De esta, se observa que más del 70\% de estos fracasaron.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{4/figures/projects by state.png}
 		\caption[Distribución de proyectos tecnológicos según su estado]{Distribución de proyectos tecnológicos según su estado.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig11}
+			Fuente: Elaboración propia.}
+		\label{4:fig10}
 	\end{center}
 \end{figure}
 
-
-Al visualizarlos por año (Figura \ref{4:fig12}), se puede ver que el histórico comprende entre los periodos 2009 y 2019, siendo la gran mayoría perteneciente al año 2015.
+Al visualizarlos por año (Figura \ref{4:fig11}), se puede ver que el histórico comprende entre los periodos 2009 y 2019, siendo la gran mayoría perteneciente al año 2015.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state by year.png}
 		\caption[Evolución de cantidad de proyectos tecnológicos por año]{Evolución de cantidad de proyectos tecnológicos por año.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig12}
+			Fuente: Elaboración propia.}
+		\label{4:fig11}
 	\end{center}
 \end{figure}
 
-
-La evolución histórica detallada por su estado se observa en la Figura \ref{4:fig13}.
+La evolución histórica detallada por su estado se observa en la Figura \ref{4:fig12}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state evolution by year.png}
 		\caption[Evolución de proyectos tecnológicos, por su estado y año]{Evolución de proyectos tecnológicos, por su estado y año.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig13}
+			Fuente: Elaboración propia.}
+		\label{4:fig12}
 	\end{center}
 \end{figure}
 
-\subsection{Metainformación}
-De las 19 variables de la Tabla \ref{4:table1}, se consideraron como potenciales variables independientes a 5 numéricas (\textit{backers\_count}, \textit{goal}, \textit{pledged}, \textit{usd\_pledged} y \textit{duration}), 3 categóricas (\textit{category}, \textit{country} y \textit{currency}) y 1 del tipo lista compuesta por números (\textit{pledge\_amounts}).
+Por el lado de la modalidad Metainformación, de las 19 variables de la Tabla \ref{4:table1}, se consideraron como potenciales variables independientes a 5 numéricas (\textit{backers\_count}, \textit{goal}, \textit{pledged}, \textit{usd\_pledged} y \textit{duration}), 3 categóricas (\textit{category}, \textit{country} y \textit{currency}) y 1 del tipo lista compuesta por números (\textit{pledge\_amounts}).
 
-Para las variables categóricas, se realizaron gráficos de pastel para observar la distribución de sus valores. Así tenemos la Figura \ref{4:fig14} para las categorías de tecnología, Figura \ref{4:fig15} para los países (por código) y la Figura \ref{4:fig16} para las divisas del monto final patrocinado (por código). De estos tres gráficos, se observa que más de la mitad de patrocinadores provienen de los Estados Unidos (US) e invierten en dólares (USD). El segundo y tercer lugar los constituyen personas de Gran Bretaña (GB) y Canadá (CA), invirtiendo en sus monedas locales respectivas (GBP y CAD). Por el lado de las categorías, la más recurrente son de Apps, representando casi la cuarta parte del universo observado.
+Para las variables categóricas, se realizaron gráficos de pastel para observar la distribución de sus valores. Así tenemos la Figura \ref{4:fig13} para las categorías de tecnología, Figura \ref{4:fig14} para los países (por código) y la Figura \ref{4:fig15} para las divisas del monto final patrocinado (por código). De estos tres gráficos, se observa que más de la mitad de patrocinadores provienen de los Estados Unidos (US) e invierten en dólares (USD). El segundo y tercer lugar los constituyen personas de Gran Bretaña (GB) y Canadá (CA), invirtiendo en sus monedas locales respectivas (GBP y CAD). Por el lado de las categorías, la más recurrente son de Apps, representando casi la cuarta parte del universo observado.
 
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{4/figures/category_distribution.png}
 		\caption[Distribución de categorías de tecnología]{Distribución de categorías de tecnología.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig14}
+			Fuente: Elaboración propia.}
+		\label{4:fig13}
 		
 		\includegraphics[width=0.53\textwidth]{4/figures/country_distribution.png}
 		\caption[Distribución de países]{Distribución de países.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig15}
+			Fuente: Elaboración propia.}
+		\label{4:fig14}
 		
 		\includegraphics[width=0.53\textwidth]{4/figures/currency_distribution.png}
 		\caption[Distribución de divisa del monto patrocinado]{Distribución de divisa del monto patrocinado.\\
-		Fuente: Elaboración propia}
-		\label{4:fig16}
+			Fuente: Elaboración propia}
+		\label{4:fig15}
 	\end{center}
 \end{figure}
 
@@ -274,8 +247,8 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_backers.png}
 				\caption[Diagrama de caja y bigote de patrocinadores]{Diagrama de caja y bigote de patrocinadores.\\
-				Fuente: Elaboración propia.}
-				\label{4:fig17}
+					Fuente: Elaboración propia.}
+				\label{4:fig16}
 			\end{center}
 		\end{figure}
 	\end{itemize}
@@ -290,8 +263,8 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_goal.png}
 				\caption[Diagrama de caja y bigote de meta]{Diagrama de caja y bigote de meta.\\
-				Fuente: Elaboración propia.}
-				\label{4:fig18}
+					Fuente: Elaboración propia.}
+				\label{4:fig17}
 			\end{center}
 		\end{figure}
 	\end{itemize}
@@ -306,8 +279,8 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_pledged.png}
 				\caption[Diagrama de caja y bigote de monto patrocinado]{Diagrama de caja y bigote de monto patrocinado.\\
-				Fuente: Elaboración propia.}
-				\label{4:fig19}
+					Fuente: Elaboración propia.}
+				\label{4:fig18}
 			\end{center}
 		\end{figure}
 	\end{itemize}
@@ -322,129 +295,127 @@ Para las variables numéricas, se calcularon sus datos estadísticos con ayuda d
 			\begin{center}
 				\includegraphics[width=0.7\textwidth]{4/figures/caja_bigote_duration.png}
 				\caption[Diagrama de caja y bigote de duración]{Diagrama de caja y bigote de duración.\\
-				Fuente: Elaboración propia.}
-				\label{4:fig20}
+					Fuente: Elaboración propia.}
+				\label{4:fig19}
 			\end{center}
 		\end{figure}
 	\end{itemize}
 \end{itemize}
 
-Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones (Figura \ref{4:fig21}) para encontrar correlaciones entre ellas y determinar la existencia de alguna variable redundante y descartarla para no afectar el rendimiento del modelo.
+Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones (Figura \ref{4:fig20}) para encontrar correlaciones entre ellas y determinar la existencia de alguna variable redundante y descartarla para no afectar el rendimiento del modelo.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{4/figures/metadata correlation.png}
 		\caption[Matriz de correlaciones entre variables independientes]{Matriz de correlaciones entre variables independientes.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig21}
+			Fuente: Elaboración propia.}
+		\label{4:fig20}
 	\end{center}
 \end{figure}
 
 Como se puede apreciar en la figura anterior, la variable \textit{usd\_pledged} está altamente correlacionada con las variables \textit{backers\_count} y \textit{pledged} (ambas con un aproximado de 70\%). Esto quiere decir que dicha variable no es significativa porque explicaría de manera muy similar a las otras dos.
 
-Asimismo, si se observan los registros desde una matriz que contiene, además de gráficos de dispersión de las correlaciones, histogramas de las variables independientes como en la Figura \ref{4:fig22}, se confirma y concluye no utilizar las observaciones comentadas.
+Asimismo, si se observan los registros desde una matriz que contiene, además de gráficos de dispersión de las correlaciones, histogramas de las variables independientes como en la Figura \ref{4:fig21}, se confirma y concluye no utilizar las observaciones comentadas.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{4/figures/metadata cor-plot1.png}
 		\caption[Gráfico de dispersión de correlaciones entre variables independientes]{Gráfico de dispersión de correlaciones entre variables independientes.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig22}
+			Fuente: Elaboración propia.}
+		\label{4:fig21}
 	\end{center}
 \end{figure}
 
-El mismo gráfico, segmentado por las dos clases del estado de financiamiento, se aprecia en la Figura \ref{4:fig23}.
+El mismo gráfico, segmentado por las dos clases del estado de financiamiento, se aprecia en la Figura \ref{4:fig22}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{4/figures/metadata cor-plot2.png}
 		\caption[Gráfico alterno de dispersión de correlaciones entre variables independientes]{Gráfico alterno de dispersión de correlaciones entre variables independientes.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig23}
+			Fuente: Elaboración propia.}
+		\label{4:fig22}
 	\end{center}
 \end{figure}
 
 Se concluye entonces que la variable \textit{duration} es la única que sigue una distribución normal.
 
-\subsection{Descripción}
-Del conjunto de datos, solamente 640 proyectos (aproximadamente 2\% de la población) no presentaron descripciones por razones externas durante el proceso de extracción de datos en el Web Scraping. De esta cantidad, 512 (80\% de proyectos sin descripciones) no fueron financiados al final de su campaña, es decir, su estado fue fracasado. Mientras que del subconjunto de proyectos con descripciones, casi el 30\% fueron exitosos (Figura \ref{4:fig24}).
+Por el lado de la modalidad Descripción, solamente 640 proyectos del total (aproximadamente 2\% de la población) no presentaron descripciones por razones externas durante el proceso de extracción de datos en el Web Scraping. De esta cantidad, 512 (80\% de proyectos sin descripciones) no fueron financiados al final de su campaña, es decir, su estado fue fracasado. Mientras que del subconjunto de proyectos con descripciones, casi el 30\% fueron exitosos (Figura \ref{4:fig23}).
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects description by state.png}
 		\caption[Aperturas de proyectos por presencia de comentarios y estado de financiamiento]{Aperturas de proyectos por presencia de comentarios y estado de financiamiento.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig24}
+			Fuente: Elaboración propia.}
+		\label{4:fig23}
 	\end{center}
 \end{figure}
 
-En este universo, el registro con descripción de mayor longitud presentó 5,152 palabras y, a nivel total de proyectos, el vocabulario fue de 165,683 palabras. La Figura \ref{4:fig25} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas de mayor dimensión.
+En este universo, el registro con descripción de mayor longitud presentó 5,152 palabras y, a nivel total de proyectos, el vocabulario fue de 165,683 palabras. La Figura \ref{4:fig24} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas de mayor dimensión.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud_original_data.png}
 		\caption[Nube de palabras de descripciones]{Nube de palabras de descripciones.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig25}
+			Fuente: Elaboración propia.}
+		\label{4:fig24}
 	\end{center}
 \end{figure}
 
-\subsection{Comentarios}
-Al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig26}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
+Finalmente, por el lado de la modalidad Comentarios, al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig25}), se observa que hay una sólida relación entre aquellos que fracasaron y los que no cuentan con comentarios, mientras que para los proyectos exitosos, la asociación es menos contundente ya que la diferencia entre aquellos que presentan comentarios y los que no es menor.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects state by comment.png}
 		\caption[Aperturas de proyectos por estado de financiamiento y presencia de comentarios]{Aperturas de proyectos por estado de financiamiento y presencia de comentarios.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig26}
+			Fuente: Elaboración propia.}
+		\label{4:fig25}
 	\end{center}
 \end{figure}
 
-Ordenando la distribución por presencia de comentarios (Figura \ref{4:fig27}), se observa que del total de los proyectos con comentarios, el 60\% de ellos (4,626 registros) fueron exitosos, encontrándose casi balanceado este subconjunto.
+Ordenando la distribución por presencia de comentarios (Figura \ref{4:fig26}), se observa que del total de los proyectos con comentarios, el 60\% de ellos (4,626 registros) fueron exitosos, encontrándose casi balanceado este subconjunto.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/projects comment by state.png}
 		\caption[Aperturas de proyectos por presencia de comentarios y estado de financiamiento]{Aperturas de proyectos por presencia de comentarios y estado de financiamiento.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig27}
+			Fuente: Elaboración propia.}
+		\label{4:fig26}
 	\end{center}
 \end{figure}
 
-Por último, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig28}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Asimismo, del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig27}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{4/figures/total comments by projects state.png}
 		\caption[Distribución de comentarios en proyectos exitosos y fracasados]{Distribución de comentarios en proyectos exitosos y fracasados.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig28}
+			Fuente: Elaboración propia.}
+		\label{4:fig27}
 	\end{center}
 \end{figure}
 
-Respecto al contenido, en la Figura \ref{4:fig29} se ilustra la nube de palabras más frecuentes, respectivamente, luego de quitar URLs, emoticonos y términos en idioma distinto al inglés.
+Respecto al contenido, en la Figura \ref{4:fig28} se ilustra la nube de palabras más frecuentes, respectivamente, luego de quitar URLs, emoticonos y términos en idioma distinto al inglés.
 
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.68\textwidth]{4/figures/comments_wordcloud_wordunit.png}
 		\caption[Nube de palabras de comentarios más frecuentes]{Nube de palabras de comentarios más frecuentes.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig29}
+			Fuente: Elaboración propia.}
+		\label{4:fig28}
 	\end{center}
 \end{figure}
 
-\section{Pre-procesamiento de los conjuntos de datos}
-
-\subsection{Metainformación}
-De acuerdo a los autores \cite{pr_chen2013kickpredict} (primer antecedente), \cite{pr_chen2015predcrowd} (cuarto antecedente) y \cite{pr_jin2019dayssuccess} (decimotercer antecedente), a las 5 potenciales variables numéricas se adicionaron 7 variables basadas en el mecanismo financiero (mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}) y cantidad de montos disponibles para contribuir (\textit{pledges\_num})) y efecto progresión (porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido). Esta última se calcula dividiendo el monto alcanzado en el tiempo t, sobre la meta de la campaña, multiplicado por 100\%. La nueva matriz de correlación se observa en la Figura \ref{4:fig30}.
+\section{Preparación de los datos}
+\textbf{Actividad 1: Pre-procesar base de datos de Metainformación}
+\\
+De acuerdo a los autores \cite{pr_chen2013kickpredict} (primer antecedente), \cite{pr_chen2015predcrowd} (cuarto antecedente) y \cite{pr_jin2019dayssuccess} (decimotercer antecedente), a las 5 potenciales variables numéricas se adicionaron 7 variables basadas en el mecanismo financiero (mediana (\textit{pledges\_median}), promedio (\textit{pledges\_mean}), valor máximo (\textit{pledges\_max}), valor mínimo (\textit{pledges\_min}), variación estándar (\textit{pledges\_std}) y cantidad de montos disponibles para contribuir (\textit{pledges\_num})) y efecto progresión (porcentaje de financiamiento o completitud (\textit{completeness}) del monto prometido). Esta última se calcula dividiendo el monto alcanzado en el tiempo t, sobre la meta de la campaña, multiplicado por 100\%. La nueva matriz de correlación se observa en la Figura \ref{4:fig29}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{4/figures/metadata correlation v2.png}
 		\caption[Matriz de correlaciones entre variables independientes considerando adicionales]{Matriz de correlaciones entre variables independientes considerando adicionales.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig30}
+			Fuente: Elaboración propia.}
+		\label{4:fig29}
 	\end{center}
 \end{figure}
 
@@ -473,7 +444,7 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 		\hline
 		pledges\_median & pledges\_mean & pledges\_min & pledges\_max \\
 		\hline
-		 &  & pledges\_std &  \\
+		&  & pledges\_std &  \\
 		\hline
 		\rowcolor{turq}
 		\multicolumn{4}{c}{ } \\
@@ -495,7 +466,7 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 		\hline
 		pledges\_median & pledges\_mean & pledges\_min & pledges\_max \\
 		\hline
-		 &  & pledges\_std &  \\
+		&  & pledges\_std &  \\
 		\hline
 	\end{tabular}
 	\par	%%Salto de linea
@@ -505,46 +476,48 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 	\end{flushleft}
 \end{table}
 
-\subsection{Descripción}
-Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig31}, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; y \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
+\textbf{Actividad 2: Pre-procesar base de datos de Descripción}
+\\
+Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig30}, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; y \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.35\textwidth]{4/figures/description_data_clean.png}
 		\caption[Flujograma de limpieza de conjunto de datos de descripciones]{Flujograma de limpieza de conjunto de datos de descripciones.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig31}
+			Fuente: Elaboración propia.}
+		\label{4:fig30}
 	\end{center}
 \end{figure}
 
 Para seguir con cada paso del flujo, se usaron elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. Como resultado de la secuencia, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 
-Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig32} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
+Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig31} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud.png}
 		\caption[Nube de palabras de descripciones posterior al pre-procesamiento]{Nube de palabras de descripciones posterior al pre-procesamiento.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig32}
+			Fuente: Elaboración propia.}
+		\label{4:fig31}
 	\end{center}
 \end{figure}
 
-\subsection{Comentarios}
+\textbf{Actividad 3: Pre-procesar base de datos de Comentarios}
+\\
 La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios, separados en sublistas y diferenciados entre ellos por autor (patrocinador). De los 7,750 proyectos con comentarios (de los cuales, 4,626 fueron exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, así como URLs, emoticonos, emojis, números y caracteres especiales, resultando finalmente en 7,658 proyectos con comentarios (4,574 exitosos).
 
-Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig31} para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig33}.
+Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo flujograma de la Figura \ref{4:fig30} para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig32}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{4/figures/comments_wordcloud_processed.png}
 		\caption[Nube de palabras de comentarios posterior al pre-procesamiento]{Nube de palabras de comentarios posterior al pre-procesamiento.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig33}
+			Fuente: Elaboración propia.}
+		\label{4:fig32}
 	\end{center}
 \end{figure}
 
-\section{Creación de los modelos predictivos}
+\section{Modelamiento}
 Una vez generadas las variables independientes (observaciones, X) y dependiente (estado de financiamiento, Y), el conjunto de datos es separado en subconjuntos de entrenamiento y prueba, con proporciones de 80\% y 20\% respectivamente (\citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_yu2018deeplearning}, undécimo antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_sawhney2016usingLT}, octavo antecedente) y se fija un valor de aleatoriedad. Dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función \textit{train\_test\_split}, de la siguiente manera:
 
 \begin{lstlisting}[language=Python]
@@ -555,22 +528,23 @@ Antes de crear los modelos correspondientes, y después de definir los valores d
 
 Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{state}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
 
-\subsection{Metainformación}
-Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig34} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.
+\textbf{Actividad 1: Desarrollar modelo predictivo de Metainformación}
+\\
+Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig33} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
 		\caption[Arquitectura de modelo MLP para la metadata]{Arquitectura de modelo MLP para la metadata.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig34}
+			Fuente: Elaboración propia.}
+		\label{4:fig33}
 	\end{center}
 \end{figure}
 
 La arquitectura comienza con la capa de entrada alimentadas por las 6 variables consideradas, la cual asimismo representará la cantidad de neuronas, tanto de entrada como de salida.
+
 Si bien no existe alguna regla general para definir el número de capas óptimas, así como los hiperparámetros que se deben configurar en ellas, se puede utilizar como referencia algunas metodologías como las Reglas del Pulgar \parencite{tec_ranjan2019thumbrules}.
 
-\newpage
 De acuerdo a algunas de estas, el número de capas ocultas comienza con 2 sin contar la última. La primera capa densa continúa a la capa de entrada, mientras que la segunda aparece después de la primera capa de desactivación.
 
 Otro punto considerado fue el número de nodos o neuronas de las capas intermedias. Estas deben seguir una progresión geométrica de 2, donde la primera capa debe ser la mitad del número de variables en la capa de entrada. Dado que la mitad de 6 es un valor que no cumple, un número potencial puede ser 4.
@@ -579,41 +553,42 @@ El autor de algunas de estas reglas también menciona tener en consideración ut
 
 Todas estas opciones fueron probadas en el modelo y evaluadas con las métricas correspondientes. Sin embargo, al calibrar el modelo y comparar distintos resultados, se obtuvo que la mejor cantidad de neuronas para la primera capa densa era de 32. De este modo, la siguiente capa intermedia se le asignó la mitad (16). La función de activación \textbf{tanh} para la segunda capa oculta presentó mejores resultados, así como tasas de abandono entre 0.25 y 0.3 para las capas de desactivación. Por último, además de \textit{adam}, se realizó experimentos con otros optimizadores como por ejemplo \textit{RMSprop} siendo este el resultado más cercano. Al final, \textit{adam} fue escogido pero con una tasa de aprendizaje baja como 0.005 debido a que el modelo tendía a aprender muy rápido durante el transcurso de las épocas. En conjunto, el ratio de decaimiento se asignó un valor más bajo, 0.00005, y para evaluar los subconjuntos de entrenamiento y prueba se eligió precisión como métrica.
 
-\subsection{Descripción}
-Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig35}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig36}).
+\textbf{Actividad 2: Desarrollar modelo predictivo de Descripción}
+\\
+Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig34}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig35}).
 
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=0.50\textwidth]{4/figures/description_tokenizer_function.jpg}
 		\caption[Función de tokenización de palabras de descripciones]{Función de tokenización de palabras de descripciones.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig35}
+			Fuente: Elaboración propia.}
+		\label{4:fig34}
 		\includegraphics[width=0.80\textwidth]{4/figures/description_encoder_function.jpg}
 		\caption[Función de codificación de palabras y rellenado de arreglos]{Función de codificación de palabras y rellenado de arreglos.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig36}
+			Fuente: Elaboración propia.}
+		\label{4:fig35}
 	\end{center}
 \end{figure}
 
-Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe (Figura \ref{4:fig37}). Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
+Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe (Figura \ref{4:fig36}). Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{4/figures/description_glove.jpg}
 		\caption[Elaboración de matriz de incrustaciones de palabras]{Elaboración de matriz de incrustaciones de palabras.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig37}
+			Fuente: Elaboración propia.}
+		\label{4:fig36}
 	\end{center}
 \end{figure}
 
-Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig38}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
+Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig37}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
 		\caption[Arquitectura de modelo CNN para las descripciones]{Arquitectura de modelo CNN para las descripciones.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig38}
+			Fuente: Elaboración propia.}
+		\label{4:fig37}
 	\end{center}
 \end{figure}
 
@@ -627,17 +602,18 @@ Esta nueva salida pasa por la capa de aplanamiento o \textit{Flatten}, en donde 
 
 Finalmente, la arquitectura culmina con la última capa con función de activación \textbf{sigmoid} para regular el valor de salida entre 0 y 1, ya que se trata de un problema de clasificación binaria (por ello, también cuenta con solo 1 neurona y su parámetro de pérdida es “\textit{binary\_crossentropy}”).
 
-\subsection{Comentarios}
+\textbf{Actividad 3: Desarrollar modelo predictivo de Comentarios}
+\\
 Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
 
-De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig39}.
+De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig38}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_rnn_comments.png}
 		\caption[Arquitectura de modelo RNN para los comentarios]{Arquitectura de modelo RNN para los comentarios.\\
-		Fuente: Elaboración propia.}
-		\label{4:fig39}
+			Fuente: Elaboración propia.}
+		\label{4:fig38}
 	\end{center}
 \end{figure}
 
@@ -706,24 +682,29 @@ Los autores citados por cada variable utilizada se mencionan a continuación:
 Si bien en los respectivos antecedentes marcados en (*) figuran el promedio de los montos disponibles para patrocinar, se usó la mediana en vez de la media ya que presentó mejor performance en los experimentos.
 
 \begin{landscape}
-	\subsection{Modelo apilado}
-	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de apilamiento integrado ilustrado en la Figura \ref{4:fig40}.
+	\textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
+	\\
+	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de Aprendizaje Profundo Multimodal ilustrado en la Figura \ref{4:fig39}.
 	
 	\begin{figure}[!ht]
 		\begin{center}
-			\includegraphics[width=1.17\textwidth]{4/figures/final_stacked_model.png}
+			\includegraphics[width=1.20\textwidth]{4/figures/final_stacked_model.png}
 			\caption[Arquitectura del modelo apilado final The Hydra]{Arquitectura del modelo apilado final The Hydra.\\
-			Fuente: Elaboración propia.}
-			\label{4:fig40}
+				Fuente: Elaboración propia.}
+			\label{4:fig39}
 		\end{center}
 	\end{figure}
 	
 \end{landscape}
 
-La finalidad de esta red neuronal de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo para obtener mejor performance que cada uno individualmente.
+La finalidad de este modelo apilado de múltiples cabezas es aprender la mejor manera de combinar las predicciones de cada modelo para obtener mejor performance que cada uno individualmente.
 
 A este modelo se le denominó “\textit{The Hydra}” (La Hidra por su traducción al español) en referencia al monstruo mitológico del lago de Lerna, con 7 cabezas que renacían a medida que se cortaban \parencite{ot_rae_hidra}.
 
 Las salidas de cada modelo se concatenaron en una capa debajo de estos, generando 3 valores de entrada para una penúltima capa densa con 10 neuronas de salida y una función de activación ReLu. Finalmente, el modelo apilado culmina con una capa densa de 1 salida y asignándose la función Sigmoide para generar probabilidades entre 0 y 1, los valores de Fracasado o Exitoso respectivamente.
 
 Previo a la compilación del modelo final, se repitió el ejercicio de cada modelo cargado asignar los parámetro de pérdida \textit{binary\_crossentropy} para la clasificación binaria, \textit{accuracy} (exactitud) para la métrica del entrenamiento, pesos balanceados para las clases de la variable \textit{state} (0.6987077585764833 para 0 y 1.7581290322580645 para 1), y optimizador \textit{Adam} con la variante de asignarle el ratio de aprendizaje y también de decaimiento de 0.00005.
+
+\section{Evaluación}
+
+\section{Despliegue}
