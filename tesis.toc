@@ -24,60 +24,60 @@
 \contentsline {subsection}{\numberline {1.6.3}Matriz de Consistencia}{25}{subsection.1.6.3}%
 \contentsline {chapter}{\numberline {II}MARCO TEÓRICO}{26}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{26}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{48}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{48}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{50}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{55}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Aprendizaje Profundo Multimodal}{56}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Modelo Predictivo}{56}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Minería de Datos}{56}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Metodologías de Minería de Datos}{58}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Técnicas de Minería de Datos}{62}{subsection.2.2.8}%
-\contentsline {subsection}{\numberline {2.2.9}Métricas de clasificación}{83}{subsection.2.2.9}%
-\contentsline {subsection}{\numberline {2.2.10}Procesamiento del Lenguaje Natural}{87}{subsection.2.2.10}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{97}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{97}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{99}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Proyecto}{99}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Campaña}{100}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {III}METODOLOGÍA DE LA INVESTIGACIÓN}{102}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{102}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{102}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{102}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{102}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{102}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{103}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{104}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{105}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{105}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Comprensión del negocio}{108}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Comprensión de los datos}{111}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Preparación de los datos}{114}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Modelamiento}{116}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación}{120}{subsubsection.3.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{122}{subsubsection.3.3.1.6}%
-\contentsline {subsection}{\numberline {3.3.2}Metodología para la medición de resultados}{123}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{123}{section.3.4}%
-\contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{125}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Comprensión del negocio}{125}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comprensión de los datos}{125}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Preparación de los datos}{139}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelamiento}{145}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación}{155}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue}{155}{section.4.6}%
-\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{156}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metainformación}{156}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{158}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{160}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelo apilado}{163}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Comparación de resultados}{164}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Demostración del modelo final}{167}{section.5.6}%
-\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{169}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{169}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{170}{section.6.2}%
-\contentsline {chapter}{REFERENCIAS}{172}{chapter*.174}%
-\contentsline {chapter}{ANEXOS}{181}{section*.175}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{182}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{183}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{184}{section.Alph0.3}%
-\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{185}{section.Alph0.4}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{53}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{53}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{54}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{59}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Aprendizaje Profundo Multimodal}{60}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Modelo Predictivo}{60}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Minería de Datos}{60}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Metodologías de Minería de Datos}{62}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Técnicas de Minería de Datos}{66}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Métricas de clasificación}{87}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}Procesamiento del Lenguaje Natural}{91}{subsection.2.2.10}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{101}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{101}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Kickstarter}{103}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Proyecto}{103}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Campaña}{104}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {III}METODOLOGÍA DE LA INVESTIGACIÓN}{106}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{106}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{106}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{106}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{106}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{106}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{107}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{108}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{109}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{109}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Comprensión del negocio}{112}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Comprensión de los datos}{115}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Preparación de los datos}{118}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Modelamiento}{120}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación}{124}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{126}{subsubsection.3.3.1.6}%
+\contentsline {subsection}{\numberline {3.3.2}Metodología para la medición de resultados}{127}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{127}{section.3.4}%
+\contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{129}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Comprensión del negocio}{129}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comprensión de los datos}{129}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Preparación de los datos}{143}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelamiento}{149}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Evaluación}{159}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Despliegue}{159}{section.4.6}%
+\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{160}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metainformación}{160}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Descripción}{162}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comentarios}{164}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo apilado}{167}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Comparación de resultados}{168}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Demostración del modelo final}{171}{section.5.6}%
+\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{173}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{173}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{174}{section.6.2}%
+\contentsline {chapter}{REFERENCIAS}{176}{chapter*.176}%
+\contentsline {chapter}{ANEXOS}{185}{section*.177}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{186}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{187}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{188}{section.Alph0.3}%
+\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{189}{section.Alph0.4}%
