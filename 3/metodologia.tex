@@ -19,16 +19,16 @@ En la Tabla \ref{3:table1} se presenta la operacionalización de variables para 
 
 %\begin{table}[h!]
 
-\begin{longtable}{|M{5cm}|M{4.5cm}|M{5.5cm}|}
+\begin{longtable}{M{5cm}M{4.5cm}M{5.5cm}}
 	\caption[Matriz de operacionalización de variables]{Matriz de operacionalización de variables.}
 	\label{3:table1}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	\centering
 	\small
-	\tabularnewline\hline
-	\textbf {VARIABLE} & \textbf {INDICADOR} & \textbf {CÁLCULO}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	VARIABLE & INDICADOR & CÁLCULO
 	\\%%[5pt]
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 	\multirow{2}{5cm}[-2ex]{\centering Estado de financiamiento de un proyecto} & Proyecto exitoso & Monto meta $\leq$ monto contribuido                                                   \\%%[10pt]
 	\cline{2-3} & Proyecto fracasado & Monto meta $>$ monto contribuido \\%%[10pt]
 	\hline
@@ -55,7 +55,7 @@ En la Tabla \ref{3:table1} se presenta la operacionalización de variables para 
 	& Sensibilidad & $\frac{V.P.}{V.P.+F.N.}$ \\%%[10pt]
 	\cline{2-3} 
 	& Puntaje F1 & $\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}$ \\%%[10pt]
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}
 %\par	%%Salto de linea
 %\bigskip
@@ -87,6 +87,7 @@ Los conjuntos de datos recolectados para la investigación se componen de mezcla
 
 Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
 
+\newpage
 \section{Técnicas para el procesamiento y análisis de la información}
 
 \subsection{Metodología de implementación de la solución}
@@ -94,10 +95,12 @@ Como se explicó en el punto 2.2.6 del Marco Teórico del presente trabajo, seg�
 
 Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de comparar las utilizadas por los autores en los antecedentes. 17 de los 18 autores implementaron sus propias metodologías, las cuales de acuerdo a su similitud se agruparon en 8 grupos.
 
+\newpage
 %\begin{table}[htbp]
+\vspace{2ex}
 \begingroup
-	\renewcommand\arraystretch{0.3}
-	\begin{longtable}{|M{3cm}|M{2.5cm}|M{2.5cm}|M{6cm}|}
+	\renewcommand\arraystretch{0.2}
+	\begin{longtable}{M{3cm}M{2.5cm}M{2.5cm}M{6cm}}
 		\caption[Cuadro comparativo para la selección de la metodología]{Cuadro comparativo para la selección de la metodología.}
 		\label{3:table2}
 		\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
@@ -106,15 +109,15 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		\centering
 		\small
 		%% Se agrega tabularnewline para longtable
-		\tabularnewline\hline
-		\textbf{Metodología} & \textbf{Cantidad de referencias} & \textbf{Número de pasos} & \textbf{Nombre de los pasos}
+		\tabularnewline \specialrule{.1em}{.05em}{.05em}
+		Metodología & Cantidad de referencias & Número de pasos & Nombre de los pasos
 		\\
-		\hline
+		\specialrule{.1em}{.05em}{.05em}
 		{CRISP-DM}
 		& 1
 		& 6
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Comprensión del negocio.
 			\item Comprensión de los datos.
 			\item Preparación de los datos.
@@ -128,7 +131,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 2
 		& 6
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Formulación del problema.
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
@@ -142,7 +145,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 1
 		& 6
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Formulación del problema.
 			\item Recolección de datos.
 			\item Selección de características.
@@ -156,7 +159,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 2
 		& 5
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
 			\item Selección de características.
@@ -169,7 +172,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 3
 		& 5
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Formulación del problema.
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
@@ -182,7 +185,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 3
 		& 5
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
 			\item Modelado.
@@ -195,7 +198,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 3
 		& 4
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Recolección de datos.
 			\item Pre-procesamiento de datos.
 			\item Modelado.
@@ -207,7 +210,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 1
 		& 4
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Recolección de datos.
 			\item Modelado.
 			\item Evaluación.
@@ -219,13 +222,13 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 		& 2
 		& 3
 		& \setlist{nolistsep}
-		\begin{itemize}[noitemsep,leftmargin=*]
+		\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 			\item Recolección de datos.
 			\item Modelado.
 			\item Evaluación.
 		\end{itemize} 
 		\\
-		\hline
+		\specialrule{.1em}{.05em}{.05em}
 	\end{longtable}%
 \endgroup
 	%\par	%%Salto de linea
@@ -242,7 +245,7 @@ Además de lo anterior expuesto, algunas de las siguientes características de a
 \begin{itemize}
 	\item La metodología seleccionada contempla entre sus fases la comprensión del negocio además de la parte técnica que incluye el modelado y análisis de resultados. Esta guarda un rol importante ya que en ella se define el inicio de todo el proceso para dar el alcance del proyecto y definir objetivos que se buscan a partir de la Minería de Datos y Big Data. La formulación del problema se encuentra presente en el actual trabajo.
 	\item Ayuda a los responsables del proyecto y/o investigación en la planeación y toma de decisiones (fase Despliegue) a partir de los resultados obtenidos, reportando y convirtiéndolos en oportunidades a considerar en los objetivos.
-	\item Evalúa en todo el proceso los datos y variables usadas con el fin de crear el mejor modelo. Las variables seleccionadas serán importantes para interpretar los resultados y tomar decisiones.
+	\item Evalúa en todo el proceso los datos y variables usadas con el fin de crear el mejor modelo. Estas serán importantes para interpretar los resultados y tomar decisiones.
 	\item Respecto a las otras dos metodologías, ambas omiten en su primera iteración la formulación del problema, la cual se encuentra presente en el actual trabajo. Por el lado de KDD, si bien esta contempla 9 pasos durante su proceso, el objetivo de KDD en cada uno de estos resulta ser más técnico, es decir, trabajar, seleccionar e interpretar métricas, variables, modelos, entre otros para obtener los mejores resultados más allá de considerar el contexto y comprensión del negocio. De hecho, no existe alguna fase dedicada al entendimiento del mismo.
 	\item Por otra parte, la metodología SEMMA se basa, como su nombre lo indica, en la selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio desconocidos. Sin embargo, al limitarse a 5 fases comenzando con la fase de muestreo, no hace hincapié en la comprensión del negocio, sino más bien comienza con el procesamiento de datos para la construcción del modelo.
 \end{itemize}
@@ -258,73 +261,56 @@ Cada una de las fases de la metodología seleccionada se detalla en la Figura \r
 	\end{center}
 \end{figure}
 
-A continuación, se explicarán las actividades y tareas efectuadas a lo largo de su implementación.
-
+\newpage
 \subsubsection{Comprensión del negocio}
 En la primera fase, se definió el problema a partir de comprender el contexto de la investigación. A partir de aquí, se formularon los objetivos y requerimientos que se espera lograr en el proyecto. La lista de actividades y tareas se presenta en la Tabla \ref{3:table3}.
 
-%\begingroup
-%\renewcommand\arraystretch{0.3}
-\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+\vspace{2ex}
+\begingroup
+\renewcommand\arraystretch{0.3}
+\begin{longtable}{m{5cm}m{5cm}M{5cm}}
 	\caption[Actividades de fase Comprensión del negocio]{Actividades de fase Comprensión del negocio.}
 	\label{3:table3}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
-	\centering
+	%\centering
 	\small
 	%% Se agrega tabularnewline para longtable
-	\tabularnewline\hline
-	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	\centering Actividades & \centering Descripción & Tareas
+	\\
+	\specialrule{.1em}{.05em}{.05em}
+	Definir problemas, objetivos e hipótesis.
+	& Definición de los problemas, objetivos e hipótesis generales y específicos de la investigación.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Identificar la realidad problemática del contexto.
+		\item Definir los objetivos de la investigación.
+		\item Formular las hipótesis del trabajo.
+	\end{itemize}                                               
 	\\
 	\hline
-	a
-	& 1
-	& 6                                               
+	Desarrollar la literatura de la investigación.
+	& Selección de los antecedentes y trabajos previos relacionados a la investigación.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Buscar material académico sobre las variables de la investigación.
+		\item Buscar material académico relacionado a la solución de la realidad problemática.
+	\end{itemize} 
 	\\
 	\hline
-	b
-	& 2
-	& 6
+	Definir metodología de la investigación.
+	& Definición de la metodología a implementarse en el estudio.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Analizar y comparar metodologías de trabajos previos.
+		\item Seleccionar metodología a implementar en el trabajo.
+	\end{itemize} 
 	\\
-	\hline
-	c
-	& 1
-	& 6
-	\\
-	\hline
-	d
-	& 2
-	& 5
-	\\
-	\hline
-	e
-	& 3
-	& 5
-	\\
-	\hline
-	f
-	& 3
-	& 5
-	\\
-	\hline
-	g
-	& 3
-	& 4
-	\\
-	\hline
-	h
-	& 1
-	& 4
-	\\
-	\hline
-	i
-	& 2
-	& 3
-	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
-%\endgroup
+\endgroup
 
 %\par	%%Salto de linea
 %\bigskip
@@ -332,63 +318,54 @@ En la primera fase, se definió el problema a partir de comprender el contexto d
 	\small Fuente: Elaboración propia
 \end{flushleft}
 
-Para empezar, el crowdfunding se basa, como su nombre en inglés lo indica, en lograr que un proyecto emprendedor sea llevado a cabo gracias al financiamiento colectivo. Existen 4 diferentes modelos de crowdfunding: basado en donaciones, basado en recompensas, basado en capital social y basado en deuda. El crowdfunding basado en capital social se encuentra actualmente limitado en los Estados Unidos debido a que la Regulación D de la Ley de Valores de 1933 prohíbe la participación de muchos potenciales inversionistas y los obliga a tener un ingreso anual mayor a \$200,000 o más de \$1 millón en patrimonio neto \parencite{cr_lichtig2015crowdfunding}.
+A continuación, cada actividad de la anterior tabla es detallada y se indican sus entregables respectivos.
 
-El modelo basado en donaciones se refiere a la recaudación de fondos a través de la Web 2.0, en el cual los patrocinadores no esperan recompensas materiales a cambio sino más bien una recompensa social. Por el contrario, el modelo basado en recompensas ofrece compensación tanto material como inmaterial y representa hoy en día el modelo de crowdfunding más frecuente. Los financiadores, por un lado, pueden verse beneficiados de la venta anticipada, recibiendo el proyecto o producto financiado antes de su publicación o entrada al mercado al mejor precio. Los proyectos que pertenecen a esta categoría a menudo son organizaciones sin fines de lucro \parencite{cr_kraus2016crowdfunding_strategies}.
+\textbf{Actividad 1: Definir problemas, objetivos e hipótesis}
+\\
 
-Kickstarter, la plataforma de crowdfunding más citada, analizada y una de las más grandes, es una comunidad basada en el crowdfunding por recompensas. A la fecha, 128 mil proyectos han sido financiados, 3 billones de dólares fueron prometidos en proyectos y 13 millones de patrocinadores han participado, del cual el 31\% ha colocado dinero en más de 1 proyecto.
 
-La particularidad de los proyectos en esta plataforma es que, luego de cumplir un plazo de tiempo determinado, el monto prometido acumulado puede ser asignado a los proyectos que hayan alcanzado o superado la meta estipulada al inicio. Para ello, los dueños de los proyectos tienen que crear estrategias para lograr campañas exitosas y hacer realidad su producto. Un 75\% de los proyectos que fueron apoyados por al menos 25 patrocinadores han sido financiados exitosamente \parencite{cr_kickstarter_learn}.
+\textbf{Entregable:}
 
-Para lograr que un proyecto en la plataforma logre impactar en la comunidad, debe contar con conexiones duraderas, retroalimentación del producto y ser tangible. Asimismo, algunos enfoques importantes se basan en probar nuevas ideas, aumentar la comunidad y cubrir costos de manufacturación.
 
-Para empezar a realizar la campaña del proyecto, es necesario seguir las sugerencias basadas en los autores \cite{cr_yu2017kickstarter_course} y \cite{cr_kickstarter_intro}:
-\begin{itemize}
-	\item Identificar la meta óptima del proyecto. Se debe realizar una lista de todos los costos, así como el shipping que deben de cada país. También se debe contar con un buffer en caso ocurra un imprevisto. Se puede determinar la meta a través de la fórmula (Gastos + Buffer) x Alcance.
-	\item Crear el video de la campaña en un presupuesto. El vídeo resulta ser un factor muy importante ya que aquellos que cuentan con un video de su proyecto tienen un 50\% de chance de tener éxito. El promedio debería ser de 3.38 minutos, aunque el público presta más atención hacia aquellos que duran poco. El vídeo debe contener y responder las siguientes preguntas:
-	\begin{itemize}
-		\item ¿Qué hace memorable al proyecto?
-		\item ¿Cómo se verá el proyecto?
-		\item ¿Por qué se está creando el producto?
-		\item ¿Por qué lo necesitas?
-		\item ¿Por qué es importante que tu proyecto exista?
-		\item ¿Por qué debes ser tú su creador?
-		\item ¿Por qué tu compañía?
-		\item ¿Cómo proveerás una solución?
-		\item ¿Cómo funciona la solución?
-	\end{itemize}
-	Es importante destacar las estadísticas del problema que se piensa resolver al inicio del video ya que el primer minuto resulta ser el lapso de tiempo que más capta la atención del público. Se recomienda también tener buen audio e iluminación.
-	\item Escribir la descripción del proyecto. Otro factor clave en el desempeño de la campaña de un proyecto en Kickstarter resulta ser la descripción que representa un resumen de los puntos más relevantes del producto. Se debe mencionar una breve introducción del proyecto, cómo funciona, para quiénes son, el proceso que se siguió en el desarrollo, detalles y especificaciones, y un cronograma e hitos.
-	\item Incluir imágenes sobre cómo lucirá el proyecto. Esta prueba convencerá a más de una persona en querer invertir en el proyecto. Las imágenes a veces atraen más a las personas que no gustan leer la descripción completa del proyecto.
-	\item Determinar las recompensas del proyecto. Al basarse en un modelo de crowdfunding en recompensas, los patrocinadores esperan un beneficio por parte del proyecto una vez este logre alcanzar su financiamiento. El número ideal de recompensas puede ser entre 5 y 7. Una recompensa en promedio de \$100 es la que genera más dinero. Las recompensas pueden ser de cuatro tipos: el producto en sí mismo entregado hacia los patrocinadores antes que este salga al mercado, reconocimientos en la página web y acceso hacia actualizaciones, recuerdos y certificados de membresía, y nuevas experiencias como visita a los desarrolladores en sus estudios.
-\end{itemize}
+\textbf{Actividad 2: Desarrollar la literatura de la investigación}
+\\
 
-Todos los factores anteriormente mencionados determinarán en gran medida el nivel de éxito que tendrá un proyecto una vez su campaña sea lanzada en la plataforma.
+
+\textbf{Entregable:}
+
+
+\textbf{Actividad 3: Definir metodología de la investigación}
+\\
+
+
+\textbf{Entregable:}
+
 
 \subsubsection{Comprensión de los datos}
 La segunda fase abarcó tanto la recolección de los datos como el análisis estadístico de estos para conocer un poco más sus características. El conjunto total de datos utilizado para la investigación consistió en la recolección de 27,251 proyectos tecnológicos de Kickstarter comprendidos entre los años 2009 y 2019, en 3 partes: metainformación, descripción y comentarios (excluyendo los del creador) del proyectos.
 
 Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla \ref{3:table4}.
 
-%\begingroup
-%\renewcommand\arraystretch{0.5}
-\begin{longtable}{|M{4cm}|M{5.5cm}|M{5.5cm}|}
+\vspace{2ex}
+\begingroup
+\renewcommand\arraystretch{0.3}
+\begin{longtable}{m{4cm}m{5.5cm}M{5.5cm}}
 	\caption[Actividades de fase Comprensión de los datos]{Actividades de fase Comprensión de los datos.}
 	\label{3:table4}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
-	\centering
+	%\centering
 	\small
 	%% Se agrega tabularnewline para longtable
-	\tabularnewline\hline
-	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	\centering Actividades & \centering Descripción & Tareas
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 	Construir base de datos de Metainformación.
 	& Construcción de base de datos que contenga las variables de la campaña con excepción del contenido textual (descripción, actualizaciones y comentarios acerca del proyecto).
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Descargar conjuntos de datos comprimidos de la página Web Robots.
 		\item Descomprimir archivos en partes y fusionarlos en uno solo según su mes.
 		\item Fusionar archivos por mes, realizar limpieza de datos y generar base final.
@@ -398,7 +375,7 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 	Construir base de datos de Descripción.
 	& Construcción de base de datos que contenga la descripción del proyecto en la página principal de la campaña.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Identificar sección de descripción a partir de la búsqueda del URL desde la base de datos de Metainformación.
 		\item Capturar información de sección identificada.
 		\item Generar base final.
@@ -408,7 +385,7 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 	Construir base de datos de Comentarios.
 	& Construcción de base de datos que contenga los comentarios de los patrocinadores del proyecto en su sección correspondiente.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Identificar sección de comentarios a partir de la búsqueda del URL desde la base de datos de Metainformación.
 		\item Capturar información de sección identificada, excluyendo comentarios y respuestas de los creadores del proyecto.
 		\item Generar base final.
@@ -418,14 +395,14 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 	Realizar análisis exploratorio y estadístico de variables considerados.
 	& Análisis exploratorio y estadístico de las variables disponibles para cada modalidad.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Describir distribución de los datos y tendencias.
 		\item Analizar existencia de correlación en caso se encuentre presente.
 	\end{itemize}
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
-%\endgroup
+\endgroup
 
 %\par	%%Salto de linea
 %\bigskip
@@ -501,25 +478,26 @@ De acuerdo a la Figura \ref{3:fig1}, y realizando el mismo ejercicio con Descrip
 \subsubsection{Preparación de los datos}
 El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table5}.
 
-%\begingroup
-%\renewcommand\arraystretch{0.3}
-\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+\vspace{2ex}
+\begingroup
+\renewcommand\arraystretch{0.3}
+\begin{longtable}{m{5cm}m{5cm}M{5cm}}
 	\caption[Actividades de fase Preparación de los datos]{Actividades de fase Preparación de los datos.}
 	\label{3:table5}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
-	\centering
+	%\centering
 	\small
 	%% Se agrega tabularnewline para longtable
-	\tabularnewline\hline
-	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	\centering Actividades & \centering Descripción & Tareas
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 	Pre-procesar base de datos de Metainformación.
 	& Pre-procesamiento de las variables actuales y adicionales luego de evaluación de su comportamiento entre ellas.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Añadir más variables cuantitativas según literatura.
 		\item Evaluar comportamiento de variables en conjunto utilizando matriz de correlaciones.
 		\item Armar grupos combinatorias potenciales de variables.
@@ -530,7 +508,7 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	Pre-procesar base de datos de Descripción.
 	& Pre-procesamiento de la variable \textit{description}.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Realizar limpieza de datos de los textos.
 		\item Armar vocabulario de palabras únicas.
 		\item Transformar textos en vectores de palabras.
@@ -540,15 +518,15 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	Pre-procesar base de datos de Comentarios.
 	& Pre-procesamiento de la variable \textit{comments}.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Realizar limpieza de datos de los textos.
 		\item Armar vocabulario de palabras únicas.
 		\item Transformar textos en vectores de palabras.
 	\end{itemize}
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
-%\endgroup
+\endgroup
 
 %\par	%%Salto de linea
 %\bigskip
@@ -559,26 +537,26 @@ El análisis exploratorio de los datos fue determinante para la selección final
 \subsubsection{Modelamiento}
 
 
-
-%\begingroup
-%\renewcommand\arraystretch{0.3}
-\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+\vspace{2ex}
+\begingroup
+\renewcommand\arraystretch{0.3}
+\begin{longtable}{m{5cm}m{5cm}M{5cm}}
 	\caption[Actividades de fase Modelamiento]{Actividades de fase Modelamiento.}
 	\label{3:table6}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
-	\centering
+	% \centering
 	\small
 	%% Se agrega tabularnewline para longtable
-	\tabularnewline\hline
-	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	\centering Actividades & \centering Descripción & Tareas
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 	Desarrollar modelo predictivo de Metainformación.
 	& Implementación del modelo Perceptrón Multicapa (MLP) para la modalidad Metainformación.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Diseñar arquitectura del modelo predictivo.
 		\item Entrenar cada grupo de combinatoria de variables con arquitectura diseñada.
 		\item Realizar experimentos con hiperparámetros modificados.
@@ -589,7 +567,7 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	Desarrollar modelo predictivo de Descripción.
 	& Implementación de la Red Neuronal Convolucional (CNN) para la modalidad Descripción.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Diseñar arquitectura del modelo predictivo.
 		\item Entrenar base de datos pre-procesada con arquitectura diseñada.
 		\item Realizar experimentos con hiperparámetros modificados.
@@ -600,16 +578,16 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	Desarrollar modelo predictivo de Comentarios.
 	& Implementación del modelo LSTM Bidireccional para la modalidad Comentarios.
 	& \setlist{nolistsep}
-	\begin{itemize}[noitemsep,leftmargin=*]
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Diseñar arquitectura del modelo predictivo.
 		\item Entrenar base de datos pre-procesada con arquitectura diseñada.
 		\item Realizar experimentos con hiperparámetros modificados.
 		\item Comparar resultados obtenidos.
 	\end{itemize}
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
-%\endgroup
+\endgroup
 
 %\par	%%Salto de linea
 %\bigskip
@@ -642,21 +620,22 @@ Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimo
 
 \subsubsection{Evaluación}
 
+\vspace{2ex}
 %\begingroup
 %\renewcommand\arraystretch{0.3}
-\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+\begin{longtable}{m{5cm}m{5cm}M{5cm}}
 	\caption[Actividades de fase Evaluación]{Actividades de fase Evaluación.}
 	\label{3:table7}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	%\scriptsize
 	\footnotesize
-	\centering
+	%\centering
 	\small
 	%% Se agrega tabularnewline para longtable
-	\tabularnewline\hline
-	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	\centering Actividades & \centering Descripción & Tareas
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 	a
 	& 1
 	& 6                                               
@@ -701,7 +680,7 @@ Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimo
 	& 2
 	& 3
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
 %\endgroup
 
@@ -737,9 +716,10 @@ En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada mode
 
 \subsubsection{Despliegue}
 
+\vspace{2ex}
 %\begingroup
 %\renewcommand\arraystretch{0.3}
-\begin{longtable}{|M{5cm}|M{5cm}|M{5cm}|}
+\begin{longtable}{m{5cm}m{5cm}M{5cm}}
 	\caption[Actividades de fase Despliegue]{Actividades de fase Despliegue.}
 	\label{3:table8}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
@@ -748,10 +728,10 @@ En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada mode
 	\centering
 	\small
 	%% Se agrega tabularnewline para longtable
-	\tabularnewline\hline
-	\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}
+	\tabularnewline \specialrule{.1em}{.05em}{.05em}
+	\centering Actividades & \centering Descripción & Tareas
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 	a
 	& 1
 	& 6                                               
@@ -796,7 +776,7 @@ En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada mode
 	& 2
 	& 3
 	\\
-	\hline
+	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
 %\endgroup
 
@@ -832,24 +812,33 @@ Los costos personales del autor del trabajo de tesis se muestran en la Tabla \re
 	\centering
 	\small
 	\begin{tabular}{lcrr}
-		\rowcolor[HTML]{010066} 
-		\multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Item}}} & \multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Tiempo usado (horas)}}} & \multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Costo (soles)}}} & \multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Subtotal}}}     \\
-		\rowcolor[HTML]{DAE8FC} 
-		\multicolumn{4}{l}{\cellcolor[HTML]{DAE8FC}\textbf{Recursos materiales}}                                                  \\
-		Laptop Lenovo ideapad 330 Core i7 8va Gen  &  & S/.4,500.00 & S/.4,500.00 \\
-		\rowcolor[HTML]{DAE8FC} 
-		\multicolumn{4}{l}{\cellcolor[HTML]{DAE8FC}\textbf{Pagos del trámite de elaboración y sustentación pública de Tesis}}                                                                                                                                                                                                                                                \\
-		Derecho de inscripción de tema de investigación &  & S/.800.00 & S/.800.00 \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multicolumn{1}{c}{\centering{Item}} & \multicolumn{1}{c}{\centering{Tiempo usado (horas)}} & \multicolumn{1}{c}{\centering{Costo (soles)}} & \multicolumn{1}{c}{\centering{Subtotal}}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+		\multicolumn{4}{l}{Recursos materiales}
+		\\
+		Laptop Lenovo ideapad 330 Core i7 8va Gen  &  & S/.4,500.00 & S/.4,500.00
+		\\
+		\hline
+		\multicolumn{4}{l}{Pagos del trámite de elaboración y sustentación pública de Tesis}
+		\\
+		Derecho de inscripción de tema de investigación &  & S/.800.00 & S/.800.00
+		\\
 		Reserva del tema de tesis  &  & S/.2,700.00 & S/.2,700.00 \\
 		Derecho de sustentación                                                          & & S/.1,500.00                                                                               & S/.1,500.00                                                                              \\
-		\rowcolor[HTML]{DAE8FC} 
-		\multicolumn{4}{l}{\cellcolor[HTML]{DAE8FC}\textbf{Recursos humanos}} \\
+		\hline
+		\multicolumn{4}{l}{Recursos humanos}
+		\\
 		Avance de tesis                                                                  & \multicolumn{1}{r}{900}                                                                    & Incalculable                                                                              & -                                                                                        \\
-		\rowcolor[HTML]{DAE8FC} 
-		\multicolumn{4}{l}{\cellcolor[HTML]{DAE8FC}\textbf{Servicios generales}}                                                   \\
+		\hline
+		\multicolumn{4}{l}{Servicios generales}
+		\\
 		Internet + luz (7 meses)                                                         & \multicolumn{1}{r}{110}                                                                    & S/.80.00                                                                                  & S/.560.00                                                                              \\
-		\rowcolor[HTML]{303498} 
-		{\color[HTML]{FFFFFF} \textbf{Total}} & {\color[HTML]{FFFFFF} } & \multicolumn{1}{l}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} }} & \multicolumn{1}{l}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} \textbf{S/.10,060.00}}}
+		\specialrule{.1em}{.05em}{.05em}
+		Total &  &  & \multicolumn{1}{l}{S/.10,060.00}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\par	%%Salto de linea
 	\bigskip
@@ -866,10 +855,11 @@ Asimismo, también se contemplan los costos por uso de servicios en la nube como
 	\centering
 	\small
 	\begin{tabular}{lcrcr}
-		\rowcolor[HTML]{010066} 
-		\multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Item}}} & \multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Unidades}}} & \multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Costo (dólares)}}} & \multicolumn{1}{l}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Horas}}} & \multicolumn{1}{c}{\cellcolor[HTML]{010066}{\color[HTML]{FFFFFF} \textbf{Subtotal}}} \\
-		\rowcolor[HTML]{DAE8FC} 
-		\multicolumn{4}{l}{\cellcolor[HTML]{DAE8FC}\textbf{Google Cloud Platform}}                                                                                                                                                                                                                                                                                & \textbf{-\$98.56}                                                                    \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multicolumn{1}{c}{\centering{Item}} & \multicolumn{1}{c}{\centering{Unidades}} & \multicolumn{1}{c}{\centering{Costo (dólares)}} & \multicolumn{1}{l}{\centering{Horas}} & \multicolumn{1}{c}{\centering{Subtotal}} \\
+		\specialrule{.1em}{.05em}{.05em}
+		\multicolumn{4}{l}{Google Cloud Platform} & -\$98.56
+		\\
 		Instancia VM Ubuntu (g1-small, 12GB RAM) & 1 & \$0.021 & 310 & \$6.51 \\
 		Imagen de instancia Ubuntu & 8 & \$0.02 & 306 & \$48.96                                                                              \\
 		Instancia VM de Windows Server 2019 (4GB RAM) & 1 & \$0.086 & 300 & \$25.80                                                                              \\
@@ -877,11 +867,14 @@ Asimismo, también se contemplan los costos por uso de servicios en la nube como
 		Uso de instancias posteriormente eliminadas & & & & \$95.88                                                                              \\
 		Pago mensual (luego de aceptar mejora de plan) & 4 & \$5.22 & & \$20.88                                                                              \\
 		Crédito de \$300.00 por 12 meses & 1 & -\$300.00 & & -\$300.00                                                                            \\
-		\rowcolor[HTML]{DAE8FC} 
-		\multicolumn{4}{l}{\cellcolor[HTML]{DAE8FC}\textbf{Google Colab Pro}}                                                                                                                                                                                                                                                                                     & \textbf{\$49.95}                                                                     \\
+		\hline
+		\multicolumn{4}{l}{Google Colab Pro} & \$49.95
+		\\
 		Pago mensual (luego de aceptar mejora de plan) & 5 & \$9.99 & \multicolumn{1}{l}{} & \$49.95                                                                              \\
-		\rowcolor[HTML]{303498} 
-		{\color[HTML]{FFFFFF} \textbf{Total a pagar}} & {\color[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{303498}{\color[HTML]{FFFFFF} }} & \multicolumn{1}{l}{\cellcolor[HTML]{303498}} & {\color[HTML]{FFFFFF} \textbf{\$49.95}}                                             
+		\specialrule{.1em}{.05em}{.05em}
+		Total a pagar &  &  &  & \$49.95
+		\\
+		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\par	%%Salto de linea
 	\bigskip

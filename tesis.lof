@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces Resultados y ratios obtenidos en la encuesta por GEM y ESAN}}{19}{figure.caption.5}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Ratio de éxito de proyectos en Kickstarter desde 2009 hasta 2019 (Febrero)}}{22}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Ratio de éxito de proyectos en Kickstarter desde 2009 hasta 2019 (Febrero)}}{21}{figure.caption.6}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Extensión de Google Chrome creada para predecir el estado del proyecto}}{27}{figure.caption.7}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Ejemplos de frases del Top 100 y sus respectivos pesos que señalan si un proyecto será o no financiado}}{28}{figure.caption.8}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Curvas ROC del modelo propuesto, el de base y el convencional}}{29}{figure.caption.9}%
@@ -74,23 +74,23 @@
 \contentsline {figure}{\numberline {72}{\ignorespaces Incrustaciones de palabras por Word2Vec}}{99}{figure.caption.102}%
 \contentsline {figure}{\numberline {73}{\ignorespaces Incrustaciones de palabras por GloVe}}{100}{figure.caption.103}%
 \contentsline {figure}{\numberline {74}{\ignorespaces Ejemplo de funcionamiento de bolsa de palabras}}{101}{figure.caption.104}%
-\contentsline {figure}{\numberline {75}{\ignorespaces Flujograma de la recolección de conjuntos finales de datos}}{109}{figure.caption.106}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Metodología de la investigación}}{113}{figure.caption.107}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Flujograma de la recolección de conjuntos finales de datos}}{110}{figure.caption.106}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Metodología de la investigación}}{114}{figure.caption.107}%
 \contentsline {figure}{\numberline {77}{\ignorespaces Proceso de obtención y preparación de datasets iniciales de Metainformación}}{117}{figure.caption.108}%
 \contentsline {figure}{\numberline {78}{\ignorespaces Proceso resumido de generación de conjunto final de Metainformación}}{118}{figure.caption.109}%
 \contentsline {figure}{\numberline {79}{\ignorespaces Diagrama de flujo del proceso de extracción de la descripción de un proyecto}}{119}{figure.caption.110}%
-\contentsline {figure}{\numberline {80}{\ignorespaces Diagrama de flujo del proceso de extracción de comentarios de un proyecto}}{121}{figure.caption.111}%
-\contentsline {figure}{\numberline {81}{\ignorespaces Marco de trabajo del prototipo final}}{125}{figure.caption.112}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Diagrama de flujo del proceso de extracción de comentarios de un proyecto}}{122}{figure.caption.111}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Marco de trabajo del prototipo final}}{124}{figure.caption.112}%
 \contentsline {figure}{\numberline {82}{\ignorespaces Cronograma de actividades de la investigación}}{127}{figure.caption.113}%
 \contentsline {figure}{\numberline {83}{\ignorespaces Vista del website Web Robots (visitado en agosto del 2019)}}{129}{figure.caption.116}%
 \contentsline {figure}{\numberline {84}{\ignorespaces Tamaño de conjunto de datos al corte de Julio 2019}}{130}{figure.caption.117}%
 \contentsline {figure}{\numberline {85}{\ignorespaces Tamaño de conjunto de datos filtrado del corte de Julio 2019}}{130}{figure.caption.118}%
 \contentsline {figure}{\numberline {86}{\ignorespaces Visualización del archivo de metainformación subido a Kaggle}}{131}{figure.caption.119}%
 \contentsline {figure}{\numberline {87}{\ignorespaces Función del algoritmo web scraping de la descripción de proyectos}}{133}{figure.caption.121}%
-\contentsline {figure}{\numberline {88}{\ignorespaces Visualización del archivo de descripción subido a Kaggle}}{134}{figure.caption.122}%
-\contentsline {figure}{\numberline {89}{\ignorespaces Función del algoritmo web scraping de los comentarios}}{135}{figure.caption.123}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Visualización del archivo de descripción subido a Kaggle}}{133}{figure.caption.122}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Función del algoritmo web scraping de los comentarios}}{134}{figure.caption.123}%
 \contentsline {figure}{\numberline {90}{\ignorespaces Visualización del archivo de comentarios subido a Kaggle}}{135}{figure.caption.124}%
-\contentsline {figure}{\numberline {91}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios}}{136}{figure.caption.125}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Instancias lanzadas en paralelo para la extracción de comentarios}}{135}{figure.caption.125}%
 \contentsline {figure}{\numberline {92}{\ignorespaces Distribución de proyectos tecnológicos según su estado}}{136}{figure.caption.126}%
 \contentsline {figure}{\numberline {93}{\ignorespaces Evolución de cantidad de proyectos tecnológicos por año}}{137}{figure.caption.127}%
 \contentsline {figure}{\numberline {94}{\ignorespaces Evolución de proyectos tecnológicos, por su estado y año}}{137}{figure.caption.128}%

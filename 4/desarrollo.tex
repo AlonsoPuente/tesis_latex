@@ -61,48 +61,48 @@ Luego, se realizó limpieza de datos para las variables \textit{category}, \text
 	\label{4:table1}
 	\centering
 	\small
-	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
-		\hline
-		\Centering \textbf{VARIABLE}& \Centering \textbf{DETALLE}& \Centering \textbf{TIPO DE DATO}\\
-		\hline
-		\textbf{id} & Identificador del proyecto. & number \\
-		\hline
-		\textbf{backers\_count} & Número de patrocinadores de la campaña del proyecto. & number \\
-		\hline
-		\textbf{name} &	Nombre del proyecto. &	string \\
-		\hline
-		\textbf{blurb} & Propaganda del proyecto. & string \\
-		\hline
-		\textbf{category} & Categoría (dentro de categoría principal) del proyecto. & string \\
-		\hline
-		\textbf{photo} & Dirección de enlace de la foto del proyecto. & string \\
-		\hline
-		\textbf{urls} & Dirección de la página de la campaña del proyecto. & string \\
-		\hline
-		\textbf{city} & Ciudad del creador del proyecto. & string \\
-		\hline
-		\textbf{country} & Código de país del creador del proyecto. & string \\
-		\hline
-		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float \\
-		\hline
-		\textbf{pledge\_amounts} & Montos disponibles para patrocinar la campaña. & string \\
-		\hline
-		\textbf{pledged} & Monto final patrocinado de la campaña. & float \\
-		\hline
-		\textbf{currency} & Divisa del monto final patrocinado. & string \\
-		\hline
-		\textbf{usd\_pledged} & Monto final patrocinado de la campaña (en USD). & float \\
-		\hline
-		\textbf{created\_at} & Fecha de creación de la campaña. & date \\
-		\hline
-		\textbf{launched\_at} & Fecha de lanzamiento de la campaña. & date \\
-		\hline
-		\textbf{deadline} & Fecha de culminación de la campaña. & date \\
-		\hline
-		\textbf{duration} &	Duración de la campaña (en días). &	number \\
-		\hline
-		\textbf{state} & Estado de financiamiento del proyecto. & string \\
-		\hline
+	\begin{tabular}{ m{3cm}m{9.5cm}m{2.5cm} }
+		\specialrule{.1em}{.05em}{.05em}
+		\Centering{Variable}& \Centering{Detalle}& \Centering{Tipo de dato}\\
+		\specialrule{.1em}{.05em}{.05em}
+		id & Identificador del proyecto. & number \\
+		%\hline
+		backers\_count & Número de patrocinadores de la campaña del proyecto. & number \\
+		%\hline
+		name &	Nombre del proyecto. &	string \\
+		%\hline
+		blurb & Propaganda del proyecto. & string \\
+		%\hline
+		category & Categoría (dentro de categoría principal) del proyecto. & string \\
+		%\hline
+		photo & Dirección de enlace de la foto del proyecto. & string \\
+		%\hline
+		urls & Dirección de la página de la campaña del proyecto. & string \\
+		%\hline
+		city & Ciudad del creador del proyecto. & string \\
+		%\hline
+		country & Código de país del creador del proyecto. & string \\
+		%\hline
+		goal &	Monto de la meta de financiamiento del proyecto. &	float \\
+		%\hline
+		pledge\_amounts & Montos disponibles para patrocinar la campaña. & string \\
+		%\hline
+		pledged & Monto final patrocinado de la campaña. & float \\
+		%\hline
+		currency & Divisa del monto final patrocinado. & string \\
+		%\hline
+		usd\_pledged & Monto final patrocinado de la campaña (en USD). & float \\
+		%\hline
+		created\_at & Fecha de creación de la campaña. & date \\
+		%\hline
+		launched\_at & Fecha de lanzamiento de la campaña. & date \\
+		%\hline
+		deadline & Fecha de culminación de la campaña. & date \\
+		%\hline
+		duration &	Duración de la campaña (en días). &	number \\
+		%\hline
+		state & Estado de financiamiento del proyecto. & string \\
+		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\par	%%Salto de linea
 	\bigskip
@@ -426,48 +426,53 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 	\label{4:table2}
 	\centering
 	\small
-	\begin{tabular}{ |m{3.5cm}|m{3.5cm}|m{3.5cm}|m{3.5cm}|  }
-		\hline
+	\begin{tabular}{ m{3.5cm}m{3.5cm}m{3.5cm}m{3.5cm}  }
+		\specialrule{.1em}{.05em}{.05em}
 		%\rowcolor{bluejean}
-		\Centering \textbf{Combinación 1}& \Centering \textbf{Combinación 2}& \Centering \textbf{Combinación 3}& \Centering \textbf{Combinación 4}
+		\Centering{Combinación 1}& \Centering{Combinación 2}& \Centering{Combinación 3}& \Centering{Combinación 4}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+		goal & goal & goal & goal \\
+		\hline
+		completeness & completeness & completeness & completeness
 		\\
 		\hline
-		\textbf{goal} & \textbf{goal} & \textbf{goal} & \textbf{goal} \\
+		duration & duration & duration & duration
+		\\
 		\hline
-		\textbf{completeness} & \textbf{completeness} & \textbf{completeness} & \textbf{completeness} \\
-		\hline
-		\textbf{duration} & \textbf{duration} &	\textbf{duration} & \textbf{duration} \\
-		\hline
-		\textbf{pledges\_num} & \textbf{pledges\_num} & \textbf{pledges\_num} & \textbf{pledges\_num} \\
+		pledges\_num & pledges\_num & pledges\_num & pledges\_num
+		\\
 		\hline
 		backers\_count & backers\_count & backers\_count & backers\_count \\
 		\hline
 		pledges\_median & pledges\_mean & pledges\_min & pledges\_max \\
 		\hline
 		&  & pledges\_std &  \\
-		\hline
-		%\rowcolor{turq}
+		\specialrule{.1em}{.05em}{.05em}
 		\multicolumn{4}{c}{ } \\
-		\hline
-		%\rowcolor{bluejean}
-		\Centering \textbf{Combinación 5}& \Centering \textbf{Combinación 6}&
-		\Centering \textbf{Combinación 7}& \Centering \textbf{Combinación 8}
+		\specialrule{.1em}{.05em}{.05em}
+		\Centering{Combinación 5}& \Centering{Combinación 6}&
+		\Centering{Combinación 7}& \Centering{Combinación 8}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+		goal & goal & goal & goal
 		\\
 		\hline
-		\textbf{goal} & \textbf{goal} & \textbf{goal} & \textbf{goal} \\
+		completeness & completeness & completeness & completeness
+		\\
 		\hline
-		\textbf{completeness} & \textbf{completeness} & \textbf{completeness} & \textbf{completeness} \\
+		duration & duration & duration & duration
+		\\
 		\hline
-		\textbf{duration} & \textbf{duration} &	\textbf{duration} & \textbf{duration} \\
-		\hline
-		\textbf{pledges\_num} & \textbf{pledges\_num} & \textbf{pledges\_num} & \textbf{pledges\_num} \\
+		pledges\_num & pledges\_num & pledges\_num & pledges\_num
+		\\
 		\hline
 		pledged & pledged & pledged & pledged \\
 		\hline
 		pledges\_median & pledges\_mean & pledges\_min & pledges\_max \\
 		\hline
 		&  & pledges\_std &  \\
-		\hline
+		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\par	%%Salto de linea
 	\bigskip
@@ -630,35 +635,33 @@ En la Tabla \ref{4:table3} se presentan las variables que se usaron para entrena
 	\label{4:table3}
 	\centering
 	\small
-	\begin{tabular}{ |m{3cm}|m{10cm}|m{2cm}|  }
-		\hline
-		%\rowcolor{bluejean}
-		\Centering \textbf{Variable}& \Centering \textbf{Detalle}& \Centering \textbf{Tipo de dato}\\
-		\hline
-		%\rowcolor{turq}
+	\begin{tabular}{ m{3cm}m{9.5cm}m{2.5cm} }
+		\specialrule{.1em}{.05em}{.05em}
+		\Centering{Variable}& \Centering{Detalle}& \Centering{Tipo de dato}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
 		\multicolumn{3}{c}{Variables independientes} \\
 		\hline
-		\textbf{goal} &	Monto de la meta de financiamiento del proyecto. &	float64 \\
+		goal &	Monto de la meta de financiamiento del proyecto. &	float64 \\
+		%\hline
+		completeness & Porcentaje de financiamiento o completitud. & float64 \\
+		%\hline
+		duration &	Duración de la campaña (en días). &	int64 \\
+		%\hline
+		pledges\_num &	Cantidad de montos disponibles para contribuir. &	int64 \\
+		%\hline
+		pledged &	Monto contribuído en la campaña. &	float64 \\
+		%\hline
+		pledges\_median &	Mediana de montos disponibles para contribuir. &	float64 \\
+		%\hline
+		description &	Descripción del proyecto. &	object \\
+		%\hline
+		comments & Comentarios de patrocinadores sobre el proyecto. & object \\
 		\hline
-		\textbf{completeness} & Porcentaje de financiamiento o completitud. & float64 \\
-		\hline
-		\textbf{duration} &	Duración de la campaña (en días). &	int64 \\
-		\hline
-		\textbf{pledges\_num} &	Cantidad de montos disponibles para contribuir. &	int64 \\
-		\hline
-		\textbf{pledged} &	Monto contribuído en la campaña. &	float64 \\
-		\hline
-		\textbf{pledges\_median} &	Mediana de montos disponibles para contribuir. &	float64 \\
-		\hline
-		\textbf{description} &	Descripción del proyecto. &	object \\
-		\hline
-		\textbf{comments} & Comentarios de patrocinadores sobre el proyecto. & object \\
-		\hline
-		%\rowcolor{turq}
 		\multicolumn{3}{c}{Variable dependiente} \\
 		\hline
-		\textbf{state} & Estado de financiamiento del proyecto. & object \\
-		\hline
+		state & Estado de financiamiento del proyecto. & object \\
+		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\par	%%Salto de linea
 	\bigskip

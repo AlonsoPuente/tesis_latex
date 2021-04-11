@@ -38,30 +38,30 @@
 	%\renewcommand{\thechapter}{A}
 	\label{anexo3}
 	\begin{table}[h!]
-		\centering
+		%\centering
 		\small
-		\begin{tabular}{ |m{5.15cm}|m{5.15cm}|m{5.15cm}|  }
-			\hline
-			\Centering \textbf{PROBLEMAS}& \Centering \textbf{OBJETIVOS}& \Centering \textbf{HIPÓTESIS}\\
-			\hline
-			\Centering \textbf{Problema General}& \Centering \textbf{Objetivo General} & \Centering \textbf{Hipótesis General} \\
+		\begin{tabular}{ p{5.15cm}p{5.15cm}p{5.15cm} }
+			\specialrule{.1em}{.05em}{.05em}
+			\Centering{Problemas}& \Centering{Objetivos}& \Centering{Hipótesis}\\
+			\specialrule{.1em}{.05em}{.05em}
+			\Centering{Problema General}& \Centering{Objetivo General} & \Centering{Hipótesis General} \\
 			\hline
 			{\ProblemaGeneral} & { \ObjetivoGeneral} & {\HipotesisGeneral} \\
 			\hline
-			\Centering \textbf{Problemas Específicos}& \Centering \textbf{Objetivos Específicos} & \Centering \textbf{Hipótesis Específicas} \\
+			\Centering{Problemas Específicos}& \Centering{Objetivos Específicos} & \Centering{Hipótesis Específicas} \\
 			\hline
-			{\Pbone} & {\Objone} & {\Hone} \\
-			\hline
-			{\Pbtwo} & {\Objtwo} & {\Htwo} \\
-			\hline
-			{\Pbthree} & {\Objthree} & {\Hthree} \\
-			\hline
-			{\Pbfour} & {\Objfour} & {\Hfour} \\
-			\hline
-			{\Pbfive} & {\Objfive} & {\Hfive} \\
-			\hline
-			{\Pbsix} & {\Objsix} & {\Hsix} \\
-			\hline
+			\vspace{0pt}{\Pbone} & \vspace{0pt}{\Objone} & \vspace{0pt}{\Hone} \\
+			%\hline
+			\vspace{0pt}{\Pbtwo} & \vspace{0pt}{\Objtwo} & \vspace{0pt}{\Htwo} \\
+			%\hline
+			\vspace{0pt}{\Pbthree} & \vspace{0pt}{\Objthree} & \vspace{0pt}{\Hthree} \\
+			%\hline
+			\vspace{0pt}{\Pbfour} & \vspace{0pt}{\Objfour} & \vspace{0pt}{\Hfour} \\
+			%\hline
+			\vspace{0pt}{\Pbfive} & \vspace{0pt}{\Objfive} & \vspace{0pt}{\Hfive} \\
+			%\hline
+			\vspace{0pt}{\Pbsix} & \vspace{0pt}{\Objsix} & \vspace{0pt}{\Hsix} \\
+			\specialrule{.1em}{.05em}{.05em}
 		\end{tabular}
 		%\caption{Fuente: Elaboración propia}
 	\end{table}
@@ -73,19 +73,19 @@
 	\label{anexo4}
 	%\begin{table}[htbp]
 	\begingroup
-		\renewcommand\arraystretch{0.3}
-		\begin{longtable}{|M{3cm}|M{5.5cm}|M{5.5cm}|M{1.5cm}|}
+		\renewcommand\arraystretch{0.5}
+		\begin{longtable}{M{3cm}M{5.5cm}M{5.5cm}M{1.5cm}}
 			\centering
 			\small
 			%% Se agrega tabularnewline para longtable
-			\tabularnewline \hline
-			\textbf{AUTOR} & \textbf{TÍTULO DE LA INVESTIGACIÓN} & \textbf{METODOLOGÍA} & \textbf{GRUPO}
+			\tabularnewline \specialrule{.1em}{.05em}{.05em}
+			Autor & Título de la Investigación & Metodología & Grupo
 			\\
-			\hline
-			Chen, Jones, Kim, Schlamp
+			\specialrule{.1em}{.05em}{.05em}
+			Chen, Jones, Kim \& Schlamp
 			& KickPredict: Predicting Kickstarter Success
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Modelamiento.
 				\item Evaluación.
@@ -94,10 +94,10 @@
 			& GG
 			\\
 			\hline
-			Mitra, Gilbert
+			Mitra \& Gilbert
 			& The Language that Gets People to Give: Phrases that Predict Success on Kickstarter
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Modelamiento.
@@ -107,10 +107,10 @@
 			& GE
 			\\
 			\hline
-			Zhou, Zhang, Wang, Du, Qiao, Fan
+			Zhou, Zhang, Wang, Du, Qiao \& Fan
 			& Money Talks: A Predictive Model on Crowdfunding Success Using Project Description
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Formulación del problema.
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
@@ -120,10 +120,10 @@
 			& GD
 			\\
 			\hline
-			Chen, Chen, Chen, Yang, Lin, Wei
+			Chen, Chen, Chen, Yang, Lin \& Wei
 			& Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Modelamiento.
@@ -135,7 +135,7 @@
 			Beckwith
 			& Predicting Success in Equity Crowdfunding
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Modelamiento.
@@ -144,10 +144,10 @@
 			&  GF
 			\\
 			\hline
-			Li, Rakesh, Reddy
+			Li, Rakesh \& Reddy
 			& Project Success Prediction in Crowdfunding Environments
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Formulación del problema.
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
@@ -157,10 +157,10 @@
 			& GD
 			\\
 			\hline
-			Yuan, Lau, Xu
+			Yuan, Lau \& Xu
 			& The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Modelamiento.
@@ -170,10 +170,10 @@
 			& GE
 			\\
 			\hline
-			Sawhney, Tran, Tuason
+			Sawhney, Tran \& Tuason
 			& Using Language to Predict Kickstarter Success
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Modelamiento.
 				\item Evaluación.
@@ -181,10 +181,10 @@
 			& GH
 			\\
 			\hline
-			Kaur, Gera
+			Kaur \& Gera
 			& Effect of Social Media Connectivity on Success of Crowdfunding Campaigns
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Modelamiento.
@@ -193,10 +193,10 @@
 			& GF
 			\\
 			\hline
-			Kamath, Kamat
+			Kamath \& Kamat
 			& Supervised Learning Model For Kickstarter Campaigns With R Mining
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Formulación del problema.
 				\item Recolección y pre-procesamiento de datos.
 				\item Exploración y extracción de datos.
@@ -206,10 +206,10 @@
 			& GD
 			\\
 			\hline
-			Yu, Huang, Yang, Liu, Li, Tsai
+			Yu, Huang, Yang, Liu, Li \& Tsai
 			& Prediction of Crowdfunding Project Success with Deep Learning
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Exploración de datos.
 				\item Pre-procesamiento de datos.
@@ -219,10 +219,10 @@
 			& GE
 			\\
 			\hline
-			Lee, Lee, Kim
+			Lee, Lee \& Kim
 			& Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Modelamiento.
 				\item Evaluación.
@@ -230,10 +230,10 @@
 			& GH
 			\\
 			\hline
-			Jin, Zhao, Chen, Liu, Ge
+			Jin, Zhao, Chen, Liu \& Ge
 			& Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Formulación del problema.
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
@@ -244,10 +244,10 @@
 			& GA
 			\\
 			\hline
-			Cheng, Tan, Hou, Wei
+			Cheng, Tan, Hou \& Wei
 			& Success Prediction on Crowdfunding with Multimodal Deep Learning
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Formulación del problema.
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
@@ -258,10 +258,10 @@
 			& GA
 			\\
 			\hline
-			Chen, Shen
+			Chen \& Shen
 			& Finding the Keywords Affecting the Success of Crowdfunding Projects
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Selección de características.
@@ -271,10 +271,10 @@
 			& GC
 			\\
 			\hline
-			Chaichi, Anderson
+			Chaichi \& Anderson
 			& Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Recolección de datos.
 				\item Pre-procesamiento de datos.
 				\item Selección de características.
@@ -284,10 +284,10 @@
 			& GC
 			\\
 			\hline
-			Shafqat, Byun
+			Shafqat \& Byun
 			& Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Formulación del problema.
 				\item Recolección de datos.
 				\item Selección de características.
@@ -298,10 +298,10 @@
 			& GB
 			\\
 			\hline
-			Fernández-Blanco, Villanueva-Balsera, Rodriguez-Montequin, Moran-Palacios
+			Fernández-Blanco, Villanueva-Balsera, Rodriguez-Montequin \& Moran-Palacios
 			& Key Factors for Project Crowdfunding Success: An Empirical Study
 			& \setlist{nolistsep}
-			\begin{itemize}[noitemsep,leftmargin=*]
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 				\item Entendimiento del problema.
 				\item Entendimiento de los datos.
 				\item Preparación de los datos.
@@ -311,7 +311,7 @@
 			\end{itemize}
 			& CRISP-DM
 			\\
-			\hline
+			\specialrule{.1em}{.05em}{.05em}
 		\end{longtable}%
 	\endgroup
 	%\end{table}

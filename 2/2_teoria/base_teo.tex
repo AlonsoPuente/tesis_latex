@@ -252,14 +252,14 @@ Las tres metodologías tienen distinto número de pasos, así como distintos enf
 	%\scriptsize
 	\footnotesize
 	\centering
-	\begin{tabular}{|M{3.5cm}|M{5cm}|M{3.5cm}|M{2.5cm}|}
-		\hline
-		\textbf{Modelo de Procesos de Minería de Datos} &
-		\textbf{KDD} &
-		\textbf{CRISP-DM} & 
-		\textbf{SEMMA}
+	\begin{tabular}{M{3.5cm}M{5cm}M{3.5cm}M{2.5cm}}
+		\specialrule{.1em}{.05em}{.05em}
+		Modelo de Procesos de Minería de Datos &
+		KDD &
+		CRISP-DM & 
+		SEMMA
 		\\
-		\hline
+		\specialrule{.1em}{.05em}{.05em}
 		{Número de pasos}
 		&9
 		&6
@@ -277,7 +277,7 @@ Las tres metodologías tienen distinto número de pasos, así como distintos enf
 		\\
 		\cline{2-2}\cline{4-4}
 		&Limpieza de datos y pre-procesamiento
-		&\multicolumn{1}{c|}{}
+		&\multicolumn{1}{c}{}
 		&Exploración
 		\\
 		\cline{2-4}
@@ -292,13 +292,13 @@ Las tres metodologías tienen distinto número de pasos, así como distintos enf
 		\\
 		\cline{2-2}
 		&Elección del algoritmo adecuado de Minería de datos
-		&\multicolumn{1}{c|}{}
-		&\multicolumn{1}{c|}{}
+		&\multicolumn{1}{c}{}
+		&\multicolumn{1}{c}{}
 		\\
 		\cline{2-2}
 		&Implementación del algoritmo de Minería de datos
-		&\multicolumn{1}{c|}{}
-		&\multicolumn{1}{c|}{}
+		&\multicolumn{1}{c}{}
+		&\multicolumn{1}{c}{}
 		\\
 		\cline{2-4}
 		&Interpretación de patrones minados
@@ -307,7 +307,7 @@ Las tres metodologías tienen distinto número de pasos, así como distintos enf
 		\\
 		\cline{2-4}          & Uso de conocimiento descubierto & Despliegue & -
 		\\
-		\hline
+		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}%
 	\par	%%Salto de linea
 	\bigskip
@@ -911,7 +911,7 @@ Existe una gran variedad de técnicas para la Minería de Datos. Las más import
 Para evaluar la performance de un modelo, se utilizan diversas métricas como instrumentos de medición de desempeño a partir de los resultados arrojados en la Matriz de confusión. A continuación, se detalla su concepto y sus elementos.
 
 \begin{itemize}
-	\item \textbf{Matriz de confusión}: Es una tabla de NxN que resume el nivel de éxito de las predicciones de un modelo de clasificación; es decir, la correlación que existe entre la etiqueta y la clasificación del modelo. Un eje de una matriz de confusión es la etiqueta que el modelo predijo; el otro es la etiqueta real. N representa el número de clases. Es un problema de clasificación binaria, N=2 \parencite{gl_kohavi1998ml_glossary}. Su principal objetivo es describir el rendimiento de un modelo supervisado de Machine Learning en los datos de prueba, donde se desconocen los verdaderos valores. Se le llama “matriz de confusión” porque hace que sea fácil detectar dónde el sistema está confundiendo dos clases \parencite{gl_bigdata2019metricas}. Se representa de la siguiente manera:
+	\item \textbf{Matriz de confusión}: Es una tabla de NxN que resume el nivel de éxito de las predicciones de un modelo de clasificación; es decir, la correlación que existe entre la etiqueta y la clasificación del modelo. Un eje de una matriz de confusión es la etiqueta que el modelo predijo; el otro es la etiqueta real. N representa el número de clases. Es un problema de clasificación binaria, N=2 \parencite{gl_kohavi1998ml_glossary}. Su principal objetivo es describir el rendimiento de un modelo supervisado de Machine Learning en los datos de prueba, donde se desconocen los verdaderos valores. Se le llama “matriz de confusión” porque hace que sea fácil detectar dónde el sistema está confundiendo dos clases \parencite{gl_bigdata2019metricas}. Se representa en la Tabla \ref{2:table2}.
 	
 	\begin{table}[h!]
 		\caption[Matriz de confusión]{Matriz de confusión.}
@@ -919,21 +919,26 @@ Para evaluar la performance de un modelo, se utilizan diversas métricas como in
 		\centering
 		\small
 		\begin{tabular}{llcc}
-			&                                                            & \multicolumn{2}{c}{\textbf{Valores Actuales}}                                                      \\ \cline{3-4} 
-			& \multicolumn{1}{l|}{}                                      & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Positivos (1)} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Negativos (0)} \\ \cline{2-4} 
-			\multicolumn{1}{c|}{}                                             & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Positivos (1)} & \multicolumn{1}{c|}{Verdaderos Positivos (VP)}             & \multicolumn{1}{c|}{Falsos Positivos (FP)}                 \\ \cline{2-4} 
-			\multicolumn{1}{c|}{\multirow{-2}{*}{\textbf{Valores Predichos}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAEEF3}Negativos (0)} & \multicolumn{1}{c|}{Falsos Negativos (FN)}                 & \multicolumn{1}{c|}{Verdaderos Negativos (VN)}             \\ \cline{2-4} 
+			\specialrule{.1em}{.05em}{.05em}
+			&                                                            & \multicolumn{2}{c}{Valores Actuales}
+			\\
+			\cline{3-4} 
+			& \multicolumn{1}{l}{}                                      & \multicolumn{1}{c}{Positivos (1)} & \multicolumn{1}{c}{Negativos (0)}
+			\\
+			\specialrule{.1em}{.05em}{.05em}
+			\multicolumn{1}{c}{}                                             & \multicolumn{1}{c}{Positivos (1)} & \multicolumn{1}{c}{Verdaderos Positivos (VP)}             & \multicolumn{1}{c}{Falsos Positivos (FP)}                 \\ \cline{2-4} 
+			\multicolumn{1}{c}{\multirow{-2}{*}{Valores Predichos}} & \multicolumn{1}{c}{Negativos (0)} & \multicolumn{1}{c}{Falsos Negativos (FN)}                 & \multicolumn{1}{c}{Verdaderos Negativos (VN)}
+			\\
+			\specialrule{.1em}{.05em}{.05em}
 		\end{tabular}
 		\par	%%Salto de linea
 		\bigskip
 		\begin{flushleft}	%%Alinear a la izquierda sin justificar
 			\small Fuente: \cite{gl_izco2018bdc}
 		\end{flushleft}
-	\end{table}
-	
+	\end{table}	
 \end{itemize}
 
-De la Tabla \ref{2:table2}, existen 4 elementos clave:
 \begin{itemize}
 	\item \textbf{Verdadero positivo} (TP o \textit{True Positive}): Es el ejemplo en el que el modelo predijo de manera correcta la clase positiva. Por ejemplo, el modelo infirió correctamente que un paciente con determinadas características descritas en las variables sufre de cáncer \parencite{gl_google2018machinelearning}.
 	\item \textbf{Verdadero negativo} (TN o \textit{True Negative}): Es el ejemplo en el que el modelo predijo de manera correcta la clase negativa. Por ejemplo, el modelo infirió correctamente que una determinada especie animal de acuerdo a sus características no era un mamífero \parencite{gl_google2018machinelearning}.

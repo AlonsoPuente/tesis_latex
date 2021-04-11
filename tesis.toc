@@ -4,10 +4,10 @@
 \contentsline {chapter}{INTRODUCCIÓN}{17}{chapter*.4}%
 \contentsline {chapter}{\numberline {I}PLANTEAMIENTO DEL PROBLEMA}{19}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{19}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Formulación del Problema}{21}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Formulación del Problema}{22}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Problema General}{22}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Problemas Específicos}{22}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{23}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{22}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivo General}{23}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{23}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Justificación de la Investigación}{23}{section.1.4}%
@@ -38,26 +38,26 @@
 \contentsline {section}{\numberline {2.3}Marco Conceptual}{101}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Crowdfunding}{101}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Kickstarter}{103}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Proyecto}{103}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Proyecto}{104}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Campaña}{104}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {III}METODOLOGÍA DE LA INVESTIGACIÓN}{106}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{106}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{106}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{106}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{106}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{106}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{107}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{108}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{109}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{109}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Comprensión del negocio}{112}{subsubsection.3.3.1.1}%
+\contentsline {chapter}{\numberline {III}METODOLOGÍA DE LA INVESTIGACIÓN}{107}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{107}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{107}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{107}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{107}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{107}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{108}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{109}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{110}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{110}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Comprensión del negocio}{114}{subsubsection.3.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.3.1.2}Comprensión de los datos}{115}{subsubsection.3.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.3.1.3}Preparación de los datos}{118}{subsubsection.3.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.3.1.4}Modelamiento}{120}{subsubsection.3.3.1.4}%
 \contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación}{124}{subsubsection.3.3.1.5}%
 \contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{126}{subsubsection.3.3.1.6}%
-\contentsline {subsection}{\numberline {3.3.2}Metodología para la medición de resultados}{127}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{127}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.2}Metodología para la medición de resultados}{126}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{126}{section.3.4}%
 \contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{129}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Comprensión del negocio}{129}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Comprensión de los datos}{129}{section.4.2}%

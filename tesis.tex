@@ -7,6 +7,8 @@
 \usepackage{pdflscape}
 \usepackage{longtable}
 \usepackage{enumitem}
+\usepackage{newclude}
+\usepackage[export]{adjustbox}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \newcolumntype{N}{@{}m{0pt}@{}}
 
@@ -28,6 +30,7 @@
 \patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
 \patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
 \makeatother
+
 
 %%%%paquete para usar citas de diferentes formatos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -51,8 +54,7 @@ backend=biber]{biblatex}
 %% Para que texto de figuras y tablas tenga formato APA
 \usepackage{multirow,booktabs,setspace,caption}
 \DeclareCaptionLabelSeparator*{spaced}{\\[2ex]}
-\captionsetup[table]{textfont=it,format=plain,justification=justified,
-	singlelinecheck=false,labelsep=spaced,skip=0pt}
+\captionsetup[table]{labelfont=normalfont,textfont=it,format=plain,justification=justified,singlelinecheck=false,labelsep=newline,skip=2pt}
 \captionsetup[figure]{labelsep=period,labelfont={it,bf},justification=justified,singlelinecheck=false,font=doublespacing}
 \captionsetup[subfigure]{justification=centering}
 
@@ -334,12 +336,22 @@ pdfauthor={autor nombres}]{hyperref}
 
 % Este es el comando que funciona para las ecuaciones
 \renewcommand{\theequcaption}{\arabic{equcaption}}
-\include{1/planteamiento}
-\include{2/marco}
-\include{3/metodologia}
-\include{4/desarrollo}
-\include{5/resultados}
-\include{6/conclusion}
+
+%%Para insertar los capítulos y agregando nueva página al terminar
+%\include{1/planteamiento}
+%\include{2/marco}
+%\include{3/metodologia}
+%\include{4/desarrollo}
+%\include{5/resultados}
+%\include{6/conclusion}
+
+%%Para insertar los capítulos de forma seguida
+\input{1/planteamiento}
+\input{2/marco}
+\input{3/metodologia}
+\input{4/desarrollo}
+\input{5/resultados}
+\input{6/conclusion}
 % %%Bibliografia
 %\bibliographystyle{apalike} % No funciona
 %\renewcommand{\bibname}{BIBLIOGRAFÍA} % changes the header; default: Bibliography
