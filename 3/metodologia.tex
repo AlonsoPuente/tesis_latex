@@ -64,21 +64,20 @@ En la Tabla \ref{3:table1} se presenta la operacionalización de variables para 
 \end{flushleft}
 %\end{table}
 
-El trabajo busca resolver el problema de clasificación del estado final de financiamiento de un proyecto a través de la implementación de un modelo de Aprendizaje Profundo Multimodal.
+El trabajo busca resolver el problema de clasificación del estado final de financiamiento de un proyecto implementando un modelo de Aprendizaje Profundo Multimodal.
 
-Como se explica en la subsección 2.3.3, un proyecto de Kickstarter presenta 5 categorías de acuerdo al logro del objetivo de su meta: exitoso, fracasado, vigente, suspendido y cancelado. Dado que se busca predecir si, a partir de una serie de variables, el proyecto llegará a ser financiado o no, el estudio se delimita a estas 2 clases. Para determinar este valor, y según la política “Todo o Nada” de la plataforma explicado en la subsección 2.3.2, un proyecto es determinado como exitoso cuando el monto contribuido al culminar el tiempo de vida de su campaña logra ser mayor o igual a su meta estimada. De lo contrario, se dice que es un proyecto fracasado.
+Como se explica en la subsección 2.3.3, un proyecto de Kickstarter presenta 5 categorías de acuerdo al logro del objetivo de su meta: exitoso, fracasado, vigente, suspendido y cancelado. Dado que se busca predecir si, a partir de una serie de variables, el proyecto llegará a ser financiado o no, el estudio se delimita a estas 2 clases. Para determinar este valor, y según la política “Todo o Nada” de la plataforma explicado en la subsección 2.3.2, un proyecto es determinado como exitoso cuando el monto contribuido al culminar el tiempo de vida de su campaña logra ser mayor o igual a su meta estimada. De lo contrario, es un proyecto fracasado.
 
-Con el fin de alcanzar el objetivo, se utilizó como principal vehículo un modelo de Aprendizaje Profundo Multimodal, cuyo concepto teórico se explica en la Sección 2.2.4. Este modelo, alimentado de 3 modalidades independientes presentes en cada campaña de Kickstarter, comprende el ensamblaje de 3 modelos de Aprendizaje Profundo: un modelo Perceptrón Multicapa (MLP), una Red Neuronal Convolucional (CNN) y un modelo LSTM Bidireccional. Al mismo tiempo, para los 2 últimos que corresponden a las modalidades de descripción y comentarios respectivamente, se trabajaron sus datos de entrada con técnicas de Procesamiento de Lenguaje Natural que incluye desde el pre-procesamiento de los textos hasta su conversión en vectores que finalmente serán entrenados.
+El modelo propuesto, alimentado de 3 modalidades independientes presentes en cada campaña de Kickstarter, comprende el ensamblaje de 3 modelos de Aprendizaje Profundo: un modelo Perceptrón Multicapa (MLP), una Red Neuronal Convolucional (CNN) y un modelo LSTM Bidireccional. Para estos 2 últimos, se trabajaron sus datos de entrada con técnicas de Procesamiento de Lenguaje Natural que incluye desde el pre-procesamiento de los textos hasta su conversión en vectores que finalmente fueron entrenados en sus respectivos modelos.
 
 Por último, para poder evaluar la efectividad que este registrará al ser entrenado, su desempeño será evaluado a través de métricas de clasificación de Minería de Datos. Para la investigación, las 5 métricas utilizadas fueron la exactitud, la precisión, el área bajo la curva ROC, la sensibilidad y el puntaje F1, las cuales se describen en la Sección 2.2.9.
-%\clearpage
 
 \section{Técnicas de recolección de datos}
-Los conjuntos de datos recolectados para la investigación se componen de mezcla de observaciones cuantitativas (variables numéricas basadas en características del proyecto como la meta de financiamiento, montos prometidos, duración de la campaña y otros indicadores financieros) y cualitativas (descripción y comentarios del proyecto). Para obtener los 3 principales datasets, se siguió el flujo de la Figura \ref{3:fig1}. La base de datos de la metainformación, que comprende las variables cuantitativas y propaganda del proyecto, fue consolidada luego de descargar un histórico público de 10 años de la página web “Web Robots”, fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, y posteriormente pre-procesarla. Mientras que por el lado de la descripción y comentarios de cada proyecto, se usaron técnicas y herramientas de \textit{web scraping} a partir de los URLs.
+Los conjuntos de datos recolectados para la investigación se componen de variables cuantitativas (características del proyecto como la meta de financiamiento, montos prometidos, duración de la campaña y otros indicadores financieros) y cualitativas (descripción y comentarios del proyecto). Para obtener los 3 principales datasets, se siguió el flujo de la Figura \ref{3:fig1}. La base de datos de la metainformación fue construída luego de descargar un histórico público de 10 años de la página web “Web Robots” y posteriormente pre-procesarla. Por el lado de la descripción y comentarios de los patrocinadores, se usaron técnicas y herramientas de \textit{web scraping} a partir de los URLs de cada proyecto disponibles en la Metainformación.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/data_recolection_flux.png}
+		\includegraphics[width=0.89\textwidth]{3/figures/data_recolection_flux.png}
 		\caption[Flujograma de la recolección de conjuntos finales de datos]{Flujograma de la recolección de conjuntos finales de datos.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig1}
@@ -87,7 +86,7 @@ Los conjuntos de datos recolectados para la investigación se componen de mezcla
 
 Asimismo, para encontrar algunos de los papers con la información requerida más cercana, se utilizaron keywords o palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}.
 
-\newpage
+%\newpage
 \section{Técnicas para el procesamiento y análisis de la información}
 
 \subsection{Metodología de implementación de la solución}
@@ -95,7 +94,7 @@ Como se explicó en el punto 2.2.6 del Marco Teórico del presente trabajo, seg�
 
 Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de comparar las utilizadas por los autores en los antecedentes. 17 de los 18 autores implementaron sus propias metodologías, las cuales de acuerdo a su similitud se agruparon en 8 grupos.
 
-\newpage
+%\newpage
 %\begin{table}[htbp]
 \vspace{2ex}
 \begingroup
@@ -238,7 +237,7 @@ Para escoger la metodología, se elaboró la Tabla \ref{3:table2} con el fin de 
 	\end{flushleft}
 %\end{table}
 
-Si bien es cierto que de las 3 metodologías mencionadas por \citeauthor{tec_braulio2015metodologiasdm}, solamente 1 autor especifica en su investigación el uso de una de ellas, en este caso CRISP-DM, otros 3 autores (grupos A y B) en sus propias metodologías siguieron secuencias de actividades que se encuentran comprendidas también dentro de esta metodología. Por su parte, los grupos C, F y H guardan cierta relación de semejanza con la metodología SEMMA por comprender enfocarse más en el modeloado, así como tener de primera actividad el Muestreo y culminar con la evaluación de resultados, obviando la actividad de formulación del problema. En el Anexo \ref{anexo4} se puede observar con más detalle las metodologías de la Tabla \ref{3:table2} asignadas a la investigación correspondiente.
+Si bien es cierto que de las 3 metodologías mencionadas por \citeauthor{tec_braulio2015metodologiasdm}, solamente 1 autor especifica en su investigación el uso de una de ellas, en este caso CRISP-DM \parencite{pr_fernandezblanco2020crowdfunding_empirical}, otros 3 autores (grupos A y B) en sus propias metodologías siguieron secuencias de actividades que se encuentran comprendidas también dentro de esta metodología. Por su parte, los grupos C, F y H guardan cierta relación de semejanza con la metodología SEMMA por comprender enfocarse más en el modeloado, así como tener de primera actividad el Muestreo y culminar con la evaluación de resultados, obviando la actividad de formulación del problema. En el Anexo \ref{anexo4} se puede observar con más detalle las metodologías de la Tabla \ref{3:table2} asignadas a la investigación correspondiente.
 
 Además de lo anterior expuesto, algunas de las siguientes características de acuerdo a la literatura también influyeron en la elección de la metodología CRISP-DM:
 
@@ -322,23 +321,23 @@ A continuación, cada actividad de la anterior tabla es detallada y se indican s
 
 \textbf{Actividad 1: Definir problemas, objetivos e hipótesis}
 \\
+En esta actividad se detalla cómo se definieron los problemas, objetivos e hipótesis generales y específicos de la investigación a partir del estudio de la coyuntura en que se desenvuelve la realidad problemática.
 
-
-\textbf{Entregable:}
+\textbf{Entregable}: Problemas, objetivos e hipótesis definidos.
 
 
 \textbf{Actividad 2: Desarrollar la literatura de la investigación}
 \\
+A partir de la definición de los objetivos, se realizó la búsqueda de fuentes, publicaciones, libros, artículos y material académico relacionado al contexto del financiamiento colectivo, sus características y qué métodos se utilizaron para resolver problemas dentro del entorno. Asimismo, se elaboró el marco teórico abordado en el estudio.
 
-
-\textbf{Entregable:}
+\textbf{Entregable}: Material académico y conocimientos obtenidos sobre el ambiente del crowdfunding y la Inteligencia Artificial.
 
 
 \textbf{Actividad 3: Definir metodología de la investigación}
 \\
+Luego de conseguir los recursos intelectuales suficientes y los trabajos previos para el desarrollo de la investigación, se analizó cada antecedente y se compararon todas las metodologías implementadas por cada autor. Al culminar con esta tarea, en base a la literatura y los procesos más alineados al presente trabajo, se seleccionó la metodología CRISP-DM como la mejor opción.
 
-
-\textbf{Entregable:}
+\textbf{Entregable}: Metodología de implementación de la solución.
 
 
 \subsubsection{Comprensión de los datos}
@@ -397,7 +396,7 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Describir distribución de los datos y tendencias.
-		\item Analizar existencia de correlación en caso se encuentre presente.
+		\item Analizar existencia de correlación entre variables.
 	\end{itemize}
 	\\
 	\specialrule{.1em}{.05em}{.05em}
@@ -410,7 +409,7 @@ Para ello, se elaboró una lista de actividades y tareas presentadas en la Tabla
 	\small Fuente: Elaboración propia
 \end{flushleft}
 
-A continuación, cada actividad de la anterior tabla es detallada y se indican sus entregables respectivos.
+A continuación, se detalla cada actividad y su entregable respectivo.
 
 \textbf{Actividad 1: Construir base de datos de Metainformación}
 \\
@@ -431,7 +430,7 @@ La siguiente fase de la actividad fue la selección de variables y limpieza de d
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/flujograma_metadata_t3.png}
+		\includegraphics[width=1\textwidth,clip]{3/figures/flujograma_metadata_t3.png}
 		\caption[Proceso resumido de generación de conjunto final de Metainformación]{Proceso resumido de generación de conjunto final de Metainformación.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig4}
@@ -534,6 +533,26 @@ El análisis exploratorio de los datos fue determinante para la selección final
 	\small Fuente: Elaboración propia
 \end{flushleft}
 
+A continuación, se detalla cada actividad y su entregable respectivo.
+
+\textbf{Actividad 1: Pre-procesar base de datos de Metainformación}
+\\
+
+
+\textbf{Entregable}:
+
+\textbf{Actividad 2: Pre-procesar base de datos de Descripción}
+\\
+
+
+\textbf{Entregable}:
+
+\textbf{Actividad 3: Pre-procesar base de datos de Comentarios}
+\\
+
+
+\textbf{Entregable}:
+
 \subsubsection{Modelamiento}
 
 
@@ -585,6 +604,17 @@ El análisis exploratorio de los datos fue determinante para la selección final
 		\item Comparar resultados obtenidos.
 	\end{itemize}
 	\\
+	\hline
+	Desarrollar modelo predictivo ensamblado.
+	& Implementación del modelo de Aprendizaje Profundo Multimodal.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Diseñar arquitectura del modelo predictivo ensamblado.
+		\item Entrenar modelo con los mejores resultados por cada modalidad.
+		\item Realizar experimentos con hiperparámetros modificados.
+		\item Comparar resultados obtenidos.
+	\end{itemize}
+	\\
 	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
 \endgroup
@@ -594,6 +624,33 @@ El análisis exploratorio de los datos fue determinante para la selección final
 \begin{flushleft}	%%Alinear a la izquierda sin justificar
 	\small Fuente: Elaboración propia
 \end{flushleft}
+
+A continuación, se detalla cada actividad y su entregable respectivo.
+
+\textbf{Actividad 1: Desarrollar modelo predictivo de Metainformación}
+\\
+
+
+\textbf{Entregable}:
+
+\textbf{Actividad 2: Desarrollar modelo predictivo de Descripción}
+\\
+
+
+\textbf{Entregable}:
+
+\textbf{Actividad 3: Desarrollar modelo predictivo de Comentarios}
+\\
+
+
+\textbf{Entregable}:
+
+\textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
+\\
+
+
+\textbf{Entregable}:
+
 
 Luego del pre-procesamiento de los datos, en esta fase se procedió a crear modelos predictivos para cada modalidad considerada. Tomando de referencia a los antecedentes del Marco Teórico, los más usados para cada modalidad se detalla a continuación:
 \begin{itemize}
