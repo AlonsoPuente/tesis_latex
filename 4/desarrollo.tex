@@ -494,16 +494,7 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 
 \textbf{Actividad 2: Pre-procesar base de datos de Descripción}
 \\
-Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar siguiendo el flujograma de Figura \ref{4:fig30}, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; y \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.35\textwidth]{4/figures/description_data_clean.png}
-		\caption[Flujograma de limpieza de conjunto de datos de descripciones]{Flujograma de limpieza de conjunto de datos de descripciones.\\
-			Fuente: Elaboración propia.}
-		\label{4:fig30}
-	\end{center}
-\end{figure}
+Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar bajo los siguientes pasos, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; y \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas por su proyecto correspondiente.
 
 Para seguir con cada paso del flujo, se usaron elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. Como resultado de la secuencia, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 

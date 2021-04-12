@@ -471,11 +471,12 @@ De acuerdo a la Figura \ref{3:fig1}, y realizando el mismo ejercicio con Descrip
 
 \textbf{Actividad 4: Realizar análisis exploratorio y estadístico de variables considerados}
 \\
+En esta actividad, las variables de los 3 conjuntos finales de datos se describen en distribución de gráficos de barras, diagramas de cajas y bigotes y análisis de correlaciones de variables para la Metainformación; y nubes de palabras para la Descripción y Comentarios.
 
-\textbf{Entregable}:
+\textbf{Entregable}: Gráficos estadísticos de Metainformación, Descripción y Comentarios.
 
 \subsubsection{Preparación de los datos}
-El análisis exploratorio de los datos fue determinante para la selección final de variables de la Metainformación, gracias al uso de herramientas estadísticas como el análisis de correlaciones para discriminar aquellas que superaron el límite fijado y que desembocó, luego del pre-procesamiento detallado en el subcapítulo 3 del mismo capítulo, en la Tabla \ref{3:table5}.
+En el anterior paso, se logró analizar estadísticamente las tendencias y distribuciones de cada variable según su respectiva modalidad. En esta etapa, como se detalla en la Tabla \ref{3:table5}, las variables observadas fueron pre-procesadas con la finalidad de incluir datos homologados que no afecten negativamente el rendimiento de los modelos.
 
 \vspace{2ex}
 \begingroup
@@ -537,24 +538,33 @@ A continuación, se detalla cada actividad y su entregable respectivo.
 
 \textbf{Actividad 1: Pre-procesar base de datos de Metainformación}
 \\
+En esta actividad, antes de realizar el pre-procesamiento de las variables que se usaron más adelante en el modelo predictivo, se agregaron variables cuantitativas sugeridas en la literatura que no estaban consideradas inicialmente en la base de datos final de la Metainformación. Para discriminar correctamente el nuevo conjunto de variables, se realizó un nuevo análisis de correlación y se armaron grupos de combinatorias de variables cuyos rendimientos serán evaluados en los siguientes pasos. Previamente a la evaluación, las variables de cada grupo se escalaron a un mismo rango para evitar un entrenamiento incorrecto.
 
-
-\textbf{Entregable}:
+\textbf{Entregable}: Conjuntos de datos pre-procesados de Metainformación.
 
 \textbf{Actividad 2: Pre-procesar base de datos de Descripción}
 \\
+Esta actividad se resume en la Figura \ref{3:fig7}, en donde se realizó desde la limpieza de los datos textuales, eliminando palabras y partes de ellas que no aportan para el diccionario final que se usará en la siguiente etapa, hasta la elaboración del vocabulario de palabras únicas, mayormente sustantivos y verbos en su forma original, los cuales se les asignaron un código para poder formar vectores de palabras y crear más adelante, las incrustaciones de palabras.
 
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.33\textwidth]{4/figures/description_data_clean.png}
+		\caption[Flujograma de limpieza de conjunto de datos de descripciones]{Flujograma de limpieza de conjunto de datos de descripciones.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig7}
+	\end{center}
+\end{figure}
 
-\textbf{Entregable}:
+\textbf{Entregable}: Conjunto de datos pre-procesados de Descripción.
 
 \textbf{Actividad 3: Pre-procesar base de datos de Comentarios}
 \\
+Al igual que con la Descripción, se realizó la limpieza de los datos textuales, eliminando palabras y partes de ellas que no aportan para el diccionario final que se usará en la siguiente etapa. Este vocabulario consta de palabras únicas, mayormente sustantivos y verbos en su forma original, los cuales se les asignaron un código para poder formar vectores de palabras y crear más adelante, las incrustaciones de palabras.
 
-
-\textbf{Entregable}:
+\textbf{Entregable}: Conjunto de datos pre-procesados de Comentarios.
 
 \subsubsection{Modelamiento}
-
+Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizadas para los modelos de cada modalidad, que fueron diseñados siguiendo las actividades de la Tabla \ref{3:table6}.
 
 \vspace{2ex}
 \begingroup
@@ -665,13 +675,13 @@ Según los anteriores autores, salvo en investigaciones donde se usaron 1 sola m
 
 Por ello, se optó por usar arquitecturas de Redes Neuronales para cada modalidad con el fin de poder ensamblar y comparar sus resultados, tanto de manera individual como en el modelo apilado, con la literatura.
 
-Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\cite{pr_chen2013kickpredict}, primer antecedente; \cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_beckwith2016predcrowd}, quinto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_kaur2017socmedcrowd}, noveno antecedente; \cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_yu2018deeplearning}, undécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente; \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \cite{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig7}.
+Teniendo como referencia investigaciones basadas en Aprendizaje Profundo Multimodal, es decir, que combinan distintas características de una campaña de crowdfunding (\cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente) usando Metainformación (\cite{pr_chen2013kickpredict}, primer antecedente; \cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_beckwith2016predcrowd}, quinto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_kaur2017socmedcrowd}, noveno antecedente; \cite{pr_kamath2018suplearn}, décimo antecedente; \cite{pr_yu2018deeplearning}, undécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente), descripción del proyecto (\cite{pr_mitra2014phrases}, segundo antecedente; \cite{pr_zhou2015projectdesc}, tercer antecedente; \cite{pr_yuan2016textanalytics}, séptimo antecedente; \cite{pr_sawhney2016usingLT}, octavo antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_cheng2019deeplearning}, decimocuarto antecedente; \cite{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \cite{pr_chaichi2019nlp_3dprinting}, decimosexto antecedente) y comentarios de los patrocinadores acerca del mismo (\cite{pr_chen2015predcrowd}, cuarto antecedente; \cite{pr_li2016predcrowd}, sexto antecedente; \cite{pr_lee2018contentDL}, duodécimo antecedente; \cite{pr_jin2019dayssuccess}, decimotercer antecedente; \cite{pr_shafqat2019topicpredictions}, decimoséptimo antecedente), la idea del prototipo final consistió en ensamblar estas 3 partes en un modelo apilado. Para ello, se representa cada una de las tres partes agrupadas en el marco de trabajo de la Figura \ref{3:fig8}.
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{3/figures/framework.png}
 		\caption[Marco de trabajo del prototipo final]{Marco de trabajo del prototipo final.\\
 			Fuente: Elaboración propia}
-		\label{3:fig7}
+		\label{3:fig8}
 	\end{center}
 \end{figure}
 
@@ -849,13 +859,13 @@ Luego de analizar el desempeño de cada modelo, tanto individual como el modelo 
 \subsection{Metodología para la medición de resultados}
 
 \section{Cronograma de actividades y presupuesto}
-Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig8}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
+Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig9}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=1.1\textwidth]{3/figures/cronograma.png}
 		\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación.\\
 		Fuente: Elaboración propia}
-		\label{3:fig8}
+		\label{3:fig9}
 	\end{center}
 \end{figure}
 
