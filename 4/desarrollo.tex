@@ -4,20 +4,24 @@ En este capítulo se detalla el proceso explicado en el capítulo anterior para 
 \section{Comprensión del negocio}
 \textbf{Actividad 1: Definir problemas, objetivos e hipótesis}
 \\
-
+El inicio de la implementación de la primera fase de la metodología CRISP-DM fue la identificación del problema general a partir del estudio de la realidad problemática abordada en los primeros capítulos. El objetivo, por lo tanto, busca resolver el problema y se encuentra alineado con el título de la investigación. Asimismo, la hipótesis resulta la proposición planteada para explicar el logro del objetivo. Los objetivos específicos del trabajo, que responde a cada problema específico, se definieron a partir de una lluvia de ideas en base a la asociación de objetivos específicos de los antecedentes con la actual investigación. Estos se explican en la siguiente actividad.
 
 \textbf{Actividad 2: Desarrollar la literatura de la investigación}
 \\
+Se buscaron desde libros y artículos online para la comprensión teórica del financiamiento colectivo e Inteligencia Artificial, hasta papers publicados en conferencias, revistas internacionales y científicas, reportes técnicos y tesis de grado acerca de propuestas para resolver el problema estudiado en la investigación.
 
+Para ello, como se describió en la sección 3.2, a través de búsqueda de palabras clave como \textit{crowdfunding}, \textit{Machine Learning}, \textit{Deep Learning}, \textit{prediction}, \textit{Kickstarter}, \textit{accuracy} y \textit{projects}, y el uso del buscador Google Académico, se encontraron estos papers publicados entre el 2013 y 2020.
+
+A continuación, se realizó un resumen de cada antecedente en una hoja de cálculo de Excel con el fin de comparar sus objetivos y metodologías implementadas, como se puede observar el detalle en el Anexo CITAR.
 
 \textbf{Actividad 3: Definir metodología de la investigación}
 \\
-
+Luego de elaborar el detalle del anterior anexo, a excepción de la investigación del autor \cite{pr_fernandezblanco2020crowdfunding_empirical} que utilizó la metodología CRISP-DM, cada antecedente fue agrupado con otro similar de acuerdo a los pasos seguidos en su propia metodología. El resultado fue la Tabla \ref{2:table1} explicada en la sección 3.3.1.
 
 \section{Comprensión de los datos}
 \textbf{Actividad 1: Construir base de datos de Metainformación}
 \\
-El punto de partida para la construcción de los conjuntos de datos que se usaron más adelante en cada modelo de acuerdo a su modalidad fue la adquisición de bases de datos capturadas mensualmente desde finales del 2015 hasta 2019 por la página Web Robots (\url{https://webrobots.io/kickstarter-datasets/}), fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, como se aprecia en la Figura \ref{4:fig1}. El sitio ofrece poder descargarlos en archivos de valores separados por comas (.csv) como en formato JSON. Para el presente trabajo, se optó por la primera opción. De acuerdo con \cite{ot_webrobots2019kickstarter}, creadores del sitio Web Robots, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter.
+El punto de partida para la construcción de los conjuntos de datos que se usaron más adelante en cada modelo de acuerdo a su modalidad fue la adquisición de bases de datos capturadas mensualmente desde finales del 2015 hasta 2019 por la página Web Robots (\url{https://webrobots.io/kickstarter-datasets/}), fundada por los ex corporativos de TI Tomás Vitulskis y Paulius Jonaitis, como se aprecia en la Figura \ref{4:fig1} \cite{ot_webrobots2019kickstarter}. Para el presente trabajo, se optó por descargar en archivos de valores separados por comas (.csv). De acuerdo sus creadores, se ejecutan robots en dos servidores en la nube encargados de recolectar en un determinado punto del día y una vez al mes información de las campañas que aparecen en Kickstarter.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -34,27 +38,18 @@ En la Figura \ref{4:fig2} se detalla el tamaño del conjunto de datos total al c
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{4/figures/dataset_201907.png}
+		\includegraphics[width=1\textwidth]{4/figures/dataset_201907.png}
 		\caption[Tamaño de conjunto de datos al corte de Julio 2019]{Tamaño de conjunto de datos al corte de Julio 2019.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig2}
 	\end{center}
 \end{figure}
 
-A cada conjunto de datos generado se filtraron los que pertenecen a la categoría \textit{\textbf{Technology}}. Al no contar con la información de la columna \textit{main\_category}, este proceso se logró utilizando la variable \textit{source\_url} seleccionando aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”. En la Figura \ref{4:fig3} se aprecia el resultado del conjunto filtrado por categoría Techonlogy al corte de Julio 2019.
+A cada conjunto de datos generado se filtraron los que pertenecen a la categoría \textit{\textbf{Technology}}. Al no contar con la información de la columna \textit{main\_category}, este proceso se logró utilizando la variable \textit{source\_url} seleccionando aquellos registros que contengan la cadena de caracteres “\textbf{https://www.kickstarter.com/discover/categories/technology}”.
 
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.5\textwidth]{4/figures/dataset_filtrada_201907.png}
-		\caption[Tamaño de conjunto de datos filtrado del corte de Julio 2019]{Tamaño de conjunto de datos filtrado del corte de Julio 2019.\\
-			Fuente: Elaboración propia.}
-		\label{4:fig3}
-	\end{center}
-\end{figure}
+Cuando se repitió este procedimiento con cada conjunto generado, se observó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% de la totalidad, aproximadamente más de 21 mil registros por mes. Esto se calculó al comparar el tamaño de cada conjunto generado con el total.
 
-Cuando se repitió este procedimiento con cada conjunto generado, se observó que la proporción de proyectos tecnológicos en Kickstarter representa el 10\% de la totalidad. Esto se calculó al comparar el tamaño de cada conjunto generado con el total.
-
-A continuación, se unieron los 45 archivos separados por coma (.csv) capturados mensualmente desde noviembre del 2015 hasta agosto del 2019. Se realizaron 2 uniones internamente ya que, a partir de marzo del 2018, algunas de las variables y valores presentan diferente estructura a la de sus predecesoras. Sin embargo, esto no afectó al proceso al cruzar por el nombre de columna.
+A continuación, se unieron los 45 archivos separados por coma (.csv) capturados mensualmente desde noviembre del 2015 hasta agosto del 2019. Se realizaron 2 uniones internamente ya que, a partir de marzo del 2018, algunas de las variables y valores presentan diferente estructura a la de sus predecesoras.
 
 Luego, se realizó limpieza de datos para las variables \textit{category}, \textit{location}, \textit{photo} y \textit{urls}, y se transformaron las variables numéricas en milisegundos \textit{created\_at}, \textit{launched\_at} y \textit{deadline} a variables de fecha. Esto último permitió calcular la variable \textit{duration} para determinar la duración de la campaña (en días) de un proyecto calculando la diferencia entre la fecha de culminación (\textit{deadline}) y la fecha de lanzamiento (\textit{launched\_at}). Luego se excluyeron los proyectos en proceso de la variable \textit{state} para conservar los culminados, es decir, aquellos cuyo valor sea “successful” o “failed” ya que se analizarán solamente los proyectos que han sido exitosos o fracasados. Los proyectos cancelados o suspendidos no aparecieron. El último paso del flujo consistió en generar y exportar el archivo final en formato .csv. En la Figura \ref{4:fig4} se visualiza el conjunto final de Metainformación subido públicamente a la plataforma Kaggle. Cada variable se detalla en la Tabla \ref{4:table1}.
 
@@ -122,6 +117,7 @@ Luego, se realizó limpieza de datos para las variables \textit{category}, \text
 	\end{flushleft}
 \end{table}
 
+\newpage
 \textbf{Actividad 2: Construir base de datos de Descripción}
 \\
 La variable \textit{description} se obtuvo utilizando web scraping en cada proyecto gracias a la variable \textit{urls}. Para ello, y como se describe en la Figura \ref{4:fig5}, se elaboró un algoritmo usando la librería BeautifulSoup que, mediante la navegación al contenido de estas páginas a través de un agente falso, se dirigió a las descripciones de los proyectos identificando las etiquetas con clase llamada “\textbf{rte\_\_content js-full-description responsive-media}” y las almacenó en un vector vacío, uniendo previamente los párrafos y eliminando caracteres especiales, para posteriormente asignarle la id correspondiente y guardarlo en un archivo de extensión .csv. En caso el algoritmo no encuentre esta clase dentro de las páginas (IndexError), el vector almacenaba un registro nulo.

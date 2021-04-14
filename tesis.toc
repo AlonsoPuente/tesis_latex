@@ -60,9 +60,9 @@
 \contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{128}{section.3.4}%
 \contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{131}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Comprensión del negocio}{131}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comprensión de los datos}{131}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Preparación de los datos}{146}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelamiento}{152}{section.4.4}%
+\contentsline {section}{\numberline {4.2}Comprensión de los datos}{132}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Preparación de los datos}{148}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelamiento}{151}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Evaluación}{161}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Despliegue}{161}{section.4.6}%
 \contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{162}{chapter.5}%
@@ -75,8 +75,8 @@
 \contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{175}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Conclusiones}{175}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Recomendaciones}{176}{section.6.2}%
-\contentsline {chapter}{REFERENCIAS}{178}{chapter*.176}%
-\contentsline {chapter}{ANEXOS}{187}{section*.177}%
+\contentsline {chapter}{REFERENCIAS}{178}{chapter*.175}%
+\contentsline {chapter}{ANEXOS}{187}{section*.176}%
 \contentsline {section}{\numberline {A}Árbol de Problemas}{188}{section.Alph0.1}%
 \contentsline {section}{\numberline {B}Árbol de Objetivos}{189}{section.Alph0.2}%
 \contentsline {section}{\numberline {C}Matriz de Consistencia}{190}{section.Alph0.3}%
