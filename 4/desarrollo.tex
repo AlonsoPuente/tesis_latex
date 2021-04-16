@@ -171,7 +171,7 @@ En esta sección, se analizaron estadísticamente las variables de cada modalida
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{4/figures/projects by state.png}
+		\includegraphics[width=0.60\textwidth]{4/figures/projects by state.png}
 		\caption[Distribución de proyectos tecnológicos según su estado]{Distribución de proyectos tecnológicos según su estado.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig8}
@@ -211,7 +211,7 @@ Por el lado de Metainformación, de las 19 variables de la Tabla \ref{4:table1},
 		\includegraphics[width=1.13\linewidth]{4/figures/country_distribution.png}
 		\caption{país}
 	\end{subfigure}%
-	\begin{subfigure}{.35\textwidth}
+	\begin{subfigure}{.36\textwidth}
 		\centering
 		\includegraphics[width=1.13\linewidth]{4/figures/currency_distribution.png}
 		\caption{divisa}
@@ -302,7 +302,7 @@ Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{4/figures/metadata correlation.png}
+		\includegraphics[width=0.90\textwidth]{4/figures/metadata correlation.png}
 		\caption[Matriz de correlaciones entre variables independientes]{Matriz de correlaciones entre variables independientes.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig16}
@@ -311,6 +311,7 @@ Posterior a este entendimiento de datos, se elaboró una matriz de correlaciones
 
 Como se puede apreciar en la figura anterior, la variable \textit{usd\_pledged} está altamente correlacionada con las variables \textit{backers\_count} y \textit{pledged} (ambas con un aproximado de 70\%). Esto quiere decir que dicha variable no es significativa porque explicaría de manera muy similar a las otras dos.
 
+\newpage
 Asimismo, si se observan los registros desde una matriz que contiene, además de gráficos de dispersión de las correlaciones, histogramas de las variables independientes como en la Figura \ref{4:fig17}, se confirma y concluye no utilizar las observaciones comentadas.
 
 \begin{figure}[!ht]
@@ -322,32 +323,34 @@ Asimismo, si se observan los registros desde una matriz que contiene, además de
 	\end{center}
 \end{figure}
 
-Se concluye entonces que la variable \textit{duration} es la única que sigue una distribución normal.
+La variable \textit{duration} es la única que sigue una distribución normal debido a la forma de campana de su silueta. Asimismo, los registros de proyectos exitosos y fracasados para las otras 4 variables se encuentran mezcladas en los mismos grupos al cruzarse entre ellas. También se visualizan observaciones en los extremos de cada gráfico, tal y como se detalló en sus valores estadísticos individuales.
 
-Por el lado de la modalidad Descripción, solamente 640 proyectos del total (aproximadamente 2\% de la población) no presentaron descripciones por razones externas durante el proceso de extracción de datos en el Web Scraping. De esta cantidad, 512 (80\% de proyectos sin descripciones) no fueron financiados al final de su campaña, es decir, su estado fue fracasado. Mientras que del subconjunto de proyectos con descripciones, casi el 30\% fueron exitosos (Figura \ref{4:fig18}).
+\newpage
+Por el lado de Descripción, solo 640 proyectos (2\% del total) no presentaron descripciones por razones externas durante el proceso de extracción de datos. De ellos, 512 (80\% de proyectos sin descripciones) fracasaron en ser financiados. Por el lado de proyectos con descripciones, casi el 30\% fueron exitosos como se grafica en la Figura \ref{4:fig18}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.80\textwidth]{4/figures/projects description by state.png}
+		\includegraphics[width=0.75\textwidth]{4/figures/projects description by state.png}
 		\caption[Distribución de proyectos por presencia de comentarios y estado final]{Distribución de proyectos por presencia de comentarios y estado final.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig18}
 	\end{center}
 \end{figure}
 
-\newpage
-En este universo, el registro con descripción de mayor longitud presentó 5,152 palabras y, a nivel total de proyectos, el vocabulario fue de 165,683 palabras. La Figura \ref{4:fig19} representa la nube de palabras del contenido de cada descripción, donde las más destacadas son aquellas de mayor dimensión.
+Asimismo, el registro con descripción de mayor longitud presentó 5,152 palabras y, a nivel total de proyectos, el vocabulario fue de 165,683 palabras.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.73\textwidth]{4/figures/description_wordcloud_original_data.png}
+		\includegraphics[width=0.64\textwidth]{4/figures/description_wordcloud_original_data.png}
 		\caption[Nube de palabras de descripciones]{Nube de palabras de descripciones.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig19}
 	\end{center}
 \end{figure}
 
-Finalmente, por el lado de la modalidad Comentarios, al analizar los proyectos exitosos y fracasados de acuerdo a la presencia de comentarios (Figura \ref{4:fig20}), se observa que del total de los proyectos con comentarios, el 60\% de ellos (4,626 registros) fueron exitosos, encontrándose casi balanceado este subconjunto. Su contraparte, los proyectos sin comentarios, como era de esperarse, su comportamiento influye en el resultado final de la variable dependiente, donde el 84\% fracasaron. Curiosamente, existieron un poco más de 3 mil proyectos sin comentarios que fueron financiados exitosamente.
+En la nube de palabras de la anterior Figura \ref{4:fig19}, los términos más frecuentes en ellas se relacionan con las funcionalidades del producto (\textit{system}, \textit{app}, \textit{need}, \textit{help}, \textit{product}, etc).
+
+Por el lado de Comentarios, al analizar los proyectos exitosos y fracasados por la presencia de comentarios (Figura \ref{4:fig20}), se observa que el 60\% de proyectos con comentarios (4,626 registros) fueron exitosos, mientras que el 84\% de los proyectos sin comentarios fracasaron.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -358,18 +361,20 @@ Finalmente, por el lado de la modalidad Comentarios, al analizar los proyectos e
 	\end{center}
 \end{figure}
 
-Del universo de proyectos tecnológicos que presentan comentarios, los más de 4 mil proyectos exitosos contienen casi la totalidad de comentarios registrados (97\%), representando más de 475 mil como se aprecia en la Figura \ref{4:fig21}. Estos datos confirma la correlación existe entre la presencia de un volumen considerable de comentarios y su éxito de financiación.
+Esto señala que es más probable que un proyecto sin recibir comentarios tiende a fracasar por la diferencia notable entre ambas categorías (68\%). Por el contrario, para el caso de aquellos que presentan comentarios, no se puede formular una hipótesis sobre su comportamiento ya que la diferencia de proporciones no es muy alta (20\%) en comparación con el grupo sin comentarios. Por ello, para conocer un poco más a este último grupo, se analizó el impacto de las cantidades de comentarios independientes realizados por patrocinadores exclusivamente en el resultado final de la meta de financiamiento.
+
+\newpage
+De aquellos proyectos con comentarios, el 96\% que fueron financiados exitosamente recogieron más de 475 mil comentarios, como se aprecia en la Figura \ref{4:fig21}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.35\textwidth]{4/figures/total comments by projects state.png}
+		\includegraphics[width=0.44\textwidth]{4/figures/total comments by projects state.png}
 		\caption[Distribución de comentarios en proyectos exitosos y fracasados]{Distribución de comentarios en proyectos exitosos y fracasados.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig21}
 	\end{center}
 \end{figure}
 
-\newpage
 Respecto al contenido, en la Figura \ref{4:fig22} se ilustra la nube de palabras más frecuentes, respectivamente, luego de quitar URLs, emoticonos y términos en idioma distinto al inglés.
 
 \begin{figure}[htbp]
@@ -380,6 +385,8 @@ Respecto al contenido, en la Figura \ref{4:fig22} se ilustra la nube de palabras
 		\label{4:fig22}
 	\end{center}
 \end{figure}
+
+De esta imagen, se observa que las palabras más frecuentes en los comentarios (tamaño de fuente más grande) se relacionan con términos clave respecto a la campaña (\textit{update}, \textit{project}, \textit{backer}, \textit{product} y \textit{Kickstarter}) y palabras relacionadas a su interacción con el público (\textit{thank}, \textit{will}, \textit{received}, \textit{time}, \textit{money}). Algunos de estos términos, tanto en su forma raíz como en conjugaciones, suelen aparecer solitarias o acompañados de otros para formar frases recurrentes.
 
 \section{Preparación de los datos}
 \textbf{Actividad 1: Pre-procesar base de datos de Metainformación}
@@ -395,6 +402,7 @@ De acuerdo a los autores \cite{pr_chen2013kickpredict}, \cite{pr_chen2015predcro
 	\end{center}
 \end{figure}
 
+\newpage
 Para la selección de variables, se consideró a aquellas con correlación clasificada como insignificante, es decir, menor o igual a 0.30 \parencite{tec_mukaka2012correlation}. Las únicas que cumplen son \textit{goal}, \textit{pledges\_num}, \textit{completeness} y \textit{duration}. Sin embargo, algunas de las restantes pueden ser consideradas condicionándose a excluir otras. En la Tabla \ref{4:table2} se listan las 8 combinatorias posibles de variables que se pueden formar.
 
 \begin{table}[h!]
@@ -459,16 +467,16 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 
 \textbf{Actividad 2: Pre-procesar base de datos de Descripción}
 \\
-Para poder entrenar un modelo de clasificación binaria basado en texto, se debe pre-procesar bajo los siguientes pasos, que complementa la limpieza de texto referidos previamente (\cite{pr_mitra2014phrases}, \cite{pr_yuan2016textanalytics} y \cite{pr_chen2019keywords_crowdfunding}) con el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutar cada paso, los registros de proyectos sin descripciones, es decir, con valor nulo (\textit{NaN}), se convirtieron en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado será tokenizado a palabras individuales con la intención de eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista, separadas según su proyecto.
+Se realizó la limpieza de texto basándose en los trabajos de los autores \cite{pr_mitra2014phrases}, \cite{pr_yuan2016textanalytics} y \cite{pr_chen2019keywords_crowdfunding} y además, se agregaron pasos de lematización y supresión de palabras de parada siguiendo el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutarse el proceso, los registros sin descripciones (\textit{NaN}) fueron convertidos en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado fue separado en palabras o tókens para eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista por su proyecto.
 
-Para seguir con cada paso del flujo, se usaron elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. Como resultado de la secuencia, la descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
+Cada iteración se pudo lograr gracias a elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. La descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 
-Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig24} representa aquellas palabras que más aparecen en las descripciones de proyectos de tecnología en Kickstarter.
+Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig24} representa aquellas palabras que más aparecen en las descripciones.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{4/figures/description_wordcloud.png}
-		\caption[Nube de palabras de descripciones posterior al pre-procesamiento]{Nube de palabras de descripciones posterior al pre-procesamiento.\\
+		\includegraphics[width=0.63\textwidth]{4/figures/description_wordcloud.png}
+		\caption[Nube de palabras de descripciones posterior a la limpieza de texto]{Nube de palabras de descripciones posterior a la limpieza de texto.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig24}
 	\end{center}
@@ -476,33 +484,33 @@ Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto
 
 \textbf{Actividad 3: Pre-procesar base de datos de Comentarios}
 \\
-La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios, separados en sublistas por autor. De los 7,750 proyectos con comentarios (de los cuales, 4,626 fueron exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, así como URLs, emoticonos, emojis, números y caracteres especiales, resultando finalmente en 7,658 proyectos con comentarios (4,574 exitosos).
+La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios separados en sublistas. De los 7,750 proyectos con comentarios (4,626 exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, URLs, emoticonos, emojis, números y caracteres especiales, quedando 7,658 registros (4,574 exitosos).
 
 Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo ejercicio para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig25}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{4/figures/comments_wordcloud_processed.png}
-		\caption[Nube de palabras de comentarios posterior al pre-procesamiento]{Nube de palabras de comentarios posterior al pre-procesamiento.\\
+		\includegraphics[width=0.63\textwidth]{4/figures/comments_wordcloud_processed.png}
+		\caption[Nube de palabras de comentarios posterior a la limpieza de texto]{Nube de palabras de comentarios posterior a la limpieza de texto.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig25}
 	\end{center}
 \end{figure}
 
 \section{Modelamiento}
-Una vez generadas las variables independientes (observaciones, X) y dependiente (estado de financiamiento, Y), el conjunto de datos es separado en subconjuntos de entrenamiento y prueba, con proporciones de 80\% y 20\% respectivamente (\citeauthor{pr_yuan2016textanalytics}, séptimo antecedente; \citeauthor{pr_yu2018deeplearning}, undécimo antecedente; \citeauthor{pr_chen2019keywords_crowdfunding}, decimoquinto antecedente; \citeauthor{pr_mitra2014phrases}, segundo antecedente; \citeauthor{pr_sawhney2016usingLT}, octavo antecedente) y se fija un valor de aleatoriedad. Dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función \textit{train\_test\_split}, de la siguiente manera:
+Una vez generadas las variables independientes (observaciones, X) y dependiente (estado de financiamiento, Y), el conjunto de datos es separado en subconjuntos de entrenamiento y prueba, con proporciones de 80\% y 20\% respectivamente (\citeauthor{pr_yuan2016textanalytics}, \citeauthor{pr_yu2018deeplearning}, \citeauthor{pr_chen2019keywords_crowdfunding}, \citeauthor{pr_mitra2014phrases}, \citeauthor{pr_sawhney2016usingLT}) y se fija un valor de aleatoriedad. Dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función \textit{train\_test\_split}, de la siguiente manera:
 
-\begin{lstlisting}[language=Python]
-train_test_split(X, Y, test_size = 0.20, stratify = Y, random_state=0)
-\end{lstlisting}
+%\begin{lstlisting}[language=Python]
+train\_test\_split(X, Y, test\_size = 0.20, stratify = Y, random\_state=0)
+%\end{lstlisting}
 
-Antes de crear los modelos correspondientes, y después de definir los valores de entrada y parámetros (las subsecciones que se detallarán a continuación), se asigna una semilla inicial con un valor fijado por el usuario con el fin de evitar resultados aleatorios para futuras iteraciones. Se establece, además, una ruta local en donde se almacena cada punto de control basado en la mejora de la pérdida del subconjunto de validación con respecto a su iteración anterior. En caso de un estancamiento de esta última durante 10 épocas, es decir, si el valor de la pérdida no decrementa, el modelo dejará de entrenar. A esta regla se le añade la reducción de la tasa de aprendizaje luego de 5 épocas en caso el valor de la exactitud del subconjunto de validación no refleje un incremento. El objetivo de estas condiciones es evitar el sobreajuste en los modelos.
+Antes de crear los modelos correspondientes, y después de definir los valores de entrada y parámetros (las subsecciones que se detallarán a continuación), se asigna una semilla inicial con un valor fijado por el usuario con el fin de evitar resultados aleatorios para futuras iteraciones. Se establece, además, una ruta local en donde se almacena cada punto de control basado en la mejora de la pérdida del subconjunto de validación con respecto a su iteración anterior. En caso de un estancamiento de esta última durante 10 épocas, es decir, si el valor de la pérdida no decrementa, el modelo dejará de entrenar. A esta regla se le añade la reducción de la tasa de aprendizaje luego de 5 épocas en caso el valor de la exactitud del subconjunto de validación no refleje un incremento. El objetivo de estas condiciones es evitar el sobreajuste en los modelos durante el entrenamiento.
 
 Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{state}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
 
 \textbf{Actividad 1: Desarrollar modelo predictivo de Metainformación}
 \\
-Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig33} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning} (undécimo antecedente). Se asignaron 100 épocas y el número de lotes fue 32.
+Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig33} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning}. Se asignaron 100 épocas y el número de lotes fue 32.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -513,45 +521,23 @@ Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP p
 	\end{center}
 \end{figure}
 
-La arquitectura comienza con la capa de entrada alimentadas por las 6 variables consideradas, la cual asimismo representará la cantidad de neuronas, tanto de entrada como de salida.
+La arquitectura comienza con la capa de entrada alimentadas por las 6 variables consideradas, que representan la cantidad de neuronas, tanto de entrada como de salida.
 
-Si bien no existe alguna regla general para definir el número de capas óptimas, así como los hiperparámetros que se deben configurar en ellas, se puede utilizar como referencia algunas metodologías como las Reglas del Pulgar \parencite{tec_ranjan2019thumbrules}.
+Si bien no existe alguna regla general para definir el número de capas óptimas, así como los hiperparámetros que se deben configurar en ellas, se puede utilizar como referencia algunas metodologías como las Reglas del Pulgar según \cite{tec_ranjan2019thumbrules}.
 
-De acuerdo a algunas de estas, el número de capas ocultas comienza con 2 sin contar la última. La primera capa densa continúa a la capa de entrada, mientras que la segunda aparece después de la primera capa de desactivación.
+De acuerdo a una de ellas, el número de capas ocultas comienza con 2 sin contar la última. La primera capa densa continúa a la capa de entrada, mientras que la segunda aparece después de la primera capa de desactivación.
 
 Otro punto considerado fue el número de nodos o neuronas de las capas intermedias. Estas deben seguir una progresión geométrica de 2, donde la primera capa debe ser la mitad del número de variables en la capa de entrada. Dado que la mitad de 6 es un valor que no cumple, un número potencial puede ser 4.
 
-El autor de algunas de estas reglas también menciona tener en consideración utilizar la función de activación \textbf{relu} para las capas intermedias, una tasa de abandono de por lo menos 0.5 para las capas de desactivación, tamaño de salida de 1 neurona y función de activación \textbf{sigmoide} por tratarse de un problema de clasificación binaria, utilizar el optimizador \textbf{adam}, comenzar con 20 épocas en adelante de acuerdo al progreso de los resultados y fijar un tamaño de lote bajo progresión geométrica de 2; además de otros requerimientos previamente establecidos como la ponderación de clases para la variable dependiente en caso de datos desbalanceados y escalado de datos antes del entrenamiento.
+El autor también menciona tener en consideración utilizar la función de activación \textbf{relu} para las capas intermedias, una tasa de abandono de por lo menos 0.5 para las capas de desactivación, tamaño de salida de 1 neurona y función de activación \textbf{sigmoide} por tratarse de un problema de clasificación binaria, utilizar el optimizador \textbf{adam}, comenzar con 20 épocas en adelante de acuerdo al progreso de los resultados y fijar un tamaño de lote bajo progresión geométrica de 2; además de otros requerimientos previamente establecidos como la ponderación de clases para la variable dependiente en caso de datos desbalanceados y escalado de datos antes del entrenamiento.
 
 Todas estas opciones fueron probadas en el modelo y evaluadas con las métricas correspondientes. Sin embargo, al calibrar el modelo y comparar distintos resultados, se obtuvo que la mejor cantidad de neuronas para la primera capa densa era de 32. De este modo, la siguiente capa intermedia se le asignó la mitad (16). La función de activación \textbf{tanh} para la segunda capa oculta presentó mejores resultados, así como tasas de abandono entre 0.25 y 0.3 para las capas de desactivación. Por último, además de \textit{adam}, se realizó experimentos con otros optimizadores como por ejemplo \textit{RMSprop} siendo este el resultado más cercano. Al final, \textit{adam} fue escogido pero con una tasa de aprendizaje baja como 0.005 debido a que el modelo tendía a aprender muy rápido durante el transcurso de las épocas. En conjunto, el ratio de decaimiento se asignó un valor más bajo, 0.00005, y para evaluar los subconjuntos de entrenamiento y prueba se eligió precisión como métrica.
 
 \textbf{Actividad 2: Desarrollar modelo predictivo de Descripción}
 \\
-Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba (Figura \ref{4:fig34}). A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños (Figura \ref{4:fig35}).
+Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba. A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños.
 
-\begin{figure}[htbp]
-	\begin{center}
-		\includegraphics[width=0.50\textwidth]{4/figures/description_tokenizer_function.jpg}
-		\caption[Función de tokenización de palabras de descripciones]{Función de tokenización de palabras de descripciones.\\
-			Fuente: Elaboración propia.}
-		\label{4:fig34}
-		\includegraphics[width=0.80\textwidth]{4/figures/description_encoder_function.jpg}
-		\caption[Función de codificación de palabras y rellenado de arreglos]{Función de codificación de palabras y rellenado de arreglos.\\
-			Fuente: Elaboración propia.}
-		\label{4:fig35}
-	\end{center}
-\end{figure}
-
-Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe (Figura \ref{4:fig36}). Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.55\textwidth]{4/figures/description_glove.jpg}
-		\caption[Elaboración de matriz de incrustaciones de palabras]{Elaboración de matriz de incrustaciones de palabras.\\
-			Fuente: Elaboración propia.}
-		\label{4:fig36}
-	\end{center}
-\end{figure}
+Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe. Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
 
 Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig37}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
 
@@ -572,7 +558,7 @@ A continuación, le sigue la capa de reducción \textit{GlobalMaxPooling}. Al ig
 
 Esta nueva salida pasa por la capa de aplanamiento o \textit{Flatten}, en donde se multiplican las filas y columnas y tener un solo vector. Esta sirve para conectar con las 64 neuronas de la nueva capa densa y función de activación \textbf{tanh}, agregada con el fin de mejorar la performance del modelo. El criterio para considerar una función \textit{tanh} obedece al mejor desempeño durante el entrenamiento que la función \textit{relu}, evitando el sobreajuste durante mayores épocas ocasionado por gradientes que desaparecen al propagar hacia atrás a mayor cantidad de capas. El uso de la función tangente hiperbólica en capas ocultas resultó una buena práctica durante las décadas de 1990 y 2000, teniendo mejor rendimiento que la función logística \parencite{tec_brownlee2019vanishing_gradients}. Aún así, ambas son dos opciones válidas para problemas de redes neuronales profundas.
 
-Finalmente, la arquitectura culmina con la última capa con función de activación \textbf{sigmoid} para regular el valor de salida entre 0 y 1, ya que se trata de un problema de clasificación binaria (por ello, también cuenta con solo 1 neurona y su parámetro de pérdida es “\textit{binary\_crossentropy}”).
+Finalmente, la arquitectura culmina con la última capa con función de activación \textbf{sigmoid} para regular el valor de salida entre 0 y 1, ya que se trata de un problema de clasificación binaria (cuenta con solo 1 neurona y su parámetro de pérdida es “\textit{binary\_crossentropy}”).
 
 \textbf{Actividad 3: Desarrollar modelo predictivo de Comentarios}
 \\
@@ -582,7 +568,7 @@ De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/model_rnn_comments.png}
+		\includegraphics[width=0.63\textwidth]{4/figures/model_rnn_comments.png}
 		\caption[Arquitectura de modelo RNN para los comentarios]{Arquitectura de modelo RNN para los comentarios.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig38}
@@ -595,7 +581,7 @@ A continuación, los vectores de palabras ingresan a la capa de la red neuronal 
 
 Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de entrada (2*128 de la capa Bidireccional LSTM) y utiliza la función de activación \textit{sigmoid} para transformar el valor final entre 0 y 1.
 
-En la Tabla \ref{4:table3} se presentan las variables que se usaron para entrenar el modelo de Aprendizaje Profundo Multimodal. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 17 antecedentes en el Capítulo II.
+Antes de continuar con el desarrollo del último modelo, en la Tabla \ref{4:table3} se presentan las variables de todas las modalidades juntas que se usaron para entrenar el modelo de Aprendizaje Profundo Multimodal. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 17 antecedentes en el Capítulo II.
 
 \begin{table}[h!]
 	\caption[Diccionario de datos del conjunto final entrenado]{Diccionario de datos del conjunto final entrenado.}
@@ -676,5 +662,24 @@ Las salidas de cada modelo se concatenaron en una capa debajo de estos, generand
 Previo a la compilación del modelo final, se repitió el ejercicio de cada modelo cargado asignar los parámetro de pérdida \textit{binary\_crossentropy} para la clasificación binaria, \textit{accuracy} (exactitud) para la métrica del entrenamiento, pesos balanceados para las clases de la variable \textit{state} (0.6987077585764833 para 0 y 1.7581290322580645 para 1), y optimizador \textit{Adam} con la variante de asignarle el ratio de aprendizaje y también de decaimiento de 0.00005.
 
 \section{Evaluación}
+\textbf{Actividad 1: Evaluar desempeño del modelo predictivo de Metainformación}
+\\
+
+\textbf{Actividad 2: Evaluar desempeño del modelo predictivo de Descripción}
+\\
+
+\textbf{Actividad 3: Evaluar desempeño del modelo predictivo de Comentarios}
+\\
+
+\textbf{Actividad 4: Evaluar desempeño del modelo predictivo ensamblado}
+\\
 
 \section{Despliegue}
+\textbf{Actividad 1: Diseñar interfaz de captura de datos del prototipo}
+\\
+
+\textbf{Actividad 2: Integrar modelo predictivo ensamblado al sistema}
+\\
+
+\textbf{Actividad 3: Ejecutar prototipo con proyectos tecnológicos vigentes}
+\\

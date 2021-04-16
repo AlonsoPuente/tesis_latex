@@ -469,7 +469,7 @@ De acuerdo a la Figura \ref{3:fig1}, una vez generado el conjunto de datos de Me
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{3/figures/diagrama_flujo_scrapping_descripcion.png}
-		\caption[Diagrama de flujo del proceso de extracción de la descripción de un proyecto]{Diagrama de flujo del proceso de extracción de la descripción de un proyecto.\\
+		\caption[Proceso de extracción de la descripción de un proyecto]{Proceso de extracción de la descripción de un proyecto.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig6}
 	\end{center}
@@ -484,7 +484,7 @@ De acuerdo a la Figura \ref{3:fig1}, y realizando el mismo ejercicio con Descrip
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.45\textwidth]{3/figures/diagrama_flujo_scrapping_comentarios.png}
-		\caption[Diagrama de flujo del proceso de extracción de comentarios de un proyecto]{Diagrama de flujo del proceso de extracción de comentarios de un proyecto.\\
+		\caption[Proceso de extracción de comentarios de un proyecto]{Proceso de extracción de comentarios de un proyecto.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig7}
 	\end{center}
@@ -561,7 +561,7 @@ A continuación, se detalla cada actividad y su entregable respectivo.
 
 \textbf{Actividad 1: Pre-procesar base de datos de Metainformación}
 \\
-En esta actividad, antes de realizar el pre-procesamiento de las variables que se usaron más adelante en el modelo predictivo, se agregaron variables cuantitativas sugeridas en la literatura que no estaban consideradas inicialmente en la base de datos final de la Metainformación. Para discriminar correctamente el nuevo conjunto de variables, se realizó un nuevo análisis de correlación y se armaron grupos de combinatorias de variables cuyos rendimientos serán evaluados en los siguientes pasos. Previamente a la evaluación, las variables de cada grupo se escalaron a un mismo rango para evitar un entrenamiento incorrecto.
+En esta actividad, antes de realizar el pre-procesamiento de las variables finales, se agregaron algunas cuantitativas sugeridas en la literatura que no estaban consideradas inicialmente. Para evaluar correctamente el nuevo conjunto de variables, se realizó un nuevo análisis de correlación y se armaron grupos de combinatorias de variables cuyos rendimientos serán medidos en los siguientes pasos. Previamente a la evaluación, los subconjuntos de entrenamiento y prueba divididos en 80\% y 20\% respectivamente (según \cite{pr_yuan2016textanalytics}, \cite{pr_yu2018deeplearning}, \cite{pr_chen2019keywords_crowdfunding}, \cite{pr_mitra2014phrases} y \cite{pr_sawhney2016usingLT}) estratificados según la variable \textit{state}, se escalaron a un mismo rango para evitar un entrenamiento incorrecto.
 
 \textbf{Entregable}: Conjuntos de datos pre-procesados de Metainformación.
 
@@ -571,20 +571,42 @@ Esta actividad se resume en la Figura \ref{3:fig8}, en donde se realizó desde l
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.33\textwidth]{4/figures/description_data_clean.png}
-		\caption[Flujograma de limpieza de conjunto de datos de descripciones]{Flujograma de limpieza de conjunto de datos de descripciones.\\
+		\includegraphics[width=0.33\textwidth]{3/figures/description_data_clean.png}
+		\caption[Proceso de limpieza de conjunto de datos de descripciones]{Proceso de limpieza de conjunto de datos de descripciones.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig8}
 	\end{center}
 \end{figure}
 
-\textbf{Entregable}: Conjunto de datos pre-procesados de Descripción.
+Luego de separar, al igual que la Metainformación, los subconjuntos de entrenamiento y prueba en 80\% y 20\% respectivamente estratificados según la variable \textit{state}, se ejecutó el proceso de la Figura \ref{3:fig9} dividido en 2 partes.
+
+\begin{figure}[!ht]
+	\centering
+	\small
+	\begin{subfigure}{.50\textwidth}
+		\centering
+		\includegraphics[width=0.65\linewidth]{3/figures/description_text_to_sequence.png}
+		\caption{vectorización de palabras}
+	\end{subfigure}%
+	\begin{subfigure}{.50\textwidth}
+		\centering
+		\includegraphics[width=0.55\linewidth]{3/figures/description_embedding_matrix.png}
+		\caption{matriz de incrustaciones de palabras}
+	\end{subfigure}
+	\caption[Procesos de vectorización y creación de matriz incrustaciones de palabras]{Procesos de vectorización y creación de matriz incrustaciones de palabras.\\
+		Fuente: Elaboración propia.}
+	\label{3:fig9}
+\end{figure}
+
+La primera mitad corresponde a la transformación del texto, para los subconjuntos de entrenamiento y prueba, de las descripciones en representaciones de vectores numéricos para la fase de entrenamiento del modelo. De forma paralela, se creó una matriz de incrustaciones de palabras que será parte de la capa de incrustaciones en la arquitectura del modelo.
+
+\textbf{Entregable}: Descripciones representadas en secuencias de vectores numéricos y matriz de incrustaciones de palabras.
 
 \textbf{Actividad 3: Pre-procesar base de datos de Comentarios}
 \\
-Al igual que con la Descripción, se realizó la limpieza de los datos textuales siguiendo la misma secuencia de la Figura \ref{3:fig7}, eliminando palabras y partes de ellas que no aportan para el diccionario final que se usará en la siguiente etapa. Este vocabulario consta de palabras únicas, mayormente sustantivos y verbos en su forma original, los cuales se les asignaron un código para poder formar vectores de palabras y crear más adelante, las incrustaciones de palabras.
+Al igual que en el proceso de Descripción, se realizó la limpieza de los datos textuales siguiendo la misma secuencia de la Figura \ref{3:fig7} para generar la representación de palabras de los comentarios en vectores numéricos, con la diferencia de acotar el tamaño final de los vectores debido a su extensa longitud al agruparse todos aquellos separados por autor. De igual manera, para generar la matriz de incrustaciones de palabras, se repitió el proceso de la Figura \ref{3:fig9}.
 
-\textbf{Entregable}: Conjunto de datos pre-procesados de Comentarios.
+\textbf{Entregable}: Comentarios representadas en secuencias de vectores numéricos y matriz de incrustaciones de palabras.
 
 \subsubsection{Modelamiento}
 Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizadas para los modelos de cada modalidad, que fueron diseñados siguiendo las actividades de la Tabla \ref{3:table6}.
@@ -733,49 +755,24 @@ Finalmente,
 	\centering Actividades & \centering Descripción & Tareas
 	\\
 	\specialrule{.1em}{.05em}{.05em}
-	a
-	& 1
-	& 6                                               
+	Evaluar desempeño del modelo predictivo de Metainformación.
+	& 
+	&                                               
 	\\
 	\hline
-	b
-	& 2
-	& 6
+	Evaluar desempeño del modelo predictivo de Descripción.
+	& 
+	& 
 	\\
 	\hline
-	c
-	& 1
-	& 6
+	Evaluar desempeño del modelo predictivo de Comentarios.
+	& 
+	& 
 	\\
 	\hline
-	d
-	& 2
-	& 5
-	\\
-	\hline
-	e
-	& 3
-	& 5
-	\\
-	\hline
-	f
-	& 3
-	& 5
-	\\
-	\hline
-	g
-	& 3
-	& 4
-	\\
-	\hline
-	h
-	& 1
-	& 4
-	\\
-	\hline
-	i
-	& 2
-	& 3
+	Evaluar desempeño del modelo predictivo ensamblado.
+	& 
+	& 
 	\\
 	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
@@ -829,49 +826,19 @@ En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada mode
 	\centering Actividades & \centering Descripción & Tareas
 	\\
 	\specialrule{.1em}{.05em}{.05em}
-	a
-	& 1
-	& 6                                               
+	Diseñar interfaz de captura de datos del prototipo.
+	& 
+	&                                              
 	\\
 	\hline
-	b
-	& 2
-	& 6
+	Integrar modelo predictivo ensamblado al sistema.
+	& 
+	& 
 	\\
 	\hline
-	c
-	& 1
-	& 6
-	\\
-	\hline
-	d
-	& 2
-	& 5
-	\\
-	\hline
-	e
-	& 3
-	& 5
-	\\
-	\hline
-	f
-	& 3
-	& 5
-	\\
-	\hline
-	g
-	& 3
-	& 4
-	\\
-	\hline
-	h
-	& 1
-	& 4
-	\\
-	\hline
-	i
-	& 2
-	& 3
+	Ejecutar prototipo con proyectos tecnológicos vigentes.
+	& Ejecución del sistema prototipo en tiempo real con proyectos de tecnología de campañas vigentes.
+	& 
 	\\
 	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
@@ -884,19 +851,31 @@ En el Capítulo 5 se explica cuáles fueron seleccionadas para evaluar cada mode
 \end{flushleft}
 
 
-Luego de analizar el desempeño de cada modelo, tanto individual como el modelo final, se compararon los resultados con los antecedentes y se desarrolló una prueba piloto en la cual el modelo apilado entrenado fue ejecutado usando como entrada la URL de un proyecto aleatorio de Kickstarter para, luego de obtener sus características, predecir su estado de financiamiento. Esta acción también se encuentra detallada en el Capítulo 5.
+Luego de analizar el desempeño de cada modelo, tanto individual como el modelo final, se compararon los resultados con los antecedentes y se desarrolló una prueba piloto en la cual el modelo apilado entrenado fue ejecutado usando como entrada la URL de un proyecto aleatorio de Kickstarter para, luego de obtener sus características, predecir su estado de financiamiento. Esta acción también se encuentra detallada en el Capítulo V.
 
 \subsection{Metodología para la medición de resultados}
 
 \section{Cronograma de actividades y presupuesto}
-Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig9}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
+Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig10}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
+
 \begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=1.1\textwidth]{3/figures/cronograma.png}
-		\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación.\\
-		Fuente: Elaboración propia}
-		\label{3:fig9}
-	\end{center}
+	\centering
+	\small
+	\begin{subfigure}{1\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{3/figures/cronograma_2020.png}
+		\caption{Año 2020}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{3/figures/cronograma_2021.png}
+		\caption{Año 2021}
+	\end{subfigure}
+
+	\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación.\\
+	Fuente: Elaboración propia.}
+	\label{3:fig10}
 \end{figure}
 
 La partida presupuestal de todo el proyecto se divide en dos partes: los costos personales del autor y los costos de las herramientas para la operación del proyecto.
