@@ -57,27 +57,27 @@
 \contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación}{126}{subsubsection.3.3.1.5}%
 \contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{127}{subsubsection.3.3.1.6}%
 \contentsline {subsection}{\numberline {3.3.2}Metodología para la medición de resultados}{128}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{128}{section.3.4}%
-\contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{131}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Comprensión del negocio}{131}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Comprensión de los datos}{132}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Preparación de los datos}{147}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelamiento}{150}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación}{158}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue}{158}{section.4.6}%
-\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{160}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metainformación}{160}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{162}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{164}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelo apilado}{167}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Comparación de resultados}{168}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Demostración del modelo final}{171}{section.5.6}%
-\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{173}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{173}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{174}{section.6.2}%
-\contentsline {chapter}{REFERENCIAS}{176}{chapter*.170}%
-\contentsline {chapter}{ANEXOS}{185}{section*.171}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{186}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{187}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{188}{section.Alph0.3}%
-\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{189}{section.Alph0.4}%
+\contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{129}{section.3.4}%
+\contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{132}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Comprensión del negocio}{132}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comprensión de los datos}{133}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Preparación de los datos}{148}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modelamiento}{151}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Evaluación}{159}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Despliegue}{159}{section.4.6}%
+\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{161}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metainformación}{161}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Descripción}{163}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comentarios}{165}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modelo apilado}{168}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Comparación de resultados}{169}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Demostración del modelo final}{172}{section.5.6}%
+\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{174}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{174}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{175}{section.6.2}%
+\contentsline {chapter}{REFERENCIAS}{177}{chapter*.170}%
+\contentsline {chapter}{ANEXOS}{186}{section*.171}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{187}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{188}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{189}{section.Alph0.3}%
+\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{190}{section.Alph0.4}%
