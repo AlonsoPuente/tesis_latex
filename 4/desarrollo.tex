@@ -510,14 +510,14 @@ Por último, es importante asignar un peso distinto para cada una de las dos cla
 
 \textbf{Actividad 1: Desarrollar modelo predictivo de Metainformación}
 \\
-Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig33} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning}. Se asignaron 100 épocas y el número de lotes fue 32.
+Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig26} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning}. Se asignaron 100 épocas y el número de lotes fue 32.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
 		\caption[Arquitectura de modelo MLP para la metadata]{Arquitectura de modelo MLP para la metadata.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig33}
+		\label{4:fig26}
 	\end{center}
 \end{figure}
 
@@ -539,14 +539,14 @@ Para crear la capa de incrustación de palabras, se usó la función \textit{Tok
 
 Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe. Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
 
-Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig37}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
+Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig27}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
 		\caption[Arquitectura de modelo CNN para las descripciones]{Arquitectura de modelo CNN para las descripciones.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig37}
+		\label{4:fig27}
 	\end{center}
 \end{figure}
 
@@ -564,14 +564,14 @@ Finalmente, la arquitectura culmina con la última capa con función de activaci
 \\
 Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
 
-De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig38}.
+De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig28}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.63\textwidth]{4/figures/model_rnn_comments.png}
 		\caption[Arquitectura de modelo RNN para los comentarios]{Arquitectura de modelo RNN para los comentarios.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig38}
+		\label{4:fig28}
 	\end{center}
 \end{figure}
 
@@ -640,14 +640,14 @@ Si bien en los respectivos antecedentes marcados en (*) figuran el promedio de l
 \begin{landscape}
 	\textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
 	\\
-	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de Aprendizaje Profundo Multimodal ilustrado en la Figura \ref{4:fig39}.
+	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de Aprendizaje Profundo Multimodal ilustrado en la Figura \ref{4:fig29}.
 	
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=1.20\textwidth]{4/figures/final_stacked_model.png}
 			\caption[Arquitectura del modelo apilado final The Hydra]{Arquitectura del modelo apilado final The Hydra.\\
 				Fuente: Elaboración propia.}
-			\label{4:fig39}
+			\label{4:fig29}
 		\end{center}
 	\end{figure}
 	
@@ -675,11 +675,56 @@ Previo a la compilación del modelo final, se repitió el ejercicio de cada mode
 \\
 
 \section{Despliegue}
-\textbf{Actividad 1: Diseñar interfaz de captura de datos del prototipo}
+\textbf{Actividad 1: Diseñar prototipo de sistema con modelo propuesto}
 \\
+La última fase de la metodología CRISP-DM comienza con el diseño del prototipo que contemplará el sistema conformado por la captura de datos y la predicción del estado de financiamiento de un proyecto consultado. Para ello, previamente se deberán cargarse todos los complementos necesarios para que el modelo de Aprendizaje Profundo Multimodal funcione correctamente. Desde librerías de Python que incluyen elementos utilizados en la recolección de datos como Selenium y las librerías de Keras para la carga de las capas del modelo, hasta algoritmos usados para la limpieza de texto como NLTK y las métricas de clasificación por parte de Scikit-learn.
 
-\textbf{Actividad 2: Integrar modelo predictivo ensamblado al sistema}
+\textbf{Actividad 2: Ejecutar prototipo con proyectos tecnológicos vigentes}
 \\
+Una vez diseñado el proceso del prototipo, el software es ejecutado localmente desde Jupyter Notebook y recibe como dato de entrada el enlace web de un proyecto no finalizado de Kickstarter, es decir, un proyecto vigente. Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campaña de la Figura \ref{4:fig30}.
 
-\textbf{Actividad 3: Ejecutar prototipo con proyectos tecnológicos vigentes}
-\\
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{5/figures/example_project_150221.jpg}
+		\caption[Proyecto usado para la demostración. Captura de pantalla: 15/02/21]{Proyecto usado para la demostración. Captura de pantalla: 15/02/21.\\
+			Fuente: \cite{ot_kickstarter_revopointproject}}
+		\label{4:fig30}
+	\end{center}
+\end{figure}
+
+La primera acción hecha por el sistema fue extraer la metainformación, descripción y comentarios del proyecto desde el ingreso al URL por un navegador. Debido al cambio de políticas de acceso a la plataforma en 2020, Kickstarter detecta la presencia de bots y restringe la navegación usando CAPTCHAs para evitar su accionar. Algunas veces fue detectado el bot del sistema. Ante ello, la única acción manual por parte del usuario en el sistema se da en este paso presionando por 5 segundos el botón de “\textit{I'm a human}” (Soy humano por su traducción al español) que se muestra en la ventana. Desde este punto, luego de ingresar al enlace de la campaña del proyecto, el sistema primero se redirige a la sección de la metainformación y extrae las variables usadas para el entrenamiento del modelo. Del mismo modo, repite esta secuencia para la descripción y los comentarios.
+
+Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig31} respectivamente.
+\begin{figure}[!ht]
+	\centering
+	\small
+	\begin{subfigure}{.35\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{5/figures/metadata_scraped_project.jpg}
+		\caption{Metainformación}
+	\end{subfigure}%
+	\begin{subfigure}{.35\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{5/figures/description_scraped_project.jpg}
+		\caption{Descripción}
+	\end{subfigure}%
+	\begin{subfigure}{.35\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{5/figures/comments_scraped_project.jpg}
+		\caption{Comentarios}
+	\end{subfigure}
+	\caption[Variables extraídas del proyecto ejemplo]{Variables extraídas del proyecto ejemplo.\\
+		Fuente: Elaboración propia.}
+	\label{4:fig31}
+\end{figure}
+
+Esta información es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig32}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{5/figures/demo_project_prediction.jpg}
+		\caption[Resultado de predicción de The Hydra para el proyecto consultado]{Resultado de predicción de The Hydra para el proyecto consultado.\\
+			Fuente: Elaboración propia.}
+		\label{4:fig32}
+	\end{center}
+\end{figure}

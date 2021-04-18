@@ -210,7 +210,16 @@ pdfauthor={autor nombres}]{hyperref}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Agregando librerias para que aparezca texto debajo de las ecuaciones.
-\usepackage{tocloft}
+\usepackage[titles]{tocloft}
+
+%% Para agregar palabra "CAPÍTULO" en 
+\newlength\mynewlength
+\let\oldcftchappresnum\cftchappresnum
+\renewcommand*\cftchappresnum{CAPÍTULO \oldcftchappresnum}
+\renewcommand\cftchapaftersnum{:}
+\settowidth\mynewlength{\cftchappresnum\cftchapaftersnum\quad}
+\addtolength\cftchapnumwidth{\mynewlength}
+
 \usepackage{xpatch}
 \usepackage{caption}
 \DeclareCaptionType{equcaption}[Ecuación][Índice de Ecuaciones]
@@ -218,8 +227,6 @@ pdfauthor={autor nombres}]{hyperref}
 \newenvironment{conditions}
 {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
 	{\end{tabular}\par\vspace{\belowdisplayskip}}
-
-%\usepackage[titles]{tocloft}
 
 % Para agregar linea de puntos en la tabla de contenidos
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts

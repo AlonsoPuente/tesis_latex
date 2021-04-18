@@ -109,53 +109,31 @@ Ofrecer herramienta analítica y predictiva a creadores de proyectos para ayudar
 	\item OE6: {\Objsix}
 \end{itemize}
 
-\section{Justificación de la Investigación}
-
-\subsection{Teórica}
-Esta investigación se basa en crear un modelo de Aprendizaje Automático que sea aplicable a proyectos de tecnología de la plataforma Kickstarter por presentar bajas performances en antecedentes.
-
-\subsection{Práctica}
-Al culminar la investigación, se ofrecerá un modelo predictivo confiable que ayude a los emprendedores en la toma de decisiones respecto a sus proyectos a partir del insight obtenido de los resultados que deriven a la manipulación de los datos de entrada.
-
-\subsection{Metodológica}
-Se creará un modelo predictivo a partir de las variables finales seleccionadas, previa limpieza de datos. Luego, será entrenado y evaluado por las métricas correspondientes. Finalmente, se lanzará una versión de prueba que reciba datos de entrada para predecir la viabilidad de un proyecto de tecnología.
-
-\section{Delimitación del Estudio}
-
-\subsection{Espacial}
-Para la presente investigación, se considerará el territorio de los Estados Unidos ya que tanto la campaña del proyecto a servir para la investigación como los datos fuentes de proyectos relacionados financiados previamente, que servirán para la elaboración del modelo predictivo, se encuentran en dicho país.
-
-\subsection{Temporal}
-El periodo de tiempo abarcará desde el año 2009, fecha en el cual se tiene registrado los primeros conjuntos de datos de proyectos en Kickstarter hasta el mes de agosto del año 2019, últimos registros descargados hasta el inicio del presente trabajo.
-
-\subsection{Conceptual}
-La presente investigación consistirá en la implementación de un modelo predictivo del estado de financiamiento de un proyecto tecnológico en Kickstarter basado en técnicas y conceptos de Aprendizaje Automático, previamente evaluando cuál de todas las existentes genera un mejor desempeño para su uso y análisis de resultados.
-
 \section{Hipótesis}
 
 \subsection{Hipótesis General}
 HG: \newcommand{\HipotesisGeneral}{
-El modelo de Aprendizaje Profundo Multimodal predice el estado de financiamiento de proyectos de tecnología en sitio web de crowdfunding Kickstarter.
+	El modelo de Aprendizaje Profundo Multimodal predice el estado de financiamiento de proyectos de tecnología en sitio web de crowdfunding Kickstarter.
 }
 \HipotesisGeneral
 \subsection{Hipótesis Específicas}
 \newcommand{\Hone}{
-Las técnicas de Machine Learning ayudan a los modelos a trabajar con data desbalanceada.
+	Las técnicas de Machine Learning ayudan a los modelos a trabajar con data desbalanceada.
 }
 \newcommand{\Htwo}{
-Los datos faltantes o incompletos de proyectos son imputados.
+	Los datos faltantes o incompletos de proyectos son imputados.
 }
 \newcommand{\Hthree}{
-Se considera solo información relevante para entrenamiento de modelos.
+	Se considera solo información relevante para entrenamiento de modelos.
 }
 \newcommand{\Hfour}{
-Los parámetros de los modelos están ajustados.
+	Los parámetros de los modelos están ajustados.
 }
 \newcommand{\Hfive}{
-Se evita el sobreajuste de aprendizaje del modelo y éste clasifica correctamente las clases del estado final de financiamiento (exitoso o fracasado).
+	Se evita el sobreajuste de aprendizaje del modelo y éste clasifica correctamente las clases del estado final de financiamiento (exitoso o fracasado).
 }
 \newcommand{\Hsix}{
-Se ofrece herramienta analítica y predictiva para ayudar a los creadores de proyectos en la toma de decisiones.
+	Se ofrece herramienta analítica y predictiva para ayudar a los creadores de proyectos en la toma de decisiones.
 }
 \begin{itemize}
 	\item HE1: \Hone
@@ -166,6 +144,30 @@ Se ofrece herramienta analítica y predictiva para ayudar a los creadores de pro
 	\item HE6: \Hsix
 \end{itemize}
 
-\subsection{Matriz de Consistencia}
-A continuación se presenta la matriz de consistencia elaborada para la presente investigación (véase Anexo \ref{anexo3}).
+\section{Justificación de la Investigación}
 
+\subsection{Teórica}
+Esta investigación se realizó con la finalidad de aportar al conocimiento existente del problema de la predicción del estado de financiamiento de un proyecto en plataformas de crowdfunding como Kickstarter, pero considerando solo proyectos de la categoría Tecnología, cuyo ratio de éxito de 20\% la clasifica como la más baja de todas, criterio que también se menciona en la literatura por \cite{pr_lee2018contentDL}.
+
+Para ello, el nuevo aporte aplicado a la investigación fue la implementación de un modelo de Aprendizaje Profundo Multimodal utilizando la información de la sección principal de la campaña (metainformación y descripción) y los comentarios de los patrocinadores como resultado de la interacción entre ellos y los creadores. Esta nueva perspectiva considera las 3 modalidades más utilizadas en los antecedentes bajo un modelo que solo fue desarrollado en 1 antecedente por \cite{pr_cheng2019deeplearning}, el cual utilizó solo modalidades de la sección principal (metainformación, descripción e imagen del proyecto).
+
+\subsection{Práctica}
+Muchos trabajos previos analizados en la literatura plantearon distintas soluciones para resolver el mismo problema. Sin embargo, a pesar de que sus resultados en su mayoría alcanzaron niveles de predicción por encima a los esperados por los autores, menos de la mitad (8 de los 18 antecedentes mencionados) llegaron a ejecutar la fase de Despliegue, es decir, no fueron puestos en producción para ser utilizados por otros usuarios, o se mencionaron que se convertiría en una tarea para trabajos a futuro.
+
+Al culminar esta invesigación, se podrá utilizar el prototipo de un sistema que integra el modelo propuesto, el cual funciona en tiempo real capturando la información de las variables solamente recibiendo como entrada la URL del proyecto, con la finalidad de poder ser una herramienta analítica de ayuda en la toma de decisiones a emprendedores que buscan financiar sus proyectos de tecnología en Kickstarter. La retroalimentación será recíproca entre el usuario y el prototipo, ya que en la primera iteración, el creador tendrá una idea inicial del resultado de éxito de financiamiento que tendrá su campaña de acuerdo a la información actual presente en sus variables, y ante una respuesta adversa, podrá realizar las modificaciones respectivas en las modalidades entrenadas que tiene acceso (metainformación y descripción) para ejecutar nuevamente el prototipo, que ahora hará la predicción a partir de nuevos datos, de forma indefinida. De esta manera, se logrará crear una campaña más atractiva para los patrocinadores.
+
+\subsection{Metodológica}
+La implementación del modelo propuesto ayudará a los emprendedores y creadores a evaluar las campañas de sus proyectos a partir de la información vigente que sea capturada en tiempo real por el prototipo para predecir el estado de financiamiento.
+
+Para ello, se utilizaron técnicas de Aprendizaje Profundo y Procesamiento de Lenguaje Natural entrenados con un conjunto de datos compuesto por 3 modalidades de proyectos en Kickstarter que fueron generados luego de un proceso de recolección de datos.
+
+\section{Delimitación del Estudio}
+
+\subsection{Espacial}
+Para la presente investigación, se consideraron proyectos de tecnología de distintas ciudades y países, mayoritariamente del territorio de los Estados Unidos. Sin embargo, la información textual (descripción y comentarios) para la fase de entrenamiento solo se tómo en cuenta palabras en inglés.
+
+\subsection{Temporal}
+El periodo de tiempo abarcará desde el año 2009, fecha en el cual se tiene registrado los primeros conjuntos de datos de proyectos en Kickstarter hasta el mes de agosto del año 2019, últimos registros descargados hasta el inicio del presente trabajo.
+
+\subsection{Conceptual}
+Esta investigación se orientará en la implementación de un modelo que logre predecir si un proyecto de tecnología en el sitio web de crowdfunding Kickstarter será financiado o no. Para ello, se valió del uso de herramientas de Aprendizaje Profundo y Procesamiento de Lenguaje Natural para desarrollar los modelos de acuerdo a sus modalidades respectivas, así como el Aprendizaje Profundo Multimodal para consolidar estos conceptos.
