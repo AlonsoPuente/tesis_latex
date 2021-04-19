@@ -631,10 +631,8 @@ Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizada
 	& Implementación del modelo Perceptrón Multicapa (MLP) para la modalidad Metainformación.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Diseñar arquitectura del modelo predictivo.
-		\item Entrenar cada grupo de combinatoria de variables con arquitectura diseñada.
-		\item Realizar experimentos con hiperparámetros modificados.
-		\item Comparar resultados por cada grupo.
+		\item Realizar benchmarking de modelos utilizados en trabajos previos.
+		\item Diseñar arquitectura del modelo predictivo de acuerdo a opción escogida.
 	\end{itemize}
 	\\
 	\hline
@@ -642,10 +640,8 @@ Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizada
 	& Implementación de la Red Neuronal Convolucional (CNN) para la modalidad Descripción.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Diseñar arquitectura del modelo predictivo.
-		\item Entrenar base de datos pre-procesada con arquitectura diseñada.
-		\item Realizar experimentos con hiperparámetros modificados.
-		\item Comparar resultados.
+		\item Realizar benchmarking de modelos utilizados en trabajos previos.
+		\item Diseñar arquitectura del modelo predictivo de acuerdo a opción escogida.
 	\end{itemize}
 	\\
 	\hline
@@ -653,10 +649,8 @@ Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizada
 	& Implementación del modelo LSTM Bidireccional para la modalidad Comentarios.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Diseñar arquitectura del modelo predictivo.
-		\item Entrenar base de datos pre-procesada con arquitectura diseñada.
-		\item Realizar experimentos con hiperparámetros modificados.
-		\item Comparar resultados.
+		\item Realizar benchmarking de modelos utilizados en trabajos previos.
+		\item Diseñar arquitectura del modelo predictivo de acuerdo a opción escogida.
 	\end{itemize}
 	\\
 	\hline
@@ -664,24 +658,20 @@ Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizada
 	& Implementación del modelo de Aprendizaje Profundo Multimodal.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Realizar benchmarking de modalidades utilizadas en trabajos previos.
 		\item Diseñar arquitectura del modelo predictivo ensamblado.
-		\item Entrenar modelo con los mejores resultados por cada modalidad.
-		\item Realizar experimentos con hiperparámetros modificados.
-		\item Comparar resultados.
 	\end{itemize}
 	\\
 	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
 \endgroup
-
 %\par	%%Salto de linea
 %\bigskip
 \begin{flushleft}	%%Alinear a la izquierda sin justificar
 	\small Fuente: Elaboración propia
 \end{flushleft}
 
-A continuación, se detalla cada actividad y su entregable respectivo.
-
+%A continuación, se detalla cada actividad y su entregable respectivo.
 \textbf{Actividad 1: Desarrollar modelo predictivo de Metainformación}
 \\
 En esta actividad, se diseñó la arquitectura que se usó para la modalidad Metainformación. Para ello, se realizó benchmarking sobre las propuestas de los autores enunciadas a continuación.
@@ -731,6 +721,10 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Com
 	\item Regresión Log-logística: \cite{pr_li2016predcrowd}.
 \end{itemize}
 
+Como se menciona en la anterior actividad, para el modelo predictivo de comentarios se implementó un modelo de LSTM dado el comportamiento de esta modalidad basada en secuencias de palabras. Además, se definió esta red como Bidireccional para que cada comentario que se busque predecir pueda ser entrenado en ambas direcciones de la secuencia, es decir con palabras previas y posteriores en una oración, logrando así encaminar de forma más efectiva hacia su clasificación de estado de financiamiento.
+
+En una primera instancia, se planeó considerar desarrollar un modelo LDA teniendo como base el trabajo de \cite{pr_shafqat2019topicpredictions}. Sin embargo, tal y como los autores mencionan, la complejidad de su arquitectura sumado a la poca cantidad de registros utilizados para el entrenamiento (solo 600 proyectos) contrastan con las características de la variable de comentarios en esta investigación.
+
 \textbf{Entregable}: Modelo LSTM Bidireccional para modalidad Comentarios.
 
 \textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
@@ -742,11 +736,12 @@ Los autores \cite{pr_cheng2019deeplearning} son los únicos de los 18 antecedent
 \textbf{Entregable}: Modelo de Aprendizaje Profundo Multimodal
 
 \subsubsection{Evaluación}
+Esta fase comprende la evaluación de los modelos desarrollados en la investigación a través de las métricas de clasificación seleccionadas y explicadas en la sección 3.3.2. En la Tabla \ref{3:table7} se indican las actividades y tareas seguidas para esta etapa.
 
-\vspace{2ex}
+%\vspace{2ex}
 %\begingroup
 %\renewcommand\arraystretch{0.3}
-\begin{longtable}{m{5cm}m{5cm}M{5cm}}
+\begin{longtable}{m{5cm}m{4.5cm}M{5.5cm}}
 	\caption[Actividades de fase Evaluación]{Actividades de fase Evaluación.}
 	\label{3:table7}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
@@ -759,36 +754,50 @@ Los autores \cite{pr_cheng2019deeplearning} son los únicos de los 18 antecedent
 	\centering Actividades & \centering Descripción & Tareas
 	\\
 	\specialrule{.1em}{.05em}{.05em}
-	Evaluar desempeño del modelo predictivo de Metainformación.
-	& 
-	&                                               
+	Evaluar el modelo predictivo de Metainformación.
+	& Evaluación del desempeño del modelo Perceptrón Multicapa para la modalidad Metainformación.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Comparar resultados por cada grupo de combinatorias de variables.
+	\end{itemize}
 	\\
 	\hline
-	Evaluar desempeño del modelo predictivo de Descripción.
-	& 
-	& 
+	Evaluar el modelo predictivo de Descripción.
+	& Evaluación del desempeño de la Red Neuronal Convolucional para la modalidad Descripción.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Comparar resultados de cada experimento.
+	\end{itemize}
 	\\
 	\hline
-	Evaluar desempeño del modelo predictivo de Comentarios.
-	& 
-	& 
+	Evaluar el modelo predictivo de Comentarios.
+	& Evaluación del desempeño de la red LSTM Bidireccional para la modalidad Comentarios.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Comparar resultados de cada experimento.
+	\end{itemize}
 	\\
 	\hline
-	Evaluar desempeño del modelo predictivo ensamblado.
-	& 
-	& 
+	Evaluar el modelo predictivo ensamblado.
+	& Evaluación del desempeño del modelo de Aprendizaje Profundo Multimodal.
+	& \setlist{nolistsep}
+	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+		\item Entrenar modelo combinando cada modalidad.
+		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Comparar resultados de cada experimento.
+	\end{itemize}
 	\\
 	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}%
 %\endgroup
-
 %\par	%%Salto de linea
 %\bigskip
 \begin{flushleft}	%%Alinear a la izquierda sin justificar
 	\small Fuente: Elaboración propia
 \end{flushleft}
-
-
 
 En el Capítulo V se explica cuáles fueron seleccionadas para evaluar cada modelo.
 
@@ -817,11 +826,12 @@ En el Capítulo V se explica cuáles fueron seleccionadas para evaluar cada mode
 \textbf{Entregable}:
 
 \subsubsection{Despliegue}
+En la última fase de la metodología seguida, se desplegó el modelo propuesto una vez terminada su entrenamiento y evaluación correspondiente. Las actividades que se llevaron a cabo son detalladas en la Tabla \ref{3:table8}.
 
-\vspace{2ex}
+%\vspace{2ex}
 %\begingroup
 %\renewcommand\arraystretch{0.3}
-\begin{longtable}{m{5cm}m{5cm}M{5cm}}
+\begin{longtable}{m{4.5cm}m{5.3cm}M{5.2cm}}
 	\caption[Actividades de fase Despliegue]{Actividades de fase Despliegue.}
 	\label{3:table8}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
