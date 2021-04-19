@@ -714,6 +714,8 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Des
 	\item LDA o variantes: \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}.
 \end{itemize}
 
+De acuerdo a la anterior lista, los modelos como el LDA o Seq2seq requirieron procesadores de gama alta o pocos proyectos para ser entrenados debido a la complejidad de su arquitectura. Por el lado de los modelos SVM y Regresión Logística, al ser métodos de Aprendizaje Profundo se descartaron para la investigación dado a la imposibilidad de ser anexadas a modelos de Aprendizaje Profundo. Finalmente, entre el modelo CNN y LSTM, se optó por elegir el primero para la modalidad de descripción y el segundo para la modalidad de comentarios dado que este último es aplicado más a la predicción de secuencias de textos.
+
 \textbf{Entregable}: Red Neuronal Convolucional para modalidad Descripción.
 
 \textbf{Actividad 3: Desarrollar modelo predictivo de Comentarios}
@@ -733,9 +735,11 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Com
 
 \textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
 \\
-En esta actividad, luego de implementar los modelos por cada modalidad, se ensamblaron 
+En esta actividad, los modelos desarrollados por cada modalidad se ensamblaron luego de ajustarse sus hiperparámetros a partir de los mejores resultados obtenidos. La apilación consistió en cargar cada uno simultáneamente, y unir las predicciones de salida en una nueva capa. Debido a esta acción, para entrenar el modelo de Aprendizaje Profundo Multimodal desarrollado se necesitó unir en una lista los datos de entrada utilizados para las 3 modalidades, ya que estos ingresan en simultáneo.
 
-\textbf{Entregable}:
+Los autores \cite{pr_cheng2019deeplearning} son los únicos de los 18 antecedentes mencionados que implementaron un modelo de Aprendizaje Profundo Multimodal. Su trabajo consistió en ensamblar 3 modalidades presentes en la sección principal de la campaña: la metainformación, la imagen y la descripción del proyecto. Para ello, utilizaron los modelos SVM, un VGG16 pre-entrenado con ImageNet y BoVW, y SVMs usando BoW y TF-IDF respectivamente.
+
+\textbf{Entregable}: Modelo de Aprendizaje Profundo Multimodal
 
 \subsubsection{Evaluación}
 
