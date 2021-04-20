@@ -704,7 +704,7 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Des
 	\item LDA o variantes: \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}.
 \end{itemize}
 
-De acuerdo a la anterior lista, los modelos como el LDA o Seq2seq requirieron procesadores de gama alta o pocos proyectos para ser entrenados debido a la complejidad de su arquitectura. Por el lado de los modelos SVM y Regresión Logística, al ser métodos de Aprendizaje Profundo se descartaron para la investigación dado a la imposibilidad de ser anexadas a modelos de Aprendizaje Profundo. Finalmente, entre el modelo CNN y LSTM, se optó por elegir el primero para la modalidad de descripción y el segundo para la modalidad de comentarios dado que este último es aplicado más a la predicción de secuencias de textos.
+De acuerdo a la anterior lista, los modelos como el LDA o Seq2seq requirieron procesadores de gama alta o pocos proyectos para ser entrenados debido a la complejidad de su arquitectura. Por el lado de los modelos SVM y Regresión Logística, al ser métodos de Aprendizaje Profundo se descartaron para la investigación dado a la imposibilidad de ser anexadas a modelos de Aprendizaje Profundo. Finalmente, entre el modelo CNN y LSTM, se optó por elegir el primero para la modalidad de descripción dado que este, el cual bajo una arquitectura unidimensional puede ser aplicado para textos, solo necesita usar representaciones de textos en vectores para clasificar un target, a diferencia del segundo método, el cual fue utilizado para la modalidad de comentarios al tratarse estos de secuencias de palabras.
 
 \textbf{Entregable}: Red Neuronal Convolucional para modalidad Descripción.
 
@@ -758,7 +758,7 @@ Esta fase comprende la evaluación de los modelos desarrollados en la investigac
 	& Evaluación del desempeño del modelo Perceptrón Multicapa para la modalidad Metainformación.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Ejecutar experimentos para definir hiperparámetros.
 		\item Comparar resultados por cada grupo de combinatorias de variables.
 	\end{itemize}
 	\\
@@ -767,7 +767,7 @@ Esta fase comprende la evaluación de los modelos desarrollados en la investigac
 	& Evaluación del desempeño de la Red Neuronal Convolucional para la modalidad Descripción.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Ejecutar experimentos para definir hiperparámetros.
 		\item Comparar resultados de cada experimento.
 	\end{itemize}
 	\\
@@ -776,7 +776,7 @@ Esta fase comprende la evaluación de los modelos desarrollados en la investigac
 	& Evaluación del desempeño de la red LSTM Bidireccional para la modalidad Comentarios.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Ejecutar experimentos para definir hiperparámetros.
 		\item Comparar resultados de cada experimento.
 	\end{itemize}
 	\\
@@ -786,7 +786,7 @@ Esta fase comprende la evaluación de los modelos desarrollados en la investigac
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Entrenar modelo combinando cada modalidad.
-		\item Ejecutar experimentos con hiperparámetros modificados.
+		\item Ejecutar experimentos para definir hiperparámetros.
 		\item Comparar resultados de cada experimento.
 	\end{itemize}
 	\\
@@ -799,31 +799,29 @@ Esta fase comprende la evaluación de los modelos desarrollados en la investigac
 	\small Fuente: Elaboración propia
 \end{flushleft}
 
-En el Capítulo V se explica cuáles fueron seleccionadas para evaluar cada modelo.
-
 \textbf{Actividad 1: Evaluar desempeño del modelo predictivo de Metainformación}
 \\
+En esta actividad, para obtener los mejores hiperparámetros, se ejecutaron entre 3 y 5 experimentos del modelo diseñado de Metainformación con cada grupo de combinatoria de variables. Luego de 100 épocas de entrenamiento, al compararse los resultados no solo se determinaron los hiperparámetros de mejor performance, sino también las variables finales del modelo que superaron al resto a nivel general. Luego de definir el modelo mejor calibrado, este fue entrenado con las clases balanceadas de la variable dependiente y una configuración personalizada de elementos para su ejecución. Para ello, se utilizó un acelerador GPU. Al final de la acción, se calcularon los valores de las 5 métricas por el cual fue evaluado a partir de su matriz de confusión.
 
-
-\textbf{Entregable}:
+\textbf{Entregable}: Resultados de métricas de clasificación para modelo de Metainformación.
 
 \textbf{Actividad 2: Evaluar desempeño del modelo predictivo de Descripción}
 \\
+En esta actividad, para obtener los mejores hiperparámetros, se ejecutaron igualmente entre 3 y 5 experimentos del modelo diseñado de Descripción, comparando cada resultado con su sucesor. Si este, con distintos valores para sus hiperparámetros, generaba una mayor exactitud y menor pérdida, tanto en entrenamiento como en prueba, se le consideraba como el modelo mejor calibrado. El ejercicio se repitió hasta que un experimento no logre superar en performance a su antecesor. Luego de definir el modelo mejor calibrado, este fue entrenado con las clases balanceadas de la variable dependiente y una configuración personalizada de elementos para su ejecución. Para ello, se utilizó un acelerador GPU. Al final de la acción, se calcularon los valores de las 5 métricas por el cual fue evaluado a partir de su matriz de confusión.
 
-
-\textbf{Entregable}:
+\textbf{Entregable}: Resultados de métricas de clasificación para modelo de Descripción.
 
 \textbf{Actividad 3: Evaluar desempeño del modelo predictivo de Comentarios}
 \\
+Repitiendo el proceso para la modalidad de Descripción, para obtener los mejores hiperparámetros, se ejecutaron entre 3 y 5 experimentos del modelo diseñado de Comentarios, comparando cada resultado con su sucesor. Si este, con distintos valores para sus hiperparámetros, generaba una mayor exactitud y menor pérdida, tanto en entrenamiento como en prueba, se le consideraba como el modelo mejor calibrado. El ejercicio se repitió hasta que un experimento no logre superar en performance a su antecesor. Luego de definir el modelo mejor calibrado, este fue entrenado con las clases balanceadas de la variable dependiente y una configuración personalizada de elementos para su ejecución. A diferencia de los 2 modelos anteriores, se utilizó un acelerador TPU ya que se requirió mayor rendimiento de RAM. Al final de la acción, se calcularon los valores de las 5 métricas por el cual fue evaluado a partir de su matriz de confusión.
 
-
-\textbf{Entregable}:
+\textbf{Entregable}: Resultados de métricas de clasificación para modelo de Comentarios.
 
 \textbf{Actividad 4: Evaluar desempeño del modelo predictivo ensamblado}
 \\
+Finalmente, en esta actividad se entrenó el modelo ensamblado por las 3 modalidades que comprende el trabajo. Para determinar los mejores hiperparámetros, también se ejecutaron entre 3 y 5 experimentos siguiendo las metodologías anteriores. Para el modelo propuesto, se utilizó un acelerador GPU ya que fue entrenado con modelos pre-entrenados que solo requirió unir sus datos de entrada para esta acción. Para concluir la actividad, se calcularon los valores de las 5 métricas por el cual fue evaluado a partir de su matriz de confusión.
 
-
-\textbf{Entregable}:
+\textbf{Entregable}: Resultados de métricas de clasificación para modelo de Aprendizaje Profundo Multimodal.
 
 \subsubsection{Despliegue}
 En la última fase de la metodología seguida, se desplegó el modelo propuesto una vez terminada su entrenamiento y evaluación correspondiente. Las actividades que se llevaron a cabo son detalladas en la Tabla \ref{3:table8}.
@@ -1043,32 +1041,22 @@ La elección de las anteriores métricas para evaluar cada modelo por modalidad 
 	\item \textbf{Índice de Concordancia (CI)}: \cite{pr_jin2019dayssuccess}.
 \end{itemize}
 
-\section{Cronograma de actividades y presupuesto}
-Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig13}, contemplando desde el inicio de la misma, desarrollo, evaluación de resultados y sustentación.
+\begin{landscape}
+	\section{Cronograma de actividades y presupuesto}
+	Se elaboró un cronograma de actividades de toda la investigación, mostrada en la Figura \ref{3:fig13}, contemplando desde el inicio de la misma a mediados del 2020 hasta la sustentación del trabajo estimado para finales de mayo del 2021.
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=1.55\textwidth]{3/figures/cronograma.png}
+			\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación.\\
+				Fuente: Elaboración propia.}
+			\label{3:fig13}
+		\end{center}
+	\end{figure}
+	
+\end{landscape}
 
-\begin{figure}[h]
-	\centering
-	\small
-	\begin{subfigure}{1\textwidth}
-		\centering
-		\includegraphics[width=1\linewidth]{3/figures/cronograma_2020.png}
-		\caption{Año 2020}
-	\end{subfigure}
-
-	\begin{subfigure}{1\textwidth}
-		\centering
-		\includegraphics[width=0.9\linewidth]{3/figures/cronograma_2021.png}
-		\caption{Año 2021}
-	\end{subfigure}
-
-	\caption[Cronograma de actividades de la investigación]{Cronograma de actividades de la investigación.\\
-	Fuente: Elaboración propia.}
-	\label{3:fig13}
-\end{figure}
-
-La partida presupuestal de todo el proyecto se divide en dos partes: los costos personales del autor y los costos de las herramientas para la operación del proyecto.
-
-Los costos personales del autor del trabajo de tesis se muestran en la Tabla \ref{3:table9}. Estos incluyen las herramientas adquiridas antes del inicio de la investigación como la laptop, así como los pagos de servicios generales y del trámite de elaboración y sustentación pública de Tesis. Se menciona la cantidad de horas utilizadas por el autor para el desarrollo del trabajo; sin embargo no se considera un valor monetario por cada unidad al ser un valor incalculable.
+Los costos personales del autor de la investigación se muestran en la Tabla \ref{3:table9}. Estos incluyen las herramientas adquiridas antes del inicio de la investigación como la laptop, así como pagos de servicios generales y del trámite de elaboración y sustentación pública de Tesis.
 
 \begin{table}[h!]
 	\caption[Presupuesto de los costos personales del autor]{Presupuesto de los costos personales del autor.}
@@ -1104,14 +1092,14 @@ Los costos personales del autor del trabajo de tesis se muestran en la Tabla \re
 		\\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
+	%\par	%%Salto de linea
+	%\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
 \end{table}
 
-Asimismo, también se contemplan los costos por uso de servicios en la nube como parte de la extracción de comentarios desde servidores en Google Cloud Platform (GCP) y desarrollo de modelos en Google Colab Pro en la Tabla \ref{3:table10}.
+Asimismo, también se contemplan los costos por uso de servicios en la nube como parte del proceso extracción de comentarios desde servidores en Google Cloud Platform (GCP) y desarrollo de modelos en Google Colab Pro en la Tabla \ref{3:table10}.
 
 \begin{table}[h!]
 	\caption[Presupuesto de los costos de las herramientas para el proyecto]{Presupuesto de los costos de las herramientas para el proyecto.}
@@ -1140,11 +1128,11 @@ Asimismo, también se contemplan los costos por uso de servicios en la nube como
 		\\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
+	%\par	%%Salto de linea
+	%\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
 \end{table}
 
-Los montos totales por el uso de instancias creadas en GCP son descontados de los \$300.00 en crédito gratuito válidos por 12 meses (a la fecha en que se desarrolló la investigación) \parencite{ot_googlecloud_freetrial}, recibidos inicialmente desde el 12 de agosto del 2020 (fecha de inscripción) para poder ser usados como versión de prueba. A partir del siguiente mes, se mejoró el plan para habilitar más servicios (por ejemplo, máquina virtual en Windows) y comenzó a facturarse \$5.22 mensualmente.
+Los montos por el uso de instancias creadas en GCP son descontados de los \$300.00 en crédito gratuito válidos por 12 meses \parencite{ot_googlecloud_freetrial}, recibidos inicialmente desde el 12 de agosto del 2020 para poder ser usados como versión de prueba. A partir del siguiente mes, se mejoró el plan para acceder a más servicios y comenzó a facturarse \$5.22 por mes.
