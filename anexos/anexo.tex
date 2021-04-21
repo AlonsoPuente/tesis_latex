@@ -319,4 +319,308 @@
 	
 	\section{Comparación de objetivos específicos de antecedentes}
 	\label{anexo5}
+	
+	\clearpage
+	
+	\section{Parámetros para modelo predictivo de Metainformación}
+	\label{anexo6}
+	%\begin{table}[h!]
+	%\begingroup
+		%\renewcommand\arraystretch{0.5}
+		\begin{longtable}{ m{8cm}m{7cm} }
+			\centering
+			\small
+			\tabularnewline \specialrule{.1em}{.05em}{.05em}
+			\Centering{Hiperparámetro}& \Centering{Valor}\\
+			\specialrule{.1em}{.05em}{.05em}
+			\vspace{0pt}Pesos de clases & \setlist{nolistsep}
+			\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Exitoso (1): $1.7581290322580645$
+				\item Fracasado (0): $0.6987077585764833$
+			\end{itemize}
+			\end{minipage}
+			\\
+			%\hline
+			Optimizador & \setlist{nolistsep}
+			\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Nombre: ADAM
+				\item Ratio de aprendizaje: $5*10^{-3}$
+				\item Ratio de decaimiento: $1*10^{-5}$
+			\end{itemize}
+			\end{minipage}
+			\\
+			%\hline
+			Parada temprana & \setlist{nolistsep}
+			\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_accuracy}
+				\item Modo: \textit{auto}
+				\item Paciencia: 10
+			\end{itemize}
+			\end{minipage}
+			\\
+			%\hline
+			Reducción de ratio de aprendizaje & \setlist{nolistsep}
+			\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_accuracy}
+				\item Modo: \textit{max}
+				\item Paciencia: 3
+				\item Factor: 0.1
+			\end{itemize}
+			\end{minipage}
+			\\
+			%\hline
+			Punto de guardado del modelo & \setlist{nolistsep}
+			\begin{minipage}[t]{\linewidth}
+				\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+					\item Monitor: \textit{val\_loss}
+					\item Modo: \textit{min}
+				\end{itemize}
+			\end{minipage}
+			\\
+			%\hline
+			Función de pérdida & \textit{binary\_crossentropy}
+			\\
+			%\hline
+			Número de épocas & 100
+			\\
+			%\hline
+			Tamaño de lote & 128
+			\\
+			%\hline
+			Data de validación & \textit{X\_test}, \hspace{5mm} \textit{y\_test}
+			\\
+			\hline
+			\vspace{0pt}Longitud de datos de entrada - capa de entrada & \vspace{0pt}6
+			\\
+			%\hline
+			\vspace{0pt}Número de neuronas de salida - capa densa 1 & \vspace{0pt}32
+			\\
+			%\hline
+			\vspace{0pt}Función de activación - capa densa 1 & \vspace{0pt}\textit{relu}
+			\\
+			%\hline
+			\vspace{0pt}Ratio de capa de desactivación 1 & \vspace{0pt}0.25
+			\\
+			%\hline
+			\vspace{0pt}Número de neuronas de salida - capa densa 2 & \vspace{0pt}16
+			\\
+			%\hline
+			\vspace{0pt}Función de activación - capa densa 2 & \vspace{0pt}\textit{tanh}
+			\\
+			%\hline
+			\vspace{0pt}Ratio de capa de desactivación 2 & \vspace{0pt}0.30
+			\\
+			%\hline
+			\vspace{0pt}Función de activación - capa final & \vspace{0pt}\textit{sigmoid}
+			\\
+			\specialrule{.1em}{.05em}{.05em}
+		\end{longtable}
+	%\end{table}
+	%\endgroup	
+	\clearpage
+	
+	\section{Parámetros para modelo predictivo de Descripción}
+	\label{anexo7}
+	%\begin{table}[h!]
+	%\begingroup
+	%\renewcommand\arraystretch{0.5}
+	\begin{longtable}{ m{8cm}m{7cm} }
+		\centering
+		\small
+		\tabularnewline \specialrule{.1em}{.05em}{.05em}
+		\Centering{Hiperparámetro}& \Centering{Valor}\\
+		\specialrule{.1em}{.05em}{.05em}
+		\vspace{0pt}Pesos de clases & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Exitoso (1): $1.7581290322580645$
+				\item Fracasado (0): $0.6987077585764833$
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Optimizador & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Nombre: ADAM
+				\item Ratio de aprendizaje: $1*10^{-5}$
+				\item Ratio de decaimiento: $1*10^{-5}$
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Parada temprana & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_loss}
+				\item Modo: \textit{min}
+				\item Paciencia: 10
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Reducción de ratio de aprendizaje & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_accuracy}
+				\item Modo: \textit{max}
+				\item Paciencia: 5
+				\item Factor: 0.01
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Punto de guardado del modelo & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_loss}
+				\item Modo: \textit{min}
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Función de pérdida & \textit{binary\_crossentropy}
+		\\
+		%\hline
+		Número de épocas & 100
+		\\
+		%\hline
+		Tamaño de lote & 128
+		\\
+		%\hline
+		Data de validación & \textit{testing\_sentences}, \hspace{5mm} \textit{testing\_labels}
+		\\
+		\hline
+		\vspace{0pt}Longitud de datos de entrada - capa de entrada & \vspace{0pt}3,671
+		\\
+		%\hline
+		\vspace{0pt}Tamaño de vocabulario - capa Embedding & \vspace{0pt}148,270
+		\\
+		%\hline
+		\vspace{0pt}Dimensión de incrustación - capa Embedding & \vspace{0pt}100
+		\\
+		%\hline
+		\vspace{0pt}Número de filtros - capa Conv1D & \vspace{0pt}128
+		\\
+		%\hline
+		\vspace{0pt}Tamaño de kernel - capa Conv1D & \vspace{0pt}5
+		\\
+		%\hline
+		\vspace{0pt}Número de neuronas de salida - capa densa 1 & \vspace{0pt}64
+		\\
+		%\hline
+		\vspace{0pt}Función de activación - capa densa 1 & \vspace{0pt}tanh
+		\\
+		%\hline
+		\vspace{0pt}Función de activación - capa final & \vspace{0pt}\textit{sigmoid}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{longtable}
+	%\end{table}
+	%\endgroup
+	\clearpage
+	
+	\section{Parámetros para modelo predictivo de Comentarios}
+	\label{anexo8}
+	%\begin{table}[h!]
+	%\begingroup
+	%\renewcommand\arraystretch{0.5}
+	\begin{longtable}{ m{8cm}m{7cm} }
+		\centering
+		\small
+		\tabularnewline \specialrule{.1em}{.05em}{.05em}
+		\Centering{Hiperparámetro}& \Centering{Valor}\\
+		\specialrule{.1em}{.05em}{.05em}
+		\vspace{0pt}Pesos de clases & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Exitoso (1): $1.7581290322580645$
+				\item Fracasado (0): $0.6987077585764833$
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Optimizador & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Nombre: ADAM
+				\item Ratio de aprendizaje: $1*10^{-3}$
+				\item Ratio de decaimiento: $1*10^{-6}$
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Parada temprana & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_loss}
+				\item Modo: \textit{min}
+				\item Paciencia: 10
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Reducción de ratio de aprendizaje & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_accuracy}
+				\item Modo: \textit{max}
+				\item Paciencia: 5
+				\item Factor: 0.01
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Punto de guardado del modelo & \setlist{nolistsep}
+		\begin{minipage}[t]{\linewidth}
+			\begin{itemize}[label={--},noitemsep,leftmargin=*,nosep,after=\strut]
+				\item Monitor: \textit{val\_loss}
+				\item Modo: \textit{min}
+			\end{itemize}
+		\end{minipage}
+		\\
+		%\hline
+		Función de pérdida & \textit{binary\_crossentropy}
+		\\
+		%\hline
+		Número de épocas & 50
+		\\
+		%\hline
+		Tamaño de lote & 64
+		\\
+		%\hline
+		Data de validación & \textit{testing\_sentences}, \hspace{5mm} \textit{testing\_labels}
+		\\
+		\hline
+		\vspace{0pt}Longitud de datos de entrada - capa de entrada & \vspace{0pt}5,000
+		\\
+		%\hline
+		\vspace{0pt}Tamaño de vocabulario - capa Embedding & \vspace{0pt}74,096
+		\\
+		%\hline
+		\vspace{0pt}Dimensión de incrustación - capa Embedding & \vspace{0pt}100
+		\\
+		%\hline
+		\vspace{0pt}Ratio de capa de desactivación & \vspace{0pt}0.50
+		\\
+		%\hline
+		\vspace{0pt}Número de neuronas de salida - capa Bidireccional LSTM & \vspace{0pt}128
+		\\
+		%\hline
+		\vspace{0pt}Función de activación - capa final & \vspace{0pt}\textit{sigmoid}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{longtable}
+	%\end{table}
+	%\endgroup
+	\clearpage
+	
+	\section{Parámetros para modelo de Aprendizaje Profundo Multimodal}
+	\label{anexo9}
+	
+	\clearpage
 %\end{appendices} 

@@ -501,59 +501,115 @@ Para la selección de variables, se consideró a aquellas con correlación clasi
 	\end{flushleft}
 \end{table}
 
+Una vez generadas las variables independientes (observaciones, X) y dependiente (estado de financiamiento, Y), el conjunto de datos es separado en subconjuntos de entrenamiento y prueba, con proporciones de 80\% y 20\% respectivamente (\citeauthor{pr_yuan2016textanalytics}, \citeauthor{pr_yu2018deeplearning}, \citeauthor{pr_chen2019keywords_crowdfunding}, \citeauthor{pr_mitra2014phrases}, \citeauthor{pr_sawhney2016usingLT}) y se fija un valor de aleatoriedad. Dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y, es decir, cada subconjunto mantendrá la distribución 72\% exitosos y 28\% fracasados.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1.00\textwidth]{4/figures/train_test_split.jpg}
+		\caption[Función para dividir base de datos en subconjuntos de entrenamiento y prueba]{Función para dividir base de datos en subconjuntos de entrenamiento y prueba.\\
+			Fuente: Elaboración propia.}
+		\label{4:fig28}
+	\end{center}
+\end{figure}
+
+Luego, utilizando el escalador Mínimo Máximo (\textit{Min-Max scaler}) de la librería Scikit-learn, se normalizaron las variables independientes a un nuevo rango conformando valores entre 0 y 1. La función creada para este proceso se muestra en la Figura \ref{4:fig29}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{4/figures/metadata_scaler_function.jpg}
+		\caption[Función para normalizar variables]{Función para normalizar variables.\\
+			Fuente: Elaboración propia.}
+		\label{4:fig29}
+	\end{center}
+\end{figure}
+
+Para calcular los nuevos valores normalizados usando el anterior escalador, se sigue la siguiente fórmula \citep{tec_minmaxscaler,tec_scikitlearn,tec_datascaling}:
+
+\begin{equation}\label{eq:minmaxscaler}
+\phantomsection
+x_{escalado}=\frac{x-x_{min}}{x_{max}-x_{min}}
+\end{equation}
+\myequations{Fórmula del escalador Mínimo Máximo}
+
+Donde $x$ representa el valor original de un dato, $x_{min}$ el valor mínimo existente para dicha variable y $x_{max}$, el valor máximo.
+
+Por ejemplo, tomando como referencia las estadísticas de la variable \textit{duration} en la Figura \ref{4:fig19}, se desea transformar una duración de 30 días dentro del rango [0; 1]. Para aplicar la fórmula, los valores serían $x=30$, $x_{min}=1$ y $x_{max}=92$. Entonces, el nuevo resultado sería $x_{escalado}=\frac{30-1}{92-1}=0.32$.
+
 \textbf{Actividad 2: Pre-procesar base de datos de Descripción}
 \\
 Se realizó la limpieza de texto basándose en los trabajos de los autores \cite{pr_mitra2014phrases}, \cite{pr_yuan2016textanalytics} y \cite{pr_chen2019keywords_crowdfunding} y además, se agregaron pasos de lematización y supresión de palabras de parada siguiendo el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutarse el proceso, los registros sin descripciones (\textit{NaN}) fueron convertidos en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado fue separado en palabras o tókens para eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista por su proyecto.
 
 Cada iteración se pudo lograr gracias a elementos de la biblioteca para procesamiento de lenguaje natural Natural Language Toolkit (NLTK), como por ejemplo \textit{word\_tokenize}, \textit{stopwords} y \textit{WordNetLemmatizer}. La descripción de mayor longitud pasó a presentar 3,671 palabras y a nivel general de proyectos, el nuevo vocabulario tuvo 165,526 palabras.
 
-Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig28} representa aquellas palabras que más aparecen en las descripciones.
+Las nubes de palabras reflejan las palabras más frecuente dentro de un conjunto de datos. La Figura \ref{4:fig30} representa aquellas palabras que más aparecen en las descripciones.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.63\textwidth]{4/figures/description_wordcloud.png}
+		\includegraphics[width=0.65\textwidth]{4/figures/description_wordcloud.png}
 		\caption[Nube de palabras de descripciones posterior a la limpieza de texto]{Nube de palabras de descripciones posterior a la limpieza de texto.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig28}
+		\label{4:fig30}
 	\end{center}
 \end{figure}
+
+Luego de la limpieza de textos, la variable independiente \textit{description}, como en el caso de Metainformación, fue dividida en subconjuntos de 80\% para entrenamiento y 20\% para prueba, estratificados según la distribución de la variable \textit{state}. A continuación, en la Figura \ref{4:fig31} se ejecuta el proceso para representar las palabras de las descripciones en vectores.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{4/figures/description_word_representation.jpg}
+		\caption[Proceso de representación de palabras en vectores codificados]{Proceso de representación de palabras en vectores codificados.\\
+			Fuente: Elaboración propia.}
+		\label{4:fig31}
+	\end{center}
+\end{figure}
+
+De acuerdo al algoritmo de la figura anterior, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, para separar las palabras únicas o \textit{tokens} de una línea de texto asignada. En caso se encuentre un término no identificado dentro del diccionario a entrenar, se asignará a dicho token el valor de \textit{$<$OOV$>$}. Esta función se aplicó al subconjunto de entrenamiento para elaborar un diccionario a partir de sus tokens. Luego, se creó una función para determinar la mayor longitud de palabras de las descripciones del dataset. Esta cantidad representó 3,671 términos. A continuación, se desarrolló una función para crear una secuencia de las palabras codificadas, homologar hasta la máxima longitud de descripciones y rellenar con ceros a la derecha (parámetro \textit{padding=`post'}) en caso un vector no alcance esta longitud. Se aplicó este proceso a los subconjuntos originales de entrenamiento y prueba.
+
+Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe como se observa en la Figura \ref{4:fig32}. Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{4/figures/description_embedding_matrix.jpg}
+		\caption[Proceso de creación de matriz de incrustaciones de palabras]{Proceso de creación de matriz de incrustaciones de palabras.\\
+			Fuente: Elaboración propia.}
+		\label{4:fig32}
+	\end{center}
+\end{figure}
+
+En la figura anterior, luego de abrirse el archivo GloVe, se completa un diccionario creado con los registros extraídos del algoritmo GloVe. Luego de terminarse este proceso y cerrarse el archivo, se crea la matriz de incrustación de palabras que será utilizada más adelante en la capa de incrustación del modelo predictivo.
 
 \textbf{Actividad 3: Pre-procesar base de datos de Comentarios}
 \\
 La base de datos de comentarios está conformada a nivel de 1 proyecto con una lista de comentarios separados en sublistas. De los 7,750 proyectos con comentarios (4,626 exitosos), se removieron aquellos que presentaron términos en idioma distinto al inglés, URLs, emoticonos, emojis, números y caracteres especiales, quedando 7,658 registros (4,574 exitosos).
 
-Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo ejercicio para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig29}.
+Debido a la gran cantidad de registros carecientes de comentarios, se propuso rellenarlos con un término aleatorio no relacionado con las temáticas principales: \textit{kuwagatabaizan}. Posteriormente, se repitió el mismo ejercicio para las descripciones. Sin considerar este nuevo término, la nube de palabras se representa en la Figura \ref{4:fig33}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.63\textwidth]{4/figures/comments_wordcloud_processed.png}
 		\caption[Nube de palabras de comentarios posterior a la limpieza de texto]{Nube de palabras de comentarios posterior a la limpieza de texto.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig29}
+		\label{4:fig33}
 	\end{center}
 \end{figure}
 
+Al igual que el caso de Descripción, se siguieron los procesos de la Figura \ref{4:fig31} para obtener la representación de palabras en vectores codificados y la Figura \ref{4:fig32} para crear la matriz de incrustación de palabras que se usarán en la capa de incrustaciones, con la diferencia en que el tamaño de la secuencia de palabras codificadas no será la máxima longitud de comentarios ya que estos, inicialmente separados por autor, al ser concatenados en un solo registro por proyecto, ampliaron su longitud exponencialmente. La máxima longitud de todos los registros fue de 30,072 palabras; por ello, se limitó el tamaño de secuencias a 5,000 términos.
+
 \section{Modelamiento}
-Una vez generadas las variables independientes (observaciones, X) y dependiente (estado de financiamiento, Y), el conjunto de datos es separado en subconjuntos de entrenamiento y prueba, con proporciones de 80\% y 20\% respectivamente (\citeauthor{pr_yuan2016textanalytics}, \citeauthor{pr_yu2018deeplearning}, \citeauthor{pr_chen2019keywords_crowdfunding}, \citeauthor{pr_mitra2014phrases}, \citeauthor{pr_sawhney2016usingLT}) y se fija un valor de aleatoriedad. Dentro de los parámetros de separación, se establece el argumento de estratificación según la variable Y dentro de la función \textit{train\_test\_split}, de la siguiente manera:
-
-%\begin{lstlisting}[language=Python]
-train\_test\_split(X, Y, test\_size = 0.20, stratify = Y, random\_state=0)
-%\end{lstlisting}
-
 Antes de crear los modelos correspondientes, y después de definir los valores de entrada y parámetros (las subsecciones que se detallarán a continuación), se asigna una semilla inicial con un valor fijado por el usuario con el fin de evitar resultados aleatorios para futuras iteraciones. Se establece, además, una ruta local en donde se almacena cada punto de control basado en la mejora de la pérdida del subconjunto de validación con respecto a su iteración anterior. En caso de un estancamiento de esta última durante 10 épocas, es decir, si el valor de la pérdida no decrementa, el modelo dejará de entrenar. A esta regla se le añade la reducción de la tasa de aprendizaje luego de 5 épocas en caso el valor de la exactitud del subconjunto de validación no refleje un incremento. El objetivo de estas condiciones es evitar el sobreajuste en los modelos durante el entrenamiento.
 
 Por último, es importante asignar un peso distinto para cada una de las dos clases de la variable dependiente \textit{state}. Con el fin de evitar un mal entrenamiento, los pesos de ambas clases se balancean y se almacenan en un diccionario con su etiqueta correspondiente.
 
 \textbf{Actividad 1: Desarrollar modelo predictivo de Metainformación}
 \\
-Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig30} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning}. Se asignaron 100 épocas y el número de lotes fue 32.
+Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP por sus siglas en inglés) bajo la arquitectura de la Figura \ref{4:fig34} y teniendo como referencia a los autores \citeauthor{pr_yu2018deeplearning}. Se asignaron 100 épocas y el número de lotes fue 32.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
 		\caption[Arquitectura de modelo MLP para la metadata]{Arquitectura de modelo MLP para la metadata.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig30}
+		\label{4:fig34}
 	\end{center}
 \end{figure}
 
@@ -569,20 +625,19 @@ El autor también menciona tener en consideración utilizar la función de activ
 
 Todas estas opciones fueron probadas en el modelo y evaluadas con las métricas correspondientes. Sin embargo, al calibrar el modelo y comparar distintos resultados, se obtuvo que la mejor cantidad de neuronas para la primera capa densa era de 32. De este modo, la siguiente capa intermedia se le asignó la mitad (16). La función de activación \textbf{tanh} para la segunda capa oculta presentó mejores resultados, así como tasas de abandono entre 0.25 y 0.3 para las capas de desactivación. Por último, además de \textit{adam}, se realizó experimentos con otros optimizadores como por ejemplo \textit{RMSprop} siendo este el resultado más cercano. Al final, \textit{adam} fue escogido pero con una tasa de aprendizaje baja como 0.005 debido a que el modelo tendía a aprender muy rápido durante el transcurso de las épocas. En conjunto, el ratio de decaimiento se asignó un valor más bajo, 0.00005, y para evaluar los subconjuntos de entrenamiento y prueba se eligió precisión como métrica.
 
+El resumen de lo anterior explicado, desde los parámetros de configuración de entrenamiento hasta los elementos y funciones de activación presentes en cada capa, se encuentra en el Anexo \ref{anexo6}.
+
+%\newpage
 \textbf{Actividad 2: Desarrollar modelo predictivo de Descripción}
 \\
-Para crear la capa de incrustación de palabras, se usó la función \textit{Tokenizer} de la librería \textbf{tensorflow.keras.preprocessing.text}, creando una función para originar un diccionario de palabras a índice al subconjunto de entrenamiento, asignándose a cada una un código. La función creada asimismo permite colocar un valor (en este caso, el término \textit{$<$OOV$>$}) a aquellos términos no entrenados y serán parte de la data de prueba. A continuación, los arreglos de estos textos codificados son rellenados con ceros a la derecha, hasta uniformizar con la longitud de la descripción más larga, ya que todas presentan distintos tamaños.
-
-Una vez obtenido el vocabulario de palabras únicas y asignado el tamaño de cada arreglo (en este caso, se asignó el de la descripción de mayor longitud), se procedió a elaborar la matriz de características usando incrustaciones de GloVe. Para la presente investigación, se seleccionó la opción Wikipedia 2014 + Gigaword 5, con una matriz de 100 columnas, donde cada una contendrá las incrustaciones de palabras GloVe para las palabras del corpus, cuyos índices se corresponderán con cada número de fila \parencite{tec_malik2019pythonnlp}.
-
-Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional bajo la arquitectura de la Figura \ref{4:fig31}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
+Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional unidimensional (Conv1D) bajo la arquitectura de la Figura \ref{4:fig35}, así como de referencia un trabajo de análisis de sentimientos de películas \parencite{tec_malik2019pythonnlp}. Se asignaron 100 épocas para entrenar y número de lotes de 128.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
 		\caption[Arquitectura de modelo CNN para las descripciones]{Arquitectura de modelo CNN para las descripciones.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig31}
+		\label{4:fig35}
 	\end{center}
 \end{figure}
 
@@ -590,24 +645,24 @@ Esta red se compone de una capa de incrustación de palabras o \textit{Embedding
 
 La siguiente capa es la Convolución en 1 dimensión o \textit{Conv1D} (usado frecuentemente para extraer características de datos de textos por ser unidimensionales) que, con 128 características, 5 de tamaño de kernel y función de activación \textbf{relu}, generó una salida de 3,667 por 128; así como 64,128 parámetros entrenables.
 
-A continuación, le sigue la capa de reducción \textit{GlobalMaxPooling}. Al igual que en la convolución, esta también fue unidimensional y se caracteriza por realizar agrupamiento global basado en el valor máximo de los bloques seleccionados para reducir el tamaño del vector.
+A continuación, le sigue la capa de reducción \textit{GlobalMaxPooling}. Al igual que en la convolución, esta también fue unidimensional y se caracteriza por realizar agrupamiento global basado en el valor máximo de los bloques seleccionados para reducir el tamaño del vector generado.
 
 Esta nueva salida pasa por la capa de aplanamiento o \textit{Flatten}, en donde se multiplican las filas y columnas y tener un solo vector. Esta sirve para conectar con las 64 neuronas de la nueva capa densa y función de activación \textbf{tanh}, agregada con el fin de mejorar la performance del modelo. El criterio para considerar una función \textit{tanh} obedece al mejor desempeño durante el entrenamiento que la función \textit{relu}, evitando el sobreajuste durante mayores épocas ocasionado por gradientes que desaparecen al propagar hacia atrás a mayor cantidad de capas. El uso de la función tangente hiperbólica en capas ocultas resultó una buena práctica durante las décadas de 1990 y 2000, teniendo mejor rendimiento que la función logística \parencite{tec_brownlee2019vanishing_gradients}. Aún así, ambas son dos opciones válidas para problemas de redes neuronales profundas.
 
-Finalmente, la arquitectura culmina con la última capa con función de activación \textbf{sigmoid} para regular el valor de salida entre 0 y 1, ya que se trata de un problema de clasificación binaria (cuenta con solo 1 neurona y su parámetro de pérdida es “\textit{binary\_crossentropy}”).
+Finalmente, la arquitectura culmina con la última capa con función de activación \textbf{sigmoid} para regular el valor de salida entre 0 y 1, ya que, al tratarse de un problema de clasificación binaria (predecir si un proyecto será financiado: exitoso, de lo contrario: fracasado), cuenta con solo 1 neurona y su parámetro de pérdida es “\textit{binary\_crossentropy}”. El resumen de todo lo anterior explicado se encuentra en el Anexo \ref{anexo7}.
 
 \textbf{Actividad 3: Desarrollar modelo predictivo de Comentarios}
 \\
-Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding='post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
+Al igual que en el modelo de descripciones de proyectos, se creó un diccionario de palabras con la data luego de tokenizar y codificarlas con las mismas funciones y librerías. Sin embargo, a diferencia del anterior modelo, la longitud de la matriz para el rellenado de ceros con el fin de homogenizar el tamaño de cada vector de incrustaciones se limitó a las 5,000 últimas palabras de una oración (parámetro \textbf{padding=`post'} de la función \textit{pad\_sequences}) en lugar de la longitud máxima dado que ésta representa una cantidad considerable (30,072) como para utilizar todos los recursos del entorno de ejecución.
 
-De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig32}.
+De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe y se diseñó una arquitectura basada en una Red Neuronal Recurrente (RNN por sus siglas en inglés) ilustrada en la Figura \ref{4:fig36}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.63\textwidth]{4/figures/model_rnn_comments.png}
+		\includegraphics[width=0.60\textwidth]{4/figures/model_rnn_comments.png}
 		\caption[Arquitectura de modelo RNN para los comentarios]{Arquitectura de modelo RNN para los comentarios.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig32}
+		\label{4:fig36}
 	\end{center}
 \end{figure}
 
@@ -615,9 +670,9 @@ Existe una similitud de estructura en las 2 primeras capas con las del modelo de
 
 A continuación, los vectores de palabras ingresan a la capa de la red neuronal recurrente \textit{LSTM}. Para este caso, se consideró envolverla dentro de una Red Bidireccional de 128 neuronas, ya que como se explicó en el Marco Teórico del Capítulo II sobre las RNN Bidireccionales, este tipo es una mejora de la LSTM tradicional al entrenar 2 juntas (la segunda representa una copia invertida de la secuencia de entrada) en donde cada capa ahora puede considerar también información de las capas siguientes junto con la información de las previas que ya tenía en cuenta, es decir, toma información de 2 direcciones \parencite{tec_brownlee2017bidirectional_lstm}.
 
-Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de entrada (2*128 de la capa Bidireccional LSTM) y utiliza la función de activación \textit{sigmoid} para transformar el valor final entre 0 y 1.
+Finalmente, el modelo culmina con una capa densa en donde recibe 256 valores de entrada (2*128 de la capa Bidireccional LSTM) y utiliza la función de activación \textit{sigmoid} para transformar el valor final entre 0 y 1. El resumen de lo anterior se encuentra en el Anexo \ref{anexo8}.
 
-Antes de continuar con el desarrollo del último modelo, en la Tabla \ref{4:table3} se presentan las variables de todas las modalidades juntas que se usaron para entrenar el modelo de Aprendizaje Profundo Multimodal. Estas fueron seleccionadas de acuerdo al Benchmarking aplicado a los 17 antecedentes en el Capítulo II.
+Antes de continuar con el desarrollo del modelo de Aprendizaje Profundo Multimodal, en la Tabla \ref{4:table3} se presentan las variables de las modalidades que se usaron para entrenarlo. Estas se seleccionaron de acuerdo al Benchmarking aplicado a los antecedentes en el Capítulo II.
 
 \begin{table}[h!]
 	\caption[Diccionario de datos del conjunto final entrenado]{Diccionario de datos del conjunto final entrenado.}
@@ -652,8 +707,8 @@ Antes de continuar con el desarrollo del último modelo, en la Tabla \ref{4:tabl
 		state & Estado de financiamiento del proyecto. & object \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
+	%\par	%%Salto de linea
+	%\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
@@ -676,14 +731,14 @@ Si bien en los respectivos antecedentes marcados en (*) figuran el promedio de l
 \begin{landscape}
 	\textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
 	\\
-	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de Aprendizaje Profundo Multimodal ilustrado en la Figura \ref{4:fig32}.
+	Una vez construidos los modelos para cada modalidad (metainformación, descripción y comentarios), se construyó un modelo de Aprendizaje Profundo Multimodal ilustrado en la Figura \ref{4:fig37}.
 	
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=1.20\textwidth]{4/figures/final_stacked_model.png}
 			\caption[Arquitectura del modelo apilado final The Hydra]{Arquitectura del modelo apilado final The Hydra.\\
 				Fuente: Elaboración propia.}
-			\label{4:fig33}
+			\label{4:fig37}
 		\end{center}
 	\end{figure}
 	
@@ -717,31 +772,31 @@ La última fase de la metodología CRISP-DM comienza con el diseño del prototip
 
 \textbf{Actividad 2: Ejecutar prototipo con proyectos tecnológicos vigentes}
 \\
-Una vez diseñado el proceso del prototipo, el software es ejecutado localmente desde Jupyter Notebook y recibe como dato de entrada el enlace web de un proyecto vigente en Kickstarter, representado en la Figura \ref{4:fig34}.
+Una vez diseñado el proceso del prototipo, el software es ejecutado localmente desde Jupyter Notebook y recibe como dato de entrada el enlace web de un proyecto vigente en Kickstarter, representado en la Figura \ref{4:fig38}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{4/figures/prototipo_input_project1.jpg}
 		\caption[Proyecto consultado para la demostración. Captura de pantalla: 15/02/21]{Proyecto consultado para la demostración. Captura de pantalla: 15/02/21.\\
 			Fuente: \cite{ot_kickstarter_revopointproject}}
-		\label{4:fig34}
+		\label{4:fig38}
 	\end{center}
 \end{figure}
 
-Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campaña de la Figura \ref{4:fig35}.
+Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campaña de la Figura \ref{4:fig39}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{4/figures/example_project_150221.jpg}
 		\caption[Campaña del proyecto consultado. Captura de pantalla: 15/02/21]{Campaña del proyecto consultado. Captura de pantalla: 15/02/21.\\
 			Fuente: \cite{ot_kickstarter_revopointproject}}
-		\label{4:fig35}
+		\label{4:fig39}
 	\end{center}
 \end{figure}
 
 La primera acción hecha por el sistema fue extraer la metainformación, descripción y comentarios del proyecto desde el ingreso al URL por un navegador. Debido al cambio de políticas de acceso a la plataforma en 2020, Kickstarter detecta la presencia de bots y restringe la navegación usando CAPTCHAs para evitar su accionar. Algunas veces fue detectado el bot del sistema. Ante ello, la única acción manual por parte del usuario en el sistema se da en este paso presionando por 5 segundos el botón de “\textit{I'm a human}” (Soy humano por su traducción al español) que se muestra en la ventana. Desde este punto, luego de ingresar al enlace de la campaña del proyecto, el sistema primero se redirige a la sección de la metainformación y extrae las variables usadas para el entrenamiento del modelo. Del mismo modo, repite esta secuencia para la descripción y los comentarios.
 
-Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig36} respectivamente.
+Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig40} respectivamente.
 
 \begin{figure}[!ht]
 	\centering
@@ -763,16 +818,16 @@ Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig36} re
 	\end{subfigure}
 	\caption[Variables extraídas por modalidad del proyecto consultado]{Variables extraídas por modalidad del proyecto consultado.\\
 		Fuente: Elaboración propia.}
-	\label{4:fig36}
+	\label{4:fig40}
 \end{figure}
 
-Esta información es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig37}.
+Esta información es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig41}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.70\textwidth]{4/figures/demo_project_prediction.jpg}
 		\caption[Resultado de predicción de The Hydra para el proyecto consultado]{Resultado de predicción de The Hydra para el proyecto consultado.\\
 			Fuente: Elaboración propia.}
-		\label{4:fig37}
+		\label{4:fig41}
 	\end{center}
 \end{figure}

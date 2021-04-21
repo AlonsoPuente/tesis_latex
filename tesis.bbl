@@ -946,6 +946,44 @@
       \verb https://www.dlology.com/blog/simple-stock-sentiment-analysis-with-news-data-in-keras/
       \endverb
     \endentry
+    \entry{tec_datascaling}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5d8cb2be46e0debab2e84f0d8dd10129}{%
+           family={Ciaburro},
+           familyi={C\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9281a65445ac0a098d196d9559763780}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Prateek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9cd27f0786fead3c2f776a68a390996}
+      \strng{fullhash}{a9cd27f0786fead3c2f776a68a390996}
+      \strng{bibnamehash}{a9cd27f0786fead3c2f776a68a390996}
+      \strng{authorbibnamehash}{a9cd27f0786fead3c2f776a68a390996}
+      \strng{authornamehash}{a9cd27f0786fead3c2f776a68a390996}
+      \strng{authorfullhash}{a9cd27f0786fead3c2f776a68a390996}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Segunda edición}
+      \field{title}{Python Machine Learning Cookbook}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781789808452/1/ch01lvl1sec15/data-scaling
+      \endverb
+      \verb{url}
+      \verb https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781789808452/1/ch01lvl1sec15/data-scaling
+      \endverb
+    \endentry
     \entry{cr_colgren2014risecrwd}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d702637e7ebb7502f91baeed338aade8}{%
@@ -3189,6 +3227,125 @@
       \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
       \endverb
     \endentry
+    \entry{tec_scikitlearn}{article}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=6e96fec0d63277626bb324bd28cdecb7}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b99c2df2144dc5ee09317a7833dea42d}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=955f19cea89ae97bb7936078898e6255}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2787869c9954c1d4e9891098995feb75}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86d47ab9ca1a9dae108b4d4a0418c679}{%
+           family={Thirion},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d42f9e9cec95da1dad2232eac74982ab}{%
+           family={Grisel},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bd8ef25258dd2311f92df23fe71ecf7}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5ee41fa92b9e425806e1773853f1932}{%
+           family={Prettenhofer},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c808557734e8929976d1f06f99c4ff2}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9662a6ea01596c6dd450817ccac81c4a}{%
+           family={Dubourg},
+           familyi={D\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39e81a3e2193b954680a0ab847a0bb55}{%
+           family={Vanderplas},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14c4a498c032f77d0b83f86c710dd50e}{%
+           family={Passos},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc075b18fb4710a1a37b258804c57efe}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67ec0e8add781665a43010c9559111e9}{%
+           family={Brucher},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcb3918f09eb8785e6b212a907cc37cf}{%
+           family={Perrot},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab20fcf381cd45daa82417c6fc595051}{%
+           family={Duchesnay},
+           familyi={D\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a097aa3ebf2b8c2acf988341dde9710}
+      \strng{fullhash}{7a67607c66e4af944b5f16461d6d0a87}
+      \strng{bibnamehash}{7a67607c66e4af944b5f16461d6d0a87}
+      \strng{authorbibnamehash}{7a67607c66e4af944b5f16461d6d0a87}
+      \strng{authornamehash}{3a097aa3ebf2b8c2acf988341dde9710}
+      \strng{authorfullhash}{7a67607c66e4af944b5f16461d6d0a87}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Scikit-learn: Machine Learning in {P}ython}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2825\bibrangedash 2830}
+      \range{pages}{6}
+    \endentry
     \entry{gl_pennington2014glove}{report}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ab47b497d1b0cdaddd8594e4bd501ee5}{%
@@ -3947,6 +4104,32 @@
       \endverb
       \verb{url}
       \verb https://stanford.edu/~kartiks2/kickstarter.pdf
+      \endverb
+    \endentry
+    \entry{tec_minmaxscaler}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae928b07781d0af9cd222cc0af04ec88}{%
+           family={{Scikit-learn}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae928b07781d0af9cd222cc0af04ec88}
+      \strng{fullhash}{ae928b07781d0af9cd222cc0af04ec88}
+      \strng{bibnamehash}{ae928b07781d0af9cd222cc0af04ec88}
+      \strng{authorbibnamehash}{ae928b07781d0af9cd222cc0af04ec88}
+      \strng{authornamehash}{ae928b07781d0af9cd222cc0af04ec88}
+      \strng{authorfullhash}{ae928b07781d0af9cd222cc0af04ec88}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{sklearn.preprocessing.MinMaxScaler}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
       \endverb
     \endentry
     \entry{tec_shafique2014dmmodels}{article}{}
