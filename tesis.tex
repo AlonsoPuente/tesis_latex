@@ -325,8 +325,10 @@ pdfauthor={autor nombres}]{hyperref}
 %\listofequcaptions % print list of equations
 \listofmyequations
 \clearpage
-%%Numeros de pagina en arabic
-\renewcommand{\thepage}{\arabic{page}}
+%% Numeros de pagina en arabic (si se desea continuar la numeración)
+%\renewcommand{\thepage}{\arabic{page}}
+%% Para reiniciar la numeración
+\pagenumbering{arabic}
 %%Encabezado con titulo de tesis y numeracion
 \pagestyle{special}
 \include{0/resumen}

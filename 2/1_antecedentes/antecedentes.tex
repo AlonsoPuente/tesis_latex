@@ -14,7 +14,7 @@ Finalmente, como último paso se implementó una aplicación en Android para la 
 	\begin{center}
 		\includegraphics[width=0.80\textwidth]{2/figures/chen2013.jpg}
 		\caption[Extensión de Google Chrome creada para predecir el estado del proyecto]{Extensión de Google Chrome creada para predecir el estado del proyecto.\\
-			Fuente: \cite{pr_chen2013kickpredict}}
+			Fuente: \cite{pr_chen2013kickpredict}. \citetitle{pr_chen2013kickpredict}. (p. 4)}
 		\label{2:fig111}
 	\end{center}
 \end{figure}
@@ -41,7 +41,7 @@ De las 59 variables de control que no son texto, 29 que tenían «valores acepta
 		\caption{Frases para proyectos fracasados}
 	\end{subfigure}
 	\caption[Ejemplos de frases del Top 100 y sus respectivos pesos que señalan si un proyecto será o no financiado]{Ejemplos de frases del Top 100 y sus respectivos pesos que señalan si un proyecto será o no financiado.\\
-		Fuente: \cite{pr_mitra2014phrases}}
+		Fuente: \cite{pr_mitra2014phrases}. \textit{The Language that Gets People to Give: Phrases that Predict Success on Kickstarter}. (p. 56)}
 	\label{2:fig112}
 \end{figure}
 
@@ -57,7 +57,7 @@ Finalmente, la propuesta se comparó contra otros modelos de la base y convencio
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/zhou2015.jpg}
 		\caption[Curvas ROC del modelo propuesto, el de base y el convencional]{Curvas ROC del modelo propuesto de los autores, el de base y el convencional.\\
-			Fuente: \cite{pr_zhou2015projectdesc}}
+		Fuente: \cite{pr_zhou2015projectdesc}. \textit{Money Talks: A Predictive Model on Crowdfunding Success Using Project Description}. (p. 5)}
 		\label{2:fig113}
 	\end{center}
 \end{figure}
@@ -75,7 +75,7 @@ Finalmente, se comparó el modelo propuesto considerando todas sus característi
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/chen2015.jpg}
 		\caption[Evaluación de la performance de los modelos construidos en distintas etapas de tiempo]{Evaluación de la performance de los modelos construidos en distintas etapas de tiempo.\\
-			Fuente: \cite{pr_chen2015predcrowd}}
+			Fuente: \cite{pr_chen2015predcrowd}. \textit{Will Your Project	Get the Green Light? Predicting the Success of Crowdfunding Campaigns}. (p. 12)}
 		\label{2:fig114}
 	\end{center}
 \end{figure}
@@ -93,7 +93,7 @@ Bajo las métricas mencionadas, el modelo del autor superó a los otros 3 modelo
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{2/figures/beckwith2016.jpg}
 		\caption[Curva ROC para cada modelo utilizado por el autor]{Curva ROC para cada modelo utilizado por el autor.\\
-		Fuente: \cite{pr_beckwith2016predcrowd}}
+		Fuente: \cite{pr_beckwith2016predcrowd}. \textit{Predicting Success in Equity Crowdfunding}. (p. 28)}
 		\label{2:fig115}
 	\end{center}
 \end{figure}
@@ -109,9 +109,9 @@ Finalmente, como resultado de las múltiples pruebas en los modelos, en los cual
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{2/figures/li2016.jpg}
+		\includegraphics[width=0.95\textwidth]{2/figures/li2016.jpg}
 		\caption[Comparación de resultados de conjuntos de datos de distintas características de proyectos considerando incluir o no proyectos fracasados]{Comparación de resultados de conjuntos de datos de distintas características de proyectos considerando incluir o no proyectos fracasados.\\
-			Fuente: \cite{pr_li2016predcrowd}}
+			Fuente: \cite{pr_li2016predcrowd}. \textit{Project Success Prediction in Crowdfunding Environments}. (p. 254)}
 		\label{2:fig116}
 	\end{center}
 \end{figure}
@@ -121,13 +121,13 @@ Finalmente, como resultado de las múltiples pruebas en los modelos, en los cual
 
 Actualmente existen diversos estudios de éxito de campañas de financiamiento colectivo, la mayoría usando modelos predictivos en proyectos crowdfunding basados en recompensas y análisis de características poco profundas del lenguaje en descripción de los proyectos (por ejemplo, número de palabras, errores ortográficos, etc) así como en la implementación de métodos de Aprendizaje Automático. Como propuesta alterna, los autores construyeron un marco de trabajo basado en análisis de texto que pueda extraer semánticas de descripciones textuales de proyectos para predecir sus resultados de recaudación de fondos.
 
-De acuerdo a la metodología seguida por los autores, el primer paso consistió en recolectar 500 proyectos de 2 webs chinas sobre crowdfunding cada una. Luego, se construyó el marco de trabajo del análisis textual ilustrado en la Figura \ref{2:fig117}. A continuación, se diseñó un modelo de Bosque Aleatorio para los datos numéricos, y POS Tag Stemming más modelo DC-LDA más características tópicas para los datos textuales con la finalidad de realizar una extracción más efectiva de las características tópicas a partir de las descripciones. Esta arquitectura se comparó con otros modelos en la literatura de la publicación. Luego, se realizó un análisis empírico para identificar características discriminatorias que influye en el éxito de la recaudación de fondos.
+De acuerdo a la metodología seguida por los autores, el primer paso consistió en recolectar 500 proyectos de 2 websites chinas sobre crowdfunding. Luego, se construyó el marco de trabajo del análisis textual ilustrado en la Figura \ref{2:fig117}. A continuación, se diseñó un modelo de Bosque Aleatorio para los datos numéricos, y POS Tag Stemming + DC-LDA + características tópicas para los datos textuales con la finalidad de realizar una extracción más efectiva de las características tópicas a partir de las descripciones. Esta arquitectura se comparó con otros modelos en la literatura de la publicación. Luego, se realizó un análisis empírico para identificar características discriminatorias que influye en el éxito de la recaudación de fondos.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{2/figures/yuan2016a.jpg}
 		\caption[Marco de trabajo de analítica textual de los autores]{Marco de trabajo de analítica textual de los autores.\\
-			Fuente: \cite{pr_yuan2016textanalytics}}
+		Fuente: \cite{pr_yuan2016textanalytics}. \textit{The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach}. (p. 74)}
 		\label{2:fig117}
 	\end{center}
 \end{figure}
@@ -138,7 +138,7 @@ Finalmente, se evaluaron ambos conjuntos de datos. Para los datos numéricos, la
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/yuan2016b.jpg}
 		\caption[Performance de ambas bases de datos con distintas métricas]{Performance de ambas bases de datos con distintas métricas.\\
-			Fuente: \cite{pr_yuan2016textanalytics}}
+			Fuente: \cite{pr_yuan2016textanalytics}. \textit{The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach}. (p. 91)}
 		\label{2:fig118}
 	\end{center}
 \end{figure}
@@ -156,7 +156,7 @@ Considerando el modelo solo con las características primarias (base), el nivel 
 	\begin{center}
 		\includegraphics[width=0.55\textwidth]{2/figures/sawhney2016.png}
 		\caption[Exactitud del modelo SVM para cada categoría]{Exactitud del modelo SVM para cada categoría.\\
-			Fuente: \cite{pr_sawhney2016usingLT}}
+			Fuente: \cite{pr_sawhney2016usingLT}. \citetitle{pr_sawhney2016usingLT}. (p. 6)}
 		\label{2:fig119}
 	\end{center}
 \end{figure}
@@ -174,7 +174,7 @@ El modelo de Regresión Logística alcanzó una exactitud de 76.7\%. Este fue co
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/kaur2017.jpg}
 		\caption[Performance estadística del modelo predictivo de los autores]{Performance estadística del modelo predictivo de los autores.\\
-			Fuente: \cite{pr_kaur2017socmedcrowd}}
+		Fuente: \cite{pr_kaur2017socmedcrowd}. \textit{Effect of Social Media Connectivity on Success of Crowdfunding Campaigns}. (p. 772)}
 		\label{2:fig120}
 	\end{center}
 \end{figure}
@@ -192,7 +192,8 @@ Por último, con la matriz de confusión, se escogió la métrica de exactitud p
 	\begin{center}
 		\includegraphics[width=0.90\textwidth]{2/figures/kamath2018.jpg}
 		\caption[Gráfico de dispersión de cada modelo evaluado según su exactitud]{Gráfico de dispersión de cada modelo evaluado según su exactitud.\\
-			Fuente: \cite{pr_kamath2018suplearn}}
+			Fuente: \cite{pr_kamath2018suplearn}. \textit{Supervised Learning Model For Kickstarter Campaigns
+				With R Mining}. (p. 26)}
 		\label{2:fig121}
 	\end{center}
 \end{figure}
@@ -210,7 +211,8 @@ Se tomaron en cuenta como métricas la exactitud y el área bajo la curva ROC (A
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/yu2018.jpg}
 		\caption[Gráfico de historial de entrenamiento para subconjuntos de entrenamiento y validación]{Gráfico de historial de entrenamiento para subconjuntos de entrenamiento y validación.\\
-			Fuente: \cite{pr_yu2018deeplearning}}
+			Fuente: \cite{pr_yu2018deeplearning}. \textit{Prediction of
+				Crowdfunding Project Success with Deep Learning}. (p. 6)}
 		\label{2:fig122}
 	\end{center}
 \end{figure}
@@ -228,7 +230,8 @@ Finalmente, luego de ser entrenados, los modelos fueron evaluados bajo la métri
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{2/figures/lee2018.jpg}
 		\caption[Promedio estimado de la exactitud de predicción vs tiempo estimado en días]{Promedio estimado de la exactitud de predicción vs tiempo estimado en días.\\
-			Fuente: \cite{pr_lee2018contentDL}}
+		Fuente: \cite{pr_lee2018contentDL}. \textit{Content-based Success Prediction of Crowdfunding
+			Campaigns: A Deep Learning Approach}. (p. 196)}
 		\label{2:fig123}
 	\end{center}
 \end{figure}
@@ -247,7 +250,8 @@ Respecto a la predicción del tiempo de éxito, los modelos propuestos de SMP (p
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/jin2019.jpg}
 		\caption[Arquitectura SMP de los autores]{Arquitectura SMP de los autores.\\
-			Fuente: \cite{pr_jin2019dayssuccess}}
+		Fuente: \cite{pr_jin2019dayssuccess}. \textit{Estimating the Days to Success of Campaigns
+			in Crowdfunding: A Deep Survival Perspective}. (p. 3)}
 		\label{2:fig124}
 	\end{center}
 \end{figure}
@@ -265,7 +269,7 @@ Finalmente, para evaluar los resultados, se comparó el modelo propuesto (MDL-TI
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/cheng2019.jpg}
 		\caption[Arquitectura de modelo de Aprendizaje Profundo Multimodal de los autores]{Arquitectura de modelo de Aprendizaje Profundo Multimodal de los autores.\\
-			Fuente: \cite{pr_cheng2019deeplearning}}
+		Fuente: \cite{pr_cheng2019deeplearning}. \textit{Success Prediction on Crowdfunding with Multimodal Deep Learning}. (p. 2161)}
 		\label{2:fig125}
 	\end{center}
 \end{figure}
@@ -283,7 +287,7 @@ Se realizó hasta dos experimentos manipulando los conjuntos de datos para el SV
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{2/figures/chen2019.jpg}
 		\caption[Palabras clave seleccionadas que afectan el ratio de éxito según modelo SVM-RFE]{Palabras clave seleccionadas que afectan el ratio de éxito según modelo SVM-RFE.\\
-			Fuente: \cite{pr_chen2019keywords_crowdfunding}}
+		Fuente: \cite{pr_chen2019keywords_crowdfunding}. \textit{Finding the Keywords Affecting the Success of Crowdfunding Projects}. (p. 571)}
 		\label{2:fig126}
 	\end{center}
 \end{figure}
@@ -300,9 +304,9 @@ Finalmente, se encontraron palabras con mayor frecuencia según cada una de las 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{2/figures/chaichi2019.jpg}
+		\includegraphics[width=0.55\textwidth]{2/figures/chaichi2019.jpg}
 		\caption[Nube de palabras clave de 3 y 4 gramas usando el algoritmo TextRank]{Nube de palabras clave de 3 y 4 gramas usando el algoritmo TextRank.\\
-		Fuente: \cite{pr_chaichi2019nlp_3dprinting}}
+		Fuente: \cite{pr_chaichi2019nlp_3dprinting}. \textit{Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter}. (p. 6)}
 		\label{2:fig127}
 	\end{center}
 \end{figure}
@@ -312,17 +316,17 @@ Finalmente, se encontraron palabras con mayor frecuencia según cada una de las 
 
 Los comentarios de los usuarios al momento de evaluar algún producto de su interés en el comercio electrónico pasan desapercibidos. Estas reseñas suelen ser importantes en las plataformas de financiamiento colectivo dado que influye en otros usuarios en patrocinar un proyecto. Ante ello, los autores plantearon fusionar técnicas de modelado de lenguaje con redes neuronales para identificar patrones de discusión ocultos en los comentarios.
 
-De acuerdo a la metodología seguida por los autores, el primer paso fue elaborar un flujo para la creación del conjunto final de datos, excluyendo potenciales proyectos fraudulentos en Kickstarter según distintas fuentes en la web, análisis de contenido y otros criterios para la lista restante de enlaces de campañas, y finalmente extrayendo y almacenando los comentarios en archivos de texto.
+De acuerdo a la metodología seguida por los autores, el primer paso fue elaborar un flujo para la creación del conjunto final de datos, excluyendo potenciales proyectos fraudulentos en Kickstarter según distintas fuentes en la web, análisis de contenido y otros criterios para la lista restante de enlaces de campañas, y finalmente almacenando los comentarios en archivos.
 
-Como resultado, se obtuvieron inicialmente más de 645 mil comentarios provenientes de 600 proyectos. Sin embargo, estos se redujeron a 504,184 comentarios (841 en promedio por proyecto) cuyo contenido era visible públicamente. El 70\% fue destinado al subconjunto de entrenamiento, mientras que el resto, al de prueba. A continuación, se elaboró la arquitectura del modelo híbrido, ilustrado en la Figura \ref{2:fig128}, la cual comienza recibiendo de entrada a los comentarios para crear los vectores de palabras en el tiempo \textit{t} de una campaña. El híbrido está basado en las redes neuronales recurrentes de Memoria Larga a Corto Plazo (LSTM), alimentados con la distribución de temas latentes aprendidos del modelo pre-entrenado Asignación Latente de Dirichlet (LDA). Además, se utilizó el algoritmo Optimización por Enjambre de Partículas (PSO) para optimizar las recomendaciones. Como resultado del proceso LDA, estos generan vectores latentes de temas, que alimentan al modelo LSTM con el fin de que logre predecir la clase del tema de la siguiente palabra en el documento. Con estas salidas, el módulo de recomendación sugiere proyectos basados en los temas descubiertos por el patrocinador.
+Como resultado, se obtuvieron inicialmente más de 645 mil comentarios provenientes de 600 proyectos. Sin embargo, estos se redujeron a 504,184 comentarios (841 en promedio por proyecto) cuyo contenido era visible públicamente. El 70\% fue destinado al subconjunto de entrenamiento, mientras que el resto, al de prueba. A continuación, se elaboró la arquitectura del modelo híbrido, ilustrado en la Figura \ref{2:fig128}, la cual comienza recibiendo de entrada a los comentarios para crear los vectores de palabras en el tiempo \textit{t} de una campaña. El híbrido está basado en una red LSTM, alimentados con la distribución de temas latentes aprendidos del modelo pre-entrenado LDA. Además, se utilizó el algoritmo Optimización por Enjambre de Partículas (PSO) para optimizar las recomendaciones. Como resultado del proceso LDA, estos generan vectores latentes de temas, que alimentan al modelo LSTM con el fin de que logre predecir la clase del tema de la siguiente palabra en el documento. Con estas salidas, el módulo de recomendación sugiere proyectos basados en los temas descubiertos por el patrocinador.
 
 Finalmente, tanto el modelo propuesto (LSTM-LDA) como los modelos de referencia fueron evaluados con la métrica de exactitud para 300 épocas de entrenamiento. El modelo de los autores RNN-LDA logró la mejor performance, alcanzando una exactitud de aproximadamente 0.96, frente al 0.94 de una red NN-LDA y 0.92 de una red NN.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.82\textwidth]{2/figures/shafqat2019.jpg}
+		\includegraphics[width=0.73\textwidth]{2/figures/shafqat2019.jpg}
 		\caption[Arquitectura del sistema propuesto para predicción de temas y recomendaciones optimizadas]{Arquitectura del sistema propuesto para predicción de temas y recomendaciones optimizadas.\\
-		Fuente: \cite{pr_shafqat2019topicpredictions}}
+		Fuente: \cite{pr_shafqat2019topicpredictions}. \textit{Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms}. (p. 8)}
 		\label{2:fig128}
 	\end{center}
 \end{figure}
@@ -336,21 +340,21 @@ Los autores escogieron la metodología CRISP-DM debido a su flexibilidad y su su
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/fernandez2020_metodologia.jpg}
+		\includegraphics[width=0.70\textwidth]{2/figures/fernandez2020_metodologia.jpg}
 		\caption[Mapas de proyecciones de región de éxito o fracaso generado por K-means]{Mapas de proyecciones de región de éxito o fracaso generado por K-means.\\
-			Fuente: \cite{pr_fernandezblanco2020crowdfunding_empirical}}
+		Fuente: \cite{pr_fernandezblanco2020crowdfunding_empirical}. \textit{Key Factors for Project Crowdfunding Success: An Empirical Study}. (p. 9)}
 		\label{2:fig129}
 	\end{center}
 \end{figure}
 
 \newpage
-De esta manera, finalmente, se logró crear 6 clústers con características definidas cada uno y asignándose un nombre asociado a ellas. Siguiendo el orden ascendente, estos fueron nombrados respectivamente «Agujero ancho», «Colecciones principales», «Patrocinadores comprometidos», «Advertencia», «Agujero profundo» y «Meta épica», donde el tercero fue el mejor del grupo, como se observa en la distribución del éxito por categoría en cada grupo de la Figura \ref{2:fig130}.
+De esta manera, finalmente, se logró crear 6 clústers con características definidas cada uno y asignándose un nombre asociado a ellas. Siguiendo el orden ascendente, estos fueron nombrados respectivamente «Agujero ancho», «Colecciones principales», «Patrocinadores comprometidos», «Advertencia», «Agujero profundo» y «Meta épica», donde el tercero fue el mejor del grupo, como se observa en la Figura \ref{2:fig130}.
 
 \begin{figure}[!ht]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{2/figures/fernandez2020_clusters_categoria.jpg}
 		\caption[Distribución de clústers según ratio de éxito por categoría]{Distribución de clústers según ratio de éxito por categoría.\\
-			Fuente: \cite{pr_fernandezblanco2020crowdfunding_empirical}}
+			Fuente: \cite{pr_fernandezblanco2020crowdfunding_empirical}. \textit{Key Factors for Project Crowdfunding Success: An Empirical Study}. (p. 11)}
 		\label{2:fig130}
 	\end{center}
 \end{figure}

@@ -966,9 +966,9 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	
 	\begin{figure}[htbp]
 		\begin{center}
-			\includegraphics[width=0.50\textwidth]{3/figures/auc_example.jpg}
+			\includegraphics[width=0.55\textwidth]{3/figures/auc_example.jpg}
 			\caption[Descripción de resultados de modelo descriptivo de ejemplo]{Descripción de resultados de modelo descriptivo de ejemplo.\\
-				Fuente: \cite{gl_gonzalez2019auc}}
+				Fuente: \cite{gl_gonzalez2019auc}. \textit{Curvas ROC y Área bajo la curva (AUC)}.}
 			\label{3:fig11}
 		\end{center}
 	\end{figure}
@@ -977,13 +977,19 @@ Explicado los conceptos anteriores, se derivan las siguientes métricas de clasi
 	
 	Cuando el umbral se desplaza hacia la izquierda, es decir, cuando la sensibilidad aumenta, la especificidad disminuirá. Por el contrario, cuando el umbral se desplaza hacia la derecha, la sensibilidad disminuirá y la especificidad aumentará. Se concluye entonces que existe una relación inversa entre la sensibilidad y la especificidad. En la curva ROC se representa la sensitividad (1-especificidad) \parencite{gl_gonzalez2019auc}.
 	
-	Ahora bien, el área que se grafica bajo esta curva explicará qué tan bien funciona el modelo. Este tendrá un mejor desempeño si la curva se aleja de la diagonal principal como se observa en la Figura \ref{3:fig12}.
+	Ahora bien, el área que se grafica bajo esta curva explicará qué tan bien funciona el modelo. Este tendrá un mejor desempeño si la curva se aleja de la diagonal principal como se observa en la Figura \ref{3:fig12} y se calcula con la siguiente fórmula:
+	
+	\begin{equation}\label{eq:auc}
+	\phantomsection
+	P( score(x^{+}) > score(x^{-}) )
+	\end{equation}
+	\myequations{Fórmula para calcular el área bajo la curva ROC}
 	
 	\begin{figure}[htbp]
 		\begin{center}
-			\includegraphics[width=0.75\textwidth]{3/figures/auc_curves.jpg}
+			\includegraphics[width=0.80\textwidth]{3/figures/auc_curves.jpg}
 			\caption[Comparación de tres resultados de la curva AUC en el modelo]{Comparación de tres resultados de la curva AUC en el modelo.\\
-				Fuente: \cite{gl_molina2017pediatria_curvaroc}}
+			Fuente: \cite{gl_molina2017pediatria_curvaroc}. \textit{Pruebas diagnósticas con resultados continuos o politómicos. Curvas ROC}. (p. 4)}
 			\label{3:fig12}
 		\end{center}
 	\end{figure}

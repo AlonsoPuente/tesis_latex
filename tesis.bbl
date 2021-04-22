@@ -307,6 +307,49 @@
       \verb https://docplayer.es/17897069-Customer-analytics-mejorando-la-inteligencia-del-cliente-a-traves-de-los-datos-jordi-conesa-i-caralt-coordinador-nuria-braulio-gil-josep-curto-diaz.html
       \endverb
     \endentry
+    \entry{tec_brinton2020ngrams}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4863f7f39bc2942d0af849b871beeddc}{%
+           family={Brinton},
+           familyi={B\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fee4b6857609acbe1e6be03eb9a8a64}{%
+           family={Inouye},
+           familyi={I\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Purdue}%
+      }
+      \strng{namehash}{0c0b5124e8204bcf0e4e263bfa824d76}
+      \strng{fullhash}{0c0b5124e8204bcf0e4e263bfa824d76}
+      \strng{bibnamehash}{0c0b5124e8204bcf0e4e263bfa824d76}
+      \strng{authorbibnamehash}{0c0b5124e8204bcf0e4e263bfa824d76}
+      \strng{authornamehash}{0c0b5124e8204bcf0e4e263bfa824d76}
+      \strng{authorfullhash}{0c0b5124e8204bcf0e4e263bfa824d76}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python for Data Science: n-grams and basic natural language processing}
+      \field{type}{Reporte técnico}
+      \field{year}{2020}
+      \field{pages}{13}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.cbrinton.net/ECE20875-2020-Spring/W10/ngrams.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cbrinton.net/ECE20875-2020-Spring/W10/ngrams.pdf
+      \endverb
+    \endentry
     \entry{bk_britos2006datamining}{book}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=8591aac07f97318ff8b1e582d8924bb3}{%
@@ -780,6 +823,39 @@
       \endverb
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/8714815
+      \endverb
+    \endentry
+    \entry{cr_perry2012kickstarterproject}{online}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=bf108a23f9fd30dea730dad09348a8f7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Perry},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{organization}{1}{%
+        {Kickstarter}%
+      }
+      \strng{namehash}{bf108a23f9fd30dea730dad09348a8f7}
+      \strng{fullhash}{bf108a23f9fd30dea730dad09348a8f7}
+      \strng{bibnamehash}{bf108a23f9fd30dea730dad09348a8f7}
+      \strng{authorbibnamehash}{bf108a23f9fd30dea730dad09348a8f7}
+      \strng{authornamehash}{bf108a23f9fd30dea730dad09348a8f7}
+      \strng{authorfullhash}{bf108a23f9fd30dea730dad09348a8f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The New Project Page}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://www.kickstarter.com/blog/the-new-project-page
+      \endverb
+      \verb{url}
+      \verb https://www.kickstarter.com/blog/the-new-project-page
       \endverb
     \endentry
     \entry{pr_chen2015predcrowd}{article}{}
@@ -2061,6 +2137,32 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1877050917326832
       \endverb
     \endentry
+    \entry{tec_keras_modeltraining}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fee7bb66f4294c3e32783efa7d9bafc}{%
+           family={{Keras}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{fullhash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{bibnamehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{authorbibnamehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{authornamehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{authorfullhash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Model training APIs}
+      \verb{urlraw}
+      \verb https://keras.io/api/models/model_training_apis/
+      \endverb
+      \verb{url}
+      \verb https://keras.io/api/models/model_training_apis/
+      \endverb
+    \endentry
     \entry{cr_kickstarter_about}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=75b1d293ecc0cbc2e59d27d84f2b74d6}{%
@@ -2216,42 +2318,6 @@
       \endverb
       \verb{url}
       \verb https://www.kickstarter.com/press?ref=hello
-      \endverb
-    \endentry
-    \entry{ot_kickstarter_revopointproject}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=75b1d293ecc0cbc2e59d27d84f2b74d6}{%
-           family={{Kickstarter}},
-           familyi={K\bibinitperiod}}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=34f0db12e274c24111322c9e505ce6f6}{%
-           family={{Revopoint 3D}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
-      \strng{fullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
-      \strng{bibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
-      \strng{authorbibnamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
-      \strng{authornamehash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
-      \strng{authorfullhash}{75b1d293ecc0cbc2e59d27d84f2b74d6}
-      \strng{editorbibnamehash}{34f0db12e274c24111322c9e505ce6f6}
-      \strng{editornamehash}{34f0db12e274c24111322c9e505ce6f6}
-      \strng{editorfullhash}{34f0db12e274c24111322c9e505ce6f6}
-      \field{extraname}{7}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Revopoint POP: Precise 3D Scanner for 3D printing}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://www.kickstarter.com/projects/2125914059/revopoint-pop-high-precision-3d-scanner-for-3d-printing
-      \endverb
-      \verb{url}
-      \verb https://www.kickstarter.com/projects/2125914059/revopoint-pop-high-precision-3d-scanner-for-3d-printing
       \endverb
     \endentry
     \entry{tec_kim2014convolutional}{article}{}
