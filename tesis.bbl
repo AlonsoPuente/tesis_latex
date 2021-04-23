@@ -106,6 +106,37 @@
       \endverb
       \warn{\item Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring}
     \endentry
+    \entry{tec_baheti2020introduction_mdl}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acb1a8bbc36bf2d131015ac20419fe36}{%
+           family={Baheti},
+           familyi={B\bibinitperiod},
+           given={Pragati},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{fullhash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{bibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorbibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authornamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorfullhash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Multimodal Deep Learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+      \verb{url}
+      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+    \endentry
     \entry{tec_banafa2019deeplearning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=93fdd25bde611f22d2efaed3dcad0004}{%
@@ -2763,6 +2794,56 @@
       \endverb
       \verb{url}
       \verb https://repository.upenn.edu/wharton_research_scholars/121/
+      \endverb
+    \endentry
+    \entry{tec_liu2018multideeplearning}{report}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=66c456e57b9efe69ef419c28e6d9e128}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Kuan},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=43df58aac5f93ffb4baf5ea2024abeb7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yanen},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d37b8eddbfa29411e3973fce2cd7773}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6c68ced71af9c98eac31a228222a7ca}{%
+           family={Natarajan},
+           familyi={N\bibinitperiod},
+           given={Prem},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ddbff085facc5a772c934d28522df0e6}
+      \strng{fullhash}{905b2baf997fb1af2e5b64976b49387d}
+      \strng{bibnamehash}{905b2baf997fb1af2e5b64976b49387d}
+      \strng{authorbibnamehash}{905b2baf997fb1af2e5b64976b49387d}
+      \strng{authornamehash}{ddbff085facc5a772c934d28522df0e6}
+      \strng{authorfullhash}{905b2baf997fb1af2e5b64976b49387d}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn to Combine Modalities in Multimodal Deep Learning}
+      \field{type}{Reporte técnico}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/1805.11730.pdf
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/1805.11730.pdf
       \endverb
     \endentry
     \entry{tec_lopez2016cnnTF}{misc}{}
