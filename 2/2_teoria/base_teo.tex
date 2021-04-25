@@ -152,23 +152,53 @@ Según \cite{tec_baheti2020introduction_mdl}, trabajar con modelos multimodales 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/multimodal_deep_learning_example.jpg}
+		\includegraphics[width=0.79\textwidth]{2/figures/multimodal_deep_learning_example.jpg}
 		\caption[Ejemplo de modelo multimodal de señal de electroencefalografía y de ojo]{Ejemplo de modelo multimodal de señal de electroencefalografía y de ojo.\\
 		Fuente: \cite{tec_baheti2020introduction_mdl}. \textit{Introduction to Multimodal Deep Learning}.}
 		\label{2:fig7}
 	\end{center}
 \end{figure}
 
-\cite{tec_brownlee2018stacked_models} afirma que el promedio del modelo puede mejorarse ponderando las contribuciones de cada submodelo a la predicción combinada por el rendimiento esperado del submodelo, el cual se denomina «generalización apilada». Este enfoque presenta 2 niveles:
+\cite{tec_brownlee2018stacked_models} afirma que el promedio del modelo puede mejorarse ponderando las contribuciones de cada submodelo a la predicción combinada por el rendimiento esperado del submodelo, el cual se denomina «generalización apilada». Este enfoque presenta 2 niveles, como se ilustra en la Figura \ref{2:fig81}:
 \begin{itemize}
 	\item Nivel 0: los datos de este nivel son las entradas del conjunto de datos de entrenamiento y sirven para enseñar a predecir a los modelos de este nivel.
-	\item Nivel 1: los datos de este nivel toman las salidas de los modelos del anterior nivel como entrada y enseñan a predecir a los modelos de este nivel.
+	\item Nivel 1: los datos de este nivel toman las salidas de los modelos del anterior nivel como entrada y enseñan a predecir a los modelos de este nivel (\textit{meta-learner} o generalizador).
 \end{itemize}
 
-Dentro de los modelos ensamblados, entre los más comunes destacan 2 tipos:
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.79\textwidth]{2/figures/stacking-ensemble-learning.png}
+		\caption[Ejemplo de aprendizaje ensamblado apilado]{Ejemplo de aprendizaje ensamblado apilado.\\
+			Fuente: \cite{tec_divina2018stackingensemblelearning}. \textit{Stacking Ensemble Learning for Short-Term Electricity Consumption Forecasting}. (p. 7)}
+		\label{2:fig81}
+	\end{center}
+\end{figure}
+
+\newpage
+Dentro de los modelos ensamblados apilados, se pueden utilizar 2 enfoques:
 \begin{itemize}
-	\item \textbf{Modelo de apilamiento separado}: Consiste en crear un conjunto de datos de entrada que resultan de las predicciones ensambladas de otros modelos por separado, los cuales servirán para entrenar un nuevo modelo y poder realizar la predicción. 
-	\item \textbf{Modelo de apilamiento integrado}: Las diferencias con el tipo anterior son el poder utilizar redes neuronales, implementar un modelo multicéfalo compuesto de otros modelos cargados que no necesariamente deben mantener la misma estructura gracias a asignar sus capas como «no entrenables» para evitar actualizar sus pesos antes de generar sus predicciones, y agregar más capas luego de la concatenación de las salidas de cada submodelo para mejorar la performance.
+	\item \textbf{Modelo apilado separado}: Consiste en crear un conjunto de datos de entrada que resultan de las predicciones ensambladas de otros modelos por separado, los cuales servirán para entrenar un nuevo modelo y poder realizar la predicción.
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.79\textwidth]{2/figures/separate_stacked_model.png}
+			\caption[Ejemplo de modelo apilado separado]{Ejemplo de modelo apilado separado.\\
+			Fuente: \cite{tec_cai2017forecast}. \textit{Crop yield predictions - high resolution statistical model for intra-season forecasts applied to corn in the US}. (p. 8)}
+			\label{2:fig82}
+		\end{center}
+	\end{figure}
+	
+	\item \textbf{Modelo apilado integrado}: Las diferencias con el tipo anterior son el poder utilizar redes neuronales, implementar un modelo multicéfalo compuesto de otros modelos cargados que no necesariamente deben mantener la misma estructura gracias a asignar sus capas como «no entrenables» para evitar actualizar sus pesos antes de generar sus predicciones, y los resultados de los submodelos se implementan directamente al generalizador.
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.79\textwidth]{2/figures/integrated_stacked_model.jpg}
+			\caption[Ejemplo de modelo apilado integrado]{Ejemplo de modelo apilado integrado.\\
+				Fuente: \cite{tec_jiang2019ensemblemodel}. \textit{SSEM: A Novel Self-Adaptive Stacking Ensemble Model for Classification}. (p. 2)}
+			\label{2:fig83}
+		\end{center}
+	\end{figure}
+	
 \end{itemize}
 
 Para esta investigación, la propuesta consistió en un modelo de apilamiento integrado compuesto por diferentes modalidades, estructuras y conjuntos de datos de entrenamiento, para aprender a buscar mejor cómo combinar las predicciones de cada submodelo de entrada.
@@ -198,17 +228,6 @@ La Minería de Datos es un campo de la estadística y las ciencias de la computa
 	\item Buscar secuencias.
 	\item Agrupación.
 \end{itemize}
-
-La generación de un modelo de minería de datos forma de un macro-proceso descrita en los siguientes seis pasos representados en la Figura \ref{2:fig8} \parencite{gl_microsoft2019datamining}:
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/data_mining_steps.jpg}
-		\caption[Diagrama de los seis pasos básicos]{Diagrama de los seis pasos básicos.\\
-		Fuente: \cite{gl_microsoft2019datamining}. \textit{Conceptos de minería de datos}.}
-		\label{2:fig8}
-	\end{center}
-\end{figure}
-
 \clearpage
 
 \subsection{Metodologías de Minería de Datos}

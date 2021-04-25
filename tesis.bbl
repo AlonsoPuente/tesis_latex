@@ -72,7 +72,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Tercera edición}
+      \field{edition}{3}
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
@@ -91,20 +91,21 @@
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{12}
       \field{month}{2}
       \field{title}{Avances y limitaciones del emprendimiento peruano}
       \field{year}{2018}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://asep.pe/index.php/avances-limitaciones-emprendimiento-peruano/
       \endverb
       \verb{url}
       \verb https://asep.pe/index.php/avances-limitaciones-emprendimiento-peruano/
       \endverb
-      \warn{\item Entry 'cr_aep2018emprend' (biblio/references.bib): Invalid format '12' of date field 'date' - ignoring}
     \endentry
     \entry{tec_baheti2020introduction_mdl}{online}{}
       \name{author}{1}{}{%
@@ -284,7 +285,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientia et Technica}
-      \field{month}{Abril}
+      \field{month}{4}
       \field{title}{Las Máquinas de Soporte Vectorial (SVMs)}
       \field{year}{2005}
       \verb{urlraw}
@@ -600,6 +601,83 @@
       \endverb
       \verb{url}
       \verb https://towardsdatascience.com/creating-word-embeddings-coding-the-word2vec-algorithm-in-python-using-deep-learning-b337d0ba17a8
+      \endverb
+    \endentry
+    \entry{tec_cai2017forecast}{report}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=661f995cf4900bf9a73313bc2be9a3fb}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Yiqing},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d666bc67969973630ff7ece54daff480}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Kristen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6584ba0f43bf12c37bea0ea8ba242c07}{%
+           family={Pellegrini},
+           familyi={P\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdfc83440e749b66cf632165c3f2ec17}{%
+           family={Elhaddad},
+           familyi={E\bibinitperiod},
+           given={Ayman},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f88ac89f8f4a0a491d8c9476a3d66997}{%
+           family={Lessel},
+           familyi={L\bibinitperiod},
+           given={Jerrod},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0956f272ff9fe2016d86b7de2802e7f}{%
+           family={Townsend},
+           familyi={T\bibinitperiod},
+           given={Christianna},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c345e6d6fadc0e0663c5a67755cf092}{%
+           family={Solak},
+           familyi={S\bibinitperiod},
+           given={Hayley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bff028bc7a4cf3df4c8ad1e437cf3d0}{%
+           family={Semret},
+           familyi={S\bibinitperiod},
+           given={Nemo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7cdb8c663e51c170325ca40575dac27d}
+      \strng{fullhash}{f45e9dffcf278b30617116e722e702b5}
+      \strng{bibnamehash}{f45e9dffcf278b30617116e722e702b5}
+      \strng{authorbibnamehash}{f45e9dffcf278b30617116e722e702b5}
+      \strng{authornamehash}{7cdb8c663e51c170325ca40575dac27d}
+      \strng{authorfullhash}{f45e9dffcf278b30617116e722e702b5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Crop yield predictions - high resolution statistical model for intra-season forecasts applied to corn in the US}
+      \field{type}{Reporte técnico}
+      \field{year}{2017}
+      \field{pages}{46}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/316278341_Crop_yield_predictions_-_high_resolution_statistical_model_for_intra-season_forecasts_applied_to_corn_in_the_US
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/316278341_Crop_yield_predictions_-_high_resolution_statistical_model_for_intra-season_forecasts_applied_to_corn_in_the_US
       \endverb
     \endentry
     \entry{gl_calvo2017clasifrna}{misc}{}
@@ -1081,7 +1159,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Segunda edición}
+      \field{edition}{2}
       \field{title}{Python Machine Learning Cookbook}
       \field{year}{2019}
       \verb{urlraw}
@@ -1211,6 +1289,63 @@
       \field{year}{2018}
       \verb{doi}
       \verb 10.1007/978-981-10-5209-5
+      \endverb
+    \endentry
+    \entry{tec_divina2018stackingensemblelearning}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9dc348c528d83ce8caf8c57f960b7afb}{%
+           family={Divina},
+           familyi={D\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f4166595c19d8dd4fba0e007bbee197}{%
+           family={Gilson},
+           familyi={G\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=005a527dbcaa99e6cff52a2bf11e4ae4}{%
+           family={Gómez-Vela},
+           familyi={G\bibinithyphendelim V\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec9e54fc5fb1ffce277f074f336e7929}{%
+           family={Garcia\bibnamedelima Torres},
+           familyi={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d6bead0d349dec950c15696e41b51f5}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2c1d46497510eb928022c37c11381b6}
+      \strng{fullhash}{1811e8d2eea820672301ad1a959d733b}
+      \strng{bibnamehash}{1811e8d2eea820672301ad1a959d733b}
+      \strng{authorbibnamehash}{1811e8d2eea820672301ad1a959d733b}
+      \strng{authornamehash}{e2c1d46497510eb928022c37c11381b6}
+      \strng{authorfullhash}{1811e8d2eea820672301ad1a959d733b}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energies}
+      \field{month}{4}
+      \field{title}{Stacking Ensemble Learning for Short-Term Electricity Consumption Forecasting}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{pages}{949}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/en11040949
       \endverb
     \endentry
     \entry{pr_dorofki2012ann}{inbook}{}
@@ -1380,7 +1515,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sustainability}
-      \field{month}{Enero}
+      \field{month}{1}
       \field{number}{2}
       \field{title}{Key Factors for Project Crowdfunding Success: An Empirical Study}
       \field{volume}{12}
@@ -1735,7 +1870,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Sexta edición}
+      \field{edition}{6}
       \field{isbn}{978-1-4562-2396-0}
       \field{title}{Metodología de la Investigación}
       \field{year}{2014}
@@ -1963,6 +2098,69 @@
       \endverb
       \verb{url}
       \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
+      \endverb
+    \endentry
+    \entry{tec_jiang2019ensemblemodel}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=54d654fcb1e17c6fa50b36ee654081ad}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Weili},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=118c76248ea663fc6d6a337f1dfb811c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhenhua},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84eda709f5b70c387f1d112403a63519}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a899fb3e082f659c4e4402aeb3583ded}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Dangguo},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=631bdce5289be54717cd74a75f516b25}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5919e334f3637783bbc10ee02870006}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Junpeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{111d3019a0b11ac2e736161c2b33aad4}
+      \strng{fullhash}{94f9483880db7737c60e478f46b022fc}
+      \strng{bibnamehash}{94f9483880db7737c60e478f46b022fc}
+      \strng{authorbibnamehash}{94f9483880db7737c60e478f46b022fc}
+      \strng{authornamehash}{111d3019a0b11ac2e736161c2b33aad4}
+      \strng{authorfullhash}{94f9483880db7737c60e478f46b022fc}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{month}{08}
+      \field{title}{SSEM: A Novel Self-Adaptive Stacking Ensemble Model for Classification}
+      \field{volume}{PP}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2933262
       \endverb
     \endentry
     \entry{pr_jin2019dayssuccess}{article}{}
@@ -2519,7 +2717,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Innovation \& Knowledge}
-      \field{month}{Abril}
+      \field{month}{4}
       \field{title}{Strategies for reward-based crowdfunding campaigns}
       \field{volume}{1}
       \field{year}{2016}
@@ -2995,7 +3193,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Primera edición}
+      \field{edition}{1}
       \field{title}{Data Mining and Knowledge Discovery Handbook}
       \field{year}{2010}
     \endentry
@@ -3720,7 +3918,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Sexta edición}
+      \field{edition}{6}
       \field{title}{A guide to the project management body of knowledge (PMBOK guide)}
       \field{year}{2017}
     \endentry
@@ -3872,7 +4070,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Vigesimotercera edición}
+      \field{edition}{23}
       \field{title}{Diccionario de la lengua española}
       \field{year}{2020}
       \verb{urlraw}
@@ -3898,20 +4096,21 @@
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{11}
       \field{journaltitle}{Diario Gestión}
       \field{month}{3}
       \field{title}{Emprendimiento en el Perú se origina más por oportunidades de negocio que por desempleo}
       \field{year}{2015}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://gestion.pe/economia/emprendimiento-peru-origina-oportunidad-negocio-desempleo-80578
       \endverb
       \verb{url}
       \verb https://gestion.pe/economia/emprendimiento-peru-origina-oportunidad-negocio-desempleo-80578
       \endverb
-      \warn{\item Entry 'cr_gestion2015emprendper' (biblio/references.bib): Invalid format '11' of date field 'date' - ignoring}
     \endentry
     \entry{cr_gestion2018emprend}{periodical}{}
       \name{author}{1}{}{%
@@ -3929,20 +4128,21 @@
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{1}
       \field{journaltitle}{Diario Gestión}
-      \field{month}{Agosto}
+      \field{month}{8}
       \field{title}{Perú es el tercer país con mayor cantidad de emprendimientos en fase temprana a nivel mundial}
       \field{year}{2018}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://gestion.pe/economia/peru-tercer-pais-mayor-cantidad-emprendimientos-fase-temprana-nivel-mundial-240264
       \endverb
       \verb{url}
       \verb https://gestion.pe/economia/peru-tercer-pais-mayor-cantidad-emprendimientos-fase-temprana-nivel-mundial-240264
       \endverb
-      \warn{\item Entry 'cr_gestion2018emprend' (biblio/references.bib): Invalid format '1' of date field 'date' - ignoring}
     \endentry
     \entry{bk_russell2004intart}{book}{}
       \name{author}{2}{}{%
@@ -4023,7 +4223,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Segunda edición}
+      \field{edition}{2}
       \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
       \field{year}{2004}
       \field{pages}{1\bibrangedash 1240}
@@ -4066,7 +4266,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Tercera edición}
+      \field{edition}{3}
       \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
       \field{year}{2009}
       \field{pages}{229}
@@ -4460,7 +4660,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Statistics and Computing}
-      \field{month}{Agosto}
+      \field{month}{8}
       \field{number}{3}
       \field{title}{A tutorial on support vector regression}
       \field{volume}{14}
@@ -4586,7 +4786,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{Reinforcement Learning: An Introduction}
       \field{chapter}{3}
-      \field{edition}{Segunda edición}
+      \field{edition}{2}
       \field{title}{Finite Markov Decision Processes}
       \field{year}{2018}
       \field{pages}{48}
@@ -4613,20 +4813,21 @@
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{day}{9}
       \field{month}{2}
       \field{title}{What are your chances of successfully raising money on Kickstarter?}
       \field{year}{2019}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://thehustle.co/crowdfunding-success-rate
       \endverb
       \verb{url}
       \verb https://thehustle.co/crowdfunding-success-rate
       \endverb
-      \warn{\item Entry 'cr_hustle2019successrate' (biblio/references.bib): Invalid format '9' of date field 'date' - ignoring}
     \endentry
     \entry{cr_tung2019backers}{article}{}
       \name{author}{2}{}{%

@@ -1,5 +1,5 @@
 %\documentclass[a4paper,12pt,twoside]{book}
-\documentclass[listof=nochaptergap,12pt,times]{report}
+\documentclass[listof=nochaptergap,12pt,times,authoryear]{report}
 \usepackage{mathptmx}%This package supersedes times and mathptm
 \usepackage[a4paper,right=2.54cm,left=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
 \usepackage{array}
@@ -42,12 +42,18 @@
 \usepackage[spanish,es-lcroman]{babel}
 \decimalpoint
 %% Citas y bibliografía formato APA
-\usepackage[style=apa ,
-%hyperref=auto,
-%citestyle=authoryear,
-natbib=true,
-backend=biber]{biblatex}
+\usepackage[backend=biber,style=apa,natbib=true]{biblatex}
+%\DeclareLanguageMapping{australian}{australian-apa}
+\DeclareLanguageMapping{spanish}{spanish-apa}
 \addbibresource{biblio/references.bib}
+
+%% Formato DOI
+\DeclareFieldFormat{doi}{%
+	\mkbibacro{doi}\addcolon\space
+	\ifhyperref
+	{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+	{\nolinkurl{#1}}}
+
 %% Convertir comando cita por textcite para que tenga formato APA
 \let\cite\textcite
 
@@ -247,6 +253,10 @@ pdfauthor={autor nombres}]{hyperref}
 \renewcommand{\cfttabaftersnum}{.} % Goes after figure number
 \settowidth\mylength{\cfttabpresnum}
 \addtolength\cfttabnumwidth{\mylength}
+
+%%Formato APA (No funciona en biblatex)
+\usepackage{apalike}
+%\bibliographystyle{apalike}
 
 \begin{document}
 % Se añade esto para agregar la lista de ecuaciones en el indice del documento	

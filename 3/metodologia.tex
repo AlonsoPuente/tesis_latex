@@ -26,25 +26,27 @@ En la Tabla \ref{3:table1} se presenta la operacionalización de variables para 
 	\centering
 	\small
 	\tabularnewline \specialrule{.1em}{.05em}{.05em}
-	VARIABLE & INDICADOR & CÁLCULO
+	VARIABLE & INDICADOR & CÁLCULO/VALORES
 	\\%%[5pt]
 	\specialrule{.1em}{.05em}{.05em}
 	\multirow{2}{5cm}[-2ex]{\centering Estado de financiamiento de un proyecto} & Proyecto exitoso & Monto meta $\leq$ monto contribuido                                                   \\%%[10pt]
 	\cline{2-3} & Proyecto fracasado & Monto meta $>$ monto contribuido \\%%[10pt]
 	\hline
-	\multirow{2}{5cm}[-6ex]{\centering Aprendizaje Profundo Multimodal} & Modelo de Aprendizaje Profundo & \setlist{nolistsep}
+	\multirow{1}{5cm}[2ex]{\centering Aprendizaje Profundo Multimodal} & Modelo de Aprendizaje Profundo & \setlist{nolistsep}
 	\begin{itemize}[label={--},noitemsep,leftmargin=*]
 		\item Perceptrón Multicapa
 		\item Red Neuronal Convolucional
 		\item LSTM Bidireccional
 	\end{itemize} \\
-	\cline{2-3} 
-	& Procesamiento de Lenguaje Natural &
-	\setlist{nolistsep}
-	\begin{itemize}[label={--},noitemsep,leftmargin=*]
-		\item Pre-procesamiento de textos
-		\item Representación de textos en vectores
-	\end{itemize} \\
+	\hline
+	\multirow{2}{5cm}[-6ex]{\centering Método de pre-procesamiento} & Normalización de variable cuantitativa & Variable cuantitativa escalada en rango [0; 1] \\
+	\cline{2-3}
+	 & Procesamiento de Lenguaje Natural &
+	 \setlist{nolistsep}
+	 \begin{itemize}[label={--},noitemsep,leftmargin=*]
+	 	\item Diccionario de palabras.
+	 	\item Incrustaciones de palabras.
+	 \end{itemize} \\
 	\hline
 	\multirow{5}{5cm}{\centering Efectividad del modelo} & Exactitud & $\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}$ \\%%[10pt]
 	\cline{2-3} 
@@ -66,7 +68,7 @@ En la Tabla \ref{3:table1} se presenta la operacionalización de variables para 
 
 El trabajo busca resolver el problema de clasificación del estado final de financiamiento de un proyecto implementando un modelo de Aprendizaje Profundo Multimodal.
 
-Como se explica en la subsección 2.3.3, un proyecto de Kickstarter presenta 5 categorías de acuerdo al logro del objetivo de su meta: exitoso, fracasado, vigente, suspendido y cancelado. Dado que se busca predecir si, a partir de una serie de variables, el proyecto llegará a ser financiado o no, el estudio se delimita a estas 2 clases. Para determinar este valor, y según la política “Todo o Nada” de la plataforma explicado en la subsección 2.3.2, un proyecto es determinado como exitoso cuando el monto contribuido al culminar el tiempo de vida de su campaña logra ser mayor o igual a su meta estimada. De lo contrario, es un proyecto fracasado.
+Como se explica en la subsección 2.3.3, un proyecto de Kickstarter presenta 5 categorías de acuerdo al logro del objetivo de su meta. Dado que se busca predecir si llegará a ser financiado o no, el estudio se delimita a exitoso o fracasado. Para determinar este valor, y según la política “Todo o Nada” de la plataforma explicado en la subsección 2.3.2, un proyecto es determinado como exitoso cuando el monto contribuido al culminar el tiempo de vida de su campaña logra ser mayor o igual a su meta estimada. De lo contrario, es un proyecto fracasado.
 
 El modelo propuesto, alimentado de 3 modalidades independientes presentes en cada campaña de Kickstarter, comprende el ensamblaje de 3 modelos de Aprendizaje Profundo: un modelo Perceptrón Multicapa (MLP), una Red Neuronal Convolucional (CNN) y un modelo LSTM Bidireccional. Para estos 2 últimos, se trabajaron sus datos de entrada con técnicas de Procesamiento de Lenguaje Natural que incluye desde el pre-procesamiento de los textos hasta su conversión en vectores que finalmente fueron entrenados en sus respectivos modelos.
 
@@ -325,7 +327,7 @@ En la primera fase, se definió el problema a partir de comprender el contexto d
 	& Definición de la metodología a implementarse en el estudio.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-		\item Analizar y comparar metodologías de trabajos previos.
+		\item Evaluar metodologías de la literatura.
 		\item Seleccionar metodología a implementar en el trabajo.
 	\end{itemize} 
 	\\
