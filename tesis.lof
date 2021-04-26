@@ -121,23 +121,23 @@
 \contentsline {figure}{\numberline {119}{\ignorespaces Proceso de representación de palabras en vectores codificados}}{146}{figure.caption.161}%
 \contentsline {figure}{\numberline {120}{\ignorespaces Proceso de creación de matriz de incrustaciones de palabras}}{147}{figure.caption.162}%
 \contentsline {figure}{\numberline {121}{\ignorespaces Nube de palabras de comentarios posterior a la limpieza de texto}}{148}{figure.caption.163}%
-\contentsline {figure}{\numberline {122}{\ignorespaces Arquitectura de modelo MLP para la metadata}}{149}{figure.caption.164}%
+\contentsline {figure}{\numberline {122}{\ignorespaces Arquitectura de modelo MLP para la metadata}}{150}{figure.caption.164}%
 \contentsline {figure}{\numberline {123}{\ignorespaces Arquitectura de modelo CNN para las descripciones}}{151}{figure.caption.165}%
 \contentsline {figure}{\numberline {124}{\ignorespaces Arquitectura de modelo RNN para los comentarios}}{153}{figure.caption.166}%
 \contentsline {figure}{\numberline {125}{\ignorespaces Arquitectura del modelo apilado final The Hydra}}{155}{figure.caption.168}%
-\contentsline {figure}{\numberline {126}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{157}{figure.caption.169}%
-\contentsline {figure}{\numberline {127}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{157}{figure.caption.170}%
-\contentsline {figure}{\numberline {128}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{158}{figure.caption.171}%
-\contentsline {figure}{\numberline {129}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{159}{figure.caption.172}%
-\contentsline {figure}{\numberline {130}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas}}{160}{figure.caption.173}%
-\contentsline {figure}{\numberline {131}{\ignorespaces Matriz de confusión para el modelo de metadata}}{161}{figure.caption.174}%
-\contentsline {figure}{\numberline {132}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{162}{figure.caption.176}%
-\contentsline {figure}{\numberline {133}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{163}{figure.caption.177}%
-\contentsline {figure}{\numberline {134}{\ignorespaces Matriz de confusión para el modelo de descripciones}}{163}{figure.caption.178}%
-\contentsline {figure}{\numberline {135}{\ignorespaces Área bajo la curva ROC de modelo de descripciones}}{164}{figure.caption.180}%
-\contentsline {figure}{\numberline {136}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas}}{165}{figure.caption.181}%
-\contentsline {figure}{\numberline {137}{\ignorespaces Matriz de confusión para el modelo de comentarios}}{165}{figure.caption.182}%
-\contentsline {figure}{\numberline {138}{\ignorespaces Área bajo la curva de modelo de comentarios}}{166}{figure.caption.184}%
-\contentsline {figure}{\numberline {139}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas}}{167}{figure.caption.185}%
-\contentsline {figure}{\numberline {140}{\ignorespaces Matriz de confusión para el modelo apilado}}{168}{figure.caption.186}%
-\contentsline {figure}{\numberline {141}{\ignorespaces Área bajo la curva de modelo apilado}}{169}{figure.caption.188}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas}}{157}{figure.caption.169}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Matriz de confusión para el modelo de metadata}}{157}{figure.caption.170}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{159}{figure.caption.172}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{159}{figure.caption.173}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Matriz de confusión para el modelo de descripciones}}{160}{figure.caption.174}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Área bajo la curva ROC de modelo de descripciones}}{161}{figure.caption.176}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas}}{161}{figure.caption.177}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Matriz de confusión para el modelo de comentarios}}{162}{figure.caption.178}%
+\contentsline {figure}{\numberline {134}{\ignorespaces Área bajo la curva de modelo de comentarios}}{163}{figure.caption.180}%
+\contentsline {figure}{\numberline {135}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas}}{164}{figure.caption.181}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Matriz de confusión para el modelo apilado}}{164}{figure.caption.182}%
+\contentsline {figure}{\numberline {137}{\ignorespaces Área bajo la curva de modelo apilado}}{165}{figure.caption.184}%
+\contentsline {figure}{\numberline {138}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{167}{figure.caption.186}%
+\contentsline {figure}{\numberline {139}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{167}{figure.caption.187}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{168}{figure.caption.188}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{168}{figure.caption.189}%

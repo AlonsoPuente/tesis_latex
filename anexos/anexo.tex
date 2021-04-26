@@ -34,46 +34,78 @@
 	
 	\begin{landscape}
 		\section{Matriz de Consistencia}
-		%\chapter*{Matriz de Consistencia}
-		%\addcontentsline{toc}{section}{Matriz de Consistencia}
-		%\renewcommand{\thechapter}{A}
 		\label{anexo3}
-		%\begin{table}[h!]
-			\begin{longtable}{ p{5.5cm}p{5.5cm}p{5.5cm}p{5.5cm} }
-				%\centering
-				\small
-				\tabularnewline \specialrule{.1em}{.05em}{.05em}
-				\Centering{Problemas}& \Centering{Objetivos}& \Centering{Hipótesis}& \Centering{Variable}\\
-				\specialrule{.1em}{.05em}{.05em}
-				\Centering{Problema General}& \Centering{Objetivo General} & \Centering{Hipótesis General}& \\
-				\hline
-				{\ProblemaGeneral} & { \ObjetivoGeneral} & {\HipotesisGeneral} & 
+		\begin{longtable}{ p{4.5cm}p{4.5cm}p{4.5cm}p{4.5cm}p{4.2cm} }
+			%\centering
+			\small
+			\tabularnewline \specialrule{.1em}{.05em}{.05em}
+			\Centering{Problemas}& \Centering{Objetivos}& \Centering{Hipótesis}& \Centering{Variable}& \Centering{Método}
+			\\
+			\specialrule{.1em}{.05em}{.05em}
+			\Centering{Problema General}& \Centering{Objetivo General} & \Centering{Hipótesis General}
+			& \multirow{2}{4.5cm}[3ex]{
+			\setlist{nolistsep}
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+				\item Dependiente: Estado de financiamiento de un proyecto.
+				\item Independiente: Modelo de Aprendizaje Profundo Multimodal.
+			\end{itemize}
+			}
+			& \multirow{2}{4.2cm}[3ex]{
+			\setlist{nolistsep}
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+				\item Tipo de investigación: Diseño Experimental.
+				\item Alcance de la investigación: Descriptivo, porque busca describir las características de un fenómeno.
+			\end{itemize}
+			}
+			\\
+			\cline{1-3}
+			{\ProblemaGeneral} & { \ObjetivoGeneral} & {\HipotesisGeneral} &  & 
+			\\
+			\hline
+			\Centering{Problemas Específicos}& \Centering{Objetivos Específicos} & \Centering{Hipótesis Específicas}
+			& \multirow{2}{4.5cm}[3ex]{
+			\setlist{nolistsep}
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+				\item Dependiente: Metodología de implementación de la solución.
+				\item Independiente: Metodología de antecedente, método de pre-procesamiento.
+			\end{itemize}
+			}
+			& \multirow{2}{4.2cm}[3ex]{
+			\setlist{nolistsep}
+			\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
+				\item Tipo de investigación: Diseño Experimental.
+				\item Alcance de la investigación: Descriptivo, porque busca describir las características de un fenómeno.
+			\end{itemize}
+			}
+			\\
+			\cline{1-3}
+			\vspace{0pt}{\Pbone} & \vspace{0pt}{\Objone} & \vspace{0pt}{\Hone} &  &
+			\\
+			%\hline
+			\vspace{0pt}{\Pbtwo} & \vspace{0pt}{\Objtwo} & \vspace{0pt}{\Htwo} &  &
+			\\
+			%\hline
+			\vspace{0pt}{\Pbthree} & \vspace{0pt}{\Objthree} & \vspace{0pt}{\Hthree}
+			&  \multirow{1}{4.5cm}[3ex]{
 				\setlist{nolistsep}
 				\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-					\item Dependiente: Estado de financiamiento de un proyecto.
-					\item Independiente: Modelo de Aprendizaje Profundo Multimodal.
+					\item Dependiente: Predicción del estado de financiamiento.
+					\item Independiente: Modelo de Deep Learning, efectividad del modelo.
 				\end{itemize}
-				\\
-				\hline
-				\Centering{Problemas Específicos}& \Centering{Objetivos Específicos} & \Centering{Hipótesis Específicas} & \\
-				\hline
-				\vspace{0pt}{\Pbone} & \vspace{0pt}{\Objone} & \vspace{0pt}{\Hone} & 
+			}
+			& \multirow{1}{4.2cm}[3ex]{
 				\setlist{nolistsep}
 				\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
-					\item Dependiente: Estado de financiamiento de un proyecto.
-					\item Independiente: Modelo de Aprendizaje Profundo Multimodal.
+					\item Tipo de investigación: Diseño Experimental.
+					\item Alcance de la investigación: Descriptivo.
 				\end{itemize}
-				\\
-				%\hline
-				\vspace{0pt}{\Pbtwo} & \vspace{0pt}{\Objtwo} & \vspace{0pt}{\Htwo} & \\
-				%\hline
-				\vspace{0pt}{\Pbthree} & \vspace{0pt}{\Objthree} & \vspace{0pt}{\Hthree} & \\
-				%\hline
-				\vspace{0pt}{\Pbfour} & \vspace{0pt}{\Objfour} & \vspace{0pt}{\Hfour} & \\
-				\specialrule{.1em}{.05em}{.05em}
-			\end{longtable}
-			%\caption{Fuente: Elaboración propia}
-		%\end{table}
+			}
+			\\
+			%\hline
+			\vspace{0pt}{\Pbfour} & \vspace{0pt}{\Objfour} & \vspace{0pt}{\Hfour} &  &
+			\\
+			\specialrule{.1em}{.05em}{.05em}
+		\end{longtable}
 	\end{landscape}
 	\clearpage
 	
@@ -330,6 +362,157 @@
 	\begin{landscape}
 		\section{Comparación de objetivos específicos de antecedentes}
 		\label{anexo5}
+		\begin{longtable}{M{1cm}m{2.8cm}m{2.8cm}m{4.4cm}m{4cm}m{6cm}M{1cm}}
+			\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
+			%\scriptsize
+			\footnotesize
+			\centering
+			\tabularnewline \specialrule{.1em}{.05em}{.05em}
+			\centering Año & \centering Autor & \centering Publicación & \centering Título de la Investigación & \centering Objetivo General & \centering Objetivos Específicos & \centering Item
+			\\%%[5pt]
+			\tabularnewline \specialrule{.1em}{.05em}{.05em}
+			\multirow{3}{1cm}[-9ex]{\centering 2013} & \multirow{3}{2.8cm}[-9ex]{Chen, Jones, Kim, Schlamp} & \multirow{3}{2.8cm}[-9ex]{Reporte técnico} & \multirow{3}{4.4cm}[-9ex]{KickPredict: Predicting Kickstarter Success} & \multirow{3}{4cm}[-3ex]{Desarrollar un sistema para predecir si un proyecto de Kickstarter será financiado exitosamente o no antes de su culminación.} & {Desarrollar aplicaciones en Android y Google Chrome para predecir en tiempo real el estado de financiamiento y el porcentaje.} & {OE4}
+			\\%%[10pt]
+			\cline{6-7}
+			 &  &  &  &  & {Analizar las características más importantes que influyen en el éxito de financiamiento a partir de las propiedades de los proyectos.} & {OE3}
+			\\%%[10pt]
+			\cline{6-7}
+			 &  &  &  &  & {Estudiar el impacto de contribuciones durante el transcurso de la campaña en el estado de financiamiento.} & 
+			\\
+			\hline
+			\multirow{2}{1cm}[-4ex]{\centering 2014} & \multirow{2}{2.8cm}[-4ex]{Mitra, Gilbert} & \multirow{2}{2.8cm}[-4ex]{Acta de conferencia} & \multirow{2}{4.4cm}[-1ex]{The Language that Gets People to Give: Phrases that Predict Success on Kickstarter} & \multirow{2}{4cm}[1ex]{Determinar los factores que conducen a financiar con éxito un proyecto de crowdfunding.} & {Desarrollar frases predictivas junto con variables de control para ayudar a posteriores estudios y creadores de proyectos.} & {OE4}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Evaluar el impacto del uso de ciertas frases de la descripción en el éxito de financiamiento.} & {OE3}
+			\\
+			\hline
+			\multirow{2}{1cm}[-4ex]{\centering 2015} & \multirow{2}{2.8cm}[-2ex]{Zhou, Zhang, Wang, Du, Qiao, Fan} & \multirow{2}{2.8cm}[-4ex]{Acta de conferencia} & \multirow{2}{4.4cm}[2ex]{Money Talks: A Predictive Model on Crowdfunding Success Using Project Description} & \multirow{2}{4cm}[3ex]{Estudiar la influencia de las descripciones de proyectos en el éxito de financiamiento de proyectos crowdfunding.} & {Examinar el impacto de la calidad argumentativa y fuente de credibilidad de la descripción de un proyecto en su performance durante la campaña.} & {OE3}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Evaluar e implementar características previamente consideradas en trabajos previos.} & {OE1}
+			\\
+			\hline
+			\multirow{3}{1cm}[-3ex]{\centering 2015} & \multirow{3}{2.8cm}[-3ex]{Chen, Chen, Chen, Yang, Lin, Wei} & \multirow{3}{2.8cm}[-3ex]{Acta de conferencia} & \multirow{3}{4.4cm}[0ex]{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns} & \multirow{3}{4cm}[3ex]{Predecir si una campaña de crowdfunding tendrá éxito a través de extracción y posterior uso de características estáticas y dinámicas.} & {Analizar relación entre exactitud del modelo y el uso de características dinámicas y/o estáticas.} & {OE3}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Evaluar efectividad de predicción en distintas etapas de campaña.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Evaluar características estáticas y dinámicas de trabajos previos.} & {OE1}
+			\\
+			\hline
+			\multirow{2}{1cm}[-5ex]{\centering 2016} & \multirow{2}{2.8cm}[-5ex]{Beckwith} & \multirow{2}{2.8cm}[-5ex]{Tesis de grado} & \multirow{2}{4.4cm}[-5ex]{Predicting Success in Equity Crowdfunding} & \multirow{2}{4cm}[5ex]{Determinar la relación entre las características de una empresa y su capacidad para recaudar fondos en una plataforma de crowdfunding de capital.} & {Demostrar la relación entre la probabilidad de éxito de crowdfunding de una compañía y su historial previo de financiamiento.} & {}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Predecir el éxito de financiamiento de una compañía con precisión, sensibilidad y puntaje F1 mayor a la literatura.} & {}
+			\\
+			\hline
+			\multirow{2}{1cm}[-5ex]{\centering 2016} & \multirow{2}{2.8cm}[-5ex]{Li, Rakesh, Reddy} & \multirow{2}{2.8cm}[-5ex]{Acta de conferencia} & \multirow{2}{4.4cm}[-1ex]{Project Success Prediction in Crowdfunding Environments} & \multirow{2}{4cm}[3ex]{Formular la predicción del éxito del proyecto como un problema de análisis de supervivencia y aplicar el enfoque de regresión censurada.} & {Estudiar la distribución del tiempo de éxito del proyecto de los datos de crowdfunding.} & {}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Demostrar que el desempeño de los modelos con proyectos exitosos y fracasados es mejor que aquellos que solo comprenden exitosos.} & {}
+			\\
+			\hline
+			\multirow{3}{1cm}[-9ex]{\centering 2016} & \multirow{3}{2.8cm}[-9ex]{Yuan, Lau, Xu} & \multirow{3}{2.8cm}[-9ex]{Artículo} & \multirow{3}{4.4cm}[-7ex]{The Determinants of Crowdfunding Success: A Semantic Text Analytics Approach} & \multirow{3}{4cm}[-3ex]{Implementar un marco de análisis textual para analizar y predecir el éxito de recaudación de proyectos de crowdfunding.} & {Identificar las características de temas a partir de las descripciones.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Identificar las características discriminatorias que influyen en el éxito de financiamiento de proyectos.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Ayudar a emprendedores a identificar las características textuales más influyentes que afectan los resultados de la recaudación de fondos.} & {OE4}
+			\\
+			\hline
+			\multirow{2}{1cm}[-3ex]{\centering 2016} & \multirow{2}{2.8cm}[-3ex]{Sawhney, Tran, Tuason} & \multirow{2}{2.8cm}[-3ex]{Reporte técnico} & \multirow{2}{4.4cm}[-1ex]{Using Language to Predict Kickstarter Success} & \multirow{2}{4cm}[4ex]{Predecir el éxito de una campaña a partir de su contenido, características lingüísticas y metainformación.} & {Estudiar relación entre información inicial de campaña (sin incluir variables del tiempo o externas) y estado de financiamiento.} & {}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Analizar el impacto de características y variables utilizadas en el rendimiento de trabajos previos.} & {OE1}
+			\\
+			\hline
+			\multirow{3}{1cm}[-6ex]{\centering 2017} & \multirow{3}{2.8cm}[-6ex]{Kaur, Gera} & \multirow{3}{2.8cm}[-6ex]{Artículo} & \multirow{3}{4.4cm}[-3ex]{Effect of Social Media Connectivity on Success of Crowdfunding Campaigns} & \multirow{3}{4cm}[-2ex]{Analizar la relación entre la conectividad de las redes sociales y el desempeño de una campaña de crowdfunding.} & {Evaluar la correlación entre variables de conectividad y variables principales de la campaña.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Examinar el impacto de variables principales de la en el desempeño del modelo predictivo.} & {OE3}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Examinar el impacto de variables de conectividad en el desempeño del modelo predictivo.} & {OE3}
+			\\
+			\hline
+			\multirow{3}{1cm}[-6ex]{\centering 2018} & \multirow{3}{2.8cm}[-6ex]{Kamath, Kamat} & \multirow{3}{2.8cm}[-6ex]{Artículo} & \multirow{3}{4.4cm}[-4ex]{Supervised Learning Model For Kickstarter Campaigns With R Mining} & \multirow{3}{4cm}[2ex]{Implementar un sistema con técnicas de Aprendizaje Automático aplicadas al conjunto de datos de campañas de Kickstarter para clasificar proyectos.} & {Evaluar el entorno técnico para el desarrollo de fases de metodología.} & {OE2}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Analizar propuestas de la literatura para el diseño del marco de trabajo de la investigación.} & {OE1}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Determinar el impacto de las propiedades del proyecto para predecir su éxito de financiamiento.} & {OE3}
+			\\
+			\hline
+			\multirow{3}{1cm}[-3ex]{\centering 2018} & \multirow{3}{2.8cm}[-3ex]{Yu, Huang, Yang, Liu, Li, Tsai} & \multirow{3}{2.8cm}[-3ex]{Acta de conferencia} & \multirow{3}{4.4cm}[-1ex]{Prediction of Crowdfunding Project Success with Deep Learning} & \multirow{3}{4cm}[1ex]{Desarrollar un modelo de Aprendizaje Profundo para predecir el éxito de un proyecto de crowdfunding.} & {Analizar alternativas de algoritmos de Aprendizaje Automático con conjunto de datos utilizado.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Evaluar el rendimiento del modelo desarrollado utilizando solamente la metainformación.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Implementar modelo más rápido, preciso y eficiente de recursos que línea base.} & {}
+			\\
+			\hline
+			\multirow{2}{1cm}[-5ex]{\centering 2018} & \multirow{2}{2.8cm}[-5ex]{Lee, Lee, Kim} & \multirow{2}{2.8cm}[-5ex]{Acta de conferencia} & \multirow{2}{4.4cm}[0ex]{Content-based Success Prediction of Crowdfunding Campaigns: A Deep Learning Approach} & \multirow{2}{4cm}[3.5ex]{Predecir el estado de financiamiento de proyectos de tecnología con DNN utilizando solo el contenido textual de los proyectos.} & {Alcanzar nivel de rendimiento del estado del arte de por lo menos 89-91\% de exactitud.} & {}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Estimar valor de variable dependiente en cualquier momento de la campaña con modelo adaptado a nuevos datos.} & {}
+			\\
+			\hline
+			\multirow{3}{1cm}[-8ex]{\centering 2019} & \multirow{3}{2.8cm}[-8ex]{Jin, Zhao, Chen, Liu, Ge} & \multirow{3}{2.8cm}[-8ex]{Acta de conferencia} & \multirow{3}{4.4cm}[-6ex]{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective} & \multirow{3}{4cm}[-2ex]{Predecir la distribución de promesas y la duración para lograr el éxito de financiamiento implementando un modelo Seq2seq con arquitectura SMP.} & {Identificar la distribución de las contribuciones de acuerdo a la evolución del tiempo (días) de la campaña.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Identificar el tiempo correcto de duración que debe tener la campaña a partir del análisis de supervivencia.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Ayudar a los creadores de proyectos a identificar características relevantes para lograr alcanzar el financiamiento exitoso de sus proyectos.} & {OE4}
+			\\
+			\hline
+			\multirow{3}{1cm}[-4ex]{\centering 2019} & \multirow{3}{2.8cm}[-4ex]{Cheng, Tan, Hou, Wei} & \multirow{3}{2.8cm}[-4ex]{Acta de conferencia} & \multirow{3}{4.4cm}[-2ex]{Success Prediction on Crowdfunding with Multimodal Deep Learning} & \multirow{3}{4cm}[4.5ex]{Estudiar la influencia de interacciones sofisticadas entre modalidades textuales, visuales y metainformación en la predicción de éxito de proyectos.} & {Investigar esquemas de fusión con diferentes modalidades y evaluar arquitectura multimodal en el conjunto de datos de crowdfunding.} & {OE1}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Investigar la contribución de imágenes al éxito del proyecto.} & {OE3}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Analizar impacto de la predicción temprana en los resultados.} & {OE4}
+			\\
+			\hline
+			\multirow{2}{1cm}[-6ex]{\centering 2019} & \multirow{2}{2.8cm}[-6ex]{Chen, Shen} & \multirow{2}{2.8cm}[-6ex]{Acta de conferencia} & \multirow{2}{4.4cm}[-4ex]{Finding the Keywords Affecting the Success of Crowdfunding Projects} & \multirow{2}{4cm}[3.5ex]{Analizar el impacto del contenido textual en un proyecto de Kickstarter a partir del análisis de sus palabras clave que determinen el éxito de financiamiento.} & {Analizar alternativas de clasificación a partir de distinta selección de características en trabajos previos.} & {OE1}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Ayudar a emprendedores a incrementar sus chances de éxito de financiamiento a partir del uso de modelo propuesto.} & {OE4}
+			\\
+			\hline
+			\multirow{2}{1cm}[-7ex]{\centering 2019} & \multirow{2}{2.8cm}[-7ex]{Chaichi, Anderson} & \multirow{2}{2.8cm}[-7ex]{Acta de conferencia} & \multirow{2}{4.4cm}[3.5ex]{Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter} & \multirow{2}{4cm}[2ex]{Implementar la extracción de características clave del producto a partir de la información textual de la campaña de crowdfunding.} & {Analizar el efecto de características clave de campañas en proceso de toma de decisión de patrocinadores.} & {}
+			\\
+			\cline{6-7}
+			&  &  &  &  & {Evaluar el rendimiento de técnicas de extracción de palabras clave en la selección de características a partir de textos de campañas de impresoras 3D en Kickstarter.} & {OE1}
+			\\
+			\hline
+			\multirow{4}{1cm}[-11ex]{\centering 2019} & \multirow{4}{2.8cm}[-11ex]{Shafqat, Byun} & \multirow{4}{2.8cm}[-11ex]{Artículo} & \multirow{4}{4.4cm}[-6ex]{Topic Predictions and Optimized Recommendation Mechanism Based on Integrated Topic Modeling and Deep Neural Networks in Crowdfunding Platforms} & \multirow{3}{4cm}[-7ex]{Desarrollar un sistema integrado de recomendación de proyectos de crowdfunding a partir del análisis textual de sus comentarios.} & {Identificar potenciales proyectos fraudulentos analizando tendencias de discusión en los comentarios.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Ayudar a encontrar proyectos seguros a inversores a partir de sistema de recomendación.} & {OE4}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Diseñar proceso de arquitectura integrada de modelos de recomendación y de predicción de tendencia de temas de comentarios.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Evaluar ambiente de implementación y experimentación de modelos propuestos.} & {OE2}
+			\\
+			\hline
+			\multirow{3}{1cm}[-9ex]{\centering 2020} & \multirow{3}{2.8cm}[-2ex]{Fernández-Blanco, Villanueva-Balsera, Rodriguez-Montequin, Moran-Palacios} & \multirow{3}{2.8cm}[-9ex]{Artículo} & \multirow{3}{4.4cm}[-9ex]{Key Factors for Project Crowdfunding Success: An Empirical Study} & \multirow{3}{4cm}[-2ex]{Identificar atributos de proyectos financiados exitosamente y definir estereotipos de comportamiento que puedan estar asociados a nuevos proyectos.} & {Determinar la relación entre la distribución de variables entre clústers.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Estimar qué grupo potencial desarrollado sería el resultado de un nuevo proyecto.} & {}
+			\\%%[10pt]
+			\cline{6-7}
+			&  &  &  &  & {Ayudar al creador a definir una estrategia o reorientar un proyecto para llevarlo al éxito, en función de su posición en el sistema.} & {OE4}
+			\\
+			\specialrule{.1em}{.05em}{.05em}
+		\end{longtable}
 	\end{landscape}
 	
 	\clearpage

@@ -656,12 +656,12 @@ Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizada
 	\end{itemize}
 	\\
 	\hline
-	Desarrollar modelo predictivo ensamblado.
+	Desarrollar modelo ensamblado apilado.
 	& Implementación del modelo de Aprendizaje Profundo Multimodal.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
 		\item Realizar benchmarking de modalidades utilizadas en trabajos previos.
-		\item Diseñar arquitectura del modelo predictivo ensamblado.
+		\item Diseñar arquitectura del modelo ensamblado apilado.
 	\end{itemize}
 	\\
 	\specialrule{.1em}{.05em}{.05em}
@@ -729,7 +729,7 @@ En una primera instancia, se planeó considerar desarrollar un modelo LDA tenien
 
 \textbf{Entregable}: Modelo LSTM Bidireccional para modalidad Comentarios.
 
-\textbf{Actividad 4: Desarrollar modelo predictivo ensamblado}
+\textbf{Actividad 4: Desarrollar modelo ensamblado apilado}
 \\
 En esta actividad, los modelos desarrollados por cada modalidad se ensamblaron luego de ajustarse sus hiperparámetros a partir de los mejores resultados obtenidos. La apilación consistió en cargar cada uno simultáneamente, y unir las predicciones de salida en una nueva capa. Debido a esta acción, para entrenar el modelo de Aprendizaje Profundo Multimodal desarrollado se necesitó unir en una lista los datos de entrada utilizados para las 3 modalidades, ya que estos ingresan en simultáneo.
 
@@ -783,7 +783,7 @@ Esta fase comprende la evaluación de los modelos desarrollados en la investigac
 	\end{itemize}
 	\\
 	\hline
-	Evaluar el modelo predictivo ensamblado.
+	Evaluar el modelo ensamblado apilado.
 	& Evaluación del desempeño del modelo de Aprendizaje Profundo Multimodal.
 	& \setlist{nolistsep}
 	\begin{itemize}[label={--},nosep,noitemsep,leftmargin=*,topsep=0pt,partopsep=0pt]
@@ -819,7 +819,7 @@ Repitiendo el proceso para la modalidad de Descripción, para obtener los mejore
 
 \textbf{Entregable}: Resultados de métricas de clasificación para modelo de Comentarios.
 
-\textbf{Actividad 4: Evaluar desempeño del modelo predictivo ensamblado}
+\textbf{Actividad 4: Evaluar desempeño del modelo ensamblado apilado}
 \\
 Finalmente, en esta actividad se entrenó el modelo ensamblado por las 3 modalidades que comprende el trabajo. Para determinar los mejores hiperparámetros, también se ejecutaron entre 3 y 5 experimentos siguiendo las metodologías anteriores. Para el modelo propuesto, se utilizó un acelerador GPU ya que fue entrenado con modelos pre-entrenados que solo requirió unir sus datos de entrada para esta acción. Para concluir la actividad, se calcularon los valores de las 5 métricas por el cual fue evaluado a partir de su matriz de confusión.
 

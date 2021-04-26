@@ -60,26 +60,21 @@
 \contentsline {section}{\numberline {4.1}Comprensión del negocio}{125}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Comprensión de los datos}{126}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Preparación de los datos}{143}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modelamiento}{148}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación}{156}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue}{156}{section.4.6}%
-\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{160}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metainformación}{160}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Descripción}{162}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Comentarios}{164}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Modelo apilado}{167}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Comparación de resultados}{168}{section.5.5}%
-\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{171}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{171}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{172}{section.6.2}%
-\contentsline {chapter}{REFERENCIAS}{174}{chapter*.190}%
-\contentsline {chapter}{ANEXOS}{184}{section*.191}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{185}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{186}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{187}{section.Alph0.3}%
-\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{189}{section.Alph0.4}%
-\contentsline {section}{\numberline {E}Comparación de objetivos específicos de antecedentes}{193}{section.Alph0.5}%
-\contentsline {section}{\numberline {F}Parámetros para modelo predictivo de Metainformación}{194}{section.Alph0.6}%
-\contentsline {section}{\numberline {G}Parámetros para modelo predictivo de Descripción}{195}{section.Alph0.7}%
-\contentsline {section}{\numberline {H}Parámetros para modelo predictivo de Comentarios}{196}{section.Alph0.8}%
-\contentsline {section}{\numberline {I}Parámetros para modelo de Aprendizaje Profundo Multimodal}{197}{section.Alph0.9}%
+\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{149}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelamiento}{149}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Evaluación}{156}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Despliegue}{166}{section.5.3}%
+\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{169}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{169}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{171}{section.6.2}%
+\contentsline {chapter}{REFERENCIAS}{172}{chapter*.190}%
+\contentsline {chapter}{ANEXOS}{182}{section*.191}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{183}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{184}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{185}{section.Alph0.3}%
+\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{187}{section.Alph0.4}%
+\contentsline {section}{\numberline {E}Comparación de objetivos específicos de antecedentes}{191}{section.Alph0.5}%
+\contentsline {section}{\numberline {F}Parámetros para modelo predictivo de Metainformación}{198}{section.Alph0.6}%
+\contentsline {section}{\numberline {G}Parámetros para modelo predictivo de Descripción}{199}{section.Alph0.7}%
+\contentsline {section}{\numberline {H}Parámetros para modelo predictivo de Comentarios}{200}{section.Alph0.8}%
+\contentsline {section}{\numberline {I}Parámetros para modelo de Aprendizaje Profundo Multimodal}{201}{section.Alph0.9}%
