@@ -127,7 +127,7 @@
 \contentsline {figure}{\numberline {125}{\ignorespaces Arquitectura del modelo apilado final The Hydra}}{155}{figure.caption.168}%
 \contentsline {figure}{\numberline {126}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas}}{157}{figure.caption.169}%
 \contentsline {figure}{\numberline {127}{\ignorespaces Matriz de confusión para el modelo de metadata}}{157}{figure.caption.170}%
-\contentsline {figure}{\numberline {128}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{159}{figure.caption.172}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{158}{figure.caption.172}%
 \contentsline {figure}{\numberline {129}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{159}{figure.caption.173}%
 \contentsline {figure}{\numberline {130}{\ignorespaces Matriz de confusión para el modelo de descripciones}}{160}{figure.caption.174}%
 \contentsline {figure}{\numberline {131}{\ignorespaces Área bajo la curva ROC de modelo de descripciones}}{161}{figure.caption.176}%
@@ -138,6 +138,6 @@
 \contentsline {figure}{\numberline {136}{\ignorespaces Matriz de confusión para el modelo apilado}}{164}{figure.caption.182}%
 \contentsline {figure}{\numberline {137}{\ignorespaces Área bajo la curva de modelo apilado}}{165}{figure.caption.184}%
 \contentsline {figure}{\numberline {138}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{167}{figure.caption.186}%
-\contentsline {figure}{\numberline {139}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{167}{figure.caption.187}%
-\contentsline {figure}{\numberline {140}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{168}{figure.caption.188}%
-\contentsline {figure}{\numberline {141}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{168}{figure.caption.189}%
+\contentsline {figure}{\numberline {139}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{168}{figure.caption.187}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{169}{figure.caption.188}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{169}{figure.caption.189}%

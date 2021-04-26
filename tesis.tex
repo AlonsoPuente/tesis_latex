@@ -49,10 +49,10 @@
 
 %% Formato DOI
 \DeclareFieldFormat{doi}{%
-	\mkbibacro{doi}\addcolon\space
+	doi\addcolon\space
 	\ifhyperref
-	{\href{https://doi.org/#1}{\nolinkurl{#1}}}
-	{\nolinkurl{#1}}}
+	{\lowercase{\href{https://doi.org/#1}{\nolinkurl{#1}}}}
+	{\lowercase{\nolinkurl{#1}}}}
 
 %% Convertir comando cita por textcite para que tenga formato APA
 \let\cite\textcite

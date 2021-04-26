@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.11)  26 APR 2021 02:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.11)  26 APR 2021 03:35
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2818,7 +2818,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 202--202
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 200--217
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 200--219
  [][] 
  []
 
@@ -2828,112 +2828,109 @@ matrix.png>]
 File: 5/figures/metadata_auc.png Graphic file (type png)
 <use 5/figures/metadata_auc.png>
 Package pdftex.def Info: 5/figures/metadata_auc.png  used on input line 233.
-(pdftex.def)             Requested size: 249.13391pt x 196.11449pt.
-<5/figures/description_model_acc_loss.png, id=2491, 785.5749pt x 284.0211pt>
+(pdftex.def)             Requested size: 253.66112pt x 199.67693pt.
+ [158 <./5/figures/metadata_auc.png>]
+<5/figures/description_model_acc_loss.png, id=2496, 785.5749pt x 284.0211pt>
 File: 5/figures/description_model_acc_loss.png Graphic file (type png)
 <use 5/figures/description_model_acc_loss.png>
 Package pdftex.def Info: 5/figures/description_model_acc_loss.png  used on inpu
 t line 250.
 (pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
-<5/figures/description_confusion_matrix.png, id=2493, 381.5856pt x 298.4751pt>
+<5/figures/description_confusion_matrix.png, id=2498, 381.5856pt x 298.4751pt>
 File: 5/figures/description_confusion_matrix.png Graphic file (type png)
 <use 5/figures/description_confusion_matrix.png>
 Package pdftex.def Info: 5/figures/description_confusion_matrix.png  used on in
 put line 261.
-(pdftex.def)             Requested size: 271.7837pt x 212.5974pt.
+(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
 
 Underfull \hbox (badness 1092) in paragraph at lines 277--277
  []|\OT1/ptm/m/n/10.95 Valor| 
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 275--292
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 275--294
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[158] [159 <./5/figures/metadata_auc.png> <./5/figures/description_model_acc_lo
-ss.png>]
-<5/figures/description_auc.png, id=2507, 417.7206pt x 328.8285pt>
+[159 <./5/figures/description_model_acc_loss.png>]
+<5/figures/description_auc.png, id=2506, 417.7206pt x 328.8285pt>
 File: 5/figures/description_auc.png Graphic file (type png)
 <use 5/figures/description_auc.png>
 Package pdftex.def Info: 5/figures/description_auc.png  used on input line 308.
 
-(pdftex.def)             Requested size: 249.13391pt x 196.11449pt.
+(pdftex.def)             Requested size: 253.66112pt x 199.67693pt.
  [160 <./5/figures/description_confusion_matrix.png>]
-<5/figures/comments_model_acc_loss.png, id=2516, 785.5749pt x 284.0211pt>
+<5/figures/comments_model_acc_loss.png, id=2514, 785.5749pt x 284.0211pt>
 File: 5/figures/comments_model_acc_loss.png Graphic file (type png)
 <use 5/figures/comments_model_acc_loss.png>
 Package pdftex.def Info: 5/figures/comments_model_acc_loss.png  used on input l
-ine 325.
+ine 326.
 (pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
-<5/figures/comments_confusion_matrix.png, id=2518, 381.5856pt x 298.4751pt>
+<5/figures/comments_confusion_matrix.png, id=2516, 381.5856pt x 298.4751pt>
 File: 5/figures/comments_confusion_matrix.png Graphic file (type png)
 <use 5/figures/comments_confusion_matrix.png>
 Package pdftex.def Info: 5/figures/comments_confusion_matrix.png  used on input
- line 335.
-(pdftex.def)             Requested size: 271.7837pt x 212.5974pt.
-
-Underfull \hbox (badness 1092) in paragraph at lines 351--351
+ line 336.
+(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
+ [161 <./5/figures/description_auc.png> <./5/figures/comments_model_acc_loss.pn
+g>]
+Underfull \hbox (badness 1092) in paragraph at lines 352--352
  []|\OT1/ptm/m/n/10.95 Valor| 
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 349--366
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 350--369
+ [][] 
+ []
+
+[162 <./5/figures/comments_confusion_matrix.png>]
+<5/figures/comments_auc.png, id=2531, 417.7206pt x 328.8285pt>
+File: 5/figures/comments_auc.png Graphic file (type png)
+<use 5/figures/comments_auc.png>
+Package pdftex.def Info: 5/figures/comments_auc.png  used on input line 383.
+(pdftex.def)             Requested size: 258.19522pt x 203.24939pt.
+<5/figures/stacked_model_acc_loss.png, id=2534, 785.5749pt x 284.0211pt>
+File: 5/figures/stacked_model_acc_loss.png Graphic file (type png)
+<use 5/figures/stacked_model_acc_loss.png>
+Package pdftex.def Info: 5/figures/stacked_model_acc_loss.png  used on input li
+ne 401.
+(pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
+ [163 <./5/figures/comments_auc.png>]
+<5/figures/stacked_confusion_matrix.png, id=2541, 381.5856pt x 298.4751pt>
+File: 5/figures/stacked_confusion_matrix.png Graphic file (type png)
+<use 5/figures/stacked_confusion_matrix.png>
+Package pdftex.def Info: 5/figures/stacked_confusion_matrix.png  used on input 
+line 412.
+(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
+
+Underfull \hbox (badness 1092) in paragraph at lines 428--428
+ []|\OT1/ptm/m/n/10.95 Valor| 
+ []
+
+
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 426--443
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[161 <./5/figures/description_auc.png> <./5/figures/comments_model_acc_loss.png
->]
-<5/figures/comments_auc.png, id=2528, 417.7206pt x 328.8285pt>
-File: 5/figures/comments_auc.png Graphic file (type png)
-<use 5/figures/comments_auc.png>
-Package pdftex.def Info: 5/figures/comments_auc.png  used on input line 382.
-(pdftex.def)             Requested size: 249.13391pt x 196.11449pt.
- [162 <./5/figures/comments_confusion_matrix.png>]
-<5/figures/stacked_model_acc_loss.png, id=2536, 785.5749pt x 284.0211pt>
-File: 5/figures/stacked_model_acc_loss.png Graphic file (type png)
-<use 5/figures/stacked_model_acc_loss.png>
-Package pdftex.def Info: 5/figures/stacked_model_acc_loss.png  used on input li
-ne 399.
-(pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
-<5/figures/stacked_confusion_matrix.png, id=2538, 381.5856pt x 298.4751pt>
-File: 5/figures/stacked_confusion_matrix.png Graphic file (type png)
-<use 5/figures/stacked_confusion_matrix.png>
-Package pdftex.def Info: 5/figures/stacked_confusion_matrix.png  used on input 
-line 409.
-(pdftex.def)             Requested size: 249.13391pt x 194.87184pt.
-
-Underfull \hbox (badness 1092) in paragraph at lines 425--425
- []|\OT1/ptm/m/n/10.95 Valor| 
- []
-
-
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 423--440
- [][] 
- []
-
-[163 <./5/figures/comments_auc.png>] [164 <./5/figures/stacked_model_acc_loss.p
-ng> <./5/figures/stacked_confusion_matrix.png>]
-<5/figures/stacked_auc.png, id=2552, 417.7206pt x 328.8285pt>
+[164 <./5/figures/stacked_model_acc_loss.png> <./5/figures/stacked_confusion_ma
+trix.png>]
+<5/figures/stacked_auc.png, id=2550, 417.7206pt x 328.8285pt>
 File: 5/figures/stacked_auc.png Graphic file (type png)
 <use 5/figures/stacked_auc.png>
-Package pdftex.def Info: 5/figures/stacked_auc.png  used on input line 456.
-(pdftex.def)             Requested size: 226.48413pt x 178.28726pt.
+Package pdftex.def Info: 5/figures/stacked_auc.png  used on input line 459.
+(pdftex.def)             Requested size: 258.19522pt x 203.24939pt.
  [165 <./5/figures/stacked_auc.png>] [166]
 <4/figures/prototipo_input_project1.jpg, id=2570, 754.017pt x 109.00725pt>
 File: 4/figures/prototipo_input_project1.jpg Graphic file (type jpg)
 <use 4/figures/prototipo_input_project1.jpg>
 Package pdftex.def Info: 4/figures/prototipo_input_project1.jpg  used on input 
-line 514.
+line 519.
 (pdftex.def)             Requested size: 498.26784pt x 72.0348pt.
 
-Overfull \hbox (45.29958pt too wide) in paragraph at lines 514--516
+Overfull \hbox (45.29958pt too wide) in paragraph at lines 519--521
  [] 
  []
 
@@ -2941,42 +2938,42 @@ Overfull \hbox (45.29958pt too wide) in paragraph at lines 514--516
 File: 4/figures/example_project_150221.jpg Graphic file (type jpg)
 <use 4/figures/example_project_150221.jpg>
 Package pdftex.def Info: 4/figures/example_project_150221.jpg  used on input li
-ne 525.
+ne 530.
 (pdftex.def)             Requested size: 452.96826pt x 254.11061pt.
-[167 <./4/figures/prototipo_input_project1.jpg> <./4/figures/example_project_15
-0221.jpg>]
+[167 <./4/figures/prototipo_input_project1.jpg>]
 <4/figures/metadata_scraped_project.jpg, id=2579, 335.45325pt x 93.951pt>
 File: 4/figures/metadata_scraped_project.jpg Graphic file (type jpg)
 <use 4/figures/metadata_scraped_project.jpg>
 Package pdftex.def Info: 4/figures/metadata_scraped_project.jpg  used on input 
-line 541.
+line 546.
 (pdftex.def)             Requested size: 339.7262pt x 95.15067pt.
 <4/figures/description_scraped_project.jpg, id=2580, 746.18774pt x 510.10574pt>
 
 File: 4/figures/description_scraped_project.jpg Graphic file (type jpg)
 <use 4/figures/description_scraped_project.jpg>
 Package pdftex.def Info: 4/figures/description_scraped_project.jpg  used on inp
-ut line 546.
+ut line 551.
 (pdftex.def)             Requested size: 215.15923pt x 147.08624pt.
 <4/figures/comments_scraped_project.jpg, id=2581, 752.8125pt x 254.1495pt>
 File: 4/figures/comments_scraped_project.jpg Graphic file (type jpg)
 <use 4/figures/comments_scraped_project.jpg>
 Package pdftex.def Info: 4/figures/comments_scraped_project.jpg  used on input 
-line 551.
+line 556.
 (pdftex.def)             Requested size: 215.15923pt x 72.63889pt.
-<4/figures/demo_project_prediction.jpg, id=2583, 323.40825pt x 33.12375pt>
+ [168 <./4/figures/example_project_150221.jpg>]
+<4/figures/demo_project_prediction.jpg, id=2587, 323.40825pt x 33.12375pt>
 File: 4/figures/demo_project_prediction.jpg Graphic file (type jpg)
 <use 4/figures/demo_project_prediction.jpg>
 Package pdftex.def Info: 4/figures/demo_project_prediction.jpg  used on input l
-ine 563.
+ine 569.
 (pdftex.def)             Requested size: 317.0764pt x 32.47519pt.
-) (6/conclusion.tex [168 <./4/figures/metadata_scraped_project.jpg> <./4/figure
+) (6/conclusion.tex [169 <./4/figures/metadata_scraped_project.jpg> <./4/figure
 s/description_scraped_project.jpg> <./4/figures/comments_scraped_project.jpg> <
 ./4/figures/demo_project_prediction.jpg>]
 Cap\'{\i }tulo VI.
-[169
+[170
 
-] [170]) [171] [172
+] [171]) [172] [173
 
 ]
 Overfull \hbox (16.04286pt too wide) in paragraph at lines 378--378
@@ -2997,14 +2994,14 @@ Overfull \hbox (1.39995pt too wide) in paragraph at lines 378--378
 / 9781789808452 / 1 / ch01lvl1sec15 /
  []
 
-[173] [174]
+[174] [175]
 Overfull \hbox (48.67375pt too wide) in paragraph at lines 378--378
 [][]\OT1/ptm/m/n/12 Inzaugarat, E. (2018). \OT1/ptm/m/it/12 Un-ders-tan-ding Ne
 u-ral Net-works: What, How and Why? [][]$\OT1/ptm/m/n/12 https : / / towardsdat
 ascience .
  []
 
-[175] [176]
+[176] [177]
 Overfull \hbox (27.30882pt too wide) in paragraph at lines 378--378
 [][]\OT1/ptm/m/n/12 L[]opez Brie-ga, R. E. (2016). Re-des neu-ro-na-les con-vo-
 lu-cio-na-les con Ten-sor-Flow. [][]$https : / / relopezbriega .
@@ -3016,30 +3013,30 @@ Overfull \hbox (2.5964pt too wide) in paragraph at lines 378--378
 VM). [][]$https : / / la . mathworks . com / discovery /
  []
 
-[177] [178]
+[178] [179]
 Overfull \hbox (6.28677pt too wide) in paragraph at lines 378--378
 [][]\OT1/ptm/m/n/12 Scikit-learn. (s.f.). \OT1/ptm/m/it/12 sklearn.preprocessin
 g.MinMaxScaler\OT1/ptm/m/n/12 . [][]$https : / / scikit -[] learn . org / stabl
 e / modules /
  []
 
-[179]
+[180]
 Overfull \hbox (36.85689pt too wide) in paragraph at lines 378--378
 [][]\OT1/ptm/m/n/12 Solidaridad La-ti-na. (s.f.). ?`C[]omo fun-cio-na el crowd-
 fun-ding en La-ti-noam[]eri-ca? [][]$https : / / solidaridadlatina .
  []
 
-[180]
+
 Overfull \hbox (22.30698pt too wide) in paragraph at lines 378--378
 \OT1/ptm/m/it/12 tro del ma-chi-ne lear-ning y la au-to-ma-ti-za-ci[]on in-te-l
 i-gen-te\OT1/ptm/m/n/12 . [][]$https : / / medium . com / @juanzambrano /
  []
 
-[181] [182
+[181] [182] [183
 
 
 ] (anexos/anexo.tex
-<anexos/arbol_problemas.png, id=2874, 915.9018pt x 526.1256pt>
+<anexos/arbol_problemas.png, id=2876, 915.9018pt x 526.1256pt>
 File: anexos/arbol_problemas.png Graphic file (type png)
 <use anexos/arbol_problemas.png>
 Package pdftex.def Info: anexos/arbol_problemas.png  used on input line 16.
@@ -3049,10 +3046,10 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 16--18
  [] 
  []
 
-[183
+[184
 
  <./anexos/arbol_problemas.png>]
-<anexos/arbol_objetivos.png, id=2881, 915.9018pt x 526.1256pt>
+<anexos/arbol_objetivos.png, id=2883, 915.9018pt x 526.1256pt>
 File: anexos/arbol_objetivos.png Graphic file (type png)
 <use anexos/arbol_objetivos.png>
 Package pdftex.def Info: anexos/arbol_objetivos.png  used on input line 29.
@@ -3062,7 +3059,7 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 29--31
  [] 
  []
 
-[184
+[185
 
  <./anexos/arbol_objetivos.png>]
 Overfull \vbox (113.10023pt too high) detected at line 52
@@ -3193,10 +3190,10 @@ Underfull \hbox (badness 3189) in paragraph at lines 105--105
 \OT1/ptm/m/n/12 pren-de-do-res y crea-do-res
  []
 
-[185
+[186
 
 
-] [186]
+] [187]
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
 []\OT1/ptm/m/n/12 Recolecci[]on y pre-
  []
@@ -3211,10 +3208,10 @@ Overfull \hbox (36.04941pt too wide) in alignment at lines 356--357
  [] [] [] [] 
  []
 
-[187
+[188
 
 
-] [188] [189] [190]
+] [189] [190] [191]
 Overfull \vbox (75.40018pt too high) detected at line 374
  []
 
@@ -3370,10 +3367,10 @@ Overfull \hbox (9.45334pt too wide) in alignment at lines 427--487
  [] [] [] [] [] [] [] 
  []
 
-[191
+[192
 
 
-] [192]
+] [193]
 Overfull \vbox (113.10023pt too high) detected at line 488
  []
 
@@ -3407,7 +3404,7 @@ Overfull \hbox (9.45334pt too wide) in alignment at lines 487--515
  [] [] [] [] [] [] [] 
  []
 
-[193] [194] [195] [196] [197]
+[194] [195] [196] [197] [198]
 Underfull \hbox (badness 3354) in paragraph at lines 529--529
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
@@ -3442,7 +3439,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 571--580
 []| []| 
  []
 
-[198
+[199
 
 
 ]
@@ -3480,7 +3477,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 678--687
 []| []| 
  []
 
-[199
+[200
 
 ]
 Underfull \hbox (badness 3354) in paragraph at lines 743--743
@@ -3517,7 +3514,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 785--794
 []| []| 
  []
 
-[200
+[201
 
 ]
 Underfull \hbox (badness 4859) in paragraph at lines 844--844
@@ -3559,7 +3556,7 @@ Overfull \hbox (17.7399pt too wide) in alignment at lines 840--932
  [] [] 
  []
 
-[201
+[202
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
@@ -3577,11 +3574,11 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29933 strings out of 480763
- 549177 string characters out of 2904056
- 1400129 words of memory out of 3000000
- 44549 multiletter control sequences out of 15000+200000
- 595266 words of font info for 159 fonts, out of 3000000 for 9000
+ 29930 strings out of 480763
+ 549147 string characters out of 2904056
+ 1400132 words of memory out of 3000000
+ 44547 multiletter control sequences out of 15000+200000
+ 593542 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,96p,1995b,2716s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -3595,9 +3592,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (215 pages, 13669329 bytes).
+Output written on tesis.pdf (216 pages, 13669676 bytes).
 PDF statistics:
- 3146 PDF objects out of 3580 (max. 8388607)
- 662 named destinations out of 1000 (max. 500000)
+ 3148 PDF objects out of 3580 (max. 8388607)
+ 663 named destinations out of 1000 (max. 500000)
  1416 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -214,8 +214,8 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en
 		Promedio ponderado & 0.93 & 0.93 & 0.93 & 5,451 \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
+	%\par	%%Salto de linea
+	%\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
@@ -230,14 +230,14 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{5/figures/metadata_auc.png}
+		\includegraphics[width=0.56\textwidth]{5/figures/metadata_auc.png}
 		\caption[Área bajo la curva ROC de modelo de metadata]{Área bajo la curva ROC de modelo de metadata.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig3}
 	\end{center}
 \end{figure}
 
-El área bajo la Curva ROC presenta un valor de aproximadamente 92\%, del cual se observa en el gráfico que su sensibilidad es muy alta y el ratio de Falsa Alarma o Falsos Positivos es casi nulo. Esto significa que el poder discriminante del modelo es excelente \parencite{bk_britos2006datamining}.
+El área bajo la Curva ROC presenta un valor de aproximadamente 92\%, del cual se observa en el gráfico que su sensibilidad es muy alta y el ratio de Falsa Alarma es casi nulo. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es excelente.
 
 \textbf{Actividad 2: Evaluar desempeño del modelo predictivo de Descripción}
 \\
@@ -258,7 +258,7 @@ La matriz de confusión resultante se representa en la Figura \ref{5:fig5}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{5/figures/description_confusion_matrix.png}
+		\includegraphics[width=0.75\textwidth]{5/figures/description_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo de descripciones]{Matriz de confusión para el modelo de descripciones.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig5}
@@ -289,8 +289,8 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table2} y el AUC en
 		Promedio ponderado & 0.79 & 0.77 & 0.77 & 5,451 \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
+	%\par	%%Salto de linea
+	%\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
@@ -305,15 +305,16 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table2} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{5/figures/description_auc.png}
+		\includegraphics[width=0.56\textwidth]{5/figures/description_auc.png}
 		\caption[Área bajo la curva ROC de modelo de descripciones]{Área bajo la curva ROC de modelo de descripciones.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig6}
 	\end{center}
 \end{figure}
 
-El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es medianamente alta y el ratio de Falsa Alarma es medianamente baja. Esto significa que el poder discriminante del modelo es aceptable \parencite{bk_britos2006datamining}.
+El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es medianamente alta y el ratio de Falsa Alarma es medianamente baja. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es aceptable .
 
+\newpage
 \textbf{Actividad 3: Evaluar desempeño del modelo predictivo de Comentarios}
 \\
 Luego de 43 épocas, con 77 segundos en promedio de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 1 época antes se había reducido su tasa de aprendizaje.
@@ -332,7 +333,7 @@ Así, de acuerdo a la Figura \ref{5:fig7}, en la época 33 se registran los mejo
 La matriz de confusión resultante se representa en la Figura \ref{5:fig8}.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{5/figures/comments_confusion_matrix.png}
+		\includegraphics[width=0.75\textwidth]{5/figures/comments_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo de comentarios]{Matriz de confusión para el modelo de comentarios.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig8}
@@ -363,8 +364,8 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table3} y el AUC en
 		Promedio ponderado & 0.86 & 0.85 & 0.84 & 5,451 \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
+	%\par	%%Salto de linea
+	%\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
@@ -379,15 +380,16 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table3} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{5/figures/comments_auc.png}
+		\includegraphics[width=0.57\textwidth]{5/figures/comments_auc.png}
 		\caption[Área bajo la curva de modelo de comentarios]{Área bajo la curva de modelo de comentarios.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig9}
 	\end{center}
 \end{figure}
 
-El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es baja pero su ratio de Falsa Alarma es casi nulo. Esto significa que el poder discriminante del modelo es aceptable \parencite{bk_britos2006datamining}.
+El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es baja pero su ratio de Falsa Alarma es casi nulo. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es aceptable.
 
+%\newpage
 \textbf{Actividad 4: Evaluar desempeño del modelo ensamblado apilado}
 \\
 Luego de 13 épocas, con 152 segundos de entrenamientos cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 2 épocas se redujo su tasa de aprendizaje.
@@ -403,10 +405,11 @@ Así, de acuerdo a la Figura \ref{5:fig10}, en la época 3 se registran los mejo
 	\end{center}
 \end{figure}
 
+\newpage
 La matriz de confusión resultante se representa en la Figura \ref{5:fig11}.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.55\textwidth]{5/figures/stacked_confusion_matrix.png}
+		\includegraphics[width=0.75\textwidth]{5/figures/stacked_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo apilado]{Matriz de confusión para el modelo apilado.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig11}
@@ -453,14 +456,14 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table4} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.50\textwidth]{5/figures/stacked_auc.png}
+		\includegraphics[width=0.57\textwidth]{5/figures/stacked_auc.png}
 		\caption[Área bajo la curva de modelo apilado]{Área bajo la curva de modelo apilado.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig12}
 	\end{center}
 \end{figure}
 
-El área bajo la Curva ROC presenta un valor aproximado de 93\%, del cual se observa en el gráfico que su sensibilidad es muy alta y su ratio de Falsa Alarma es casi nulo. Esto significa que el poder discriminante del modelo es excepcionalmente bueno \parencite{bk_britos2006datamining}.
+El área bajo la Curva ROC presenta un valor aproximado de 93\%, del cual se observa en el gráfico que su sensibilidad es muy alta y su ratio de Falsa Alarma es casi nulo. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es excepcionalmente bueno.
 
 Finalmente, considerando los modelos independientes para cada modalidad, así como un trabajo previo del autor de la presente investigación cuyo trabajo sirvió de base \parencite{pr_puente2019kickstarter_prediction}, se armó el cuadro comparativo de la Tabla \ref{5:table5}.
 
@@ -505,6 +508,8 @@ Como se observa en la Tabla \ref{5:table5}, a nivel general, la performance de T
 \\
 La última fase de la metodología CRISP-DM comienza con el diseño del prototipo que contemplará el sistema conformado por la captura de datos y la predicción del estado de financiamiento de un proyecto consultado. Para ello, previamente se deberán cargarse todos los complementos necesarios para que el modelo de Aprendizaje Profundo Multimodal funcione correctamente. Desde librerías de Python que incluyen elementos utilizados en la recolección de datos como Selenium y las librerías de Keras para la carga de las capas del modelo, hasta algoritmos usados para la limpieza de texto como NLTK y las métricas de clasificación por parte de Scikit-learn.
 
+Luego de la anterior acción, se diseñó el código para ejecutar el proceso de la Figura \ref{3:fig10} explicado en el Capítulo III. El código del prototipo y sus respectivos elementos pueden ser descargados desde link \textbf{\url{https://www.kaggle.com/alonsopuente/tesis-titulacion-demo}}
+
 \textbf{Actividad 2: Ejecutar prototipo con proyectos tecnológicos vigentes}
 \\
 Una vez diseñado el proceso del prototipo, el software es ejecutado localmente desde Jupyter Notebook y recibe como dato de entrada el enlace web de un proyecto vigente en Kickstarter, representado en la Figura \ref{4:fig38}.
@@ -518,7 +523,7 @@ Una vez diseñado el proceso del prototipo, el software es ejecutado localmente 
 	\end{center}
 \end{figure}
 
-Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campaña de la Figura \ref{4:fig39}.
+Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campaña vigente de ejemplo de la Figura \ref{4:fig39}.
 
 \begin{figure}[!ht]
 	\begin{center}
@@ -556,6 +561,7 @@ Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig40} re
 	\label{4:fig40}
 \end{figure}
 
+\newpage
 Esta información es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig41}.
 
 \begin{figure}[!ht]

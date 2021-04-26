@@ -3621,16 +3621,20 @@
     <bcf:citekey order="758">bk_britos2006datamining</bcf:citekey>
     <bcf:citekey order="759">bk_britos2006datamining</bcf:citekey>
     <bcf:citekey order="760">bk_britos2006datamining</bcf:citekey>
-    <bcf:citekey order="761">pr_puente2019kickstarter_prediction</bcf:citekey>
-    <bcf:citekey order="762">pr_cheng2019deeplearning</bcf:citekey>
-    <bcf:citekey order="763">pr_cheng2019deeplearning</bcf:citekey>
-    <bcf:citekey order="764">pr_shafqat2019topicpredictions</bcf:citekey>
-    <bcf:citekey order="765">pr_shafqat2019topicpredictions</bcf:citekey>
-    <bcf:citekey order="766">pr_chen2013kickpredict</bcf:citekey>
-    <bcf:citekey order="767">pr_chen2013kickpredict</bcf:citekey>
+    <bcf:citekey order="761">bk_britos2006datamining</bcf:citekey>
+    <bcf:citekey order="762">bk_britos2006datamining</bcf:citekey>
+    <bcf:citekey order="763">bk_britos2006datamining</bcf:citekey>
+    <bcf:citekey order="764">bk_britos2006datamining</bcf:citekey>
+    <bcf:citekey order="765">pr_puente2019kickstarter_prediction</bcf:citekey>
+    <bcf:citekey order="766">pr_cheng2019deeplearning</bcf:citekey>
+    <bcf:citekey order="767">pr_cheng2019deeplearning</bcf:citekey>
     <bcf:citekey order="768">pr_shafqat2019topicpredictions</bcf:citekey>
     <bcf:citekey order="769">pr_shafqat2019topicpredictions</bcf:citekey>
-    <bcf:citekey order="770">tec_keras_modeltraining</bcf:citekey>
+    <bcf:citekey order="770">pr_chen2013kickpredict</bcf:citekey>
+    <bcf:citekey order="771">pr_chen2013kickpredict</bcf:citekey>
+    <bcf:citekey order="772">pr_shafqat2019topicpredictions</bcf:citekey>
+    <bcf:citekey order="773">pr_shafqat2019topicpredictions</bcf:citekey>
+    <bcf:citekey order="774">tec_keras_modeltraining</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
