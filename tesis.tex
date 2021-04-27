@@ -70,7 +70,7 @@
 %%%Editar formato y tamaño de capítulos y secciones
 \usepackage{titlesec}
 \titleformat{\chapter}
-{\normalfont\large\bfseries}{CAPÍTULO \thechapter:}{1em}{}
+{\centering\normalfont\large\bfseries}{Capítulo \thechapter:}{1em}{}
 \titlespacing*{\chapter}{0pt}{-4ex}{1ex}
 
 \titleformat{\section}
@@ -292,7 +292,7 @@ pdfauthor={autor nombres}]{hyperref}
 
 	\begin{center}
 		%%%cargar imagen
-	    \includegraphics[width=0.45\textwidth]{images_repo/esanlogomin}
+	    \includegraphics[width=0.20\textwidth]{images_repo/esanlogomin}
 		\vspace*{2cm} \\
 		UNIVERSIDAD ESAN \vspace*{1ex} \\
 		FACULTAD DE INGENIERÍA \vspace*{1ex} \\
@@ -385,14 +385,14 @@ pdfauthor={autor nombres}]{hyperref}
 %\bibliographystyle{apalike} % No funciona
 %\renewcommand{\bibname}{BIBLIOGRAFÍA} % changes the header; default: Bibliography
 
-\printbibliography[heading=bibintoc,title={REFERENCIAS}]
+\printbibliography[heading=bibintoc,title={Referencias}]
 %\bibliography{biblio/references} % adjust this to fit your BibTex file
 
 %%Anexos
 \appendix
 \renewcommand{\appendixname}{Anexo} %Esto es para las paginas
-\renewcommand{\appendixtocname}{ANEXOS} %Esto es para el indice
-\renewcommand{\appendixpagename}{ANEXOS}
+\renewcommand{\appendixtocname}{Anexos} %Esto es para el indice
+\renewcommand{\appendixpagename}{Anexos}
 \clearpage
 \addappheadtotoc
 \appendixpage

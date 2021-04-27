@@ -105,15 +105,29 @@ Los tres tipos de aprendizaje principales son:
 		\end{center}
 	\end{figure}
 		
-	\item \textbf{Aprendizaje por refuerzo}: Se basa en que un agente racional puede tomar una decisión a partir de una retroalimentación llamada recompensa o refuerzo. A diferencia del Aprendizaje Supervisado, en donde el agente puede aprender solamente a partir de ejemplos dados, en este caso no basta solamente con proporcionárselos sino también de “informarle” si lo está haciendo de la manera correcta o no. Por ejemplo, un agente que intenta aprender a jugar ajedrez necesita saber que algo bueno ha ocurrido cuando gana y algo malo ha ocurrido cuando pierde. La mejor recompensa que busca al finalizar el juego es vencer al oponente, y para ello debe estudiar todos los movimientos que este haga, la posición de las fichas en el tablero, entre otros. A este conjunto se le conoce como entorno o medio ambiente \parencite{bk_russell2004intart}. Entonces, en resumen, representando en la Figura \ref{2:fig4}, y mencionando otro ejemplo, el aprendizaje por refuerzo está compuesto por un agente (Pacman) en un estado determinado (su ubicación o posición actual) dentro de un medio ambiente (el laberinto). La recompensa positiva que busca Pacman son los puntos por comer, mientras que la negativa será la de morir si se cruza con un fantasma, en base a la acción (desplazamiento a un nuevo estado) que realice \parencite{tec_merino2019aprendrefuerzo}.
+	\item \textbf{Aprendizaje por refuerzo}: Se basa en que un agente racional puede tomar una decisión a partir de una retroalimentación llamada recompensa o refuerzo. A diferencia del Aprendizaje Supervisado, en donde el agente puede aprender solamente a partir de ejemplos dados, en este caso no basta solamente con proporcionárselos sino también de “informarle” si lo está haciendo de la manera correcta o no.
+	Por ejemplo, un agente que intenta aprender a jugar ajedrez necesita saber que algo bueno ha ocurrido cuando gana y algo malo ha ocurrido cuando pierde. La mejor recompensa que busca al finalizar el juego es vencer al oponente, y para ello debe estudiar todos los movimientos que este haga, la posición de las fichas en el tablero, entre otros. A este conjunto se le conoce como entorno o medio ambiente \parencite{bk_russell2004intart}.
+	
 	\begin{figure}[h]
 		\begin{center}
 			\includegraphics[width=0.60\textwidth]{2/figures/aprendizaje_refuerzo.jpg}
 			\caption[Componentes del Aprendizaje por Refuerzo]{Componentes del Aprendizaje por Refuerzo.\\
-			Fuente: \cite{bk_sutton2018rl}. \textit{Finite Markov Decision Processes}. (p. 48)}
+				Fuente: \cite{bk_sutton2018rl}. \textit{Finite Markov Decision Processes}. (p. 48)}
 			\label{2:fig4}
 		\end{center}
 	\end{figure}
+	
+	En resumen, y mencionando otro ejemplo, el aprendizaje por refuerzo está compuesto por un agente (Pacman) en un estado determinado (su ubicación o posición actual) dentro de un medio ambiente (el laberinto). La recompensa positiva que busca Pacman son los puntos por comer, mientras que la negativa será la de morir si se cruza con un fantasma, en base a la acción (desplazamiento a un nuevo estado) que realice \parencite{tec_merino2019aprendrefuerzo}.
+	
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/pacman.png}
+			\caption[Ambiente del videojuego Pacman]{Ambiente del videojuego Pacman.\\
+				Fuente: . \textit{Reinforced Pac-man}.}
+			\label{2:fig4_1}
+		\end{center}
+	\end{figure}
+	
 \end{itemize}
 
 \clearpage

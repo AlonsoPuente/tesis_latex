@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
-\contentsline {chapter}{RESUMEN}{1}{chapter*.6}%
-\contentsline {chapter}{INTRODUCCIÓN}{3}{chapter*.8}%
-\contentsline {chapter}{\numberline {I}PLANTEAMIENTO DEL PROBLEMA}{5}{chapter.1}%
+\contentsline {chapter}{Resumen}{1}{chapter*.6}%
+\contentsline {chapter}{Introducción}{3}{chapter*.8}%
+\contentsline {chapter}{\numberline {I}Planteamiento del Problema}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{5}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{8}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Problema General}{8}{subsection.1.2.1}%
@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {1.6.1}Espacial}{11}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Temporal}{11}{subsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.6.3}Conceptual}{11}{subsection.1.6.3}%
-\contentsline {chapter}{\numberline {II}MARCO TEÓRICO}{12}{chapter.2}%
+\contentsline {chapter}{\numberline {II}Marco Teórico}{12}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{12}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Bases Teóricas}{39}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{39}{subsection.2.2.1}%
@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {2.3.2}Kickstarter}{89}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Proyecto}{90}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Campaña}{90}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {III}METODOLOGÍA DE LA INVESTIGACIÓN}{93}{chapter.3}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{93}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Diseño de la investigación}{93}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Tipo de la investigación}{93}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{93}{subsection.3.1.2}%
@@ -56,19 +56,19 @@
 \contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{116}{subsubsection.3.3.1.6}%
 \contentsline {subsection}{\numberline {3.3.2}Metodología para la medición de resultados}{118}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Cronograma de actividades y presupuesto}{123}{section.3.4}%
-\contentsline {chapter}{\numberline {IV}DESARROLLO DEL EXPERIMENTO}{125}{chapter.4}%
+\contentsline {chapter}{\numberline {IV}Desarrollo del Experimento}{125}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Comprensión del negocio}{125}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Comprensión de los datos}{126}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Preparación de los datos}{143}{section.4.3}%
-\contentsline {chapter}{\numberline {V}ANÁLISIS Y DISCUSIÓN DE RESULTADOS}{149}{chapter.5}%
+\contentsline {chapter}{\numberline {V}Análisis y Discusión de Resultados}{149}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Modelamiento}{149}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Evaluación}{156}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Despliegue}{167}{section.5.3}%
-\contentsline {chapter}{\numberline {VI}CONCLUSIONES Y RECOMENDACIONES}{170}{chapter.6}%
+\contentsline {chapter}{\numberline {VI}Conclusiones y Recomendaciones}{170}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Conclusiones}{170}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Recomendaciones}{172}{section.6.2}%
-\contentsline {chapter}{REFERENCIAS}{173}{chapter*.190}%
-\contentsline {chapter}{ANEXOS}{184}{section*.191}%
+\contentsline {chapter}{Referencias}{173}{chapter*.191}%
+\contentsline {chapter}{Anexos}{184}{section*.192}%
 \contentsline {section}{\numberline {A}Árbol de Problemas}{185}{section.Alph0.1}%
 \contentsline {section}{\numberline {B}Árbol de Objetivos}{186}{section.Alph0.2}%
 \contentsline {section}{\numberline {C}Matriz de Consistencia}{187}{section.Alph0.3}%
