@@ -265,14 +265,14 @@ Cada una de las fases de la metodología seleccionada se detalla en la Figura \r
 Durante el proceso de la implementación de la metodología, en donde se decidió construir un modelo de Aprendizaje Profundo Multimodal (utilizado por \cite{pr_kamath2018suplearn}, \cite{pr_jin2019dayssuccess}, y \cite{pr_cheng2019deeplearning}), de acuerdo a la literatura, se analizaron las siguientes posibles modalidades que se tomarían en cuenta para la investigación:
 
 \begin{itemize}
-	\item Metainformación: \cite{pr_chen2013kickpredict}, \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_chen2015predcrowd}, \cite{pr_beckwith2016predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}, \cite{pr_kaur2017socmedcrowd}, \cite{pr_kamath2018suplearn}, \cite{pr_yu2018deeplearning}, \cite{pr_jin2019dayssuccess}, \cite{pr_cheng2019deeplearning}, \cite{pr_fernandezblanco2020crowdfunding_empirical}.
-	\item Descripción del proyecto: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}, \cite{pr_kamath2018suplearn}, \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}, \cite{pr_cheng2019deeplearning}, \cite{pr_chen2019keywords_crowdfunding}, \cite{pr_chaichi2019nlp_3dprinting}.
-	\item Comentarios en la campaña: \cite{pr_chen2015predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}, \cite{pr_shafqat2019topicpredictions}.
-	\item Actualizaciones y/o recompensas: \cite{pr_zhou2015projectdesc}, \cite{pr_lee2018contentDL}.
-	\item Contenido audiovisual (imagen y/o video del proyecto): \cite{pr_cheng2019deeplearning}.
+	\item \textbf{Metainformación}: \cite{pr_chen2013kickpredict}, \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_chen2015predcrowd}, \cite{pr_beckwith2016predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}, \cite{pr_kaur2017socmedcrowd}, \cite{pr_kamath2018suplearn}, \cite{pr_yu2018deeplearning}, \cite{pr_jin2019dayssuccess}, \cite{pr_cheng2019deeplearning}, \cite{pr_fernandezblanco2020crowdfunding_empirical}.
+	\item \textbf{Descripción del proyecto}: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}, \cite{pr_kamath2018suplearn}, \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}, \cite{pr_cheng2019deeplearning}, \cite{pr_chen2019keywords_crowdfunding}, \cite{pr_chaichi2019nlp_3dprinting}.
+	\item \textbf{Comentarios en la campaña}: \cite{pr_chen2015predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}, \cite{pr_shafqat2019topicpredictions}.
+	\item \textbf{Actualizaciones y/o recompensas}: \cite{pr_zhou2015projectdesc}, \cite{pr_lee2018contentDL}.
+	\item \textbf{Contenido audiovisual (imagen y/o video del proyecto)}: \cite{pr_cheng2019deeplearning}.
 \end{itemize}
 
-De las anteriores modalidades, las actualizaciones no representan un cambio significativo ya que consisten en agregar o desagregar contenido textual o modificar recompensas en la campaña. Por el lado del contenido audiovisual, además de no presentarse en todas las campañas, para el caso particular de la categoría Tecnología no se encontró un patrón entre sus imágenes que pueda ser de utilidad, como se presenta en el trabajo de tesis de pregrado del presente autor \parencite{pr_puente2019kickstarter_prediction}.
+De las anteriores modalidades, las actualizaciones no representan un cambio significativo ya que consisten en agregar o desagregar contenido textual o modificar recompensas en la campaña. Por el lado del contenido audiovisual, además de no presentarse en todas las campañas, para el caso particular de la categoría Tecnología no se encontró un patrón entre sus imágenes que pueda ser de utilidad, como se presenta en el trabajo de tesis de pregrado del presente investigador \parencite{pr_puente2019kickstarter_prediction}.
 
 Finalmente, fueron seleccionadas las modalidades de metainformación, descripción del proyecto y comentarios, para este último considerando solamente expresados por patrocinadores. Las 2 primeras se localizan en la sección principal de la campaña, mientras que la tercera se ubica en su sección respectiva, como se puede apreciar en la Figura \ref{3:fig3}.
 \begin{figure}[htbp]
@@ -679,14 +679,14 @@ Al concluir la etapa del pre-procesamiento, las variables pudieron ser utilizada
 En esta actividad, se diseñó la arquitectura que se usó para la modalidad Metainformación. Para ello, se realizó benchmarking sobre las propuestas de los autores enunciadas a continuación.
 
 \begin{itemize}
-	\item Perceptrón Multicapa (MLP): \cite{pr_kamath2018suplearn}, \cite{pr_yu2018deeplearning}, \cite{pr_cheng2019deeplearning}.
-	\item Máquina de Vectores de Soporte (SVM): \cite{pr_chen2013kickpredict}, \cite{pr_beckwith2016predcrowd}, \cite{pr_sawhney2016usingLT}.
-	\item Regresión Logística: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_beckwith2016predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_kaur2017socmedcrowd}.
-	\item Regresión Log-logística: \cite{pr_li2016predcrowd}.
-	\item Bosques Aleatorios: \cite{pr_chen2015predcrowd}, \cite{pr_yuan2016textanalytics}, \cite{pr_kamath2018suplearn}.
-	\item Árboles de Decisión: \cite{pr_beckwith2016predcrowd}, \cite{pr_kamath2018suplearn}.
-	\item Naïve Bayes: \cite{pr_beckwith2016predcrowd}, \cite{pr_kamath2018suplearn}.
-	\item Modelo Seq2seq: \cite{pr_jin2019dayssuccess}.
+	\item \textbf{Perceptrón Multicapa (MLP)}: \cite{pr_kamath2018suplearn}, \cite{pr_yu2018deeplearning}, \cite{pr_cheng2019deeplearning}.
+	\item \textbf{Máquina de Vectores de Soporte (SVM)}: \cite{pr_chen2013kickpredict}, \cite{pr_beckwith2016predcrowd}, \cite{pr_sawhney2016usingLT}.
+	\item \textbf{Regresión Logística}: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}, \cite{pr_beckwith2016predcrowd}, \cite{pr_li2016predcrowd}, \cite{pr_kaur2017socmedcrowd}.
+	\item \textbf{Regresión Log-logística}: \cite{pr_li2016predcrowd}.
+	\item \textbf{Bosques Aleatorios}: \cite{pr_chen2015predcrowd}, \cite{pr_yuan2016textanalytics}, \cite{pr_kamath2018suplearn}.
+	\item \textbf{Árboles de Decisión}: \cite{pr_beckwith2016predcrowd}, \cite{pr_kamath2018suplearn}.
+	\item \textbf{Naïve Bayes}: \cite{pr_beckwith2016predcrowd}, \cite{pr_kamath2018suplearn}.
+	\item \textbf{Modelo Seq2seq}: \cite{pr_jin2019dayssuccess}.
 \end{itemize}
 
 De acuerdo a los resultados de los autores citados, los modelos de Redes Neuronales (MLP), SVM y Regresión Logística tuvieron los mejores rendimientos en sus experimentos. Dado que la investigación consistió en implementar un modelo de Aprendizaje Profundo Multimodal, en donde se ensamblan modelos de Aprendizaje Profundo, se optó por el modelo Perceptrón Multicapa para la Metainformación.
@@ -698,12 +698,12 @@ De acuerdo a los resultados de los autores citados, los modelos de Redes Neurona
 En esta actividad, se diseñó la arquitectura que se usó para la modalidad Descripción. Para ello, se realizó benchmarking sobre las propuestas de los autores enunciadas a continuación.
 
 \begin{itemize}
-	\item CNN: \cite{pr_cheng2019deeplearning}.
-	\item LSTM: \cite{pr_jin2019dayssuccess}.
-	\item Modelo Seq2seq: \cite{pr_lee2018contentDL}.
-	\item Máquina de Vectores de Soporte o variantes: \cite{pr_sawhney2016usingLT}, \cite{pr_chen2019keywords_crowdfunding}.
-	\item Regresión Logística: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}.
-	\item LDA o variantes: \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}.
+	\item \textbf{CNN}: \cite{pr_cheng2019deeplearning}.
+	\item \textbf{LSTM}: \cite{pr_jin2019dayssuccess}.
+	\item \textbf{Modelo Seq2seq}: \cite{pr_lee2018contentDL}.
+	\item \textbf{Máquina de Vectores de Soporte o variantes}: \cite{pr_sawhney2016usingLT}, \cite{pr_chen2019keywords_crowdfunding}.
+	\item \textbf{Regresión Logística}: \cite{pr_mitra2014phrases}, \cite{pr_zhou2015projectdesc}.
+	\item \textbf{LDA o variantes}: \cite{pr_yuan2016textanalytics}, \cite{pr_sawhney2016usingLT}.
 \end{itemize}
 
 De acuerdo a la anterior lista, los modelos como el LDA o Seq2seq requirieron procesadores de gama alta o pocos proyectos para ser entrenados debido a la complejidad de su arquitectura. Por el lado de los modelos SVM y Regresión Logística, al ser métodos de Aprendizaje Profundo se descartaron para la investigación dado a la imposibilidad de ser anexadas a modelos de Aprendizaje Profundo. Finalmente, entre el modelo CNN y LSTM, se optó por elegir el primero para la modalidad de descripción dado que este, el cual bajo una arquitectura unidimensional puede ser aplicado para textos, solo necesita usar representaciones de textos en vectores para clasificar un target, a diferencia del segundo método, el cual fue utilizado para la modalidad de comentarios al tratarse estos de secuencias de palabras.
@@ -715,12 +715,12 @@ De acuerdo a la anterior lista, los modelos como el LDA o Seq2seq requirieron pr
 En esta actividad, se diseñó la arquitectura que se usó para la modalidad Comentarios. Para ello, se realizó benchmarking sobre las propuestas de los autores enunciadas a continuación.
 
 \begin{itemize}
-	\item LSTM: \cite{pr_jin2019dayssuccess}, \cite{pr_shafqat2019topicpredictions}.
-	\item LDA o variantes: \cite{pr_shafqat2019topicpredictions}.
-	\item Modelo Seq2seq: \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}.
-	\item HAN: \citeauthor{pr_lee2018contentDL}.
-	\item Regresión Logística: \cite{pr_li2016predcrowd}, \cite{pr_kaur2017socmedcrowd}.
-	\item Regresión Log-logística: \cite{pr_li2016predcrowd}.
+	\item \textbf{LSTM}: \cite{pr_jin2019dayssuccess}, \cite{pr_shafqat2019topicpredictions}.
+	\item \textbf{LDA o variantes}: \cite{pr_shafqat2019topicpredictions}.
+	\item \textbf{Modelo Seq2seq}: \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}.
+	\item \textbf{HAN}: \citeauthor{pr_lee2018contentDL}.
+	\item \textbf{Regresión Logística}: \cite{pr_li2016predcrowd}, \cite{pr_kaur2017socmedcrowd}.
+	\item \textbf{Regresión Log-logística}: \cite{pr_li2016predcrowd}.
 \end{itemize}
 
 Como se menciona en la anterior actividad, para el modelo predictivo de comentarios se implementó un modelo de LSTM dado el comportamiento de esta modalidad basada en secuencias de palabras. Además, se definió esta red como Bidireccional para que cada comentario que se busque predecir pueda ser entrenado en ambas direcciones de la secuencia, es decir con palabras previas y posteriores en una oración, logrando así encaminar de forma más efectiva hacia su clasificación de estado de financiamiento.

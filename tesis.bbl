@@ -1245,6 +1245,40 @@
       \verb https://www.cyberclick.es/publicidad/campana-publicitaria
       \endverb
     \endentry
+    \entry{tec_das2020pacman}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0ff50fbede9cff052b7d7c0826e0ecf0}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sarthak},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{0ff50fbede9cff052b7d7c0826e0ecf0}
+      \strng{fullhash}{0ff50fbede9cff052b7d7c0826e0ecf0}
+      \strng{bibnamehash}{0ff50fbede9cff052b7d7c0826e0ecf0}
+      \strng{authorbibnamehash}{0ff50fbede9cff052b7d7c0826e0ecf0}
+      \strng{authornamehash}{0ff50fbede9cff052b7d7c0826e0ecf0}
+      \strng{authorfullhash}{0ff50fbede9cff052b7d7c0826e0ecf0}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reinforced Pac-man}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/reinforced-pac-man-8e51409f4fc
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/reinforced-pac-man-8e51409f4fc
+      \endverb
+    \endentry
     \entry{bk_deng2018deeplearningnlp}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%

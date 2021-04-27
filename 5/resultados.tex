@@ -508,7 +508,7 @@ Como se observa en la Tabla \ref{5:table5}, a nivel general, la performance de T
 \\
 La última fase de la metodología CRISP-DM comienza con el diseño del prototipo que contemplará el sistema conformado por la captura de datos y la predicción del estado de financiamiento de un proyecto consultado. Para ello, previamente se deberán cargarse todos los complementos necesarios para que el modelo de Aprendizaje Profundo Multimodal funcione correctamente. Desde librerías de Python que incluyen elementos utilizados en la recolección de datos como Selenium y las librerías de Keras para la carga de las capas del modelo, hasta algoritmos usados para la limpieza de texto como NLTK y las métricas de clasificación por parte de Scikit-learn.
 
-Luego de la anterior acción, se diseñó el código para ejecutar el proceso de la Figura \ref{3:fig10} explicado en el Capítulo III. El código del prototipo y sus respectivos elementos pueden ser descargados desde link \textbf{\url{https://www.kaggle.com/alonsopuente/tesis-titulacion-demo}}
+Luego de la anterior acción, se diseñó el código para ejecutar el proceso de la Figura \ref{3:fig10} explicado en el Capítulo III. El código del prototipo y sus respectivos elementos pueden ser descargados desde el link \textbf{\url{https://www.kaggle.com/alonsopuente/tesis-titulacion-demo}}
 
 \textbf{Actividad 2: Ejecutar prototipo con proyectos tecnológicos vigentes}
 \\
@@ -527,14 +527,16 @@ Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campa�
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{4/figures/example_project_150221.jpg}
+		\includegraphics[width=1.05\textwidth]{4/figures/example_project_150221.jpg}
 		\caption[Campaña del proyecto consultado. Captura de pantalla: 15/02/21]{Campaña del proyecto consultado. Captura de pantalla: 15/02/21.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig39}
 	\end{center}
 \end{figure}
 
-La primera acción hecha por el sistema fue extraer la metainformación, descripción y comentarios del proyecto desde el ingreso al URL por un navegador. Debido al cambio de políticas de acceso a la plataforma en 2020, Kickstarter detecta la presencia de bots y restringe la navegación usando CAPTCHAs para evitar su accionar. Algunas veces fue detectado el bot del sistema. Ante ello, la única acción manual por parte del usuario en el sistema se da en este paso presionando por 5 segundos el botón de “\textit{I'm a human}” (Soy humano por su traducción al español) que se muestra en la ventana. Desde este punto, luego de ingresar al enlace de la campaña del proyecto, el sistema primero se redirige a la sección de la metainformación y extrae las variables usadas para el entrenamiento del modelo. Del mismo modo, repite esta secuencia para la descripción y los comentarios.
+La primera acción hecha por el sistema fue extraer la metainformación, descripción y comentarios del proyecto desde el ingreso al URL por un navegador. Debido al cambio de políticas de acceso a la plataforma en 2020, Kickstarter detecta la presencia de bots y restringe la navegación usando CAPTCHAs para evitar su accionar. Algunas veces fue detectado el bot del sistema. Ante ello, la única acción manual por parte del usuario en el sistema se da en este paso presionando por 5 segundos el botón de “\textit{I'm a human}” (Soy humano por su traducción al español) que se muestra en la ventana. Desde este punto, luego de ingresar al enlace de la campaña del proyecto, el sistema primero se redirige a la sección de la metainformación y extrae las variables usadas para el entrenamiento del modelo.
+
+Esta secuencia es repetida para las otras modalidades. En el caso de los comentarios, estos se encuentran en una sección distinta, para lo cual el sistema primero se redirige a ella a partir del dominio de la sección principal, en donde se encontraron la metainformación y la descripción.
 
 Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig40} respectivamente.
 
@@ -562,11 +564,11 @@ Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig40} re
 \end{figure}
 
 \newpage
-Esta información es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig41}.
+La información extraída es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig41}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.70\textwidth]{4/figures/demo_project_prediction.jpg}
+		\includegraphics[width=0.75\textwidth]{4/figures/demo_project_prediction.jpg}
 		\caption[Resultado de predicción de The Hydra para el proyecto consultado]{Resultado de predicción de The Hydra para el proyecto consultado.\\
 			Fuente: Elaboración propia.}
 		\label{4:fig41}
