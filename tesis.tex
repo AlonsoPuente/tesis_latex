@@ -54,6 +54,9 @@
 	{\lowercase{\href{https://doi.org/#1}{\nolinkurl{#1}}}}
 	{\lowercase{\nolinkurl{#1}}}}
 
+%% Formato de URL en referencias
+\DeclareFieldFormat{url}{{Recuperado de}\space\url{#1}}
+
 %% Convertir comando cita por textcite para que tenga formato APA
 \let\cite\textcite
 
@@ -253,6 +256,13 @@ pdfauthor={autor nombres}]{hyperref}
 \renewcommand{\cfttabaftersnum}{.} % Goes after figure number
 \settowidth\mylength{\cfttabpresnum}
 \addtolength\cfttabnumwidth{\mylength}
+
+\DefineBibliographyExtras{spanish}{%
+	\savecommand\sptext
+	\renewcommand*{\sptext}{\textsuperscript}}
+
+\UndefineBibliographyExtras{spanish}{%
+	\restorecommand\sptext}
 
 %%Formato APA (No funciona en biblatex)
 \usepackage{apalike}

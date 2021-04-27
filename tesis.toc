@@ -68,13 +68,13 @@
 \contentsline {section}{\numberline {6.1}Conclusiones}{170}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Recomendaciones}{172}{section.6.2}%
 \contentsline {chapter}{REFERENCIAS}{173}{chapter*.190}%
-\contentsline {chapter}{ANEXOS}{183}{section*.191}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{184}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{185}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{186}{section.Alph0.3}%
-\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{188}{section.Alph0.4}%
-\contentsline {section}{\numberline {E}Comparación de objetivos específicos de antecedentes}{192}{section.Alph0.5}%
-\contentsline {section}{\numberline {F}Parámetros para modelo predictivo de Metainformación}{199}{section.Alph0.6}%
-\contentsline {section}{\numberline {G}Parámetros para modelo predictivo de Descripción}{200}{section.Alph0.7}%
-\contentsline {section}{\numberline {H}Parámetros para modelo predictivo de Comentarios}{201}{section.Alph0.8}%
-\contentsline {section}{\numberline {I}Parámetros para modelo de Aprendizaje Profundo Multimodal}{202}{section.Alph0.9}%
+\contentsline {chapter}{ANEXOS}{184}{section*.191}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{185}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{186}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{187}{section.Alph0.3}%
+\contentsline {section}{\numberline {D}Comparación de metodologías de antecedentes}{189}{section.Alph0.4}%
+\contentsline {section}{\numberline {E}Comparación de objetivos específicos de antecedentes}{193}{section.Alph0.5}%
+\contentsline {section}{\numberline {F}Parámetros para modelo predictivo de Metainformación}{200}{section.Alph0.6}%
+\contentsline {section}{\numberline {G}Parámetros para modelo predictivo de Descripción}{201}{section.Alph0.7}%
+\contentsline {section}{\numberline {H}Parámetros para modelo predictivo de Comentarios}{202}{section.Alph0.8}%
+\contentsline {section}{\numberline {I}Parámetros para modelo de Aprendizaje Profundo Multimodal}{203}{section.Alph0.9}%

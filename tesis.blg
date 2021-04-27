@@ -1,16 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'tesis.blg'
-[69] biber-MSWIN64:322> INFO - === 
-[91] Biber.pm:415> INFO - Reading 'tesis.bcf'
-[624] Biber.pm:943> INFO - Found 136 citekeys in bib section 0
-[641] Biber.pm:4256> INFO - Processing section 0
-[642] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
-[651] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
-[667] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
-[680] bibtex.pm:1653> INFO - LaTeX decoding ...
-[855] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
-[1783] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1783] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1783] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[2144] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[2331] bbl.pm:755> INFO - Output to tesis.bbl
+[82] biber-MSWIN64:322> INFO - === 
+[104] Biber.pm:415> INFO - Reading 'tesis.bcf'
+[1151] Biber.pm:943> INFO - Found 137 citekeys in bib section 0
+[1189] Biber.pm:4256> INFO - Processing section 0
+[1190] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
+[1208] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
+[1241] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
+[1272] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1696] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
+[2610] Utils.pm:304> WARN - Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'
+[3674] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3675] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3675] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[3922] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[4016] bbl.pm:755> INFO - Output to tesis.bbl
+[4016] Biber.pm:128> INFO - WARNINGS: 1

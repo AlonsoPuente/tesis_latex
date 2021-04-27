@@ -805,17 +805,15 @@
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{2019 Portland International Conference on Management of Engineering and Technology (PICMET)}
-      \field{eventyear}{2019}
-      \field{maintitle}{2019 Proceedings of PICMET '19: Technology Management in the World of Intelligence Systems}
+      \field{journaltitle}{2019 Portland International Conference on Management of Engineering and Technology (PICMET)}
       \field{series}{PICMET '19}
       \field{title}{Deploying Natural Language Processing to Extract Key Product Features of Crowdfunding Campaigns: The Case of 3D Printing Technologies on Kickstarter}
       \field{year}{2019}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 9}
       \range{pages}{9}
       \verb{doi}
@@ -913,15 +911,14 @@
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)}
-      \field{eventyear}{2019}
+      \field{journaltitle}{2019 IEEE 6th International Conference on Industrial Engineering and Applications (ICIEA)}
       \field{series}{ICIEA '19}
       \field{title}{Finding the Keywords Affecting the Success of Crowdfunding Projects}
       \field{year}{2019}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{567\bibrangedash 571}
       \range{pages}{5}
       \verb{doi}
@@ -1021,15 +1018,14 @@
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{Pacific Asia Conference on Information Systems (PACIS) 2015 Proceedings}
-      \field{eventyear}{2015}
+      \field{journaltitle}{Pacific Asia Conference on Information Systems (PACIS) 2015}
       \field{series}{PACIS '15}
       \field{title}{Will Your Project Get the Green Light? Predicting the Success of Crowdfunding Campaigns}
       \field{year}{2015}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{79}
       \range{pages}{1}
       \verb{urlraw}
@@ -1078,16 +1074,15 @@
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{The Twenty-Eighth International Joint Conference on Artificial Intelligence}
-      \field{eventyear}{2019}
+      \field{journaltitle}{Twenty-Eighth International Joint Conference on Artificial Intelligence}
       \field{series}{IJCAI-19}
       \field{title}{Success Prediction on Crowdfunding with Multimodal Deep Learning}
       \field{year}{2019}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{2158\bibrangedash 2164}
       \range{pages}{7}
       \verb{doi}
@@ -1401,16 +1396,15 @@
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{2012 International Conference on Environment, Energy and Biotechnology}
-      \field{eventyear}{2012}
+      \field{booktitle}{2012 International Conference on Environment, Energy and Biotechnology}
       \field{title}{Comparison of Artificial Neural Network Transfer Functions Abilities to Simulate Extreme Runoff Data}
       \field{volume}{33}
       \field{year}{2012}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{40}
       \range{pages}{1}
       \verb{urlraw}
@@ -2211,17 +2205,16 @@
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{The 33rd AAAI Conference on Artificial Intelligence (AAAI'2019)}
-      \field{eventyear}{2019}
+      \field{journaltitle}{33rd AAAI Conference on Artificial Intelligence (AAAI'2019)}
       \field{series}{AAAI'2019}
       \field{title}{Estimating the Days to Success of Campaigns in Crowdfunding: A Deep Survival Perspective}
       \field{volume}{33}
       \field{year}{2019}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{4023\bibrangedash 4030}
       \range{pages}{8}
       \verb{doi}
@@ -2573,17 +2566,15 @@
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
-      \field{eventyear}{2014}
-      \field{journaltitle}{Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
-      \field{month}{10}
+      \field{journaltitle}{2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
+      \field{month}{8}
       \field{title}{Convolutional Neural Networks for Sentence Classification}
       \field{year}{2014}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{1746\bibrangedash 1751}
       \range{pages}{6}
       \verb{doi}
@@ -2595,6 +2586,7 @@
       \verb{url}
       \verb https://www.aclweb.org/anthology/D14-1181.pdf
       \endverb
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'}
     \endentry
     \entry{gl_kohavi1998ml_glossary}{misc}{}
       \name{author}{2}{}{%
@@ -2829,17 +2821,15 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing}
-      \field{eventyear}{2018}
       \field{isbn}{9781450360180}
       \field{journaltitle}{Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing}
       \field{series}{CSCW '18}
       \field{title}{Content-based Success Prediction of Crowdfunding Campaigns: A Deep	Learning Approach}
       \field{year}{2018}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{193\bibrangedash 196}
       \range{pages}{4}
       \verb{doi}
@@ -2934,17 +2924,14 @@
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{Ninth ACM International Conference on web search and data mining}
-      \field{eventyear}{2016}
       \field{journaltitle}{Ninth ACM International Conference on web search and data mining}
-      \field{maintitle}{Proceedings of the Ninth ACM International Conference on web search and data mining}
       \field{series}{WSDM '16}
       \field{title}{Project Success Prediction in Crowdfunding Environments}
       \field{year}{2016}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{247\bibrangedash 256}
       \range{pages}{10}
       \verb{doi}
@@ -3397,17 +3384,15 @@
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{17th ACM conference on Computer supported cooperative work \& social computing}
-      \field{eventyear}{2014}
-      \field{maintitle}{Proceedings of the 17th ACM conference on Computer supported cooperative work \& social computing}
+      \field{journaltitle}{17th ACM conference on Computer supported cooperative work \& social computing}
       \field{series}{CSCW '14}
       \field{title}{The Language that Gets People to Give: Phrases that Predict Success on Kickstarter}
       \field{year}{2014}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{49\bibrangedash 61}
       \range{pages}{13}
       \verb{doi}
@@ -3500,7 +3485,7 @@
       \verb https://www.researchgate.net/publication/236604665_Statistics_Corner_A_guide_to_appropriate_use_of_Correlation_coefficient_in_medical_research
       \endverb
     \endentry
-    \entry{tec_ng2018bidirectionalRNN}{online}{}
+    \entry{tec_ng2018bidirectionalRNN}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bdb4d740fc9548d1c32a62103c30169d}{%
            family={Ng},
@@ -3522,13 +3507,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{RNN W1L11 : Bidirectional RNN [Archivo de video]}
+      \field{title}{\textit{RNN W1L11 : Bidirectional RNN} [Archivo de video]}
       \field{year}{2018}
       \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=bTXGpATdKRY
+      \verb https://youtu.be/bTXGpATdKRY
       \endverb
       \verb{url}
-      \verb https://www.youtube.com/watch?v=bTXGpATdKRY
+      \verb https://youtu.be/bTXGpATdKRY
       \endverb
     \endentry
     \entry{tec_nishida2015multimodal}{report}{}
@@ -4856,16 +4841,15 @@
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{6th International Symposium on Computational and Business Intelligence, ISCBI 2018}
-      \field{eventyear}{2018}
       \field{isbn}{9781538694503}
+      \field{journaltitle}{6th International Symposium on Computational and Business Intelligence, ISCBI 2018}
       \field{title}{Understanding backers' motivations and perceptions of information on product-based crowdfunding platforms}
-      \field{year}{2019}
-      \field{eventdateera}{ce}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{84\bibrangedash 88}
       \range{pages}{5}
       \verb{doi}
@@ -4944,6 +4928,37 @@
       \verb https://www.universocrowdfunding.com/que-es-el-crowdfunding/
       \endverb
     \endentry
+    \entry{tec_viera2013backpropexplain}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad22d4167e6563ed3315dc243a57fb8}{%
+           family={Viera\bibnamedelima Balanta},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ad22d4167e6563ed3315dc243a57fb8}
+      \strng{fullhash}{8ad22d4167e6563ed3315dc243a57fb8}
+      \strng{bibnamehash}{8ad22d4167e6563ed3315dc243a57fb8}
+      \strng{authorbibnamehash}{8ad22d4167e6563ed3315dc243a57fb8}
+      \strng{authornamehash}{8ad22d4167e6563ed3315dc243a57fb8}
+      \strng{authorfullhash}{8ad22d4167e6563ed3315dc243a57fb8}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{\textit{Backpropagation explicación} [Archivo de video]}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://youtu.be/0odQ286nsIY
+      \endverb
+      \verb{url}
+      \verb https://youtu.be/0odQ286nsIY
+      \endverb
+    \endentry
     \entry{ot_webrobots2019kickstarter}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6d75ec139b23ed572b6e3496381898ce}{%
@@ -5002,15 +5017,14 @@
       \field{sortinit}{X}
       \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{2018 Portland International Conference on Management of Engineering and Technology (PICMET)}
-      \field{eventyear}{2018}
+      \field{journaltitle}{2018 Portland International Conference on Management of Engineering and Technology (PICMET)}
       \field{title}{Using Crowdfunding in an Innovative Way: A Case Study from a Chinese Crowdfunding Platform}
       \field{year}{2018}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 9}
       \range{pages}{9}
       \verb{doi}
@@ -5107,15 +5121,14 @@
       \field{sortinit}{Y}
       \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}
-      \field{eventyear}{2018}
+      \field{journaltitle}{2018 IEEE 15th International Conference on e-Business Engineering (ICEBE)}
       \field{series}{ICEBE '18}
       \field{title}{Prediction of Crowdfunding Project Success with Deep Learning}
       \field{year}{2018}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
       \verb{doi}
@@ -5289,16 +5302,14 @@
       \field{sortinit}{Z}
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{event}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{The 8th International Joint Conference on Natural Language Processing}
-      \field{eventyear}{2017}
-      \field{journaltitle}{Proceedings of the The 8th International Joint Conference on Natural Language Processing}
+      \field{journaltitle}{8th International Joint Conference on Natural Language Processing}
       \field{title}{A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification}
       \field{year}{2017}
-      \field{eventdateera}{ce}
+      \field{dateera}{ce}
       \field{pages}{253\bibrangedash 263}
       \range{pages}{11}
       \verb{urlraw}
@@ -5362,14 +5373,16 @@
       \field{sortinit}{Z}
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventtitle}{Twenty-first Americas Conference on Information Systems, Puerto Rico, 2015}
-      \field{journaltitle}{21st Americas Conference on Information Systems, {AMCIS} 2015, Puerto Rico, August 13-15, 2015}
+      \field{day}{12}
+      \field{journaltitle}{Twenty-first Americas Conference on Information Systems, Puerto Rico, 2015}
+      \field{month}{8}
       \field{series}{AMCIS '15}
       \field{title}{Money Talks: A Predictive Model on Crowdfunding Success Using Project Description}
       \field{year}{2015}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb http://aisel.aisnet.org/amcis2015/BizAnalytics/GeneralPresentations/37
       \endverb
@@ -5410,7 +5423,7 @@
       \verb https://towardsdatascience.com/a-simple-explanation-of-the-bag-of-words-model-b88fc4f4971
       \endverb
     \endentry
-    \entry{tec_zimovnov2018text_preprocessing}{online}{}
+    \entry{tec_zimovnov2018text_preprocessing}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=373068bb9a8bfbcc290add8272392d18}{%
            family={Zimovnov},
@@ -5432,7 +5445,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{NLP - Text Preprocessing and Text Classification (using Python) [Archivo de video]}
+      \field{title}{\textit{NLP - Text Preprocessing and Text Classification (using Python)} [Archivo de video]}
       \field{year}{2018}
       \verb{urlraw}
       \verb https://youtu.be/nxhCyeRR75Q
