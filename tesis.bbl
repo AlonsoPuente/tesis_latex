@@ -3015,7 +3015,7 @@
       \verb https://repository.upenn.edu/wharton_research_scholars/121/
       \endverb
     \endentry
-    \entry{tec_liu2018multideeplearning}{report}{}
+    \entry{tec_liu2018multideeplearning}{article}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=66c456e57b9efe69ef419c28e6d9e128}{%
            family={Liu},
@@ -3055,9 +3055,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{eid}{arXiv:1805.11730}
+      \field{eprintclass}{stat.ML}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv e-prints}
+      \field{month}{5}
       \field{title}{Learn to Combine Modalities in Multimodal Deep Learning}
-      \field{type}{Reporte técnico}
       \field{year}{2018}
+      \verb{eprint}
+      \verb 1805.11730
+      \endverb
       \verb{urlraw}
       \verb https://arxiv.org/pdf/1805.11730.pdf
       \endverb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  3 MAY 2021 03:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  9 MAY 2021 02:21
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -3045,12 +3045,18 @@ Overfull \hbox (17.74033pt too wide) in paragraph at lines 387--387
  []
 
 [176] [177]
+
+Package biblatex Warning: Bibliography string 'jourarticle' untranslated
+(biblatex)                at entry 'tec_liu2018multideeplearning' on input line
+ 387.
+
+[178]
 Overfull \hbox (2.16461pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
 VM). Re-cu-pe-ra-do de [][]$https : / / la . mathworks .
  []
 
-[178] [179]
+[179]
 Overfull \hbox (2.22777pt too wide) in paragraph at lines 387--387
 \OT1/ptm/m/n/12 towardsdatascience . com / 17 -[] rules -[] of -[] thumb -[] fo
 r -[] building -[] a -[] neural -[] network -[] 93356f9930af$[][] 
@@ -3066,7 +3072,7 @@ ng? Re-cu-pe-ra-do de [][]$https : / / www . universocrowdfunding .
 
 
 ] (anexos/anexo.tex
-<anexos/arbol_problemas.png, id=2887, 915.9018pt x 526.1256pt>
+<anexos/arbol_problemas.png, id=2888, 915.9018pt x 526.1256pt>
 File: anexos/arbol_problemas.png Graphic file (type png)
 <use anexos/arbol_problemas.png>
 Package pdftex.def Info: anexos/arbol_problemas.png  used on input line 16.
@@ -3079,7 +3085,7 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 16--18
 [185
 
  <./anexos/arbol_problemas.png>]
-<anexos/arbol_objetivos.png, id=2895, 915.9018pt x 526.1256pt>
+<anexos/arbol_objetivos.png, id=2896, 915.9018pt x 526.1256pt>
 File: anexos/arbol_objetivos.png Graphic file (type png)
 <use anexos/arbol_objetivos.png>
 Package pdftex.def Info: anexos/arbol_objetivos.png  used on input line 29.
@@ -3609,10 +3615,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29951 strings out of 480763
- 549699 string characters out of 2904056
+ 29952 strings out of 480763
+ 549714 string characters out of 2904056
  1401444 words of memory out of 3000000
- 44563 multiletter control sequences out of 15000+200000
+ 44564 multiletter control sequences out of 15000+200000
  593542 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,96p,2007b,2718s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3627,9 +3633,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (217 pages, 13717547 bytes).
+Output written on tesis.pdf (217 pages, 13717823 bytes).
 PDF statistics:
- 3164 PDF objects out of 3580 (max. 8388607)
+ 3165 PDF objects out of 3580 (max. 8388607)
  667 named destinations out of 1000 (max. 500000)
  1421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

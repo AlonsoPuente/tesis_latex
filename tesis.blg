@@ -1,18 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'tesis.blg'
-[75] biber-MSWIN64:322> INFO - === 
-[98] Biber.pm:415> INFO - Reading 'tesis.bcf'
-[472] Biber.pm:943> INFO - Found 138 citekeys in bib section 0
-[498] Biber.pm:4256> INFO - Processing section 0
-[499] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
-[511] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
-[527] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
-[540] bibtex.pm:1653> INFO - LaTeX decoding ...
-[713] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
-[1090] Utils.pm:304> WARN - Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'
-[1987] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1987] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1988] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[2387] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[2479] bbl.pm:755> INFO - Output to tesis.bbl
-[2479] Biber.pm:128> INFO - WARNINGS: 1
+[131] biber-MSWIN64:322> INFO - === 
+[153] Biber.pm:415> INFO - Reading 'tesis.bcf'
+[989] Biber.pm:943> INFO - Found 138 citekeys in bib section 0
+[1025] Biber.pm:4256> INFO - Processing section 0
+[1026] Utils.pm:75> INFO - Globbing data source 'biblio/references.bib'
+[1044] Utils.pm:91> INFO - Globbed data source 'biblio/references.bib' to biblio/references.bib
+[1076] Biber.pm:4455> INFO - Looking for bibtex format file 'biblio/references.bib' for section 0
+[1132] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1599] bibtex.pm:1471> INFO - Found BibTeX data source 'biblio/references.bib'
+[2427] Utils.pm:304> WARN - Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'
+[3371] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3371] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3372] Biber.pm:4084> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[3679] bbl.pm:652> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[3765] bbl.pm:755> INFO - Output to tesis.bbl
+[3765] Biber.pm:128> INFO - WARNINGS: 1
