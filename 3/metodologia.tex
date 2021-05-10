@@ -691,6 +691,12 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Met
 
 De acuerdo a los resultados de los autores citados, los modelos de Redes Neuronales (MLP), SVM y Regresión Logística tuvieron los mejores rendimientos en sus experimentos. Dado que la investigación consistió en implementar un modelo de Aprendizaje Profundo Multimodal, en donde se ensamblan modelos de Aprendizaje Profundo, se optó por el modelo Perceptrón Multicapa para la Metainformación.
 
+Para desarrollar la arquitectura del modelo Perceptrón Multicapa, se evaluaron metodologías y estrategias utilizadas en la literatura, como la investigación de los autores \cite{pr_yu2018deeplearning} y las 17 Reglas del Pulgar según \cite{tec_ranjan2019thumbrules}.
+
+De estas últimas reglas, se tomaron aquellas para determinar el número de capas ocultas, número de neuronas en las capas intermedias, número de nodos para la capa de salida de clasificación, las funciones de activación para las capas intermedias, la función de activación para la capa de salida de clasificación, las capas de desactivación y sus ratios, el método para pre-procesar los datos, el método para separar en subconjuntos de entrenamiento y prueba, los pesos de las clases en caso se encuentren desbalanceadas, el optimizador, las métricas para clasificación, el número de épocas y el tamaño del lote. Estas 14 estrategias consideradas se detallan y justifican más adelante en el Capítulo V.
+
+Por el lado de la metodología seguida por \citeauthor{pr_yu2018deeplearning}, los investigadores determinaron el número de neuronas de la capa de entrada como el número de variables del conjunto de datos, el número de neuronas en la capa de salida como el número de clases, y agregar una o más capas lineales como capas ocultas entre la capa de entrada y la capa de salida. Se encontraron puntos de coincidencias con las Reglas del Pulgar en la función de activación como \textit{relu} para las capas ocultas, la función de activación \textit{sigmoid} para la capa de salida en caso se presente un problema de clasificación binario y \textit{softmax} para un problema de clasificación multiclase, utilizar de preferencia el optimizador \textit{Adam} y aumentar el número de épocas de entrenamiento en caso darse mejoras del rendimiento del modelo.
+
 \textbf{Entregable}: Modelo Perceptrón Multicapa para modalidad Metainformación.
 
 \textbf{Actividad 2: Desarrollar modelo predictivo de Descripción}
@@ -708,6 +714,10 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Des
 
 De acuerdo a la anterior lista, los modelos como el LDA o Seq2seq requirieron procesadores de gama alta o pocos proyectos para ser entrenados debido a la complejidad de su arquitectura. Por el lado de los modelos SVM y Regresión Logística, al ser métodos de Aprendizaje Automático, se descartaron para la investigación dado a la imposibilidad de ser anexadas a modelos de Aprendizaje Profundo. Finalmente, entre el modelo CNN y LSTM, se optó por elegir el primero para la modalidad de descripción dado que este, el cual bajo una arquitectura unidimensional puede ser aplicado para textos, solo necesita usar representaciones de textos en vectores para clasificar un target, a diferencia del segundo método, el cual fue utilizado para la modalidad de comentarios al tratarse estos de secuencias de palabras.
 
+Para desarrollar el submodelo basado en una CNN, se siguieron los pasos utilizados por \cite{tec_malik2019pythonnlp} para diseñar la arquitectura, asignando el tamaño del vocabulario como el número de neuronas de la capa de entrada, fijando 128 kernels para la capa de convolución unidimensional y tamaño de kernel 5, agregando una capa de reducción (\textit{GlobalMaxPooling}) luego de la capa de convolución y una capa densa antes de la capa de salida de clasificación. Los parámetros establecidos para el número de neuronas de las capas intermedias y funciones de activación de cada capa derivaron de las mismas estrategias empleadas para la construcción del submodelo de Metainformación.
+
+\cite{tec_ardi2020conv1d}, por su lado, coincide con el párrafo anterior, agregando una capa de aplanamiento después de la capa de reducción y hasta 3 capas de desactivación entre la capa de reducción y la capa de salida. Para el presente trabajo, las capas de desactivación no fueron tomadas en cuenta ya que su inclusión no afectó notablemente el rendimiento del modelo entrenado, como se explica más adelante en el Capítulo V.
+
 \textbf{Entregable}: Red Neuronal Convolucional para modalidad Descripción.
 
 \textbf{Actividad 3: Desarrollar modelo predictivo de Comentarios}
@@ -718,14 +728,16 @@ En esta actividad, se diseñó la arquitectura que se usó para la modalidad Com
 	\item \textbf{LSTM}: \cite{pr_jin2019dayssuccess}, \cite{pr_shafqat2019topicpredictions}.
 	\item \textbf{LDA o variantes}: \cite{pr_shafqat2019topicpredictions}.
 	\item \textbf{Modelo Seq2seq}: \cite{pr_lee2018contentDL}, \cite{pr_jin2019dayssuccess}.
-	\item \textbf{HAN}: \citeauthor{pr_lee2018contentDL}.
+	\item \textbf{HAN}: \cite{pr_lee2018contentDL}.
 	\item \textbf{Regresión Logística}: \cite{pr_li2016predcrowd}, \cite{pr_kaur2017socmedcrowd}.
 	\item \textbf{Regresión Log-logística}: \cite{pr_li2016predcrowd}.
 \end{itemize}
 
 Como se menciona en la anterior actividad, para el modelo predictivo de comentarios se implementó un modelo de LSTM dado el comportamiento de esta modalidad basada en secuencias de palabras. Además, se definió esta red como Bidireccional para que cada comentario que se busque predecir pueda ser entrenado en ambas direcciones de la secuencia, es decir con palabras previas y posteriores en una oración, logrando así encaminar de forma más efectiva hacia su clasificación de estado de financiamiento.
 
-En una primera instancia, se planeó considerar desarrollar un modelo LDA teniendo como base el trabajo de \cite{pr_shafqat2019topicpredictions}. Sin embargo, tal y como los autores mencionan, la complejidad de su arquitectura sumado a la poca cantidad de registros utilizados para el entrenamiento (solo 600 proyectos) contrastan con las características de la variable de comentarios en esta investigación.
+En una primera instancia, se planeó considerar desarrollar un modelo LDA teniendo como base el trabajo de \cite{pr_shafqat2019topicpredictions}. Sin embargo, tal y como los autores mencionan, la complejidad de su arquitectura sumado a la poca cantidad de registros utilizados para el entrenamiento (solo 600 proyectos) contrastan con las características de la variable de comentarios en esta investigación. Además, este tipo de redes neuronales recurrentes representa una mejor opción para tratar problemas de secuencias de palabras ya que almacenan estados previos para decidir el siguiente en un texto.
+
+Para desarrollar el submodelo basado en una LSTM Bidireccional, al tratarse de un modelo más complejo que un MLP o una CNN ya que está compuesto por compuertas y funciones de asignación pre-establecidas, según \cite{tec_malik2019pythonnlp} se debe diseñar la misma arquitectura que se utilizó para una CNN, con la diferencia de reemplazar desde la capa de convolución unidimensional hasta la capa densa previa a la capa de salida por una capa LSTM con un número de neuronas asignada por el usuario. Para lograr mejores resultados luego del entrenamiento, se estableció esta capa como Bidireccional según \cite{tec_brownlee2017bidirectional_lstm}. Estos detalles se explican más adelante en el Capítulo V.
 
 \textbf{Entregable}: Modelo LSTM Bidireccional para modalidad Comentarios.
 

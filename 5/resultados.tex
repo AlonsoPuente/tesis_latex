@@ -166,7 +166,39 @@ En el antecedente marcado en (*), los modelos no fueron evaluados por AUC; mient
 
 \textbf{Actividad 1: Evaluar desempeño del modelo predictivo de Metainformación}
 \\
-Luego de 19 épocas, con un promedio de 3 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 3 épocas se redujo su tasa de aprendizaje.
+Las 8 combinaciones de variables de la Tabla \ref{4:table2} para el submodelo de Metainformación, luego de ser pre-procesadas utilizando el escalador Min-Max, fueron entrenadas durante 100 épocas cada una. En la Tabla \ref{5:table0} se presentan los resultados obtenidos.
+
+\begin{table}[h!]
+	\caption[Exactitud de los conjuntos de datos de validación para las 8 combinaciones]{Exactitud de los conjuntos de datos de validación para las 8 combinaciones.}
+	\label{5:table0}
+	\centering
+	\small
+	\begin{tabular}{ M{3.5cm}M{3.5cm}M{3.5cm}M{3.5cm}  }
+		\specialrule{.1em}{.05em}{.05em}
+		%\rowcolor{bluejean}
+		\Centering{Combinación 1}& \Centering{Combinación 2}& \Centering{Combinación 3}& \Centering{Combinación 4}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+		0.88405 & 0.89855 & 0.89763 & 0.88369 \\
+		\specialrule{.1em}{.05em}{.05em}
+		\Centering{Combinación 5}& \Centering{Combinación 6}&
+		\Centering{Combinación 7}& \Centering{Combinación 8}
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+		0.93102 & 0.92588 & 0.92478 & 0.92478
+		\\
+		\specialrule{.1em}{.05em}{.05em}
+	\end{tabular}
+	%\par	%%Salto de linea
+	%\bigskip
+	\begin{flushleft}	%%Alinear a la izquierda sin justificar
+		\small Fuente: Elaboración propia.
+	\end{flushleft}
+\end{table}
+
+El mejor rendimiento lo produjo la combinación 5, la cual alcanzó un valor de exactitud de 0.93102 luego de 19 épocas, con un promedio de 3 segundos de entrenamiento cada una. Al acabar este proceso, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 3 épocas se redujo su tasa de aprendizaje.
+
+Se concluye que la ventaja del grupo de las 4 últimas combinatorias frente a las primeras se da por la inclusión de la variable del monto recaudado al final de la campaña (\textit{pledged}) en lugar del número de patrocinadores alcanzados (\textit{backer\_count}). Además, la combinación 5 supera a las siguientes 3 por considerar la mediana de los montos disponibles para contribuir en la campaña, frente a la media, variación estándar, valor máximo y valor mínimo de estos montos.
 
 Así, de acuerdo a la Figura \ref{5:fig1}, en la época 11 se registran los mejores valores de exactitud y pérdida para el subconjunto de validación, alcanzando 0.9523 y 0.1246 respectivamente.
 
@@ -190,6 +222,7 @@ La matriz de confusión resultante se representa en la Figura \ref{5:fig2}.
 	\end{center}
 \end{figure}
 
+\newpage
 De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en la Figura \ref{5:fig3}.
 
 \begin{table}[h!]
