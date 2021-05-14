@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  11 MAY 2021 03:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  14 MAY 2021 04:37
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2435,34 +2435,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <3/figures/auc_example.jpg, id=2084, 366.168pt x 257.2812pt>
 File: 3/figures/auc_example.jpg Graphic file (type jpg)
 <use 3/figures/auc_example.jpg>
-Package pdftex.def Info: 3/figures/auc_example.jpg  used on input line 985.
+Package pdftex.def Info: 3/figures/auc_example.jpg  used on input line 988.
 (pdftex.def)             Requested size: 249.13391pt x 175.05098pt.
  [121]
 <3/figures/auc_curves.jpg, id=2096, 885.3075pt x 353.32pt>
 File: 3/figures/auc_curves.jpg Graphic file (type jpg)
 <use 3/figures/auc_curves.jpg>
-Package pdftex.def Info: 3/figures/auc_curves.jpg  used on input line 1006.
-(pdftex.def)             Requested size: 362.37598pt x 144.62492pt.
+Package pdftex.def Info: 3/figures/auc_curves.jpg  used on input line 1009.
+(pdftex.def)             Requested size: 452.96826pt x 180.77846pt.
  [122 <./3/figures/auc_example.jpg>] [123 <./3/figures/auc_curves.jpg>] [124]
 <3/figures/cronograma.png, id=2172, 1283.39474pt x 501.072pt>
 File: 3/figures/cronograma.png Graphic file (type png)
 <use 3/figures/cronograma.png>
-Package pdftex.def Info: 3/figures/cronograma.png  used on input line 1072.
+Package pdftex.def Info: 3/figures/cronograma.png  used on input line 1075.
 (pdftex.def)             Requested size: 702.10217pt x 274.12247pt.
 
-Overfull \hbox (1.59494pt too wide) in paragraph at lines 1072--1074
+Overfull \hbox (1.59494pt too wide) in paragraph at lines 1075--1077
  [] 
  []
 
 [125
 
  <./3/figures/cronograma.png>]
-Overfull \hbox (16.10959pt too wide) in paragraph at lines 1088--1119
+Overfull \hbox (16.10959pt too wide) in paragraph at lines 1091--1122
  [][] 
  []
 
 
-Overfull \hbox (12.14511pt too wide) in paragraph at lines 1131--1155
+Overfull \hbox (12.14511pt too wide) in paragraph at lines 1134--1158
  [][] 
  []
 
@@ -2743,14 +2743,14 @@ ction.jpg>]
 File: 4/figures/description_wordcloud.png Graphic file (type png)
 <use 4/figures/description_wordcloud.png>
 Package pdftex.def Info: 4/figures/description_wordcloud.png  used on input lin
-e 546.
+e 548.
 (pdftex.def)             Requested size: 294.4266pt x 153.21523pt.
 <4/figures/description_word_representation.jpg, id=2376, 477.58424pt x 269.2057
 5pt>
 File: 4/figures/description_word_representation.jpg Graphic file (type jpg)
 <use 4/figures/description_word_representation.jpg>
 Package pdftex.def Info: 4/figures/description_word_representation.jpg  used on
- input line 557.
+ input line 559.
 (pdftex.def)             Requested size: 430.31847pt x 242.57047pt.
  [148 <./4/figures/description_wordcloud.png> <./4/figures/description_word_rep
 resentation.jpg>]
@@ -2758,14 +2758,14 @@ resentation.jpg>]
 File: 4/figures/description_embedding_matrix.jpg Graphic file (type jpg)
 <use 4/figures/description_embedding_matrix.jpg>
 Package pdftex.def Info: 4/figures/description_embedding_matrix.jpg  used on in
-put line 570.
+put line 572.
 (pdftex.def)             Requested size: 339.7262pt x 218.27621pt.
  [149 <./4/figures/description_embedding_matrix.jpg>]
 <4/figures/comments_wordcloud_processed.png, id=2391, 372.1905pt x 193.6836pt>
 File: 4/figures/comments_wordcloud_processed.png Graphic file (type png)
 <use 4/figures/comments_wordcloud_processed.png>
 Package pdftex.def Info: 4/figures/comments_wordcloud_processed.png  used on in
-put line 587.
+put line 589.
 (pdftex.def)             Requested size: 285.37221pt x 148.50436pt.
 ) (5/resultados.tex [150 <./4/figures/comments_wordcloud_processed.png>]
 Cap\'{\i }tulo V.
@@ -2774,7 +2774,7 @@ File: 4/figures/model_mlp_metadata.png Graphic file (type png)
 <use 4/figures/model_mlp_metadata.png>
 Package pdftex.def Info: 4/figures/model_mlp_metadata.png  used on input line 1
 5.
-(pdftex.def)             Requested size: 181.18454pt x 279.12411pt.
+(pdftex.def)             Requested size: 194.77303pt x 300.05891pt.
 [151
 
 ] [152 <./4/figures/model_mlp_metadata.png>]
@@ -2782,22 +2782,22 @@ Package pdftex.def Info: 4/figures/model_mlp_metadata.png  used on input line 1
 File: 4/figures/model_cnn_description.png Graphic file (type png)
 <use 4/figures/model_cnn_description.png>
 Package pdftex.def Info: 4/figures/model_cnn_description.png  used on input lin
-e 43.
-(pdftex.def)             Requested size: 271.7837pt x 312.9788pt.
+e 44.
+(pdftex.def)             Requested size: 285.37221pt x 328.63507pt.
  [153 <./4/figures/model_cnn_description.png>]
 <4/figures/model_rnn_comments.png, id=2422, 590.205pt x 517.935pt>
 File: 4/figures/model_rnn_comments.png Graphic file (type png)
 <use 4/figures/model_rnn_comments.png>
-Package pdftex.def Info: 4/figures/model_rnn_comments.png  used on input line 6
-8.
-(pdftex.def)             Requested size: 271.7837pt x 238.50587pt.
+Package pdftex.def Info: 4/figures/model_rnn_comments.png  used on input line 7
+0.
+(pdftex.def)             Requested size: 285.37221pt x 250.43156pt.
  [154]
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
  []|\OT1/ptm/m/n/10.95 Detalle| 
  []
 
 
-Overfull \hbox (9.82306pt too wide) in paragraph at lines 88--118
+Overfull \hbox (9.82306pt too wide) in paragraph at lines 91--121
  [][] 
  []
 
@@ -2809,7 +2809,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: 4/figures/final_stacked_model.png Graphic file (type png)
 <use 4/figures/final_stacked_model.png>
 Package pdftex.def Info: 4/figures/final_stacked_model.png  used on input line 
-144.
+147.
 (pdftex.def)             Requested size: 543.56053pt x 305.66331pt.
  [157
 
@@ -2824,184 +2824,167 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: 5/figures/metadata_model_acc_loss.png Graphic file (type png)
 <use 5/figures/metadata_model_acc_loss.png>
 Package pdftex.def Info: 5/figures/metadata_model_acc_loss.png  used on input l
-ine 207.
+ine 211.
 (pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
 <5/figures/metadata_confusion_matrix.png, id=2509, 381.5856pt x 298.4751pt>
 File: 5/figures/metadata_confusion_matrix.png Graphic file (type png)
 <use 5/figures/metadata_confusion_matrix.png>
 Package pdftex.def Info: 5/figures/metadata_confusion_matrix.png  used on input
- line 218.
-(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
- [159 <./5/figures/metadata_model_acc_loss.png>]
-Underfull \hbox (badness 1092) in paragraph at lines 235--235
+ line 222.
+(pdftex.def)             Requested size: 317.0764pt x 248.03029pt.
+
+Underfull \hbox (badness 1092) in paragraph at lines 239--239
  []|\OT1/ptm/m/n/10.95 Valor| 
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 233--252
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 237--256
  [][] 
  []
 
-[160 <./5/figures/metadata_confusion_matrix.png>]
-<5/figures/metadata_auc.png, id=2522, 417.7206pt x 328.8285pt>
+[159 <./5/figures/metadata_model_acc_loss.png>]
+<5/figures/metadata_auc.png, id=2517, 417.7206pt x 328.8285pt>
 File: 5/figures/metadata_auc.png Graphic file (type png)
 <use 5/figures/metadata_auc.png>
-Package pdftex.def Info: 5/figures/metadata_auc.png  used on input line 266.
-(pdftex.def)             Requested size: 253.66112pt x 199.67693pt.
+Package pdftex.def Info: 5/figures/metadata_auc.png  used on input line 271.
+(pdftex.def)             Requested size: 226.48413pt x 178.28726pt.
+ [160 <./5/figures/metadata_confusion_matrix.png>]
 <5/figures/description_model_acc_loss.png, id=2525, 785.5749pt x 284.0211pt>
 File: 5/figures/description_model_acc_loss.png Graphic file (type png)
 <use 5/figures/description_model_acc_loss.png>
 Package pdftex.def Info: 5/figures/description_model_acc_loss.png  used on inpu
-t line 283.
+t line 290.
 (pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
-<5/figures/description_confusion_matrix.png, id=2527, 381.5856pt x 298.4751pt>
+ [161 <./5/figures/metadata_auc.png> <./5/figures/description_model_acc_loss.pn
+g>]
+<5/figures/description_confusion_matrix.png, id=2534, 381.5856pt x 298.4751pt>
 File: 5/figures/description_confusion_matrix.png Graphic file (type png)
 <use 5/figures/description_confusion_matrix.png>
 Package pdftex.def Info: 5/figures/description_confusion_matrix.png  used on in
-put line 294.
-(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
+put line 303.
+(pdftex.def)             Requested size: 308.01509pt x 240.93916pt.
 
-Underfull \hbox (badness 1092) in paragraph at lines 310--310
+Underfull \hbox (badness 1092) in paragraph at lines 320--320
  []|\OT1/ptm/m/n/10.95 Valor| 
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 308--327
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 318--337
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[161 <./5/figures/metadata_auc.png>] [162 <./5/figures/description_model_acc_lo
-ss.png> <./5/figures/description_confusion_matrix.png>]
-<5/figures/description_auc.png, id=2542, 417.7206pt x 328.8285pt>
+<5/figures/description_auc.png, id=2537, 417.7206pt x 328.8285pt>
 File: 5/figures/description_auc.png Graphic file (type png)
 <use 5/figures/description_auc.png>
-Package pdftex.def Info: 5/figures/description_auc.png  used on input line 341.
+Package pdftex.def Info: 5/figures/description_auc.png  used on input line 352.
 
-(pdftex.def)             Requested size: 253.66112pt x 199.67693pt.
- [163 <./5/figures/description_auc.png>]
-<5/figures/comments_model_acc_loss.png, id=2550, 785.5749pt x 284.0211pt>
+(pdftex.def)             Requested size: 217.42282pt x 171.15236pt.
+[162 <./5/figures/description_confusion_matrix.png>]
+<5/figures/comments_model_acc_loss.png, id=2545, 785.5749pt x 284.0211pt>
 File: 5/figures/comments_model_acc_loss.png Graphic file (type png)
 <use 5/figures/comments_model_acc_loss.png>
 Package pdftex.def Info: 5/figures/comments_model_acc_loss.png  used on input l
-ine 359.
+ine 371.
 (pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
-<5/figures/comments_confusion_matrix.png, id=2552, 381.5856pt x 298.4751pt>
+ [163 <./5/figures/description_auc.png> <./5/figures/comments_model_acc_loss.pn
+g>]
+<5/figures/comments_confusion_matrix.png, id=2553, 381.5856pt x 298.4751pt>
 File: 5/figures/comments_confusion_matrix.png Graphic file (type png)
 <use 5/figures/comments_confusion_matrix.png>
 Package pdftex.def Info: 5/figures/comments_confusion_matrix.png  used on input
- line 369.
-(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
+ line 383.
+(pdftex.def)             Requested size: 317.0764pt x 248.03029pt.
 
-Underfull \hbox (badness 1092) in paragraph at lines 385--385
+Underfull \hbox (badness 1092) in paragraph at lines 400--400
  []|\OT1/ptm/m/n/10.95 Valor| 
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 383--402
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 398--417
  [][] 
  []
 
-[164 <./5/figures/comments_model_acc_loss.png>]
-<5/figures/comments_auc.png, id=2560, 417.7206pt x 328.8285pt>
+<5/figures/comments_auc.png, id=2556, 417.7206pt x 328.8285pt>
 File: 5/figures/comments_auc.png Graphic file (type png)
 <use 5/figures/comments_auc.png>
-Package pdftex.def Info: 5/figures/comments_auc.png  used on input line 416.
-(pdftex.def)             Requested size: 258.19522pt x 203.24939pt.
-<5/figures/stacked_model_acc_loss.png, id=2563, 785.5749pt x 284.0211pt>
+Package pdftex.def Info: 5/figures/comments_auc.png  used on input line 432.
+(pdftex.def)             Requested size: 212.89563pt x 167.58992pt.
+[164 <./5/figures/comments_confusion_matrix.png>]
+<5/figures/stacked_model_acc_loss.png, id=2564, 785.5749pt x 284.0211pt>
 File: 5/figures/stacked_model_acc_loss.png Graphic file (type png)
 <use 5/figures/stacked_model_acc_loss.png>
 Package pdftex.def Info: 5/figures/stacked_model_acc_loss.png  used on input li
-ne 434.
+ne 451.
 (pdftex.def)             Requested size: 452.96826pt x 163.77023pt.
- [165 <./5/figures/comments_confusion_matrix.png>]
-<5/figures/stacked_confusion_matrix.png, id=2570, 381.5856pt x 298.4751pt>
+<5/figures/stacked_confusion_matrix.png, id=2566, 381.5856pt x 298.4751pt>
 File: 5/figures/stacked_confusion_matrix.png Graphic file (type png)
 <use 5/figures/stacked_confusion_matrix.png>
 Package pdftex.def Info: 5/figures/stacked_confusion_matrix.png  used on input 
-line 445.
-(pdftex.def)             Requested size: 339.7262pt x 265.74675pt.
-
-Underfull \hbox (badness 1092) in paragraph at lines 461--461
+line 462.
+(pdftex.def)             Requested size: 317.0764pt x 248.03029pt.
+ [165 <./5/figures/comments_auc.png> <./5/figures/stacked_model_acc_loss.png>]
+Underfull \hbox (badness 1092) in paragraph at lines 479--479
  []|\OT1/ptm/m/n/10.95 Valor| 
  []
 
 
-Overfull \hbox (19.59666pt too wide) in paragraph at lines 459--476
+Overfull \hbox (19.59666pt too wide) in paragraph at lines 477--494
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[166 <./5/figures/comments_auc.png> <./5/figures/stacked_model_acc_loss.png>]
-<5/figures/stacked_auc.png, id=2579, 417.7206pt x 328.8285pt>
+[166 <./5/figures/stacked_confusion_matrix.png>]
+<5/figures/stacked_auc.png, id=2580, 417.7206pt x 328.8285pt>
 File: 5/figures/stacked_auc.png Graphic file (type png)
 <use 5/figures/stacked_auc.png>
-Package pdftex.def Info: 5/figures/stacked_auc.png  used on input line 492.
-(pdftex.def)             Requested size: 258.19522pt x 203.24939pt.
-
-[167 <./5/figures/stacked_confusion_matrix.png>] [168 <./5/figures/stacked_auc.
-png>] [169]
-<4/figures/prototipo_input_project1.jpg, id=2605, 754.017pt x 109.00725pt>
+Package pdftex.def Info: 5/figures/stacked_auc.png  used on input line 509.
+(pdftex.def)             Requested size: 226.48413pt x 178.28726pt.
+ [167 <./5/figures/stacked_auc.png>] [168]
+<4/figures/prototipo_input_project1.jpg, id=2601, 754.017pt x 109.00725pt>
 File: 4/figures/prototipo_input_project1.jpg Graphic file (type jpg)
 <use 4/figures/prototipo_input_project1.jpg>
 Package pdftex.def Info: 4/figures/prototipo_input_project1.jpg  used on input 
-line 552.
-(pdftex.def)             Requested size: 498.26784pt x 72.0348pt.
-
-Overfull \hbox (45.29958pt too wide) in paragraph at lines 552--554
- [] 
- []
-
-<4/figures/example_project_150221.jpg, id=2607, 947.9415pt x 531.78674pt>
+line 569.
+(pdftex.def)             Requested size: 452.96826pt x 65.48468pt.
+<4/figures/example_project_150221.jpg, id=2603, 947.9415pt x 531.78674pt>
 File: 4/figures/example_project_150221.jpg Graphic file (type jpg)
 <use 4/figures/example_project_150221.jpg>
 Package pdftex.def Info: 4/figures/example_project_150221.jpg  used on input li
-ne 563.
-(pdftex.def)             Requested size: 475.61804pt x 266.81776pt.
-
-Overfull \hbox (22.64978pt too wide) in paragraph at lines 563--565
- [] 
- []
-
-[170 <./4/figures/prototipo_input_project1.jpg> <./4/figures/example_project_15
-0221.jpg>]
-<4/figures/metadata_scraped_project.jpg, id=2613, 335.45325pt x 93.951pt>
+ne 581.
+(pdftex.def)             Requested size: 430.31847pt x 241.40346pt.
+ [169 <./4/figures/prototipo_input_project1.jpg> <./4/figures/example_project_1
+50221.jpg>]
+<4/figures/metadata_scraped_project.jpg, id=2609, 335.45325pt x 93.951pt>
 File: 4/figures/metadata_scraped_project.jpg Graphic file (type jpg)
 <use 4/figures/metadata_scraped_project.jpg>
 Package pdftex.def Info: 4/figures/metadata_scraped_project.jpg  used on input 
-line 581.
+line 600.
 (pdftex.def)             Requested size: 339.7262pt x 95.15067pt.
-<4/figures/description_scraped_project.jpg, id=2614, 746.18774pt x 510.10574pt>
+<4/figures/description_scraped_project.jpg, id=2610, 746.18774pt x 510.10574pt>
 
 File: 4/figures/description_scraped_project.jpg Graphic file (type jpg)
 <use 4/figures/description_scraped_project.jpg>
 Package pdftex.def Info: 4/figures/description_scraped_project.jpg  used on inp
-ut line 586.
+ut line 605.
 (pdftex.def)             Requested size: 215.15923pt x 147.08624pt.
-<4/figures/comments_scraped_project.jpg, id=2615, 752.8125pt x 254.1495pt>
+<4/figures/comments_scraped_project.jpg, id=2611, 752.8125pt x 254.1495pt>
 File: 4/figures/comments_scraped_project.jpg Graphic file (type jpg)
 <use 4/figures/comments_scraped_project.jpg>
 Package pdftex.def Info: 4/figures/comments_scraped_project.jpg  used on input 
-line 591.
+line 610.
 (pdftex.def)             Requested size: 215.15923pt x 72.63889pt.
- [171 <./4/figures/metadata_scraped_project.jpg> <./4/figures/description_scrap
-ed_project.jpg> <./4/figures/comments_scraped_project.jpg>]
-<4/figures/demo_project_prediction.jpg, id=2621, 323.40825pt x 33.12375pt>
+<4/figures/demo_project_prediction.jpg, id=2613, 323.40825pt x 33.12375pt>
 File: 4/figures/demo_project_prediction.jpg Graphic file (type jpg)
 <use 4/figures/demo_project_prediction.jpg>
 Package pdftex.def Info: 4/figures/demo_project_prediction.jpg  used on input l
-ine 604.
+ine 623.
 (pdftex.def)             Requested size: 339.7262pt x 34.79509pt.
-)
-(6/conclusion.tex [172 <./4/figures/demo_project_prediction.jpg>]
+) (6/conclusion.tex [170 <./4/figures/metadata_scraped_project.jpg> <./4/figure
+s/description_scraped_project.jpg> <./4/figures/comments_scraped_project.jpg> <
+./4/figures/demo_project_prediction.jpg>]
 Cap\'{\i }tulo VI.
-[173
+[171
 
-] [174]) [175] [176
+] [172]) [173] [174
 
 ]
 Overfull \hbox (15.68823pt too wide) in paragraph at lines 387--387
@@ -3015,7 +2998,7 @@ Overfull \hbox (17.82265pt too wide) in paragraph at lines 387--387
 ictions[] -[] []high[]resolution[]statistical[]
  []
 
-[177]
+[175]
 Overfull \hbox (14.41931pt too wide) in paragraph at lines 387--387
 [][]$\OT1/ptm/m/n/12 https : / / subscription . packtpub . com / book / big[]da
 ta[]and[]business[]intelligence / 9781789808452 /
@@ -3028,7 +3011,7 @@ ptm/m/n/12 . Re-cu-pe-ra-do de [][]$https : / / towardsdatascience . com / rein
 forced -[]
  []
 
-[178]
+[176]
 Overfull \hbox (13.84326pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 Gonz[]alez, L. (2019). Cur-vas ROC y []Area ba-jo la cur-va
  (AUC). Re-cu-pe-ra-do de [][]$http : / / ligdigonzalez .
@@ -3053,35 +3036,35 @@ Overfull \hbox (17.74033pt too wide) in paragraph at lines 387--387
 [][]$https : / / www . ibm . com / support / knowledgecenter /
  []
 
-[179] [180]
+[177] [178]
 
 Package biblatex Warning: Bibliography string 'jourarticle' untranslated
 (biblatex)                at entry 'tec_liu2018multideeplearning' on input line
  387.
 
-[181]
+[179]
 Overfull \hbox (2.16461pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
 VM). Re-cu-pe-ra-do de [][]$https : / / la . mathworks .
  []
 
-[182]
+[180]
 Overfull \hbox (2.22777pt too wide) in paragraph at lines 387--387
 \OT1/ptm/m/n/12 towardsdatascience . com / 17 -[] rules -[] of -[] thumb -[] fo
 r -[] building -[] a -[] neural -[] network -[] 93356f9930af$[][] 
  []
 
-[183] [184]
+[181] [182]
 Overfull \hbox (66.82259pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 Universo Crowd-fun-ding. (s.f.). ?`Qu[]e es el crowd-fun-di
 ng? Re-cu-pe-ra-do de [][]$https : / / www . universocrowdfunding .
  []
 
-[185] [186] [187
+[183] [184] [185
 
 
 ] (anexos/anexo.tex
-<anexos/arbol_problemas.png, id=2917, 915.9018pt x 526.1256pt>
+<anexos/arbol_problemas.png, id=2909, 915.9018pt x 526.1256pt>
 File: anexos/arbol_problemas.png Graphic file (type png)
 <use anexos/arbol_problemas.png>
 Package pdftex.def Info: anexos/arbol_problemas.png  used on input line 16.
@@ -3091,10 +3074,10 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 16--18
  [] 
  []
 
-[188
+[186
 
  <./anexos/arbol_problemas.png>]
-<anexos/arbol_objetivos.png, id=2924, 915.9018pt x 526.1256pt>
+<anexos/arbol_objetivos.png, id=2916, 915.9018pt x 526.1256pt>
 File: anexos/arbol_objetivos.png Graphic file (type png)
 <use anexos/arbol_objetivos.png>
 Package pdftex.def Info: anexos/arbol_objetivos.png  used on input line 29.
@@ -3104,7 +3087,7 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 29--31
  [] 
  []
 
-[189
+[187
 
  <./anexos/arbol_objetivos.png>]
 Overfull \vbox (113.10023pt too high) detected at line 52
@@ -3240,10 +3223,10 @@ Underfull \hbox (badness 3189) in paragraph at lines 105--105
 \OT1/ptm/m/n/12 pren-de-do-res y crea-do-res
  []
 
-[190
+[188
 
 
-] [191]
+] [189]
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
 []\OT1/ptm/m/n/12 Recolecci[]on y pre-
  []
@@ -3258,10 +3241,10 @@ Overfull \hbox (36.04941pt too wide) in alignment at lines 356--357
  [] [] [] [] 
  []
 
-[192
+[190
 
 
-] [193] [194] [195]
+] [191] [192] [193]
 Overfull \vbox (75.40018pt too high) detected at line 374
  []
 
@@ -3417,10 +3400,10 @@ Overfull \hbox (9.45334pt too wide) in alignment at lines 427--487
  [] [] [] [] [] [] [] 
  []
 
-[196
+[194
 
 
-] [197]
+] [195]
 Overfull \vbox (113.10023pt too high) detected at line 488
  []
 
@@ -3454,7 +3437,7 @@ Overfull \hbox (9.45334pt too wide) in alignment at lines 487--515
  [] [] [] [] [] [] [] 
  []
 
-[198] [199] [200] [201] [202]
+[196] [197] [198] [199] [200]
 Underfull \hbox (badness 3354) in paragraph at lines 529--529
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
@@ -3489,7 +3472,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 571--580
 []| []| 
  []
 
-[203
+[201
 
 
 ]
@@ -3527,7 +3510,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 678--687
 []| []| 
  []
 
-[204
+[202
 
 ]
 Underfull \hbox (badness 3354) in paragraph at lines 743--743
@@ -3564,7 +3547,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 785--794
 []| []| 
  []
 
-[205
+[203
 
 ]
 Underfull \hbox (badness 4859) in paragraph at lines 844--844
@@ -3606,7 +3589,7 @@ Overfull \hbox (17.7399pt too wide) in alignment at lines 840--932
  [] [] 
  []
 
-[206
+[204
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
@@ -3624,8 +3607,8 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29969 strings out of 480763
- 549999 string characters out of 2904056
+ 29967 strings out of 480763
+ 549983 string characters out of 2904056
  1402672 words of memory out of 3000000
  44576 multiletter control sequences out of 15000+200000
  593542 words of font info for 157 fonts, out of 3000000 for 9000
@@ -3642,9 +3625,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (220 pages, 13730597 bytes).
+Output written on tesis.pdf (218 pages, 13728355 bytes).
 PDF statistics:
- 3193 PDF objects out of 3580 (max. 8388607)
- 672 named destinations out of 1000 (max. 500000)
+ 3185 PDF objects out of 3580 (max. 8388607)
+ 670 named destinations out of 1000 (max. 500000)
  1421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

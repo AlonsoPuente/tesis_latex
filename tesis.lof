@@ -129,16 +129,16 @@
 \contentsline {figure}{\numberline {127}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas}}{159}{figure.caption.171}%
 \contentsline {figure}{\numberline {128}{\ignorespaces Matriz de confusión para el modelo de metadata}}{160}{figure.caption.172}%
 \contentsline {figure}{\numberline {129}{\ignorespaces Área bajo la curva ROC de modelo de metadata}}{161}{figure.caption.174}%
-\contentsline {figure}{\numberline {130}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{162}{figure.caption.175}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas}}{161}{figure.caption.175}%
 \contentsline {figure}{\numberline {131}{\ignorespaces Matriz de confusión para el modelo de descripciones}}{162}{figure.caption.176}%
 \contentsline {figure}{\numberline {132}{\ignorespaces Área bajo la curva ROC de modelo de descripciones}}{163}{figure.caption.178}%
-\contentsline {figure}{\numberline {133}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas}}{164}{figure.caption.179}%
-\contentsline {figure}{\numberline {134}{\ignorespaces Matriz de confusión para el modelo de comentarios}}{165}{figure.caption.180}%
-\contentsline {figure}{\numberline {135}{\ignorespaces Área bajo la curva de modelo de comentarios}}{166}{figure.caption.182}%
-\contentsline {figure}{\numberline {136}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas}}{166}{figure.caption.183}%
-\contentsline {figure}{\numberline {137}{\ignorespaces Matriz de confusión para el modelo apilado}}{167}{figure.caption.184}%
-\contentsline {figure}{\numberline {138}{\ignorespaces Área bajo la curva de modelo apilado}}{168}{figure.caption.186}%
-\contentsline {figure}{\numberline {139}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{170}{figure.caption.188}%
-\contentsline {figure}{\numberline {140}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{170}{figure.caption.189}%
-\contentsline {figure}{\numberline {141}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{171}{figure.caption.190}%
-\contentsline {figure}{\numberline {142}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{172}{figure.caption.191}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas}}{163}{figure.caption.179}%
+\contentsline {figure}{\numberline {134}{\ignorespaces Matriz de confusión para el modelo de comentarios}}{164}{figure.caption.180}%
+\contentsline {figure}{\numberline {135}{\ignorespaces Área bajo la curva de modelo de comentarios}}{165}{figure.caption.182}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas}}{165}{figure.caption.183}%
+\contentsline {figure}{\numberline {137}{\ignorespaces Matriz de confusión para el modelo apilado}}{166}{figure.caption.184}%
+\contentsline {figure}{\numberline {138}{\ignorespaces Área bajo la curva de modelo apilado}}{167}{figure.caption.186}%
+\contentsline {figure}{\numberline {139}{\ignorespaces Proyecto consultado para la demostración. Captura de pantalla: 15/02/21}}{169}{figure.caption.188}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Campaña del proyecto consultado. Captura de pantalla: 15/02/21}}{169}{figure.caption.189}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Variables extraídas por modalidad del proyecto consultado}}{170}{figure.caption.190}%
+\contentsline {figure}{\numberline {142}{\ignorespaces Resultado de predicción de The Hydra para el proyecto consultado}}{170}{figure.caption.191}%

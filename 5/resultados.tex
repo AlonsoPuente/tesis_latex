@@ -12,9 +12,10 @@ Se diseñó el modelo de descripciones basada en un Perceptrón Multicapa (MLP p
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.40\textwidth]{4/figures/model_mlp_metadata.png}
+		\includegraphics[width=0.43\textwidth]{4/figures/model_mlp_metadata.png}
 		\caption[Arquitectura de modelo MLP para la metadata]{Arquitectura de modelo MLP para la metadata.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{4:fig34}
 	\end{center}
 \end{figure}
@@ -40,9 +41,10 @@ Se diseñó el modelo de descripciones basada en una Red Neuronal Convolucional 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/model_cnn_description.png}
+		\includegraphics[width=0.63\textwidth]{4/figures/model_cnn_description.png}
 		\caption[Arquitectura de modelo CNN para las descripciones]{Arquitectura de modelo CNN para las descripciones.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{4:fig35}
 	\end{center}
 \end{figure}
@@ -65,9 +67,10 @@ De igual manera, se creó una matriz de incrustaciones de palabras usando GloVe 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.60\textwidth]{4/figures/model_rnn_comments.png}
+		\includegraphics[width=0.63\textwidth]{4/figures/model_rnn_comments.png}
 		\caption[Arquitectura de modelo RNN para los comentarios]{Arquitectura de modelo RNN para los comentarios.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{4:fig36}
 	\end{center}
 \end{figure}
@@ -164,6 +167,7 @@ Como parte de la aplicación de la metodología CRISP-DM, explicada en el sexto 
 
 En el antecedente marcado en (*), los modelos no fueron evaluados por AUC; mientras que en (**), las métricas precisión y AUC no fueron tomadas en cuenta.
 
+\vspace{0.5cm}
 \textbf{Actividad 1: Evaluar desempeño del modelo predictivo de Metainformación}
 \\
 Las 8 combinaciones de variables de la Tabla \ref{4:table2} para el submodelo de Metainformación, luego de ser pre-procesadas utilizando el escalador Min-Max, fueron entrenadas durante 100 épocas cada una. En la Tabla \ref{5:table0} se presentan los resultados obtenidos.
@@ -215,14 +219,14 @@ La matriz de confusión resultante se representa en la Figura \ref{5:fig2}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{5/figures/metadata_confusion_matrix.png}
+		\includegraphics[width=0.70\textwidth]{5/figures/metadata_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo de metadata]{Matriz de confusión para el modelo de metadata.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig2}
+		\vspace{-0.5cm}
 	\end{center}
 \end{figure}
 
-\newpage
 De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en la Figura \ref{5:fig3}.
 
 \begin{table}[h!]
@@ -252,6 +256,7 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
+	\vspace{-0.5cm}
 \end{table}
 
 \begin{itemize}
@@ -263,15 +268,17 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table1} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.56\textwidth]{5/figures/metadata_auc.png}
+		\includegraphics[width=0.50\textwidth]{5/figures/metadata_auc.png}
 		\caption[Área bajo la curva ROC de modelo de metadata]{Área bajo la curva ROC de modelo de metadata.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{5:fig3}
 	\end{center}
 \end{figure}
 
 El área bajo la Curva ROC presenta un valor de aproximadamente 92\%, del cual se observa en el gráfico que su sensibilidad es muy alta y el ratio de Falsa Alarma es casi nulo. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es excelente.
 
+\vspace{0.5cm}
 \textbf{Actividad 2: Evaluar desempeño del modelo predictivo de Descripción}
 \\
 Luego de 82 épocas, con un promedio de 106 segundos de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 5 épocas se redujo su tasa de aprendizaje.
@@ -283,19 +290,22 @@ Así, de acuerdo a la Figura \ref{5:fig4}, en la época 72 se registran los mejo
 		\includegraphics[width=1\textwidth]{5/figures/description_model_acc_loss.png}
 		\caption[Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas]{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo CNN de descripciones con 100 épocas.\\
 		Fuente: Elaboración propia.}
+		\vspace{-1cm}
 		\label{5:fig4}
 	\end{center}
 \end{figure}
 
+\newpage
 La matriz de confusión resultante se representa en la Figura \ref{5:fig5}.
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{5/figures/description_confusion_matrix.png}
+		\includegraphics[width=0.68\textwidth]{5/figures/description_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo de descripciones]{Matriz de confusión para el modelo de descripciones.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig5}
 	\end{center}
+	\vspace{-0.5cm}
 \end{figure}
 
 De esta matriz, se derivan los resultados de la Tabla \ref{5:table2} y el AUC en la Figura \ref{5:fig6}.
@@ -327,6 +337,7 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table2} y el AUC en
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
+	\vspace{-0.7cm}
 \end{table}
 
 \begin{itemize}
@@ -338,16 +349,17 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table2} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.56\textwidth]{5/figures/description_auc.png}
+		\includegraphics[width=0.48\textwidth]{5/figures/description_auc.png}
 		\caption[Área bajo la curva ROC de modelo de descripciones]{Área bajo la curva ROC de modelo de descripciones.\\
 		Fuente: Elaboración propia.}
 		\label{5:fig6}
 	\end{center}
+	\vspace{-0.7cm}
 \end{figure}
 
 El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es medianamente alta y el ratio de Falsa Alarma es medianamente baja. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es aceptable .
 
-\newpage
+\vspace{0.3cm}
 \textbf{Actividad 3: Evaluar desempeño del modelo predictivo de Comentarios}
 \\
 Luego de 43 épocas, con 77 segundos en promedio de entrenamiento cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, por más que 1 época antes se había reducido su tasa de aprendizaje.
@@ -359,16 +371,19 @@ Así, de acuerdo a la Figura \ref{5:fig7}, en la época 33 se registran los mejo
 		\includegraphics[width=1\textwidth]{5/figures/comments_model_acc_loss.png}
 		\caption[Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas]{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo RNN de comentarios con 50 épocas.\\
 		Fuente: Elaboración propia.}
+		\vspace{-1cm}
 		\label{5:fig7}
 	\end{center}
 \end{figure}
 
+\newpage
 La matriz de confusión resultante se representa en la Figura \ref{5:fig8}.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{5/figures/comments_confusion_matrix.png}
+		\includegraphics[width=0.70\textwidth]{5/figures/comments_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo de comentarios]{Matriz de confusión para el modelo de comentarios.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.8cm}
 		\label{5:fig8}
 	\end{center}
 \end{figure}
@@ -402,6 +417,7 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table3} y el AUC en
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
+	\vspace{-0.8cm}
 \end{table}
 
 \begin{itemize}
@@ -413,16 +429,17 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table3} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.57\textwidth]{5/figures/comments_auc.png}
+		\includegraphics[width=0.47\textwidth]{5/figures/comments_auc.png}
 		\caption[Área bajo la curva de modelo de comentarios]{Área bajo la curva de modelo de comentarios.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{5:fig9}
 	\end{center}
 \end{figure}
 
 El área bajo la Curva ROC presenta un valor de aproximadamente 75\%, del cual se observa en el gráfico que su sensibilidad es baja pero su ratio de Falsa Alarma es casi nulo. De acuerdo con \cite{bk_britos2006datamining}, el poder discriminante del modelo es aceptable.
 
-%\newpage
+\vspace{0.5cm}
 \textbf{Actividad 4: Evaluar desempeño del modelo ensamblado apilado}
 \\
 Luego de 13 épocas, con 152 segundos de entrenamientos cada una, el modelo dejó de entrenar dado que durante 10 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 2 épocas se redujo su tasa de aprendizaje.
@@ -434,17 +451,18 @@ Así, de acuerdo a la Figura \ref{5:fig10}, en la época 3 se registran los mejo
 		\includegraphics[width=1\textwidth]{5/figures/stacked_model_acc_loss.png}
 		\caption[Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas]{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo apilado con 200 épocas.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{5:fig10}
 	\end{center}
 \end{figure}
 
-\newpage
 La matriz de confusión resultante se representa en la Figura \ref{5:fig11}.
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{5/figures/stacked_confusion_matrix.png}
+		\includegraphics[width=0.70\textwidth]{5/figures/stacked_confusion_matrix.png}
 		\caption[Matriz de confusión para el modelo apilado]{Matriz de confusión para el modelo apilado.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.8cm}
 		\label{5:fig11}
 	\end{center}
 \end{figure}
@@ -473,11 +491,10 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table4} y el AUC en
 		Promedio ponderado & 0.93 & 0.93 & 0.93 & 5,451 \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
+	\vspace{-0.7cm}
 \end{table}
 
 \begin{itemize}
@@ -489,9 +506,10 @@ De esta matriz, se derivan los resultados de la Tabla \ref{5:table4} y el AUC en
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=0.57\textwidth]{5/figures/stacked_auc.png}
+		\includegraphics[width=0.50\textwidth]{5/figures/stacked_auc.png}
 		\caption[Área bajo la curva de modelo apilado]{Área bajo la curva de modelo apilado.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{5:fig12}
 	\end{center}
 \end{figure}
@@ -523,11 +541,10 @@ Finalmente, considerando los modelos independientes para cada modalidad, así co
 		{} & The Hydra & 0.93 & 0.91 & 0.93 & 0.92 & 0.93 \\
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
-	\par	%%Salto de linea
-	\bigskip
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
+	\vspace{-0.4cm}
 \end{table}
 
 Los modelos citados de la Tesis de pregrado para Metainformación y Descripción utilizaron una Máquina de Vectores de Soporte (SVM) y una SVM entrenada con el algoritmo TF-IDF, respectivamente.
@@ -541,7 +558,7 @@ Como se observa en la Tabla \ref{5:table5}, a nivel general, la performance de T
 \\
 La última fase de la metodología CRISP-DM comienza con el diseño del prototipo que contemplará el sistema conformado por la captura de datos y la predicción del estado de financiamiento de un proyecto consultado. Para ello, previamente se deberán cargarse todos los complementos necesarios para que el modelo de Aprendizaje Profundo Multimodal funcione correctamente. Desde librerías de Python que incluyen elementos utilizados en la recolección de datos como Selenium y las librerías de Keras para la carga de las capas del modelo, hasta algoritmos usados para la limpieza de texto como NLTK y las métricas de clasificación por parte de Scikit-learn.
 
-Luego de la anterior acción, se diseñó el código para ejecutar el proceso de la Figura \ref{3:fig10} explicado en el Capítulo III. El código del prototipo y sus respectivos elementos pueden ser descargados desde el link \textbf{\url{https://www.kaggle.com/alonsopuente/tesis-titulacion-demo}}
+Luego, se diseñó el código para ejecutar el proceso de la Figura \ref{3:fig10}, el cual puede ser descargado desde el link \textbf{\url{https://www.kaggle.com/alonsopuente/tesis-titulacion-demo}}
 
 \textbf{Actividad 2: Ejecutar prototipo con proyectos tecnológicos vigentes}
 \\
@@ -549,9 +566,10 @@ Una vez diseñado el proceso del prototipo, el software es ejecutado localmente 
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=1.10\textwidth]{4/figures/prototipo_input_project1.jpg}
+		\includegraphics[width=1\textwidth]{4/figures/prototipo_input_project1.jpg}
 		\caption[Proyecto consultado para la demostración. Captura de pantalla: 15/02/21]{Proyecto consultado para la demostración. Captura de pantalla: 15/02/21.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{4:fig38}
 	\end{center}
 \end{figure}
@@ -560,16 +578,17 @@ Uno de los experimentos hechos el 23 de enero del 2021 se realizó con la campa�
 
 \begin{figure}[!ht]
 	\begin{center}
-		\includegraphics[width=1.05\textwidth]{4/figures/example_project_150221.jpg}
+		\includegraphics[width=0.95\textwidth]{4/figures/example_project_150221.jpg}
 		\caption[Campaña del proyecto consultado. Captura de pantalla: 15/02/21]{Campaña del proyecto consultado. Captura de pantalla: 15/02/21.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{4:fig39}
 	\end{center}
 \end{figure}
 
 La primera acción hecha por el sistema fue extraer la metainformación, descripción y comentarios del proyecto desde el ingreso al URL por un navegador. Debido al cambio de políticas de acceso a la plataforma en 2020, Kickstarter detecta la presencia de bots y restringe la navegación usando CAPTCHAs para evitar su accionar. Algunas veces fue detectado el bot del sistema. Ante ello, la única acción manual por parte del usuario en el sistema se da en este paso presionando por 5 segundos el botón de “\textit{I'm a human}” (Soy humano por su traducción al español) que se muestra en la ventana. Desde este punto, luego de ingresar al enlace de la campaña del proyecto, el sistema primero se redirige a la sección de la metainformación y extrae las variables usadas para el entrenamiento del modelo.
 
-Esta secuencia es repetida para las otras modalidades. En el caso de los comentarios, estos se encuentran en una sección distinta, para lo cual el sistema primero se redirige a ella a partir del dominio de la sección principal, en donde se encontraron la metainformación y la descripción.
+Esta secuencia es repetida para las otras modalidades. En el caso de los comentarios, se encuentran en una sección distinta, para lo cual el sistema primero se redirige a ella a partir del dominio de la sección principal, en donde se encontraron la metainformación y la descripción.
 
 Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig40} respectivamente.
 
@@ -593,10 +612,10 @@ Los datos extraídos de cada modalidad se muestran en la Figura \ref{4:fig40} re
 	\end{subfigure}
 	\caption[Variables extraídas por modalidad del proyecto consultado]{Variables extraídas por modalidad del proyecto consultado.\\
 		Fuente: Elaboración propia.}
+	\vspace{-0.3cm}
 	\label{4:fig40}
 \end{figure}
 
-\newpage
 La información extraída es pre-procesada de la misma manera que la data usada para entrenar cada modelo. A continuación, el modelo cargado The Hydra recibe los datos procesados y concatenados para realizar la predicción. Si el umbral es por lo menos 0.50, el resultado será \textbf{EXITOSO} (\textit{Successful} en inglés) como en la Figura \ref{4:fig41}.
 
 \begin{figure}[!ht]
@@ -604,6 +623,7 @@ La información extraída es pre-procesada de la misma manera que la data usada 
 		\includegraphics[width=0.75\textwidth]{4/figures/demo_project_prediction.jpg}
 		\caption[Resultado de predicción de The Hydra para el proyecto consultado]{Resultado de predicción de The Hydra para el proyecto consultado.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.7cm}
 		\label{4:fig41}
 	\end{center}
 \end{figure}

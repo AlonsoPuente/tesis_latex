@@ -517,6 +517,7 @@ Luego, utilizando el escalador Mínimo Máximo (\textit{Min-Max scaler}) de la l
 		\includegraphics[width=0.95\textwidth]{4/figures/metadata_scaler_function.jpg}
 		\caption[Función para normalizar variables]{Función para normalizar variables.\\
 			Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{4:fig29}
 	\end{center}
 \end{figure}
@@ -533,6 +534,7 @@ Donde $x$ representa el valor original de un dato, $x_{min}$ el valor mínimo ex
 
 Por ejemplo, tomando como referencia las estadísticas de la variable \textit{duration} en la Figura \ref{4:fig19}, se desea transformar una duración de 30 días dentro del rango [0; 1]. Para aplicar la fórmula, los valores serían $x=30$, $x_{min}=1$ y $x_{max}=92$. Entonces, el nuevo resultado sería $x_{escalado}=\frac{30-1}{92-1}=0.32$.
 
+\vspace{0.5cm}
 \textbf{Actividad 2: Pre-procesar base de datos de Descripción}
 \\
 Se realizó la limpieza de texto basándose en los trabajos de los autores \cite{pr_mitra2014phrases}, \cite{pr_yuan2016textanalytics} y \cite{pr_chen2019keywords_crowdfunding} y además, se agregaron pasos de lematización y supresión de palabras de parada siguiendo el proceso dictado en el curso de Procesamiento de Lenguaje Natural en la Escuela Superior de Economía de la Universidad Nacional de Investigación, Rusia \parencite{tec_zimovnov2018text_preprocessing}. Antes de ejecutarse el proceso, los registros sin descripciones (\textit{NaN}) fueron convertidos en cadena (\textit{string}) para evitar problemas de procesamiento de texto. Se remueven las contracciones, caracteres especiales, enlaces externos y contenidos en otros idiomas. Este resultado fue separado en palabras o tókens para eliminar palabras de parada en inglés, lematizar las restantes y finalmente juntarlas en una lista por su proyecto.
