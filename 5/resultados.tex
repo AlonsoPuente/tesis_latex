@@ -198,9 +198,10 @@ Las 8 combinaciones de variables de la Tabla \ref{4:table2} para el submodelo de
 	\begin{flushleft}	%%Alinear a la izquierda sin justificar
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
+	\vspace{-0.5cm}
 \end{table}
 
-El mejor rendimiento lo produjo la combinación 5, la cual alcanzó un valor de exactitud de 0.93102 luego de 19 épocas, con un promedio de 3 segundos de entrenamiento cada una. Al acabar este proceso, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 3 épocas se redujo su tasa de aprendizaje.
+El mejor rendimiento lo produjo la combinación 5 (compuesta por las variables \textit{goal}, \textit{completeness}, \textit{duration}, \textit{pledges\_num}, \textit{pledged} y \textit{pledges\_median}), la cual alcanzó un valor de exactitud de 0.93102 luego de 19 épocas, con un promedio de 3 segundos de entrenamiento cada una. Al acabar este proceso, el modelo dejó de entrenar dado que durante 7 épocas no registró una reducción en el valor de la pérdida del subconjunto de validación, a pesar de que hace 3 épocas se redujo su tasa de aprendizaje.
 
 Se concluye que la ventaja del grupo de las 4 últimas combinatorias frente a las primeras se da por la inclusión de la variable del monto recaudado al final de la campaña (\textit{pledged}) en lugar del número de patrocinadores alcanzados (\textit{backer\_count}). Además, la combinación 5 supera a las siguientes 3 por considerar la mediana de los montos disponibles para contribuir en la campaña, frente a la media, variación estándar, valor máximo y valor mínimo de estos montos.
 
@@ -211,6 +212,7 @@ Así, de acuerdo a la Figura \ref{5:fig1}, en la época 11 se registran los mejo
 		\includegraphics[width=1\textwidth]{5/figures/metadata_model_acc_loss.png}
 		\caption[Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas]{Exactitud y pérdida respectivamente de los subconjuntos de entrenamiento y validación para el modelo MLP de metadata con 100 épocas.\\
 		Fuente: Elaboración propia.}
+		\vspace{-0.5cm}
 		\label{5:fig1}
 	\end{center}
 \end{figure}
