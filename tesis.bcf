@@ -3656,7 +3656,9 @@
     <bcf:citekey order="789">pr_chen2013kickpredict</bcf:citekey>
     <bcf:citekey order="790">pr_shafqat2019topicpredictions</bcf:citekey>
     <bcf:citekey order="791">pr_shafqat2019topicpredictions</bcf:citekey>
-    <bcf:citekey order="792">tec_keras_modeltraining</bcf:citekey>
+    <bcf:citekey order="792">pr_shafqat2019topicpredictions</bcf:citekey>
+    <bcf:citekey order="793">pr_shafqat2019topicpredictions</bcf:citekey>
+    <bcf:citekey order="794">tec_keras_modeltraining</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  14 MAY 2021 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  14 JUN 2021 02:42
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2984,7 +2984,7 @@ s/description_scraped_project.jpg> <./4/figures/comments_scraped_project.jpg> <
 Cap\'{\i }tulo VI.
 [172
 
-] [173]) [174] [175
+] [173] [174]) [175] [176
 
 ]
 Overfull \hbox (15.68823pt too wide) in paragraph at lines 387--387
@@ -2998,7 +2998,7 @@ Overfull \hbox (17.82265pt too wide) in paragraph at lines 387--387
 ictions[] -[] []high[]resolution[]statistical[]
  []
 
-[176]
+[177]
 Overfull \hbox (14.41931pt too wide) in paragraph at lines 387--387
 [][]$\OT1/ptm/m/n/12 https : / / subscription . packtpub . com / book / big[]da
 ta[]and[]business[]intelligence / 9781789808452 /
@@ -3011,7 +3011,7 @@ ptm/m/n/12 . Re-cu-pe-ra-do de [][]$https : / / towardsdatascience . com / rein
 forced -[]
  []
 
-[177]
+[178]
 Overfull \hbox (13.84326pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 Gonz[]alez, L. (2019). Cur-vas ROC y []Area ba-jo la cur-va
  (AUC). Re-cu-pe-ra-do de [][]$http : / / ligdigonzalez .
@@ -3036,35 +3036,35 @@ Overfull \hbox (17.74033pt too wide) in paragraph at lines 387--387
 [][]$https : / / www . ibm . com / support / knowledgecenter /
  []
 
-[178] [179]
+[179] [180]
 
 Package biblatex Warning: Bibliography string 'jourarticle' untranslated
 (biblatex)                at entry 'tec_liu2018multideeplearning' on input line
  387.
 
-[180]
+[181]
 Overfull \hbox (2.16461pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 MathWorks. (s.f.). M[]aqui-na de vec-to-res de so-por-te (S
 VM). Re-cu-pe-ra-do de [][]$https : / / la . mathworks .
  []
 
-[181]
+[182]
 Overfull \hbox (2.22777pt too wide) in paragraph at lines 387--387
 \OT1/ptm/m/n/12 towardsdatascience . com / 17 -[] rules -[] of -[] thumb -[] fo
 r -[] building -[] a -[] neural -[] network -[] 93356f9930af$[][] 
  []
 
-[182] [183]
+[183] [184]
 Overfull \hbox (66.82259pt too wide) in paragraph at lines 387--387
 [][]\OT1/ptm/m/n/12 Universo Crowd-fun-ding. (s.f.). ?`Qu[]e es el crowd-fun-di
 ng? Re-cu-pe-ra-do de [][]$https : / / www . universocrowdfunding .
  []
 
-[184] [185] [186
+[185] [186] [187
 
 
 ] (anexos/anexo.tex
-<anexos/arbol_problemas.png, id=2915, 915.9018pt x 526.1256pt>
+<anexos/arbol_problemas.png, id=2920, 915.9018pt x 526.1256pt>
 File: anexos/arbol_problemas.png Graphic file (type png)
 <use anexos/arbol_problemas.png>
 Package pdftex.def Info: anexos/arbol_problemas.png  used on input line 16.
@@ -3074,10 +3074,10 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 16--18
  [] 
  []
 
-[187
+[188
 
  <./anexos/arbol_problemas.png>]
-<anexos/arbol_objetivos.png, id=2922, 915.9018pt x 526.1256pt>
+<anexos/arbol_objetivos.png, id=2927, 915.9018pt x 526.1256pt>
 File: anexos/arbol_objetivos.png Graphic file (type png)
 <use anexos/arbol_objetivos.png>
 Package pdftex.def Info: anexos/arbol_objetivos.png  used on input line 29.
@@ -3087,7 +3087,7 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 29--31
  [] 
  []
 
-[188
+[189
 
  <./anexos/arbol_objetivos.png>]
 Overfull \vbox (113.10023pt too high) detected at line 52
@@ -3223,10 +3223,10 @@ Underfull \hbox (badness 3189) in paragraph at lines 105--105
 \OT1/ptm/m/n/12 pren-de-do-res y crea-do-res
  []
 
-[189
+[190
 
 
-] [190]
+] [191]
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
 []\OT1/ptm/m/n/12 Recolecci[]on y pre-
  []
@@ -3241,10 +3241,10 @@ Overfull \hbox (36.04941pt too wide) in alignment at lines 356--357
  [] [] [] [] 
  []
 
-[191
+[192
 
 
-] [192] [193] [194]
+] [193] [194] [195]
 Overfull \vbox (75.40018pt too high) detected at line 374
  []
 
@@ -3400,10 +3400,10 @@ Overfull \hbox (9.45334pt too wide) in alignment at lines 427--487
  [] [] [] [] [] [] [] 
  []
 
-[195
+[196
 
 
-] [196]
+] [197]
 Overfull \vbox (113.10023pt too high) detected at line 488
  []
 
@@ -3437,7 +3437,7 @@ Overfull \hbox (9.45334pt too wide) in alignment at lines 487--515
  [] [] [] [] [] [] [] 
  []
 
-[197] [198] [199] [200] [201]
+[198] [199] [200] [201] [202]
 Underfull \hbox (badness 3354) in paragraph at lines 529--529
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
@@ -3472,7 +3472,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 571--580
 []| []| 
  []
 
-[202
+[203
 
 
 ]
@@ -3510,7 +3510,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 678--687
 []| []| 
  []
 
-[203
+[204
 
 ]
 Underfull \hbox (badness 3354) in paragraph at lines 743--743
@@ -3547,7 +3547,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 785--794
 []| []| 
  []
 
-[204
+[205
 
 ]
 Underfull \hbox (badness 4859) in paragraph at lines 844--844
@@ -3589,7 +3589,7 @@ Overfull \hbox (17.7399pt too wide) in alignment at lines 840--932
  [] [] 
  []
 
-[205
+[206
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
@@ -3608,9 +3608,9 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  29969 strings out of 480763
- 550003 string characters out of 2904056
- 1402678 words of memory out of 3000000
- 44577 multiletter control sequences out of 15000+200000
+ 549987 string characters out of 2904056
+ 1402684 words of memory out of 3000000
+ 44576 multiletter control sequences out of 15000+200000
  593542 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,96p,2007b,2718s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3625,9 +3625,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (219 pages, 13732762 bytes).
+Output written on tesis.pdf (220 pages, 13763133 bytes).
 PDF statistics:
- 3191 PDF objects out of 3580 (max. 8388607)
- 671 named destinations out of 1000 (max. 500000)
+ 3196 PDF objects out of 3580 (max. 8388607)
+ 672 named destinations out of 1000 (max. 500000)
  1421 words of extra memory for PDF output out of 10000 (max. 10000000)
 
