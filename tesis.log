@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  14 JUN 2021 02:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  15 JUN 2021 01:54
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2156,12 +2156,38 @@ Package pdftex.def Info: 2/figures/kickstarter_project.jpg  used on input line
 
 Cap\'{\i }tulo III.
 
-Overfull \vbox (18.85004pt too high) detected at line 35
+Overfull \vbox (64.55011pt too high) detected at line 37
  []
 
 
-Overfull \hbox (9.82306pt too wide) in alignment at lines 22--61
- [] [] [] 
+Overfull \vbox (37.70007pt too high) detected at line 40
+ []
+
+
+Overfull \vbox (102.25018pt too high) detected at line 45
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 48--49
+[]\OT1/ptm/m/n/12 Red Neu-ro-nal Con-vo-lu-
+ []
+
+
+Overfull \vbox (139.95026pt too high) detected at line 59
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 65--66
+[]\OT1/ptm/m/n/12 Incrustaciones de pa-la-
+ []
+
+
+Overfull \vbox (102.25018pt too high) detected at line 75
+ []
+
+
+Overfull \hbox (38.89487pt too wide) in alignment at lines 22--85
+ [] [] [] [] 
  []
 
 [93
@@ -2171,10 +2197,10 @@ Overfull \hbox (9.82306pt too wide) in alignment at lines 22--61
 File: 3/figures/data_recolection_flux.png Graphic file (type png)
 <use 3/figures/data_recolection_flux.png>
 Package pdftex.def Info: 3/figures/data_recolection_flux.png  used on input lin
-e 82.
+e 106.
 (pdftex.def)             Requested size: 403.14146pt x 229.01613pt.
  [95 <./3/figures/data_recolection_flux.png>] [96] [97]
-Overfull \hbox (7.75407pt too wide) in paragraph at lines 247--248
+Overfull \hbox (7.75407pt too wide) in paragraph at lines 271--272
 []\OT1/ptm/m/n/12 La me-to-do-log[]a se-lec-cio-na-da con-tem-pla en-tre sus f
 a-ses la com-pren-si[]on del ne-go-cio adem[]as
  []
@@ -2183,52 +2209,52 @@ a-ses la com-pren-si[]on del ne-go-cio adem[]as
 <3/figures/metodologia.png, id=1829, 946.737pt x 459.6372pt>
 File: 3/figures/metodologia.png Graphic file (type png)
 <use 3/figures/metodologia.png>
-Package pdftex.def Info: 3/figures/metodologia.png  used on input line 258.
+Package pdftex.def Info: 3/figures/metodologia.png  used on input line 282.
 (pdftex.def)             Requested size: 452.96826pt x 219.91498pt.
  [99 <./3/figures/metodologia.png>]
 <3/figures/framework.png, id=1874, 921.6834pt x 518.4168pt>
 File: 3/figures/framework.png Graphic file (type png)
 <use 3/figures/framework.png>
-Package pdftex.def Info: 3/figures/framework.png  used on input line 280.
+Package pdftex.def Info: 3/figures/framework.png  used on input line 304.
 (pdftex.def)             Requested size: 407.66867pt x 229.30646pt.
  [100 <./3/figures/framework.png>]
-Overfull \hbox (9.82307pt too wide) in alignment at lines 294--335
+Overfull \hbox (9.82307pt too wide) in alignment at lines 318--359
  [] [] [] 
  []
 
 [101]
-Overfull \hbox (7.37642pt too wide) in paragraph at lines 358--359
+Overfull \hbox (7.37642pt too wide) in paragraph at lines 382--383
 []\OT1/ptm/b/n/12 Entregable\OT1/ptm/m/n/12 : Ma-te-rial acad[]emi-co y co-no-c
 i-mien-tos ob-te-ni-dos so-bre el am-bien-te del crowd-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 390--391
+Underfull \hbox (badness 2547) in paragraph at lines 414--415
 []|\OT1/ptm/m/n/12 Construcci[]on de ba-se de da-
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 390--391
+Underfull \hbox (badness 1107) in paragraph at lines 414--415
 \OT1/ptm/m/n/12 de la cam-pa[]na con ex-cep-ci[]on
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 393--394
+Underfull \hbox (badness 1715) in paragraph at lines 417--418
 []\OT1/ptm/m/n/12 Descargar con-jun-tos de da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 []\OT1/ptm/m/n/12 Descomprimir ar-chi-vos en
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 395--396
+Underfull \hbox (badness 2213) in paragraph at lines 419--420
 []\OT1/ptm/m/n/12 Fusionar ar-chi-vos por mes,
  []
 
 
-Overfull \hbox (9.82304pt too wide) in alignment at lines 376--428
+Overfull \hbox (9.82304pt too wide) in alignment at lines 400--452
  [] [] [] 
  []
 
@@ -2237,13 +2263,13 @@ Overfull \hbox (9.82304pt too wide) in alignment at lines 376--428
 File: 3/figures/flujograma_metadata_t1_t2.png Graphic file (type png)
 <use 3/figures/flujograma_metadata_t1_t2.png>
 Package pdftex.def Info: 3/figures/flujograma_metadata_t1_t2.png  used on input
- line 447.
+ line 471.
 (pdftex.def)             Requested size: 362.37598pt x 139.65039pt.
 <3/figures/flujograma_metadata_t3.png, id=1903, 855.6768pt x 243.7908pt>
 File: 3/figures/flujograma_metadata_t3.png Graphic file (type png)
 <use 3/figures/flujograma_metadata_t3.png>
 Package pdftex.def Info: 3/figures/flujograma_metadata_t3.png  used on input li
-ne 458.
+ne 482.
 (pdftex.def)             Requested size: 452.96826pt x 129.05598pt.
  [104 <./3/figures/flujograma_metadata_t3.png> <./3/figures/flujograma_metadata
 _t1_t2.png>]
@@ -2253,7 +2279,7 @@ File: 3/figures/diagrama_flujo_scrapping_descripcion.png Graphic file (type png
 )
 <use 3/figures/diagrama_flujo_scrapping_descripcion.png>
 Package pdftex.def Info: 3/figures/diagrama_flujo_scrapping_descripcion.png  us
-ed on input line 473.
+ed on input line 497.
 (pdftex.def)             Requested size: 226.48413pt x 326.08293pt.
 <3/figures/diagrama_flujo_scrapping_comentarios.png, id=1917, 395.5578pt x 714.
 0276pt>
@@ -2261,34 +2287,34 @@ File: 3/figures/diagrama_flujo_scrapping_comentarios.png Graphic file (type png
 )
 <use 3/figures/diagrama_flujo_scrapping_comentarios.png>
 Package pdftex.def Info: 3/figures/diagrama_flujo_scrapping_comentarios.png  us
-ed on input line 488.
+ed on input line 512.
 (pdftex.def)             Requested size: 203.83434pt x 367.95168pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [105 <./3/figures/diagrama_flujo_scrapping_descripcion.png>]
-Underfull \hbox (badness 1087) in paragraph at lines 523--524
+Underfull \hbox (badness 1087) in paragraph at lines 547--548
 \OT1/ptm/m/n/12 ria-bles ac-tua-les y adi-cio-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
+Underfull \hbox (badness 10000) in paragraph at lines 551--552
 []\OT1/ptm/m/n/12 Evaluar com-por-ta-mien-to
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 527--528
+Underfull \hbox (badness 4378) in paragraph at lines 551--552
 \OT1/ptm/m/n/12 de va-ria-bles en con-jun-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 527--528
+Underfull \hbox (badness 6808) in paragraph at lines 551--552
 \OT1/ptm/m/n/12 to uti-li-zan-do ma-triz de
  []
 
 
-Overfull \hbox (9.82307pt too wide) in alignment at lines 509--553
+Overfull \hbox (9.82307pt too wide) in alignment at lines 533--577
  [] [] [] 
  []
 
@@ -2297,136 +2323,136 @@ Overfull \hbox (9.82307pt too wide) in alignment at lines 509--553
 File: 3/figures/description_data_clean.png Graphic file (type png)
 <use 3/figures/description_data_clean.png>
 Package pdftex.def Info: 3/figures/description_data_clean.png  used on input li
-ne 576.
+ne 600.
 (pdftex.def)             Requested size: 149.48035pt x 340.9169pt.
  [108 <./3/figures/description_data_clean.png>]
 <3/figures/description_text_to_sequence.png, id=1947, 225.4824pt x 646.5756pt>
 File: 3/figures/description_text_to_sequence.png Graphic file (type png)
 <use 3/figures/description_text_to_sequence.png>
 Package pdftex.def Info: 3/figures/description_text_to_sequence.png  used on in
-put line 590.
+put line 614.
 (pdftex.def)             Requested size: 147.2133pt x 422.15355pt.
 <3/figures/description_embedding_matrix.png, id=1948, 199.4652pt x 312.6882pt>
 File: 3/figures/description_embedding_matrix.png Graphic file (type png)
 <use 3/figures/description_embedding_matrix.png>
 Package pdftex.def Info: 3/figures/description_embedding_matrix.png  used on in
-put line 595.
+put line 619.
 (pdftex.def)             Requested size: 124.56696pt x 195.27695pt.
  [109 <./3/figures/description_text_to_sequence.png> <./3/figures/description_e
 mbedding_matrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 636--637
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 642--643
+Underfull \hbox (badness 1424) in paragraph at lines 666--667
 []|\OT1/ptm/m/n/12 Implementaci[]on de la Red
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--643
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
 \OT1/ptm/m/n/12 Neu-ro-nal Con-vo-lu-cio-nal
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 642--643
+Underfull \hbox (badness 3179) in paragraph at lines 666--667
 \OT1/ptm/m/n/12 (CNN) pa-ra la mo-da-li-dad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--646
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 660--661
+Underfull \hbox (badness 2205) in paragraph at lines 684--685
 []|\OT1/ptm/m/n/12 Implementaci[]on del mo-de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--664
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--664
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
 \OT1/ptm/m/n/12 mo-da-li-da-des uti-li-za-das en
  []
 
 
-Overfull \hbox (9.82304pt too wide) in alignment at lines 619--668
+Overfull \hbox (9.82304pt too wide) in alignment at lines 643--692
  [] [] [] 
  []
 
 [110] [111] [112] [113] [114] [115]
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
 \OT1/ptm/m/n/12 del mo-de-lo Per-ceptr[]on
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 795--796
+Underfull \hbox (badness 5274) in paragraph at lines 819--820
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 804--805
+Underfull \hbox (badness 5274) in paragraph at lines 828--829
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 813--814
+Underfull \hbox (badness 5274) in paragraph at lines 837--838
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 823--824
+Underfull \hbox (badness 5274) in paragraph at lines 847--848
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Overfull \hbox (9.82306pt too wide) in alignment at lines 778--828
+Overfull \hbox (9.82306pt too wide) in alignment at lines 802--852
  [] [] [] 
  []
 
 [116] [117] [118]
-Underfull \hbox (badness 4752) in paragraph at lines 886--887
+Underfull \hbox (badness 4752) in paragraph at lines 910--911
 []\OT1/ptm/m/n/12 Cargar com-ple-men-tos del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 []|\OT1/ptm/m/n/12 Ejecutar pro-to-ti-po con
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 \OT1/ptm/m/n/12 pro-yec-tos tec-nol[]ogi-cos
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 894--895
+Underfull \hbox (badness 1215) in paragraph at lines 918--919
 []\OT1/ptm/m/n/12 Ejecutar pro-to-ti-po con di-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 894--895
+Underfull \hbox (badness 4060) in paragraph at lines 918--919
 \OT1/ptm/m/n/12 rec-ci[]on web de pro-yec-to
  []
 
 
-Overfull \hbox (9.82306pt too wide) in alignment at lines 868--899
+Overfull \hbox (9.82306pt too wide) in alignment at lines 892--923
  [] [] [] 
  []
 
 <5/figures/demo_flux.png, id=2055, 932.7648pt x 496.7358pt>
 File: 5/figures/demo_flux.png Graphic file (type png)
 <use 5/figures/demo_flux.png>
-Package pdftex.def Info: 5/figures/demo_flux.png  used on input line 915.
+Package pdftex.def Info: 5/figures/demo_flux.png  used on input line 939.
 (pdftex.def)             Requested size: 430.31847pt x 229.16066pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2435,34 +2461,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <3/figures/auc_example.jpg, id=2091, 366.168pt x 257.2812pt>
 File: 3/figures/auc_example.jpg Graphic file (type jpg)
 <use 3/figures/auc_example.jpg>
-Package pdftex.def Info: 3/figures/auc_example.jpg  used on input line 1008.
+Package pdftex.def Info: 3/figures/auc_example.jpg  used on input line 1032.
 (pdftex.def)             Requested size: 249.13391pt x 175.05098pt.
  [122]
 <3/figures/auc_curves.jpg, id=2103, 885.3075pt x 353.32pt>
 File: 3/figures/auc_curves.jpg Graphic file (type jpg)
 <use 3/figures/auc_curves.jpg>
-Package pdftex.def Info: 3/figures/auc_curves.jpg  used on input line 1029.
+Package pdftex.def Info: 3/figures/auc_curves.jpg  used on input line 1053.
 (pdftex.def)             Requested size: 452.96826pt x 180.77846pt.
  [123 <./3/figures/auc_example.jpg>] [124 <./3/figures/auc_curves.jpg>] [125]
 <3/figures/cronograma.png, id=2180, 1283.39474pt x 501.072pt>
 File: 3/figures/cronograma.png Graphic file (type png)
 <use 3/figures/cronograma.png>
-Package pdftex.def Info: 3/figures/cronograma.png  used on input line 1095.
+Package pdftex.def Info: 3/figures/cronograma.png  used on input line 1119.
 (pdftex.def)             Requested size: 702.10217pt x 274.12247pt.
 
-Overfull \hbox (1.59494pt too wide) in paragraph at lines 1095--1097
+Overfull \hbox (1.59494pt too wide) in paragraph at lines 1119--1121
  [] 
  []
 
 [126
 
  <./3/figures/cronograma.png>]
-Overfull \hbox (16.10959pt too wide) in paragraph at lines 1111--1142
+Overfull \hbox (16.10959pt too wide) in paragraph at lines 1135--1166
  [][] 
  []
 
 
-Overfull \hbox (12.14511pt too wide) in paragraph at lines 1154--1178
+Overfull \hbox (12.14511pt too wide) in paragraph at lines 1178--1202
  [][] 
  []
 
@@ -3090,506 +3116,598 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 29--31
 [189
 
  <./anexos/arbol_objetivos.png>]
-Overfull \vbox (113.10023pt too high) detected at line 52
+Overfull \vbox (169.65034pt too high) detected at line 52
  []
 
 
-Overfull \vbox (150.80031pt too high) detected at line 59
+Overfull \vbox (150.80031pt too high) detected at line 61
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 62--62
-[]| \OT1/ptm/m/n/12 ?`Es po-si-ble pre-de-cir el
+Overfull \vbox (150.80031pt too high) detected at line 68
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 62--62
-\OT1/ptm/m/n/12 es-ta-do de fi-nan-cia-mien-to
+Overfull \hbox (11.9501pt too wide) in paragraph at lines 62--70
+[]|[]| 
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 62--62
-[]|  \OT1/ptm/m/n/12 Pre-de-cir el es-ta-do de
+Underfull \hbox (badness 4569) in paragraph at lines 71--71
+[]| \OT1/ptm/m/n/12 ?`Es po-si-ble pre-de-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 62--62
-\OT1/ptm/m/n/12 tos de tec-no-log[]a en si-
+Underfull \hbox (badness 2005) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 cia-mien-to de pro-yec-
  []
 
 
-Overfull \vbox (150.80031pt too high) detected at line 72
+Underfull \hbox (badness 3386) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 ding Kicks-tar-ter me-
  []
 
 
-Overfull \vbox (150.80031pt too high) detected at line 79
+Underfull \hbox (badness 1496) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 dian-te un mo-de-lo de
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 pro-pues-tas en los tra-ba-
+Underfull \hbox (badness 1728) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 Apren-di-za-je Pro-fun-do
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 se-lec-ci[]on de ca-rac-ter[]sti-
+Underfull \hbox (badness 4686) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 yec-tos de tec-no-log[]a
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 85--85
-\OT1/ptm/m/n/12 pues-tas de la li-te-ra-tu-ra
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 fun-ding Kicks-tar-ter
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 85--85
-\OT1/ptm/m/n/12 exis-ten en el am-bien-te
+Underfull \hbox (badness 5431) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 me-dian-te mo-de-lo de
  []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 85--85
-[]| \OT1/ptm/m/n/12 Eva-luar la fac-ti-bi-li-dad
+Underfull \hbox (badness 1728) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 Apren-di-za-je Pro-fun-do
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 85--85
-\OT1/ptm/m/n/12 t[]ecni-ca del am-bien-te de
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 di-za-je Pro-fun-do
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 85--85
-\OT1/ptm/m/n/12 de-sa-rro-llo pa-ra las ca-
+Underfull \hbox (badness 5036) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 Mul-ti-mo-dal pre-de-cir[]a
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 85--85
-\OT1/ptm/m/n/12 rac-ter[]sti-cas del mo-de-lo
+Underfull \hbox (badness 5578) in paragraph at lines 71--71
+\OT1/ptm/m/n/12 mien-to de pro-yec-tos
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 85--85
-[]| \OT1/ptm/m/n/12 La fac-ti-bi-li-dad t[]ecni-ca
+Overfull \vbox (169.65034pt too high) detected at line 81
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 88--88
-[]| \OT1/ptm/m/n/12 ?`Cu[]al es el im-pac-to
+Overfull \vbox (169.65034pt too high) detected at line 91
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 que ge-ne-rar[]an las ca-rac-
+Overfull \vbox (150.80031pt too high) detected at line 98
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 el de-sa-rro-llo del mo-de-lo
+Overfull \hbox (11.9501pt too wide) in paragraph at lines 92--100
+[]|[]| 
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 las ca-rac-ter[]sti-cas con-si-
+Underfull \hbox (badness 1077) in paragraph at lines 101--101
+[]| \OT1/ptm/m/n/12 ?`Qu[]e al-ter-na-ti-vas se
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 88--88
-\OT1/ptm/m/n/12 de-ra-das en el de-sa-rro-llo
+Underfull \hbox (badness 6978) in paragraph at lines 101--101
+[]| \OT1/ptm/m/n/12 Ana-li-zar las al-ter-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 88--89
-\OT1/ptm/m/n/12 rac-ter[]sti-cas con-si-de-ra-das
+Underfull \hbox (badness 1515) in paragraph at lines 101--101
+\OT1/ptm/m/n/12 na-ti-vas pro-pues-tas en
  []
 
 
-Overfull \vbox (131.95026pt too high) detected at line 95
+Underfull \hbox (badness 4036) in paragraph at lines 101--101
+\OT1/ptm/m/n/12 ra se-lec-cio-nar ca-rac-
  []
 
 
-Overfull \vbox (113.10022pt too high) detected at line 102
+Underfull \hbox (badness 1515) in paragraph at lines 101--101
+\OT1/ptm/m/n/12 na-ti-vas pro-pues-tas en
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 105--105
-[]| \OT1/ptm/m/n/12 Im-ple-men-tar una he-rra-
+Underfull \hbox (badness 1092) in paragraph at lines 101--101
+\OT1/ptm/m/n/12 fluir[]a en la se-lec-ci[]on
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 105--105
-[]| \OT1/ptm/m/n/12 La he-rra-mien-ta anal[]ti-
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]| \OT1/ptm/m/n/12 ?`Qu[]e con-di-cio-nes
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 105--105
-\OT1/ptm/m/n/12 pren-de-do-res y crea-do-res
+Underfull \hbox (badness 6461) in paragraph at lines 104--104
+\OT1/ptm/m/n/12 t[]ecni-cas fac-ti-bles de
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 104--104
+\OT1/ptm/m/n/12 las pro-pues-tas de la
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 104--104
+\OT1/ptm/m/n/12 pa-ra im-ple-men-tar las
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 104--104
+\OT1/ptm/m/n/12 de-lo de Apren-di-za-je
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 104--104
+\OT1/ptm/m/n/12 sa-rro-llo pa-ra las ca-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 107--107
+[]| \OT1/ptm/m/n/12 Exa-mi-nar el im-pac-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 107--107
+\OT1/ptm/m/n/12 Apren-di-za-je Pro-fun-do
+ []
+
+
+Overfull \vbox (188.50037pt too high) detected at line 114
+ []
+
+
+Overfull \vbox (169.65033pt too high) detected at line 124
+ []
+
+
+Overfull \vbox (113.10022pt too high) detected at line 131
+ []
+
+
+Overfull \hbox (11.9501pt too wide) in paragraph at lines 125--134
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]| \OT1/ptm/m/n/12 ?`Qu[]e al-ter-na-ti-vas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 anal[]ti-cas exis-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 pa-ra ayu-dar a los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 em-pren-de-do-res y
+ []
+
+
+Underfull \hbox (badness 5592) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 de tec-no-log[]a en la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 to-ma de de-ci-sio-nes
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 y es-tra-te-gias de sus
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 134--134
+\OT1/ptm/m/n/12 los em-pren-de-do-res y
+ []
+
+
+Overfull \hbox (24.76773pt too wide) in alignment at lines 38--137
+ [] [] [] [] [] [] 
  []
 
 [190
 
 
-] [191]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+] [191] [192]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []\OT1/ptm/m/n/12 Recolecci[]on y pre-
  []
 
 
-Overfull \hbox (36.04941pt too wide) in alignment at lines 119--356
+Overfull \hbox (36.04941pt too wide) in alignment at lines 148--385
  [] [] [] [] 
  []
 
 
-Overfull \hbox (36.04941pt too wide) in alignment at lines 356--357
+Overfull \hbox (36.04941pt too wide) in alignment at lines 385--386
  [] [] [] [] 
  []
 
-[192
+[193
 
 
-] [193] [194] [195]
-Overfull \vbox (75.40018pt too high) detected at line 374
+] [194] [195] [196]
+Overfull \vbox (75.40018pt too high) detected at line 403
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 383
+Overfull \vbox (37.70009pt too high) detected at line 412
  []
 
 
-Overfull \vbox (56.55013pt too high) detected at line 383
+Overfull \vbox (56.55013pt too high) detected at line 412
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 389
+Overfull \vbox (18.85005pt too high) detected at line 418
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 389
+Overfull \vbox (37.70009pt too high) detected at line 418
  []
 
 
-Overfull \vbox (75.40016pt too high) detected at line 389
+Overfull \vbox (75.40016pt too high) detected at line 418
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 392--392
+Underfull \hbox (badness 1762) in paragraph at lines 421--421
 \OT1/ptm/m/n/12 cas pre-via-men-te con-si-de-ra-das en
  []
 
 
-Overfull \vbox (37.7001pt too high) detected at line 395
+Overfull \vbox (37.7001pt too high) detected at line 424
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 395
+Overfull \vbox (75.40018pt too high) detected at line 424
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 395--395
+Underfull \hbox (badness 1721) in paragraph at lines 424--424
 []|\OT1/ptm/m/n/12 Analizar re-la-ci[]on en-tre exac-ti-tud
  []
 
 
-Overfull \vbox (113.10023pt too high) detected at line 404
+Overfull \vbox (113.10023pt too high) detected at line 433
  []
 
 
-Overfull \vbox (37.70009pt too high) detected at line 410
+Overfull \vbox (37.70009pt too high) detected at line 439
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 410
+Overfull \vbox (94.2502pt too high) detected at line 439
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 416
+Overfull \vbox (18.85007pt too high) detected at line 445
  []
 
 
-Overfull \vbox (56.55014pt too high) detected at line 416
+Overfull \vbox (56.55014pt too high) detected at line 445
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 425
+Overfull \vbox (18.85005pt too high) detected at line 454
  []
 
 
-Overfull \vbox (75.40016pt too high) detected at line 425
+Overfull \vbox (75.40016pt too high) detected at line 454
  []
 
 
-Overfull \hbox (9.45334pt too wide) in alignment at lines 365--427
+Overfull \hbox (9.45334pt too wide) in alignment at lines 394--456
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 431
+Overfull \vbox (18.85007pt too high) detected at line 460
  []
 
 
-Overfull \vbox (56.55014pt too high) detected at line 431
+Overfull \vbox (56.55014pt too high) detected at line 460
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 431--431
+Underfull \hbox (badness 1565) in paragraph at lines 460--460
 \OT1/ptm/m/n/12 bles de co-nec-ti-vi-dad y va-ria-bles
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 440
+Overfull \vbox (18.85007pt too high) detected at line 469
  []
 
 
-Overfull \vbox (94.25021pt too high) detected at line 440
+Overfull \vbox (94.25021pt too high) detected at line 469
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 449
+Overfull \vbox (18.85007pt too high) detected at line 478
  []
 
 
-Overfull \vbox (37.7001pt too high) detected at line 449
+Overfull \vbox (37.7001pt too high) detected at line 478
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 449--449
+Underfull \hbox (badness 3547) in paragraph at lines 478--478
 \OT1/ptm/m/n/12 de Apren-di-za-je Au-tom[]ati-co con
  []
 
 
-Overfull \vbox (56.55013pt too high) detected at line 458
+Overfull \vbox (56.55013pt too high) detected at line 487
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 458
+Overfull \vbox (94.2502pt too high) detected at line 487
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 464
+Overfull \vbox (18.85007pt too high) detected at line 493
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 464
+Overfull \vbox (75.40018pt too high) detected at line 493
  []
 
 
-Underfull \hbox (badness 1824) in paragraph at lines 464--464
+Underfull \hbox (badness 1824) in paragraph at lines 493--493
 []|\OT1/ptm/m/n/12 Identificar la dis-tri-bu-ci[]on de las
  []
 
 
-Overfull \vbox (18.85007pt too high) detected at line 473
+Overfull \vbox (18.85007pt too high) detected at line 502
  []
 
 
-Overfull \vbox (94.25021pt too high) detected at line 473
+Overfull \vbox (94.25021pt too high) detected at line 502
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 473--473
+Underfull \hbox (badness 1400) in paragraph at lines 502--502
 \OT1/ptm/m/n/12 di-fe-ren-tes mo-da-li-da-des y eva-luar
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 482
+Overfull \vbox (18.85005pt too high) detected at line 511
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 482
+Overfull \vbox (94.2502pt too high) detected at line 511
  []
 
 
-Overfull \hbox (9.45334pt too wide) in alignment at lines 427--487
+Overfull \hbox (9.45334pt too wide) in alignment at lines 456--516
  [] [] [] [] [] [] [] 
  []
 
-[196
+[197
 
 
-] [197]
-Overfull \vbox (113.10023pt too high) detected at line 488
+] [198]
+Overfull \vbox (113.10023pt too high) detected at line 517
  []
 
 
-Overfull \vbox (94.2502pt too high) detected at line 488
+Overfull \vbox (94.2502pt too high) detected at line 517
  []
 
 
-Overfull \vbox (75.40019pt too high) detected at line 494
+Overfull \vbox (75.40019pt too high) detected at line 523
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 494
+Overfull \vbox (75.40018pt too high) detected at line 523
  []
 
 
-Underfull \hbox (badness 7047) in paragraph at lines 494--494
+Underfull \hbox (badness 7047) in paragraph at lines 523--523
 []|\OT1/ptm/m/n/12 Identificar po-ten-cia-les pro-yec-tos
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 506
+Overfull \vbox (75.40018pt too high) detected at line 535
  []
 
 
-Overfull \vbox (75.40018pt too high) detected at line 506
+Overfull \vbox (75.40018pt too high) detected at line 535
  []
 
 
-Overfull \hbox (9.45334pt too wide) in alignment at lines 487--515
+Overfull \hbox (9.45334pt too wide) in alignment at lines 516--544
  [] [] [] [] [] [] [] 
  []
 
-[198] [199] [200] [201] [202]
-Underfull \hbox (badness 3354) in paragraph at lines 529--529
+[199] [200] [201] [202] [203]
+Underfull \hbox (badness 3354) in paragraph at lines 558--558
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 529--530
+Underfull \hbox (badness 4995) in paragraph at lines 558--559
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 531--540
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 560--569
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 540--550
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 569--579
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 550--560
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 579--589
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 560--571
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 589--600
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 571--580
-[]| []| 
- []
-
-[203
-
-
-]
-Underfull \hbox (badness 3354) in paragraph at lines 636--636
- []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 636--637
- []|\OT1/ptm/m/n/12 Valor| 
- []
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 638--647
-[]| []| 
- []
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 647--657
-[]| []| 
- []
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 657--667
-[]| []| 
- []
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 667--678
-[]| []| 
- []
-
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 678--687
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 600--609
 []| []| 
  []
 
 [204
 
+
 ]
-Underfull \hbox (badness 3354) in paragraph at lines 743--743
+Underfull \hbox (badness 3354) in paragraph at lines 665--665
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 743--744
+Underfull \hbox (badness 4995) in paragraph at lines 665--666
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 745--754
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 667--676
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 754--764
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 676--686
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 764--774
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 686--696
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 774--785
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 696--707
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 785--794
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 707--716
 []| []| 
  []
 
 [205
 
 ]
-Underfull \hbox (badness 4859) in paragraph at lines 844--844
+Underfull \hbox (badness 3354) in paragraph at lines 772--772
  []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 844--845
+Underfull \hbox (badness 4995) in paragraph at lines 772--773
  []|\OT1/ptm/m/n/12 Valor| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 846--855
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 774--783
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 855--865
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 783--793
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 865--875
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 793--803
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 875--886
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 803--814
 []| []| 
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 886--895
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 814--823
 []| []| 
- []
-
-
-Overfull \hbox (17.7399pt too wide) in alignment at lines 840--932
- [] [] 
  []
 
 [206
+
+]
+Underfull \hbox (badness 4859) in paragraph at lines 873--873
+ []|\OT1/ptm/m/n/12 Hiperpar[]ame-tro| 
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 873--874
+ []|\OT1/ptm/m/n/12 Valor| 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 875--884
+[]| []| 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 884--894
+[]| []| 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 894--904
+[]| []| 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 904--915
+[]| []| 
+ []
+
+
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 915--924
+[]| []| 
+ []
+
+
+Overfull \hbox (17.7399pt too wide) in alignment at lines 869--961
+ [] [] 
+ []
+
+[207
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
@@ -3607,9 +3725,9 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29969 strings out of 480763
- 549987 string characters out of 2904056
- 1402684 words of memory out of 3000000
+ 29970 strings out of 480763
+ 549995 string characters out of 2904056
+ 1402721 words of memory out of 3000000
  44576 multiletter control sequences out of 15000+200000
  593542 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3625,9 +3743,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (220 pages, 13763133 bytes).
+Output written on tesis.pdf (221 pages, 13765137 bytes).
 PDF statistics:
- 3196 PDF objects out of 3580 (max. 8388607)
- 672 named destinations out of 1000 (max. 500000)
+ 3201 PDF objects out of 3580 (max. 8388607)
+ 673 named destinations out of 1000 (max. 500000)
  1421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

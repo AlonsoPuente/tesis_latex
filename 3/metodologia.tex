@@ -19,44 +19,68 @@ En la Tabla \ref{3:table1} se presenta la operacionalización de variables para 
 
 %\begin{table}[h!]
 
-\begin{longtable}{M{5cm}M{4.5cm}M{5.5cm}}
+\begin{longtable}{M{3cm}M{4.2cm}M{3.6cm}M{4.8cm}}
 	\caption[Matriz de operacionalización de variables]{Matriz de operacionalización de variables.}
 	\label{3:table1}
 	\newcommand{\multirot}[1]{\multirow{2}{*}[-8ex]{\rotcell{\rlap{#1}}}}
 	\centering
 	\small
 	\tabularnewline \specialrule{.1em}{.05em}{.05em}
-	VARIABLE & INDICADOR & CÁLCULO/VALORES
+	VARIABLE & DIMENSIÓN & INDICADOR & CÁLCULO/VALORES
 	\\%%[5pt]
 	\specialrule{.1em}{.05em}{.05em}
-	\multirow{2}{5cm}[-2ex]{\centering Estado de financiamiento de un proyecto} & Proyecto exitoso & Monto meta $\leq$ monto contribuido                                                   \\%%[10pt]
-	\cline{2-3} & Proyecto fracasado & Monto meta $>$ monto contribuido \\%%[10pt]
-	\hline
-	\multirow{1}{5cm}[2ex]{\centering Aprendizaje Profundo Multimodal} & Modelo de Aprendizaje Profundo & \setlist{nolistsep}
+	\multirow{2}{3cm}[0ex]{\centering Estado de financiamiento} & \multirow{1}{4.2cm}[4ex]{
 	\begin{itemize}[label={--},noitemsep,leftmargin=*]
-		\item Perceptrón Multicapa
-		\item Red Neuronal Convolucional
-		\item LSTM Bidireccional
+		\item Logro de la meta.
+		\item Duración de campaña.
+	\end{itemize}
+	} & Proyecto exitoso & Meta $\leq$ Contribución                                                   \\%%[10pt]
+	\cline{3-3} &  & Proyecto fracasado & Meta $>$ Contribución \\%%[10pt]
+	\hline
+	\multirow{1}{3cm}[4ex]{\centering Aprendizaje Profundo Multimodal} & \multirow{1}{4.2cm}[10ex]{
+	\begin{itemize}[label={--},noitemsep,leftmargin=*]
+		\item Modalidad de campaña.
+		\item Aprendizaje Profundo.
+	\end{itemize}
+	} & Modelo de Aprendizaje Profundo & \setlist{nolistsep}
+	\begin{itemize}[label={--},noitemsep,leftmargin=*]
+		\item Perceptrón Multicapa.
+		\item Red Neuronal Convolucional.
+		\item LSTM Bidireccional.
 	\end{itemize} \\
 	\hline
-	\multirow{2}{5cm}[-6ex]{\centering Método de pre-procesamiento} & Normalización de variable cuantitativa & Variable cuantitativa escalada en rango [0; 1] \\
-	\cline{2-3}
-	 & Procesamiento de Lenguaje Natural &
+	\multirow{2}{3cm}[-6ex]{\centering Método de pre-procesamiento} & \multirow{1}{4.2cm}[4ex]{
+	\begin{itemize}[label={--},noitemsep,leftmargin=*]
+		\item Inputación de datos.
+		\item Transformación de datos.		
+		\item Limpieza de textos.
+		\item Vectorización de palabras.
+	\end{itemize}
+	} & Normalización de variable cuantitativa & Variable cuantitativa escalada en rango [0; 1] \\
+	\cline{3-3}
+	 &  & Procesamiento de Lenguaje Natural &
 	 \setlist{nolistsep}
 	 \begin{itemize}[label={--},noitemsep,leftmargin=*]
 	 	\item Diccionario de palabras.
 	 	\item Incrustaciones de palabras.
 	 \end{itemize} \\
 	\hline
-	\multirow{5}{5cm}{\centering Efectividad del modelo} & Exactitud & $\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}$ \\%%[10pt]
-	\cline{2-3} 
-	& Precisión & $\frac{V.P.}{V.P.+F.P.}$ \\%%[10pt]
-	\cline{2-3} 
-	& Área bajo la curva ROC & $P( score(x^{+}) > score(x^{-}) )$ \\%%[10pt]
-	\cline{2-3} 
-	& Sensibilidad & $\frac{V.P.}{V.P.+F.N.}$ \\%%[10pt]
-	\cline{2-3} 
-	& Puntaje F1 & $\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}$ \\%%[10pt]
+	\multirow{5}{3cm}{\centering Efectividad del modelo} & \multirow{1}{4.2cm}[3ex]{
+	\begin{itemize}[label={--},noitemsep,leftmargin=*]
+		\item Verdaderos Positivos.
+		\item Verdaderos Negativos.
+		\item Falsos Positivos.
+		\item Falsos Negativos.
+	\end{itemize}
+	} & Exactitud & $\frac{V.P.+V.N.}{V.P.+V.N.+F.P.+F.N.}$ \\%%[10pt]
+	\cline{3-3} 
+	&  & Precisión & $\frac{V.P.}{V.P.+F.P.}$ \\%%[10pt]
+	\cline{3-3} 
+	&  & A.U.C. & $P( score(x^{+}) > score(x^{-}) )$ \\%%[10pt]
+	\cline{3-3} 
+	&  & Sensibilidad & $\frac{V.P.}{V.P.+F.N.}$ \\%%[10pt]
+	\cline{3-3} 
+	&  & Puntaje F1 & $\frac{2*Precisi\acute{o}n*Sensibilidad}{Precisi\acute{o}n+Sensibilidad}$ \\%%[10pt]
 	\specialrule{.1em}{.05em}{.05em}
 \end{longtable}
 %\par	%%Salto de linea
