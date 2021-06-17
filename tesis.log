@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  17 JUN 2021 04:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2021.4.27)  17 JUN 2021 14:04
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -2156,37 +2156,11 @@ Package pdftex.def Info: 2/figures/kickstarter_project.jpg  used on input line
 
 Cap\'{\i }tulo III.
 
-Overfull \vbox (64.55011pt too high) detected at line 37
+Overfull \vbox (18.85005pt too high) detected at line 56
  []
 
 
-Overfull \vbox (37.70007pt too high) detected at line 40
- []
-
-
-Overfull \vbox (102.25018pt too high) detected at line 45
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 48--49
-[]\OT1/ptm/m/n/12 Red Neu-ro-nal Con-vo-lu-
- []
-
-
-Overfull \vbox (139.95026pt too high) detected at line 59
- []
-
-
-Underfull \hbox (badness 5954) in paragraph at lines 65--66
-[]\OT1/ptm/m/n/12 Incrustaciones de pa-la-
- []
-
-
-Overfull \vbox (102.25018pt too high) detected at line 75
- []
-
-
-Overfull \hbox (38.89487pt too wide) in alignment at lines 22--85
+Overfull \hbox (38.89487pt too wide) in alignment at lines 22--78
  [] [] [] [] 
  []
 
@@ -2197,10 +2171,10 @@ Overfull \hbox (38.89487pt too wide) in alignment at lines 22--85
 File: 3/figures/data_recolection_flux.png Graphic file (type png)
 <use 3/figures/data_recolection_flux.png>
 Package pdftex.def Info: 3/figures/data_recolection_flux.png  used on input lin
-e 106.
+e 99.
 (pdftex.def)             Requested size: 403.14146pt x 229.01613pt.
  [95 <./3/figures/data_recolection_flux.png>] [96] [97]
-Overfull \hbox (7.75407pt too wide) in paragraph at lines 271--272
+Overfull \hbox (7.75407pt too wide) in paragraph at lines 264--265
 []\OT1/ptm/m/n/12 La me-to-do-log[]a se-lec-cio-na-da con-tem-pla en-tre sus f
 a-ses la com-pren-si[]on del ne-go-cio adem[]as
  []
@@ -2209,52 +2183,52 @@ a-ses la com-pren-si[]on del ne-go-cio adem[]as
 <3/figures/metodologia.png, id=1829, 946.737pt x 459.6372pt>
 File: 3/figures/metodologia.png Graphic file (type png)
 <use 3/figures/metodologia.png>
-Package pdftex.def Info: 3/figures/metodologia.png  used on input line 282.
+Package pdftex.def Info: 3/figures/metodologia.png  used on input line 275.
 (pdftex.def)             Requested size: 452.96826pt x 219.91498pt.
  [99 <./3/figures/metodologia.png>]
 <3/figures/framework.png, id=1874, 921.6834pt x 518.4168pt>
 File: 3/figures/framework.png Graphic file (type png)
 <use 3/figures/framework.png>
-Package pdftex.def Info: 3/figures/framework.png  used on input line 304.
+Package pdftex.def Info: 3/figures/framework.png  used on input line 297.
 (pdftex.def)             Requested size: 407.66867pt x 229.30646pt.
  [100 <./3/figures/framework.png>]
-Overfull \hbox (9.82307pt too wide) in alignment at lines 318--359
+Overfull \hbox (9.82307pt too wide) in alignment at lines 311--352
  [] [] [] 
  []
 
 [101]
-Overfull \hbox (7.37642pt too wide) in paragraph at lines 382--383
+Overfull \hbox (7.37642pt too wide) in paragraph at lines 375--376
 []\OT1/ptm/b/n/12 Entregable\OT1/ptm/m/n/12 : Ma-te-rial acad[]emi-co y co-no-c
 i-mien-tos ob-te-ni-dos so-bre el am-bien-te del crowd-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 414--415
+Underfull \hbox (badness 2547) in paragraph at lines 407--408
 []|\OT1/ptm/m/n/12 Construcci[]on de ba-se de da-
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 414--415
+Underfull \hbox (badness 1107) in paragraph at lines 407--408
 \OT1/ptm/m/n/12 de la cam-pa[]na con ex-cep-ci[]on
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 417--418
+Underfull \hbox (badness 1715) in paragraph at lines 410--411
 []\OT1/ptm/m/n/12 Descargar con-jun-tos de da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []\OT1/ptm/m/n/12 Descomprimir ar-chi-vos en
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 419--420
+Underfull \hbox (badness 2213) in paragraph at lines 412--413
 []\OT1/ptm/m/n/12 Fusionar ar-chi-vos por mes,
  []
 
 
-Overfull \hbox (9.82304pt too wide) in alignment at lines 400--452
+Overfull \hbox (9.82304pt too wide) in alignment at lines 393--445
  [] [] [] 
  []
 
@@ -2263,13 +2237,13 @@ Overfull \hbox (9.82304pt too wide) in alignment at lines 400--452
 File: 3/figures/flujograma_metadata_t1_t2.png Graphic file (type png)
 <use 3/figures/flujograma_metadata_t1_t2.png>
 Package pdftex.def Info: 3/figures/flujograma_metadata_t1_t2.png  used on input
- line 471.
+ line 464.
 (pdftex.def)             Requested size: 362.37598pt x 139.65039pt.
 <3/figures/flujograma_metadata_t3.png, id=1903, 855.6768pt x 243.7908pt>
 File: 3/figures/flujograma_metadata_t3.png Graphic file (type png)
 <use 3/figures/flujograma_metadata_t3.png>
 Package pdftex.def Info: 3/figures/flujograma_metadata_t3.png  used on input li
-ne 482.
+ne 475.
 (pdftex.def)             Requested size: 452.96826pt x 129.05598pt.
  [104 <./3/figures/flujograma_metadata_t3.png> <./3/figures/flujograma_metadata
 _t1_t2.png>]
@@ -2279,7 +2253,7 @@ File: 3/figures/diagrama_flujo_scrapping_descripcion.png Graphic file (type png
 )
 <use 3/figures/diagrama_flujo_scrapping_descripcion.png>
 Package pdftex.def Info: 3/figures/diagrama_flujo_scrapping_descripcion.png  us
-ed on input line 497.
+ed on input line 490.
 (pdftex.def)             Requested size: 226.48413pt x 326.08293pt.
 <3/figures/diagrama_flujo_scrapping_comentarios.png, id=1917, 395.5578pt x 714.
 0276pt>
@@ -2287,34 +2261,34 @@ File: 3/figures/diagrama_flujo_scrapping_comentarios.png Graphic file (type png
 )
 <use 3/figures/diagrama_flujo_scrapping_comentarios.png>
 Package pdftex.def Info: 3/figures/diagrama_flujo_scrapping_comentarios.png  us
-ed on input line 512.
+ed on input line 505.
 (pdftex.def)             Requested size: 203.83434pt x 367.95168pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [105 <./3/figures/diagrama_flujo_scrapping_descripcion.png>]
-Underfull \hbox (badness 1087) in paragraph at lines 547--548
+Underfull \hbox (badness 1087) in paragraph at lines 540--541
 \OT1/ptm/m/n/12 ria-bles ac-tua-les y adi-cio-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 []\OT1/ptm/m/n/12 Evaluar com-por-ta-mien-to
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 551--552
+Underfull \hbox (badness 4378) in paragraph at lines 544--545
 \OT1/ptm/m/n/12 de va-ria-bles en con-jun-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 551--552
+Underfull \hbox (badness 6808) in paragraph at lines 544--545
 \OT1/ptm/m/n/12 to uti-li-zan-do ma-triz de
  []
 
 
-Overfull \hbox (9.82307pt too wide) in alignment at lines 533--577
+Overfull \hbox (9.82307pt too wide) in alignment at lines 526--570
  [] [] [] 
  []
 
@@ -2323,136 +2297,136 @@ Overfull \hbox (9.82307pt too wide) in alignment at lines 533--577
 File: 3/figures/description_data_clean.png Graphic file (type png)
 <use 3/figures/description_data_clean.png>
 Package pdftex.def Info: 3/figures/description_data_clean.png  used on input li
-ne 600.
+ne 593.
 (pdftex.def)             Requested size: 149.48035pt x 340.9169pt.
  [108 <./3/figures/description_data_clean.png>]
 <3/figures/description_text_to_sequence.png, id=1947, 225.4824pt x 646.5756pt>
 File: 3/figures/description_text_to_sequence.png Graphic file (type png)
 <use 3/figures/description_text_to_sequence.png>
 Package pdftex.def Info: 3/figures/description_text_to_sequence.png  used on in
-put line 614.
+put line 607.
 (pdftex.def)             Requested size: 147.2133pt x 422.15355pt.
 <3/figures/description_embedding_matrix.png, id=1948, 199.4652pt x 312.6882pt>
 File: 3/figures/description_embedding_matrix.png Graphic file (type png)
 <use 3/figures/description_embedding_matrix.png>
 Package pdftex.def Info: 3/figures/description_embedding_matrix.png  used on in
-put line 619.
+put line 612.
 (pdftex.def)             Requested size: 124.56696pt x 195.27695pt.
  [109 <./3/figures/description_text_to_sequence.png> <./3/figures/description_e
 mbedding_matrix.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 666--667
+Underfull \hbox (badness 1424) in paragraph at lines 659--660
 []|\OT1/ptm/m/n/12 Implementaci[]on de la Red
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+Underfull \hbox (badness 10000) in paragraph at lines 659--660
 \OT1/ptm/m/n/12 Neu-ro-nal Con-vo-lu-cio-nal
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 666--667
+Underfull \hbox (badness 3179) in paragraph at lines 659--660
 \OT1/ptm/m/n/12 (CNN) pa-ra la mo-da-li-dad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 684--685
+Underfull \hbox (badness 2205) in paragraph at lines 677--678
 []|\OT1/ptm/m/n/12 Implementaci[]on del mo-de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 []\OT1/ptm/m/n/12 Realizar bench-mar-king de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 \OT1/ptm/m/n/12 mo-da-li-da-des uti-li-za-das en
  []
 
 
-Overfull \hbox (9.82304pt too wide) in alignment at lines 643--692
+Overfull \hbox (9.82304pt too wide) in alignment at lines 636--685
  [] [] [] 
  []
 
 [110] [111] [112] [113] [114] [115]
-Underfull \hbox (badness 10000) in paragraph at lines 816--817
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 \OT1/ptm/m/n/12 del mo-de-lo Per-ceptr[]on
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 819--820
+Underfull \hbox (badness 5274) in paragraph at lines 812--813
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 828--829
+Underfull \hbox (badness 5274) in paragraph at lines 821--822
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 837--838
+Underfull \hbox (badness 5274) in paragraph at lines 830--831
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 847--848
+Underfull \hbox (badness 5274) in paragraph at lines 840--841
 []\OT1/ptm/m/n/12 Ejecutar ex-pe-ri-men-tos pa-ra
  []
 
 
-Overfull \hbox (9.82306pt too wide) in alignment at lines 802--852
+Overfull \hbox (9.82306pt too wide) in alignment at lines 795--845
  [] [] [] 
  []
 
 [116] [117] [118]
-Underfull \hbox (badness 4752) in paragraph at lines 910--911
+Underfull \hbox (badness 4752) in paragraph at lines 903--904
 []\OT1/ptm/m/n/12 Cargar com-ple-men-tos del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
 []|\OT1/ptm/m/n/12 Ejecutar pro-to-ti-po con
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
 \OT1/ptm/m/n/12 pro-yec-tos tec-nol[]ogi-cos
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 918--919
+Underfull \hbox (badness 1215) in paragraph at lines 911--912
 []\OT1/ptm/m/n/12 Ejecutar pro-to-ti-po con di-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 918--919
+Underfull \hbox (badness 4060) in paragraph at lines 911--912
 \OT1/ptm/m/n/12 rec-ci[]on web de pro-yec-to
  []
 
 
-Overfull \hbox (9.82306pt too wide) in alignment at lines 892--923
+Overfull \hbox (9.82306pt too wide) in alignment at lines 885--916
  [] [] [] 
  []
 
 <5/figures/demo_flux.png, id=2055, 932.7648pt x 496.7358pt>
 File: 5/figures/demo_flux.png Graphic file (type png)
 <use 5/figures/demo_flux.png>
-Package pdftex.def Info: 5/figures/demo_flux.png  used on input line 939.
+Package pdftex.def Info: 5/figures/demo_flux.png  used on input line 932.
 (pdftex.def)             Requested size: 430.31847pt x 229.16066pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2461,34 +2435,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <3/figures/auc_example.jpg, id=2091, 366.168pt x 257.2812pt>
 File: 3/figures/auc_example.jpg Graphic file (type jpg)
 <use 3/figures/auc_example.jpg>
-Package pdftex.def Info: 3/figures/auc_example.jpg  used on input line 1032.
+Package pdftex.def Info: 3/figures/auc_example.jpg  used on input line 1025.
 (pdftex.def)             Requested size: 249.13391pt x 175.05098pt.
  [122]
 <3/figures/auc_curves.jpg, id=2103, 885.3075pt x 353.32pt>
 File: 3/figures/auc_curves.jpg Graphic file (type jpg)
 <use 3/figures/auc_curves.jpg>
-Package pdftex.def Info: 3/figures/auc_curves.jpg  used on input line 1053.
+Package pdftex.def Info: 3/figures/auc_curves.jpg  used on input line 1046.
 (pdftex.def)             Requested size: 452.96826pt x 180.77846pt.
  [123 <./3/figures/auc_example.jpg>] [124 <./3/figures/auc_curves.jpg>] [125]
 <3/figures/cronograma.png, id=2180, 1283.39474pt x 501.072pt>
 File: 3/figures/cronograma.png Graphic file (type png)
 <use 3/figures/cronograma.png>
-Package pdftex.def Info: 3/figures/cronograma.png  used on input line 1119.
+Package pdftex.def Info: 3/figures/cronograma.png  used on input line 1112.
 (pdftex.def)             Requested size: 702.10217pt x 274.12247pt.
 
-Overfull \hbox (1.59494pt too wide) in paragraph at lines 1119--1121
+Overfull \hbox (1.59494pt too wide) in paragraph at lines 1112--1114
  [] 
  []
 
 [126
 
  <./3/figures/cronograma.png>]
-Overfull \hbox (16.10959pt too wide) in paragraph at lines 1135--1166
+Overfull \hbox (16.10959pt too wide) in paragraph at lines 1128--1159
  [][] 
  []
 
 
-Overfull \hbox (12.14511pt too wide) in paragraph at lines 1178--1202
+Overfull \hbox (12.14511pt too wide) in paragraph at lines 1171--1195
  [][] 
  []
 
@@ -3326,11 +3300,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--81
  []
 
 
-Overfull \vbox (18.85005pt too high) detected at line 83
+Overfull \vbox (37.70009pt too high) detected at line 83
  []
 
 
-Overfull \vbox (56.55011pt too high) detected at line 85
+Overfull \vbox (75.40015pt too high) detected at line 85
  []
 
 
@@ -3833,10 +3807,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29970 strings out of 480763
- 549995 string characters out of 2904056
+ 29972 strings out of 480763
+ 550022 string characters out of 2904056
  1402734 words of memory out of 3000000
- 44576 multiletter control sequences out of 15000+200000
+ 44578 multiletter control sequences out of 15000+200000
  593542 words of font info for 157 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,96p,2007b,2718s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3851,7 +3825,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on tesis.pdf (221 pages, 13764946 bytes).
+Output written on tesis.pdf (221 pages, 13764500 bytes).
 PDF statistics:
  3201 PDF objects out of 3580 (max. 8388607)
  673 named destinations out of 1000 (max. 500000)
